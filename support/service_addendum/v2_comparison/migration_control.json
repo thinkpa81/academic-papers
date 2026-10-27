@@ -1,0 +1,200 @@
+{
+  "case_id": "N09_display_migration",
+  "scope": "post-repair control; not holdout",
+  "expected": "permit",
+  "fixture": {
+    "fixture_status": "SYNTHETIC_RESEARCH_TEST_ONLY: numerical card template from actual stored outputs; metadata/review/state are invented test fixtures, not historical archives",
+    "card": {
+      "schema_version": "1.1.0",
+      "scope": "현재 개정자료에 근거한 회고적 고용변동 진단",
+      "evidence_id": "KR011:BTE:2025",
+      "example_selection_rule": "2025년 B–E 산업의 가용 사례를 지역코드 오름차순으로 정렬한 첫 사례; 평가오차 미사용",
+      "target_year": 2025,
+      "input_year": 2024,
+      "reference_period": "상반기(4월)",
+      "region_code": "KR011",
+      "region_name": "서울",
+      "industry_code": "BTE",
+      "industry_name": "광업·제조업·전기·수도(B–E)",
+      "employment_input_persons": 534000.0,
+      "default_estimate": {
+        "model": "global_past_mean",
+        "model_label": "전체 과거평균 기준모형",
+        "logpoints": 0.6705514379380221,
+        "raw_direction_for_statistical_audit": "증가",
+        "display_label": "전 관측 공통 과거평균",
+        "direction_label_displayed": false,
+        "display_reason": "모든 관측에 공통인 상수 예측으로 지역·산업별 증가 신호가 아님"
+      },
+      "learned_comparator": {
+        "model": "ridge_alpha1000",
+        "model_label": "릿지 회귀 비교모형",
+        "logpoints": -0.398406218401248,
+        "direction": "유지 범위"
+      },
+      "relative_deviation": {
+        "definition": "릿지 예측값 − 검증에서 선정한 기준모형 예측값",
+        "logpoints": -1.0689576563392702,
+        "class": "하회",
+        "tolerance_logpoints": 0.5
+      },
+      "prior_validation": {
+        "validation_cell_n": 0,
+        "validation_year_n": 3,
+        "validation_years": "",
+        "deviation_sign_matches": 0,
+        "deviation_sign_accuracy_pct": null,
+        "aggregate_baseline_mae": 2.0,
+        "aggregate_learned_mae": 1.5,
+        "aggregate_mae_difference": -0.5,
+        "cell_baseline_mae": null,
+        "cell_learned_mae": null,
+        "cell_mae_difference": null,
+        "validation_composition_rule": "2025 가용지역과 동일한 지역구성의 연도만 집계"
+      },
+      "linear_explanation": {
+        "reference": "학습·검증자료로 적합한 설계행렬의 표준화 숫자변수와 원핫 지시변수; 인과효과가 아님",
+        "intercept_logpoints": 0.6662437588171344,
+        "contributions": [
+          {
+            "feature": "log_employment",
+            "label": "기준고용 로그값",
+            "input_value": 13.188151117942333,
+            "contribution_logpoints": -0.329902754694259
+          },
+          {
+            "feature": "industry_share_pct",
+            "label": "시도 내 산업고용 비중",
+            "input_value": 10.16736162677786,
+            "contribution_logpoints": 0.0002728913562522409
+          },
+          {
+            "feature": "own_growth",
+            "label": "직전 동일 상반기 고용변동",
+            "input_value": 11.09943333760822,
+            "contribution_logpoints": -0.8144952435623789
+          },
+          {
+            "feature": "own_growth_lag1",
+            "label": "1기 전 고용변동",
+            "input_value": -1.227009259181436,
+            "contribution_logpoints": 0.03590140941505424
+          },
+          {
+            "feature": "peer_industry_growth",
+            "label": "타지역 동일 산업 고용변동",
+            "input_value": 1.5533447263681694,
+            "contribution_logpoints": -0.06309608388226615
+          },
+          {
+            "feature": "region_total_growth",
+            "label": "지역 전체 고용변동",
+            "input_value": 2.01751191222344,
+            "contribution_logpoints": 0.17813036527332884
+          },
+          {
+            "feature": "region_code",
+            "label": "지역 지시변수",
+            "input_value": "KR011",
+            "contribution_logpoints": 0.04751613779749956
+          },
+          {
+            "feature": "industry_code",
+            "label": "산업 지시변수",
+            "input_value": "BTE",
+            "contribution_logpoints": -0.11897669892161314
+          }
+        ],
+        "reconstructed_logpoints": -0.398406218401248,
+        "reconstruction_residual": 0.0,
+        "rounding_note": "각 항과 합계는 각각 소수 둘째 자리까지 반올림하여 표시하므로 표시된 항의 합계와 예측값 사이에 반올림 차이가 생길 수 있음"
+      },
+      "data_timing": {
+        "input_source_vintage": "2024-10-08",
+        "historical_vintage_verified": true,
+        "operational_prediction_permitted": false,
+        "classification_transition": {
+          "input_basis": "KSIC11_backcast",
+          "target_basis": "KSIC11_new_classification_published",
+          "classification_code_unchanged": true,
+          "status": "verification_required",
+          "warning": "소급보정값에서 신분류 적용 공표값으로 전환(동일 KSIC11). 연계 방법과 비교가능성 확인 필요; 통계적 단절 또는 원자료 오류로 확정하지 않음",
+          "role": "자료 작성방식 점검; 예측방향의 판정조건이 아님"
+        }
+      },
+      "warnings": [
+        "동일 지역·산업의 2020–2022년 검증자료가 없거나 적음; 검증 사례 수를 함께 확인할 것",
+        "조합별 검증연도는 0–3개로 칸별 방향일치율을 표시하지 않음; 통합 비율은 기술통계로만 제시",
+        "B–E는 제조업 단독 분류가 아니며 산업별 세부 훈련수요를 직접 측정하지 않음",
+        "현재 개정자료 기반 평가이므로 2025년 당시 정보집합으로 해석하지 않음"
+      ],
+      "source_manifest": {
+        "analysis_harmonized/results/main/test_predictions.csv": "d2ddde5015a9323e850d1a3bd768f086ba01da354d6fab3746b26987d0cedd59",
+        "analysis_harmonized/results/main/validation_predictions.csv": "41a83109f52650a4c7694b18f6ffd3a6c3bb01c9222ef7f1239a12c733dc6b33",
+        "analysis_harmonized/results/main/selection_before_test.json": "3864874ba06f21578786bf1a7a2962806774830ae111cc1a9bafb87d594348a7",
+        "analysis_harmonized/results/main/model_ridge_alpha1000.joblib": "61d67a3cd5ff4dd5e7d027abed711f633621c49fde296a055b2f3012e46131b6"
+      },
+      "automatic_policy_action_allowed": false,
+      "human_evaluation_conducted": false,
+      "validation_display": {
+        "validation_year_n": 3,
+        "direction_percentage_displayed": false,
+        "suppression_reason": "조합별 검증연도가 0–3개이므로 칸별 방향일치율 표시를 생략; 원시 비율은 재현용 JSON·CSV에 보존",
+        "mae_difference": -0.5
+      },
+      "decision_basis_sha256": "003fd9a9ed8cc27de49148923a00afcd7de36202a8d8f2d1df50c5b818742c5f",
+      "historical_outcome_audit": {
+        "observed_logpoints": -31.70735977984932,
+        "observed_employment_persons": 388900.0,
+        "observed_simple_change_pct": -27.172284644194754,
+        "large_change_audit": {
+          "threshold_absolute_simple_change_pct": 20.0,
+          "flagged": true,
+          "status": "verification_required",
+          "warning": "사후 관측값의 절대 증가율이 20% 이상으로 원표 구성항목과 연계 방법 확인 필요",
+          "interpretation": "20%는 투고 전 검토에서 정한 사후 자료점검 시연조건이며 원자료 오류나 실제 변동 부재를 뜻하지 않음"
+        },
+        "role": "사후 자료점검 전용. 사례선정·예측값·편차·사전 검증·의사결정 근거해시에 사용하지 않음"
+      }
+    },
+    "request": {
+      "role": "operational_prediction",
+      "intended_decision_date": "2024-12-31",
+      "target_refperiod": "2025-04",
+      "fixture_status": "SYNTHETIC_TEST_ONLY",
+      "sources": [
+        {
+          "source_id": "SYNTHETIC_PRIMARY",
+          "source_refperiod": "2024-04",
+          "previous_refperiod": "2023-04",
+          "release_date": "2024-10-08",
+          "vintage_date": "2024-10-08",
+          "classification": "KSIC11",
+          "boundary_status": "stable_verified",
+          "observation_interval_months": 12,
+          "vintage_availability_status": "archived_vintage_verified",
+          "vintage_evidence_ref": "SYNTHETIC_ONLY",
+          "release_evidence_ref": "SYNTHETIC_ONLY"
+        }
+      ]
+    },
+    "review": {
+      "status": "synthetic_review_complete",
+      "reviewer_role": "synthetic_research_reviewer",
+      "reference_materials": [
+        "SYNTHETIC_REFERENCE"
+      ],
+      "reason_for_review": "synthetic consistency test",
+      "warnings_acknowledged": true,
+      "evidence_sha256": "003fd9a9ed8cc27de49148923a00afcd7de36202a8d8f2d1df50c5b818742c5f"
+    },
+    "receipt": {
+      "card_sha256": "003fd9a9ed8cc27de49148923a00afcd7de36202a8d8f2d1df50c5b818742c5f",
+      "request_sha256": "c64e2231200e8e5fe430e4e7cd2cc7bb835fea5458e1619f38cf17275a93a1a1"
+    },
+    "current_state": {
+      "card_sha256": "003fd9a9ed8cc27de49148923a00afcd7de36202a8d8f2d1df50c5b818742c5f",
+      "request_sha256": "c64e2231200e8e5fe430e4e7cd2cc7bb835fea5458e1619f38cf17275a93a1a1"
+    }
+  }
+}

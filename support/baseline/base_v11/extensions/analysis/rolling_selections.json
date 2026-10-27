@@ -1,0 +1,1865 @@
+[
+  {
+    "selection_frozen_utc": "2026-09-23T10:00:50.635098+00:00",
+    "label": "rolling/2015",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 480,
+      "validation": 160,
+      "test": 160
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013
+      ],
+      "validation": [
+        2014
+      ],
+      "test": [
+        2015
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.939785334784922,
+        "RMSE": 13.285828720823314,
+        "R2": -0.002158095207125621,
+        "direction_accuracy": 0.53125,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.481148070741539
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.056765782876411,
+        "RMSE": 13.364058022578382,
+        "R2": -0.013994607733078368,
+        "direction_accuracy": 0.53125,
+        "mean_prediction": 2.186536784880466,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.30721214784614
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.062173484425596,
+        "RMSE": 13.368341261095983,
+        "R2": -0.014644691226770368,
+        "direction_accuracy": 0.53125,
+        "mean_prediction": 2.2225881285416875,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.307077790103678
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.131641986588269,
+        "RMSE": 13.15573102733716,
+        "R2": 0.017372505776933056,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 2.1865367848804658,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.2,
+        "origin_employment_weighted_MAE": 5.3592809809141
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 12.756788933786291,
+        "RMSE": 19.029935450965393,
+        "R2": -1.0560495214951007,
+        "direction_accuracy": 0.4875,
+        "mean_prediction": 1.5122180415850999,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.36875,
+        "origin_employment_weighted_MAE": 6.323341602225485
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 8.939785334784922,
+        "RMSE": 13.285828720823314,
+        "R2": -0.002158095207125621,
+        "direction_accuracy": 0.53125,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.481148070741539
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.126796444033252,
+        "RMSE": 13.669564500635474,
+        "R2": -0.0608849723010898,
+        "direction_accuracy": 0.50625,
+        "mean_prediction": 1.6918259486844627,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 5.312996019943903
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 316.2277660168379
+        },
+        "n": 160,
+        "MAE": 9.035896460074124,
+        "RMSE": 13.237369078144473,
+        "R2": 0.00513925236240953,
+        "direction_accuracy": 0.54375,
+        "mean_prediction": 2.6705242838130183,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.075,
+        "origin_employment_weighted_MAE": 5.368326755884035
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.100077872295639,
+        "RMSE": 13.796117007411114,
+        "R2": -0.08061919715294019,
+        "direction_accuracy": 0.56875,
+        "mean_prediction": 2.440813996072169,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.3125,
+        "origin_employment_weighted_MAE": 5.525408081788383
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.283824752511501,
+        "RMSE": 13.914059238240228,
+        "R2": -0.09917447946941027,
+        "direction_accuracy": 0.5375,
+        "mean_prediction": 2.3730627439431387,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.29375,
+        "origin_employment_weighted_MAE": 5.701320324540082
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 4,
+          "min_samples_leaf": 10
+        },
+        "n": 160,
+        "MAE": 8.654358245110867,
+        "RMSE": 13.140714506896998,
+        "R2": 0.019614452568823215,
+        "direction_accuracy": 0.5875,
+        "mean_prediction": 2.6361970725835397,
+        "mean_actual": 0.6165322940118834,
+        "predicted_decline_share": 0.13125,
+        "origin_employment_weighted_MAE": 5.25393667215124
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "zero",
+      "validation_best_learned": "random_forest",
+      "validation_best_all": "random_forest"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:00:53.916530+00:00",
+    "label": "rolling/2016",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 640,
+      "validation": 160,
+      "test": 160
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "validation": [
+        2015
+      ],
+      "test": [
+        2016
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.221012363189072,
+        "RMSE": 13.384742632906766,
+        "R2": -0.07637703970816978,
+        "direction_accuracy": 0.63125,
+        "mean_prediction": 0.0,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.0944021436943725
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.938799380222411,
+        "RMSE": 13.02217191731222,
+        "R2": -0.018852287124193623,
+        "direction_accuracy": 0.63125,
+        "mean_prediction": 1.7940356621633202,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.79752754157878
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.948493866013388,
+        "RMSE": 13.03571289229009,
+        "R2": -0.02097227545818714,
+        "direction_accuracy": 0.63125,
+        "mean_prediction": 1.697090804253563,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.806150117292414
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.677838622770347,
+        "RMSE": 12.887049484024205,
+        "R2": 0.002181922376996659,
+        "direction_accuracy": 0.66875,
+        "mean_prediction": 1.7940356621633207,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 4.870389887206975
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 13.713625737840374,
+        "RMSE": 19.816967076179385,
+        "R2": -1.3594933152651079,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 0.6165322940118834,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.46875,
+        "origin_employment_weighted_MAE": 7.51097902179907
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 9.221012363189072,
+        "RMSE": 13.384742632906766,
+        "R2": -0.07637703970816978,
+        "direction_accuracy": 0.63125,
+        "mean_prediction": 0.0,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.0944021436943725
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.854281429654256,
+        "RMSE": 13.05023575447349,
+        "R2": -0.023248437762330765,
+        "direction_accuracy": 0.68125,
+        "mean_prediction": 0.43230375938785165,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.3,
+        "origin_employment_weighted_MAE": 4.862357100369266
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 100.0
+        },
+        "n": 160,
+        "MAE": 8.585854988881172,
+        "RMSE": 12.561143175088171,
+        "R2": 0.052012289548947876,
+        "direction_accuracy": 0.65625,
+        "mean_prediction": 2.0630557710614714,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.1625,
+        "origin_employment_weighted_MAE": 4.490195920814506
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.013427653667,
+        "RMSE": 12.43716965757649,
+        "R2": 0.07063247481652002,
+        "direction_accuracy": 0.60625,
+        "mean_prediction": 1.2602075170711153,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.3875,
+        "origin_employment_weighted_MAE": 5.035987967379154
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.948294880720875,
+        "RMSE": 12.27859968950582,
+        "R2": 0.09417968432781809,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 1.2707433050684742,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.4125,
+        "origin_employment_weighted_MAE": 5.029149239883534
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 8,
+          "min_samples_leaf": 25
+        },
+        "n": 160,
+        "MAE": 8.535018707830222,
+        "RMSE": 12.374369945409649,
+        "R2": 0.07999419686530096,
+        "direction_accuracy": 0.6625,
+        "mean_prediction": 2.441316381438294,
+        "mean_actual": 3.565407904657943,
+        "predicted_decline_share": 0.18125,
+        "origin_employment_weighted_MAE": 4.957748929840151
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "industry_mean",
+      "validation_best_learned": "random_forest",
+      "validation_best_all": "random_forest"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:00:57.648648+00:00",
+    "label": "rolling/2017",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 800,
+      "validation": 160,
+      "test": 160
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "validation": [
+        2016
+      ],
+      "test": [
+        2017
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.074398144952605,
+        "RMSE": 18.146874887457283,
+        "R2": -0.003314637966200351,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 0.0,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.242726499467433
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.035026796944816,
+        "RMSE": 18.150557954772225,
+        "R2": -0.0037219422945626857,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 2.1483101106622446,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.443567687948632
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.019284550455529,
+        "RMSE": 18.13543949326627,
+        "R2": -0.0020505433537849616,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 1.8634259292544004,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.396185664517819
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.138362199010142,
+        "RMSE": 17.961502402234487,
+        "R2": 0.017078624207435333,
+        "direction_accuracy": 0.59375,
+        "mean_prediction": 2.148310110662245,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 5.417842089689292
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 14.24811273028877,
+        "RMSE": 23.87369294856864,
+        "R2": -0.7364915176085827,
+        "direction_accuracy": 0.4625,
+        "mean_prediction": 3.565407904657943,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.36875,
+        "origin_employment_weighted_MAE": 7.664796602561663
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 9.074398144952605,
+        "RMSE": 18.146874887457283,
+        "R2": -0.003314637966200351,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 0.0,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.242726499467433
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.648170065122859,
+        "RMSE": 18.346245052951062,
+        "R2": -0.025481520623522158,
+        "direction_accuracy": 0.50625,
+        "mean_prediction": 1.4780820495334386,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.5,
+        "origin_employment_weighted_MAE": 5.863751669524209
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 100.0
+        },
+        "n": 160,
+        "MAE": 8.424479861784842,
+        "RMSE": 17.706230474468498,
+        "R2": 0.04481897968341575,
+        "direction_accuracy": 0.6125,
+        "mean_prediction": 2.263574320259315,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.16875,
+        "origin_employment_weighted_MAE": 4.983764653970428
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.55221045062017,
+        "RMSE": 17.683335926973722,
+        "R2": 0.04728752306771544,
+        "direction_accuracy": 0.65625,
+        "mean_prediction": 0.9683754860571459,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.3125,
+        "origin_employment_weighted_MAE": 5.002514877924539
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.432423265387873,
+        "RMSE": 17.52172192815414,
+        "R2": 0.0646222696459896,
+        "direction_accuracy": 0.65,
+        "mean_prediction": 0.08297211197706562,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.45625,
+        "origin_employment_weighted_MAE": 4.946703742475107
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 4,
+          "min_samples_leaf": 10
+        },
+        "n": 160,
+        "MAE": 8.590810793577653,
+        "RMSE": 17.43335693944979,
+        "R2": 0.07403301389676686,
+        "direction_accuracy": 0.65625,
+        "mean_prediction": 1.554758437288153,
+        "mean_actual": 1.043040858210789,
+        "predicted_decline_share": 0.1875,
+        "origin_employment_weighted_MAE": 5.33822702255857
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "median",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "ridge"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:03.412279+00:00",
+    "label": "rolling/2018",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 960,
+      "validation": 160,
+      "test": 160
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "validation": [
+        2017
+      ],
+      "test": [
+        2018
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.606496610959388,
+        "RMSE": 12.770359541201476,
+        "R2": -9.674384200297759e-05,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.295652301486452
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.437587681548518,
+        "RMSE": 12.901409990015013,
+        "R2": -0.02072820951810095,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 1.9640985685870025,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.148116420610904
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.435761806424924,
+        "RMSE": 12.881672492125022,
+        "R2": -0.017607432792477118,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 1.8200565811345553,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.140039742929122
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.648345287535587,
+        "RMSE": 13.197476026004946,
+        "R2": -0.06811380290977898,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 1.9640985685870027,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 5.488305986119783
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 14.99937549632532,
+        "RMSE": 22.637878047038175,
+        "R2": -2.142730901482856,
+        "direction_accuracy": 0.38125,
+        "mean_prediction": 1.043040858210789,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.41875,
+        "origin_employment_weighted_MAE": 8.617341876377271
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 9.606496610959388,
+        "RMSE": 12.770359541201476,
+        "R2": -9.674384200297759e-05,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.295652301486452
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.601744798248259,
+        "RMSE": 13.154869733994488,
+        "R2": -0.06122840911978655,
+        "direction_accuracy": 0.575,
+        "mean_prediction": 1.4504626157913563,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.3,
+        "origin_employment_weighted_MAE": 5.544742612346357
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 1000.0
+        },
+        "n": 160,
+        "MAE": 9.352073056658554,
+        "RMSE": 13.094257935149106,
+        "R2": -0.05147159991774508,
+        "direction_accuracy": 0.58125,
+        "mean_prediction": 2.0085148290345467,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.05625,
+        "origin_employment_weighted_MAE": 5.025214471492137
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.740744982536546,
+        "RMSE": 14.274639960933415,
+        "R2": -0.24958582539195984,
+        "direction_accuracy": 0.61875,
+        "mean_prediction": 1.0359935955437867,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.34375,
+        "origin_employment_weighted_MAE": 5.135362825758954
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.919141222561958,
+        "RMSE": 14.389196382603407,
+        "R2": -0.2697225819067146,
+        "direction_accuracy": 0.6125,
+        "mean_prediction": 0.47476659005163613,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.4375,
+        "origin_employment_weighted_MAE": 5.271667848805114
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 8,
+          "min_samples_leaf": 25
+        },
+        "n": 160,
+        "MAE": 9.615634950503907,
+        "RMSE": 13.141503295074441,
+        "R2": -0.05907291256103142,
+        "direction_accuracy": 0.6,
+        "mean_prediction": 1.8467948428319114,
+        "mean_actual": 0.12560119846145307,
+        "predicted_decline_share": 0.2,
+        "origin_employment_weighted_MAE": 5.4361960905276625
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "median",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "ridge"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:10.040266+00:00",
+    "label": "rolling/2019",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 1120,
+      "validation": 160,
+      "test": 160
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "validation": [
+        2018
+      ],
+      "test": [
+        2019
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.701727472766033,
+        "RMSE": 13.581264217648627,
+        "R2": -5.37381357659239e-05,
+        "direction_accuracy": 0.48125,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.997913416334669
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.889531406153518,
+        "RMSE": 13.675046924173229,
+        "R2": -0.013912766425864032,
+        "direction_accuracy": 0.48125,
+        "mean_prediction": 1.7014560871404956,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.546400679499255
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.912078379191588,
+        "RMSE": 13.689654016118505,
+        "R2": -0.016079958532031924,
+        "direction_accuracy": 0.48125,
+        "mean_prediction": 1.8217066100102088,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.597242897654573
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.088717111425883,
+        "RMSE": 13.984269994661632,
+        "R2": -0.06028481473780367,
+        "direction_accuracy": 0.49375,
+        "mean_prediction": 1.7014560871404953,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 5.986808972979514
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 14.573665591127147,
+        "RMSE": 20.27272958666172,
+        "R2": -1.2282678583943278,
+        "direction_accuracy": 0.41875,
+        "mean_prediction": 0.12560119846145307,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.4375,
+        "origin_employment_weighted_MAE": 7.755334108093915
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 8.701727472766033,
+        "RMSE": 13.581264217648627,
+        "R2": -5.37381357659239e-05,
+        "direction_accuracy": 0.48125,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.997913416334669
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.369036436896803,
+        "RMSE": 14.061242495121707,
+        "R2": -0.07198901964184046,
+        "direction_accuracy": 0.45625,
+        "mean_prediction": -0.22910515786898591,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.5,
+        "origin_employment_weighted_MAE": 5.458386209133391
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 316.2277660168379
+        },
+        "n": 160,
+        "MAE": 8.668002618377397,
+        "RMSE": 13.29165056153354,
+        "R2": 0.04214279317556424,
+        "direction_accuracy": 0.525,
+        "mean_prediction": 1.4474535791416725,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.26875,
+        "origin_employment_weighted_MAE": 5.0716396827746
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.875880569551969,
+        "RMSE": 12.815193772398667,
+        "R2": 0.10958330230326041,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 1.344549053299111,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.38125,
+        "origin_employment_weighted_MAE": 5.419042515867472
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.817112661392187,
+        "RMSE": 12.950453722254926,
+        "R2": 0.09068802700482193,
+        "direction_accuracy": 0.5625,
+        "mean_prediction": 1.0360746092839108,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.40625,
+        "origin_employment_weighted_MAE": 5.342293385322396
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 8,
+          "min_samples_leaf": 25
+        },
+        "n": 160,
+        "MAE": 9.07814740039704,
+        "RMSE": 13.819553961425346,
+        "R2": -0.035454435888803815,
+        "direction_accuracy": 0.5375,
+        "mean_prediction": 1.5424752505928274,
+        "mean_actual": 0.09955654755689443,
+        "predicted_decline_share": 0.25625,
+        "origin_employment_weighted_MAE": 5.722892457516333
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "zero",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "ridge"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:16.910586+00:00",
+    "label": "rolling/2020",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 1280,
+      "validation": 160,
+      "test": 170
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "validation": [
+        2019
+      ],
+      "test": [
+        2020
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 7.278096886270643,
+        "RMSE": 12.229396818210843,
+        "R2": -0.014455456983593518,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 0.0,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.372502304431337
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 7.568843106214183,
+        "RMSE": 12.497794762643787,
+        "R2": -0.05947249199712168,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 1.5012186446925448,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.631198402763387
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 7.588825805482818,
+        "RMSE": 12.514444514656297,
+        "R2": -0.06229726303850325,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 1.5707236856269284,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.64824436490231
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 7.805458081288521,
+        "RMSE": 12.45220232552576,
+        "R2": -0.051756598660656516,
+        "direction_accuracy": 0.5,
+        "mean_prediction": 1.501218644692545,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 4.8069386498918485
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 11.271917530107626,
+        "RMSE": 15.219852027817428,
+        "R2": -0.5712444929277847,
+        "direction_accuracy": 0.56875,
+        "mean_prediction": 0.09955654755689443,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.51875,
+        "origin_employment_weighted_MAE": 7.382445372826116
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 160,
+        "MAE": 7.278096886270643,
+        "RMSE": 12.229396818210843,
+        "R2": -0.014455456983593518,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 0.0,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.372502304431337
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 160,
+        "MAE": 9.48016086242632,
+        "RMSE": 14.109104407595698,
+        "R2": -0.3502736816235068,
+        "direction_accuracy": 0.3875,
+        "mean_prediction": 1.694282572658345,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.4,
+        "origin_employment_weighted_MAE": 5.818705192270393
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 10000.0
+        },
+        "n": 160,
+        "MAE": 7.567042185280388,
+        "RMSE": 12.575611349865897,
+        "R2": -0.07270701897153731,
+        "direction_accuracy": 0.475,
+        "mean_prediction": 1.4878825643338467,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.556398922132544
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.370472891078615,
+        "RMSE": 14.251267771893405,
+        "R2": -0.3776214899076946,
+        "direction_accuracy": 0.5375,
+        "mean_prediction": 1.235819412675339,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.4,
+        "origin_employment_weighted_MAE": 4.2712263999767455
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 160,
+        "MAE": 8.491288652005252,
+        "RMSE": 14.432374293286546,
+        "R2": -0.4128578704574293,
+        "direction_accuracy": 0.51875,
+        "mean_prediction": 1.1073863927828538,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.44375,
+        "origin_employment_weighted_MAE": 4.288356365298856
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 4,
+          "min_samples_leaf": 10
+        },
+        "n": 160,
+        "MAE": 7.914827004382414,
+        "RMSE": 12.877277144272979,
+        "R2": -0.12478882694564852,
+        "direction_accuracy": 0.51875,
+        "mean_prediction": 1.8421154418709336,
+        "mean_actual": -1.4598373089171652,
+        "predicted_decline_share": 0.13125,
+        "origin_employment_weighted_MAE": 4.607243701574301
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "zero",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "zero"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:23.991092+00:00",
+    "label": "rolling/2021",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 1440,
+      "validation": 170,
+      "test": 170
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "validation": [
+        2020
+      ],
+      "test": [
+        2021
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.081770220702296,
+        "RMSE": 16.17833162612163,
+        "R2": -0.0012178750723024212,
+        "direction_accuracy": 0.5117647058823529,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 6.741585736483967
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.141663878139228,
+        "RMSE": 16.179915227638062,
+        "R2": -0.0014138912970884654,
+        "direction_accuracy": 0.5117647058823529,
+        "mean_prediction": 1.1722124276247996,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 6.79852817414242
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.138531388348895,
+        "RMSE": 16.17830853259179,
+        "R2": -0.0012150167258537792,
+        "direction_accuracy": 0.5117647058823529,
+        "mean_prediction": 1.1278354889283968,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 6.795813925049772
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.588619396646523,
+        "RMSE": 17.020312157413084,
+        "R2": -0.10814392413957585,
+        "direction_accuracy": 0.4176470588235294,
+        "mean_prediction": 1.1722124276247998,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.2,
+        "origin_employment_weighted_MAE": 6.6849921934309915
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 14.304134484297414,
+        "RMSE": 23.479440266012073,
+        "R2": -1.1088058933339426,
+        "direction_accuracy": 0.45294117647058824,
+        "mean_prediction": -0.9703497923247403,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.5058823529411764,
+        "origin_employment_weighted_MAE": 8.726982763699967
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 170,
+        "MAE": 10.081770220702296,
+        "RMSE": 16.17833162612163,
+        "R2": -0.0012178750723024212,
+        "direction_accuracy": 0.5117647058823529,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 6.741585736483967
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 11.655664993524237,
+        "RMSE": 17.723244799382332,
+        "R2": -0.20156591481486297,
+        "direction_accuracy": 0.4470588235294118,
+        "mean_prediction": -0.5779708295474238,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.5,
+        "origin_employment_weighted_MAE": 7.388141470804356
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 1000.0
+        },
+        "n": 170,
+        "MAE": 10.032604448918649,
+        "RMSE": 15.905972221125069,
+        "R2": 0.03220902669552628,
+        "direction_accuracy": 0.5176470588235295,
+        "mean_prediction": 0.9153038153501464,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.14705882352941177,
+        "origin_employment_weighted_MAE": 6.660396323866387
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.168352492708834,
+        "RMSE": 16.02450277898205,
+        "R2": 0.017731417962474127,
+        "direction_accuracy": 0.5235294117647059,
+        "mean_prediction": 0.4017821992923252,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.4588235294117647,
+        "origin_employment_weighted_MAE": 6.3635020089765595
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 10.141299598034925,
+        "RMSE": 15.929016625330341,
+        "R2": 0.02940274467314241,
+        "direction_accuracy": 0.5470588235294118,
+        "mean_prediction": 0.3269195815920805,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.4588235294117647,
+        "origin_employment_weighted_MAE": 6.383054338865887
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 8,
+          "min_samples_leaf": 10
+        },
+        "n": 170,
+        "MAE": 10.070245670070479,
+        "RMSE": 15.936930035977978,
+        "R2": 0.028438134904696266,
+        "direction_accuracy": 0.5294117647058824,
+        "mean_prediction": 1.3389640080320095,
+        "mean_actual": 0.5642490113211528,
+        "predicted_decline_share": 0.21764705882352942,
+        "origin_employment_weighted_MAE": 6.769954931310006
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "zero",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "ridge"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:30.757650+00:00",
+    "label": "rolling/2022",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 1610,
+      "validation": 170,
+      "test": 170
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "validation": [
+        2021
+      ],
+      "test": [
+        2022
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.839521365429215,
+        "RMSE": 16.47037702038543,
+        "R2": -0.0015090814988809598,
+        "direction_accuracy": 0.6294117647058823,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.3906493475746915
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.688637676493885,
+        "RMSE": 16.464635445193593,
+        "R2": -0.0008109508583338254,
+        "direction_accuracy": 0.6294117647058823,
+        "mean_prediction": 1.1080175327355948,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.086679376436027
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.689392890693167,
+        "RMSE": 16.46369125876154,
+        "R2": -0.0006961684777304633,
+        "direction_accuracy": 0.6294117647058823,
+        "mean_prediction": 1.0735842781007139,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.08965772156697
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.640833677245569,
+        "RMSE": 16.15901651110691,
+        "R2": 0.03599861051473141,
+        "direction_accuracy": 0.6235294117647059,
+        "mean_prediction": 1.1080175327355948,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 4.997320996624818
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 14.41469918150812,
+        "RMSE": 23.21390363597046,
+        "R2": -0.989501015042153,
+        "direction_accuracy": 0.4588235294117647,
+        "mean_prediction": 0.5642490113211528,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.48823529411764705,
+        "origin_employment_weighted_MAE": 7.917125525288623
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 170,
+        "MAE": 9.839521365429215,
+        "RMSE": 16.47037702038543,
+        "R2": -0.0015090814988809598,
+        "direction_accuracy": 0.6294117647058823,
+        "mean_prediction": 0.0,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 5.3906493475746915
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 11.400381389721138,
+        "RMSE": 18.820400049512045,
+        "R2": -0.30769213500174764,
+        "direction_accuracy": 0.5,
+        "mean_prediction": 0.13872085861976235,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.6,
+        "origin_employment_weighted_MAE": 6.403156511139537
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 31.622776601683793
+        },
+        "n": 170,
+        "MAE": 9.438525185531855,
+        "RMSE": 15.814343033695836,
+        "R2": 0.0766845124184875,
+        "direction_accuracy": 0.6,
+        "mean_prediction": 1.144606514646038,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.3235294117647059,
+        "origin_employment_weighted_MAE": 5.383154768672916
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.737632359537336,
+        "RMSE": 16.641842054354157,
+        "R2": -0.022470065527800287,
+        "direction_accuracy": 0.6294117647058823,
+        "mean_prediction": 1.0506551371989936,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.36470588235294116,
+        "origin_employment_weighted_MAE": 5.39956847756354
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.890394101718282,
+        "RMSE": 16.74815901146466,
+        "R2": -0.0355759634664321,
+        "direction_accuracy": 0.6058823529411764,
+        "mean_prediction": 1.0396761791167064,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.4235294117647059,
+        "origin_employment_weighted_MAE": 5.426851146672165
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 4,
+          "min_samples_leaf": 25
+        },
+        "n": 170,
+        "MAE": 9.637423428510475,
+        "RMSE": 15.794943443357166,
+        "R2": 0.07894840106788137,
+        "direction_accuracy": 0.611764705882353,
+        "mean_prediction": 1.2236532740915929,
+        "mean_actual": 0.6393408323904146,
+        "predicted_decline_share": 0.1588235294117647,
+        "origin_employment_weighted_MAE": 5.259427859904959
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "industry_mean",
+      "validation_best_learned": "ridge",
+      "validation_best_all": "ridge"
+    },
+    "posthoc_sensitivity": true
+  },
+  {
+    "selection_frozen_utc": "2026-09-23T10:01:37.512098+00:00",
+    "label": "rolling/2023",
+    "features": [
+      "log_employment",
+      "industry_share_pct",
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth",
+      "unemployment_rate_pct",
+      "participation_rate_pct",
+      "region_code",
+      "industry_code"
+    ],
+    "partitions": {
+      "train": 1780,
+      "validation": 170,
+      "test": 170
+    },
+    "years": {
+      "train": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "validation": [
+        2022
+      ],
+      "test": [
+        2023
+      ]
+    },
+    "winners": {
+      "zero": {
+        "family": "zero",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.483357615700381,
+        "RMSE": 17.682425943871177,
+        "R2": -0.00994325795165718,
+        "direction_accuracy": 0.5941176470588235,
+        "mean_prediction": 0.0,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.872901889063404
+      },
+      "mean": {
+        "family": "mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.319920437436906,
+        "RMSE": 17.608739239442702,
+        "R2": -0.0015434683207424804,
+        "direction_accuracy": 0.5941176470588235,
+        "mean_prediction": 1.0632562748374597,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.5740655518180855
+      },
+      "median": {
+        "family": "median",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.317422756987703,
+        "RMSE": 17.607992135992276,
+        "R2": -0.001458483166808966,
+        "direction_accuracy": 0.5941176470588235,
+        "mean_prediction": 1.082556532854024,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.569424467708394
+      },
+      "industry_mean": {
+        "family": "industry_mean",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.289275713057922,
+        "RMSE": 17.421089994646348,
+        "R2": 0.01968888437110472,
+        "direction_accuracy": 0.5764705882352941,
+        "mean_prediction": 1.0632562748374597,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 4.604004245019462
+      },
+      "persistence": {
+        "family": "persistence",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 13.140678344777514,
+        "RMSE": 21.386673254943567,
+        "R2": -0.47740562177586465,
+        "direction_accuracy": 0.5529411764705883,
+        "mean_prediction": 0.6393408323904146,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.37058823529411766,
+        "origin_employment_weighted_MAE": 6.623439824742276
+      },
+      "damped_persistence": {
+        "family": "damped_persistence",
+        "kind": "baseline",
+        "parameters": {
+          "damping": 0
+        },
+        "n": 170,
+        "MAE": 9.483357615700381,
+        "RMSE": 17.682425943871177,
+        "R2": -0.00994325795165718,
+        "direction_accuracy": 0.5941176470588235,
+        "mean_prediction": 0.0,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.0,
+        "origin_employment_weighted_MAE": 4.872901889063404
+      },
+      "national_industry_lag": {
+        "family": "national_industry_lag",
+        "kind": "baseline",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.586666261533773,
+        "RMSE": 17.554578021867044,
+        "R2": 0.004608180524438565,
+        "direction_accuracy": 0.5882352941176471,
+        "mean_prediction": 3.0209353137682027,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.1,
+        "origin_employment_weighted_MAE": 4.905123242165936
+      },
+      "ridge": {
+        "family": "ridge",
+        "kind": "learned",
+        "parameters": {
+          "alpha": 316.2277660168379
+        },
+        "n": 170,
+        "MAE": 9.219903774749563,
+        "RMSE": 17.801927105815604,
+        "R2": -0.023640158368077202,
+        "direction_accuracy": 0.6176470588235294,
+        "mean_prediction": 1.3192867413771312,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.25882352941176473,
+        "origin_employment_weighted_MAE": 4.753574855748767
+      },
+      "huber": {
+        "family": "huber",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.368950075568858,
+        "RMSE": 18.20007583921016,
+        "R2": -0.06994061563126563,
+        "direction_accuracy": 0.5941176470588235,
+        "mean_prediction": 0.8842010063815151,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.38823529411764707,
+        "origin_employment_weighted_MAE": 4.991405968283177
+      },
+      "median_regression": {
+        "family": "median_regression",
+        "kind": "learned",
+        "parameters": {},
+        "n": 170,
+        "MAE": 9.386330019745337,
+        "RMSE": 18.189499650774234,
+        "R2": -0.06869747732848386,
+        "direction_accuracy": 0.6,
+        "mean_prediction": 0.9883768102427037,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.40588235294117647,
+        "origin_employment_weighted_MAE": 5.04589217099129
+      },
+      "random_forest": {
+        "family": "random_forest",
+        "kind": "learned",
+        "parameters": {
+          "max_depth": 8,
+          "min_samples_leaf": 10
+        },
+        "n": 170,
+        "MAE": 8.991930546092863,
+        "RMSE": 17.15938818217747,
+        "R2": 0.048920377764919865,
+        "direction_accuracy": 0.611764705882353,
+        "mean_prediction": 1.295296890168639,
+        "mean_actual": 1.7545175382816836,
+        "predicted_decline_share": 0.19411764705882353,
+        "origin_employment_weighted_MAE": 4.8046572428355665
+      }
+    },
+    "strategies": {
+      "validation_best_baseline": "industry_mean",
+      "validation_best_learned": "random_forest",
+      "validation_best_all": "random_forest"
+    },
+    "posthoc_sensitivity": true
+  }
+]

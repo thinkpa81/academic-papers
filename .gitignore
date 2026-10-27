@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+~$*
+.DS_Store
+Thumbs.db
+rerun_*/
+*.temporary.png
+field_study/responses.csv
+field_study/responses_FILLED.csv
+generated_figures/
+.ruff_cache/
+*.tmp

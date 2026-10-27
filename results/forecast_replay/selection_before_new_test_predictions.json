@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-27T02:46:05.527131+00:00",
+  "validation_counts": 463,
+  "selected_lambda": 10000,
+  "criterion": "validation unweighted MAE",
+  "protocol_sha256": "a343a42cb7bd5ba17f7a82e9068c904b075074d192e40834ec80fb354fa19839",
+  "new_test_model_losses_inspected_before_selection": false,
+  "original_test_results_and_external_AR1_estimate_already_known": true
+}

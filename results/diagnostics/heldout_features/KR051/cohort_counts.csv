@@ -1,0 +1,11 @@
+﻿split,target_year,rows,regions,industries
+test,2023,146,16,10
+test,2024,128,14,10
+test,2025,127,14,10
+train,2016,139,15,10
+train,2017,129,14,10
+train,2018,129,14,10
+train,2019,129,14,10
+validation,2020,146,16,10
+validation,2021,146,16,10
+validation,2022,146,16,10

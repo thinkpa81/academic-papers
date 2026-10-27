@@ -1,0 +1,12 @@
+﻿industry_code,sections,rule
+A,A,all components numeric; otherwise missing
+BTE,B+C+D+E,all components numeric; otherwise missing
+F,F,all components numeric; otherwise missing
+GTI,G+H+I,all components numeric; otherwise missing
+J,J,all components numeric; otherwise missing
+K,K,all components numeric; otherwise missing
+L,L,all components numeric; otherwise missing
+M_N,M+N,all components numeric; otherwise missing
+OTQ,O+P+Q,all components numeric; otherwise missing
+RTU,R+S+T+U,all components numeric; otherwise missing
+_T,_T,all components numeric; otherwise missing

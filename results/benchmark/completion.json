@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "source_panel_sha256": "ae324650eb06ebc44418019982da70127f970f276b712f7a78176d775b3149b5",
+  "fixed_n": 428,
+  "expanding_n": 891,
+  "sample_years_fixed": true,
+  "predictions_fixed_in_intervals": true,
+  "no_new_independent_holdout": true
+}

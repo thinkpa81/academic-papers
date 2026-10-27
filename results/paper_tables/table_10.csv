@@ -1,0 +1,11 @@
+﻿모형,선정 설정 코드,MAE,고용가중 MAE
+전체 과거평균,—,9.431,4.935
+통합 AR(1),pooled_ar1,9.235,4.987
+CatBoost,catboost_d3_l210,9.342,5.035
+HGB,hgb_leaves7_l210,9.520,5.020
+후버,huber,9.424,4.961
+LightGBM,lightgbm_l7_l210,9.456,5.027
+절편 축소 AR(1),panel_ar1_l10000,9.233,4.983
+RF,rf_depth4_leaf25,9.348,4.923
+릿지,ridge_alpha1000,9.326,4.915
+XGBoost,xgboost_d3_l2100,9.243,4.884

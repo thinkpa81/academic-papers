@@ -1,0 +1,17 @@
+{
+  "evaluated_utc": "2026-09-23T14:43:27.987023+00:00",
+  "gate_sha256": "c8617ed0088f17a190dcf406d9bcd0050dd74f170ec90f386739a3d810d56aa0",
+  "outcomes_sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738",
+  "design_sha256": "60fea94cd465a8085eb3564a489c9b6f36dfe3057ed3431a2513d14b0ba32d1b",
+  "prediction_sha256": {
+    "2024": "7133fb132ff5d57ae77a1c266dbe481aebc6b1f23d05e1dd91227cfe15a806b2"
+  },
+  "eligible_years_predefined_by_gate": [
+    2024
+  ],
+  "refit": false,
+  "tuning": false,
+  "new_loss_based_exclusion": false,
+  "inferential_pvalues": false,
+  "script_sha256": "a17b3102b035fd619c33d1afb1c19fefdc163dc8a74347fdf9397ee76ceef0b2"
+}

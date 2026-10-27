@@ -1,0 +1,115 @@
+{
+  "design_version": 1,
+  "frozen_utc": "2026-09-23T14:18:26.308427+00:00",
+  "status": "Locked before inspecting new 2024/2025 outcomes in this extension. Retrospective out-of-time evaluation, not a prospectively deployed experiment.",
+  "fixed_model_origin": "Original package, target-years 2011–2020 fitted history. Prior revision2/3 extensions never replace these models.",
+  "new_target_years": [
+    2024,
+    2025
+  ],
+  "fixed_models": [
+    "ridge alpha=100",
+    "original saved random_forest",
+    "original saved hist_gradient_boosting"
+  ],
+  "fixed_baselines": [
+    "zero",
+    "industry_mean learned from original training+validation targets through 2020"
+  ],
+  "refit_permitted": false,
+  "tuning_permitted": false,
+  "performance_based_result_selection_permitted": false,
+  "new_outcomes_seen_when_frozen": false,
+  "features_numeric": [
+    "log_employment",
+    "industry_share_pct",
+    "growth_t",
+    "growth_tm1",
+    "other_regions_industry_growth",
+    "region_total_growth",
+    "unemployment_rate_pct",
+    "participation_rate_pct"
+  ],
+  "features_categorical": [
+    "region_code",
+    "industry_code"
+  ],
+  "target": "100 * ln(E_(t+1)/E_t); log points",
+  "employment_unit": "persons",
+  "labour_covariates": "Age 15–64, sex total, unemployment UNE_RATE/PT_LF_SUB and participation LF_RATE/PT_POP_SUB; no substitute for absent age band",
+  "features_2024": "170 region×industry rows at origin_year=2023 from original panel_all_rows_with_flags.csv; no target-year outcome read or used; prediction frozen and hashed before new outcomes access",
+  "features_2025": "Only if complete official 2024 input features satisfy original definitions and source gate; require 2024 labour covariates for ages15–64; never substitute all-age indicators; freeze forecasts before scoring2025",
+  "feature_source_revisions": "2024 forecasts use ORIGINAL snapshot2023 origin features without refit or refresh. For 2025, the designated original source is required; original2022/2023 levels retained for historical lags only after gate confirms comparability.",
+  "main_metric": "MAE, equal cell weighting",
+  "secondary_metrics": [
+    "RMSE",
+    "origin_employment_weighted_MAE",
+    "direction_accuracy_negative_vs_nonnegative",
+    "mean_actual",
+    "mean_prediction",
+    "actual_decline_share"
+  ],
+  "comparison": "All locked models reported; zero remains default reference; ridge remains original selected learned comparator. New score is never a criterion for data inclusion or model replacement.",
+  "aggregation": "Report each target year separately. Pooled MAE gives each eligible region-industry-year equal weight; pooled wMAE uses origin-year employment. Report year-balanced mean as separate column if both years are eligible.",
+  "inference": "With at most two new annual origins, do not calculate DM significance or claim independent repeated experiments. No new tuning or bootstrap significance assertion.",
+  "gate_before_any_scoring": [
+    "official source with retrieval metadata and identifiers documented",
+    "17 original Korean region codes and their geography definitions match",
+    "10 original nonoverlapping broad industry groups and classifications match",
+    "employment units/multipliers and source measure are unchanged",
+    "observation time/frequency mapping to each OECD annual value is documented",
+    "age15–64 and sex-total labour covariate definitions match where used",
+    "2022 and2023 overlapping employment levels, shares, total employment, and required labour covariates compared",
+    "positive finite employment and exact key uniqueness; no outcome-size deletion",
+    "all target cells complete or explicit gate failure; do not select incomplete subset by observed forecast loss"
+  ],
+  "overlap_rule": {
+    "source": "Compare new source2022/2023 with original snapshot at identical raw keys.",
+    "numerical_equality_tolerance": "atol=1e-8, rtol=1e-10 (floating representation only, not substantive revision allowance)",
+    "revisions": "Any substantive overlap difference stops scoring pending documented official revision/bridging evidence and a gate decision made without evaluating prediction losses. It is not automatically accepted by a permissive tolerance. Original input snapshot remains frozen.",
+    "missing_overlap": "FAIL unless official direct continuity evidence and scoped limitations are documented before scoring."
+  },
+  "gate_result_states": [
+    "PASS",
+    "HOLD_missing_metadata_or_covariates",
+    "FAIL_incompatible_definition_or_unresolved_series_break"
+  ],
+  "original_source_files": {
+    "analysis/main/model_ridge.joblib": {
+      "sha256": "510bfb8c8761cd17e743de76e85af101094b462a2ee48a3be64515531e1b1e5f",
+      "bytes": 4161
+    },
+    "analysis/main/model_random_forest.joblib": {
+      "sha256": "95dbbca7a1dffd00a7fb28745e90d9b56b632b503dc958617ae683d193cbfe1d",
+      "bytes": 431066
+    },
+    "analysis/main/model_hist_gradient_boosting.joblib": {
+      "sha256": "2500a0731fdf18c79c64bb4c8aa3e33c0b5be0dcfd4c84b483e477059b124bbd",
+      "bytes": 206393
+    },
+    "analysis/main/training_design.csv": {
+      "sha256": "56eecd8fa83b368a443aa3e86114ea50442b8100d1f673e0019d85d30f41da4f",
+      "bytes": 233493
+    },
+    "analysis/main/selection_before_test.json": {
+      "sha256": "165e32f7f5f0ef607eb3cb1cc1b542f14dca0cb54c7f77876c7289b6d3cf1c4d",
+      "bytes": 4108
+    },
+    "analysis/panel_all_rows_with_flags.csv": {
+      "sha256": "5da6c04dc726e304cb961ef6c31f559d34b7d124ca1bb840c653009aed52834f",
+      "bytes": 985024
+    },
+    "raw/economic/oecd_korea_regional_industry_raw.csv": {
+      "sha256": "5979c7e9942ce7d9aeb84410e22d08799a6a645470392cc3725d4c30cdb2c4f4",
+      "bytes": 2305189
+    },
+    "raw/oecd_korea_regional_labour_raw.csv": {
+      "sha256": "618fe6aa0d38e1e13783276a0c0652122e0ff8af4bab645f4d3361fe0942a511",
+      "bytes": 5606448
+    },
+    "raw/korea_region_codes.csv": {
+      "sha256": "769b2fbaf9d6cb6f359e17baebaa2dd2525eb7dc3359941701c616bc2738fc84",
+      "bytes": 650
+    }
+  }
+}

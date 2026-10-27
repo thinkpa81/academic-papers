@@ -1,0 +1,242 @@
+[
+  {
+    "task_id": "T01",
+    "region": "서울",
+    "industry": "BTE",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": -0.398406218401248,
+    "baseline": 0.6705514379380221,
+    "validation_n": 0,
+    "validation_mae_difference": null,
+    "input_employment": 534000.0,
+    "evidence_status": "없음",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T02",
+    "region": "서울",
+    "industry": "OTQ",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.9810639396071161,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": 0.13528647339197208,
+    "input_employment": 1016400.0,
+    "evidence_status": "이전 근거를 참조한 검토기록",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T03",
+    "region": "인천",
+    "industry": "K",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.6804167924217905,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.08050249987754654,
+    "input_employment": 36000.0,
+    "evidence_status": "화면 검증건수와 근거 집계 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T04",
+    "region": "경기",
+    "industry": "F",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.6232616629277746,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": 0.36468409433193116,
+    "input_employment": 612400.0,
+    "evidence_status": "등록 모형 계수와 제출 계수 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T05",
+    "region": "경기",
+    "industry": "RTU",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.4196368928500215,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.5818332337563428,
+    "input_employment": 481100.0,
+    "evidence_status": "없음",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T06",
+    "region": "부산",
+    "industry": "L",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.3889103417564672,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.12428344344886,
+    "input_employment": 34700.0,
+    "evidence_status": "이전 근거를 참조한 검토기록",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T07",
+    "region": "울산",
+    "industry": "J",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 2.01654033725503,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.45537057814786763,
+    "input_employment": 4600.0,
+    "evidence_status": "화면 검증건수와 근거 집계 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T08",
+    "region": "경남",
+    "industry": "F",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 2.0110495476989616,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.2758842838101483,
+    "input_employment": 82400.0,
+    "evidence_status": "등록 모형 계수와 제출 계수 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T09",
+    "region": "광주",
+    "industry": "A",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": -0.9825657083219677,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -2.0339413022995494,
+    "input_employment": 22600.0,
+    "evidence_status": "없음",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T10",
+    "region": "광주",
+    "industry": "M_N",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.7684335072492094,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": -0.3732091136488691,
+    "input_employment": 57500.0,
+    "evidence_status": "이전 근거를 참조한 검토기록",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T11",
+    "region": "전북",
+    "industry": "K",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": -0.6525775337318089,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": 0.30692283935206177,
+    "input_employment": 22700.0,
+    "evidence_status": "화면 검증건수와 근거 집계 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  },
+  {
+    "task_id": "T12",
+    "region": "전남",
+    "industry": "F",
+    "target_year": 2025,
+    "model": "ridge_alpha1000",
+    "prediction": 0.3274944353955073,
+    "baseline": 0.6705514379380221,
+    "validation_n": 3,
+    "validation_mae_difference": 0.0606641403242385,
+    "input_employment": 77600.0,
+    "evidence_status": "등록 모형 계수와 제출 계수 불일치",
+    "question": "현재 근거에 대한 연구용 검토 완료를 허용할 것인가?",
+    "choices": [
+      "완료 허용",
+      "보완 후 재검토"
+    ],
+    "secondary_question": "판단에 사용한 근거와 필요한 후속 조치를 한 문장으로 작성하시오.",
+    "source": "실제 집계 예측값과 합성 검토 상태를 결합한 평가 과업; 실제 업무 기록 아님"
+  }
+]

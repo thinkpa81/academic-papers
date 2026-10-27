@@ -1,0 +1,30 @@
+[
+  {
+    "dataset_id": "kosis_employment",
+    "step": 12,
+    "unit": "100_log_ratio",
+    "base_forecasts": 272,
+    "source_sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357",
+    "source": "KOSIS DT_1ES3B05J, preserved KSIC11 first-half snapshot",
+    "reference_construction": "Refitted from the preserved analysis panel"
+  },
+  {
+    "dataset_id": "us_macrodata",
+    "step": 3,
+    "unit": "100_log_ratio",
+    "raw_quarters": 203,
+    "series": [
+      "realgdp",
+      "realcons",
+      "realinv"
+    ],
+    "base_forecasts": 234,
+    "source_sha256": "d93c0d3a7a77ef83c3af14e46032bb1d02ae3a512b22ab94159a8ca226fcf708",
+    "source": "statsmodels macrodata public-domain snapshot",
+    "source_commit": "d07a39609cdf57b6898bb9adb87e7821904482aa",
+    "original_acquisition": "2009-12-15 (provider documentation)",
+    "evaluation_period": "2000Q1–2009Q3",
+    "historical_release_vintages_verified": false,
+    "purpose": "Cross-dataset technical transfer; no claim of best macroeconomic forecasting"
+  }
+]

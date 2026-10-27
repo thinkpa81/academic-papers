@@ -1,0 +1,9 @@
+dataset,engine,normal_n,normal_accepted,fault_n,fault_blocked
+kosis_employment,json_schema,816,816,3264,272
+kosis_employment,native_registered,816,816,3264,3264
+kosis_employment,pandera_local,816,816,3264,1904
+kosis_employment,pandera_registered,816,816,3264,3264
+us_macrodata,json_schema,702,702,2808,234
+us_macrodata,native_registered,702,702,2808,2808
+us_macrodata,pandera_local,702,702,2808,1638
+us_macrodata,pandera_registered,702,702,2808,2808

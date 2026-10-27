@@ -1,0 +1,636 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-27T02:46:11.948365+00:00",
+  "scope": "Preserved B/C/D source, feature, arithmetic and saved-model replay; direct current table8/table12 display comparison. No new candidate search and no claim of newly repeated 157 full-refit checks.",
+  "table8": [
+    {
+      "analysis": "B",
+      "model": "zero",
+      "n": 510,
+      "MAE": 8.63401503341614,
+      "RMSE": 15.069196374014249,
+      "weighted_MAE": 4.719763235519072,
+      "display": [
+        "8.63",
+        "15.07",
+        "4.72"
+      ]
+    },
+    {
+      "analysis": "B",
+      "model": "ridge",
+      "n": 510,
+      "MAE": 8.279405947218384,
+      "RMSE": 14.7921878965428,
+      "weighted_MAE": 4.576656211797936,
+      "display": [
+        "8.28",
+        "14.79",
+        "4.58"
+      ]
+    },
+    {
+      "analysis": "C",
+      "model": "zero",
+      "n": 170,
+      "MAE": 8.205646446771883,
+      "RMSE": 13.835926800842143,
+      "weighted_MAE": 4.612525709743895,
+      "display": [
+        "8.21",
+        "13.84",
+        "4.61"
+      ]
+    },
+    {
+      "analysis": "C",
+      "model": "ridge",
+      "n": 170,
+      "MAE": 7.955710149651755,
+      "RMSE": 14.258687109579693,
+      "weighted_MAE": 4.6424095395768505,
+      "display": [
+        "7.96",
+        "14.26",
+        "4.64"
+      ]
+    }
+  ],
+  "D_pooled": [
+    {
+      "model": "global_past_mean",
+      "n": 436,
+      "MAE": 9.236861741782809,
+      "RMSE": 16.678486382072034,
+      "weighted_MAE": 4.7959535588033555
+    },
+    {
+      "model": "ridge_alpha100",
+      "n": 436,
+      "MAE": 9.087760854355443,
+      "RMSE": 16.29142883018261,
+      "weighted_MAE": 4.668264023540606
+    }
+  ],
+  "D_cluster_bootstrap": {
+    "seed": 20260926,
+    "B": 2000,
+    "regions": 16,
+    "delta_lower_upper": [
+      -0.14910088742736644,
+      -0.3677245540013599,
+      0.06393775467568534
+    ]
+  },
+  "table12": [
+    {
+      "industry": "A",
+      "display": [
+        "-1.77",
+        "-2.53",
+        "하회",
+        3
+      ]
+    },
+    {
+      "industry": "BTE",
+      "display": [
+        "—",
+        "—",
+        "자료 부족",
+        0
+      ]
+    },
+    {
+      "industry": "F",
+      "display": [
+        "-0.36",
+        "-1.12",
+        "하회",
+        3
+      ]
+    },
+    {
+      "industry": "GTI",
+      "display": [
+        "-1.05",
+        "-1.81",
+        "하회",
+        3
+      ]
+    },
+    {
+      "industry": "J",
+      "display": [
+        "-2.89",
+        "-3.65",
+        "하회",
+        3
+      ]
+    },
+    {
+      "industry": "K",
+      "display": [
+        "-1.80",
+        "-2.56",
+        "하회",
+        3
+      ]
+    },
+    {
+      "industry": "L",
+      "display": [
+        "4.49",
+        "3.73",
+        "상회",
+        3
+      ]
+    },
+    {
+      "industry": "M_N",
+      "display": [
+        "2.05",
+        "1.28",
+        "상회",
+        3
+      ]
+    },
+    {
+      "industry": "OTQ",
+      "display": [
+        "1.61",
+        "0.85",
+        "상회",
+        3
+      ]
+    },
+    {
+      "industry": "RTU",
+      "display": [
+        "-0.72",
+        "-1.49",
+        "하회",
+        3
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check": "table8_B_zero",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "8.63",
+          "15.07",
+          "4.72"
+        ],
+        "manuscript": [
+          "8.63",
+          "15.07",
+          "4.72"
+        ]
+      }
+    },
+    {
+      "check": "table8_B_ridge",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "8.28",
+          "14.79",
+          "4.58"
+        ],
+        "manuscript": [
+          "8.28",
+          "14.79",
+          "4.58"
+        ]
+      }
+    },
+    {
+      "check": "table8_C_zero",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "8.21",
+          "13.84",
+          "4.61"
+        ],
+        "manuscript": [
+          "8.21",
+          "13.84",
+          "4.61"
+        ]
+      }
+    },
+    {
+      "check": "table8_C_ridge",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "7.96",
+          "14.26",
+          "4.64"
+        ],
+        "manuscript": [
+          "7.96",
+          "14.26",
+          "4.64"
+        ]
+      }
+    },
+    {
+      "check": "D_split_counts",
+      "passed": true,
+      "detail": {
+        "test": 436,
+        "train": 518,
+        "validation": 433
+      }
+    },
+    {
+      "check": "D_pooled_MAE_rounding",
+      "passed": true,
+      "detail": [
+        {
+          "model": "global_past_mean",
+          "n": 436,
+          "MAE": 9.236861741782809,
+          "RMSE": 16.678486382072034,
+          "weighted_MAE": 4.7959535588033555
+        },
+        {
+          "model": "ridge_alpha100",
+          "n": 436,
+          "MAE": 9.087760854355443,
+          "RMSE": 16.29142883018261,
+          "weighted_MAE": 4.668264023540606
+        }
+      ]
+    },
+    {
+      "check": "D_cluster_ci_display",
+      "passed": true,
+      "detail": [
+        -0.14910088742736644,
+        -0.3677245540013599,
+        0.06393775467568534
+      ]
+    },
+    {
+      "check": "table12_A_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -1.7704399746886748,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -2.534525948170626,
+        "validation_n": 3,
+        "correct": 2
+      }
+    },
+    {
+      "check": "table12_A_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-1.77",
+          "-2.53",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-1.77",
+          "-2.53",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_BTE_absence",
+      "passed": true,
+      "detail": "No test prediction and no displayed validation evidence"
+    },
+    {
+      "check": "table12_BTE_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "—",
+          "—",
+          "자료 부족",
+          0
+        ],
+        "manuscript": [
+          "—",
+          "—",
+          "자료 부족",
+          0
+        ]
+      }
+    },
+    {
+      "check": "table12_F_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -0.35955440679946005,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -1.1236403802814112,
+        "validation_n": 3,
+        "correct": 2
+      }
+    },
+    {
+      "check": "table12_F_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-0.36",
+          "-1.12",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-0.36",
+          "-1.12",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_GTI_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -1.0499335178922666,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -1.8140194913742178,
+        "validation_n": 3,
+        "correct": 3
+      }
+    },
+    {
+      "check": "table12_GTI_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-1.05",
+          "-1.81",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-1.05",
+          "-1.81",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_J_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -2.8883906954963785,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -3.6524766689783297,
+        "validation_n": 3,
+        "correct": 1
+      }
+    },
+    {
+      "check": "table12_J_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-2.89",
+          "-3.65",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-2.89",
+          "-3.65",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_K_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -1.798041410010701,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -2.562127383492652,
+        "validation_n": 3,
+        "correct": 1
+      }
+    },
+    {
+      "check": "table12_K_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-1.80",
+          "-2.56",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-1.80",
+          "-2.56",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_L_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": 4.491277683690258,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": 3.727191710208307,
+        "validation_n": 3,
+        "correct": 3
+      }
+    },
+    {
+      "check": "table12_L_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "4.49",
+          "3.73",
+          "상회",
+          3
+        ],
+        "manuscript": [
+          "4.49",
+          "3.73",
+          "상회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_M_N_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": 2.0465434995904492,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": 1.282457526108498,
+        "validation_n": 3,
+        "correct": 1
+      }
+    },
+    {
+      "check": "table12_M_N_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "2.05",
+          "1.28",
+          "상회",
+          3
+        ],
+        "manuscript": [
+          "2.05",
+          "1.28",
+          "상회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_OTQ_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": 1.6097351775885815,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": 0.8456492041066305,
+        "validation_n": 3,
+        "correct": 1
+      }
+    },
+    {
+      "check": "table12_OTQ_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "1.61",
+          "0.85",
+          "상회",
+          3
+        ],
+        "manuscript": [
+          "1.61",
+          "0.85",
+          "상회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "table12_RTU_saved_exact",
+      "passed": true,
+      "detail": {
+        "ridge_prediction": -0.72282004900587,
+        "baseline_prediction": 0.7640859734819511,
+        "deviation": -1.4869060224878212,
+        "validation_n": 3,
+        "correct": 1
+      }
+    },
+    {
+      "check": "table12_RTU_display",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "-0.72",
+          "-1.49",
+          "하회",
+          3
+        ],
+        "manuscript": [
+          "-0.72",
+          "-1.49",
+          "하회",
+          3
+        ]
+      }
+    },
+    {
+      "check": "D_validation_15_of_27",
+      "passed": true,
+      "detail": [
+        {
+          "industry": "A",
+          "n": 3,
+          "correct": 2
+        },
+        {
+          "industry": "F",
+          "n": 3,
+          "correct": 2
+        },
+        {
+          "industry": "GTI",
+          "n": 3,
+          "correct": 3
+        },
+        {
+          "industry": "J",
+          "n": 3,
+          "correct": 1
+        },
+        {
+          "industry": "K",
+          "n": 3,
+          "correct": 1
+        },
+        {
+          "industry": "L",
+          "n": 3,
+          "correct": 3
+        },
+        {
+          "industry": "M_N",
+          "n": 3,
+          "correct": 1
+        },
+        {
+          "industry": "OTQ",
+          "n": 3,
+          "correct": 1
+        },
+        {
+          "industry": "RTU",
+          "n": 3,
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "check": "D_BTE_missing_source",
+      "passed": true,
+      "detail": [
+        {
+          "year": 2023,
+          "missing_components": "B"
+        },
+        {
+          "year": 2024,
+          "missing_components": "B"
+        },
+        {
+          "year": 2025,
+          "missing_components": "B"
+        }
+      ]
+    }
+  ],
+  "passed": 29,
+  "total": 29
+}

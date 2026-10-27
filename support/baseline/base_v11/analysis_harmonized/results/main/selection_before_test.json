@@ -1,0 +1,51 @@
+{
+  "selected_utc": "2026-09-26T12:06:15.860274+00:00",
+  "source_sha256": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98",
+  "protocol_sha256": "cef372ff8069a38b3de6c27489a28692f50cdc8d7ed0df85c7eb177a9fb7e35f",
+  "boundary_filter": true,
+  "service_default_baseline": "global_past_mean",
+  "learned_companion": "ridge_alpha1000",
+  "family_selected": {
+    "ridge": "ridge_alpha1000",
+    "random_forest": "rf_depth4_leaf25",
+    "hist_gradient_boosting": "hgb_leaves7_l210",
+    "huber": "huber"
+  },
+  "test_models": [
+    "zero",
+    "last_growth",
+    "industry_past_mean",
+    "global_past_mean",
+    "global_past_median",
+    "lagged_available_region_industry_growth",
+    "ridge_alpha1000",
+    "rf_depth4_leaf25",
+    "hgb_leaves7_l210",
+    "huber",
+    "ridge_alpha100"
+  ],
+  "test_evaluation_performed_before_selection_record": false,
+  "selection_metric": "validation unweighted MAE",
+  "train_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "counts": {
+    "train": 558,
+    "validation": 463,
+    "test": 428
+  },
+  "model_default_rule": "best validation baseline, paired learned companion, no automatic promotion"
+}

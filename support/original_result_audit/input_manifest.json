@@ -1,0 +1,172 @@
+[
+  {
+    "path": "original/raw/economic/oecd_korea_regional_industry_raw.csv",
+    "bytes": 2305189,
+    "sha256": "5979c7e9942ce7d9aeb84410e22d08799a6a645470392cc3725d4c30cdb2c4f4"
+  },
+  {
+    "path": "original/analysis/analysis_panel_main.csv",
+    "bytes": 780468,
+    "sha256": "306985d49dfce053dc4ca9fb969cb5de17625d2d2075ee7ad7129c2b5aa773dc"
+  },
+  {
+    "path": "original/analysis/analysis_panel_delayed.csv",
+    "bytes": 718320,
+    "sha256": "81cc3bae4f056cc913d22e8b08e3c03a1cc825d83b326fbaef2f7d73bddbce99"
+  },
+  {
+    "path": "original/analysis/panel_all_rows_with_flags.csv",
+    "bytes": 985024,
+    "sha256": "5da6c04dc726e304cb961ef6c31f559d34b7d124ca1bb840c653009aed52834f"
+  },
+  {
+    "path": "original/service/outputs/linear_attributions_10_features.csv",
+    "bytes": 136888,
+    "sha256": "c29f6c69df72d5c3733eba20b8af983056269d7c8dcc98cb1c62bf69e4a3e6c9"
+  },
+  {
+    "path": "original/analysis/main/test_design.csv",
+    "bytes": 74464,
+    "sha256": "91838c5996cd5438dee9cf287ee000a965ba04bf840dfdfc6f6a9e0f4a57ec9a"
+  },
+  {
+    "path": "source_harmonized/kosis_ksic11_H1_2013_2025_panel.csv",
+    "bytes": 626349,
+    "sha256": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98"
+  },
+  {
+    "path": "original/analysis/main/test_predictions.csv",
+    "bytes": 237559,
+    "sha256": "fc58edecb0de61af5e71f5673eb930e3aeda9fc3aec2a9bc9b032795a80a31ba"
+  },
+  {
+    "path": "original/analysis/main/test_metrics.csv",
+    "bytes": 1733,
+    "sha256": "7eeb3920c112fad1ab95fb14c2aadcd691785d99377c471778962c65ff36d21b"
+  },
+  {
+    "path": "original/analysis/main/selection_before_test.json",
+    "bytes": 4108,
+    "sha256": "165e32f7f5f0ef607eb3cb1cc1b542f14dca0cb54c7f77876c7289b6d3cf1c4d"
+  },
+  {
+    "path": "original/analysis/main/bootstrap_intervals.json",
+    "bytes": 653,
+    "sha256": "cac954a582ddf43c993dfa312078fd6ce508e8e2e68aae18723dbcd7fd50ff1d"
+  },
+  {
+    "path": "original/analysis/main/model_ridge.joblib",
+    "bytes": 4161,
+    "sha256": "510bfb8c8761cd17e743de76e85af101094b462a2ee48a3be64515531e1b1e5f"
+  },
+  {
+    "path": "original/analysis/main/training_design.csv",
+    "bytes": 233493,
+    "sha256": "56eecd8fa83b368a443aa3e86114ea50442b8100d1f673e0019d85d30f41da4f"
+  },
+  {
+    "path": "original/analysis/delayed_features/test_predictions.csv",
+    "bytes": 237873,
+    "sha256": "ee4aac14638b76a3b333aa635b6dead08fe4b09446d1891054724cb2c8533be6"
+  },
+  {
+    "path": "original/analysis/delayed_features/test_metrics.csv",
+    "bytes": 1728,
+    "sha256": "e9705cbb850030573aa2ce7618259ff798ba8ee8eb046151f87433b505851538"
+  },
+  {
+    "path": "original/analysis/delayed_features/selection_before_test.json",
+    "bytes": 3962,
+    "sha256": "ae1037986ce8d234c976e91f3ceeedc2e1308643face1ea269fece78ef622342"
+  },
+  {
+    "path": "original/analysis/delayed_features/bootstrap_intervals.json",
+    "bytes": 645,
+    "sha256": "3fd2e6120e0a3845a96f7c59a44eb5e75f8be4481c91ca72038334afea6066d0"
+  },
+  {
+    "path": "original/analysis/delayed_features/model_ridge.joblib",
+    "bytes": 4137,
+    "sha256": "ce139ee68ebef2997003d41a75f7f599614556c42ae8b260da66977425710cb7"
+  },
+  {
+    "path": "original/analysis/delayed_features/training_design.csv",
+    "bytes": 208751,
+    "sha256": "4ced6bb509fa0602b758ebff59b0f5bab857ed7f2ac3ada36d462ce43545e9c1"
+  },
+  {
+    "path": "extensions/temporal2024/analysis/frozen_predictions_target2024.csv",
+    "bytes": 31898,
+    "sha256": "7133fb132ff5d57ae77a1c266dbe481aebc6b1f23d05e1dd91227cfe15a806b2"
+  },
+  {
+    "path": "extensions/temporal2024/source_employment/oecd_v2_4_target2024_170.csv",
+    "bytes": 3849,
+    "sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738"
+  },
+  {
+    "path": "extensions/temporal2024/analysis/evaluation_2024_official/locked_future_predictions_and_outcomes.csv",
+    "bytes": 36352,
+    "sha256": "53466a1a98ad746e06d5041fbfc6922f4a923a286471c9dea429d0a44506d7c4"
+  },
+  {
+    "path": "extensions/temporal2024/analysis/evaluation_2024_official/locked_future_year_metrics.csv",
+    "bytes": 2456,
+    "sha256": "cbaecc33dde3a3ee545bda2ea2119ac18b516a243f7458e44bff5e63313fb361"
+  },
+  {
+    "path": "extensions/temporal2024/review/source_gate_independent_OECD2024.json",
+    "bytes": 5926,
+    "sha256": "c8617ed0088f17a190dcf406d9bcd0050dd74f170ec90f386739a3d810d56aa0"
+  },
+  {
+    "path": "extensions/temporal2024/analysis/evaluation_2024_official/evaluation_provenance.json",
+    "bytes": 675,
+    "sha256": "990c87b7915d9d3ca99c201e0c77a0399ffbac32fce99e3ada155a4b5ebe7805"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/source_16_fixed_units.csv",
+    "bytes": 604885,
+    "sha256": "33f8fa6e2cacdb5902d17b871b935a2091414f869b497b98af32acaa24fb75cd"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/analysis_panel.csv",
+    "bytes": 434708,
+    "sha256": "b241fce1e46674297b6f2950d7c43fcac099946de26d99624ea12df94c184a14"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/test_predictions.csv",
+    "bytes": 204642,
+    "sha256": "d861e9ec4529098fdcac19ec74d1516ff97c6ea627b81224c47279e79eb18446"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/validation_predictions.csv",
+    "bytes": 288576,
+    "sha256": "3aa854302ede750645068c6a332de6ce2838e1e49df7917e749d3714b0f79e43"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/selection_before_test.json",
+    "bytes": 1477,
+    "sha256": "901aeccb9a9099a7fb872a3259d9e290d2222e841035a3852aabc3c521d5b09d"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/validation_grid.csv",
+    "bytes": 4385,
+    "sha256": "6586b11b5d9c02856a8c6477efa5f085ea0d336d22bf62deb894c2a4260d51b4"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/results/model_ridge_alpha100.joblib",
+    "bytes": 3913,
+    "sha256": "f7598b0dc12ac7e7f2ed0a6c4a51d4f00bd27b65593a7ee7ad810017adc8a136"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/daegyeong_service_2025.csv",
+    "bytes": 2455,
+    "sha256": "a566a04d6b6f7337ccd45356a9916f2e540d0d5c18dd7ce6eac6800d056e7106"
+  },
+  {
+    "path": "extensions/revision_v8/region/output/summary_for_manuscript.json",
+    "bytes": 5714,
+    "sha256": "ae296672f74c543d7d807eda542e7426c1ccc23144531a0b68811eebc658b945"
+  }
+]

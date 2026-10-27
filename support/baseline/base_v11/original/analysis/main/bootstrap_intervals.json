@@ -1,0 +1,20 @@
+{
+  "selected_AI_vs_selected_baseline": {
+    "delta_MAE": -0.35460908619775555,
+    "lower95": -0.6892115633805096,
+    "upper95": -0.0050676698716447905,
+    "bootstrap_regions": 17,
+    "bootstrap_replicates": 2000,
+    "n": 510,
+    "note": "conditional on fixed models and test years; region block resampling, no refitting"
+  },
+  "selected_AI_vs_zero": {
+    "delta_MAE": -0.35460908619775555,
+    "lower95": -0.6892115633805096,
+    "upper95": -0.0050676698716447905,
+    "bootstrap_regions": 17,
+    "bootstrap_replicates": 2000,
+    "n": 510,
+    "note": "conditional on fixed models and test years; region block resampling, no refitting"
+  }
+}

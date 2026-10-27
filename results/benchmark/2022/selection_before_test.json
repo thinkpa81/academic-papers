@@ -1,0 +1,27 @@
+{
+  "label": "2022",
+  "train_n": 712,
+  "validation_n": 154,
+  "test_n": 155,
+  "selected": {
+    "baseline6": "industry_past_mean",
+    "learned14": "huber",
+    "all20": "huber",
+    "learned26": "huber",
+    "all32": "huber",
+    "strong_baseline12": "industry_past_mean",
+    "learned32": "huber",
+    "all38": "huber",
+    "family_ar1": "pooled_ar1",
+    "family_catboost": "catboost_d3_l2100",
+    "family_hist_gradient_boosting": "hgb_leaves7_l210",
+    "family_huber": "huber",
+    "family_lightgbm": "lightgbm_l15_l210",
+    "family_panel_ar1": "panel_ar1_l10",
+    "family_random_forest": "rf_depth4_leaf25",
+    "family_ridge": "ridge_alpha10",
+    "family_xgboost": "xgboost_d3_l2100"
+  },
+  "selection_uses": "validation MAE only",
+  "retrospective": true
+}

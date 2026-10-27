@@ -1,0 +1,34 @@
+{
+  "frozen_utc": "2026-09-23T14:19:33.968592+00:00",
+  "status": "Predictions committed before loading new outcomes",
+  "files": {
+    "freeze_design_before_new_outcomes.json": {
+      "sha256": "60fea94cd465a8085eb3564a489c9b6f36dfe3057ed3431a2513d14b0ba32d1b",
+      "bytes": 6049
+    },
+    "freeze_design_before_new_outcomes.sha256": {
+      "sha256": "8e91b3634657588c664517d9d0e07ff7377e01095b38b442704b83bd5bbd91ba",
+      "bytes": 105
+    },
+    "frozen_inputs_origin2023_for_target2024.csv": {
+      "sha256": "2578ac9208cf4add3b22e6cf1981afee865a1ccd6eb997ccf7ec0addbb783559",
+      "bytes": 36768
+    },
+    "frozen_industry_mean_baseline.csv": {
+      "sha256": "38b33800725c5ee7b3120741e15a74715e805f8fb32f7c999a01632cdaeee755",
+      "bytes": 267
+    },
+    "frozen_predictions_target2024.csv": {
+      "sha256": "7133fb132ff5d57ae77a1c266dbe481aebc6b1f23d05e1dd91227cfe15a806b2",
+      "bytes": 31898
+    },
+    "frozen_model_details.json": {
+      "sha256": "22b2af11fb240c23430bcba5406fb2a3e413beccefa5577c9f7a70f3ca3032cd",
+      "bytes": 1939
+    },
+    "freeze_predictions_2024.py": {
+      "sha256": "933034b3d753a1ea8ac2b0373edf25b6bfd5974362929b03dcb3fab864632066",
+      "bytes": 5231
+    }
+  }
+}

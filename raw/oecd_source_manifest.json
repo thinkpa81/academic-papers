@@ -1,0 +1,231 @@
+{
+  "retrieved_utc_date": "2026-09-17",
+  "industry": {
+    "official_api_url": "https://sdmx.oecd.org/public/rest/v1/data/OECD.CFE.EDS,DSD_REG_ECO@DF_EMP,2.0/A.TL3.KR011+KR012+KR013+KR021+KR022+KR023+KR031+KR032+KR041+KR042+KR043+KR051+KR052+KR053+KR054+KR061+KR071.....?startPeriod=2000&endPeriod=2025&format=csvfilewithlabels",
+    "raw_file": "raw/oecd_korea_regional_industry_raw.csv",
+    "quality_file": "industry_quality.json"
+  },
+  "labour": {
+    "validated_utc": "2026-09-17T15:01:34.910083+00:00",
+    "source": "OECD.CFE.EDS:DSD_REG_LABOUR@DF_LAB(2.0)",
+    "source_api_url": "https://sdmx.oecd.org/public/rest/v1/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.0/A.TL3.KR011+KR012+KR013+KR021+KR022+KR023+KR031+KR032+KR041+KR042+KR043+KR051+KR052+KR053+KR054+KR061+KR071.....?startPeriod=2000&endPeriod=2025&format=csvfilewithlabels",
+    "source_schema_url": "https://sdmx.oecd.org/public/rest/v1/dataflow/OECD.CFE.EDS/DSD_REG_LABOUR@DF_LAB/2.0?references=all",
+    "source_explorer_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.0&lc=en",
+    "raw_file": "oecd_korea_regional_labour_raw.csv",
+    "raw_bytes": 5606448,
+    "raw_sha256": "618fe6aa0d38e1e13783276a0c0652122e0ff8af4bab645f4d3361fe0942a511",
+    "raw_rows": 19032,
+    "raw_columns": [
+      "STRUCTURE",
+      "STRUCTURE_ID",
+      "STRUCTURE_NAME",
+      "ACTION",
+      "FREQ",
+      "Frequency of observation",
+      "TERRITORIAL_LEVEL",
+      "Territorial level",
+      "REF_AREA",
+      "Reference area",
+      "TERRITORIAL_TYPE",
+      "Territorial typology",
+      "MEASURE",
+      "Measure",
+      "AGE",
+      "Age",
+      "SEX",
+      "Sex",
+      "UNIT_MEASURE",
+      "Unit of measure",
+      "TIME_PERIOD",
+      "Time period",
+      "OBS_VALUE",
+      "Observation value",
+      "COUNTRY",
+      "Country",
+      "OBS_STATUS",
+      "Observation status",
+      "UNIT_MULT",
+      "Unit multiplier",
+      "DECIMALS",
+      "Decimals"
+    ],
+    "raw_key": [
+      "FREQ",
+      "TERRITORIAL_LEVEL",
+      "REF_AREA",
+      "TERRITORIAL_TYPE",
+      "MEASURE",
+      "AGE",
+      "SEX",
+      "UNIT_MEASURE",
+      "TIME_PERIOD"
+    ],
+    "raw_duplicate_keys": 0,
+    "raw_missing_observation_values": 0,
+    "raw_year_range": [
+      2000,
+      2025
+    ],
+    "raw_regions": 17,
+    "raw_status_counts": {
+      "A": 18896,
+      "E": 136
+    },
+    "raw_rows_by_year": {
+      "2000": 480,
+      "2001": 480,
+      "2002": 480,
+      "2003": 480,
+      "2004": 480,
+      "2005": 864,
+      "2006": 864,
+      "2007": 864,
+      "2008": 864,
+      "2009": 864,
+      "2010": 864,
+      "2011": 864,
+      "2012": 873,
+      "2013": 873,
+      "2014": 873,
+      "2015": 873,
+      "2016": 873,
+      "2017": 918,
+      "2018": 918,
+      "2019": 918,
+      "2020": 918,
+      "2021": 748,
+      "2022": 748,
+      "2023": 748,
+      "2024": 255,
+      "2025": 48
+    },
+    "prepared_panels": [
+      {
+        "file": "labour_15_64_region_sex_year_2005_2023.csv",
+        "rows": 969,
+        "complete_rows": 933,
+        "rows_with_any_value": 948,
+        "all_missing_rows": 21,
+        "years": [
+          2005,
+          2023
+        ],
+        "age": "Y15T64",
+        "sexes": [
+          "_T",
+          "F",
+          "M"
+        ],
+        "observed_by_variable": {
+          "population": 948,
+          "labour_force": 933,
+          "employed": 933,
+          "unemployed": 933,
+          "employment_rate_pct": 933,
+          "participation_rate_pct": 933,
+          "unemployment_rate_pct": 933
+        },
+        "key": [
+          "region_code",
+          "year",
+          "age_code",
+          "sex_code"
+        ],
+        "complete_rows_by_sex": {
+          "_T": 311,
+          "F": 311,
+          "M": 311
+        }
+      },
+      {
+        "file": "youth_15_24_region_year_2005_2023.csv",
+        "rows": 323,
+        "complete_rows": 311,
+        "rows_with_any_value": 316,
+        "all_missing_rows": 7,
+        "years": [
+          2005,
+          2023
+        ],
+        "age": "Y15T24",
+        "sexes": [
+          "_T"
+        ],
+        "observed_by_variable": {
+          "population": 316,
+          "labour_force": 311,
+          "unemployed": 311,
+          "unemployment_rate_pct": 311
+        },
+        "key": [
+          "region_code",
+          "year",
+          "age_code",
+          "sex_code"
+        ],
+        "complete_rows_by_sex": {
+          "_T": 311
+        }
+      },
+      {
+        "file": "labour_15plus_region_year_2000_2024.csv",
+        "rows": 425,
+        "complete_rows": 408,
+        "rows_with_any_value": 413,
+        "all_missing_rows": 12,
+        "years": [
+          2000,
+          2024
+        ],
+        "age": "Y_GT15",
+        "sexes": [
+          "_T"
+        ],
+        "observed_by_variable": {
+          "population": 413,
+          "labour_force": 408,
+          "employed": 408,
+          "unemployed": 408,
+          "employment_rate_pct": 408,
+          "participation_rate_pct": 408,
+          "unemployment_rate_pct": 408
+        },
+        "key": [
+          "region_code",
+          "year",
+          "age_code",
+          "sex_code"
+        ],
+        "complete_rows_by_sex": {
+          "_T": 408
+        }
+      }
+    ],
+    "working_age_reconciliation": {
+      "checked_rows": 933,
+      "max_abs_labour_force_minus_employed_minus_unemployed_persons": 100.0,
+      "max_abs_rate_difference_percentage_points": {
+        "employment_rate_pct": 0.049969885194229846,
+        "participation_rate_pct": 0.04973776663746321,
+        "unemployment_rate_pct": 0.049987408713170645
+      },
+      "note": "Differences are reported rather than changed; official rates were preserved. Maximum rate difference is below 0.05 percentage point."
+    },
+    "warnings": [
+      "Annual regional aggregate statistics, not monthly EIS administrative microdata and not AX occupation data.",
+      "The 19,032 raw indicator records must not be reported as independent region-year sample units.",
+      "Sex total (_T) overlaps male and female; do not add all three or treat them as independent samples.",
+      "Age groups overlap: 15-24 is contained in 15-64, and both overlap the broad 15+ group.",
+      "Sejong labour statistics start in 2017 in this extract; population starts in 2012. Pre-start cells are not zero.",
+      "Geographic names follow the OECD snapshot; historical administrative boundary comparability has not been independently established.",
+      "2024-2025 raw coverage is partial by indicator and age. 15-64 and youth main panels end in 2023.",
+      "Youth unemployment percentage uses MEASURE=UNE and UNIT_MEASURE=PT_LF_SUB, unlike the UNE_RATE measure used for 15-64.",
+      "Regional policy grouping is analyst-added; source geographic codes and source values were not modified.",
+      "Aggregated rates cannot be combined across regions by simple addition; use compatible numerators and denominators.",
+      "Forecast evaluation must hold out future years and avoid random splits across sex totals/components of the same region-year.",
+      "This snapshot does not establish historical publication dates or data vintages; pseudo-real-time evaluation needs additional release information."
+    ]
+  },
+  "interpretation": "Regional aggregate panels, not individual longitudinal records. Annual frequency. Not AX occupations, not EIS administrative microdata.",
+  "no_forecast_models_fitted": true
+}

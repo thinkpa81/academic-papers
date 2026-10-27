@@ -1,0 +1,26 @@
+{
+  "B": 1000,
+  "seed": 20261025,
+  "pool": [
+    "zero",
+    "last_growth",
+    "industry_past_mean",
+    "global_past_mean",
+    "global_past_median",
+    "lagged_available_region_industry_growth",
+    "ridge_alpha1",
+    "ridge_alpha10",
+    "ridge_alpha100",
+    "ridge_alpha1000",
+    "ridge_alpha10000",
+    "pooled_ar1",
+    "panel_ar1_l1",
+    "panel_ar1_l10",
+    "panel_ar1_l100",
+    "panel_ar1_l1000",
+    "panel_ar1_l10000"
+  ],
+  "resampling": "same sampled regions duplicated in train, validation, test; preprocessing and selection refitted",
+  "fixed": "features, raw vintage, observed years; nonlinear candidates excluded",
+  "prior_test_results_known": true
+}

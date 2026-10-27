@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "scope": "Additional code review, not external validation or user evaluation. A-cases were specified in prose before revised implementation inspection; E-cases are exploratory. Exceptions imply missing structured diagnostic response, not observed permission.",
+  "source_frozen_cases_sha256": "2b9f763ffdaaf358c12ff22c4f12f0b04a81e94dc33db0b62f65ffd972639a1a",
+  "workflow_guard_sha256": "98abcd07cc78f5af9bac225601c988f0da3be58cbb7faa9da2806b39d9f81b12",
+  "rows": [
+    {
+      "case_id": "A01",
+      "description": "Previous valid review hash with updated coherent current card",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "review_card_binding"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A02",
+      "description": "Arbitrary well-formed nonempty review hash",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "review_card_binding"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A03",
+      "description": "Previous request receipt reused with same card",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "receipt_request_binding"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A04",
+      "description": "Rehashed coherent current card with old receipt and review",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "review_card_binding",
+        "receipt_card_binding",
+        "current_card_binding"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A05",
+      "description": "Still-eligible publication date edited without fresh receipt",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "receipt_request_binding",
+        "current_request_binding"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A06",
+      "description": "Rehashed numeric relative-deviation inconsistency",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "relative_deviation_arithmetic",
+        "relative_deviation_label"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A07",
+      "description": "String false used as acknowledgement",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "warnings_must_be_true_boolean"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A08a",
+      "description": "Boolean prediction",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "finite_numeric_fields"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A08b",
+      "description": "Nonfinite prediction",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "number_outside_supported_finite_domain"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A09",
+      "description": "Release and vintage exactly equal cutoff",
+      "expected_block": false,
+      "observed_block": false,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A10a",
+      "description": "Past target in operational-cutoff request",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "source_metadata_ineligible"
+      ],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A10b",
+      "description": "Same past target in retrospective request",
+      "expected_block": false,
+      "observed_block": false,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A11",
+      "description": "Historical outcome audit changed only",
+      "expected_block": false,
+      "observed_block": false,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "A12",
+      "description": "JSON object keys reversed only",
+      "expected_block": false,
+      "observed_block": false,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [],
+      "note": "pre-implementation prose specification"
+    },
+    {
+      "case_id": "E01",
+      "description": "Wrong baseline direction label with coherent numeric values",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "baseline_extra_direction_consistency"
+      ],
+      "note": "exploratory code-review probe; not a frozen primary case"
+    },
+    {
+      "case_id": "E02",
+      "description": "Missing top-level review",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "top_level_workflow_schema_invalid"
+      ],
+      "note": "exploratory code-review probe; not a frozen primary case"
+    },
+    {
+      "case_id": "E03",
+      "description": "Review is null",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "top_level_workflow_schema_invalid"
+      ],
+      "note": "exploratory code-review probe; not a frozen primary case"
+    },
+    {
+      "case_id": "E04",
+      "description": "Card is null",
+      "expected_block": true,
+      "observed_block": true,
+      "matches_expectation": true,
+      "exception": null,
+      "codes": [
+        "top_level_workflow_schema_invalid"
+      ],
+      "note": "exploratory code-review probe; not a frozen primary case"
+    }
+  ],
+  "specified_case_count": 14,
+  "specified_matches": 14,
+  "exploratory_case_count": 4,
+  "exploratory_matches": 4
+}

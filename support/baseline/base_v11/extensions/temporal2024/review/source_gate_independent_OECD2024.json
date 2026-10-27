@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "scope": "frozen_model_2024_complete_170_target_diagnostic",
+  "decision_utc": "2026-09-23T14:42:54.907681+00:00",
+  "eligibility_decided_without_prediction_losses": true,
+  "model_performance_evaluated": false,
+  "new_predictions_or_losses_loaded": false,
+  "official_source_identifiers": [
+    "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_ECO@DF_EMP,2.4/A..KOR+KR01+KR011+KR012+KR013+KR02+KR021+KR022+KR023+KR03+KR031+KR032+KR04+KR041+KR042+KR043+KR05+KR051+KR052+KR053+KR054+KR06+KR061+KR07+KR071..EMP...?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+    "KOSIS DT_1ES3B05S KSIC10 source-period bridge",
+    "https://kostat.go.kr/boardDownload.es?bid=211&list_no=433146&seq=1"
+  ],
+  "eligible_target_years": [
+    2024
+  ],
+  "approved_outcomes_sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738",
+  "approved_frozen_prediction_sha256": {
+    "2024": "7133fb132ff5d57ae77a1c266dbe481aebc6b1f23d05e1dd91227cfe15a806b2"
+  },
+  "checks": {
+    "official_source_verified": {
+      "status": "PASS",
+      "evidence": "Official OECD SDMX DF_EMP 2.4 CSV received with HTTP200, recorded exact URI, content type, source SHA; final target reproduces raw official records exactly."
+    },
+    "geography17_matched": {
+      "status": "PASS",
+      "evidence": "The complete pre-frozen Cartesian product of the original17 TL3 Korean region codes is present without duplicates or added geography."
+    },
+    "industry10_matched": {
+      "status": "PASS",
+      "evidence": "The exact original10 disjoint broad ACTIVITY codes are selected. C(manufacturing) and _T(total) are excluded from target universe to avoid double counting; available KOSIS KSIC10 mapped aggregates match exactly."
+    },
+    "employment_unit_matched": {
+      "status": "PASS",
+      "evidence": "All target records have MEASURE EMP, UNIT_MEASURE PS, UNIT_MULT0, positive finite values and OBS_STATUS A; no unit conversion or missing-value replacement is needed."
+    },
+    "observation_reference_time_compatible": {
+      "status": "PASS",
+      "evidence": "This check is scoped to the 2023H1→2024H1 target pair: 2023 agrees with all176 available KOSIS H1 aggregates;2024 agrees with all175 available H1 aggregates. Old2022=H2 (177 exact matches), so original history remains heterogeneous and is disclosed rather than labelled uniformly annual."
+    },
+    "historical_overlap_review_passed": {
+      "status": "PASS",
+      "evidence": "Old OECD2.0 vs current2.4: all374 matched cells (2022 and2023,17regions×10sectors plus totals) are exactly equal. All170 target origins are frozen old2023 values. No baseline-vintage level revision enters the newly scored target pair."
+    },
+    "labour_covariates_required_for_used_origins_matched": {
+      "status": "PASS",
+      "evidence": "For target2024 only, all frozen2023 15–64/total-sex LF_RATE and UNE_RATE inputs exactly reproduce original raw version2.0 values across17regions and170rows. No current2.4 covariate is substituted. The newly discovered LF revision is unresolved and blocks2025 extension, not the reproduction of frozen original2023 inputs."
+    },
+    "no_unresolved_series_break": {
+      "status": "PASS",
+      "evidence": "PASS applies only to the new2023H1→2024H1 boundary and unchanged region/activity/unit snapshot: official current OECD reproduces original2023 exactly, and all independently observable2024 KSIC10 source aggregates match. This does not certify the entire original history: observation intervals vary and prior administrative breaks remain limits.12 target aggregates are official direct OECD values even though KOSIS components have hyphens, so they are not imputed or independently KOSIS-verified."
+    },
+    "no_loss_based_exclusions": {
+      "status": "PASS",
+      "evidence": "All170 pre-frozen keys are retained; no predictions or model losses were loaded during this source review. The earlier158 KOSIS-complete source route was never scored. Eligibility is source availability and definitions only."
+    }
+  },
+  "independent_counts": {
+    "old_new_overlap_exact": 374,
+    "old_new_overlap_total": 374,
+    "kosis2024_numeric_aggregates_exact": 175,
+    "kosis2024_numeric_aggregates_total": 175,
+    "kosis2024_industry_complete": 158,
+    "official_oecd2024_industry_complete": 170,
+    "origin_input_rows_checked": 170,
+    "original2023_covariate_values_checked": 34
+  },
+  "source_hashes": {
+    "oecd_korea_regional_industry_raw.csv": "5979c7e9942ce7d9aeb84410e22d08799a6a645470392cc3725d4c30cdb2c4f4",
+    "oecd_korea_emp_2_4_latest.csv": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf",
+    "oecd_v2_4_target2024_170.csv": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738",
+    "frozen_inputs_origin2023_for_target2024.csv": "2578ac9208cf4add3b22e6cf1981afee865a1ccd6eb997ccf7ec0addbb783559",
+    "oecd_korea_regional_labour_raw.csv": "618fe6aa0d38e1e13783276a0c0652122e0ff8af4bab645f4d3361fe0942a511",
+    "source_gate_independent_2024H1.json": "8b4315d47fcc54270dedf093ec2e127126f535e39860a4bc3dd93624e2468602"
+  },
+  "limitations": [
+    "Original2022→2023 is a six-month H2→H1 change; other original-year intervals are not certified uniform. Preserve existing results and amend interpretation.",
+    "Source check permits one held-year frozen-model follow-up. It does not establish live availability or prospective forecasting performance.",
+    "Official direct aggregates permit170-cell coverage but the12 KOSIS-incomplete aggregates do not acquire an independent component-level check.",
+    "Latest15–64 LF_RATE changes for2022/23 remain unresolved; frozen originals were not replaced.2025 stays HOLD."
+  ],
+  "note": "Original strict170-cell evaluator may run only for2024 with these approved hashes; do not recast this as resolution of all original observation-interval or survey-error limitations."
+}

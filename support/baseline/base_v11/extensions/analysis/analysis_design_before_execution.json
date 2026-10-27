@@ -1,0 +1,135 @@
+{
+  "design_version": 2,
+  "predecessor": "prior_version_v1/analysis_design_before_execution.json; full v1 outputs preserved",
+  "change_reason": "Restore omitted original industry-mean baseline, add explicit zero summary, and portable CLI. No model grid, filter or split changed; not performance-driven tuning.",
+  "created_utc": "2026-09-23T10:00:36.553320+00:00",
+  "status": "Post-hoc robustness design fixed before this extension execution; not preregistered, not independent external validation.",
+  "source_original_results": "Original 2011–2017 train / 2018–2020 validation / 2021–2023 test retained as previously reported; no replacement by this extension.",
+  "target": "100 ln(E_(t+1)/E_t); log points",
+  "primary_split": {
+    "train": [
+      2011,
+      2017
+    ],
+    "validation": [
+      2018,
+      2020
+    ],
+    "test": [
+      2021,
+      2023
+    ]
+  },
+  "ridge_alpha": [
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.2277660168379,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "tie_rule": "Lowest validation MAE; ties retain declared order. Ridge grid declared in ascending alpha order.",
+  "constants": [
+    "zero",
+    "training_target_mean",
+    "training_target_median"
+  ],
+  "baselines": [
+    "zero",
+    "mean",
+    "median",
+    "industry_mean",
+    "persistence",
+    "damped_persistence",
+    "national_industry_lag"
+  ],
+  "damped_persistence_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "national_industry_lag": "100 ln(sum E_t / sum E_(t-1)) over ALL regions in the same industry with strictly positive paired E_t AND E_(t-1); input latest year t < target t+1. Focal region included. Lagged benchmark, NOT realized future growth, NOT full classical shift-share decomposition.",
+  "Huber": {
+    "epsilon": 1.35,
+    "alpha": 0.0001,
+    "max_iter": 2000,
+    "tol": 1e-05,
+    "tuning": "none"
+  },
+  "QuantileRegressor": {
+    "quantile": 0.5,
+    "alpha": 0.0,
+    "solver": "highs",
+    "tuning": "none; unpenalized LAD, numerical covariates standardized; categorical terms one-hot encoded"
+  },
+  "RF": {
+    "n_estimators": 300,
+    "max_depth": [
+      4,
+      8
+    ],
+    "min_samples_leaf": [
+      10,
+      25
+    ],
+    "random_state": 20260918,
+    "n_jobs": 2,
+    "scope": "Full fixed-split scenario and every rolling origin; no RF in ablation scenarios to limit redundant computation."
+  },
+  "preprocessing": "Each validation candidate fitted on train only; chosen settings refitted on train+validation. StandardScaler for linear models; original one-hot full categories with unknown categories ignored. RF numeric passthrough.",
+  "origin_filter": "origin_employment_weight >= 10000, observed at forecast origin. Applied separately to every split for refit; frozen evaluation does not alter training.",
+  "scenarios": "2×2×2 refit grid of full vs origin>=10000, all industries vs exclude A, own lags included vs removed; plus full data all growth variables removed; plus Chungnam row exclusion; plus Chungnam exclusion with other-region/national signals recomputed without Chungnam.",
+  "frozen_filters": [
+    "all",
+    "origin_ge10000",
+    "exclude_A",
+    "origin_ge10000_exclude_A",
+    "exclude_chungnam"
+  ],
+  "ablation_definitions": {
+    "drop_own_growth": [
+      "growth_t",
+      "growth_tm1"
+    ],
+    "drop_all_growth": [
+      "growth_t",
+      "growth_tm1",
+      "other_regions_industry_growth",
+      "region_total_growth"
+    ]
+  },
+  "rolling": {
+    "target_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "train": "2011 <= target_year <= Y-2",
+    "validation": "target_year == Y-1",
+    "test": "target_year == Y",
+    "refit": "train+validation after per-origin selection",
+    "candidates": "all baselines, ridge grid, fixed Huber, fixed median regression, RF original four-setting grid"
+  },
+  "strategies": [
+    "validation_best_baseline",
+    "validation_best_learned",
+    "validation_best_all"
+  ],
+  "rolling_uncertainty": "Report paired annual MAE differences and equal-origin average. Nine overlapping expanding origins, including years used in original train/validation; not independent replications. No DM p-values or significance claim.",
+  "source_jump": "Report Chungnam raw employment (all 10 broad industries, C and _T), 2014–2019, prior year levels, raw status and both log/simple changes; a discontinuity in numbers is not proof of a methodological break.",
+  "no_result_adaptation": true,
+  "seed": 20260918,
+  "threads": 2,
+  "script_sha256": "59417e858cff6caf6682e89af1ff40a43a48ab284fac1f1f3b707d9aee78f562"
+}

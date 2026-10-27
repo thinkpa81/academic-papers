@@ -1,0 +1,46 @@
+{
+  "protocol_id": "KITS-WORKFLOW-20261005-v1",
+  "status": "frozen_before_first_benchmark_execution",
+  "seed": 20261005,
+  "source_commit": "withheld_for_anonymous_review",
+  "scope": "Post hoc formative engineering revision; neither external preregistration nor independent external validation.",
+  "unit": "One explicitly specified workflow fixture; denominators refer to specifications, never people or independent field incidents.",
+  "provenance": "Stored Seoul BTE card values reused only as a numerical template; all request metadata, review records, receipts and workflow state are synthetic fixtures.",
+  "outcome": "Allow limited research-review completion or block; no configuration authorizes operations, institutional approval or policy action.",
+  "oracle": "Expected block/allow fixed per named mutation from prose invariants before benchmark execution; no expected label obtained from validator return values.",
+  "invariants": {
+    "T": "Operational-cutoff research requests need known release/vintage no later than cutoff, 12-month matching periods, common classification, verified boundaries and archived-vintage references. Retrospective reviews may retain timing warnings without becoming operationally eligible.",
+    "I": "Card decision-basis hash matches fields excluding the separately labeled outcome audit; automatic action remains false; review schema is complete and correctly typed.",
+    "S": "Baseline/comparator/deviation values are finite, deviation equals comparator-minus-baseline, displayed bands agree with fixed tolerance, contribution sum equals comparator and validation count/MAE fields are internally coherent.",
+    "L": "Review references this exact card; receipt references this exact request and card; trusted current workflow state matches both; card source vintage, target year and input year agree with request. Current state is assumed trusted, not cryptographic authentication."
+  },
+  "configurations": [
+    "original_composed",
+    "flat_same_predicates",
+    "linked_full",
+    "linked_without_T",
+    "linked_without_S",
+    "linked_without_L"
+  ],
+  "comparator_note": "original_composed invokes pinned original source-gate/card/review functions. Flat_same_predicates evaluates exactly the same rules as linked_full and is an information/rule-equivalent control, not an independent implementation or human checklist experiment. Any improvement over original is attributed to added explicit invariants, not UI form.",
+  "families": [
+    "normal_boundary",
+    "time_metadata",
+    "integrity_schema",
+    "numeric_semantics",
+    "record_linkage",
+    "compound_secondary"
+  ],
+  "reporting": "Per case/configuration CSV; primary single-fault and control totals separately from compound cases; correct blocks, misses, false blocks and correct permits; by family; ablation lost detections; complete errors retained.",
+  "no_claims": [
+    "population defect-detection rate",
+    "significance",
+    "real user benefit",
+    "field representativeness",
+    "malicious adversary resistance",
+    "historical vintage availability for actual data",
+    "prediction superiority"
+  ],
+  "holdout": "No untouched real-world test set. All newly designed fixtures are development-stage technical evaluation. Additional independent agent review is internal code review only.",
+  "change_policy": "Log protocol or code changes after first execution, retain first-run results if any correction is required; never silently delete failing controls."
+}

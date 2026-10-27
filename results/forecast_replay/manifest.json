@@ -1,0 +1,132 @@
+[
+  {
+    "path": "additional_model_coefficients.csv",
+    "bytes": 1824,
+    "sha256": "0bbb831c2231587059de10b4f670e71d04110d79a2bd9ab91e6ebd5959cd5791"
+  },
+  {
+    "path": "all_metrics.csv",
+    "bytes": 10593,
+    "sha256": "e73676cfbe5f65797b3ced8d9136e451eaf99ec286e2623e5087eae9fc528516"
+  },
+  {
+    "path": "all_paired_comparisons.csv",
+    "bytes": 15664,
+    "sha256": "b418c34e309fca141af088e8c0c6a1b5b966d70b3274263d2fab898a853dd9f0"
+  },
+  {
+    "path": "execution_start.json",
+    "bytes": 251,
+    "sha256": "6f4571d3e0de19680575fe745220c66a7a2831c04f56d00f50e385dc2e097deb"
+  },
+  {
+    "path": "normalization_stdout.txt",
+    "bytes": 2722,
+    "sha256": "3980f5cf719ec8175d1f8e721d3aa8ca3667194cba98c262a5c76c57f3abb990"
+  },
+  {
+    "path": "outcome_dependent_trim_ledger.csv",
+    "bytes": 1677,
+    "sha256": "198cd3fee02b83d1ba2a1f0b461a8d099a553577f4d5d3ea23f33cc816b51578"
+  },
+  {
+    "path": "panel_replay/analysis_panel.csv",
+    "bytes": 457858,
+    "sha256": "ae324650eb06ebc44418019982da70127f970f276b712f7a78176d775b3149b5"
+  },
+  {
+    "path": "panel_replay/cohort_counts.csv",
+    "bytes": 267,
+    "sha256": "4423a903808e4bbb05fe427a70f71c3c2fdaa00e85b89d8fd57d89ce96fff7cc"
+  },
+  {
+    "path": "panel_replay/exclusion_ledger.csv",
+    "bytes": 84770,
+    "sha256": "bc832538a4e024532f96ec6dd8b1670ddb0e205514c92ce4afc20f38285cd2ee"
+  },
+  {
+    "path": "panel_replay/exclusion_reason_counts.csv",
+    "bytes": 821,
+    "sha256": "036e7881cc1e73ee71ee66c15d439ebd2da814f21d22f8e70f270b8226215772"
+  },
+  {
+    "path": "selection_before_new_test_predictions.json",
+    "bytes": 379,
+    "sha256": "c7d1d36355f8f5193827e1d0d0fd8b9ab5beef4081ca9ab7beb33274f0cce18b"
+  },
+  {
+    "path": "source_replay/broad_activity_crosswalk.csv",
+    "bytes": 583,
+    "sha256": "2c2be90dfb5824626d81ed476311e9419952f33353881763b3c38e7d8881c338"
+  },
+  {
+    "path": "source_replay/coverage_by_year.csv",
+    "bytes": 435,
+    "sha256": "d3ec069ef6934fff9658105d3a1701ecbf6c5d2a0aa2e5a7e7b31a93eb6d400b"
+  },
+  {
+    "path": "source_replay/incomplete_broad_cells.csv",
+    "bytes": 48014,
+    "sha256": "377296799557a0f87ec97be5f826830664ba7cdbc85fa1c450862a067b44bbf8"
+  },
+  {
+    "path": "source_replay/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+    "bytes": 871199,
+    "sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357"
+  },
+  {
+    "path": "source_replay/kosis_ksic11_H1_2013_2025_national_panel.csv",
+    "bytes": 36159,
+    "sha256": "74f10e10f2a1e3fdecd9b3060097f8ffae563dec0c6aed541e42c60234d4fe11"
+  },
+  {
+    "path": "source_replay/kosis_ksic11_H1_2013_2025_panel.csv",
+    "bytes": 626349,
+    "sha256": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98"
+  },
+  {
+    "path": "source_replay/kosis_ksic11_H1_2013_2025_sections.csv",
+    "bytes": 1311929,
+    "sha256": "5f70b6c4783665a17dc35ebcc1f1f824e5067b82e227998357a05376484ebe9a"
+  },
+  {
+    "path": "source_replay/normalize_harmonized_source.py",
+    "bytes": 10311,
+    "sha256": "66fa132b7f36814705844e0c40ba69a7c830554304dd10181758a17153a26ace"
+  },
+  {
+    "path": "source_replay/source_acquisition_manifest.json",
+    "bytes": 4186,
+    "sha256": "9654689c101ff0f83ac3838a22262d61bacd2045ad39a80b5a45184ca6f7ef1b"
+  },
+  {
+    "path": "source_replay/table_metadata_and_notes.txt",
+    "bytes": 865,
+    "sha256": "e8ed7d176256f39709ed8c4d1d5d5c313fd9a36c0ca4d310943396fb407f8d24"
+  },
+  {
+    "path": "source_replay_checks.json",
+    "bytes": 866,
+    "sha256": "9b0ef0be7446de00d1fd77bfc26569f23a96aadcf3f4c7dcc1b8f37b33120ba4"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 14924,
+    "sha256": "20063bf61d56f75e09e4b73faee418ee25bbf92227877363ddc67b92e542c5ca"
+  },
+  {
+    "path": "test_predictions_additional.csv",
+    "bytes": 234200,
+    "sha256": "08fc1dd9e5b9424e450a6dd05a37468957b325f78f8869c6bf536a1a26a72694"
+  },
+  {
+    "path": "validation_grid.csv",
+    "bytes": 1112,
+    "sha256": "b8360f89cc41e0b7c5b797276285b11097f31c6a42439f183030986211347987"
+  },
+  {
+    "path": "validation_predictions.csv",
+    "bytes": 377188,
+    "sha256": "ea97020d8f3550b861868e24d6e0f02620337096ce48f1f6555a1552ea9464be"
+  }
+]

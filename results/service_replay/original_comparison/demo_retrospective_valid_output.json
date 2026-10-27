@@ -1,0 +1,54 @@
+{
+  "version": "workflow-consistency-1.1.0",
+  "status": "research_review_complete",
+  "research_review_permitted": true,
+  "evaluation_order": "module_trace",
+  "errors": [],
+  "source_gate": {
+    "version": "source-time-controls-5.0.0",
+    "role": "retrospective_diagnostic",
+    "intended_decision_date": "2024-12-31",
+    "target_refperiod": "2025-04",
+    "sources": [
+      {
+        "source_id": "SYNTHETIC_PRIMARY",
+        "source_refperiod": "2024-04",
+        "previous_refperiod": "2023-04",
+        "release_date": "2024-10-08",
+        "vintage_date": "2026-09-26",
+        "classification": "KSIC11",
+        "boundary_status": "stable_verified",
+        "observation_interval_months": 12,
+        "vintage_availability_status": "current_snapshot_only",
+        "vintage_evidence_ref": null,
+        "release_evidence_ref": "SYNTHETIC_ONLY"
+      }
+    ],
+    "issues": [
+      {
+        "code": "vintage_after_decision",
+        "source_id": "SYNTHETIC_PRIMARY",
+        "detail": "사용한 빈티지 일자가 의도한 판단시점 뒤임"
+      },
+      {
+        "code": "historical_vintage_unverified",
+        "source_id": "SYNTHETIC_PRIMARY",
+        "detail": "과거 공표일만으로 현재 소급계열 값의 당시 이용가능성이 증명되지 않음"
+      }
+    ],
+    "disposition": "retrospective_only",
+    "display_label": "현재 스냅숏에 근거한 회고적 고용변동 진단·기술 시연",
+    "metadata_eligible_for_requested_cutoff": false,
+    "automatic_policy_action_allowed": false,
+    "production_deployment_validated": false,
+    "legal_compliance_certified": false,
+    "human_or_policy_effect_evaluated": false,
+    "source_gate_basis_sha256": "c7154a7691e9dbdb0aa10020f040f81b7c9b1d385f87a2ef5d91e6bf442a3a10",
+    "interpretation": "연구자 자료 검토 규칙의 기술 구현이며 특정 법조문의 직접 의무나 준법 인증이 아님"
+  },
+  "automatic_policy_action_allowed": false,
+  "operational_prediction_permitted": false,
+  "institutional_approval_granted": false,
+  "human_evaluation_conducted": false,
+  "interpretation": "Technical consistency only; current_state is trusted caller state. Hashes do not authenticate authors or prove provenance."
+}

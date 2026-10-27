@@ -1,0 +1,142 @@
+{
+  "checks": [
+    {
+      "check": "strict_two_region_sum",
+      "passed": true,
+      "detail": "143 source cells; missingness preserved"
+    },
+    {
+      "check": "other_regions_unchanged",
+      "passed": true,
+      "detail": "2145 source cells"
+    },
+    {
+      "check": "independent_target_logpoints",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_log_employment",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_industry_share_pct",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_own_growth",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_own_growth_lag1",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_peer_industry_growth",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "independent_region_total_growth",
+      "passed": true,
+      "detail": {
+        "n": 1387,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "chungnam_boundary_gate_preserved",
+      "passed": true,
+      "detail": "2017 transition and lag-affected rows excluded"
+    },
+    {
+      "check": "merged_outer_boundary_not_filtered",
+      "passed": true,
+      "detail": "9 valid industries per year retained"
+    },
+    {
+      "check": "validation_only_selection_matches_grid",
+      "passed": true,
+      "detail": {
+        "baseline": "global_past_mean",
+        "ridge": "ridge_alpha100"
+      }
+    },
+    {
+      "check": "saved_ridge_replay",
+      "passed": true,
+      "detail": {
+        "n": 436,
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "refitted_global_mean_baseline",
+      "passed": true,
+      "detail": {
+        "refitted_value": 0.7640859734819511
+      }
+    },
+    {
+      "check": "validation_baseline_uses_training_only",
+      "passed": true,
+      "detail": {
+        "training_value": 0.9801352183765989
+      }
+    },
+    {
+      "check": "nine_available_one_missing",
+      "passed": true,
+      "detail": {
+        "available": 9,
+        "unavailable": [
+          "BTE"
+        ]
+      }
+    },
+    {
+      "check": "service_deviation_matches",
+      "passed": true,
+      "detail": "All 9 eligible service cells"
+    },
+    {
+      "check": "pooled_mae_global_past_mean",
+      "passed": true,
+      "detail": {
+        "independently_calculated": 9.236861741782809
+      }
+    },
+    {
+      "check": "pooled_mae_ridge_alpha100",
+      "passed": true,
+      "detail": {
+        "independently_calculated": 9.087760854355441
+      }
+    }
+  ],
+  "passed": 19,
+  "total": 19,
+  "scope": "Arithmetic, unchanged-source, reconstructed-feature, saved-model replay and selection verification; not field validity evaluation."
+}

@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "scope": "coherent_control",
+      "n": 272,
+      "matching": 272,
+      "permit": 272,
+      "block": 0
+    },
+    {
+      "scope": "existing_contract",
+      "n": 48,
+      "matching": 48,
+      "permit": 0,
+      "block": 48
+    },
+    {
+      "scope": "extended_model_provenance_probe",
+      "n": 14,
+      "matching": 14,
+      "permit": 0,
+      "block": 14
+    },
+    {
+      "scope": "generated_mutations",
+      "n": 400,
+      "matching": 400,
+      "permit": 0,
+      "block": 400
+    },
+    {
+      "scope": "serialization_controls",
+      "n": 272,
+      "matching": 272,
+      "permit": 272,
+      "block": 0
+    }
+  ],
+  "human_participants": 0,
+  "registry_records": 272,
+  "independent_external_validation": false,
+  "known_case_sha256": "6e522eb2a52dbe66fe67a1361e3d79b8eef06c318488309cc3eb46d5ab98adbb",
+  "implementation_sha256": "b62b7070455b729b25c45e1ee1a7115074e0f882529c52795b6a2057c65cc17a"
+}

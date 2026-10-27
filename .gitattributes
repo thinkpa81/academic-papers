@@ -1,0 +1,2 @@
+# Preserve original bytes for the scientific SHA-256 manifests on Windows too.
+* -text

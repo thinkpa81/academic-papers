@@ -1,0 +1,27 @@
+{
+  "label": "2024",
+  "train_n": 1021,
+  "validation_n": 155,
+  "test_n": 137,
+  "selected": {
+    "baseline6": "global_past_median",
+    "learned14": "rf_depth8_leaf10",
+    "all20": "rf_depth8_leaf10",
+    "learned26": "rf_depth8_leaf10",
+    "all32": "rf_depth8_leaf10",
+    "strong_baseline12": "panel_ar1_l10",
+    "learned32": "rf_depth8_leaf10",
+    "all38": "rf_depth8_leaf10",
+    "family_ar1": "pooled_ar1",
+    "family_catboost": "catboost_d3_l210",
+    "family_hist_gradient_boosting": "hgb_leaves7_l21",
+    "family_huber": "huber",
+    "family_lightgbm": "lightgbm_l7_l21",
+    "family_panel_ar1": "panel_ar1_l10",
+    "family_random_forest": "rf_depth8_leaf10",
+    "family_ridge": "ridge_alpha100",
+    "family_xgboost": "xgboost_d3_l2100"
+  },
+  "selection_uses": "validation MAE only",
+  "retrospective": true
+}

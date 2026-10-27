@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "validation",
+    "candidate": "ridge_alpha1",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "ridge_alpha10",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "ridge_alpha100",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "ridge_alpha1000",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "ridge_alpha10000",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "rf_depth4_leaf10",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "rf_depth4_leaf25",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "rf_depth8_leaf10",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "rf_depth8_leaf25",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "validation",
+    "candidate": "hgb_leaves7_l21",
+    "warnings": [],
+    "iterations": 200
+  },
+  {
+    "stage": "validation",
+    "candidate": "hgb_leaves7_l210",
+    "warnings": [],
+    "iterations": 200
+  },
+  {
+    "stage": "validation",
+    "candidate": "hgb_leaves15_l21",
+    "warnings": [],
+    "iterations": 200
+  },
+  {
+    "stage": "validation",
+    "candidate": "hgb_leaves15_l210",
+    "warnings": [],
+    "iterations": 200
+  },
+  {
+    "stage": "validation",
+    "candidate": "huber",
+    "warnings": [],
+    "iterations": 49
+  },
+  {
+    "stage": "refit",
+    "candidate": "ridge_alpha100",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "refit",
+    "candidate": "rf_depth4_leaf25",
+    "warnings": [],
+    "iterations": null
+  },
+  {
+    "stage": "refit",
+    "candidate": "hgb_leaves7_l210",
+    "warnings": [],
+    "iterations": 200
+  },
+  {
+    "stage": "refit",
+    "candidate": "huber",
+    "warnings": [],
+    "iterations": 50
+  }
+]

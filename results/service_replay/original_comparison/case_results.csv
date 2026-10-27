@@ -1,0 +1,331 @@
+﻿case_id,configuration,family,description,secondary_compound,expected_block,observed_block,outcome,status,codes,operational_prediction_permitted
+C01,flat_same_predicates,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;review_card_binding,False
+C01,linked_full,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;review_card_binding,False
+C01,linked_without_L,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+C01,linked_without_S,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;review_card_binding,False
+C01,linked_without_T,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,review_card_binding,False
+C01,original_composed,compound_secondary,Unknown release plus stale review,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+C02,flat_same_predicates,compound_secondary,Wrong band plus stale current card,True,True,True,correct_block,research_review_blocked,relative_deviation_label;current_card_binding,False
+C02,linked_full,compound_secondary,Wrong band plus stale current card,True,True,True,correct_block,research_review_blocked,relative_deviation_label;current_card_binding,False
+C02,linked_without_L,compound_secondary,Wrong band plus stale current card,True,True,True,correct_block,research_review_blocked,relative_deviation_label,False
+C02,linked_without_S,compound_secondary,Wrong band plus stale current card,True,True,True,correct_block,research_review_blocked,current_card_binding,False
+C02,linked_without_T,compound_secondary,Wrong band plus stale current card,True,True,True,correct_block,research_review_blocked,relative_deviation_label;current_card_binding,False
+C02,original_composed,compound_secondary,Wrong band plus stale current card,True,True,False,miss,research_review_complete,,False
+C03,flat_same_predicates,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;warnings_must_be_true_boolean,False
+C03,linked_full,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;warnings_must_be_true_boolean,False
+C03,linked_without_L,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;warnings_must_be_true_boolean,False
+C03,linked_without_S,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;warnings_must_be_true_boolean,False
+C03,linked_without_T,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+C03,original_composed,compound_secondary,Unknown boundary plus string acknowledgement,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+C04,flat_same_predicates,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label;receipt_card_binding,False
+C04,linked_full,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label;receipt_card_binding,False
+C04,linked_without_L,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label,False
+C04,linked_without_S,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,True,correct_block,research_review_blocked,receipt_card_binding,False
+C04,linked_without_T,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label;receipt_card_binding,False
+C04,original_composed,compound_secondary,Rehashed incorrect deviation plus wrong receipt,True,True,False,miss,research_review_complete,,False
+C05,flat_same_predicates,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;request_card_target_year,False
+C05,linked_full,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;request_card_target_year,False
+C05,linked_without_L,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+C05,linked_without_S,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible;request_card_target_year,False
+C05,linked_without_T,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,request_card_target_year,False
+C05,original_composed,compound_secondary,Current snapshot only plus inconsistent target year,True,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+I01,flat_same_predicates,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid;relative_deviation_arithmetic,False
+I01,linked_full,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid;relative_deviation_arithmetic,False
+I01,linked_without_L,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid;relative_deviation_arithmetic,False
+I01,linked_without_S,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I01,linked_without_T,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid;relative_deviation_arithmetic,False
+I01,original_composed,integrity_schema,Card edited without recomputing hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,flat_same_predicates,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,linked_full,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,linked_without_L,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,linked_without_S,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,linked_without_T,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I02,original_composed,integrity_schema,Automatic-action flag true despite recomputed hash,False,True,True,correct_block,research_review_blocked,card_invalid,False
+I03,flat_same_predicates,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid;nonblank_review_reason_for_review,False
+I03,linked_full,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid;nonblank_review_reason_for_review,False
+I03,linked_without_L,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid;nonblank_review_reason_for_review,False
+I03,linked_without_S,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid;nonblank_review_reason_for_review,False
+I03,linked_without_T,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid;nonblank_review_reason_for_review,False
+I03,original_composed,integrity_schema,Required review reason missing,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,flat_same_predicates,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,linked_full,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,linked_without_L,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,linked_without_S,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,linked_without_T,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I04,original_composed,integrity_schema,Undefined identifying review field,False,True,True,correct_block,research_review_blocked,review_invalid,False
+I05,flat_same_predicates,integrity_schema,Warning acknowledgement is string false,False,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+I05,linked_full,integrity_schema,Warning acknowledgement is string false,False,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+I05,linked_without_L,integrity_schema,Warning acknowledgement is string false,False,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+I05,linked_without_S,integrity_schema,Warning acknowledgement is string false,False,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+I05,linked_without_T,integrity_schema,Warning acknowledgement is string false,False,True,True,correct_block,research_review_blocked,warnings_must_be_true_boolean,False
+I05,original_composed,integrity_schema,Warning acknowledgement is string false,False,True,False,miss,research_review_complete,,False
+I06,flat_same_predicates,integrity_schema,References supplied as scalar instead of list,False,True,True,correct_block,research_review_blocked,reference_materials_must_be_nonempty_list,False
+I06,linked_full,integrity_schema,References supplied as scalar instead of list,False,True,True,correct_block,research_review_blocked,reference_materials_must_be_nonempty_list,False
+I06,linked_without_L,integrity_schema,References supplied as scalar instead of list,False,True,True,correct_block,research_review_blocked,reference_materials_must_be_nonempty_list,False
+I06,linked_without_S,integrity_schema,References supplied as scalar instead of list,False,True,True,correct_block,research_review_blocked,reference_materials_must_be_nonempty_list,False
+I06,linked_without_T,integrity_schema,References supplied as scalar instead of list,False,True,True,correct_block,research_review_blocked,reference_materials_must_be_nonempty_list,False
+I06,original_composed,integrity_schema,References supplied as scalar instead of list,False,True,False,miss,research_review_complete,,False
+I07,flat_same_predicates,integrity_schema,Whitespace-only review reason,False,True,True,correct_block,research_review_blocked,nonblank_review_reason_for_review,False
+I07,linked_full,integrity_schema,Whitespace-only review reason,False,True,True,correct_block,research_review_blocked,nonblank_review_reason_for_review,False
+I07,linked_without_L,integrity_schema,Whitespace-only review reason,False,True,True,correct_block,research_review_blocked,nonblank_review_reason_for_review,False
+I07,linked_without_S,integrity_schema,Whitespace-only review reason,False,True,True,correct_block,research_review_blocked,nonblank_review_reason_for_review,False
+I07,linked_without_T,integrity_schema,Whitespace-only review reason,False,True,True,correct_block,research_review_blocked,nonblank_review_reason_for_review,False
+I07,original_composed,integrity_schema,Whitespace-only review reason,False,True,False,miss,research_review_complete,,False
+L01,flat_same_predicates,record_linkage,Review refers to different card hash,False,True,True,correct_block,research_review_blocked,review_card_binding,False
+L01,linked_full,record_linkage,Review refers to different card hash,False,True,True,correct_block,research_review_blocked,review_card_binding,False
+L01,linked_without_L,record_linkage,Review refers to different card hash,False,True,False,miss,research_review_complete,,False
+L01,linked_without_S,record_linkage,Review refers to different card hash,False,True,True,correct_block,research_review_blocked,review_card_binding,False
+L01,linked_without_T,record_linkage,Review refers to different card hash,False,True,True,correct_block,research_review_blocked,review_card_binding,False
+L01,original_composed,record_linkage,Review refers to different card hash,False,True,False,miss,research_review_complete,,False
+L02,flat_same_predicates,record_linkage,Card is stale relative to trusted current-card state,False,True,True,correct_block,research_review_blocked,current_card_binding,False
+L02,linked_full,record_linkage,Card is stale relative to trusted current-card state,False,True,True,correct_block,research_review_blocked,current_card_binding,False
+L02,linked_without_L,record_linkage,Card is stale relative to trusted current-card state,False,True,False,miss,research_review_complete,,False
+L02,linked_without_S,record_linkage,Card is stale relative to trusted current-card state,False,True,True,correct_block,research_review_blocked,current_card_binding,False
+L02,linked_without_T,record_linkage,Card is stale relative to trusted current-card state,False,True,True,correct_block,research_review_blocked,current_card_binding,False
+L02,original_composed,record_linkage,Card is stale relative to trusted current-card state,False,True,False,miss,research_review_complete,,False
+L03,flat_same_predicates,record_linkage,Request is stale relative to trusted current-request state,False,True,True,correct_block,research_review_blocked,current_request_binding,False
+L03,linked_full,record_linkage,Request is stale relative to trusted current-request state,False,True,True,correct_block,research_review_blocked,current_request_binding,False
+L03,linked_without_L,record_linkage,Request is stale relative to trusted current-request state,False,True,False,miss,research_review_complete,,False
+L03,linked_without_S,record_linkage,Request is stale relative to trusted current-request state,False,True,True,correct_block,research_review_blocked,current_request_binding,False
+L03,linked_without_T,record_linkage,Request is stale relative to trusted current-request state,False,True,True,correct_block,research_review_blocked,current_request_binding,False
+L03,original_composed,record_linkage,Request is stale relative to trusted current-request state,False,True,False,miss,research_review_complete,,False
+L04,flat_same_predicates,record_linkage,Receipt binds another card,False,True,True,correct_block,research_review_blocked,receipt_card_binding,False
+L04,linked_full,record_linkage,Receipt binds another card,False,True,True,correct_block,research_review_blocked,receipt_card_binding,False
+L04,linked_without_L,record_linkage,Receipt binds another card,False,True,False,miss,research_review_complete,,False
+L04,linked_without_S,record_linkage,Receipt binds another card,False,True,True,correct_block,research_review_blocked,receipt_card_binding,False
+L04,linked_without_T,record_linkage,Receipt binds another card,False,True,True,correct_block,research_review_blocked,receipt_card_binding,False
+L04,original_composed,record_linkage,Receipt binds another card,False,True,False,miss,research_review_complete,,False
+L05,flat_same_predicates,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,True,correct_block,research_review_blocked,receipt_request_binding;current_request_binding,False
+L05,linked_full,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,True,correct_block,research_review_blocked,receipt_request_binding;current_request_binding,False
+L05,linked_without_L,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,False,miss,research_review_complete,,False
+L05,linked_without_S,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,True,correct_block,research_review_blocked,receipt_request_binding;current_request_binding,False
+L05,linked_without_T,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,True,correct_block,research_review_blocked,receipt_request_binding;current_request_binding,False
+L05,original_composed,record_linkage,Still-eligible source metadata edited without refreshing receipt,False,True,False,miss,research_review_complete,,False
+L06,flat_same_predicates,record_linkage,Rebound card target year differs from request,False,True,True,correct_block,research_review_blocked,request_card_target_year,False
+L06,linked_full,record_linkage,Rebound card target year differs from request,False,True,True,correct_block,research_review_blocked,request_card_target_year,False
+L06,linked_without_L,record_linkage,Rebound card target year differs from request,False,True,False,miss,research_review_complete,,False
+L06,linked_without_S,record_linkage,Rebound card target year differs from request,False,True,True,correct_block,research_review_blocked,request_card_target_year,False
+L06,linked_without_T,record_linkage,Rebound card target year differs from request,False,True,True,correct_block,research_review_blocked,request_card_target_year,False
+L06,original_composed,record_linkage,Rebound card target year differs from request,False,True,False,miss,research_review_complete,,False
+L07,flat_same_predicates,record_linkage,Rebound card input year differs from request,False,True,True,correct_block,research_review_blocked,request_card_input_year,False
+L07,linked_full,record_linkage,Rebound card input year differs from request,False,True,True,correct_block,research_review_blocked,request_card_input_year,False
+L07,linked_without_L,record_linkage,Rebound card input year differs from request,False,True,False,miss,research_review_complete,,False
+L07,linked_without_S,record_linkage,Rebound card input year differs from request,False,True,True,correct_block,research_review_blocked,request_card_input_year,False
+L07,linked_without_T,record_linkage,Rebound card input year differs from request,False,True,True,correct_block,research_review_blocked,request_card_input_year,False
+L07,original_composed,record_linkage,Rebound card input year differs from request,False,True,False,miss,research_review_complete,,False
+L08,flat_same_predicates,record_linkage,Rebound card vintage differs from request,False,True,True,correct_block,research_review_blocked,request_card_source_vintage,False
+L08,linked_full,record_linkage,Rebound card vintage differs from request,False,True,True,correct_block,research_review_blocked,request_card_source_vintage,False
+L08,linked_without_L,record_linkage,Rebound card vintage differs from request,False,True,False,miss,research_review_complete,,False
+L08,linked_without_S,record_linkage,Rebound card vintage differs from request,False,True,True,correct_block,research_review_blocked,request_card_source_vintage,False
+L08,linked_without_T,record_linkage,Rebound card vintage differs from request,False,True,True,correct_block,research_review_blocked,request_card_source_vintage,False
+L08,original_composed,record_linkage,Rebound card vintage differs from request,False,True,False,miss,research_review_complete,,False
+L09,flat_same_predicates,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,True,correct_block,research_review_blocked,historical_vintage_card_claim,False
+L09,linked_full,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,True,correct_block,research_review_blocked,historical_vintage_card_claim,False
+L09,linked_without_L,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,False,miss,research_review_complete,,False
+L09,linked_without_S,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,True,correct_block,research_review_blocked,historical_vintage_card_claim,False
+L09,linked_without_T,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,True,correct_block,research_review_blocked,historical_vintage_card_claim,False
+L09,original_composed,record_linkage,Card says historical vintage unverified in operational-cutoff request,False,True,False,miss,research_review_complete,,False
+N01,flat_same_predicates,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N01,linked_full,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N01,linked_without_L,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N01,linked_without_S,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N01,linked_without_T,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N01,original_composed,normal_boundary,Complete synthetic metadata and linked review,False,False,False,correct_permit,research_review_complete,,False
+N02,flat_same_predicates,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N02,linked_full,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N02,linked_without_L,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N02,linked_without_S,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N02,linked_without_T,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N02,original_composed,normal_boundary,Actual-card vintage retained in retrospective-only fixture,False,False,False,correct_permit,research_review_complete,,False
+N03,flat_same_predicates,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N03,linked_full,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N03,linked_without_L,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N03,linked_without_S,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N03,linked_without_T,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N03,original_composed,normal_boundary,Release and vintage equal decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,flat_same_predicates,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,linked_full,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,linked_without_L,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,linked_without_S,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,linked_without_T,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N04,original_composed,normal_boundary,Vintage alone equals decision cutoff,False,False,False,correct_permit,research_review_complete,,False
+N05,flat_same_predicates,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N05,linked_full,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N05,linked_without_L,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N05,linked_without_S,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N05,linked_without_T,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N05,original_composed,normal_boundary,Outcome audit changes while decision fields and hash stay fixed,False,False,False,correct_permit,research_review_complete,,False
+N06,flat_same_predicates,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N06,linked_full,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N06,linked_without_L,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N06,linked_without_S,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N06,linked_without_T,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N06,original_composed,normal_boundary,JSON key order changes only,False,False,False,correct_permit,research_review_complete,,False
+N07,flat_same_predicates,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N07,linked_full,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N07,linked_without_L,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N07,linked_without_S,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N07,linked_without_T,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N07,original_composed,normal_boundary,Prediction edit with coherent arithmetic and refreshed bindings,False,False,False,correct_permit,research_review_complete,,False
+N08,flat_same_predicates,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N08,linked_full,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N08,linked_without_L,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N08,linked_without_S,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N08,linked_without_T,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N08,original_composed,normal_boundary,Two distinct sources with same classification,False,False,False,correct_permit,research_review_complete,,False
+N09,flat_same_predicates,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N09,linked_full,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N09,linked_without_L,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N09,linked_without_S,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N09,linked_without_T,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N09,original_composed,normal_boundary,Positive validation count with coherent MAE,False,False,False,correct_permit,research_review_complete,,False
+N10,flat_same_predicates,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N10,linked_full,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N10,linked_without_L,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N10,linked_without_S,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N10,linked_without_T,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N10,original_composed,normal_boundary,Relative deviation exactly plus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,flat_same_predicates,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,linked_full,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,linked_without_L,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,linked_without_S,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,linked_without_T,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N11,original_composed,normal_boundary,Relative deviation exactly minus 0.5 is near,False,False,False,correct_permit,research_review_complete,,False
+N12,flat_same_predicates,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N12,linked_full,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N12,linked_without_L,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N12,linked_without_S,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N12,linked_without_T,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N12,original_composed,normal_boundary,Learned prediction exactly zero,False,False,False,correct_permit,research_review_complete,,False
+N13,flat_same_predicates,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N13,linked_full,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N13,linked_without_L,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N13,linked_without_S,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N13,linked_without_T,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N13,original_composed,normal_boundary,Source ordering edit with newly issued binding,False,False,False,correct_permit,research_review_complete,,False
+N14,flat_same_predicates,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+N14,linked_full,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+N14,linked_without_L,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+N14,linked_without_S,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+N14,linked_without_T,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+N14,original_composed,normal_boundary,Past target permitted only for retrospective review,False,False,False,correct_permit,research_review_complete,,False
+S01,flat_same_predicates,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label,False
+S01,linked_full,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label,False
+S01,linked_without_L,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label,False
+S01,linked_without_S,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,False,miss,research_review_complete,,False
+S01,linked_without_T,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,True,correct_block,research_review_blocked,relative_deviation_arithmetic;relative_deviation_label,False
+S01,original_composed,numeric_semantics,Rehashed relative deviation contradicts predictions,False,True,False,miss,research_review_complete,,False
+S02,flat_same_predicates,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,True,correct_block,research_review_blocked,relative_deviation_label,False
+S02,linked_full,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,True,correct_block,research_review_blocked,relative_deviation_label,False
+S02,linked_without_L,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,True,correct_block,research_review_blocked,relative_deviation_label,False
+S02,linked_without_S,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,False,miss,research_review_complete,,False
+S02,linked_without_T,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,True,correct_block,research_review_blocked,relative_deviation_label,False
+S02,original_composed,numeric_semantics,Rehashed relative-deviation label is reversed,False,True,False,miss,research_review_complete,,False
+S03,flat_same_predicates,numeric_semantics,Rehashed learned direction label is wrong,False,True,True,correct_block,research_review_blocked,learned_direction_label,False
+S03,linked_full,numeric_semantics,Rehashed learned direction label is wrong,False,True,True,correct_block,research_review_blocked,learned_direction_label,False
+S03,linked_without_L,numeric_semantics,Rehashed learned direction label is wrong,False,True,True,correct_block,research_review_blocked,learned_direction_label,False
+S03,linked_without_S,numeric_semantics,Rehashed learned direction label is wrong,False,True,False,miss,research_review_complete,,False
+S03,linked_without_T,numeric_semantics,Rehashed learned direction label is wrong,False,True,True,correct_block,research_review_blocked,learned_direction_label,False
+S03,original_composed,numeric_semantics,Rehashed learned direction label is wrong,False,True,False,miss,research_review_complete,,False
+S04,flat_same_predicates,numeric_semantics,Rehashed input employment is negative,False,True,True,correct_block,research_review_blocked,positive_input_employment,False
+S04,linked_full,numeric_semantics,Rehashed input employment is negative,False,True,True,correct_block,research_review_blocked,positive_input_employment,False
+S04,linked_without_L,numeric_semantics,Rehashed input employment is negative,False,True,True,correct_block,research_review_blocked,positive_input_employment,False
+S04,linked_without_S,numeric_semantics,Rehashed input employment is negative,False,True,False,miss,research_review_complete,,False
+S04,linked_without_T,numeric_semantics,Rehashed input employment is negative,False,True,True,correct_block,research_review_blocked,positive_input_employment,False
+S04,original_composed,numeric_semantics,Rehashed input employment is negative,False,True,False,miss,research_review_complete,,False
+S05,flat_same_predicates,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,True,correct_block,research_review_blocked,linear_explanation_arithmetic,False
+S05,linked_full,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,True,correct_block,research_review_blocked,linear_explanation_arithmetic,False
+S05,linked_without_L,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,True,correct_block,research_review_blocked,linear_explanation_arithmetic,False
+S05,linked_without_S,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,False,miss,research_review_complete,,False
+S05,linked_without_T,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,True,correct_block,research_review_blocked,linear_explanation_arithmetic,False
+S05,original_composed,numeric_semantics,Rehashed explanation sum contradicts prediction,False,True,False,miss,research_review_complete,,False
+S06,flat_same_predicates,numeric_semantics,MAE displayed with zero validation observations,False,True,True,correct_block,research_review_blocked,zero_validation_has_no_aggregate_mae,False
+S06,linked_full,numeric_semantics,MAE displayed with zero validation observations,False,True,True,correct_block,research_review_blocked,zero_validation_has_no_aggregate_mae,False
+S06,linked_without_L,numeric_semantics,MAE displayed with zero validation observations,False,True,True,correct_block,research_review_blocked,zero_validation_has_no_aggregate_mae,False
+S06,linked_without_S,numeric_semantics,MAE displayed with zero validation observations,False,True,False,miss,research_review_complete,,False
+S06,linked_without_T,numeric_semantics,MAE displayed with zero validation observations,False,True,True,correct_block,research_review_blocked,zero_validation_has_no_aggregate_mae,False
+S06,original_composed,numeric_semantics,MAE displayed with zero validation observations,False,True,False,miss,research_review_complete,,False
+S07,flat_same_predicates,numeric_semantics,Boolean validation count,False,True,True,correct_block,research_review_blocked,validation_count_integer_nonnegative,False
+S07,linked_full,numeric_semantics,Boolean validation count,False,True,True,correct_block,research_review_blocked,validation_count_integer_nonnegative,False
+S07,linked_without_L,numeric_semantics,Boolean validation count,False,True,True,correct_block,research_review_blocked,validation_count_integer_nonnegative,False
+S07,linked_without_S,numeric_semantics,Boolean validation count,False,True,False,miss,research_review_complete,,False
+S07,linked_without_T,numeric_semantics,Boolean validation count,False,True,True,correct_block,research_review_blocked,validation_count_integer_nonnegative,False
+S07,original_composed,numeric_semantics,Boolean validation count,False,True,False,miss,research_review_complete,,False
+S08,flat_same_predicates,numeric_semantics,Boolean prediction value,False,True,True,correct_block,research_review_blocked,finite_numeric_fields,False
+S08,linked_full,numeric_semantics,Boolean prediction value,False,True,True,correct_block,research_review_blocked,finite_numeric_fields,False
+S08,linked_without_L,numeric_semantics,Boolean prediction value,False,True,True,correct_block,research_review_blocked,finite_numeric_fields,False
+S08,linked_without_S,numeric_semantics,Boolean prediction value,False,True,False,miss,research_review_complete,,False
+S08,linked_without_T,numeric_semantics,Boolean prediction value,False,True,True,correct_block,research_review_blocked,finite_numeric_fields,False
+S08,original_composed,numeric_semantics,Boolean prediction value,False,True,False,miss,research_review_complete,,False
+T01,flat_same_predicates,time_metadata,Unknown release date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T01,linked_full,time_metadata,Unknown release date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T01,linked_without_L,time_metadata,Unknown release date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T01,linked_without_S,time_metadata,Unknown release date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T01,linked_without_T,time_metadata,Unknown release date,False,True,False,miss,research_review_complete,,False
+T01,original_composed,time_metadata,Unknown release date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T02,flat_same_predicates,time_metadata,Unknown vintage date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T02,linked_full,time_metadata,Unknown vintage date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T02,linked_without_L,time_metadata,Unknown vintage date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T02,linked_without_S,time_metadata,Unknown vintage date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T02,linked_without_T,time_metadata,Unknown vintage date,False,True,False,miss,research_review_complete,,False
+T02,original_composed,time_metadata,Unknown vintage date,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T03,flat_same_predicates,time_metadata,Release after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T03,linked_full,time_metadata,Release after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T03,linked_without_L,time_metadata,Release after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T03,linked_without_S,time_metadata,Release after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T03,linked_without_T,time_metadata,Release after cutoff,False,True,False,miss,research_review_complete,,False
+T03,original_composed,time_metadata,Release after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T04,flat_same_predicates,time_metadata,Vintage after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T04,linked_full,time_metadata,Vintage after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T04,linked_without_L,time_metadata,Vintage after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T04,linked_without_S,time_metadata,Vintage after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T04,linked_without_T,time_metadata,Vintage after cutoff,False,True,False,miss,research_review_complete,,False
+T04,original_composed,time_metadata,Vintage after cutoff,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T05,flat_same_predicates,time_metadata,Archived-vintage status unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T05,linked_full,time_metadata,Archived-vintage status unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T05,linked_without_L,time_metadata,Archived-vintage status unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T05,linked_without_S,time_metadata,Archived-vintage status unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T05,linked_without_T,time_metadata,Archived-vintage status unknown,False,True,False,miss,research_review_complete,,False
+T05,original_composed,time_metadata,Archived-vintage status unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T06,flat_same_predicates,time_metadata,Boundary comparability unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T06,linked_full,time_metadata,Boundary comparability unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T06,linked_without_L,time_metadata,Boundary comparability unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T06,linked_without_S,time_metadata,Boundary comparability unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T06,linked_without_T,time_metadata,Boundary comparability unknown,False,True,False,miss,research_review_complete,,False
+T06,original_composed,time_metadata,Boundary comparability unknown,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T07,flat_same_predicates,time_metadata,Six-month observation interval,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T07,linked_full,time_metadata,Six-month observation interval,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T07,linked_without_L,time_metadata,Six-month observation interval,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T07,linked_without_S,time_metadata,Six-month observation interval,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T07,linked_without_T,time_metadata,Six-month observation interval,False,True,False,miss,research_review_complete,,False
+T07,original_composed,time_metadata,Six-month observation interval,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T08,flat_same_predicates,time_metadata,Mixed industrial classifications,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T08,linked_full,time_metadata,Mixed industrial classifications,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T08,linked_without_L,time_metadata,Mixed industrial classifications,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T08,linked_without_S,time_metadata,Mixed industrial classifications,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T08,linked_without_T,time_metadata,Mixed industrial classifications,False,True,False,miss,research_review_complete,,False
+T08,original_composed,time_metadata,Mixed industrial classifications,False,True,True,correct_block,research_review_blocked,source_metadata_ineligible,False
+T09,flat_same_predicates,time_metadata,Duplicate source identifiers,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T09,linked_full,time_metadata,Duplicate source identifiers,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T09,linked_without_L,time_metadata,Duplicate source identifiers,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T09,linked_without_S,time_metadata,Duplicate source identifiers,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T09,linked_without_T,time_metadata,Duplicate source identifiers,False,True,False,miss,research_review_complete,,False
+T09,original_composed,time_metadata,Duplicate source identifiers,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T10,flat_same_predicates,time_metadata,Archived-vintage evidence reference absent,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T10,linked_full,time_metadata,Archived-vintage evidence reference absent,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T10,linked_without_L,time_metadata,Archived-vintage evidence reference absent,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T10,linked_without_S,time_metadata,Archived-vintage evidence reference absent,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T10,linked_without_T,time_metadata,Archived-vintage evidence reference absent,False,True,False,miss,research_review_complete,,False
+T10,original_composed,time_metadata,Archived-vintage evidence reference absent,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T11,flat_same_predicates,time_metadata,Boolean observation interval,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T11,linked_full,time_metadata,Boolean observation interval,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T11,linked_without_L,time_metadata,Boolean observation interval,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T11,linked_without_S,time_metadata,Boolean observation interval,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T11,linked_without_T,time_metadata,Boolean observation interval,False,True,False,miss,research_review_complete,,False
+T11,original_composed,time_metadata,Boolean observation interval,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T12,flat_same_predicates,time_metadata,Period interval contradicts metadata,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T12,linked_full,time_metadata,Period interval contradicts metadata,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T12,linked_without_L,time_metadata,Period interval contradicts metadata,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T12,linked_without_S,time_metadata,Period interval contradicts metadata,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False
+T12,linked_without_T,time_metadata,Period interval contradicts metadata,False,True,False,miss,research_review_complete,,False
+T12,original_composed,time_metadata,Period interval contradicts metadata,False,True,True,correct_block,research_review_blocked,source_schema_invalid,False

@@ -1,0 +1,46 @@
+{
+  "summary": [
+    {
+      "suite": "original55",
+      "version": "v1",
+      "n": 55,
+      "matching": 55,
+      "unexpected_permit": 0,
+      "changed_to_block": 0,
+      "exceptions": 0
+    },
+    {
+      "suite": "original55",
+      "version": "v2",
+      "n": 55,
+      "matching": 54,
+      "unexpected_permit": 0,
+      "changed_to_block": 1,
+      "exceptions": 0
+    },
+    {
+      "suite": "extended88",
+      "version": "v1",
+      "n": 88,
+      "matching": 78,
+      "unexpected_permit": 8,
+      "changed_to_block": 0,
+      "exceptions": 2
+    },
+    {
+      "suite": "extended88",
+      "version": "v2",
+      "n": 88,
+      "matching": 88,
+      "unexpected_permit": 0,
+      "changed_to_block": 0,
+      "exceptions": 0
+    }
+  ],
+  "inputs_sha256": {
+    "original55": "2b9f763ffdaaf358c12ff22c4f12f0b04a81e94dc33db0b62f65ffd972639a1a",
+    "extended88": "dd7168aa337f735359c808e94a1210c82ff1894b7c6a0fa786641d7c390a00e1"
+  },
+  "explanation": "Expected preserved findings: V1 88-case suite has 8 extended-contract permits and 2 numeric exceptions; V2 N09 is blocked due newly required display consistency. These are not silently relabelled.",
+  "migrated_control_permitted": true
+}

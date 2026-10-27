@@ -1,0 +1,63 @@
+{
+  "independent_evaluation_check": "PASS",
+  "source_gate_hash": "c8617ed0088f17a190dcf406d9bcd0050dd74f170ec90f386739a3d810d56aa0",
+  "recalculation_method": "Python csv.DictReader, math.log/fsum/sqrt directly from approved frozen predictions and official target CSV, independent of scorer and produced joined outcomes.",
+  "max_prediction_CSV_roundtrip_absdiff": 7.105427357601002e-15,
+  "metrics": [
+    {
+      "model": "zero",
+      "n": 170,
+      "MAE": 8.205646446771883,
+      "RMSE": 13.835926800842143,
+      "origin_employment_weighted_MAE": 4.612525709743895,
+      "direction_accuracy": 0.5764705882352941
+    },
+    {
+      "model": "industry_mean",
+      "n": 170,
+      "MAE": 8.191795902017105,
+      "RMSE": 13.830923226407137,
+      "origin_employment_weighted_MAE": 4.928213099931421,
+      "direction_accuracy": 0.5823529411764706
+    },
+    {
+      "model": "ridge",
+      "n": 170,
+      "MAE": 7.955710149651755,
+      "RMSE": 14.258687109579693,
+      "origin_employment_weighted_MAE": 4.6424095395768505,
+      "direction_accuracy": 0.5529411764705883
+    },
+    {
+      "model": "random_forest",
+      "n": 170,
+      "MAE": 8.245816816984336,
+      "RMSE": 14.963211259387961,
+      "origin_employment_weighted_MAE": 4.674122176093038,
+      "direction_accuracy": 0.5705882352941176
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "n": 170,
+      "MAE": 8.736129601016628,
+      "RMSE": 15.885207178014184,
+      "origin_employment_weighted_MAE": 4.962027199628246,
+      "direction_accuracy": 0.45294117647058824
+    }
+  ],
+  "ridge_delta_MAE_vs_zero": -0.24993629712012844,
+  "ridge_relative_MAE_reduction_vs_zero_pct": 3.0459062395803542,
+  "ridge_relative_MAE_reduction_vs_industrymean_pct": 2.881977959280187,
+  "target_mean_logpoints": 0.10980710540530501,
+  "actual_decline_share": 0.4235294117647059,
+  "interpretation": [
+    "One target period only; no inference of stable superiority or prospective performance.",
+    "Zero direction_accuracy uses the scorer binary convention decline versus non-decline; it is not three-way decrease/unchanged/increase accuracy.",
+    "2023H1→2024H1 target is one year, while original history has mixed observation intervals."
+  ],
+  "files": {
+    "locked_future_year_metrics.csv": "cbaecc33dde3a3ee545bda2ea2119ac18b516a243f7458e44bff5e63313fb361",
+    "locked_future_predictions_and_outcomes.csv": "53466a1a98ad746e06d5041fbfc6922f4a923a286471c9dea429d0a44506d7c4",
+    "evaluation_provenance.json": "990c87b7915d9d3ca99c201e0c77a0399ffbac32fce99e3ada155a4b5ebe7805"
+  }
+}

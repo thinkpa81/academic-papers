@@ -1,0 +1,6 @@
+﻿configuration,family,fault_n,normal_n,correct_block,miss,false_block,correct_permit
+original_composed,all_primary,36,14,16,20,0,14
+linked_full,all_primary,36,14,36,0,0,14
+linked_without_T,all_primary,36,14,24,12,0,14
+linked_without_S,all_primary,36,14,28,8,0,14
+linked_without_L,all_primary,36,14,27,9,0,14

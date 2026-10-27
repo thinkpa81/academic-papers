@@ -1,0 +1,79 @@
+{
+  "analysis_id": "v12_local_validation_fallback",
+  "completed_utc": "2026-10-27T02:46:12.390958+00:00",
+  "status": "post_hoc_exploratory_technical_comparison_not_preregistered",
+  "validation_n": 463,
+  "excluded_validation_n": 0,
+  "test_n": 428,
+  "test_region_n": 17,
+  "test_region_industry_n": 156,
+  "pooled_metrics": [
+    {
+      "strategy": "baseline",
+      "n": 428,
+      "adoption_n": 0,
+      "adoption_pct": 0.0,
+      "MAE": 9.431386513030413,
+      "RMSE": 16.896652829428184,
+      "wMAE": 4.935038275858274,
+      "delta_MAE_vs_baseline": 0.0,
+      "delta_MAE_vs_ridge": 0.10580072611046692,
+      "worse_than_baseline_n": 0,
+      "worse_than_baseline_pct": 0.0
+    },
+    {
+      "strategy": "ridge",
+      "n": 428,
+      "adoption_n": 428,
+      "adoption_pct": 100.0,
+      "MAE": 9.325585786919948,
+      "RMSE": 16.483064387035697,
+      "wMAE": 4.915379343908464,
+      "delta_MAE_vs_baseline": -0.10580072611046692,
+      "delta_MAE_vs_ridge": 0.0,
+      "worse_than_baseline_n": 195,
+      "worse_than_baseline_pct": 45.5607476635514
+    },
+    {
+      "strategy": "G2",
+      "n": 428,
+      "adoption_n": 236,
+      "adoption_pct": 55.14018691588785,
+      "MAE": 9.36344403858468,
+      "RMSE": 16.498717127149142,
+      "wMAE": 4.940031292314021,
+      "delta_MAE_vs_baseline": -0.06794247444573202,
+      "delta_MAE_vs_ridge": 0.03785825166473488,
+      "worse_than_baseline_n": 104,
+      "worse_than_baseline_pct": 24.299065420560748
+    },
+    {
+      "strategy": "G3",
+      "n": 428,
+      "adoption_n": 233,
+      "adoption_pct": 54.4392523364486,
+      "MAE": 9.36054956255654,
+      "RMSE": 16.497286150879326,
+      "wMAE": 4.939082321729983,
+      "delta_MAE_vs_baseline": -0.0708369504738735,
+      "delta_MAE_vs_ridge": 0.0349637756365934,
+      "worse_than_baseline_n": 102,
+      "worse_than_baseline_pct": 23.83177570093458
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "source_files": {
+    "analysis_harmonized/results/main/validation_predictions.csv": "41a83109f52650a4c7694b18f6ffd3a6c3bb01c9222ef7f1239a12c733dc6b33",
+    "analysis_harmonized/results/main/test_predictions.csv": "d2ddde5015a9323e850d1a3bd768f086ba01da354d6fab3746b26987d0cedd59",
+    "analysis_harmonized/results/main/selection_before_test.json": "3864874ba06f21578786bf1a7a2962806774830ae111cc1a9bafb87d594348a7",
+    "analysis_harmonized/run.py": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+  },
+  "specification_sha256": "649164c779fea1684a74477a99ecdcb098938fbdba778cff34d220d2bec3d0d3",
+  "code_sha256": "7c7d3cddf6f9274805f3fe5b60c13fb2ff61b03c54466a1eb3e129e24806f69f",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "interpretation": "No user study, no causal policy effect, no prospective forecast validation, no guarantee that local validation advantages survive refitting."
+}

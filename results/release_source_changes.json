@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "changes": [
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/run.py",
+      "previous_sha256": "deb2bfb790ec800162c625d4876f6deb9b5050224ef5a501da1ae52eab063306",
+      "release_sha256": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/extensions/revision_v9/service/build_service.py",
+      "previous_sha256": "444dc806d708742704c1b90b8be66e10f0ef1d3b8f7dc3b395f26e943f563814",
+      "release_sha256": "48d092c6cb6b4d464e982cab1d99543b3b828f2e5c9042e078742d136c5a091e"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/service_time_controls/source_gate.py",
+      "previous_sha256": "7b080b5f958b99852e12eb1e55867caec9d8b6ca994d46af77cffde58e63e33c",
+      "release_sha256": "5b3706028b75fb77c6ef2d7881489e5a86dd69e91474009b4415eee563856826"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/workflow_guard.py",
+      "previous_sha256": "a34edf662c8b468a4171e5b5ffaba654e26cc5ce940cffe5fad8bfe126aac425",
+      "release_sha256": "98abcd07cc78f5af9bac225601c988f0da3be58cbb7faa9da2806b39d9f81b12"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/workflow_guard_v2.py",
+      "previous_sha256": "e31dde1ef7fa6890cfeb6520e4388570dc1b5021da20821f0e5854409dec351f",
+      "release_sha256": "f1011d4edb190f1ba827eafd1c37fb3fd804b597b638fcbffabc320b30a952ae"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/run.py",
+      "previous_sha256": "deb2bfb790ec800162c625d4876f6deb9b5050224ef5a501da1ae52eab063306",
+      "release_sha256": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+    }
+  ]
+}

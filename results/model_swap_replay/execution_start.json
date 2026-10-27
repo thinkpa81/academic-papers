@@ -1,0 +1,8 @@
+{
+  "execution_started_utc": "2026-10-27T02:46:07.046828+00:00",
+  "protocol_sha256": "6e522eb2a52dbe66fe67a1361e3d79b8eef06c318488309cc3eb46d5ab98adbb",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "joblib": "1.5.3"
+}

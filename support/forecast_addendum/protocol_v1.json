@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "recorded_utc": "2026-10-18T14:15:03.158172+00:00",
+  "status": "retrospective exploratory addendum; not preregistration, not an independent test set",
+  "knowledge_before_run": "Existing manuscript and other-AI critique already seen, including reported AR1 MAE 9.235 and original results. No new computed candidate loss inspected before this protocol.",
+  "source_commit": "withheld_for_anonymous_review",
+  "source_hashes": {
+    "analysis_harmonized/run.py": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa",
+    "analysis_harmonized/results/main/analysis_panel.csv": "ae324650eb06ebc44418019982da70127f970f276b712f7a78176d775b3149b5",
+    "analysis_harmonized/results/main/test_predictions.csv": "d2ddde5015a9323e850d1a3bd768f086ba01da354d6fab3746b26987d0cedd59",
+    "source_harmonized/kosis_ksic11_H1_2013_2025_panel.csv": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98",
+    "source_harmonized/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357"
+  },
+  "split": {
+    "train": [
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "validation": [
+      2020,
+      2021,
+      2022
+    ],
+    "test": [
+      2023,
+      2024,
+      2025
+    ],
+    "test_model_refit": "all eligible rows target_year <=2022"
+  },
+  "replay": "Rebuild source from preserved raw DOM in separate directory; reconstruct main panel; refit original ridge_alpha1000 once; compare all test predictions. Preserve original baseline and model ranking.",
+  "new_models": {
+    "pooled_ar1": "Unpenalized OLS y_t = intercept + beta * own_growth, 2 parameters. Fit train for validation and train+validation once for test.",
+    "panel_shrinkage_ar1": "y_t = intercept + beta * own_growth + province dummy intercept + broad-industry dummy intercept. Common intercept and beta are unpenalized; all dummy coefficients penalized by lambda*sum(coef^2). Full one-hot columns, categories from fit rows only; unseen category contributes zero. Fit train for validation; select smallest unweighted validation MAE using lambda grid [1,10,100,1000,10000], ascending-order tie break; refit train+validation once. No interaction, extra feature, post-test tuning or model promotion."
+  },
+  "comparators": [
+    "global_past_mean",
+    "ridge_alpha1000",
+    "pooled_ar1",
+    "panel_shrinkage_ar1"
+  ],
+  "metrics": [
+    "MAE",
+    "median absolute error",
+    "RMSE",
+    "employment-weighted MAE",
+    "paired MAE differences vs original baseline and original ridge",
+    "strict per-observation absolute-error win/tie/loss rates",
+    "binary direction accuracy negative/nonnegative",
+    "R2"
+  ],
+  "sensitivity": [
+    "Original pooled test, each test year, excluding 2025, input employment >=10000, input employment >=10000 and excluding 2025",
+    "Remove top 1,5,10 and ceil(0.05*N) observations ordered by descending abs(actual target); ties deterministically target_year, region_code, industry_code ascending. Fixed fitted predictions, no refit. These are outcome-dependent influence diagnostics and not an alternative unbiased test cohort.",
+    "Stratify all test predictions by source rse_any_star in broad-group components at input year and target year: all four input/target combinations plus either-year flagged versus neither-year flagged. No filtering model fits, no retuning; absence of a component star does not establish aggregate precision."
+  ],
+  "uncertainty": {
+    "bootstrap": "2000 paired region-cluster bootstrap draws; seed20260926; percentile95%; recomputed within each subset; conditional on observed years and fixed fitted models, no independent observations claim",
+    "cluster_sign_flip": "Exact two-sided all 2^G sign flips on province sums of paired loss differences; abs(sum) statistic; uses province-cluster symmetry assumption, province independence may fail due shared national shocks. Pooled only, exploratory, no multiple-comparison adjustment and no significance-based model selection. Do not treat as confirmatory or exact under arbitrary dependence."
+  },
+  "limits": [
+    "Cannot estimate sampling-error variance of broad industry groups from constituent RSE flags",
+    "Cannot recover historical vintages",
+    "No human utility or policy effect claims",
+    "No optimization for p<0.05 or all-high rubric scores",
+    "Component high-RSE strata do not separate sampling error from economic change and are not aggregate variance estimates."
+  ],
+  "output_policy": "All candidate validation losses, all prespecified diagnostics, source hashes and code will be retained. No original files overwritten.",
+  "pre_run_amendment_utc": "2026-10-18T14:15:09.909300+00:00",
+  "release_maintenance": {
+    "date": "2026-10-27",
+    "scope": "Code formatting, maintained import paths and input validation; statistical specifications, fixture inputs and expected outcomes retained. This release checksum update is not preregistration.",
+    "changes": [
+      {
+        "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/run.py",
+        "previous_sha256": "deb2bfb790ec800162c625d4876f6deb9b5050224ef5a501da1ae52eab063306",
+        "release_sha256": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+      }
+    ]
+  }
+}

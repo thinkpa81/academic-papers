@@ -1,0 +1,10 @@
+﻿scope,model,n,matches,permitted,structured_blocks,exceptions
+coherent_control,ridge_alpha1000,136,136,136,0,0
+coherent_control,pooled_ar1,136,136,136,0,0
+coherent_control,BOTH,272,272,272,0,0
+existing_contract,ridge_alpha1000,24,24,0,24,0
+existing_contract,pooled_ar1,24,24,0,24,0
+existing_contract,BOTH,48,48,0,48,0
+extended_model_provenance_probe,ridge_alpha1000,7,0,7,0,0
+extended_model_provenance_probe,pooled_ar1,7,0,7,0,0
+extended_model_provenance_probe,BOTH,14,0,14,0,0

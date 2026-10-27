@@ -1,0 +1,27 @@
+{
+  "label": "2020",
+  "train_n": 421,
+  "validation_n": 137,
+  "test_n": 154,
+  "selected": {
+    "baseline6": "industry_past_mean",
+    "learned14": "ridge_alpha1000",
+    "all20": "industry_past_mean",
+    "learned26": "ridge_alpha1000",
+    "all32": "industry_past_mean",
+    "strong_baseline12": "industry_past_mean",
+    "learned32": "ridge_alpha1000",
+    "all38": "industry_past_mean",
+    "family_ar1": "pooled_ar1",
+    "family_catboost": "catboost_d3_l210",
+    "family_hist_gradient_boosting": "hgb_leaves7_l210",
+    "family_huber": "huber",
+    "family_lightgbm": "lightgbm_l7_l210",
+    "family_panel_ar1": "panel_ar1_l100",
+    "family_random_forest": "rf_depth8_leaf25",
+    "family_ridge": "ridge_alpha1000",
+    "family_xgboost": "xgboost_d3_l2100"
+  },
+  "selection_uses": "validation MAE only",
+  "retrospective": true
+}

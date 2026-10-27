@@ -1,0 +1,44 @@
+{
+  "analysis_id": "D_fixed_daegyeong_posthoc",
+  "status": "post hoc sensitivity design; not preregistered; finalized before this run",
+  "created_utc": "2026-09-27T02:16:13.048870+00:00",
+  "motivation": "Review suggestion to recover the within-region administrative transfer via fixed aggregate geography",
+  "source_sha256": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98",
+  "reused_method_sha256": "4cca948a7b18d968a2cd9c989feeca8f1550483287c3c73592b162cbad622781",
+  "analysis_units": "15 unchanged provincial units plus Daegu+Gyeongbuk fixed aggregate = 16",
+  "aggregation_stage": "sum observed industry employment and official totals before growth/lag/peer feature construction",
+  "missing_rule": "both constituent regional broad-industry values must be numeric and component-complete; no zero imputation",
+  "boundary_filter": {
+    "KR053": [
+      2017
+    ]
+  },
+  "boundary_interpretation": "Gunwi transfer changes the internal Daegu/Gyeongbuk border, not their combined outer boundary; survey, sample and classification changes remain separate limitations",
+  "sejong_chungnam_not_merged": true,
+  "train_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "feature_schema": "same six numerical features and two categorical features as analysis A; all recalculated after geographical merge",
+  "selection_rule": "same candidate grid as A; unweighted validation MAE; best baseline is display default; best ridge is ridge comparator",
+  "test_refit": "refit selected candidates on training+validation; retain fixed coefficients throughout 2023–2025 evaluation",
+  "card_and_matrix_policy": "D is reported separately and never inserted into A as though its analysis unit/model were identical",
+  "deviation_signal": "ridge prediction minus validation-selected baseline; labels lower/near/higher with ±0.5 logpoint band",
+  "prior_validation_direction": "same-year sign of ridge minus baseline vs actual minus baseline; zeros remain zero; report count and only pooled proportion",
+  "evaluation_status": "current-vintage retrospective evaluation, not historical information-set forecasting",
+  "no_model_or_threshold_tuning_after_test": true,
+  "python": "3.12.14",
+  "scikit_learn": "1.8.0"
+}

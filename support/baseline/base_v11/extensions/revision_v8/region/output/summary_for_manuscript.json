@@ -1,0 +1,180 @@
+{
+  "analysis_id": "D_fixed_daegyeong_posthoc",
+  "unit_count": 16,
+  "source_rows": 2288,
+  "merge_rows": 143,
+  "valid_merge_rows": 139,
+  "sum_invariance_passed": true,
+  "internal_redistribution_invariance_passed": true,
+  "cohort_counts": {
+    "train": 518,
+    "validation": 433,
+    "test": 436
+  },
+  "test_year_counts": {
+    "2023": 145,
+    "2024": 146,
+    "2025": 145
+  },
+  "baseline": "global_past_mean",
+  "ridge": "ridge_alpha100",
+  "learned_companion": "ridge_alpha100",
+  "all_unit_pooled_metrics": [
+    {
+      "model": "global_past_mean",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.236861741782809,
+      "rmse": 16.678486382072034,
+      "employment_weighted_mae": 4.7959535588033555,
+      "r2": -0.0010462693792669953,
+      "direction_nonnegative_binary_pct": 58.48623853211009,
+      "direction_sign_threeway_zero_band_pct": 57.3394495412844
+    },
+    {
+      "model": "ridge_alpha100",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.087760854355441,
+      "rmse": 16.29142883018261,
+      "employment_weighted_mae": 4.668264023540606,
+      "r2": 0.04487715426923777,
+      "direction_nonnegative_binary_pct": 52.06422018348624,
+      "direction_sign_threeway_zero_band_pct": 51.37614678899083
+    }
+  ],
+  "all_unit_ridge_bootstrap_vs_baseline": [
+    {
+      "model": "ridge_alpha100",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": -0.1491008874273664,
+      "ci_lower": -0.3677245540013617,
+      "ci_upper": 0.0639377546756851,
+      "conditional_on_observed_years": true
+    }
+  ],
+  "daegyeong_test_year_counts": {
+    "2023": 9,
+    "2024": 9,
+    "2025": 9
+  },
+  "daegyeong_2025_available_industries": [
+    "A",
+    "F",
+    "GTI",
+    "J",
+    "K",
+    "L",
+    "M_N",
+    "OTQ",
+    "RTU"
+  ],
+  "daegyeong_2025_missing_industries": [
+    "BTE"
+  ],
+  "daegyeong_validation_direction_correct": 15,
+  "daegyeong_validation_direction_total": 27,
+  "daegyeong_validation_direction_proportion": 0.5555555555555556,
+  "daegyeong_test_metrics": [
+    {
+      "period": "pooled",
+      "model": "global_past_mean",
+      "n": 27,
+      "mae": 5.333292035933118,
+      "rmse": 7.20840700766829,
+      "employment_weighted_mae": 3.6456955402399087,
+      "r2": -0.016071449863183984,
+      "direction_nonnegative_binary_pct": 51.85185185185185,
+      "direction_sign_threeway_zero_band_pct": 51.85185185185185
+    },
+    {
+      "period": "pooled",
+      "model": "ridge_alpha100",
+      "n": 27,
+      "mae": 5.266300565344055,
+      "rmse": 7.215385811944627,
+      "employment_weighted_mae": 3.319658412603496,
+      "r2": -0.01803981716618175,
+      "direction_nonnegative_binary_pct": 59.25925925925925,
+      "direction_sign_threeway_zero_band_pct": 59.25925925925925
+    },
+    {
+      "period": "2023",
+      "model": "global_past_mean",
+      "n": 9,
+      "mae": 5.804825370793663,
+      "rmse": 8.168063517622922,
+      "employment_weighted_mae": 3.547306645306254,
+      "r2": -0.0002456540483897207,
+      "direction_nonnegative_binary_pct": 77.77777777777779,
+      "direction_sign_threeway_zero_band_pct": 77.77777777777779
+    },
+    {
+      "period": "2023",
+      "model": "ridge_alpha100",
+      "n": 9,
+      "mae": 6.195120267649238,
+      "rmse": 8.531868583204647,
+      "employment_weighted_mae": 4.1893248624643835,
+      "r2": -0.09133171215282498,
+      "direction_nonnegative_binary_pct": 44.44444444444444,
+      "direction_sign_threeway_zero_band_pct": 44.44444444444444
+    },
+    {
+      "period": "2024",
+      "model": "global_past_mean",
+      "n": 9,
+      "mae": 4.837207492503408,
+      "rmse": 6.359706573271339,
+      "employment_weighted_mae": 2.759560169410857,
+      "r2": -0.027379439190592603,
+      "direction_nonnegative_binary_pct": 33.33333333333333,
+      "direction_sign_threeway_zero_band_pct": 33.33333333333333
+    },
+    {
+      "period": "2024",
+      "model": "ridge_alpha100",
+      "n": 9,
+      "mae": 4.5639563691661555,
+      "rmse": 6.695296209775241,
+      "employment_weighted_mae": 2.0810114592048983,
+      "r2": -0.13866587221666915,
+      "direction_nonnegative_binary_pct": 66.66666666666666,
+      "direction_sign_threeway_zero_band_pct": 66.66666666666666
+    },
+    {
+      "period": "2025",
+      "model": "global_past_mean",
+      "n": 9,
+      "mae": 5.3578432445022806,
+      "rmse": 6.979990360922481,
+      "employment_weighted_mae": 4.6369647515556105,
+      "r2": -0.07205047721372249,
+      "direction_nonnegative_binary_pct": 44.44444444444444,
+      "direction_sign_threeway_zero_band_pct": 44.44444444444444
+    },
+    {
+      "period": "2025",
+      "model": "ridge_alpha100",
+      "n": 9,
+      "mae": 5.039825059216772,
+      "rmse": 6.210121125061109,
+      "employment_weighted_mae": 3.717061995792082,
+      "r2": 0.1513947180717754,
+      "direction_nonnegative_binary_pct": 66.66666666666666,
+      "direction_sign_threeway_zero_band_pct": 66.66666666666666
+    }
+  ],
+  "interpretation": "D demonstrates reconstructible fixed aggregate coverage. Different unit composition, weights, features, fitted models and selected baseline mean its scores cannot be read as the causal effect of fixing boundaries or directly substituted into A.",
+  "remaining_limits": [
+    "classification backcast/direct collection boundary remains",
+    "survey errors need not cancel by geographic aggregation",
+    "current vintage only",
+    "BTE source suppression/missingness retained",
+    "validation direction count is not independent Bernoulli evidence"
+  ],
+  "selection_sha256": "901aeccb9a9099a7fb872a3259d9e290d2222e841035a3852aabc3c521d5b09d",
+  "completed_utc": "2026-09-27T02:16:19.704237+00:00"
+}

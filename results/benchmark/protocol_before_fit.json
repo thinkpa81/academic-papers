@@ -1,0 +1,343 @@
+{
+  "created_utc": "2026-10-27T02:46:13.396380+00:00",
+  "status": "retrospective extension; prior test results known",
+  "candidates": [
+    {
+      "name": "zero",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "last_growth",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "industry_past_mean",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "global_past_mean",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "global_past_median",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "lagged_available_region_industry_growth",
+      "family": "baseline",
+      "params": {}
+    },
+    {
+      "name": "ridge_alpha1",
+      "family": "ridge",
+      "params": {
+        "alpha": 1
+      }
+    },
+    {
+      "name": "ridge_alpha10",
+      "family": "ridge",
+      "params": {
+        "alpha": 10
+      }
+    },
+    {
+      "name": "ridge_alpha100",
+      "family": "ridge",
+      "params": {
+        "alpha": 100
+      }
+    },
+    {
+      "name": "ridge_alpha1000",
+      "family": "ridge",
+      "params": {
+        "alpha": 1000
+      }
+    },
+    {
+      "name": "ridge_alpha10000",
+      "family": "ridge",
+      "params": {
+        "alpha": 10000
+      }
+    },
+    {
+      "name": "rf_depth4_leaf10",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "min_samples_leaf": 10,
+        "random_state": 20260926,
+        "n_jobs": 1
+      }
+    },
+    {
+      "name": "rf_depth4_leaf25",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "min_samples_leaf": 25,
+        "random_state": 20260926,
+        "n_jobs": 1
+      }
+    },
+    {
+      "name": "rf_depth8_leaf10",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 8,
+        "min_samples_leaf": 10,
+        "random_state": 20260926,
+        "n_jobs": 1
+      }
+    },
+    {
+      "name": "rf_depth8_leaf25",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 8,
+        "min_samples_leaf": 25,
+        "random_state": 20260926,
+        "n_jobs": 1
+      }
+    },
+    {
+      "name": "hgb_leaves7_l21",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_iter": 200,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 7,
+        "l2_regularization": 1,
+        "min_samples_leaf": 20,
+        "early_stopping": false,
+        "random_state": 20260926
+      }
+    },
+    {
+      "name": "hgb_leaves7_l210",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_iter": 200,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 7,
+        "l2_regularization": 10,
+        "min_samples_leaf": 20,
+        "early_stopping": false,
+        "random_state": 20260926
+      }
+    },
+    {
+      "name": "hgb_leaves15_l21",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_iter": 200,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 1,
+        "min_samples_leaf": 20,
+        "early_stopping": false,
+        "random_state": 20260926
+      }
+    },
+    {
+      "name": "hgb_leaves15_l210",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_iter": 200,
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 10,
+        "min_samples_leaf": 20,
+        "early_stopping": false,
+        "random_state": 20260926
+      }
+    },
+    {
+      "name": "huber",
+      "family": "huber",
+      "params": {
+        "epsilon": 1.35,
+        "alpha": 0.0001,
+        "max_iter": 2000,
+        "tol": 1e-06
+      }
+    },
+    {
+      "name": "xgboost_d2_l210",
+      "family": "xgboost",
+      "params": {
+        "depth": 2,
+        "l2": 10
+      }
+    },
+    {
+      "name": "xgboost_d2_l2100",
+      "family": "xgboost",
+      "params": {
+        "depth": 2,
+        "l2": 100
+      }
+    },
+    {
+      "name": "xgboost_d3_l210",
+      "family": "xgboost",
+      "params": {
+        "depth": 3,
+        "l2": 10
+      }
+    },
+    {
+      "name": "xgboost_d3_l2100",
+      "family": "xgboost",
+      "params": {
+        "depth": 3,
+        "l2": 100
+      }
+    },
+    {
+      "name": "catboost_d2_l210",
+      "family": "catboost",
+      "params": {
+        "depth": 2,
+        "l2": 10
+      }
+    },
+    {
+      "name": "catboost_d2_l2100",
+      "family": "catboost",
+      "params": {
+        "depth": 2,
+        "l2": 100
+      }
+    },
+    {
+      "name": "catboost_d3_l210",
+      "family": "catboost",
+      "params": {
+        "depth": 3,
+        "l2": 10
+      }
+    },
+    {
+      "name": "catboost_d3_l2100",
+      "family": "catboost",
+      "params": {
+        "depth": 3,
+        "l2": 100
+      }
+    },
+    {
+      "name": "lightgbm_l7_l21",
+      "family": "lightgbm",
+      "params": {
+        "leaves": 7,
+        "l2": 1
+      }
+    },
+    {
+      "name": "lightgbm_l7_l210",
+      "family": "lightgbm",
+      "params": {
+        "leaves": 7,
+        "l2": 10
+      }
+    },
+    {
+      "name": "lightgbm_l15_l21",
+      "family": "lightgbm",
+      "params": {
+        "leaves": 15,
+        "l2": 1
+      }
+    },
+    {
+      "name": "lightgbm_l15_l210",
+      "family": "lightgbm",
+      "params": {
+        "leaves": 15,
+        "l2": 10
+      }
+    },
+    {
+      "name": "pooled_ar1",
+      "family": "ar1",
+      "params": {}
+    },
+    {
+      "name": "panel_ar1_l1",
+      "family": "panel_ar1",
+      "params": {
+        "lam": 1
+      }
+    },
+    {
+      "name": "panel_ar1_l10",
+      "family": "panel_ar1",
+      "params": {
+        "lam": 10
+      }
+    },
+    {
+      "name": "panel_ar1_l100",
+      "family": "panel_ar1",
+      "params": {
+        "lam": 100
+      }
+    },
+    {
+      "name": "panel_ar1_l1000",
+      "family": "panel_ar1",
+      "params": {
+        "lam": 1000
+      }
+    },
+    {
+      "name": "panel_ar1_l10000",
+      "family": "panel_ar1",
+      "params": {
+        "lam": 10000
+      }
+    }
+  ],
+  "seed": 20261025,
+  "selection": "unweighted validation MAE; candidate order breaks exact ties",
+  "fixed_split": [
+    [
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021,
+      2022
+    ],
+    [
+      2023,
+      2024,
+      2025
+    ]
+  ],
+  "expanding": "Y=2020..2025: train2016..Y-2, validationY-1, testY",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0"
+  },
+  "python": "3.12.14"
+}

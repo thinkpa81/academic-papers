@@ -1,0 +1,10 @@
+series,split,n,first_ordinal,last_ordinal
+realgdp,train,121,23520,23880
+realgdp,validation,40,23883,24000
+realgdp,test,39,24003,24117
+realcons,train,121,23520,23880
+realcons,validation,40,23883,24000
+realcons,test,39,24003,24117
+realinv,train,121,23520,23880
+realinv,validation,40,23883,24000
+realinv,test,39,24003,24117

@@ -1,0 +1,116 @@
+{
+  "analysis_id": "v12_local_validation_fallback",
+  "created_utc": "2026-09-29T08:15:38.753852+00:00",
+  "status": "post_hoc_exploratory_technical_comparison_not_preregistered",
+  "record_timing": "Rules recorded before computing this additional comparison; test-period results were examined in earlier manuscript versions.",
+  "source_files": {
+    "analysis_harmonized/results/main/validation_predictions.csv": "41a83109f52650a4c7694b18f6ffd3a6c3bb01c9222ef7f1239a12c733dc6b33",
+    "analysis_harmonized/results/main/test_predictions.csv": "d2ddde5015a9323e850d1a3bd768f086ba01da354d6fab3746b26987d0cedd59",
+    "analysis_harmonized/results/main/selection_before_test.json": "3864874ba06f21578786bf1a7a2962806774830ae111cc1a9bafb87d594348a7",
+    "analysis_harmonized/run.py": "4cca948a7b18d968a2cd9c989feeca8f1550483287c3c73592b162cbad622781"
+  },
+  "validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "test_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "validation_training_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "test_refit_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "expected_validation_rows": 463,
+  "expected_test_rows": 428,
+  "group_keys": [
+    "region_code",
+    "industry_code"
+  ],
+  "row_keys": [
+    "region_code",
+    "industry_code",
+    "target_year"
+  ],
+  "outcome": "target_logpoints",
+  "weight": "employment_input_persons",
+  "baseline": "global_past_mean",
+  "learned": "ridge_alpha1000",
+  "rules": [
+    {
+      "id": "G2",
+      "minimum_validation_n": 2,
+      "max_validation_delta_mae": 0.0
+    },
+    {
+      "id": "G3",
+      "minimum_validation_n": 3,
+      "max_validation_delta_mae": 0.0
+    }
+  ],
+  "validation_delta_definition": "mean(abs(actual-ridge))-mean(abs(actual-global_past_mean)), paired complete finite validation rows only",
+  "missing_policy": {
+    "missing_required_columns": "stop",
+    "duplicate_row_keys": "stop",
+    "validation_nonfinite_outcome_or_either_prediction": "exclude pair from validation calculation; count and export excluded rows; n refers only to complete pairs",
+    "absent_group_in_validation": "n=0, delta unavailable, fallback to baseline",
+    "too_few_validation_pairs": "fallback to baseline",
+    "nonfinite_validation_delta": "fallback to baseline",
+    "validation_delta_above_zero": "fallback to baseline",
+    "test_nonfinite_outcome_baseline_learned_or_weight": "stop without deleting rows; all fixed-model comparisons must share 428 rows",
+    "test_nonpositive_weight": "stop",
+    "unobserved_test_region_industry": "baseline fallback as absent validation group"
+  },
+  "strategies": [
+    "baseline",
+    "ridge",
+    "G2",
+    "G3"
+  ],
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "wMAE",
+    "adoption_n",
+    "adoption_pct",
+    "delta_MAE_vs_baseline",
+    "delta_MAE_vs_ridge"
+  ],
+  "groups": [
+    "target_year",
+    "region_code",
+    "industry_code",
+    "employment_below_vs_at_least_10000"
+  ],
+  "bootstrap": {
+    "cluster": "region_code",
+    "repetitions": 2000,
+    "seed": 20260929,
+    "interval": "2.5 and 97.5 percentile",
+    "metrics": [
+      "MAE",
+      "wMAE"
+    ],
+    "differences_vs": [
+      "baseline",
+      "ridge"
+    ],
+    "refit_or_reselect": false,
+    "scope": "conditional on saved predictions, fixed validation decisions and observed evaluation years"
+  },
+  "no_optimization": "Both G2 and G3 will be reported regardless of relative performance. No rule selected from evaluation losses.",
+  "interpretation": "No user study, no causal policy effect, no prospective forecast validation, no guarantee that local validation advantages survive refitting."
+}

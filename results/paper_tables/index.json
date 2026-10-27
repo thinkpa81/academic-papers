@@ -1,0 +1,202 @@
+{
+  "manuscript": "5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가",
+  "revision": "261027_v4",
+  "records": [
+    {
+      "type": "table",
+      "id": "1",
+      "caption": "<표 1> 선행연구의 기여와 지역고용 검토업무에서의 구체화",
+      "path": "results/paper_tables/table_01.csv",
+      "rows": 9
+    },
+    {
+      "type": "table",
+      "id": "2",
+      "caption": "<표 2> 설계원칙별 이론적 근거, 구현 기능 및 평가 내용",
+      "path": "results/paper_tables/table_02.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "3",
+      "caption": "<표 3> 분석별 자료, 평가설계 및 주요 결과",
+      "path": "results/paper_tables/table_03.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "4",
+      "caption": "<표 4> 동일 기준 주분석의 모형별 예측성능",
+      "path": "results/paper_tables/table_04.csv",
+      "rows": 13
+    },
+    {
+      "type": "table",
+      "id": "5",
+      "caption": "<표 5> 동일 기준 주분석의 연도별 예측오차와 지표별 차이",
+      "path": "results/paper_tables/table_05.csv",
+      "rows": 4
+    },
+    {
+      "type": "table",
+      "id": "6",
+      "caption": "<표 6> 고용 규모별 절대오차 순감소량의 분해",
+      "path": "results/paper_tables/table_06.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "7",
+      "caption": "<표 7> 동일 기준 주분석의 고용변동 방향에 대한 세 범주 분류성능",
+      "path": "results/paper_tables/table_07.csv",
+      "rows": 4
+    },
+    {
+      "type": "table",
+      "id": "8",
+      "caption": "<표 8> 지역·산업별 예측값 대체 규칙의 사후 성능평가",
+      "path": "results/paper_tables/table_08.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "9",
+      "caption": "<표 9> 2025년 권역별 예측편차 분포와 과거 검증결과",
+      "path": "results/paper_tables/table_09.csv",
+      "rows": 9
+    },
+    {
+      "type": "table",
+      "id": "10",
+      "caption": "<표 10> 확장 고정분할의 모형군별 선정 설정과 예측오차",
+      "path": "results/paper_tables/table_10.csv",
+      "rows": 11
+    },
+    {
+      "type": "table",
+      "id": "11",
+      "caption": "<표 11> 기존 구현의 요구사항별 기술평가 결과",
+      "path": "results/paper_tables/table_11.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "12",
+      "caption": "<표 12> 근거 연결 검증의 비교 및 모듈 제거 결과",
+      "path": "results/paper_tables/table_12.csv",
+      "rows": 6
+    },
+    {
+      "type": "table",
+      "id": "13",
+      "caption": "<표 13> 추가 명세시험과 보완 구현의 전후 결과",
+      "path": "results/paper_tables/table_13.csv",
+      "rows": 4
+    },
+    {
+      "type": "table",
+      "id": "14",
+      "caption": "<표 14> 등록 근거 대조 v3의 내부 시험 결과",
+      "path": "results/paper_tables/table_14.csv",
+      "rows": 6
+    },
+    {
+      "type": "table",
+      "id": "15",
+      "caption": "<표 15> 공통 검사 요건의 비교와 자료별 수용·차단 결과",
+      "path": "results/paper_tables/table_15.csv",
+      "rows": 9
+    },
+    {
+      "type": "table",
+      "id": "A1",
+      "caption": "<부록표 A1> 원계열 보완분석과 2024년 모형 고정 평가의 모형별 예측성능",
+      "path": "results/paper_tables/table_A1.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "A2",
+      "caption": "<부록표 A2> 확장창 평가에서 모형 선택 전략별 예측성능",
+      "path": "results/paper_tables/table_A2.csv",
+      "rows": 7
+    },
+    {
+      "type": "table",
+      "id": "A3",
+      "caption": "<부록표 A3> 대구·경북 통합지역 보완분석의 2025년 대경권 산업별 예측값과 기준모형 대비 편차",
+      "path": "results/paper_tables/table_A3.csv",
+      "rows": 11
+    },
+    {
+      "type": "table",
+      "id": "B1",
+      "caption": "<부록표 B1> 단계별 분석 포함률과 제외사유",
+      "path": "results/paper_tables/table_B1.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "B2",
+      "caption": "<부록표 B2> 평가단계 포함 및 제외집단의 관측 가능한 특성",
+      "path": "results/paper_tables/table_B2.csv",
+      "rows": 3
+    },
+    {
+      "type": "table",
+      "id": "C1",
+      "caption": "<부록표 C1> 모형 재선정과 재적합을 포함한 오차 차이 구간",
+      "path": "results/paper_tables/table_C1.csv",
+      "rows": 5
+    },
+    {
+      "type": "table",
+      "id": "D1",
+      "caption": "<부록표 D1> 후보모형의 구성과 주요 설정",
+      "path": "results/paper_tables/table_D1.csv",
+      "rows": 11
+    },
+    {
+      "type": "table",
+      "id": "D2",
+      "caption": "<부록표 D2> 전체 과거평균 대비 고정분할 MAE 차이",
+      "path": "results/paper_tables/table_D2.csv",
+      "rows": 10
+    },
+    {
+      "type": "table",
+      "id": "D3",
+      "caption": "<부록표 D3> 6개 확장창의 연도 동일가중 오차",
+      "path": "results/paper_tables/table_D3.csv",
+      "rows": 18
+    },
+    {
+      "type": "figure",
+      "id": "1",
+      "caption": "<그림 1> 지역고용 의사결정지원서비스의 구성 및 평가와 개선 절차",
+      "path": "figures/paper_figure_01.png",
+      "sha256": "2abb27a71c9bc7380286e9a2a5bd65441c552c02998277b144cd499b4c6224d4"
+    },
+    {
+      "type": "figure",
+      "id": "2",
+      "caption": "<그림 2> 동일 기준 주분석의 서울 BTE 산업군 예측근거와 검토 절차",
+      "path": "figures/paper_figure_02.png",
+      "sha256": "691751e56fef855d45e367d1c5d7632d3dfd48c1b8d3b78c0b92e844f096c4fd"
+    },
+    {
+      "type": "figure",
+      "id": "3",
+      "caption": "<그림 3> 2025년 권역–산업별 예측편차와 자료 적용범위",
+      "path": "figures/paper_figure_03.png",
+      "sha256": "4954fc1bba6e309a975ebac8b6b5eae8b2e510a11098b60839d369d9de4e58f1"
+    },
+    {
+      "type": "figure",
+      "id": "A1",
+      "caption": "<부록그림 A1> 기준모형 우선 전략과 전체 후보 선정 전략 간 연도별 MAE 차이",
+      "path": "figures/paper_figure_A1.png",
+      "sha256": "8a3cd720b673e19aff7192785a179765f90657854196a85569c9a185f991e9eb"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "source_file": "kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+  "source_sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357",
+  "captured_at_utc": "2026-09-26T12:03:19.871Z",
+  "source_uri": "https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3FtblId%3DDT_1ES3B05J%26orgId%3D101%26",
+  "acquisition": "Official rendered KOSIS mainTable DOM; UI selected all 2013–2025 H1 and one decimal place; no API approximation",
+  "reference_month": 4,
+  "reference_half": 1,
+  "classification": "KSIC11; currently revised backcast from 2013H1",
+  "table_update_date": "2026-05-13",
+  "data_vintage": "retrieved 2026-09-26; not original historical publication vintage",
+  "displayed_unit": "thousand persons",
+  "displayed_decimal_places": 1,
+  "normalized_unit": "persons",
+  "province_count": 17,
+  "national_retained_separately": true,
+  "section_rows": 5148,
+  "provincial_panel_rows": 2431,
+  "national_panel_rows": 143,
+  "missing_rule": "nonnumeric original symbols retained; component group not summed if any component missing",
+  "rse_rule": "* indicates source section RSE >=25%; rse_any_star is any constituent flag, not the aggregate RSE",
+  "boundary_note": "Gunwi (formerly Gyeongbuk) incorporated into Daegu July 2023; source does not assert geographical backcasting",
+  "sejong_note": "No Sejong-specific boundary note in current J table comments; no continuity claim inferred",
+  "historic_availability_confirmed": false,
+  "model_losses_observed": false,
+  "coverage": [
+    {
+      "year": 2013,
+      "expected_broad_cells": 170,
+      "complete_numeric": 149,
+      "positive_numeric": 149,
+      "missing": 21,
+      "numeric_zero": 0,
+      "rse_any_star": 27
+    },
+    {
+      "year": 2014,
+      "expected_broad_cells": 170,
+      "complete_numeric": 151,
+      "positive_numeric": 151,
+      "missing": 19,
+      "numeric_zero": 0,
+      "rse_any_star": 28
+    },
+    {
+      "year": 2015,
+      "expected_broad_cells": 170,
+      "complete_numeric": 153,
+      "positive_numeric": 153,
+      "missing": 17,
+      "numeric_zero": 0,
+      "rse_any_star": 32
+    },
+    {
+      "year": 2016,
+      "expected_broad_cells": 170,
+      "complete_numeric": 150,
+      "positive_numeric": 150,
+      "missing": 20,
+      "numeric_zero": 0,
+      "rse_any_star": 30
+    },
+    {
+      "year": 2017,
+      "expected_broad_cells": 170,
+      "complete_numeric": 156,
+      "positive_numeric": 156,
+      "missing": 14,
+      "numeric_zero": 0,
+      "rse_any_star": 29
+    },
+    {
+      "year": 2018,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 33
+    },
+    {
+      "year": 2019,
+      "expected_broad_cells": 170,
+      "complete_numeric": 162,
+      "positive_numeric": 162,
+      "missing": 8,
+      "numeric_zero": 0,
+      "rse_any_star": 35
+    },
+    {
+      "year": 2020,
+      "expected_broad_cells": 170,
+      "complete_numeric": 158,
+      "positive_numeric": 158,
+      "missing": 12,
+      "numeric_zero": 0,
+      "rse_any_star": 35
+    },
+    {
+      "year": 2021,
+      "expected_broad_cells": 170,
+      "complete_numeric": 160,
+      "positive_numeric": 160,
+      "missing": 10,
+      "numeric_zero": 0,
+      "rse_any_star": 34
+    },
+    {
+      "year": 2022,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 31
+    },
+    {
+      "year": 2023,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 31
+    },
+    {
+      "year": 2024,
+      "expected_broad_cells": 170,
+      "complete_numeric": 158,
+      "positive_numeric": 158,
+      "missing": 12,
+      "numeric_zero": 0,
+      "rse_any_star": 32
+    },
+    {
+      "year": 2025,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 158,
+      "missing": 11,
+      "numeric_zero": 1,
+      "rse_any_star": 32
+    }
+  ]
+}

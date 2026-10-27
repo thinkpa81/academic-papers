@@ -1,0 +1,15 @@
+Bundled font metadata: NanumMyeongjo Regular/Bold
+
+nameID 0: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX.
+
+nameID 8: NHN Corporation
+
+nameID 13: NHN Corporation
+
+nameID 14: http://www.nhncorp.com
+
+License text: FONT_LICENSE.txt
+Source: https://github.com/google/fonts/blob/main/ofl/nanummyeongjo/OFL.txt
+Provider guidance: https://help.naver.com/service/11029/contents/18088?lang=ko&osType=PC
+Retrieved: 2026-10-27
+Font files are retained unchanged from the research package.

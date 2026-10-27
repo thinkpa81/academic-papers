@@ -1,0 +1,37 @@
+{
+  "change": "Removed unused imports and sorted imports before release rerun; no statistical or decision logic changes",
+  "comparison": [
+    {
+      "path": "macro_predictions.csv",
+      "identical_bytes": true
+    },
+    {
+      "path": "macro_forecast_diagnostics.csv",
+      "identical_bytes": true
+    },
+    {
+      "path": "comparison_summary.csv",
+      "identical_bytes": true
+    },
+    {
+      "path": "results_by_family.csv",
+      "identical_bytes": true
+    },
+    {
+      "path": "case_results.csv",
+      "identical_bytes": true
+    },
+    {
+      "path": "cases_before_execution.json",
+      "identical_bytes": true
+    },
+    {
+      "path": "reference_context.json",
+      "identical_bytes": true
+    },
+    {
+      "path": "trust_boundary_results.csv",
+      "identical_bytes": true
+    }
+  ]
+}

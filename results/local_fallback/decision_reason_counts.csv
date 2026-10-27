@@ -1,0 +1,9 @@
+﻿reason,n,rule
+adopt_ridge,236,G2
+no_valid_local_validation,2,G2
+ridge_validation_MAE_exceeds_baseline,187,G2
+too_few_local_validation_pairs,3,G2
+adopt_ridge,233,G3
+no_valid_local_validation,2,G3
+ridge_validation_MAE_exceeds_baseline,184,G3
+too_few_local_validation_pairs,9,G3

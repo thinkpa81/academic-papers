@@ -1,0 +1,27 @@
+{
+  "label": "2023",
+  "train_n": 866,
+  "validation_n": 155,
+  "test_n": 155,
+  "selected": {
+    "baseline6": "lagged_available_region_industry_growth",
+    "learned14": "ridge_alpha10000",
+    "all20": "lagged_available_region_industry_growth",
+    "learned26": "ridge_alpha10000",
+    "all32": "lagged_available_region_industry_growth",
+    "strong_baseline12": "lagged_available_region_industry_growth",
+    "learned32": "panel_ar1_l10",
+    "all38": "lagged_available_region_industry_growth",
+    "family_ar1": "pooled_ar1",
+    "family_catboost": "catboost_d3_l210",
+    "family_hist_gradient_boosting": "hgb_leaves7_l210",
+    "family_huber": "huber",
+    "family_lightgbm": "lightgbm_l7_l210",
+    "family_panel_ar1": "panel_ar1_l10",
+    "family_random_forest": "rf_depth4_leaf10",
+    "family_ridge": "ridge_alpha10000",
+    "family_xgboost": "xgboost_d3_l2100"
+  },
+  "selection_uses": "validation MAE only",
+  "retrospective": true
+}

@@ -1,0 +1,221 @@
+{
+  "completed_utc": "2026-09-27T02:16:19.666767+00:00",
+  "selection_file_sha256": "901aeccb9a9099a7fb872a3259d9e290d2222e841035a3852aabc3c521d5b09d",
+  "cohort_counts": {
+    "train": 518,
+    "validation": 433,
+    "test": 436
+  },
+  "default": "global_past_mean",
+  "learned_companion": "ridge_alpha100",
+  "pooled_metrics": [
+    {
+      "model": "zero",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.329529300908433,
+      "rmse": 16.720637798975016,
+      "employment_weighted_mae": 4.889502407371598,
+      "r2": -0.006112537131038209,
+      "direction_nonnegative_binary_pct": 58.48623853211009,
+      "direction_sign_threeway_zero_band_pct": 1.146788990825688
+    },
+    {
+      "model": "last_growth",
+      "period": "pooled",
+      "n": 436,
+      "mae": 14.784067876907702,
+      "rmse": 28.37388585131411,
+      "employment_weighted_mae": 7.265427775788351,
+      "r2": -1.897200267044898,
+      "direction_nonnegative_binary_pct": 47.935779816513765,
+      "direction_sign_threeway_zero_band_pct": 47.018348623853214
+    },
+    {
+      "model": "industry_past_mean",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.348454872932203,
+      "rmse": 16.840261381559046,
+      "employment_weighted_mae": 4.776550530832222,
+      "r2": -0.020559989626045105,
+      "direction_nonnegative_binary_pct": 52.06422018348624,
+      "direction_sign_threeway_zero_band_pct": 51.60550458715596
+    },
+    {
+      "model": "global_past_mean",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.236861741782809,
+      "rmse": 16.678486382072034,
+      "employment_weighted_mae": 4.7959535588033555,
+      "r2": -0.0010462693792669953,
+      "direction_nonnegative_binary_pct": 58.48623853211009,
+      "direction_sign_threeway_zero_band_pct": 57.3394495412844
+    },
+    {
+      "model": "global_past_median",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.228260942702466,
+      "rmse": 16.675507772844387,
+      "employment_weighted_mae": 4.787610881330075,
+      "r2": -0.0006887477991990298,
+      "direction_nonnegative_binary_pct": 58.48623853211009,
+      "direction_sign_threeway_zero_band_pct": 57.3394495412844
+    },
+    {
+      "model": "lagged_available_region_industry_growth",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.486242473284724,
+      "rmse": 16.832052861345552,
+      "employment_weighted_mae": 5.335598404068372,
+      "r2": -0.0195653203123356,
+      "direction_nonnegative_binary_pct": 55.27522935779816,
+      "direction_sign_threeway_zero_band_pct": 54.81651376146789
+    },
+    {
+      "model": "ridge_alpha100",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.087760854355441,
+      "rmse": 16.29142883018261,
+      "employment_weighted_mae": 4.668264023540606,
+      "r2": 0.04487715426923777,
+      "direction_nonnegative_binary_pct": 52.06422018348624,
+      "direction_sign_threeway_zero_band_pct": 51.37614678899083
+    },
+    {
+      "model": "rf_depth4_leaf25",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.227461946754145,
+      "rmse": 16.457453548231296,
+      "employment_weighted_mae": 4.792540885336326,
+      "r2": 0.025310790797124283,
+      "direction_nonnegative_binary_pct": 57.3394495412844,
+      "direction_sign_threeway_zero_band_pct": 56.19266055045872
+    },
+    {
+      "model": "hgb_leaves7_l210",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.477315179482883,
+      "rmse": 17.707902318840873,
+      "employment_weighted_mae": 4.854569590589998,
+      "r2": -0.12843128293811756,
+      "direction_nonnegative_binary_pct": 53.669724770642205,
+      "direction_sign_threeway_zero_band_pct": 52.752293577981646
+    },
+    {
+      "model": "huber",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.270513158002498,
+      "rmse": 16.368444441480797,
+      "employment_weighted_mae": 4.80640543684812,
+      "r2": 0.03582537105548922,
+      "direction_nonnegative_binary_pct": 56.19266055045872,
+      "direction_sign_threeway_zero_band_pct": 55.5045871559633
+    }
+  ],
+  "bootstrap_vs_default": [
+    {
+      "model": "zero",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 0.09266755912562344,
+      "ci_lower": 0.04405690296551685,
+      "ci_upper": 0.14491145634486954,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "last_growth",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 5.547206135124894,
+      "ci_lower": 3.9567456443884663,
+      "ci_upper": 7.334088751581565,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "industry_past_mean",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 0.11159313114939336,
+      "ci_lower": -0.01410098420533786,
+      "ci_upper": 0.2611617792855011,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "global_past_median",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": -0.008600799080342834,
+      "ci_lower": -0.016280999486567076,
+      "ci_upper": -0.0005120081803390489,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "lagged_available_region_industry_growth",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 0.2493807315019158,
+      "ci_lower": -0.020575120516248047,
+      "ci_upper": 0.5104695066953774,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "ridge_alpha100",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": -0.14910088742736644,
+      "ci_lower": -0.3677245540013617,
+      "ci_upper": 0.06393775467568517,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "rf_depth4_leaf25",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": -0.009399795028664157,
+      "ci_lower": -0.30147645230210773,
+      "ci_upper": 0.2298441454416719,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "hgb_leaves7_l210",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 0.24045343770007402,
+      "ci_lower": -0.3613295252386513,
+      "ci_upper": 0.7751266362247389,
+      "conditional_on_observed_years": true
+    },
+    {
+      "model": "huber",
+      "reference": "global_past_mean",
+      "n_regions": 16,
+      "resamples": 2000,
+      "paired_mae_difference": 0.03365141621968793,
+      "ci_lower": -0.3322412727836196,
+      "ci_upper": 0.4015143781816149,
+      "conditional_on_observed_years": true
+    }
+  ],
+  "boundary_filter": true,
+  "source_vintage": "current KSIC11 backcast, not original information vintage",
+  "analysis_id": "D_fixed_daegyeong_posthoc",
+  "posthoc_protocol_sha256": "06d46caa9f7ef3c3a05fff16b24a350f443a26685ed4575c822193848c43592a",
+  "regional_aggregation_before_feature_construction": true,
+  "analysis_unit_count": 16
+}

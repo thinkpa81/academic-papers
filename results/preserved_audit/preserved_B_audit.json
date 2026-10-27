@@ -1,0 +1,114 @@
+{
+  "source_feature_rows_checked": 2120,
+  "source_feature_checks_per_row": 9,
+  "source_feature_errors": [],
+  "partition_counts": {
+    "test": 510,
+    "train": 1120,
+    "validation": 490
+  },
+  "main": {
+    "test_rows": 510,
+    "metric_differences": {
+      "zero": {
+        "MAE": 1.7763568394002505e-15,
+        "RMSE": 3.552713678800501e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 8.881784197001252e-16
+      },
+      "persistence": {
+        "MAE": -1.7763568394002505e-15,
+        "RMSE": 0.0,
+        "direction_accuracy": 5.551115123125783e-17,
+        "origin_employment_weighted_MAE": -1.7763568394002505e-15
+      },
+      "industry_mean": {
+        "MAE": 5.329070518200751e-15,
+        "RMSE": -7.105427357601002e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      },
+      "ridge": {
+        "MAE": 3.552713678800501e-15,
+        "RMSE": -1.7763568394002505e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      },
+      "random_forest": {
+        "MAE": -3.552713678800501e-15,
+        "RMSE": 0.0,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      },
+      "hist_gradient_boosting": {
+        "MAE": -3.552713678800501e-15,
+        "RMSE": -8.881784197001252e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      }
+    },
+    "bootstrap_ci_delta_lower_upper": [
+      -0.35460908619775555,
+      -0.6892115633805097,
+      -0.00506766987164476
+    ],
+    "saved_model_prediction_max_difference": 1.4210854715202004e-14,
+    "training_only_scaler_mean_max_difference": 0.0,
+    "training_max_target_year": 2020
+  },
+  "delayed_features": {
+    "test_rows": 510,
+    "metric_differences": {
+      "zero": {
+        "MAE": 1.7763568394002505e-15,
+        "RMSE": 3.552713678800501e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 8.881784197001252e-16
+      },
+      "persistence": {
+        "MAE": 1.5987211554602254e-14,
+        "RMSE": -1.4210854715202004e-14,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      },
+      "industry_mean": {
+        "MAE": -3.552713678800501e-15,
+        "RMSE": -3.552713678800501e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": -8.881784197001252e-16
+      },
+      "ridge": {
+        "MAE": 5.329070518200751e-15,
+        "RMSE": -1.7763568394002505e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 8.881784197001252e-16
+      },
+      "random_forest": {
+        "MAE": 0.0,
+        "RMSE": -1.7763568394002505e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": -8.881784197001252e-16
+      },
+      "hist_gradient_boosting": {
+        "MAE": 7.105427357601002e-15,
+        "RMSE": 3.552713678800501e-15,
+        "direction_accuracy": 0.0,
+        "origin_employment_weighted_MAE": 0.0
+      }
+    },
+    "bootstrap_ci_delta_lower_upper": [
+      -0.24240089108113375,
+      -0.5463933927311803,
+      0.06189439038422262
+    ],
+    "saved_model_prediction_max_difference": 5.329070518200751e-15,
+    "training_only_scaler_mean_max_difference": 0.0,
+    "training_max_target_year": 2020
+  },
+  "delayed_feature_rows_checked": 1950,
+  "delayed_feature_errors": [],
+  "service_linear_attribution_rows_checked": 510,
+  "service_linear_attribution_original_feature_count": 10,
+  "service_linear_attribution_max_difference": 3.552713678800501e-15,
+  "status": "PASS"
+}

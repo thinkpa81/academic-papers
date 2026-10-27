@@ -1,0 +1,124 @@
+{
+  "section_rows": 5148,
+  "provincial_panel_rows": 2431,
+  "national_panel_rows": 143,
+  "coverage": [
+    {
+      "year": 2013,
+      "expected_broad_cells": 170,
+      "complete_numeric": 149,
+      "positive_numeric": 149,
+      "missing": 21,
+      "numeric_zero": 0,
+      "rse_any_star": 27
+    },
+    {
+      "year": 2014,
+      "expected_broad_cells": 170,
+      "complete_numeric": 151,
+      "positive_numeric": 151,
+      "missing": 19,
+      "numeric_zero": 0,
+      "rse_any_star": 28
+    },
+    {
+      "year": 2015,
+      "expected_broad_cells": 170,
+      "complete_numeric": 153,
+      "positive_numeric": 153,
+      "missing": 17,
+      "numeric_zero": 0,
+      "rse_any_star": 32
+    },
+    {
+      "year": 2016,
+      "expected_broad_cells": 170,
+      "complete_numeric": 150,
+      "positive_numeric": 150,
+      "missing": 20,
+      "numeric_zero": 0,
+      "rse_any_star": 30
+    },
+    {
+      "year": 2017,
+      "expected_broad_cells": 170,
+      "complete_numeric": 156,
+      "positive_numeric": 156,
+      "missing": 14,
+      "numeric_zero": 0,
+      "rse_any_star": 29
+    },
+    {
+      "year": 2018,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 33
+    },
+    {
+      "year": 2019,
+      "expected_broad_cells": 170,
+      "complete_numeric": 162,
+      "positive_numeric": 162,
+      "missing": 8,
+      "numeric_zero": 0,
+      "rse_any_star": 35
+    },
+    {
+      "year": 2020,
+      "expected_broad_cells": 170,
+      "complete_numeric": 158,
+      "positive_numeric": 158,
+      "missing": 12,
+      "numeric_zero": 0,
+      "rse_any_star": 35
+    },
+    {
+      "year": 2021,
+      "expected_broad_cells": 170,
+      "complete_numeric": 160,
+      "positive_numeric": 160,
+      "missing": 10,
+      "numeric_zero": 0,
+      "rse_any_star": 34
+    },
+    {
+      "year": 2022,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 31
+    },
+    {
+      "year": 2023,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 159,
+      "missing": 11,
+      "numeric_zero": 0,
+      "rse_any_star": 31
+    },
+    {
+      "year": 2024,
+      "expected_broad_cells": 170,
+      "complete_numeric": 158,
+      "positive_numeric": 158,
+      "missing": 12,
+      "numeric_zero": 0,
+      "rse_any_star": 32
+    },
+    {
+      "year": 2025,
+      "expected_broad_cells": 170,
+      "complete_numeric": 159,
+      "positive_numeric": 158,
+      "missing": 11,
+      "numeric_zero": 1,
+      "rse_any_star": 32
+    }
+  ]
+}

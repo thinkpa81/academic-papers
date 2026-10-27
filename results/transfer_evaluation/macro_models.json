@@ -1,0 +1,128 @@
+[
+  {
+    "series": "realgdp",
+    "model": "ar1",
+    "features": [
+      "lag1"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 0.8561264997136442,
+    "coefficients": [
+      0.24945001479905576
+    ],
+    "center": [
+      0.8443284381606595
+    ],
+    "scale": [
+      0.8925693003058653
+    ],
+    "sha256": "fd102670b2d58263e36de2cd77a49bd20c333d86c238bcb3ba5922dc92627638"
+  },
+  {
+    "series": "realgdp",
+    "model": "ridge_ar2_alpha1",
+    "features": [
+      "lag1",
+      "lag2"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 0.8561264997136442,
+    "coefficients": [
+      0.21791193363119693,
+      0.1154521864336204
+    ],
+    "center": [
+      0.8443284381606595,
+      0.8519717221408434
+    ],
+    "scale": [
+      0.8925693003058653,
+      0.9013528851662458
+    ],
+    "sha256": "187abba30b3086c17041141626b0fa4239070628159c7394194886420eadca5e"
+  },
+  {
+    "series": "realcons",
+    "model": "ar1",
+    "features": [
+      "lag1"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 0.8940221391027912,
+    "coefficients": [
+      0.17227457853527126
+    ],
+    "center": [
+      0.8917712694891792
+    ],
+    "scale": [
+      0.7160959453614052
+    ],
+    "sha256": "a13c6e235eb0ff4f009377792eb371a403c656cc322bbec547102f48f64d8e2b"
+  },
+  {
+    "series": "realcons",
+    "model": "ridge_ar2_alpha1",
+    "features": [
+      "lag1",
+      "lag2"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 0.8940221391027912,
+    "coefficients": [
+      0.1399444456496778,
+      0.13142239148028276
+    ],
+    "center": [
+      0.8917712694891792,
+      0.8938480692190063
+    ],
+    "scale": [
+      0.7160959453614052,
+      0.7174537318301817
+    ],
+    "sha256": "9f17c36e282196ea452f6bfd4205c332c28cd38edd9844cefb87dd288682b0bf"
+  },
+  {
+    "series": "realinv",
+    "model": "ar1",
+    "features": [
+      "lag1"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 1.1739368801011048,
+    "coefficients": [
+      0.4730396181090865
+    ],
+    "center": [
+      1.1074740468088986
+    ],
+    "scale": [
+      4.746633481927922
+    ],
+    "sha256": "094dd02c44ef4dd4da29c6b0539948bd23dddfc4e289fa8ae1771e086279b2a7"
+  },
+  {
+    "series": "realinv",
+    "model": "ridge_ar2_alpha1",
+    "features": [
+      "lag1",
+      "lag2"
+    ],
+    "fit_through": "1999Q4",
+    "intercept": 1.1739368801011048,
+    "coefficients": [
+      0.45461436925606724,
+      0.1893819578899213
+    ],
+    "center": [
+      1.1074740468088986,
+      1.1418970328355924
+    ],
+    "scale": [
+      4.746633481927922,
+      4.7764584879557255
+    ],
+    "sha256": "88950ad29199b7971028ba4a69dc1de6e7df6904ed659ed23985d6fd4db6235b"
+  }
+]
