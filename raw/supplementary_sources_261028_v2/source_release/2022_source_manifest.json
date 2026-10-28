@@ -1,0 +1,26 @@
+{
+  "year": 2022,
+  "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=421281&mid=a10301010000",
+  "retrieved_utc": "2026-09-26T11:58:18.530940+00:00",
+  "http_status": 200,
+  "release_dates_near_label": [
+    "게시일</strong>\r"
+  ],
+  "attachments": [
+    [
+      "/boardDownload.es?bid=211&list_no=421281&seq=10",
+      "2022년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.pdf"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=421281&seq=11",
+      "2022년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwp"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=421281&seq=12",
+      "2022년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwpx"
+    ]
+  ],
+  "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=421281&seq=10",
+  "pdf_http_status": 200,
+  "pdf_sha256": "47be925e204a79256ffbb59fa77ecdeb93cc5b7a837c2f2c17dbaca322ea2630"
+}

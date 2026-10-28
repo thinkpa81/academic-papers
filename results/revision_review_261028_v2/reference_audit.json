@@ -1,0 +1,335 @@
+{
+  "review_date_kst": "2026-10-28",
+  "scope": [
+    5,
+    6,
+    15,
+    41,
+    42
+  ],
+  "references": [
+    {
+      "number": 5,
+      "status": "보존본 확인 및 확보일 수정",
+      "finding": "J 표의 보존 DOM 주석에 제11차 한국표준산업분류를 2013년 상반기부터 소급 반영하였음이 명시된다. 표 전체 수록기간은 2013H1–2025H2이나 분석 추출은 각 연도 H1 2013–2025이다. captured_at_utc는 2026-09-26T12:03:19.871Z로 한국 날짜도 9월26일이다. 9월27일 후속 확인은 원고의 저자 기록이며 독립 로그로 재검증하지 못했다.",
+      "suggested_citation": "[5] 국가데이터처, “시도/산업별 취업자”, 국가통계포털(KOSIS), 통계표 ID DT_1ES3B05J, 제11차 한국표준산업분류, 분석대상 2013–2025년 각 상반기, 2026년 보존 추출본. https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES3B05J (확보일: 2026.9.26).",
+      "evidence": [
+        "raw/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+        "raw/table_metadata_and_notes.txt",
+        "raw/source_acquisition_manifest.json"
+      ]
+    },
+    {
+      "number": 6,
+      "status": "복원 보존본 확인 및 추출범위 정정",
+      "finding": "S 표의 보존 DOM과 manifest를 이전 재현패키지에서 복원했다. 실제 대조 추출기간은 2022년 상·하반기, 2023·2024년 상반기이다. 2013–2024는 본 연구가 모두 추출한 기간으로 쓸 수 없다. 별도 획득 타임스탬프 없이 로컬 보존 파일 수정시각에 근거한 확보 기록이므로 그 한계도 기록한다.",
+      "suggested_citation": "[6] 국가데이터처, “시도/산업별 취업자”, 국가통계포털(KOSIS), 통계표 ID DT_1ES3B05S, 제10차 한국표준산업분류, 보완분석 대조 추출기간: 2022년 상·하반기 및 2023·2024년 상반기, 2026년 보존 추출본. https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES3B05S (보존 파일의 확보 기록: 2026.9.23).",
+      "evidence": [
+        "raw/supplementary_sources_261028_v2/source_employment/kosis_DT_1ES3B05S_2022H1H2_2023H1_2024H1_precision1_dom.json",
+        "raw/supplementary_sources_261028_v2/source_employment/kosis_oldS_H1H2_audit_precision1_manifest.json"
+      ]
+    },
+    {
+      "number": 15,
+      "status": "13개 보도자료 및 공표일 모두 공식 웹 대조 확인",
+      "finding": "2013–2025 각 연도 상반기 자료 13건의 게시월은 모두 10월이다. 본문 12개월 관측간격과 약6개월 선행기간을 구별하는 근거로 적절하다. 원자료 PDF 파일 자체는 복원 ZIP에 없고 HTML, PDF 텍스트 추출본, 공식 URL 및 원파일 해시 기록이 있다. 최신 자료라는 표현은 2026년 상반기 결과가 2026.10.27 발표되었으므로 분석에 포함한 2025년 자료로 바꾼다. 저자기관 통계청·국가데이터처는 공동 작성이 아니라 연도별 기관명 변경이다.",
+      "suggested_citation": "[15] 통계청(2013–2024)·국가데이터처(2025), “상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2013–2025년 연도별 보도자료 13건. 연도별 제목·게시일·조사대상 주간·공식 PDF URL 및 텍스트 추출본은 재현패키지의 공표일 목록과 출처 자료에 수록. 분석에 포함한 2025년 자료: https://mods.go.kr/board.es?act=view&bid=211&list_no=439006&mid=a10301010000 (게시일: 2025.10.28; 재확인일: 2026.10.28).",
+      "evidence": [
+        "raw/supplementary_sources_261028_v2/source_release/release_calendar_H1_2013_2025.json",
+        "raw/supplementary_sources_261028_v2/source_release/"
+      ]
+    },
+    {
+      "number": 41,
+      "status": "공식 데이터셋과 2.0·2.4 보존본 확인",
+      "finding": "공식 OECD 검색자료에서 데이터셋명과 데이터플로 2.0·2.4가 확인된다. v2.0 CSV 6,942행의 STRUCTURE_ID는 OECD.CFE.EDS:DSD_REG_ECO@DF_EMP(2.0), TERRITORIAL_LEVEL은 TL3이다. v2.4 응답 1,878,576바이트와 요청로그·해시 일치. v2.4 원응답은 KOR/TL2/TL3를 포함한 광역조회이므로 분석에 사용한 한국 TL3 부분집합과 구별한다. 데이터플로 버전과 확보시점 자료판본은 같은 개념이 아니므로 함께 기록한다.",
+      "suggested_citation": "[41] OECD, “Employment by main economic activity – Regions”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_ECO@DF_EMP, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 보존).",
+      "evidence": [
+        "raw/oecd_korea_regional_industry_raw.csv",
+        "raw/oecd_source_manifest.json",
+        "raw/supplementary_sources_261028_v2/source_employment/oecd_latest_exact_download.json",
+        "raw/supplementary_sources_261028_v2/source_employment/oecd_korea_emp_2_4_latest.csv"
+      ]
+    },
+    {
+      "number": 42,
+      "status": "공식 데이터셋과 2.0·2.4 보존본 확인",
+      "finding": "공식 OECD 검색자료에서 데이터셋명과 데이터플로 2.0·2.4가 확인된다. v2.0 CSV 19,032행의 STRUCTURE_ID는 OECD.CFE.EDS:DSD_REG_LABOUR@DF_LAB(2.0), TERRITORIAL_LEVEL은 TL3이다. 복원한 v2.4는 한국17개TL3, 15–64세, 성별전체, LF_RATE·UNE_RATE, 2022년이후 조건의 조회이며 응답38,416바이트와 해시가 일치한다. 모든 노동지표를 두 버전 모두 전기간 확보한 것처럼 쓰지 않는다.",
+      "suggested_citation": "[42] OECD, “Labour statistics – Regions (for Developer API)”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_LABOUR@DF_LAB, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 및 중첩기간 대조 보존).",
+      "evidence": [
+        "raw/oecd_korea_regional_labour_raw.csv",
+        "raw/oecd_source_manifest.json",
+        "raw/supplementary_sources_261028_v2/source_covariates/oecd/latest_developer_narrow_retry_log.json",
+        "raw/supplementary_sources_261028_v2/source_covariates/oecd/latest_developer_korea17_y15t64_since2022_raw.csv",
+        "raw/supplementary_sources_261028_v2/source_covariates/overlap_2022_2023_comparison.csv"
+      ]
+    }
+  ],
+  "hash_checks": [
+    {
+      "file": "raw/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+      "expected_sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357",
+      "actual_sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357",
+      "matches": true
+    },
+    {
+      "file": "raw/supplementary_sources_261028_v2/source_employment/kosis_DT_1ES3B05S_2022H1H2_2023H1_2024H1_precision1_dom.json",
+      "expected_sha256": "c766298f616704315590c08260017367be9cc610d9745ea64b4587fb39f4a43a",
+      "actual_sha256": "c766298f616704315590c08260017367be9cc610d9745ea64b4587fb39f4a43a",
+      "matches": true
+    },
+    {
+      "file": "raw/supplementary_sources_261028_v2/source_employment/oecd_korea_emp_2_4_latest.csv",
+      "expected_sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf",
+      "actual_sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf",
+      "matches": true
+    },
+    {
+      "file": "raw/supplementary_sources_261028_v2/source_covariates/oecd/latest_developer_korea17_y15t64_since2022_raw.csv",
+      "expected_sha256": "d9c91feebbfb936726214b01765cacf4cad1d1ab3e0121514eca0ba937853b73",
+      "actual_sha256": "d9c91feebbfb936726214b01765cacf4cad1d1ab3e0121514eca0ba937853b73",
+      "matches": true
+    }
+  ],
+  "release_calendar": [
+    {
+      "year": 2013,
+      "reference_period": "2013-H1 (April reference week)",
+      "reference_start": "2013-04-14",
+      "reference_end": "2013-04-20",
+      "survey_fieldwork_start": "2013-04-21",
+      "survey_fieldwork_end": "2013-05-06",
+      "release_date": "2013-10-30",
+      "classification_in_release": "KSIC9",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=309601&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=309601&seq=1",
+      "pdf_reference_period_page": 27,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "45a9ceb625092b2d92eee7878d27e0fa4111278d7250bbd4f5d64a67838f39a1"
+    },
+    {
+      "year": 2014,
+      "reference_period": "2014-H1 (April reference week)",
+      "reference_start": "2014-04-13",
+      "reference_end": "2014-04-19",
+      "survey_fieldwork_start": "2014-04-20",
+      "survey_fieldwork_end": "2014-05-09",
+      "release_date": "2014-10-30",
+      "classification_in_release": "KSIC9",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=331450&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=331450&seq=2",
+      "pdf_reference_period_page": 51,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "fb5f7707e9d2eac74670a8ca5c874f91559026a1a04a4e90014f7e9382b78fcc"
+    },
+    {
+      "year": 2015,
+      "reference_period": "2015-H1 (April reference week)",
+      "reference_start": "2015-04-12",
+      "reference_end": "2015-04-18",
+      "survey_fieldwork_start": "2015-04-22",
+      "survey_fieldwork_end": "2015-05-11",
+      "release_date": "2015-10-28",
+      "classification_in_release": "KSIC9",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=349269&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=349269&seq=8",
+      "pdf_reference_period_page": 51,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "11f5d41afe349489290c4d80651f0bda7009264a747c3f39546ea0a80d1f220e"
+    },
+    {
+      "year": 2016,
+      "reference_period": "2016-H1 (April reference week)",
+      "reference_start": "2016-04-10",
+      "reference_end": "2016-04-16",
+      "survey_fieldwork_start": "2016-04-20",
+      "survey_fieldwork_end": "2016-05-06",
+      "release_date": "2016-10-26",
+      "classification_in_release": "KSIC9",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=356938&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=356938&seq=3",
+      "pdf_reference_period_page": 61,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "9842da91f79013de1ed250938b5eb678c12f8facd0a70f61a36bd95d653b2956"
+    },
+    {
+      "year": 2017,
+      "reference_period": "2017-H1 (April reference week)",
+      "reference_start": "2017-04-09",
+      "reference_end": "2017-04-15",
+      "survey_fieldwork_start": "2017-04-18",
+      "survey_fieldwork_end": "2017-05-10",
+      "release_date": "2017-10-24",
+      "classification_in_release": "KSIC9",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=363875&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=363875&seq=1",
+      "pdf_reference_period_page": 61,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "efadb6e930ea7a3bd09886f56f6438702bb90c3248d09e7e7f032e33f7b99513"
+    },
+    {
+      "year": 2018,
+      "reference_period": "2018-H1 (April reference week)",
+      "reference_start": "2018-04-15",
+      "reference_end": "2018-04-21",
+      "survey_fieldwork_start": "2018-04-23",
+      "survey_fieldwork_end": "2018-05-09",
+      "release_date": "2018-10-23",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=371172&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=371172&seq=3",
+      "pdf_reference_period_page": 44,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "aad1bdf6fdfe32365deb97e6324e09c3f21fd56afa6b7446e296a13b63e1d11b"
+    },
+    {
+      "year": 2019,
+      "reference_period": "2019-H1 (April reference week)",
+      "reference_start": "2019-04-14",
+      "reference_end": "2019-04-20",
+      "survey_fieldwork_start": "2019-04-22",
+      "survey_fieldwork_end": "2019-05-08",
+      "release_date": "2019-10-22",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=378140&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=378140&seq=1",
+      "pdf_reference_period_page": 45,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "0e6b593d5e6b32532a6d3e05aeaf342bef72792ffc67f5a8db43fd384d078b37"
+    },
+    {
+      "year": 2020,
+      "reference_period": "2020-H1 (April reference week)",
+      "reference_start": "2020-04-12",
+      "reference_end": "2020-04-18",
+      "survey_fieldwork_start": "2020-04-19",
+      "survey_fieldwork_end": "2020-05-08",
+      "release_date": "2020-10-20",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=385719&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=385719&seq=1",
+      "pdf_reference_period_page": 45,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "67dd2332b0bb8e44f51a44c12bd7809bdeea4435c2db2c43fb111e25cb9e2a8f"
+    },
+    {
+      "year": 2021,
+      "reference_period": "2021-H1 (April reference week)",
+      "reference_start": "2021-04-11",
+      "reference_end": "2021-04-17",
+      "survey_fieldwork_start": "2021-04-19",
+      "survey_fieldwork_end": "2021-05-04",
+      "release_date": "2021-10-19",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=414646&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=414646&seq=2",
+      "pdf_reference_period_page": 45,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "615dabf05489ef36752e7cee6f413b84791fe203c3b14fb46c21eac28ba6aa81"
+    },
+    {
+      "year": 2022,
+      "reference_period": "2022-H1 (April reference week)",
+      "reference_start": "2022-04-10",
+      "reference_end": "2022-04-16",
+      "survey_fieldwork_start": "2022-04-19",
+      "survey_fieldwork_end": "2022-05-04",
+      "release_date": "2022-10-18",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=421281&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=421281&seq=10",
+      "pdf_reference_period_page": 49,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "47be925e204a79256ffbb59fa77ecdeb93cc5b7a837c2f2c17dbaca322ea2630"
+    },
+    {
+      "year": 2023,
+      "reference_period": "2023-H1 (April reference week)",
+      "reference_start": "2023-04-09",
+      "reference_end": "2023-04-15",
+      "survey_fieldwork_start": "2023-04-19",
+      "survey_fieldwork_end": "2023-05-04",
+      "release_date": "2023-10-17",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=427575&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=427575&seq=1",
+      "pdf_reference_period_page": 81,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "f4f3ea3e0046457db1c6cf6be885b483e8c05c890d3845848f8cacd5c2e6cd9a"
+    },
+    {
+      "year": 2024,
+      "reference_period": "2024-H1 (April reference week)",
+      "reference_start": "2024-04-14",
+      "reference_end": "2024-04-20",
+      "survey_fieldwork_start": "2024-04-23",
+      "survey_fieldwork_end": "2024-05-08",
+      "release_date": "2024-10-08",
+      "classification_in_release": "KSIC10",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=433146&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=433146&seq=1",
+      "pdf_reference_period_page": 81,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "a0d697a27a78a52d21344cbc1c9fe30bd2fe31e506deed326eaba2e23503ffee"
+    },
+    {
+      "year": 2025,
+      "reference_period": "2025-H1 (April reference week)",
+      "reference_start": "2025-04-13",
+      "reference_end": "2025-04-19",
+      "survey_fieldwork_start": "2025-04-22",
+      "survey_fieldwork_end": "2025-05-07",
+      "release_date": "2025-10-28",
+      "classification_in_release": "KSIC11",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=439006&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=439006&seq=3",
+      "pdf_reference_period_page": 75,
+      "verified_scope": "Official release-page date; downloaded report reference week and industrial classification; not immutable original-release cell values",
+      "source_status": "원문 확인",
+      "released_by_year_end": true,
+      "current_KOSIS_cell_vintage_as_of_origin_verified": false,
+      "pdf_sha256": "623ea778dc5ca6cdfb09aa781083949904ff25709fdd551db8ad541b29904cf3"
+    }
+  ],
+  "limitations": [
+    "KOSIS 동적 표는 이번 공개 웹 도구에서 직접 재조회되지 않아 사용자 보관 공식화면 DOM과 메타데이터를 대조하였다.",
+    "보존 기록은 독립 타임스탬프 증명 또는 전자서명이 아니다.",
+    "공표일 확인은 각 셀의 당시 동일 수치 이용가능성을 증명하지 않는다."
+  ]
+}

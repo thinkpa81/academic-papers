@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-09-23T14:41:56.960871+00:00",
+  "scope": "Source acquisition and definition/overlap review only. No model fitting, prediction updating, or outcome scoring.",
+  "status": "HOLD_2025_INPUT_BRIDGE_REQUIRED",
+  "old_raw_sha256": "618fe6aa0d38e1e13783276a0c0652122e0ff8af4bab645f4d3361fe0942a511",
+  "raw_sha256": "d9c91feebbfb936726214b01765cacf4cad1d1ab3e0121514eca0ba937853b73",
+  "raw_rows": 136,
+  "raw_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "normalized_2022_2024_rows": 102,
+  "new_2024_rows": 34,
+  "2024_regions": 17,
+  "overlap_rows": 68,
+  "overlap_exact_matches": 34,
+  "overlap_differences": 34,
+  "overlap_missing_old_or_new": 0,
+  "maximum_absolute_difference_pct_points": 4.0,
+  "by_measure": [
+    {
+      "measure": "LF_RATE",
+      "n": 34,
+      "exact_matches": 0,
+      "different": 34,
+      "max_abs_difference": 4.0
+    },
+    {
+      "measure": "UNE_RATE",
+      "n": 34,
+      "exact_matches": 34,
+      "different": 0,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "definition_codes_match": true,
+  "annualisation_and_country_survey_bridge_confirmed": false,
+  "future_2025_availability_only": [
+    {
+      "MEASURE": "LF_RATE",
+      "regions": 17,
+      "rows": 17
+    },
+    {
+      "MEASURE": "UNE_RATE",
+      "regions": 17,
+      "rows": 17
+    }
+  ],
+  "scoring_authorized": false
+}

@@ -1,0 +1,1347 @@
+{
+  "status": "PASS",
+  "checks_passed": 51,
+  "checks_total": 51,
+  "checks": [
+    {
+      "check": "independent raw feature target_logpoints",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "independent raw feature log_employment",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "check": "independent raw feature industry_share_pct",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "independent raw feature own_growth",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "independent raw feature own_growth_lag1",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "check": "independent raw feature peer_industry_growth",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "check": "independent raw feature region_total_growth",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "check": "independent raw feature lagged_available_region_industry_growth",
+      "passed": true,
+      "rows": 1449,
+      "max_abs_difference": 2.220446049250313e-16
+    },
+    {
+      "check": "all retained rows satisfy stated boundary exclusion",
+      "passed": true
+    },
+    {
+      "check": "peer region identifiers match independent eligible sets",
+      "passed": true
+    },
+    {
+      "check": "input year is target year minus one",
+      "passed": true
+    },
+    {
+      "check": "chronological split sizes",
+      "passed": true
+    },
+    {
+      "check": "sample inclusion 1449 of 1700",
+      "passed": true,
+      "inclusion_pct": 85.23529411764706
+    },
+    {
+      "check": "initial MAE difference rounds to -0.106",
+      "passed": true,
+      "actual": -0.10580072611046691
+    },
+    {
+      "check": "428 predictions are the test panel",
+      "passed": true
+    },
+    {
+      "check": "all initial global mean forecasts use development targets only",
+      "passed": true
+    },
+    {
+      "check": "initial interval includes zero",
+      "passed": true,
+      "ci95": [
+        -0.2734546339205521,
+        0.0555162113555238
+      ]
+    },
+    {
+      "check": "expanding simultaneous interval learned32",
+      "passed": true,
+      "delta": -0.2699726611106301,
+      "interval": [
+        -0.5027936026099307,
+        -0.0371517196113295
+      ]
+    },
+    {
+      "check": "expanding simultaneous interval all38",
+      "passed": true,
+      "delta": 0.1040176966746359,
+      "interval": [
+        -0.0823374856544641,
+        0.290372879003736
+      ]
+    },
+    {
+      "check": "field response file has no observations",
+      "passed": true
+    },
+    {
+      "check": "field assignment is a plan of 8 participants x 16 tasks",
+      "passed": true
+    },
+    {
+      "check": "transfer judgments 30360",
+      "passed": true
+    },
+    {
+      "check": "7590 matched native and Pandera decisions",
+      "passed": true
+    },
+    {
+      "check": "trust-boundary accepted probes retained",
+      "passed": true,
+      "rows": 506,
+      "decision_columns": [
+        "native_permitted",
+        "pandera_permitted"
+      ]
+    },
+    {
+      "check": "24 research tables, with an optional abstract layout table",
+      "passed": true
+    },
+    {
+      "check": "displayed table 1",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 1,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 2",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 2,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 3",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 4",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 5",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 6",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 1,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 7",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 8",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 3,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 9",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 2,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 10",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 1,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 11",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 12",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 13",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 14",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table 15",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table A1",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table A2",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table A3",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 14,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table B1",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table B2",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table C1",
+      "passed": true,
+      "raw_equal": false,
+      "changed_cells": 4,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table D1",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table D2",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "displayed table D3",
+      "passed": true,
+      "raw_equal": true,
+      "changed_cells": 0,
+      "allowed_normalization": "U+2212/U+2013/U+2014 to ASCII hyphen; layout whitespace only"
+    },
+    {
+      "check": "nine-stage replay completed",
+      "passed": true
+    },
+    {
+      "check": "all corresponding rerun CSVs match preserved results",
+      "passed": true,
+      "files": 157
+    }
+  ],
+  "displayed_cells": 780,
+  "displayed_cell_changes": [
+    {
+      "table_id": "1",
+      "row": 2,
+      "column": 0,
+      "csv_text": "Model Cards·Datasheets·FactSheets[20,29,39]",
+      "manuscript_text": "Model Cards·Datasheets·FactSheets\n[20,29,39]",
+      "presentation_only": true
+    },
+    {
+      "table_id": "2",
+      "row": 3,
+      "column": 3,
+      "csv_text": "카드·비교표 수치와 표시의 일치, 기여도 합계, 표시–근거 관계 시험",
+      "manuscript_text": "카드·비교표 수치와 표시의 일치, 기여도 합계, 표시-근거 관계 시험",
+      "presentation_only": true
+    },
+    {
+      "table_id": "2",
+      "row": 4,
+      "column": 1,
+      "csv_text": "공공부문 책임성, 내부 감사·검토 가능성, 출처 일관성[23,45,55–57]",
+      "manuscript_text": "공공부문 책임성, 내부 감사·검토 가능성, 출처 일관성[23,45,55-57]",
+      "presentation_only": true
+    },
+    {
+      "table_id": "6",
+      "row": 2,
+      "column": 5,
+      "csv_text": "−17.65",
+      "manuscript_text": "-17.65",
+      "presentation_only": true
+    },
+    {
+      "table_id": "8",
+      "row": 2,
+      "column": 5,
+      "csv_text": "−0.106",
+      "manuscript_text": "-0.106",
+      "presentation_only": true
+    },
+    {
+      "table_id": "8",
+      "row": 3,
+      "column": 5,
+      "csv_text": "−0.068",
+      "manuscript_text": "-0.068",
+      "presentation_only": true
+    },
+    {
+      "table_id": "8",
+      "row": 4,
+      "column": 5,
+      "csv_text": "−0.071",
+      "manuscript_text": "-0.071",
+      "presentation_only": true
+    },
+    {
+      "table_id": "9",
+      "row": 4,
+      "column": 5,
+      "csv_text": "—",
+      "manuscript_text": "-",
+      "presentation_only": true
+    },
+    {
+      "table_id": "9",
+      "row": 4,
+      "column": 6,
+      "csv_text": "—",
+      "manuscript_text": "-",
+      "presentation_only": true
+    },
+    {
+      "table_id": "10",
+      "row": 1,
+      "column": 1,
+      "csv_text": "—",
+      "manuscript_text": "-",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 1,
+      "column": 1,
+      "csv_text": "−1.77",
+      "manuscript_text": "-1.77",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 1,
+      "column": 2,
+      "csv_text": "−2.53",
+      "manuscript_text": "-2.53",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 2,
+      "column": 1,
+      "csv_text": "—",
+      "manuscript_text": "-",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 2,
+      "column": 2,
+      "csv_text": "—",
+      "manuscript_text": "-",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 3,
+      "column": 1,
+      "csv_text": "−0.36",
+      "manuscript_text": "-0.36",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 3,
+      "column": 2,
+      "csv_text": "−1.12",
+      "manuscript_text": "-1.12",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 4,
+      "column": 1,
+      "csv_text": "−1.05",
+      "manuscript_text": "-1.05",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 4,
+      "column": 2,
+      "csv_text": "−1.81",
+      "manuscript_text": "-1.81",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 5,
+      "column": 1,
+      "csv_text": "−2.89",
+      "manuscript_text": "-2.89",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 5,
+      "column": 2,
+      "csv_text": "−3.65",
+      "manuscript_text": "-3.65",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 6,
+      "column": 1,
+      "csv_text": "−1.80",
+      "manuscript_text": "-1.80",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 6,
+      "column": 2,
+      "csv_text": "−2.56",
+      "manuscript_text": "-2.56",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 10,
+      "column": 1,
+      "csv_text": "−0.72",
+      "manuscript_text": "-0.72",
+      "presentation_only": true
+    },
+    {
+      "table_id": "A3",
+      "row": 10,
+      "column": 2,
+      "csv_text": "−1.49",
+      "manuscript_text": "-1.49",
+      "presentation_only": true
+    },
+    {
+      "table_id": "C1",
+      "row": 1,
+      "column": 0,
+      "csv_text": "릿지 5개 선정 − 기준 6개 선정",
+      "manuscript_text": "릿지 5개 선정 - 기준 6개 선정",
+      "presentation_only": true
+    },
+    {
+      "table_id": "C1",
+      "row": 2,
+      "column": 0,
+      "csv_text": "릿지 5개 선정 − 기준 6개 선정",
+      "manuscript_text": "릿지 5개 선정 - 기준 6개 선정",
+      "presentation_only": true
+    },
+    {
+      "table_id": "C1",
+      "row": 3,
+      "column": 0,
+      "csv_text": "선형·기준 17개 선정 − 기준 6개 선정",
+      "manuscript_text": "선형·기준 17개 선정 - 기준 6개 선정",
+      "presentation_only": true
+    },
+    {
+      "table_id": "C1",
+      "row": 4,
+      "column": 0,
+      "csv_text": "선형·기준 17개 선정 − 기준 6개 선정",
+      "manuscript_text": "선형·기준 17개 선정 - 기준 6개 선정",
+      "presentation_only": true
+    }
+  ],
+  "presentation_character_map": {
+    "−": "-",
+    "–": "-",
+    "—": "-"
+  },
+  "replay_csv_comparison": [
+    {
+      "path": "benchmark/2020/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2020/predictions.csv",
+      "passed": true,
+      "rows": 154
+    },
+    {
+      "path": "benchmark/2020/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2020/validation_predictions.csv",
+      "passed": true,
+      "rows": 137
+    },
+    {
+      "path": "benchmark/2021/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2021/predictions.csv",
+      "passed": true,
+      "rows": 154
+    },
+    {
+      "path": "benchmark/2021/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2021/validation_predictions.csv",
+      "passed": true,
+      "rows": 154
+    },
+    {
+      "path": "benchmark/2022/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2022/predictions.csv",
+      "passed": true,
+      "rows": 155
+    },
+    {
+      "path": "benchmark/2022/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2022/validation_predictions.csv",
+      "passed": true,
+      "rows": 154
+    },
+    {
+      "path": "benchmark/2023/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2023/predictions.csv",
+      "passed": true,
+      "rows": 155
+    },
+    {
+      "path": "benchmark/2023/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2023/validation_predictions.csv",
+      "passed": true,
+      "rows": 155
+    },
+    {
+      "path": "benchmark/2024/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2024/predictions.csv",
+      "passed": true,
+      "rows": 137
+    },
+    {
+      "path": "benchmark/2024/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2024/validation_predictions.csv",
+      "passed": true,
+      "rows": 155
+    },
+    {
+      "path": "benchmark/2025/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/2025/predictions.csv",
+      "passed": true,
+      "rows": 136
+    },
+    {
+      "path": "benchmark/2025/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/2025/validation_predictions.csv",
+      "passed": true,
+      "rows": 137
+    },
+    {
+      "path": "benchmark/all_metrics.csv",
+      "passed": true,
+      "rows": 119
+    },
+    {
+      "path": "benchmark/expanding_comparisons.csv",
+      "passed": true,
+      "rows": 32
+    },
+    {
+      "path": "benchmark/expanding_predictions.csv",
+      "passed": true,
+      "rows": 891
+    },
+    {
+      "path": "benchmark/expanding_summary.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/fixed/metrics.csv",
+      "passed": true,
+      "rows": 17
+    },
+    {
+      "path": "benchmark/fixed/predictions.csv",
+      "passed": true,
+      "rows": 428
+    },
+    {
+      "path": "benchmark/fixed/validation_grid.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "benchmark/fixed/validation_predictions.csv",
+      "passed": true,
+      "rows": 463
+    },
+    {
+      "path": "benchmark/fixed_comparisons.csv",
+      "passed": true,
+      "rows": 18
+    },
+    {
+      "path": "diagnostics/coverage_by_industry.csv",
+      "passed": true,
+      "rows": 30
+    },
+    {
+      "path": "diagnostics/heldout_comparisons.csv",
+      "passed": true,
+      "rows": 2
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/analysis_panel.csv",
+      "passed": true,
+      "rows": 1357
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/analysis_panel.csv",
+      "passed": true,
+      "rows": 1349
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/analysis_panel.csv",
+      "passed": true,
+      "rows": 1349
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/analysis_panel.csv",
+      "passed": true,
+      "rows": 1358
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/analysis_panel.csv",
+      "passed": true,
+      "rows": 1364
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/analysis_panel.csv",
+      "passed": true,
+      "rows": 1359
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/analysis_panel.csv",
+      "passed": true,
+      "rows": 1373
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/analysis_panel.csv",
+      "passed": true,
+      "rows": 1369
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/analysis_panel.csv",
+      "passed": true,
+      "rows": 1359
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/analysis_panel.csv",
+      "passed": true,
+      "rows": 1354
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/analysis_panel.csv",
+      "passed": true,
+      "rows": 1359
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/analysis_panel.csv",
+      "passed": true,
+      "rows": 1365
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/analysis_panel.csv",
+      "passed": true,
+      "rows": 1359
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/analysis_panel.csv",
+      "passed": true,
+      "rows": 1386
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/analysis_panel.csv",
+      "passed": true,
+      "rows": 1401
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/analysis_panel.csv",
+      "passed": true,
+      "rows": 1359
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/analysis_panel.csv",
+      "passed": true,
+      "rows": 1364
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 26
+    },
+    {
+      "path": "diagnostics/heldout_metrics.csv",
+      "passed": true,
+      "rows": 2
+    },
+    {
+      "path": "diagnostics/heldout_predictions.csv",
+      "passed": true,
+      "rows": 428
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/analysis_panel.csv",
+      "passed": true,
+      "rows": 1449
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 18
+    },
+    {
+      "path": "diagnostics/reselection_intervals.csv",
+      "passed": true,
+      "rows": 4
+    },
+    {
+      "path": "diagnostics/reselection_replicates.csv",
+      "passed": true,
+      "rows": 1000
+    },
+    {
+      "path": "diagnostics/selection_frequencies.csv",
+      "passed": true,
+      "rows": 20
+    },
+    {
+      "path": "forecast_replay/additional_model_coefficients.csv",
+      "passed": true,
+      "rows": 31
+    },
+    {
+      "path": "forecast_replay/all_metrics.csv",
+      "passed": true,
+      "rows": 68
+    },
+    {
+      "path": "forecast_replay/all_paired_comparisons.csv",
+      "passed": true,
+      "rows": 85
+    },
+    {
+      "path": "forecast_replay/outcome_dependent_trim_ledger.csv",
+      "passed": true,
+      "rows": 38
+    },
+    {
+      "path": "forecast_replay/panel_replay/analysis_panel.csv",
+      "passed": true,
+      "rows": 1449
+    },
+    {
+      "path": "forecast_replay/panel_replay/cohort_counts.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "forecast_replay/panel_replay/exclusion_ledger.csv",
+      "passed": true,
+      "rows": 1700
+    },
+    {
+      "path": "forecast_replay/panel_replay/exclusion_reason_counts.csv",
+      "passed": true,
+      "rows": 18
+    },
+    {
+      "path": "forecast_replay/source_replay/broad_activity_crosswalk.csv",
+      "passed": true,
+      "rows": 11
+    },
+    {
+      "path": "forecast_replay/source_replay/coverage_by_year.csv",
+      "passed": true,
+      "rows": 13
+    },
+    {
+      "path": "forecast_replay/source_replay/incomplete_broad_cells.csv",
+      "passed": true,
+      "rows": 181
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_national_panel.csv",
+      "passed": true,
+      "rows": 143
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_panel.csv",
+      "passed": true,
+      "rows": 2431
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_sections.csv",
+      "passed": true,
+      "rows": 5148
+    },
+    {
+      "path": "forecast_replay/test_predictions_additional.csv",
+      "passed": true,
+      "rows": 428
+    },
+    {
+      "path": "forecast_replay/validation_grid.csv",
+      "passed": true,
+      "rows": 6
+    },
+    {
+      "path": "forecast_replay/validation_predictions.csv",
+      "passed": true,
+      "rows": 463
+    },
+    {
+      "path": "local_fallback/decision_reason_counts.csv",
+      "passed": true,
+      "rows": 8
+    },
+    {
+      "path": "local_fallback/evaluated_region_industry_decisions.csv",
+      "passed": true,
+      "rows": 156
+    },
+    {
+      "path": "local_fallback/evaluation_predictions_decisions_and_losses.csv",
+      "passed": true,
+      "rows": 428
+    },
+    {
+      "path": "local_fallback/excluded_validation_rows.csv",
+      "passed": true,
+      "rows": 0
+    },
+    {
+      "path": "local_fallback/grouped_metrics.csv",
+      "passed": true,
+      "rows": 128
+    },
+    {
+      "path": "local_fallback/pooled_metrics.csv",
+      "passed": true,
+      "rows": 4
+    },
+    {
+      "path": "local_fallback/region_block_intervals.csv",
+      "passed": true,
+      "rows": 12
+    },
+    {
+      "path": "local_fallback/region_block_replicates.csv",
+      "passed": true,
+      "rows": 24000
+    },
+    {
+      "path": "local_fallback/validation_coverage_counts.csv",
+      "passed": true,
+      "rows": 4
+    },
+    {
+      "path": "local_fallback/validation_only_decisions_before_test_merge.csv",
+      "passed": true,
+      "rows": 157
+    },
+    {
+      "path": "local_fallback/yearly_metrics.csv",
+      "passed": true,
+      "rows": 12
+    },
+    {
+      "path": "model_swap_replay/case_results.csv",
+      "passed": true,
+      "rows": 334
+    },
+    {
+      "path": "model_swap_replay/paired_results.csv",
+      "passed": true,
+      "rows": 167
+    },
+    {
+      "path": "model_swap_replay/summary.csv",
+      "passed": true,
+      "rows": 9
+    },
+    {
+      "path": "preserved_audit/table12_display_check.csv",
+      "passed": true,
+      "rows": 10
+    },
+    {
+      "path": "preserved_audit/table8_recalculated.csv",
+      "passed": true,
+      "rows": 4
+    },
+    {
+      "path": "registered_service/case_results.csv",
+      "passed": true,
+      "rows": 1006
+    },
+    {
+      "path": "service_replay/case_results.csv",
+      "passed": true,
+      "rows": 286
+    },
+    {
+      "path": "service_replay/original_comparison/case_results.csv",
+      "passed": true,
+      "rows": 330
+    },
+    {
+      "path": "service_replay/original_comparison/manuscript_table.csv",
+      "passed": true,
+      "rows": 5
+    },
+    {
+      "path": "service_replay/original_comparison/summary_by_family.csv",
+      "passed": true,
+      "rows": 42
+    },
+    {
+      "path": "transfer_evaluation/case_results.csv",
+      "passed": true,
+      "rows": 30360
+    },
+    {
+      "path": "transfer_evaluation/comparison_summary.csv",
+      "passed": true,
+      "rows": 8
+    },
+    {
+      "path": "transfer_evaluation/macro_forecast_diagnostics.csv",
+      "passed": true,
+      "rows": 6
+    },
+    {
+      "path": "transfer_evaluation/macro_predictions.csv",
+      "passed": true,
+      "rows": 234
+    },
+    {
+      "path": "transfer_evaluation/macro_sample_counts.csv",
+      "passed": true,
+      "rows": 9
+    },
+    {
+      "path": "transfer_evaluation/results_by_family.csv",
+      "passed": true,
+      "rows": 120
+    },
+    {
+      "path": "transfer_evaluation/trust_boundary_results.csv",
+      "passed": true,
+      "rows": 506
+    }
+  ],
+  "scope": "Numerical consistency, source-derived feature timing, preserved/replayed results; not source authenticity or human efficacy.",
+  "audit_script_sha256": "2fe63a4274663acfaef9dd3065283ff7bca7e71dca9c69e07b1a344f842648d5",
+  "manuscript": {
+    "file_name": "00_최종논문_261028_v3.docx",
+    "bytes": 1931307,
+    "sha256": "3b8614d0918205b618d7eb0471b4c8f52014ea9a2d9e7d9a0935a6f7457ac32c"
+  }
+}

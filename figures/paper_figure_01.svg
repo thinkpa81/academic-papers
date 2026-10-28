@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="331.2pt" viewBox="0 0 432 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.692913pt" height="464.88189pt" viewBox="0 0 416.692913 464.88189" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-28T07:11:16.040556</dc:date>
+    <dc:date>2026-10-28T10:40:10.640266</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,241 +21,237 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 331.2 
-L 432 331.2 
-L 432 0 
+   <path d="M 0 464.88189 
+L 416.692913 464.88189 
+L 416.692913 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 8.307692 116.367568 
-L 132.923077 116.367568 
-L 132.923077 44.756757 
-L 8.307692 44.756757 
+    <path d="M 150.23622 107.716535 
+L 379.84252 107.716535 
+L 379.84252 56.692913 
+L 150.23622 56.692913 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #dce6eb; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #e5ecef; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
-    <path d="M 153.692308 116.367568 
-L 278.307692 116.367568 
-L 278.307692 44.756757 
-L 153.692308 44.756757 
+    <path d="M 150.23622 172.913386 
+L 379.84252 172.913386 
+L 379.84252 121.889764 
+L 150.23622 121.889764 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #dce6eb; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #e5ecef; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 299.076923 116.367568 
-L 423.692308 116.367568 
-L 423.692308 44.756757 
-L 299.076923 44.756757 
+    <path d="M 150.23622 238.110236 
+L 379.84252 238.110236 
+L 379.84252 187.086614 
+L 150.23622 187.086614 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #dce6eb; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #e5ecef; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 136.582234 80.562162 
-Q 143.305138 80.562162 148.798204 80.562162 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 144.398204 78.362162 
-L 148.798204 80.562162 
-L 144.398204 82.762162 
+    <path d="M 150.23622 303.307087 
+L 379.84252 303.307087 
+L 379.84252 252.283465 
+L 150.23622 252.283465 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #e5ecef; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 281.966849 80.562162 
-Q 288.689753 80.562162 294.18282 80.562162 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 289.78282 78.362162 
-L 294.18282 80.562162 
-L 289.78282 82.762162 
+    <path d="M 150.23622 368.503937 
+L 379.84252 368.503937 
+L 379.84252 317.480315 
+L 150.23622 317.480315 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #e5ecef; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
-    <path d="M 8.307692 214.832432 
-L 132.923077 214.832432 
-L 132.923077 143.221622 
-L 8.307692 143.221622 
+    <path d="M 150.23622 442.204724 
+L 379.84252 442.204724 
+L 379.84252 391.181102 
+L 150.23622 391.181102 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #ffffff; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #ffffff; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
-    <path d="M 153.692308 214.832432 
-L 278.307692 214.832432 
-L 278.307692 143.221622 
-L 153.692308 143.221622 
+    <path d="M 265.03937 109.133858 
+L 265.03937 119.46621 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 266.83937 115.86621 
+L 265.03937 119.46621 
+L 263.23937 115.86621 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #dce6eb; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_9">
-    <path d="M 299.076923 214.832432 
-L 423.692308 214.832432 
-L 423.692308 143.221622 
-L 299.076923 143.221622 
+    <path d="M 265.03937 174.330709 
+L 265.03937 184.663061 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 266.83937 181.063061 
+L 265.03937 184.663061 
+L 263.23937 181.063061 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #dce6eb; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_10">
-    <path d="M 359.410245 118.4739 
-Q 288.692031 129.794639 219.188192 140.920978 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 223.880629 142.397812 
-L 219.188192 140.920978 
-L 223.185122 138.053129 
+    <path d="M 265.03937 239.527559 
+L 265.03937 249.859911 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 266.83937 246.259911 
+L 265.03937 249.859911 
+L 263.23937 246.259911 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_11">
-    <path d="M 136.582234 179.027027 
-Q 143.305138 179.027027 148.798204 179.027027 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 144.398204 176.827027 
-L 148.798204 179.027027 
-L 144.398204 181.227027 
+    <path d="M 265.03937 304.724409 
+L 265.03937 315.056762 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 266.83937 311.456762 
+L 265.03937 315.056762 
+L 263.23937 311.456762 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_12">
-    <path d="M 281.966849 179.027027 
-Q 288.689753 179.027027 294.18282 179.027027 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 289.78282 176.827027 
-L 294.18282 179.027027 
-L 289.78282 181.227027 
+    <path d="M 265.03937 369.92126 
+L 265.03937 388.757549 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke-dasharray: 3.33,1.44; stroke-dashoffset: 0; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 266.83937 385.157549 
+L 265.03937 388.757549 
+L 263.23937 385.157549 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke-dasharray: 3.33,1.44; stroke-dashoffset: 0; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_13">
-    <path d="M 423.692308 145.694935 
-Q 423.692308 136.509312 423.692308 128.553525 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 421.492308 132.953525 
-L 423.692308 128.553525 
-L 425.892308 132.953525 
+    <path d="M 8.503937 303.307087 
+L 130.393701 303.307087 
+L 130.393701 252.283465 
+L 8.503937 252.283465 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #ffffff; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
-    <path d="M 421.691697 125.318919 
-Q 396.693334 125.318919 372.924807 125.318919 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 377.324807 127.518919 
-L 372.924807 125.318919 
-L 377.324807 123.118919 
+    <path d="M 131.811024 277.795276 
+L 147.812667 277.795276 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 144.212667 275.995276 
+L 147.812667 277.795276 
+L 144.212667 279.595276 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="patch_15">
-    <path d="M 369.692308 123.322348 
-Q 369.692308 121.73996 369.692308 121.38741 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 367.492308 125.78741 
-L 369.692308 121.38741 
-L 371.892308 125.78741 
+    <path d="M 8.503937 172.913386 
+L 130.393701 172.913386 
+L 130.393701 56.692913 
+L 8.503937 56.692913 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #ffffff; stroke: #8699a4; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_16">
-    <path d="M 8.307692 308.821622 
-L 278.307692 308.821622 
-L 278.307692 241.686486 
-L 8.307692 241.686486 
+    <path d="M 381.259843 342.992126 
+L 396.850394 342.992126 
+L 396.850394 212.598425 
+L 382.266073 212.598425 
+" clip-path="url(#pff969bad62)" style="fill: none; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 385.866073 214.398425 
+L 382.266073 212.598425 
+L 385.866073 210.798425 
 z
-" clip-path="url(#p2f8739a3a6)" style="fill: #ffffff; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_17">
-    <path d="M 299.076923 308.821622 
-L 423.692308 308.821622 
-L 423.692308 241.686486 
-L 299.076923 241.686486 
-z
-" clip-path="url(#p2f8739a3a6)" style="fill: #ffffff; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #7d929e; stroke-width: 1.1; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_18">
-    <path d="M 361.384615 218.619929 
-Q 361.384615 228.256851 361.384615 236.663935 
-" clip-path="url(#p2f8739a3a6)" style="fill: none; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
-    <path d="M 363.584615 232.263935 
-L 361.384615 236.663935 
-L 359.184615 232.263935 
-z
-" clip-path="url(#p2f8739a3a6)" style="fill: #202e38; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #202e38; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#pff969bad62)" style="fill: #202e38; stroke: #202e38; stroke-width: 0.9; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.307692" y="13.427027" transform="rotate(-0 8.307692 13.427027)">예측 단위의 검토가능성</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.503937" y="14.173228" transform="rotate(-0 8.503937 14.173228)">지역고용 예측의 근거 확인과 검토 절차</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 8.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.307692" y="28.644324" transform="rotate(-0 8.307692 28.644324)">공통 식별자  시도 · 산업 · 목표시점 · 자료판본 · 모형</text>
+    <text style="font-size: 8.2px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.503937" y="32.598425" transform="rotate(-0 8.503937 32.598425)">예측 식별자: 시도·산업·목표시점  |  근거판본: 자료·모형</text>
    </g>
    <g id="text_3">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="70.615385" y="60.826292" transform="rotate(-0 70.615385 60.826292)">① 사용조건 · DP2</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="70.617176" transform="rotate(-0 265.03937 70.617176)">① 자료 사용조건 확인 · DP2</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(34.353799 88.585418)">상반기·분류·경계·결측</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(38.072056 99.287035)">관측·공표·확보 시점</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(225.952206 88.879128)">상반기·분류·경계·결측</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(229.960198 100.083091)">관측·공표·확보 시점</text>
    </g>
    <g id="text_5">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="216" y="60.826292" transform="rotate(-0 216 60.826292)">② 비교근거 · DP1·DP3</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="135.814026" transform="rotate(-0 265.03937 135.814026)">② 모형 비교근거 제시 · DP1·DP3</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(184.569563 88.585418)">기준·학습모형 비교</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(179.79857 99.287035)">오차·사례 수·적용범위</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(223.273511 154.075978)">기준·학습모형의 예측값</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(218.130753 165.279941)">검증오차·사례 수·적용범위</text>
    </g>
    <g id="text_7">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="361.384615" y="60.826292" transform="rotate(-0 361.384615 60.826292)">③ 현재 근거 · DP4</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="201.010877" transform="rotate(-0 265.03937 201.010877)">③ 현재 근거와 기록 연결 · DP4</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(326.23592 88.585418)">카드·비교표·판단사유</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(325.303498 99.287035)">현재 판본과 기록 연결</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(218.195597 219.272829)">예측근거 카드·권역 비교표</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(206.430995 230.476791)">현재 근거판본에 연결된 판단사유</text>
    </g>
    <g id="text_9">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="70.615385" y="159.291156" transform="rotate(-0 70.615385 159.291156)">별도 등록 근거</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="266.207727" transform="rotate(-0 265.03937 266.207727)">④ 검토 완료 요건 확인</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(39.124791 187.050283)">모형·입력·검증요약</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(27.157908 197.751899)">기관이 신뢰·갱신권한 관리</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(231.159808 284.469679)">자료·수치의 적격성</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(209.174534 295.673642)">현재 검토기록·등록 근거의 일치</text>
    </g>
    <g id="text_11">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="216" y="159.291156" transform="rotate(-0 216 159.291156)">④ 완료 요건 확인</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="331.404577" transform="rotate(-0 265.03937 331.404577)">연구용 검토 상태 기록</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(184.569563 187.050283)">자료·수치의 적격성</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(176.200625 197.751899)">현재 기록·등록근거 일치</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(220.50144 349.66653)">요건 충족: 완료기록 보존</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(215.358683 360.870492)">변경·불일치: 보완 및 재검토</text>
    </g>
    <g id="text_13">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="361.384615" y="159.291156" transform="rotate(-0 361.384615 159.291156)">연구용 검토 상태</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="265.03937" y="405.105365" transform="rotate(-0 265.03937 405.105365)">후속 현장 업무</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(328.435233 187.050283)">충족: 완료기록 보존</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(319.945983 197.751899)">변경·불일치: 보완·재검토</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(223.014136 423.367317)">RSC 수요조사·훈련계획</text>
+    <text style="font-size: 8.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(226.081894 434.571279)">담당자 판단·기관 승인</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="340.615385" y="133.375135" transform="rotate(-0 340.615385 133.375135)">근거 갱신 시 다시 연결</text>
+    <text style="font-size: 7.4px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: end; fill: #202e38" x="255.11811" y="381.94227" transform="rotate(-0 255.11811 381.94227)">요건 충족 후</text>
    </g>
    <g id="text_16">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="143.307692" y="257.756021" transform="rotate(-0 143.307692 257.756021)">평가근거와 적용조건</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="69.448819" y="266.207727" transform="rotate(-0 69.448819 266.207727)">별도 등록 근거</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(69.855708 283.27731)">회고적 예측평가 · 결함/정상 비교 · 기능 제거</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(53.734434 293.978926)">모형 교체 · 같은 정보의 도구 비교 · 다른 집계자료 적용</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(37.549256 284.665273)">모형·입력·검증요약</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(33.904585 295.194298)">신뢰성·갱신권한 관리</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 9.3px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="361.384615" y="257.756021" transform="rotate(-0 361.384615 257.756021)">현장 업무 연계</text>
+    <text style="font-weight: 700; font-size: 9.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: middle; fill: #202e38" x="69.448819" y="70.617176" transform="rotate(-0 69.448819 70.617176)">평가 근거</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(320.291881 283.27731)">RSC 수요조사 · 훈련계획</text>
-    <text style="font-size: 7.7px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(321.645397 293.978926)">담당자 판단과 기관 승인</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(30.259913 105.879609)">과거자료 기반 예측평가</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(69.448819 116.408634)"/>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(36.543788 126.937659)">결함·정상 입력 비교</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(36.543788 137.466684)">기능 제거·모형 교체</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(36.543788 147.995709)">도구 비교·자료 이식</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 7.1px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.307692" y="325.381622" transform="rotate(-0 8.307692 325.381622)">실선: 구현·기술평가 범위    점선: 후속 현장 적용    사용자 판단·업무성과: 후속 평가</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(8.503937 207.491311)">기술평가 대상: 구현 기능과</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(8.503937 218.643483)">명세한 검사 요건의 작동</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(8.503937 349.223595)">현장 사용자의 판단과</text>
+    <text style="font-size: 7.8px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(8.503937 360.375767)">업무성과는 후속 평가</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.6px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; fill: #202e38" transform="translate(408.644689 309.797213) rotate(-90)">근거 변경 시 재검토</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.5px; font-family: 'NanumMyeongjo', 'DejaVu Sans'; text-anchor: start; fill: #202e38" x="8.503937" y="459.212598" transform="rotate(-0 8.503937 459.212598)">실선: 구현·기술평가 범위  |  점선: 후속 현장 적용</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p2f8739a3a6">
-   <rect x="0" y="0" width="432" height="331.2"/>
+  <clipPath id="pff969bad62">
+   <rect x="0" y="0" width="416.692913" height="464.88189"/>
   </clipPath>
  </defs>
 </svg>

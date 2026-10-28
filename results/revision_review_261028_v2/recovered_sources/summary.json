@@ -1,0 +1,25 @@
+{
+  "recovered_file_count": 136,
+  "byte_for_byte_archive_matches": 136,
+  "calendar_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "calendar_release_months": [
+    "10"
+  ],
+  "original_pdfs_present": false,
+  "restored_path": "package/academic-papers/raw/supplementary_sources_261028_v2",
+  "source_archive_sha256": "5fae08aea046bec0c54e85d4ea799c7782474217d2bb5687accd477849087cdc"
+}

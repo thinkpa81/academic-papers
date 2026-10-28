@@ -1,0 +1,849 @@
+[
+  {
+    "n": 7,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "n": 9,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "n": 20,
+    "status": 200,
+    "doi": "10.1147/JRD.2019.2942288",
+    "title": [
+      "FactSheets: Increasing trust in AI services through supplier's declarations of conformity"
+    ],
+    "journal": [
+      "IBM Journal of Research and Development"
+    ],
+    "volume": "63",
+    "issue": "4/5",
+    "page": "6:1-6:13",
+    "date": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "M.",
+        "family": "Arnold",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. K. E.",
+        "family": "Bellamy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Hind",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Houde",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Mehta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Mojsilović",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Nair",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. Natesan",
+        "family": "Ramamurthy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Olteanu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Piorkowski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Reimer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Richards",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Tsay",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. R.",
+        "family": "Varshney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8843893/"
+      }
+    }
+  },
+  {
+    "n": 21,
+    "status": 200,
+    "doi": "10.1023/A:1010933404324",
+    "title": [
+      "Random Forests"
+    ],
+    "journal": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "issue": "1",
+    "page": "5-32",
+    "date": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1023/A:1010933404324"
+      }
+    }
+  },
+  {
+    "n": 22,
+    "status": 200,
+    "doi": "10.1145/3449287",
+    "title": [
+      "To Trust or to Think"
+    ],
+    "journal": [
+      "Proceedings of the ACM on Human-Computer Interaction"
+    ],
+    "volume": "5",
+    "issue": "CSCW1",
+    "page": "1-21",
+    "date": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Zana",
+        "family": "Buçinca",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maja Barbara",
+        "family": "Malaya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Applied Computer Science, Lodz, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Krzysztof Z.",
+        "family": "Gajos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3449287"
+      }
+    }
+  },
+  {
+    "n": 23,
+    "status": 200,
+    "doi": "10.1111/puar.13293",
+    "title": [
+      "Accountable Artificial Intelligence: Holding Algorithms to Account"
+    ],
+    "journal": [
+      "Public Administration Review"
+    ],
+    "volume": "81",
+    "issue": "5",
+    "page": "825-836",
+    "date": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Madalina",
+        "family": "Busuioc",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Leiden University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13293"
+      }
+    }
+  },
+  {
+    "n": 24,
+    "status": 200,
+    "doi": "10.1007/s10994-020-05910-7",
+    "title": [
+      "Evaluating time series forecasting models: an empirical study on performance estimation methods"
+    ],
+    "journal": [
+      "Machine Learning"
+    ],
+    "volume": "109",
+    "issue": "11",
+    "page": "1997-2028",
+    "date": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9694-8423",
+        "authenticated-orcid": false,
+        "given": "Vitor",
+        "family": "Cerqueira",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luis",
+        "family": "Torgo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Igor",
+        "family": "Mozetič",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10994-020-05910-7"
+      }
+    }
+  },
+  {
+    "n": 25,
+    "status": 200,
+    "doi": "10.1016/S0304-4076(01)00072-0",
+    "title": [
+      "A real-time data set for macroeconomists"
+    ],
+    "journal": [
+      "Journal of Econometrics"
+    ],
+    "volume": "105",
+    "issue": "1",
+    "page": "111-130",
+    "date": {
+      "date-parts": [
+        [
+          2001,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Dean",
+        "family": "Croushore",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tom",
+        "family": "Stark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304407601000720"
+      }
+    }
+  },
+  {
+    "n": 26,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "n": 27,
+    "status": 200,
+    "doi": "10.1080/01621459.1979.10482505",
+    "title": [
+      "Estimates of Income for Small Places: An Application of James-Stein Procedures to Census Data"
+    ],
+    "journal": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "74",
+    "issue": "366a",
+    "page": "269-277",
+    "date": {
+      "date-parts": [
+        [
+          1979,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "suffix": "III",
+        "given": "Robert E.",
+        "family": "Fay",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Bureau of the Census",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roger A.",
+        "family": "Herriot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Bureau of the Census",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.1979.10482505"
+      }
+    }
+  },
+  {
+    "n": 28,
+    "status": 200,
+    "doi": "10.1214/aos/1013203451",
+    "title": [
+      "Greedy function approximation: A gradient boosting machine."
+    ],
+    "journal": [
+      "The Annals of Statistics"
+    ],
+    "volume": "29",
+    "issue": "5",
+    "page": "1189-1232",
+    "date": {
+      "date-parts": [
+        [
+          2001,
+          10,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jerome H.",
+        "family": "Friedman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full"
+      }
+    }
+  },
+  {
+    "n": 29,
+    "status": 200,
+    "doi": "10.1145/3458723",
+    "title": [
+      "Datasheets for datasets"
+    ],
+    "journal": [
+      "Communications of the ACM"
+    ],
+    "volume": "64",
+    "issue": "12",
+    "page": "86-92",
+    "date": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Timnit",
+        "family": "Gebru",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "DAIR Institute, Palo Alto, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jamie",
+        "family": "Morgenstern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Briana",
+        "family": "Vecchione",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jennifer Wortman",
+        "family": "Vaughan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanna",
+        "family": "Wallach",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hal Daumé",
+        "family": "III",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Maryland, College Park, MD"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kate",
+        "family": "Crawford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USC Annenberg, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3458723"
+      }
+    }
+  },
+  {
+    "n": 30,
+    "status": 200,
+    "doi": "10.17705/1jais.00649",
+    "title": [
+      "Research Perspectives: The Anatomy of a Design Principle"
+    ],
+    "journal": [
+      "Journal of the Association for Information Systems"
+    ],
+    "volume": "21",
+    "issue": null,
+    "page": "1622-1652",
+    "date": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "name": "Australian National University, Australia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shirley",
+        "family": "Gregor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leona",
+        "family": "Kruse",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "University of Liechtentsein, Liechtentsein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Seidel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "University of Liechtentsein, Liechtentsein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "url": {
+      "primary": {
+        "URL": "https://aisel.aisnet.org/jais/vol21/iss6/2/"
+      }
+    }
+  }
+]

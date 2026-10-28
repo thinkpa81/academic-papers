@@ -1,0 +1,22 @@
+{
+  "year": 2014,
+  "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=331450&mid=a10301010000",
+  "retrieved_utc": "2026-09-26T11:58:18.527961+00:00",
+  "http_status": 200,
+  "release_dates_near_label": [
+    "게시일</strong>\r"
+  ],
+  "attachments": [
+    [
+      "/boardDownload.es?bid=211&list_no=331450&seq=1",
+      "2014년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwp"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=331450&seq=2",
+      "2014년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.pdf"
+    ]
+  ],
+  "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=331450&seq=2",
+  "pdf_http_status": 200,
+  "pdf_sha256": "fb5f7707e9d2eac74670a8ca5c874f91559026a1a04a4e90014f7e9382b78fcc"
+}

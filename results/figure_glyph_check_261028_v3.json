@@ -1,0 +1,371 @@
+{
+  "all_passed": true,
+  "checks_passed": 18,
+  "checks_total": 18,
+  "minus_character": "U+002D HYPHEN-MINUS",
+  "figures": {
+    "paper_figure_01": {
+      "text_nodes": 36,
+      "ascii_hyphen_count": 0,
+      "forbidden_minus_counts": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      },
+      "png_dimensions": [
+        2604,
+        2905
+      ],
+      "files": {
+        "png": {
+          "sha256": "05271fc3e98b8413ac5003cc7af2d7e5b260d1477ee4839f6f70ec7509176307",
+          "bytes": 634395
+        },
+        "pdf": {
+          "sha256": "a0b3b6d771bb6c8b27fe533ea05841edaeb17896d58dbc5de1b8b7a9044c5920",
+          "bytes": 63775
+        },
+        "svg": {
+          "sha256": "d0691b834f3225826b408616212e43c28d59dec508b1ef074adff55629dd6768",
+          "bytes": 14204
+        }
+      }
+    },
+    "paper_figure_02": {
+      "text_nodes": 41,
+      "ascii_hyphen_count": 14,
+      "forbidden_minus_counts": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      },
+      "png_dimensions": [
+        2604,
+        2799
+      ],
+      "files": {
+        "png": {
+          "sha256": "edd758b47cf0f838c075c01ed6900270417cdcc4759c7e74f13cd45244a52aaf",
+          "bytes": 613474
+        },
+        "pdf": {
+          "sha256": "85f5653b8f409af17e3d20ad86a14d88a5879fdba0c8b2d4b90388efeb6712af",
+          "bytes": 60603
+        },
+        "svg": {
+          "sha256": "6d3537a5a1ebbd2265730d335030a09b16936ff431de7d3f6fef11249eb6f132",
+          "bytes": 21376
+        }
+      }
+    },
+    "paper_figure_03": {
+      "text_nodes": 109,
+      "ascii_hyphen_count": 41,
+      "forbidden_minus_counts": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      },
+      "png_dimensions": [
+        2604,
+        2338
+      ],
+      "files": {
+        "png": {
+          "sha256": "e68bd9f7663b7c62defb118040fa2c0e1df3f4d0306db367b5c73740e1402b3c",
+          "bytes": 608310
+        },
+        "pdf": {
+          "sha256": "dafc7838f9e8cf0a3bd36f01151f55338e06ae6fca67de2c2d838714f475017b",
+          "bytes": 56805
+        },
+        "svg": {
+          "sha256": "d7022371acc305e95b55463a66d3f8ddc7d2fcee075c19a35fb0c346c3a2c6c6",
+          "bytes": 55663
+        }
+      }
+    },
+    "paper_figure_A1": {
+      "text_nodes": 27,
+      "ascii_hyphen_count": 6,
+      "forbidden_minus_counts": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      },
+      "png_dimensions": [
+        3420,
+        1485
+      ],
+      "files": {
+        "png": {
+          "sha256": "2129a3d5dbfaf04495b3130b5497cc8b52f80cdc73e9bea7cfea898309614850",
+          "bytes": 126207
+        },
+        "pdf": {
+          "sha256": "06f3dd329cfa3dffc80b70053e05cbbc5e4a9996505890b11b686d19400395db",
+          "bytes": 12850
+        },
+        "svg": {
+          "sha256": "e9fb5649aeabd29d4c763514bce82c1123545ce1c5b2d666ac0188d6f1a277ed",
+          "bytes": 15114
+        }
+      }
+    }
+  },
+  "appendix_A1_values": {
+    "2015": {
+      "difference": 0.49772806297287886,
+      "label": "+0.50"
+    },
+    "2016": {
+      "difference": 0.4520264720321272,
+      "label": "+0.45"
+    },
+    "2017": {
+      "difference": -0.042855794789137036,
+      "label": "-0.04"
+    },
+    "2018": {
+      "difference": 0.1842557322267151,
+      "label": "+0.18"
+    },
+    "2019": {
+      "difference": -0.5762655245467814,
+      "label": "-0.58"
+    },
+    "2020": {
+      "difference": 0.0,
+      "label": "+0.00"
+    },
+    "2021": {
+      "difference": 0.2842690302508242,
+      "label": "+0.28"
+    },
+    "2022": {
+      "difference": -0.06907640899253487,
+      "label": "-0.07"
+    },
+    "2023": {
+      "difference": 0.35236170371641684,
+      "label": "+0.35"
+    }
+  },
+  "checks": [
+    {
+      "check": "paper_figure_01_ascii_minus",
+      "passed": true,
+      "observed": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      }
+    },
+    {
+      "check": "paper_figure_01_450dpi",
+      "passed": true,
+      "observed": [
+        450.0118,
+        450.0118
+      ]
+    },
+    {
+      "check": "paper_figure_02_ascii_minus",
+      "passed": true,
+      "observed": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      }
+    },
+    {
+      "check": "paper_figure_02_450dpi",
+      "passed": true,
+      "observed": [
+        450.0118,
+        450.0118
+      ]
+    },
+    {
+      "check": "paper_figure_03_ascii_minus",
+      "passed": true,
+      "observed": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      }
+    },
+    {
+      "check": "paper_figure_03_450dpi",
+      "passed": true,
+      "observed": [
+        450.0118,
+        450.0118
+      ]
+    },
+    {
+      "check": "paper_figure_A1_ascii_minus",
+      "passed": true,
+      "observed": {
+        "U+2212": 0,
+        "U+FE63": 0,
+        "U+FF0D": 0,
+        "U+2013": 0,
+        "U+2014": 0
+      }
+    },
+    {
+      "check": "paper_figure_A1_450dpi",
+      "passed": true,
+      "observed": [
+        450.0118,
+        450.0118
+      ]
+    },
+    {
+      "check": "figure3_80_ordered_cell_labels",
+      "passed": true,
+      "observed": [
+        "-1.64*",
+        "-0.66",
+        "+0.10",
+        "-0.39",
+        "-1.01",
+        "-0.30",
+        "+1.28",
+        "+0.09",
+        "+0.13",
+        "-0.29",
+        "-0.34",
+        "-0.47*",
+        "-0.27",
+        "-0.31",
+        "-0.01",
+        "-1.02",
+        "+0.66",
+        "+0.39",
+        "+0.54",
+        "×",
+        "-0.47",
+        "-0.74",
+        "+0.15",
+        "-0.13",
+        "-0.67",
+        "-1.10",
+        "+0.85",
+        "+0.39",
+        "+0.00",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "+0.04",
+        "-0.91*",
+        "+1.34",
+        "-0.09",
+        "-0.73",
+        "-1.01",
+        "-0.04",
+        "-0.29",
+        "-0.16",
+        "-0.42*",
+        "-1.20",
+        "-1.12",
+        "-0.18",
+        "+0.72",
+        "+0.48",
+        "+2.36",
+        "+2.09",
+        "+0.05",
+        "-0.09",
+        "×",
+        "+0.20",
+        "-0.55",
+        "+0.77",
+        "+0.34",
+        "-0.31",
+        "-1.32",
+        "+0.69",
+        "-0.24",
+        "-0.11",
+        "-0.62",
+        "+0.72",
+        "×",
+        "+1.39",
+        "-0.26",
+        "+0.19",
+        "+1.45",
+        "-1.34",
+        "-1.08",
+        "+0.36",
+        "×"
+      ]
+    },
+    {
+      "check": "appendix_A1_source_label_2015",
+      "passed": true,
+      "observed": "+0.50"
+    },
+    {
+      "check": "appendix_A1_source_label_2016",
+      "passed": true,
+      "observed": "+0.45"
+    },
+    {
+      "check": "appendix_A1_source_label_2017",
+      "passed": true,
+      "observed": "-0.04"
+    },
+    {
+      "check": "appendix_A1_source_label_2018",
+      "passed": true,
+      "observed": "+0.18"
+    },
+    {
+      "check": "appendix_A1_source_label_2019",
+      "passed": true,
+      "observed": "-0.58"
+    },
+    {
+      "check": "appendix_A1_source_label_2020",
+      "passed": true,
+      "observed": "+0.00"
+    },
+    {
+      "check": "appendix_A1_source_label_2021",
+      "passed": true,
+      "observed": "+0.28"
+    },
+    {
+      "check": "appendix_A1_source_label_2022",
+      "passed": true,
+      "observed": "-0.07"
+    },
+    {
+      "check": "appendix_A1_source_label_2023",
+      "passed": true,
+      "observed": "+0.35"
+    }
+  ]
+}

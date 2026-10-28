@@ -1,0 +1,30 @@
+[
+  {
+    "path": "generated/00_최종논문_261028_v2.docx",
+    "before_sha256": "e65466ee5c4de43e11e65fddf476874b255e3c00b2aa68fd97decb5527a3c41b",
+    "after_sha256": "9e10ce2aa63b6546212a7b32cae3937d178733f6b96649717bbd24219ee89713",
+    "document_xml_unchanged": true,
+    "change": "remove creator and lastModifiedBy in distribution copy"
+  },
+  {
+    "path": "support/manuscript/source_before_revision_261028_v3.docx",
+    "before_sha256": "e65466ee5c4de43e11e65fddf476874b255e3c00b2aa68fd97decb5527a3c41b",
+    "after_sha256": "9e10ce2aa63b6546212a7b32cae3937d178733f6b96649717bbd24219ee89713",
+    "document_xml_unchanged": true,
+    "change": "remove creator and lastModifiedBy in distribution copy"
+  },
+  {
+    "path": "support/manuscript/source_before_revision_261028_v2.docx",
+    "before_sha256": "031c553e2b96227db0996247c73995e41aeab6855680159bbb16351f749f1fde",
+    "after_sha256": "7b2fa96fd4b1c19e11d04d7b790fff7ab7a4520d25bfaf44fd6edb7cdfefe418",
+    "document_xml_unchanged": true,
+    "change": "remove creator and lastModifiedBy in distribution copy"
+  },
+  {
+    "path": "support/manuscript/source_before_revision_20261028.docx",
+    "before_sha256": "00ef11d6711f4b148b5293b5137c76c0c072b0f29b0c5c52d8845124c6adab84",
+    "after_sha256": "c9783542ed8520034b52b5f0a572c49359029311cf6a82cae0d728a12930d91e",
+    "document_xml_unchanged": true,
+    "change": "remove creator and lastModifiedBy in distribution copy"
+  }
+]

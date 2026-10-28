@@ -1,10 +1,10 @@
 {
-  "source_file": "/workspace/scratch/6f96622cc67f/analysis/repro/reproduced_service/evidence_card_2025_seoul_BTE.json",
+  "source_file": "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json",
   "source_sha256": "c914cf7fae07b72a8cae96d7d0faf5cedf7f2b4170664696df2a422bc7dfd317",
   "analysis_label": "동일 기준 주분석",
   "figure_width_mm": 147,
-  "figure_height_mm": 176,
-  "minimum_font_pt": 8,
+  "figure_height_mm": 158,
+  "minimum_font_pt": 8.3,
   "baseline": 0.6705514379380221,
   "ridge": -0.398406218401248,
   "difference": -1.0689576563392702,

@@ -1,0 +1,22 @@
+﻿ksic_broad_section,displayed_division_range,oecd_activity_code,mapping_basis,limitation
+A,01~03,A,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+B,05~08,BTE,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+C,10~34,BTE,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+D,35,BTE,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+E,36~39,BTE,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+F,41~42,F,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+G,45~47,GTI,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+H,49~52,GTI,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+I,55~56,GTI,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+J,58~63,J,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+K,64~66,K,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+L,68,L,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+M,70~73,M_N,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+N,74~76,M_N,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+O,84,OTQ,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+P,85,OTQ,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+Q,86~87,OTQ,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+R,90~91,RTU,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+S,94~96,RTU,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+T,97~98,RTU,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks
+U,99,RTU,Explicit rendered KSIC10 section label/division range to OECD 10 broad activity scope,Label-level crosswalk; OECD original aggregation conventions and missing-symbol semantics require overlap checks

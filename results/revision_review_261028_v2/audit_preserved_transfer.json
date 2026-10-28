@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "scope": "Preserved-output audit and macro forecast recomputation only; no decision-engine rerun",
+  "compressed_files": [
+    {
+      "path": "cases_before_execution.json.gz",
+      "decompressed_sha256": "49b8c43bf8629ac8501180c85b9ae27761648454890306fa51e2e685895821c5",
+      "matches_execution_start_hash": true
+    },
+    {
+      "path": "reference_context.json.gz",
+      "decompressed_sha256": "e48937a0ee5aa95f8578763a6cf6d8a7851158479748893dd84001c966766487",
+      "matches_execution_start_hash": true
+    }
+  ],
+  "result_rows": 30360,
+  "distinct_inputs": 7590,
+  "native_pandera_agreement": 7590,
+  "accepted_normal": 1518,
+  "blocked_faults": 6072,
+  "joint_reference_changes_permitted": 506,
+  "macro_recomputation": [
+    {
+      "series": "realgdp",
+      "model": "ar1",
+      "n": 39,
+      "max_absolute_prediction_difference": 4.624078897563777e-14
+    },
+    {
+      "series": "realgdp",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_absolute_prediction_difference": 3.9468428525424315e-14
+    },
+    {
+      "series": "realcons",
+      "model": "ar1",
+      "n": 39,
+      "max_absolute_prediction_difference": 3.7414515929867775e-14
+    },
+    {
+      "series": "realcons",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_absolute_prediction_difference": 2.708944180085382e-14
+    },
+    {
+      "series": "realinv",
+      "model": "ar1",
+      "n": 39,
+      "max_absolute_prediction_difference": 1.554312234475219e-14
+    },
+    {
+      "series": "realinv",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_absolute_prediction_difference": 1.3822276656583199e-14
+    }
+  ]
+}

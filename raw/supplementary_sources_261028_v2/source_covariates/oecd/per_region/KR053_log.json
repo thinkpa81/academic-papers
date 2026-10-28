@@ -1,0 +1,7 @@
+{
+  "file": "KR053_2022_2024.csv",
+  "region": "KR053",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR053._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+  "attempted_utc": "2026-09-23T14:37:16.868795+00:00",
+  "error": "HTTP Error 500: Internal Server Error"
+}

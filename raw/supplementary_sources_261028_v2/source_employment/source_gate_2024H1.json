@@ -1,0 +1,25 @@
+{
+  "prepared_utc": "2026-09-23T14:34:25.691469+00:00",
+  "source_gate": "PASS_WITH_SCOPE_LIMITS_FOR_2024H1_158_KEYS",
+  "target_source": "KOSIS DT_1ES3B05S KSIC10 2024H1, one decimal thousand persons",
+  "target_source_sha256": "c766298f616704315590c08260017367be9cc610d9745ea64b4587fb39f4a43a",
+  "included": 158,
+  "excluded": 12,
+  "rules": [
+    "All required broad-section components must be numeric; non-numeric hyphens are missing, not zero.",
+    "Target and origin employment must be positive; all compared models must use identical keys.",
+    "2023 OECD origin values correspond to KOSIS 2023H1; 2024 target H1 gives a one-year horizon.",
+    "The existing OECD 2022 values correspond to KOSIS 2022H2; existing 2022->2023 targets are six-month changes; do not describe entire original panel as homogeneous annual changes.",
+    "Do not refit or select parameters using new outcomes.",
+    "2025 and KSIC11 series are excluded pending separate same-vintage/classification/period checks."
+  ],
+  "origin_bridge_exact_complete_cells": 176,
+  "prior_year_period_bridge_exact_complete_cells": 177,
+  "acquisition": "Official rendered-table DOM, not downloaded CSV/XLS",
+  "model_performance_evaluated": false,
+  "hashes": {
+    "outcomes_2024H1_170keys.csv": "c1db7a824c338492a1392e226a06c50f2e90920f644dd3a07a47a3fdb89bc5ca",
+    "outcomes_2024H1_inclusion_keys.csv": "c62b59934460a311d78ac257c4ce61fa7659bcdf4a7fa6ff05d4c74a97fe0cfa",
+    "overlap_period_diagnosis.csv": "14c1414e7dc58659b0d04eee54969f2d7ec73b997460d617c13cb72b7bbef607"
+  }
+}

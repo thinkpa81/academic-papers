@@ -1,0 +1,15 @@
+{
+  "source_sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf",
+  "target_sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738",
+  "target_rows": 170,
+  "exact_filter": {
+    "MEASURE": "EMP",
+    "FREQ": "A",
+    "TERRITORIAL_LEVEL": "TL3",
+    "UNIT_MEASURE": "PS",
+    "UNIT_MULT": 0
+  },
+  "target_reference_period": "2024H1 independently reconciled with KOSIS KSIC10",
+  "2025_status": "HOLD: missing Seoul A and anomalous Seoul total; do not substitute or impute",
+  "model_performance_evaluated": false
+}

@@ -1,0 +1,11 @@
+{
+  "file": "latest_developer_korea17_y15t64_since2022_raw.csv",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR011+KR012+KR013+KR021+KR022+KR023+KR031+KR032+KR041+KR042+KR043+KR051+KR052+KR053+KR054+KR061+KR071._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&dimensionAtObservation=AllDimensions",
+  "attempted_utc": "2026-09-23T14:36:28.208856+00:00",
+  "reason": "Use exact successful single-region query syntax, broadening observed REF_AREA values only; endPeriod requests returned server500.",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8; labels=both",
+  "downloaded_utc": "2026-09-23T14:36:59.431077+00:00",
+  "bytes": 38416,
+  "sha256": "d9c91feebbfb936726214b01765cacf4cad1d1ab3e0121514eca0ba937853b73"
+}

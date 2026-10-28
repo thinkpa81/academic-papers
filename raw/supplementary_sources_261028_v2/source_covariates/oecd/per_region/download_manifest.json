@@ -1,0 +1,133 @@
+[
+  {
+    "file": "KR013_2022_2024.csv",
+    "region": "KR013",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR013._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:08.053153+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR011_2022_2024.csv",
+    "region": "KR011",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR011._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:08.050792+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR012_2022_2024.csv",
+    "region": "KR012",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR012._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:08.052424+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR021_2022_2024.csv",
+    "region": "KR021",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR021._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:41.095274+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR022_2022_2024.csv",
+    "region": "KR022",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR022._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:41.098652+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR023_2022_2024.csv",
+    "region": "KR023",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR023._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:35:50.897919+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR031_2022_2024.csv",
+    "region": "KR031",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR031._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:36:15.799804+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR032_2022_2024.csv",
+    "region": "KR032",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR032._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:36:15.814815+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR041_2022_2024.csv",
+    "region": "KR041",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR041._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:36:27.274884+00:00",
+    "status": 200,
+    "content_type": "text/csv; labels=both; charset=utf-8",
+    "downloaded_utc": "2026-09-23T14:37:00.461506+00:00",
+    "bytes": 2001,
+    "sha256": "0610826115115d3dd1d19885409e39e536e5b4a59271c87476c6c0f1be0aea3a"
+  },
+  {
+    "file": "KR042_2022_2024.csv",
+    "region": "KR042",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR042._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:36:45.305850+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR043_2022_2024.csv",
+    "region": "KR043",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR043._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:36:45.628375+00:00",
+    "status": 200,
+    "content_type": "text/csv; charset=utf-8; labels=both",
+    "downloaded_utc": "2026-09-23T14:37:16.868219+00:00",
+    "bytes": 2031,
+    "sha256": "7c85dc2964d4d76f2f1f5ef37528f86e87a737ab97daaf12497ed9b44baeb8c4"
+  },
+  {
+    "file": "KR051_2022_2024.csv",
+    "region": "KR051",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR051._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:00.463233+00:00",
+    "status": 200,
+    "content_type": "text/csv; charset=utf-8; labels=both",
+    "downloaded_utc": "2026-09-23T14:37:33.923362+00:00",
+    "bytes": 1999,
+    "sha256": "8a0025c4975e38a40b4692dcedb4b236782a6ae0c1755439cf4c8521f318c534"
+  },
+  {
+    "file": "KR053_2022_2024.csv",
+    "region": "KR053",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR053._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:16.868795+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR052_2022_2024.csv",
+    "region": "KR052",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR052._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:16.545095+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR054_2022_2024.csv",
+    "region": "KR054",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR054._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:33.925770+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR061_2022_2024.csv",
+    "region": "KR061",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR061._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:45.247806+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "KR071_2022_2024.csv",
+    "region": "KR071",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR071._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:37:50.938081+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  }
+]

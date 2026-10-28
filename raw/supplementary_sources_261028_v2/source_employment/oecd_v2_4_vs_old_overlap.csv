@@ -1,0 +1,375 @@
+﻿region_code,region_name_oecd,industry_code,industry_name_oecd,year,employment_persons_new,UNIT_MEASURE,UNIT_MULT,OBS_STATUS,employment_persons_old,difference_persons
+KR031,Daegu,A,"Agriculture, forestry and fishing",2022,10800.0,PS,0,A,10800.0,0.0
+KR031,Daegu,L,Real estate activities,2022,20900.0,PS,0,A,20900.0,0.0
+KR031,Daegu,OTQ,"Public administration, defence, education, human health and social work activities",2022,308900.0,PS,0,A,308900.0,0.0
+KR031,Daegu,F,Construction,2022,91700.0,PS,0,A,91700.0,0.0
+KR031,Daegu,J,Information and communication,2022,21200.0,PS,0,A,21200.0,0.0
+KR031,Daegu,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,331300.0,PS,0,A,331300.0,0.0
+KR053,Chungcheongnam-do,J,Information and communication,2023,11500.0,PS,0,A,11500.0,0.0
+KR053,Chungcheongnam-do,A,"Agriculture, forestry and fishing",2023,174200.0,PS,0,A,174200.0,0.0
+KR053,Chungcheongnam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,67200.0,PS,0,A,67200.0,0.0
+KR053,Chungcheongnam-do,BTE,Industry (except construction),2023,284300.0,PS,0,A,284300.0,0.0
+KR053,Chungcheongnam-do,F,Construction,2023,78100.0,PS,0,A,78100.0,0.0
+KR053,Chungcheongnam-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,256000.0,PS,0,A,256000.0,0.0
+KR053,Chungcheongnam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,247500.0,PS,0,A,247500.0,0.0
+KR031,Daegu,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,313500.0,PS,0,A,313500.0,0.0
+KR053,Chungcheongnam-do,L,Real estate activities,2022,23400.0,PS,0,A,23400.0,0.0
+KR053,Chungcheongnam-do,K,Financial and insurance activities,2022,18000.0,PS,0,A,18000.0,0.0
+KR053,Chungcheongnam-do,K,Financial and insurance activities,2023,18700.0,PS,0,A,18700.0,0.0
+KR053,Chungcheongnam-do,L,Real estate activities,2023,21000.0,PS,0,A,21000.0,0.0
+KR053,Chungcheongnam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,96000.0,PS,0,A,96000.0,0.0
+KR031,Daegu,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,78300.0,PS,0,A,78300.0,0.0
+KR031,Daegu,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,89600.0,PS,0,A,89600.0,0.0
+KR031,Daegu,K,Financial and insurance activities,2022,35600.0,PS,0,A,35600.0,0.0
+KR031,Daegu,BTE,Industry (except construction),2022,245500.0,PS,0,A,245500.0,0.0
+KR031,Daegu,J,Information and communication,2023,22600.0,PS,0,A,22600.0,0.0
+KR031,Daegu,F,Construction,2023,91300.0,PS,0,A,91300.0,0.0
+KR031,Daegu,OTQ,"Public administration, defence, education, human health and social work activities",2023,313800.0,PS,0,A,313800.0,0.0
+KR031,Daegu,L,Real estate activities,2023,20100.0,PS,0,A,20100.0,0.0
+KR031,Daegu,A,"Agriculture, forestry and fishing",2023,8700.0,PS,0,A,8700.0,0.0
+KR031,Daegu,BTE,Industry (except construction),2023,252500.0,PS,0,A,252500.0,0.0
+KR031,Daegu,K,Financial and insurance activities,2023,34300.0,PS,0,A,34300.0,0.0
+KR031,Daegu,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,95200.0,PS,0,A,95200.0,0.0
+KR031,Daegu,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,84100.0,PS,0,A,84100.0,0.0
+KR053,Chungcheongnam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,256500.0,PS,0,A,256500.0,0.0
+KR053,Chungcheongnam-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,250900.0,PS,0,A,250900.0,0.0
+KR053,Chungcheongnam-do,F,Construction,2022,78400.0,PS,0,A,78400.0,0.0
+KR053,Chungcheongnam-do,BTE,Industry (except construction),2022,271600.0,PS,0,A,271600.0,0.0
+KR053,Chungcheongnam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,73000.0,PS,0,A,73000.0,0.0
+KR053,Chungcheongnam-do,A,"Agriculture, forestry and fishing",2022,197100.0,PS,0,A,197100.0,0.0
+KR053,Chungcheongnam-do,J,Information and communication,2022,10700.0,PS,0,A,10700.0,0.0
+KR053,Chungcheongnam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,103100.0,PS,0,A,103100.0,0.0
+KR013,Gyeonggi-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,493200.0,PS,0,A,493200.0,0.0
+KR013,Gyeonggi-do,F,Construction,2023,555800.0,PS,0,A,555800.0,0.0
+KR013,Gyeonggi-do,A,"Agriculture, forestry and fishing",2023,159600.0,PS,0,A,159600.0,0.0
+KR013,Gyeonggi-do,K,Financial and insurance activities,2023,174100.0,PS,0,A,174100.0,0.0
+KR013,Gyeonggi-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,912200.0,PS,0,A,912200.0,0.0
+KR013,Gyeonggi-do,BTE,Industry (except construction),2023,1469700.0,PS,0,A,1469700.0,0.0
+KR013,Gyeonggi-do,L,Real estate activities,2023,170200.0,PS,0,A,170200.0,0.0
+KR013,Gyeonggi-do,L,Real estate activities,2022,173200.0,PS,0,A,173200.0,0.0
+KR013,Gyeonggi-do,BTE,Industry (except construction),2022,1553200.0,PS,0,A,1553200.0,0.0
+KR013,Gyeonggi-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,884300.0,PS,0,A,884300.0,0.0
+KR013,Gyeonggi-do,K,Financial and insurance activities,2022,176800.0,PS,0,A,176800.0,0.0
+KR013,Gyeonggi-do,F,Construction,2022,622500.0,PS,0,A,622500.0,0.0
+KR013,Gyeonggi-do,A,"Agriculture, forestry and fishing",2022,155900.0,PS,0,A,155900.0,0.0
+KR013,Gyeonggi-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,482300.0,PS,0,A,482300.0,0.0
+KR013,Gyeonggi-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,1883000.0,PS,0,A,1883000.0,0.0
+KR013,Gyeonggi-do,J,Information and communication,2022,326500.0,PS,0,A,326500.0,0.0
+KR013,Gyeonggi-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,1400000.0,PS,0,A,1400000.0,0.0
+KR013,Gyeonggi-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,1413200.0,PS,0,A,1413200.0,0.0
+KR013,Gyeonggi-do,J,Information and communication,2023,330100.0,PS,0,A,330100.0,0.0
+KR013,Gyeonggi-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,1931700.0,PS,0,A,1931700.0,0.0
+KR012,Incheon,L,Real estate activities,2022,29600.0,PS,0,A,29600.0,0.0
+KR012,Incheon,OTQ,"Public administration, defence, education, human health and social work activities",2022,322400.0,PS,0,A,322400.0,0.0
+KR012,Incheon,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,163600.0,PS,0,A,163600.0,0.0
+KR012,Incheon,BTE,Industry (except construction),2022,344400.0,PS,0,A,344400.0,0.0
+KR012,Incheon,K,Financial and insurance activities,2022,39100.0,PS,0,A,39100.0,0.0
+KR012,Incheon,F,Construction,2022,134300.0,PS,0,A,134300.0,0.0
+KR012,Incheon,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,98900.0,PS,0,A,98900.0,0.0
+KR012,Incheon,A,"Agriculture, forestry and fishing",2022,1400.0,PS,0,A,1400.0,0.0
+KR012,Incheon,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,461300.0,PS,0,A,461300.0,0.0
+KR012,Incheon,J,Information and communication,2022,50300.0,PS,0,A,50300.0,0.0
+KR012,Incheon,J,Information and communication,2023,49800.0,PS,0,A,49800.0,0.0
+KR012,Incheon,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,470400.0,PS,0,A,470400.0,0.0
+KR012,Incheon,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,173800.0,PS,0,A,173800.0,0.0
+KR012,Incheon,BTE,Industry (except construction),2023,324200.0,PS,0,A,324200.0,0.0
+KR012,Incheon,OTQ,"Public administration, defence, education, human health and social work activities",2023,318900.0,PS,0,A,318900.0,0.0
+KR012,Incheon,L,Real estate activities,2023,28300.0,PS,0,A,28300.0,0.0
+KR071,Jeju-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,31400.0,PS,0,A,31400.0,0.0
+KR071,Jeju-do,K,Financial and insurance activities,2022,7500.0,PS,0,A,7500.0,0.0
+KR071,Jeju-do,J,Information and communication,2022,5200.0,PS,0,A,5200.0,0.0
+KR071,Jeju-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,102500.0,PS,0,A,102500.0,0.0
+KR071,Jeju-do,A,"Agriculture, forestry and fishing",2022,63900.0,PS,0,A,63900.0,0.0
+KR071,Jeju-do,F,Construction,2022,38700.0,PS,0,A,38700.0,0.0
+KR071,Jeju-do,BTE,Industry (except construction),2022,18400.0,PS,0,A,18400.0,0.0
+KR071,Jeju-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,118400.0,PS,0,A,118400.0,0.0
+KR071,Jeju-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,24600.0,PS,0,A,24600.0,0.0
+KR071,Jeju-do,L,Real estate activities,2022,5300.0,PS,0,A,5300.0,0.0
+KR071,Jeju-do,L,Real estate activities,2023,5300.0,PS,0,A,5300.0,0.0
+KR071,Jeju-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,26100.0,PS,0,A,26100.0,0.0
+KR071,Jeju-do,BTE,Industry (except construction),2023,20000.0,PS,0,A,20000.0,0.0
+KR061,Gangwon-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,69500.0,PS,0,A,69500.0,0.0
+KR061,Gangwon-do,K,Financial and insurance activities,2023,23900.0,PS,0,A,23900.0,0.0
+KR012,Incheon,A,"Agriculture, forestry and fishing",2023,2600.0,PS,0,A,2600.0,0.0
+KR012,Incheon,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,96400.0,PS,0,A,96400.0,0.0
+KR012,Incheon,F,Construction,2023,143700.0,PS,0,A,143700.0,0.0
+KR012,Incheon,K,Financial and insurance activities,2023,38900.0,PS,0,A,38900.0,0.0
+KR021,Busan,K,Financial and insurance activities,2022,49200.0,PS,0,A,49200.0,0.0
+KR021,Busan,BTE,Industry (except construction),2022,239400.0,PS,0,A,239400.0,0.0
+KR021,Busan,F,Construction,2022,175500.0,PS,0,A,175500.0,0.0
+KR021,Busan,L,Real estate activities,2022,32200.0,PS,0,A,32200.0,0.0
+KR021,Busan,OTQ,"Public administration, defence, education, human health and social work activities",2022,359500.0,PS,0,A,359500.0,0.0
+KR021,Busan,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,131000.0,PS,0,A,131000.0,0.0
+KR021,Busan,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,557500.0,PS,0,A,557500.0,0.0
+KR021,Busan,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,100500.0,PS,0,A,100500.0,0.0
+KR021,Busan,J,Information and communication,2022,28600.0,PS,0,A,28600.0,0.0
+KR021,Busan,A,"Agriculture, forestry and fishing",2022,18200.0,PS,0,A,18200.0,0.0
+KR021,Busan,A,"Agriculture, forestry and fishing",2023,21900.0,PS,0,A,21900.0,0.0
+KR021,Busan,J,Information and communication,2023,30600.0,PS,0,A,30600.0,0.0
+KR021,Busan,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,109400.0,PS,0,A,109400.0,0.0
+KR021,Busan,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,554400.0,PS,0,A,554400.0,0.0
+KR021,Busan,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,138500.0,PS,0,A,138500.0,0.0
+KR071,Jeju-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,116300.0,PS,0,A,116300.0,0.0
+KR071,Jeju-do,F,Construction,2023,35800.0,PS,0,A,35800.0,0.0
+KR071,Jeju-do,A,"Agriculture, forestry and fishing",2023,54000.0,PS,0,A,54000.0,0.0
+KR071,Jeju-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,96900.0,PS,0,A,96900.0,0.0
+KR071,Jeju-do,J,Information and communication,2023,6100.0,PS,0,A,6100.0,0.0
+KR071,Jeju-do,K,Financial and insurance activities,2023,9000.0,PS,0,A,9000.0,0.0
+KR071,Jeju-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,28500.0,PS,0,A,28500.0,0.0
+KR061,Gangwon-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,50200.0,PS,0,A,50200.0,0.0
+KR061,Gangwon-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,215100.0,PS,0,A,215100.0,0.0
+KR061,Gangwon-do,A,"Agriculture, forestry and fishing",2023,81500.0,PS,0,A,81500.0,0.0
+KR061,Gangwon-do,F,Construction,2023,79500.0,PS,0,A,79500.0,0.0
+KR061,Gangwon-do,L,Real estate activities,2023,11200.0,PS,0,A,11200.0,0.0
+KR061,Gangwon-do,BTE,Industry (except construction),2023,65200.0,PS,0,A,65200.0,0.0
+KR061,Gangwon-do,J,Information and communication,2023,14000.0,PS,0,A,14000.0,0.0
+KR061,Gangwon-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,250500.0,PS,0,A,250500.0,0.0
+KR021,Busan,OTQ,"Public administration, defence, education, human health and social work activities",2023,364800.0,PS,0,A,364800.0,0.0
+KR021,Busan,L,Real estate activities,2023,29500.0,PS,0,A,29500.0,0.0
+KR021,Busan,F,Construction,2023,161700.0,PS,0,A,161700.0,0.0
+KR021,Busan,BTE,Industry (except construction),2023,237100.0,PS,0,A,237100.0,0.0
+KR021,Busan,K,Financial and insurance activities,2023,47400.0,PS,0,A,47400.0,0.0
+KR041,Gwangju,BTE,Industry (except construction),2023,112900.0,PS,0,A,112900.0,0.0
+KR041,Gwangju,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,55700.0,PS,0,A,55700.0,0.0
+KR041,Gwangju,OTQ,"Public administration, defence, education, human health and social work activities",2023,195400.0,PS,0,A,195400.0,0.0
+KR041,Gwangju,F,Construction,2023,69300.0,PS,0,A,69300.0,0.0
+KR061,Gangwon-do,K,Financial and insurance activities,2022,24500.0,PS,0,A,24500.0,0.0
+KR061,Gangwon-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,62700.0,PS,0,A,62700.0,0.0
+KR061,Gangwon-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,241900.0,PS,0,A,241900.0,0.0
+KR061,Gangwon-do,J,Information and communication,2022,16900.0,PS,0,A,16900.0,0.0
+KR061,Gangwon-do,BTE,Industry (except construction),2022,68600.0,PS,0,A,68600.0,0.0
+KR061,Gangwon-do,L,Real estate activities,2022,11400.0,PS,0,A,11400.0,0.0
+KR061,Gangwon-do,F,Construction,2022,80400.0,PS,0,A,80400.0,0.0
+KR061,Gangwon-do,A,"Agriculture, forestry and fishing",2022,82400.0,PS,0,A,82400.0,0.0
+KR061,Gangwon-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,210400.0,PS,0,A,210400.0,0.0
+KR061,Gangwon-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,47900.0,PS,0,A,47900.0,0.0
+KR041,Gwangju,J,Information and communication,2022,17600.0,PS,0,A,17600.0,0.0
+KR041,Gwangju,L,Real estate activities,2022,17300.0,PS,0,A,17300.0,0.0
+KR041,Gwangju,L,Real estate activities,2023,18100.0,PS,0,A,18100.0,0.0
+KR041,Gwangju,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,53900.0,PS,0,A,53900.0,0.0
+KR041,Gwangju,A,"Agriculture, forestry and fishing",2023,19400.0,PS,0,A,19400.0,0.0
+KR023,Gyeongsangnam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,88000.0,PS,0,A,88000.0,0.0
+KR023,Gyeongsangnam-do,K,Financial and insurance activities,2022,39100.0,PS,0,A,39100.0,0.0
+KR023,Gyeongsangnam-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,372000.0,PS,0,A,372000.0,0.0
+KR023,Gyeongsangnam-do,F,Construction,2022,107300.0,PS,0,A,107300.0,0.0
+KR023,Gyeongsangnam-do,A,"Agriculture, forestry and fishing",2022,233200.0,PS,0,A,233200.0,0.0
+KR023,Gyeongsangnam-do,BTE,Industry (except construction),2022,403000.0,PS,0,A,403000.0,0.0
+KR023,Gyeongsangnam-do,J,Information and communication,2022,17300.0,PS,0,A,17300.0,0.0
+KR023,Gyeongsangnam-do,L,Real estate activities,2022,21100.0,PS,0,A,21100.0,0.0
+KR023,Gyeongsangnam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,381600.0,PS,0,A,381600.0,0.0
+KR023,Gyeongsangnam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,85200.0,PS,0,A,85200.0,0.0
+KR023,Gyeongsangnam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,94100.0,PS,0,A,94100.0,0.0
+KR023,Gyeongsangnam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,424000.0,PS,0,A,424000.0,0.0
+KR023,Gyeongsangnam-do,J,Information and communication,2023,16400.0,PS,0,A,16400.0,0.0
+KR023,Gyeongsangnam-do,BTE,Industry (except construction),2023,389100.0,PS,0,A,389100.0,0.0
+KR023,Gyeongsangnam-do,A,"Agriculture, forestry and fishing",2023,213400.0,PS,0,A,213400.0,0.0
+KR023,Gyeongsangnam-do,L,Real estate activities,2023,22000.0,PS,0,A,22000.0,0.0
+KR023,Gyeongsangnam-do,F,Construction,2023,97500.0,PS,0,A,97500.0,0.0
+KR043,Jeollanam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,46200.0,PS,0,A,46200.0,0.0
+KR043,Jeollanam-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,50600.0,PS,0,A,50600.0,0.0
+KR043,Jeollanam-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,260300.0,PS,0,A,260300.0,0.0
+KR041,Gwangju,A,"Agriculture, forestry and fishing",2022,14100.0,PS,0,A,14100.0,0.0
+KR041,Gwangju,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,48800.0,PS,0,A,48800.0,0.0
+KR041,Gwangju,J,Information and communication,2023,15500.0,PS,0,A,15500.0,0.0
+KR041,Gwangju,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,204100.0,PS,0,A,204100.0,0.0
+KR041,Gwangju,K,Financial and insurance activities,2023,25800.0,PS,0,A,25800.0,0.0
+KR022,Ulsan,F,Construction,2022,49600.0,PS,0,A,49600.0,0.0
+KR022,Ulsan,OTQ,"Public administration, defence, education, human health and social work activities",2022,117000.0,PS,0,A,117000.0,0.0
+KR022,Ulsan,J,Information and communication,2022,6700.0,PS,0,A,6700.0,0.0
+KR022,Ulsan,L,Real estate activities,2022,10600.0,PS,0,A,10600.0,0.0
+KR022,Ulsan,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,121400.0,PS,0,A,121400.0,0.0
+KR022,Ulsan,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,126300.0,PS,0,A,126300.0,0.0
+KR022,Ulsan,L,Real estate activities,2023,10700.0,PS,0,A,10700.0,0.0
+KR022,Ulsan,J,Information and communication,2023,5000.0,PS,0,A,5000.0,0.0
+KR022,Ulsan,OTQ,"Public administration, defence, education, human health and social work activities",2023,112000.0,PS,0,A,112000.0,0.0
+KR022,Ulsan,F,Construction,2023,49300.0,PS,0,A,49300.0,0.0
+KR022,Ulsan,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,42200.0,PS,0,A,42200.0,0.0
+KR022,Ulsan,A,"Agriculture, forestry and fishing",2023,7500.0,PS,0,A,7500.0,0.0
+KR022,Ulsan,K,Financial and insurance activities,2023,9900.0,PS,0,A,9900.0,0.0
+KR022,Ulsan,BTE,Industry (except construction),2023,181600.0,PS,0,A,181600.0,0.0
+KR022,Ulsan,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,27100.0,PS,0,A,27100.0,0.0
+KR023,Gyeongsangnam-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,393800.0,PS,0,A,393800.0,0.0
+KR023,Gyeongsangnam-do,K,Financial and insurance activities,2023,42700.0,PS,0,A,42700.0,0.0
+KR023,Gyeongsangnam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,87600.0,PS,0,A,87600.0,0.0
+KR043,Jeollanam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,56400.0,PS,0,A,56400.0,0.0
+KR043,Jeollanam-do,L,Real estate activities,2022,10900.0,PS,0,A,10900.0,0.0
+KR043,Jeollanam-do,J,Information and communication,2022,10600.0,PS,0,A,10600.0,0.0
+KR043,Jeollanam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,222300.0,PS,0,A,222300.0,0.0
+KR043,Jeollanam-do,A,"Agriculture, forestry and fishing",2023,222600.0,PS,0,A,222600.0,0.0
+KR043,Jeollanam-do,K,Financial and insurance activities,2023,16700.0,PS,0,A,16700.0,0.0
+KR043,Jeollanam-do,F,Construction,2023,77200.0,PS,0,A,77200.0,0.0
+KR043,Jeollanam-do,BTE,Industry (except construction),2023,103700.0,PS,0,A,103700.0,0.0
+KR043,Jeollanam-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,227900.0,PS,0,A,227900.0,0.0
+KR043,Jeollanam-do,J,Information and communication,2023,8800.0,PS,0,A,8800.0,0.0
+KR043,Jeollanam-do,L,Real estate activities,2023,12400.0,PS,0,A,12400.0,0.0
+KR041,Gwangju,F,Construction,2022,70400.0,PS,0,A,70400.0,0.0
+KR041,Gwangju,OTQ,"Public administration, defence, education, human health and social work activities",2022,190800.0,PS,0,A,190800.0,0.0
+KR041,Gwangju,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,54900.0,PS,0,A,54900.0,0.0
+KR041,Gwangju,BTE,Industry (except construction),2022,111300.0,PS,0,A,111300.0,0.0
+KR041,Gwangju,K,Financial and insurance activities,2022,24400.0,PS,0,A,24400.0,0.0
+KR041,Gwangju,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,212300.0,PS,0,A,212300.0,0.0
+KR022,Ulsan,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,22800.0,PS,0,A,22800.0,0.0
+KR022,Ulsan,BTE,Industry (except construction),2022,182600.0,PS,0,A,182600.0,0.0
+KR022,Ulsan,K,Financial and insurance activities,2022,13700.0,PS,0,A,13700.0,0.0
+KR022,Ulsan,A,"Agriculture, forestry and fishing",2022,6500.0,PS,0,A,6500.0,0.0
+KR022,Ulsan,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,42200.0,PS,0,A,42200.0,0.0
+KR043,Jeollanam-do,BTE,Industry (except construction),2022,104600.0,PS,0,A,104600.0,0.0
+KR043,Jeollanam-do,F,Construction,2022,70700.0,PS,0,A,70700.0,0.0
+KR043,Jeollanam-do,K,Financial and insurance activities,2022,19900.0,PS,0,A,19900.0,0.0
+KR043,Jeollanam-do,A,"Agriculture, forestry and fishing",2022,239800.0,PS,0,A,239800.0,0.0
+KR043,Jeollanam-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,244100.0,PS,0,A,244100.0,0.0
+KR043,Jeollanam-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,54600.0,PS,0,A,54600.0,0.0
+KR011,Seoul,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,1458700.0,PS,0,A,1458700.0,0.0
+KR011,Seoul,F,Construction,2022,324000.0,PS,0,A,324000.0,0.0
+KR011,Seoul,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,727400.0,PS,0,A,727400.0,0.0
+KR011,Seoul,BTE,Industry (except construction),2022,463900.0,PS,0,A,463900.0,0.0
+KR011,Seoul,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,313900.0,PS,0,A,313900.0,0.0
+KR011,Seoul,K,Financial and insurance activities,2022,239800.0,PS,0,A,239800.0,0.0
+KR011,Seoul,J,Information and communication,2022,410800.0,PS,0,A,410800.0,0.0
+KR011,Seoul,L,Real estate activities,2022,130700.0,PS,0,A,130700.0,0.0
+KR011,Seoul,A,"Agriculture, forestry and fishing",2022,5600.0,PS,0,A,5600.0,0.0
+KR011,Seoul,OTQ,"Public administration, defence, education, human health and social work activities",2022,1031900.0,PS,0,A,1031900.0,0.0
+KR011,Seoul,OTQ,"Public administration, defence, education, human health and social work activities",2023,1018800.0,PS,0,A,1018800.0,0.0
+KR011,Seoul,A,"Agriculture, forestry and fishing",2023,4500.0,PS,0,A,4500.0,0.0
+KR011,Seoul,L,Real estate activities,2023,133900.0,PS,0,A,133900.0,0.0
+KR011,Seoul,J,Information and communication,2023,434700.0,PS,0,A,434700.0,0.0
+KR011,Seoul,K,Financial and insurance activities,2023,243500.0,PS,0,A,243500.0,0.0
+KR011,Seoul,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,316800.0,PS,0,A,316800.0,0.0
+KR011,Seoul,BTE,Industry (except construction),2023,478000.0,PS,0,A,478000.0,0.0
+KR011,Seoul,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,748800.0,PS,0,A,748800.0,0.0
+KR011,Seoul,F,Construction,2023,338600.0,PS,0,A,338600.0,0.0
+KR032,Gyeongsangbuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,67900.0,PS,0,A,67900.0,0.0
+KR032,Gyeongsangbuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,315900.0,PS,0,A,315900.0,0.0
+KR032,Gyeongsangbuk-do,J,Information and communication,2023,13800.0,PS,0,A,13800.0,0.0
+KR042,Jeollabuk-do,BTE,Industry (except construction),2023,135100.0,PS,0,A,135100.0,0.0
+KR042,Jeollabuk-do,L,Real estate activities,2023,14100.0,PS,0,A,14100.0,0.0
+KR042,Jeollabuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,63700.0,PS,0,A,63700.0,0.0
+KR042,Jeollabuk-do,A,"Agriculture, forestry and fishing",2023,167800.0,PS,0,A,167800.0,0.0
+KR042,Jeollabuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,203300.0,PS,0,A,203300.0,0.0
+KR011,Seoul,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,1429400.0,PS,0,A,1429400.0,0.0
+KR032,Gyeongsangbuk-do,J,Information and communication,2022,15600.0,PS,0,A,15600.0,0.0
+KR032,Gyeongsangbuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,304400.0,PS,0,A,304400.0,0.0
+KR032,Gyeongsangbuk-do,K,Financial and insurance activities,2023,30200.0,PS,0,A,30200.0,0.0
+KR032,Gyeongsangbuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,309200.0,PS,0,A,309200.0,0.0
+KR032,Gyeongsangbuk-do,L,Real estate activities,2023,14500.0,PS,0,A,14500.0,0.0
+KR032,Gyeongsangbuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,75800.0,PS,0,A,75800.0,0.0
+KR032,Gyeongsangbuk-do,A,"Agriculture, forestry and fishing",2023,294800.0,PS,0,A,294800.0,0.0
+KR054,Sejong,OTQ,"Public administration, defence, education, human health and social work activities",2022,74400.0,PS,0,A,74400.0,0.0
+KR054,Sejong,OTQ,"Public administration, defence, education, human health and social work activities",2023,78900.0,PS,0,A,78900.0,0.0
+KR054,Sejong,F,Construction,2023,9800.0,PS,0,A,9800.0,0.0
+KR054,Sejong,A,"Agriculture, forestry and fishing",2023,8600.0,PS,0,A,8600.0,0.0
+KR054,Sejong,J,Information and communication,2023,5600.0,PS,0,A,5600.0,0.0
+KR054,Sejong,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,9900.0,PS,0,A,9900.0,0.0
+KR054,Sejong,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,23400.0,PS,0,A,23400.0,0.0
+KR054,Sejong,L,Real estate activities,2023,5100.0,PS,0,A,5100.0,0.0
+KR042,Jeollabuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,206700.0,PS,0,A,206700.0,0.0
+KR042,Jeollabuk-do,A,"Agriculture, forestry and fishing",2022,183200.0,PS,0,A,183200.0,0.0
+KR042,Jeollabuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,55300.0,PS,0,A,55300.0,0.0
+KR042,Jeollabuk-do,L,Real estate activities,2022,12400.0,PS,0,A,12400.0,0.0
+KR042,Jeollabuk-do,BTE,Industry (except construction),2022,132100.0,PS,0,A,132100.0,0.0
+KR042,Jeollabuk-do,F,Construction,2022,69000.0,PS,0,A,69000.0,0.0
+KR042,Jeollabuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,49400.0,PS,0,A,49400.0,0.0
+KR042,Jeollabuk-do,K,Financial and insurance activities,2022,20000.0,PS,0,A,20000.0,0.0
+KR042,Jeollabuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,248500.0,PS,0,A,248500.0,0.0
+KR042,Jeollabuk-do,J,Information and communication,2022,8500.0,PS,0,A,8500.0,0.0
+KR042,Jeollabuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,242200.0,PS,0,A,242200.0,0.0
+KR042,Jeollabuk-do,J,Information and communication,2023,8500.0,PS,0,A,8500.0,0.0
+KR042,Jeollabuk-do,K,Financial and insurance activities,2023,21400.0,PS,0,A,21400.0,0.0
+KR042,Jeollabuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,49700.0,PS,0,A,49700.0,0.0
+KR042,Jeollabuk-do,F,Construction,2023,74400.0,PS,0,A,74400.0,0.0
+KR032,Gyeongsangbuk-do,L,Real estate activities,2022,15300.0,PS,0,A,15300.0,0.0
+KR032,Gyeongsangbuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,288900.0,PS,0,A,288900.0,0.0
+KR032,Gyeongsangbuk-do,K,Financial and insurance activities,2022,31800.0,PS,0,A,31800.0,0.0
+KR032,Gyeongsangbuk-do,F,Construction,2022,83700.0,PS,0,A,83700.0,0.0
+KR032,Gyeongsangbuk-do,BTE,Industry (except construction),2022,306300.0,PS,0,A,306300.0,0.0
+KR032,Gyeongsangbuk-do,BTE,Industry (except construction),2023,280900.0,PS,0,A,280900.0,0.0
+KR032,Gyeongsangbuk-do,F,Construction,2023,89400.0,PS,0,A,89400.0,0.0
+KR054,Sejong,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,32200.0,PS,0,A,32200.0,0.0
+KR054,Sejong,BTE,Industry (except construction),2022,32400.0,PS,0,A,32400.0,0.0
+KR054,Sejong,K,Financial and insurance activities,2022,3800.0,PS,0,A,3800.0,0.0
+KR054,Sejong,L,Real estate activities,2022,5900.0,PS,0,A,5900.0,0.0
+KR054,Sejong,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,21800.0,PS,0,A,21800.0,0.0
+KR054,Sejong,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,8700.0,PS,0,A,8700.0,0.0
+KR054,Sejong,J,Information and communication,2022,5700.0,PS,0,A,5700.0,0.0
+KR054,Sejong,A,"Agriculture, forestry and fishing",2022,8300.0,PS,0,A,8300.0,0.0
+KR054,Sejong,F,Construction,2022,8700.0,PS,0,A,8700.0,0.0
+KR054,Sejong,K,Financial and insurance activities,2023,3100.0,PS,0,A,3100.0,0.0
+KR054,Sejong,BTE,Industry (except construction),2023,32500.0,PS,0,A,32500.0,0.0
+KR054,Sejong,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,32600.0,PS,0,A,32600.0,0.0
+KR052,Chungcheongbuk-do,A,"Agriculture, forestry and fishing",2022,104600.0,PS,0,A,104600.0,0.0
+KR052,Chungcheongbuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,214100.0,PS,0,A,214100.0,0.0
+KR052,Chungcheongbuk-do,F,Construction,2022,69000.0,PS,0,A,69000.0,0.0
+KR052,Chungcheongbuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2022,191400.0,PS,0,A,191400.0,0.0
+KR052,Chungcheongbuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,55600.0,PS,0,A,55600.0,0.0
+KR052,Chungcheongbuk-do,L,Real estate activities,2022,12400.0,PS,0,A,12400.0,0.0
+KR052,Chungcheongbuk-do,BTE,Industry (except construction),2022,197100.0,PS,0,A,197100.0,0.0
+KR052,Chungcheongbuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,69700.0,PS,0,A,69700.0,0.0
+KR052,Chungcheongbuk-do,K,Financial and insurance activities,2022,16600.0,PS,0,A,16600.0,0.0
+KR052,Chungcheongbuk-do,J,Information and communication,2022,11500.0,PS,0,A,11500.0,0.0
+KR052,Chungcheongbuk-do,J,Information and communication,2023,13200.0,PS,0,A,13200.0,0.0
+KR052,Chungcheongbuk-do,K,Financial and insurance activities,2023,17500.0,PS,0,A,17500.0,0.0
+KR052,Chungcheongbuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,68700.0,PS,0,A,68700.0,0.0
+KR052,Chungcheongbuk-do,BTE,Industry (except construction),2023,207200.0,PS,0,A,207200.0,0.0
+KR052,Chungcheongbuk-do,L,Real estate activities,2023,12800.0,PS,0,A,12800.0,0.0
+KR052,Chungcheongbuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,52800.0,PS,0,A,52800.0,0.0
+KR052,Chungcheongbuk-do,OTQ,"Public administration, defence, education, human health and social work activities",2023,188300.0,PS,0,A,188300.0,0.0
+KR052,Chungcheongbuk-do,F,Construction,2023,78400.0,PS,0,A,78400.0,0.0
+KR052,Chungcheongbuk-do,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,201600.0,PS,0,A,201600.0,0.0
+KR052,Chungcheongbuk-do,A,"Agriculture, forestry and fishing",2023,108800.0,PS,0,A,108800.0,0.0
+KR032,Gyeongsangbuk-do,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,67600.0,PS,0,A,67600.0,0.0
+KR032,Gyeongsangbuk-do,A,"Agriculture, forestry and fishing",2022,307300.0,PS,0,A,307300.0,0.0
+KR032,Gyeongsangbuk-do,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,71800.0,PS,0,A,71800.0,0.0
+KR051,Daejeon,K,Financial and insurance activities,2023,16400.0,PS,0,A,16400.0,0.0
+KR051,Daejeon,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2023,193200.0,PS,0,A,193200.0,0.0
+KR043,Jeollanam-do,_T,Total - all activities,2022,1025600.0,PS,0,A,1025600.0,0.0
+KR042,Jeollabuk-do,_T,Total - all activities,2022,985100.0,PS,0,A,985100.0,0.0
+KR011,Seoul,_T,Total - all activities,2022,5106700.0,PS,0,A,5106700.0,0.0
+KR031,Daegu,_T,Total - all activities,2022,1233800.0,PS,0,A,1233800.0,0.0
+KR013,Gyeonggi-do,_T,Total - all activities,2022,7657900.0,PS,0,A,7657900.0,0.0
+KR051,Daejeon,_T,Total - all activities,2022,807000.0,PS,0,A,807000.0,0.0
+KR021,Busan,_T,Total - all activities,2022,1691400.0,PS,0,A,1691400.0,0.0
+KR054,Sejong,_T,Total - all activities,2022,202000.0,PS,0,A,202000.0,0.0
+KR023,Gyeongsangnam-do,_T,Total - all activities,2022,1748000.0,PS,0,A,1748000.0,0.0
+KR053,Chungcheongnam-do,_T,Total - all activities,2022,1282500.0,PS,0,A,1282500.0,0.0
+KR053,Chungcheongnam-do,_T,Total - all activities,2023,1254500.0,PS,0,A,1254500.0,0.0
+KR023,Gyeongsangnam-do,_T,Total - all activities,2023,1780600.0,PS,0,A,1780600.0,0.0
+KR054,Sejong,_T,Total - all activities,2023,209600.0,PS,0,A,209600.0,0.0
+KR021,Busan,_T,Total - all activities,2023,1695400.0,PS,0,A,1695400.0,0.0
+KR051,Daejeon,_T,Total - all activities,2023,794800.0,PS,0,A,794800.0,0.0
+KR013,Gyeonggi-do,_T,Total - all activities,2023,7609700.0,PS,0,A,7609700.0,0.0
+KR031,Daegu,_T,Total - all activities,2023,1236000.0,PS,0,A,1236000.0,0.0
+KR011,Seoul,_T,Total - all activities,2023,5147200.0,PS,0,A,5147200.0,0.0
+KR042,Jeollabuk-do,_T,Total - all activities,2023,980300.0,PS,0,A,980300.0,0.0
+KR043,Jeollanam-do,_T,Total - all activities,2023,1034900.0,PS,0,A,1034900.0,0.0
+KR022,Ulsan,_T,Total - all activities,2023,571500.0,PS,0,A,571500.0,0.0
+KR052,Chungcheongbuk-do,_T,Total - all activities,2023,949200.0,PS,0,A,949200.0,0.0
+KR041,Gwangju,_T,Total - all activities,2023,770100.0,PS,0,A,770100.0,0.0
+KR032,Gyeongsangbuk-do,_T,Total - all activities,2023,1492400.0,PS,0,A,1492400.0,0.0
+KR061,Gangwon-do,_T,Total - all activities,2023,860800.0,PS,0,A,860800.0,0.0
+KR012,Incheon,_T,Total - all activities,2023,1647100.0,PS,0,A,1647100.0,0.0
+KR071,Jeju-do,_T,Total - all activities,2023,397900.0,PS,0,A,397900.0,0.0
+KR051,Daejeon,GTI,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,2022,199700.0,PS,0,A,199700.0,0.0
+KR051,Daejeon,K,Financial and insurance activities,2022,17100.0,PS,0,A,17100.0,0.0
+KR051,Daejeon,L,Real estate activities,2022,18100.0,PS,0,A,18100.0,0.0
+KR051,Daejeon,F,Construction,2022,65300.0,PS,0,A,65300.0,0.0
+KR051,Daejeon,M_N,"Professional, scientific and technical activities; administrative and support service activities",2022,104900.0,PS,0,A,104900.0,0.0
+KR051,Daejeon,BTE,Industry (except construction),2022,87600.0,PS,0,A,87600.0,0.0
+KR051,Daejeon,OTQ,"Public administration, defence, education, human health and social work activities",2022,224200.0,PS,0,A,224200.0,0.0
+KR051,Daejeon,A,"Agriculture, forestry and fishing",2022,8300.0,PS,0,A,8300.0,0.0
+KR051,Daejeon,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2022,56900.0,PS,0,A,56900.0,0.0
+KR051,Daejeon,J,Information and communication,2022,24700.0,PS,0,A,24700.0,0.0
+KR051,Daejeon,J,Information and communication,2023,25000.0,PS,0,A,25000.0,0.0
+KR051,Daejeon,RTU,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",2023,55400.0,PS,0,A,55400.0,0.0
+KR051,Daejeon,A,"Agriculture, forestry and fishing",2023,7100.0,PS,0,A,7100.0,0.0
+KR051,Daejeon,OTQ,"Public administration, defence, education, human health and social work activities",2023,221800.0,PS,0,A,221800.0,0.0
+KR051,Daejeon,BTE,Industry (except construction),2023,88800.0,PS,0,A,88800.0,0.0
+KR051,Daejeon,M_N,"Professional, scientific and technical activities; administrative and support service activities",2023,106100.0,PS,0,A,106100.0,0.0
+KR051,Daejeon,F,Construction,2023,62500.0,PS,0,A,62500.0,0.0
+KR051,Daejeon,L,Real estate activities,2023,18500.0,PS,0,A,18500.0,0.0
+KR071,Jeju-do,_T,Total - all activities,2022,416100.0,PS,0,A,416100.0,0.0
+KR012,Incheon,_T,Total - all activities,2022,1645300.0,PS,0,A,1645300.0,0.0
+KR061,Gangwon-do,_T,Total - all activities,2022,847100.0,PS,0,A,847100.0,0.0
+KR032,Gyeongsangbuk-do,_T,Total - all activities,2022,1492700.0,PS,0,A,1492700.0,0.0
+KR041,Gwangju,_T,Total - all activities,2022,761800.0,PS,0,A,761800.0,0.0
+KR052,Chungcheongbuk-do,_T,Total - all activities,2022,941800.0,PS,0,A,941800.0,0.0
+KR022,Ulsan,_T,Total - all activities,2022,573200.0,PS,0,A,573200.0,0.0

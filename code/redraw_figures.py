@@ -13,7 +13,7 @@ import numpy as np
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
-from matplotlib.patches import Rectangle
+from matplotlib.patches import Rectangle, FancyArrowPatch
 
 INPUT = Path(__file__).resolve().parents[1] / "figures"
 ROOT = INPUT
@@ -24,6 +24,7 @@ plt.rcParams.update(
         "font.family": ["NanumMyeongjo", "DejaVu Sans"],
         "font.size": 9,
         "axes.unicode_minus": False,
+        "text.parse_math": False,
         "pdf.fonttype": 42,
         "ps.fonttype": 42,
         "svg.fonttype": "none",
@@ -98,11 +99,20 @@ def save(f, name):
     os.replace(temporary, ROOT / (name + ".png"))
     f.savefig(ROOT / (name + ".pdf"))
     f.savefig(ROOT / (name + ".svg"))
+    canonical = {"figure1_final": "paper_figure_01", "figure2_final": "paper_figure_A1",
+                 "figure3_final": "paper_figure_02", "figure4_final": "paper_figure_03"}.get(name)
+    if canonical:
+        import shutil
+        for extension in ("png", "pdf", "svg"):
+            shutil.copyfile(ROOT / f"{name}.{extension}", ROOT / f"{canonical}.{extension}")
     plt.close(f)
 
 
 def draw3():
+    """Main-text Figure 2: source-backed Seoul BTE evidence display."""
     d = json.loads((INPUT / "fig3_validation.json").read_text())
+    card_path = INPUT.parent / "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json"
+    card = json.loads(card_path.read_text())
     ridge = d["ridge"]
     basev = d["baseline"]
     vals = [
@@ -148,20 +158,20 @@ def draw3():
         linewidth=0.75,
         zorder=5,
     )
-    ax.text(ridge, 0.81, "릿지 −0.40", fontsize=9, ha="center", color=TEAL)
-    ax.text(basev, 0.81, "기준모형 +0.67", fontsize=9, ha="center", color=SLATE)
+    ax.text(ridge, 0.81, f"릿지 {ridge:+.2f}", fontsize=9, ha="center", color=TEAL)
+    ax.text(basev, 0.81, f"기준모형 {basev:+.2f}", fontsize=9, ha="center", color=SLATE)
     ax.text(0, 1.01, "유지 범위", fontsize=8.3, ha="center", color="#59656D")
     ax.plot([ridge, ridge, basev, basev], [0.30, 0.12, 0.12, 0.30], color=SLATE, lw=0.8)
     ax.text(
         (ridge + basev) / 2,
         -0.16,
-        "편차 −1.07 · 하회",
+        f"편차 {ridge-basev:+.2f} · {card['relative_deviation']['class']}",
         fontsize=9,
         ha="center",
         color=SLATE,
     )
     ax.set_xticks([-1, -0.5, 0, 0.5, 1])
-    ax.set_xticklabels(["−1.0", "−0.5", "0", "+0.5", "+1.0"], fontsize=8.5)
+    ax.set_xticklabels(["-1.0", "-0.5", "0", "+0.5", "+1.0"], fontsize=8.5)
     ax.tick_params(axis="x", length=2.6, pad=2.5, color=RULE)
     ax.set_yticks([])
     for sp in ["top", "left", "right"]:
@@ -173,7 +183,7 @@ def draw3():
     t(
         3,
         101.6,
-        "음영: [−0.5, +0.5]의 고용변동을 구분하기 위한 표시 범위",
+        "음영: [-0.5, +0.5]의 고용변동을 구분하기 위한 표시 범위",
         8.5,
         color="#59656D",
     )
@@ -200,10 +210,10 @@ def draw3():
     ax2.set_yticklabels(labs, fontsize=9)
     ax2.tick_params(axis="y", length=0, pad=6)
     ax2.set_xticks([-1, -0.5, 0, 0.5])
-    ax2.set_xticklabels(["−1.0", "−0.5", "0", "+0.5"], fontsize=8.5)
+    ax2.set_xticklabels(["-1.0", "-0.5", "0", "+0.5"], fontsize=8.5)
     ax2.tick_params(axis="x", length=2.5, pad=2, color=RULE)
     for i, v in enumerate(vals):
-        label = f"{v:+.2f}".replace("-", "−")
+        label = f"{v:+.2f}"
         ax2.text(
             v + (0.035 if v >= 0 else -0.035),
             i,
@@ -219,26 +229,29 @@ def draw3():
     t(
         3,
         48.6,
-        "반올림 전 합계 = −0.3984; 각 항은 모형 내부의 가산 기여분",
+        f"반올림 전 합계 = {sum(vals[:-1]):.4f}; 각 항은 모형 내부의 기여분",
         8.5,
         color="#59656D",
     )
-    t(3, 42.4, "(다) 검증 범위와 담당자 검토", 9.5, "bold")
-    t(3, 36.7, "동일 지역·산업의 유효 검증사례: 0개 | 과거 공표본: 미확인", 8.7)
+    t(3, 42.4, "(다) 검증 범위와 후속 검토 과업", 9.5, "bold")
+    t(3, 36.7, f"동일 지역·산업의 검증사례 {d['validation_cell_n']}개: 칸별 검증성능 산출 불가", 8.7)
     xs = [3, 52, 101]
-    labels = ["원표·분류 연계 확인", "기업·직무 수요조사", "담당자 검토기록"]
+    labels = ["원표·분류 연계 확인", "현장 수요조사 계획", "담당자 검토기록"]
     for i, (x, label) in enumerate(zip(xs, labels)):
         box(x, 24, 43, 8, face="white")
         t(x + 21.5, 28, label, 8.8, ha="center")
         if i < 2:
-            t(x + 46, 28, "→", 11, ha="center", color=SLATE)
-    t(73.5, 19, "추가 확인과 담당자 검토 후 정책 판단", 9, ha="center")
+            f.add_artist(FancyArrowPatch(((x+43.5)/W,28/H), ((x+48.5)/W,28/H),
+                                          transform=f.transFigure, arrowstyle="-|>",
+                                          mutation_scale=8, linewidth=.7, color=SLATE))
+    t(73.5, 19, "제안된 업무 절차: 실제 담당자 수행 결과는 미측정", 8.7, ha="center")
     line(3, 144, 15)
-    t(3, 10.8, "사후 관측값: −31.71 로그포인트(−27.17%)", 9)
+    t(3, 10.8, (f"사후 관측값: {card['historical_outcome_audit']['observed_logpoints']:.2f} 로그포인트"
+                  f"({card['historical_outcome_audit']['observed_simple_change_pct']:.2f}%)"), 9)
     t(
         3,
         5.4,
-        "예측·편차의 산정 근거와 분리하여 원자료의 비교 가능성을 점검",
+        "사후 관측값은 예측·편차 산정에 사용하지 않음; 과거 공표본 미확인",
         8.5,
         color="#59656D",
     )
@@ -246,6 +259,7 @@ def draw3():
 
 
 def draw4():
+    """Main-text Figure 3: relative forecast differences and coverage."""
     rows = list(
         csv.DictReader((INPUT / "matrix_rendered_cells.csv").open(encoding="utf-8-sig"))
     )
@@ -258,11 +272,11 @@ def draw4():
     assert len(rows) == 80
     W, H = 147, 132
     f, t, line, box = base(W, H)
-    t(3, 127.2, "2025년 권역–산업별 예측편차와 자료 적용범위", 10.5, "bold")
+    t(3, 127.2, "2025년 권역-산업별 예측편차와 자료 적용범위", 10.5, "bold")
     t(
         3,
         121.1,
-        "예측편차 Δ = 릿지 예측값 − 전체 과거평균 예측값 (로그포인트)",
+        "예측편차 Δ = 릿지 예측값 - 전체 과거평균 예측값 (로그포인트)",
         8.8,
         color="#59656D",
     )
@@ -279,10 +293,13 @@ def draw4():
                 1,
                 1,
                 facecolor=cmap[r["class"]],
-                edgecolor="#FFFFFF",
-                linewidth=0.75,
+                edgecolor="#ADB7BE",
+                linewidth=0.45,
             )
         )
+        if r["coverage"] == "부분":
+            ax.add_patch(Rectangle((j + .035, i + .04), .93, .92, fill=False,
+                                   edgecolor="#70828E", linewidth=.65, linestyle="--"))
         # Marker * is retained exactly as supplied; all cell labels are immutable.
         ax.text(
             j + 0.5,
@@ -308,14 +325,14 @@ def draw4():
         sp.set_color("#8C9AA4")
         sp.set_linewidth(0.6)
     legend = [
-        (3, "하회 17개 (Δ < −0.5)", "하회"),
+        (3, "하회 17개 (Δ < -0.5)", "하회"),
         (51, "근접 35개 (|Δ| ≤ 0.5)", "근접"),
         (101, "상회 13개 (Δ > 0.5)", "상회"),
     ]
     for x, s, k in legend:
         box(x, 45, 3.3, 3.3, face=cmap[k], edge="#AAB4BB", lw=0.45)
         t(x + 4.7, 46.65, s, 8.4)
-    t(3, 39.2, "* 일부 시도 집계(4개)     × 미산출(15개)", 8.7)
+    t(3, 39.2, "*·점선 테두리: 일부 시도 집계(4개)     ×: 미산출(15개)", 8.7)
     t(3, 33, "산출 65/80개 조합: 전체 시도 포함 61개 · 일부 시도 포함 4개", 9)
     t(3, 26.8, "검증 편차 부호 일치: 91/188 = 48.40% (2020~2022년)", 9)
     line(3, 144, 22.5)
@@ -336,7 +353,7 @@ def draw4():
     t(
         3,
         6.3,
-        "2026-09-26 개정자료 기반 회고적 평가; 대경권은 주분석에서 미산출.",
+        "2026년 9월 확보한 개정자료 기반 평가; 대경권은 경계 조건으로 미산출.",
         8.3,
         color="#59656D",
     )

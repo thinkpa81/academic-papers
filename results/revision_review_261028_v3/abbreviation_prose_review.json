@@ -1,0 +1,559 @@
+{
+  "audit_date_kst": "2026-10-28",
+  "source": "00_최종논문_261028_v2.docx",
+  "paragraph_replacements": [
+    {
+      "index": 6,
+      "before": "Design/methodology/approach  The design specifies four principles and an evidence-linked review workflow. Historical forecasts were evaluated using revised, harmonized first-half statistics for 17 Korean provinces and 10 industry groups, with 428 evaluation observations for 2023–2025. Fault injection, ablation, model substitution, and matched-information comparisons with Pandera evaluated the specified review requirements; selected requirements were also applied to three US macroeconomic series.",
+      "after": "Design/methodology/approach  The design specifies four principles and an evidence-linked review workflow. Historical forecasts were evaluated using revised, harmonized first-half statistics for 17 provincial-level administrative regions in Korea and 10 industry groups, with 428 evaluation observations for 2023–2025. Fault injection, ablation, model substitution, and matched-information comparisons with Pandera evaluated the specified review requirements; selected requirements were also applied to three macroeconomic series from the United States (US).",
+      "reason": "영문 초록 국가 약어의 첫 사용을 정의하고 시도 전체를 provinces로만 지칭하는 범위를 명확히 함.",
+      "replacements": [
+        {
+          "old": "17 Korean provinces",
+          "new": "17 provincial-level administrative regions in Korea"
+        },
+        {
+          "old": "three US macroeconomic series",
+          "new": "three macroeconomic series from the United States (US)"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "before": "Findings  The initial ridge–benchmark MAE difference was −0.106 log points, with a province-cluster interval including zero; expanding-window results depended on the selection strategy. Linking current evidence to review records increased blocked faults from 16 to 36 out of 36 specified cases while accepting all 14 controls. Registered-reference checks blocked 14 known inconsistencies and accepted 272 consistent inputs. Native and Pandera implementations agreed on 7,590 cases under matched requirements and information. Joint alteration of submitted evidence and trusted references passed in all 506 separate probes. The contribution is an executable specification of prediction-level review conditions and its tested operating boundaries. Practitioner judgment and organizational outcomes require subsequent field evaluation.",
+      "after": "Findings  The initial ridge-benchmark mean absolute error (MAE) difference was −0.106 log points, with a region-clustered confidence interval including zero; expanding-window results depended on the selection strategy. Linking current evidence to review records increased blocked faults from 16 to 36 out of 36 specified cases while accepting all 14 controls. Registered-reference checks blocked 14 known inconsistencies and accepted 272 consistent inputs. Native and Pandera implementations agreed on 7,590 cases under matched requirements and information. Joint alteration of submitted evidence and trusted references passed in all 506 separate probes. The contribution is an executable specification of prediction-level review conditions and its tested operating boundaries. Practitioner judgment and organizational outcomes require subsequent field evaluation.",
+      "reason": "영문 초록 MAE 첫 사용을 풀어 쓰고 시도 군집 구간임을 명확히 함.",
+      "replacements": [
+        {
+          "old": "ridge–benchmark MAE difference",
+          "new": "ridge-benchmark mean absolute error (MAE) difference"
+        },
+        {
+          "old": "province-cluster interval",
+          "new": "region-clustered confidence interval"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "before": "5극 3특 국가균형성장 전략은 지역의 산업기반과 인력양성 수요를 연결하는 공공서비스의 필요성을 제시한다[11]. 2026년 8월 26일 발표된  3대 메가프로젝트 연계 권역별 성장엔진 육성 방안은 수도권을 제외한 7개 권역에 총 25개 성장엔진을 제시하고, 인공지능(artificial intelligence, AI)을 모든 권역의 공통 산업 기반기술로 설정하였다[8]. 본 연구는 5극 3특에 따라 수도권을 포함한 8개 분석권역을 설정하였으며, 7개 비수도권 권역의 성장엔진 정책 목록을 지역고용 자료의 해석에 활용하였다. 이러한 공공서비스에서 AI는 지역별 예측을 비교하고 정책 검토근거를 기록하는 정보 기반으로 기능한다.",
+      "after": "5극 3특 국가균형성장 전략은 지역의 산업기반과 인력양성 수요를 연결하는 공공서비스의 필요성을 제시한다[11]. 2026년 8월 26일 발표된 3대 메가프로젝트 연계 권역별 성장엔진 육성 방안은 수도권을 제외한 7개 권역에 총 25개 성장엔진을 제시하고, 인공지능(artificial intelligence, AI)을 모든 권역의 공통 산업 기반기술로 설정하였다[8]. 본 연구는 5극 3특에 따라 수도권을 포함한 8개 분석권역을 설정하였으며, 7개 비수도권 권역의 성장엔진 정책 목록을 지역고용 자료의 해석에 활용하였다. 이러한 공공서비스에서 AI는 지역별 예측을 비교하고 정책 검토근거를 기록하는 정보 기반으로 기능한다.",
+      "reason": "중복 공백 정리.",
+      "replacements": [
+        {
+          "old": "발표된  3대",
+          "new": "발표된 3대"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "before": "모형 설명서(Model Cards)는 모형의 용도와 집단·조건별 성능을[39], 데이터 설명서(Datasheets for Datasets)는 자료의 구성·수집·관리 과정을[29], 서비스 명세서(FactSheets)는 AI 서비스의 성능·안전성·출처를 문서화한다[20]. 내부 알고리즘 감사는 개발 전 과정의 판단과 근거를 조직 차원에서 검토하는 체계를 제시한다[45]. 검토 가능성(reviewability) 연구는 개별 결정 전후의 기술적·조직적 절차와 맥락에 맞는 기록을 연결한다[55]. 자료출처 표준 PROV는 자료·활동·책임 주체의 관계와 생성·사용 이력을 표현하며[56], 이력의 일관성을 확인하는 제약조건도 제시한다[57]. 따라서 기록의 연결과 일관성 확인은 기존 연구와 표준에서 확립된 설계 기반으로 보아야 한다.",
+      "after": "모형 설명서(Model Cards)는 모형의 용도와 집단·조건별 성능을[39], 데이터 설명서(Datasheets for Datasets)는 자료의 구성·수집·관리 과정을[29], 서비스 명세서(FactSheets)는 AI 서비스의 성능·안전성·출처를 문서화한다[20]. 내부 알고리즘 감사는 개발 전 과정의 판단과 근거를 조직 차원에서 검토하는 체계를 제시한다[45]. 검토 가능성(reviewability) 연구는 개별 결정 전후의 기술적·조직적 절차와 맥락에 맞는 기록을 연결한다[55]. 자료출처 이력(provenance, PROV) 표준은 자료·활동·책임 주체의 관계와 생성·사용 이력을 표현하며[56], 이력의 일관성을 확인하는 제약조건도 제시한다[57]. 따라서 기록의 연결과 일관성 확인은 기존 연구와 표준에서 확립된 설계 기반으로 보아야 한다.",
+      "reason": "PROV를 provenance의 표준 명칭으로 소개; W3C PROV 문서에서 provenance (PROV) 용례 확인.",
+      "replacements": [
+        {
+          "old": "자료출처 표준 PROV는",
+          "new": "자료출처 이력(provenance, PROV) 표준은"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "before": "주분석에는 KOSIS의 시도/산업별 취업자(통계표 ID: DT_1ES3B05J) 중 2013~2025년 상반기 자료를 사용하였다[4,5]. 제11차 한국표준산업분류(Korean Standard Industrial Classification, 11th revision, KSIC11)의 21개 대분류를 10개 산업군으로 통합하고, 시도별 공식 취업자 총계를 분모로 산업별 고용비중을 산출하였다. 천 명 단위를 명 단위로 환산하고 ‘-’는 결측값으로 처리하였으며, 구성 대분류의 값이 모두 확보된 경우에만 산업군별 합계를 산출하였다. 확보본의 통계표 주석은 제11차 분류의 2013년 상반기 이후 소급반영을 명시하며, 분석에는 해당 개정계열을 사용하였다[5].",
+      "after": "주분석에는 KOSIS의 시도/산업별 취업자(통계표 식별자: DT_1ES3B05J) 중 2013~2025년 상반기 자료를 사용하였다[4,5]. 제11차 한국표준산업분류(Korean Standard Industrial Classification, 11th revision, KSIC11)의 21개 대분류를 10개 산업군으로 통합하고, 시도별 공식 취업자 총계를 분모로 산업별 고용비중을 산출하였다. 천 명 단위를 명 단위로 환산하고 ‘-’는 결측값으로 처리하였으며, 구성 대분류의 값이 모두 확보된 경우에만 산업군별 합계를 산출하였다. 확보본의 통계표 주석은 제11차 분류의 2013년 상반기 이후 소급반영을 명시하며, 분석에는 해당 개정계열을 사용하였다[5].",
+      "reason": "불필요한 ID 약어를 한글 용어로 치환; 통계표 코드 자체는 보존.",
+      "replacements": [
+        {
+          "old": "통계표 ID:",
+          "new": "통계표 식별자:"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "before": "동일 기준 주분석에서는 군위군의 대구 편입을 고려하여 2023년 상반기와 2024년 상반기 간 전환을 포함하는 대구·경북 관측치를 보수적으로 제외하였다[13,14]. 충남은 확보한 개정계열에서 세종시 값이 처음 제공되는 2017년을 경계 점검 대상으로 설정하였다. 2016~2017년 상반기 간 지역경계의 연속성이 미확인 상태인 점을 고려하여 해당 전환과 관련된 관측치를 제외하였다[3,5,6]. 경제활동인구조사의 충남·세종 분리 공표 이력[12]은 별도 통계에 관한 참고자료로 활용하였다.",
+      "after": "동일 기준 주분석에서는 군위군의 대구 편입을 고려하여 2023년 상반기와 2024년 상반기 간 전환을 포함하는 대구·경북 관측치를 보수적으로 제외하였다[13,14]. 충남은 확보한 개정계열에서 세종시 값이 처음 제공되는 2017년을 경계 점검 대상으로 설정하였다. 2016~2017년 상반기 간 지역경계의 연속성이 미확인 상태인 점을 고려하여 해당 전환과 관련된 관측치를 제외하였다[3,5]. 경제활동인구조사의 충남·세종 분리 공표 이력[12]은 별도 통계에 관한 참고자료로 활용하였다.",
+      "reason": "보존기간이 2022~2024인 제10차 표[6]를 2016~2017 경계 논거에서 제외.",
+      "replacements": [
+        {
+          "old": "[3,5,6].",
+          "new": "[3,5]."
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "before": "확보한 자료는 제11차 산업분류를 소급 적용한 2013~2024년 상반기 계열이다[4,5,6]. 2025년 상반기 보도자료에 제시된 당시 소급 범위는 2017~2024년이며, 신분류 결과의 공표는 2024년 하반기부터 이루어졌다[3]. 자료 작성방식의 연결 구간에 대한 민감도를 확인하기 위해 2025년을 제외한 결과를 추가 산출하였다.",
+      "after": "확보한 자료는 제11차 산업분류를 소급 적용한 2013~2024년 상반기 계열이다[4,5]. 2025년 상반기 보도자료에 제시된 당시 소급 범위는 2017~2024년이며, 신분류 결과의 공표는 2024년 하반기부터 이루어졌다[3]. 자료 작성방식의 연결 구간에 대한 민감도를 확인하기 위해 2025년을 제외한 결과를 추가 산출하였다.",
+      "reason": "제11차 분류 소급 계열 근거에서 제10차 표[6]를 제외. 공식2024자료[4]와 실제주분석표[5]가 직접근거.",
+      "replacements": [
+        {
+          "old": "계열이다[4,5,6].",
+          "new": "계열이다[4,5]."
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "before": "최초 후보군은 기준모형 6개와 학습모형 14개 설정으로 구성하였다. 기준모형은 수준 유지(no-change benchmark), 최근 변동 지속, 산업별 과거평균, 전체 과거평균, 전체 과거중앙값 및 가용 시도의 산업별 합산 고용에 대한 직전기 로그변동이다. 수준 유지의 로그변동 예측값은 0이며, 최근 변동 지속은 직전 변동을 그대로 적용한다. 학습모형은 계수의 크기를 규제하는 릿지 회귀모형(ridge regression)[32], 여러 나무의 예측을 결합하는 랜덤포레스트(random forest, RF)[21], 입력을 구간화하여 나무를 순차적으로 적합하는 히스토그램 기반 그래디언트 부스팅(histogram-based gradient boosting, HGB)[28] 및 큰 잔차의 영향을 완화하는 후버 회귀모형(Huber regression)[33]이다. HGB와 후버는 scikit-learn의 해당 회귀 알고리즘으로 구현하였다[47,48].",
+      "after": "최초 후보군은 기준모형 6개와 학습모형 14개 설정으로 구성하였다. 기준모형은 수준 유지(no-change benchmark), 최근 변동 지속, 산업별 과거평균, 전체 과거평균, 전체 과거중앙값 및 가용 시도의 산업별 합산 고용에 대한 직전기 로그변동이다. 수준 유지의 로그변동 예측값은 0이며, 최근 변동 지속은 직전 변동을 그대로 적용한다. 학습모형은 계수의 크기를 규제하는 릿지 회귀모형(ridge regression)[32], 여러 나무의 예측을 결합하는 랜덤포레스트(random forest, RF)[21], 입력을 구간화하여 나무를 순차적으로 적합하는 히스토그램 기반 그래디언트 부스팅(histogram-based gradient boosting, HGB)[28,47] 및 큰 잔차의 영향을 완화하는 후버 회귀모형(Huber regression)[33]이다. HGB와 후버는 scikit-learn의 해당 회귀 알고리즘으로 구현하였다[47,48].",
+      "reason": "히스토그램 구간화는 Friedman 일반 GB논문[28]뿐 아니라 실제구현문서[47]가 직접 근거.",
+      "replacements": [
+        {
+          "old": "histogram-based gradient boosting, HGB)[28]",
+          "new": "histogram-based gradient boosting, HGB)[28,47]"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "before": "확장 후보군에는 최초 20개 설정에 XGBoost·CatBoost·LightGBM 각 4개를 더한 32개, 여기에 AR(1) 계열 6개를 더한 38개를 포함하였다[50,51,52]. 고정분할과 학습기간 확장 방식(expanding-window evaluation)의 시간순 평가에서 전체 20·32·38개 선택, 학습모형군 내부 선택 및 AR(1)을 포함한 강화 기준후보 12개 선택을 비교하였다. 모든 선정은 평가연도 이전의 비가중 검증 MAE에 따랐다.",
+      "after": "확장 후보군에는 최초 20개 설정에 익스트림 그래디언트 부스팅(Extreme Gradient Boosting, XGBoost), CatBoost 및 경량 그래디언트 부스팅 머신(Light Gradient Boosting Machine, LightGBM)을 각각 4개씩 더한 32개, 여기에 AR(1) 계열 6개를 더한 38개를 포함하였다[50,51,52]. 고정분할과 학습기간 확장 방식(expanding-window evaluation)의 시간순 평가에서 전체 20·32·38개 선택, 학습모형군 내부 선택 및 AR(1)을 포함한 강화 기준후보 12개 선택을 비교하였다. 모든 선정은 평가연도 이전의 비가중 검증 MAE에 따랐다.",
+      "reason": "XGBoost와 LightGBM의 공식 확장명을 첫 사용에서 정의. CatBoost는 소프트웨어 고유명으로 보존.",
+      "replacements": [
+        {
+          "old": "XGBoost·CatBoost·LightGBM 각 4개를 더한 32개",
+          "new": "익스트림 그래디언트 부스팅(Extreme Gradient Boosting, XGBoost), CatBoost 및 경량 그래디언트 부스팅 머신(Light Gradient Boosting Machine, LightGBM)을 각각 4개씩 더한 32개"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "before": "주 평가지표인 MAE는 관측치별 절대 예측오차를 동일한 가중치로 평균한 값이다. 보조지표로 제곱오차에 민감한 제곱근평균제곱오차(root mean squared error, RMSE)와 기준시점 취업자 수를 가중치로 적용한 고용가중 MAE(employment-weighted MAE, wMAE)를 산출하였다. MAE와 wMAE의 산식은 각각 식 (2)와 식 (3)과 같다.",
+      "after": "주 평가지표인 MAE는 관측치별 절대 예측오차를 동일한 가중치로 평균한 값이다. 보조지표로 제곱오차에 민감한 제곱근평균제곱오차(root mean squared error, RMSE)와 기준시점 취업자 수를 가중치로 적용한 고용가중 MAE(employment-weighted mean absolute error, wMAE)를 산출하였다. MAE와 wMAE의 산식은 각각 식 (2)와 식 (3)과 같다.",
+      "reason": "wMAE의 첫 사용에서 구성 약어까지 풀어 씀.",
+      "replacements": [
+        {
+          "old": "employment-weighted MAE, wMAE",
+          "new": "employment-weighted mean absolute error, wMAE"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "before": "추가 고정 예측 비교에서는 동일 시도 추출을 공유한 10,000회 부트스트랩으로 개별 구간과 최대 절대 표준화 편차에 따른 동시구간을 산출하였다. 비교군은 릿지·AR(1)·절편 축소·G2·G3의 5개 비교, 확장 고정분할의 9개 모형군 및 학습기간 확장 평가의 16개 전략·모형군으로 구분하였으며, MAE와 wMAE도 따로 보정하였다. 동시구간의 산출 방식과 고정분할 결과는 부록 D.2에 제시하였다. 사전에 허용 손실폭을 정한 동등성·비열등성 검정은 수행하지 않았으므로, 0을 포함한 구간은 오차 차이의 불확실성을 나타낸다.",
+      "after": "추가 고정 예측 비교에서는 동일 시도 추출을 공유한 10,000회 부트스트랩으로 개별 구간과 최대 절대 표준화 편차에 따른 동시구간을 산출하였다. 비교군은 릿지·AR(1)·절편 축소 및 3.6절에서 정의한 예측값 대체 규칙 G2·G3의 5개 비교, 확장 고정분할의 9개 모형군 및 학습기간 확장 평가의 16개 전략·모형군으로 구분하였으며, MAE와 wMAE도 따로 보정하였다. 동시구간의 산출 방식과 고정분할 결과는 부록 D.2에 제시하였다. 사전에 허용 손실폭을 정한 동등성·비열등성 검정은 수행하지 않았으므로, 0을 포함한 구간은 오차 차이의 불확실성을 나타낸다.",
+      "reason": "G2·G3는 약어가 아닌 연구 내 규칙 식별자이며 처음 등장할 때 정의 위치를 안내.",
+      "replacements": [
+        {
+          "old": "릿지·AR(1)·절편 축소·G2·G3의 5개 비교",
+          "new": "릿지·AR(1)·절편 축소 및 3.6절에서 정의한 예측값 대체 규칙 G2·G3의 5개 비교"
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "before": "외부자료는 statsmodels가 제공하는 미국 거시경제 데이터셋(macrodata)의 실질 국내총생산(realgdp), 실질 개인소비지출(realcons), 실질 민간국내총투자(realinv) 계열이다[61]. 1959년 1분기~2009년 3분기의 203개 분기에서 전분기 대비 로그변화율을 계산하고, 학습 1989년까지, 검증 1990~1999년, 평가 2000년 1분기~2009년 3분기로 구분하였다. AR(1)과 정규화한 두 시차를 사용하는 릿지(α=1)를 고정하여 3개 계열·39개 평가분기·2개 모형의 예측 234개를 생성하였다. 이를 지역고용 예측 272개와 함께 평가하였으며, 공통 검사 코드는 두 자료에 동일하게 적용하였다. 전처리·기간 분할·참조자료 구성과 해시는 부록 G에 제시하였다.",
+      "after": "외부자료는 statsmodels가 제공하는 미국 거시경제 데이터셋(macrodata)의 실질 국내총생산(real gross domestic product, real GDP; 변수명 realgdp), 실질 개인소비지출(realcons), 실질 민간국내총투자(realinv) 계열이다[61]. 1959년 1분기~2009년 3분기의 203개 분기에서 전분기 대비 로그변화율을 계산하고, 학습 1989년까지, 검증 1990~1999년, 평가 2000년 1분기~2009년 3분기로 구분하였다. AR(1)과 표준화한 두 시차를 사용하는 릿지(α=1)를 고정하여 3개 계열·39개 평가분기·2개 모형의 예측 234개를 생성하였다. 이를 지역고용 예측 272개와 함께 평가하였으며, 공통 검사 코드는 두 자료에 동일하게 적용하였다. 전처리·기간 분할·참조자료 구성과 해시는 부록 G에 제시하였다.",
+      "reason": "GDP를 본문 첫 관련 용어에서 정의. 실제 전처리와 일치하도록 정규화를 표준화로 구체화.",
+      "replacements": [
+        {
+          "old": "실질 국내총생산(realgdp)",
+          "new": "실질 국내총생산(real gross domestic product, real GDP; 변수명 realgdp)"
+        },
+        {
+          "old": "정규화한 두 시차",
+          "new": "표준화한 두 시차"
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "before": "본 연구의 분석 및 기술평가 공개 기준은 GitHub 저장소(https://github.com/thinkpa81/academic-papers)의 커밋 e125b2791b955483878439664bc73e5b6cbb88a0이다. 이 공개본에는 예측분석, 등록 근거 대조, 공통 검사 요건 비교, 외부자료 적용 및 현장평가 준비 코드가 포함되어 있다. 본 수정본의 재현 기준은 동봉한 261028_v2 패키지이며, 수정된 원고·그림, 출처 보완자료와 요청사항별 검토기록을 추가하였다. 파일별 크기와 SHA-256·SHA-512 해시는 배포목록에 기록하였고, 기존 근거 식별자와 시험자료의 SHA-256은 유지하였다. 공개 커밋과 동봉 수정본의 파일 범위는 패키지 안내에 구분하였다. 현장평가 자료는 실무자 8명·16개 과업·두 표시조건의 계획과 빈 양식이며 실제 사용자 평가 결과가 아니다. 세부 경로는 부록 F·G와 패키지의 실행 안내에 제시하였다.",
+      "after": "본 연구의 분석 및 기술평가 공개 기준은 GitHub 저장소(https://github.com/thinkpa81/academic-papers)의 커밋 e125b2791b955483878439664bc73e5b6cbb88a0이다. 이 공개본에는 예측분석, 등록 근거 대조, 공통 검사 요건 비교, 외부자료 적용 및 현장평가 준비 코드가 포함되어 있다. 본 수정본의 재현 기준은 동봉한 261028_v2 패키지이며, 수정된 원고·그림, 출처 보완자료와 요청사항별 검토기록을 추가하였다. 파일별 크기와 보안 해시 알고리즘(secure hash algorithm, SHA)의 256비트·512비트 해시(SHA-256·SHA-512)는 배포목록에 기록하였고, 기존 근거 식별자와 시험자료의 SHA-256은 유지하였다. 공개 커밋과 동봉 수정본의 파일 범위는 패키지 안내에 구분하였다. 현장평가 자료는 실무자 8명·16개 과업·두 표시조건의 계획과 빈 양식이며 실제 사용자 평가 결과가 아니다. 세부 경로는 부록 F·G와 패키지의 실행 안내에 제시하였다.",
+      "reason": "SHA 첫 사용 확장. GitHub commit/261028_v3 경로 갱신은 부모 작업과 병합해야 함.",
+      "replacements": [
+        {
+          "old": "파일별 크기와 SHA-256·SHA-512 해시는",
+          "new": "파일별 크기와 보안 해시 알고리즘(secure hash algorithm, SHA)의 256비트·512비트 해시(SHA-256·SHA-512)는"
+        }
+      ]
+    },
+    {
+      "index": 323,
+      "before": "OECD 원계열 보완분석에는 2026년 9월 17일 확보한 OECD의 Employment by main economic activity - Regions와 Labour statistics - Regions에서 한국의 제3수준 지역(territorial level 3, TL3) 자료를 사용하였다[41,42]. 취업자 수 자료는 2008~2023년을 포함하며, 최종 표본은 2,120개 관측치이다. 훈련자료는 2011~2017년 1,120개, 검증자료는 2018~2020년 490개, 평가자료는 2021~2023년 510개로 구분하였다. 구분류 기준의 KOSIS 통계표(DT_1ES3B05S)와 대조한 결과, OECD의 2022년 값은 KOSIS의 2022년 하반기 값과, 2023년 값은 2023년 상반기 값과 각각 일치하였다. 일치한 수치 셀은 각각 177개와 176개이며, 명 단위로 환산하여 비교하였다. 따라서 해당 배포본을 이용할 때에는 연도 표기와 실제 조사시점을 구분하여 관측간격을 확인할 필요가 있다.",
+      "after": "OECD 원계열 보완분석에는 2026년 9월 17일 확보한 OECD의 Employment by main economic activity - Regions와 Labour statistics - Regions에서 한국의 제3수준 지역(territorial level 3, TL3) 자료를 사용하였다[41,42]. 취업자 수 자료는 2008~2023년을 포함하며, 최종 표본은 2,120개 관측치이다. 훈련자료는 2011~2017년 1,120개, 검증자료는 2018~2020년 490개, 평가자료는 2021~2023년 510개로 구분하였다. 구분류 기준의 KOSIS 통계표(DT_1ES3B05S)[6]와 대조한 결과, OECD의 2022년 값은 KOSIS의 2022년 하반기 값과, 2023년 값은 2023년 상반기 값과 각각 일치하였다. 일치한 수치 셀은 각각 177개와 176개이며, 명 단위로 환산하여 비교하였다. 따라서 해당 배포본을 이용할 때에는 연도 표기와 실제 조사시점을 구분하여 관측간격을 확인할 필요가 있다.",
+      "reason": "[6]의 실제 보존기간에 맞는 2022·2023 반기 대조 문장에 직접 인용 추가.",
+      "replacements": [
+        {
+          "old": "구분류 기준의 KOSIS 통계표(DT_1ES3B05S)와 대조한 결과",
+          "new": "구분류 기준의 KOSIS 통계표(DT_1ES3B05S)[6]와 대조한 결과"
+        }
+      ]
+    },
+    {
+      "index": 354,
+      "before": "주: 후보는 시도 17개×산업 10개×결과연도 10개이다. 결측 등은 필수 고용값의 결측·비양수 및 입력 요건, 경계는 지역경계 요건만 충족하지 못한 경우이다. 세 제외사유는 상호배타적이다. 단계별 포함·제외 비교와 산업·시도별 전체 분포는 CSV에 수록하였다.",
+      "after": "주: 후보는 시도 17개×산업 10개×결과연도 10개이다. 결측 등은 필수 고용값의 결측·비양수 및 입력 요건, 경계는 지역경계 요건만 충족하지 못한 경우이다. 세 제외사유는 상호배타적이다. 단계별 포함·제외 비교와 산업·시도별 전체 분포는 쉼표 구분 값(comma-separated values, CSV) 형식의 파일에 수록하였다.",
+      "reason": "CSV를 본문·부록 첫 일반 텍스트 사용에서 정의; .csv 파일확장자는 고유경로라 별도확장하지 않음.",
+      "replacements": [
+        {
+          "old": "분포는 CSV에 수록하였다.",
+          "new": "분포는 쉼표 구분 값(comma-separated values, CSV) 형식의 파일에 수록하였다."
+        }
+      ]
+    },
+    {
+      "index": 368,
+      "before": "HGB는 학습률 0.05와 반복 200회를 사용하였다. 추가 부스팅의 공통 설정은 반복 200회, 학습률 0.05, 난수시드 20261025 및 CPU 1스레드이다. 실행환경은 XGBoost 3.4.1, CatBoost 1.2.10, LightGBM 4.7.0과 scikit-learn 1.8.0이며, 설정한 반복횟수를 모두 실행하고 검증 MAE로 설정을 선택하였다. 미지정 옵션은 해당 버전의 기본값으로 고정하였다. CatBoost의 범주 처리 방식을 포함한 전체 파이프라인의 비교 결과로 해석하였다.",
+      "after": "HGB는 학습률 0.05와 반복 200회를 사용하였다. 추가 부스팅의 공통 설정은 반복 200회, 학습률 0.05, 난수시드 20261025 및 중앙처리장치(central processing unit, CPU) 1스레드이다. 실행환경은 XGBoost 3.4.1, CatBoost 1.2.10, LightGBM 4.7.0과 scikit-learn 1.8.0이며, 설정한 반복횟수를 모두 실행하고 검증 MAE로 설정을 선택하였다. 미지정 옵션은 해당 버전의 기본값으로 고정하였다. CatBoost의 범주 처리 방식을 포함한 전체 파이프라인의 비교 결과로 해석하였다.",
+      "reason": "CPU의 첫 사용 정의.",
+      "replacements": [
+        {
+          "old": "CPU 1스레드",
+          "new": "중앙처리장치(central processing unit, CPU) 1스레드"
+        }
+      ]
+    },
+    {
+      "index": 383,
+      "before": "미국 자료는 statsmodels 저장소의 macrodata.csv이며, 저장소 판본 d07a39609cdf57b6898bb9adb87e7821904482aa에서 원문 바이트를 확보하였다. 제공 문서에는 편집자인 Skipper Seabold가 FRED와 미국 노동통계국(BLS)의 자료에 2009년 12월 15일 접근한 것으로 기재되어 있다[61]. 본 연구에서 사용한 realgdp, realcons, realinv는 각각 실질 국내총생산, 실질 개인소비지출, 실질 민간국내총투자로, 모두 계절조정된 연율 수준계열이다(2005년 연쇄가격, 십억 달러). 각 수준계열의 전분기 대비 비율에 100×자연로그를 적용하여 변화율을 산출하였으며, 변환된 목표값의 시간단위는 분기로 유지하였다. 과거 최초 공표판본의 이용 가능성은 확인되지 않아 이 자료를 과거기간 예측평가와 기술시험 입력 구성에 사용하였다.",
+      "after": "미국 자료는 statsmodels 저장소의 macrodata.csv이며, 저장소 판본 d07a39609cdf57b6898bb9adb87e7821904482aa에서 원문 바이트를 확보하였다. 제공 문서에는 편집자인 Skipper Seabold가 세인트루이스 연방준비은행의 경제자료(Federal Reserve Economic Data, FRED)와 미국 노동통계국(Bureau of Labor Statistics, BLS)의 자료에 2009년 12월 15일 접근한 것으로 기재되어 있다[61]. 본 연구에서 사용한 realgdp, realcons, realinv는 각각 실질 국내총생산, 실질 개인소비지출, 실질 민간국내총투자로, 모두 계절조정된 연율 수준계열이다(2005년 연쇄가격, 십억 달러). 각 수준계열의 전분기 대비 비율에 100×자연로그를 적용하여 변화율을 산출하였으며, 변환된 목표값의 시간단위는 분기로 유지하였다. 과거 최초 공표판본의 이용 가능성은 확인되지 않아 이 자료를 과거기간 예측평가와 기술시험 입력 구성에 사용하였다.",
+      "reason": "FRED·BLS의 첫 사용 정의. 자료 제공자 접근일은 연구자 취득일과 구분한 기존 표현 보존.",
+      "replacements": [
+        {
+          "old": "FRED와 미국 노동통계국(BLS)의 자료",
+          "new": "세인트루이스 연방준비은행의 경제자료(Federal Reserve Economic Data, FRED)와 미국 노동통계국(Bureau of Labor Statistics, BLS)의 자료"
+        }
+      ]
+    },
+    {
+      "index": 384,
+      "before": "결측이 없는 연속 203개 분기를 확인하고 변화율의 1·2분기 시차를 생성하였다. 두 시차가 확보된 뒤의 학습 표본은 계열별 121개, 검증 40개, 평가 39개였다. 검증 예측의 변환·모형은 1989년까지의 자료에서 적합하였다. 이후 1999년까지의 161개 관측치로 다시 적합하여 2000~2009년 평가 예측을 산출하였고, 평가 구간의 실제 이전 분기값을 입력으로 사용하였다. 계수는 평가 구간 전체에 고정하여 적용하였다. AR(1)은 절편을 포함한 최소제곱법, AR(2)는 표준화한 두 시차와 절편을 포함한 릿지(α=1)를 적용하였다. 두 설정 모두 보존하였으며, 기준예측은 로그변화율 0으로 정하였다.",
+      "after": "결측이 없는 연속 203개 분기를 확인하고 변화율의 1·2분기 시차를 생성하였다. 두 시차가 확보된 뒤의 학습 표본은 계열별 121개, 검증 40개, 평가 39개였다. 검증 예측의 변환·모형은 1989년까지의 자료에서 적합하였다. 이후 1999년까지의 161개 관측치로 다시 적합하여 2000~2009년 평가 예측을 산출하였고, 평가 구간의 실제 이전 분기값을 입력으로 사용하였다. 계수는 평가 구간 전체에 고정하여 적용하였다. AR(1)은 절편을 포함한 최소제곱법, 2차 자기회귀모형(second-order autoregressive model, AR(2))은 표준화한 두 시차와 절편을 포함한 릿지(α=1)를 적용하였다. 두 설정 모두 보존하였으며, 기준예측은 로그변화율 0으로 정하였다.",
+      "reason": "차수별 모형 기호를 처음 제시하는 위치에서 2차의 의미를 풀어 씀.",
+      "replacements": [
+        {
+          "old": "AR(2)는 표준화한 두 시차",
+          "new": "2차 자기회귀모형(second-order autoregressive model, AR(2))은 표준화한 두 시차"
+        }
+      ]
+    },
+    {
+      "index": 385,
+      "before": "검산에서는 예측 코드의 적합 함수와 분리한 평균 중심화 행렬 계산으로 계수와 예측을 다시 계산하였다. 저장 예측 234개와의 최대 절대차는 4.7×10−14 미만이었다. 평가 MAE는 GDP에서 AR(1) 0.500, 릿지 0.495, 기준 0.664; 소비에서 0.404, 0.379, 0.683; 투자에서 2.819, 2.811, 2.653로그포인트였다. 이 수치는 실제 자료에서 생성한 기술시험 입력의 예측 특성을 확인하는 진단값으로 제시하였다. 원자료·제공 문서·모형·예측·검산 결과를 함께 보존하였다.",
+      "after": "검산에서는 예측 코드의 적합 함수와 분리한 평균 중심화 행렬 계산으로 계수와 예측을 다시 계산하였다. 저장 예측 234개와의 최대 절대차는 4.7×10−14 미만이었다. 평가 MAE는 실질 GDP에서 AR(1) 0.500, 릿지 0.495, 기준 0.664; 소비에서 0.404, 0.379, 0.683; 투자에서 2.819, 2.811, 2.653로그포인트였다. 이 수치는 실제 자료에서 생성한 기술시험 입력의 예측 특성을 확인하는 진단값으로 제시하였다. 원자료·제공 문서·모형·예측·검산 결과를 함께 보존하였다.",
+      "reason": "앞서 정의한 실질 국내총생산 계열과 일치하도록 명칭 유지.",
+      "replacements": [
+        {
+          "old": "평가 MAE는 GDP에서",
+          "new": "평가 MAE는 실질 GDP에서"
+        }
+      ]
+    },
+    {
+      "index": 388,
+      "before": "형식 조건은 JSON Schema Draft 2020-12로 필수 항목·자료형·유한 수치·해시 형식을 검사하였다[60]. Pandera 내부 관계 조건은 여기에 기간·단위·적격성, 편차와 기여도 합계, 검증요약, 요청 식별키 및 기록 해시의 관계를 추가하였다. 등록 대조 조건은 호출자가 관리하는 현재 판본과 참조값의 일치를 추가하였다[59]. 직접 구현에도 같은 요건·참조정보를 제공하였다. Pandera에는 원시 값과 산술 피연산자를 전달하고 직접 구현의 판정값이나 시험 기대값은 전달하지 않았다. 두 구현은 형식 검사·정규화와 일부 수치 비교 함수를 공유하였으며, 비교의 목적은 같은 요건을 공개 도구로 실행할 수 있는지와 참조정보의 역할을 확인하는 데 있다. 수치 관계 및 참조값 비교의 절대허용오차는 10−9, 상대허용오차는 0으로 정하였다.",
+      "after": "형식 조건은 자바스크립트 객체 표기법(JavaScript Object Notation, JSON) 자료를 검증하는 JSON Schema Draft 2020-12로 필수 항목·자료형·유한 수치·해시 형식을 검사하였다[60]. Pandera 내부 관계 조건은 여기에 기간·단위·적격성, 편차와 기여도 합계, 검증요약, 요청 식별키 및 기록 해시의 관계를 추가하였다. 등록 대조 조건은 호출자가 관리하는 현재 판본과 참조값의 일치를 추가하였다[59]. 직접 구현에도 같은 요건·참조정보를 제공하였다. Pandera에는 원시 값과 산술 피연산자를 전달하고 직접 구현의 판정값이나 시험 기대값은 전달하지 않았다. 두 구현은 형식 검사·정규화와 일부 수치 비교 함수를 공유하였으며, 비교의 목적은 같은 요건을 공개 도구로 실행할 수 있는지와 참조정보의 역할을 확인하는 데 있다. 수치 관계 및 참조값 비교의 절대허용오차는 10−9, 상대허용오차는 0으로 정하였다.",
+      "reason": "JSON의 첫 일반 텍스트 사용에서 공식 확장명을 정의; JSON Schema는 명세 고유명으로 보존.",
+      "replacements": [
+        {
+          "old": "형식 조건은 JSON Schema Draft 2020-12로",
+          "new": "형식 조건은 자바스크립트 객체 표기법(JavaScript Object Notation, JSON) 자료를 검증하는 JSON Schema Draft 2020-12로"
+        }
+      ]
+    }
+  ],
+  "cell_replacements": [
+    {
+      "table": 0,
+      "row": 0,
+      "column": 0,
+      "before": "요 약\n본 연구는 지역고용 예측의 자료 사용조건, 모형 비교근거와 현재 검토기록을 예측 단위에서 연결하는 의사결정지원서비스를 설계·평가하였다. 검토가능성을 자료 적격성 확인부터 근거 제시, 검토 완료 및 근거 변경 시 재검토까지의 절차로 구체화하였다. 17개 시도·10개 산업의 상반기 자료에서 2023~2025년 428개 관측치를 평가한 결과, 최초 릿지와 전체 과거평균의 MAE 차이는 −0.106로그포인트였으며 시도 군집 구간은 0을 포함하였다. 관계 검사를 추가하면 명세한 결함 36개 중 차단 수가 16개에서 36개로 늘었고 정상 14개는 모두 수용하였다. 동일 요건·정보의 Pandera 비교와 미국 공개계열 적용에서는 공통 검사 요건의 실행 가능성을 확인하였으며, 참조자료까지 함께 바꾸면 검사를 통과하는 경계도 확인하였다. 공헌은 지역고용 예측의 검토 완료 요건과 적용조건을 실행 가능한 명세로 제시한 데 있다. 실제 담당자의 판단 개선과 업무성과는 후속 현장평가의 대상이다.\nKeywords: 지역고용, 의사결정지원서비스, 설계과학, 검토가능성, 자료 적격성, 예측근거",
+      "after": "요 약\n본 연구는 지역고용 예측의 자료 사용조건, 모형 비교근거와 현재 검토기록을 예측 단위에서 연결하는 의사결정지원서비스를 설계·평가하였다. 검토가능성을 자료 적격성 확인부터 근거 제시, 검토 완료 및 근거 변경 시 재검토까지의 절차로 구체화하였다. 17개 시도·10개 산업의 상반기 자료에서 2023~2025년 428개 관측치를 평가한 결과, 최초 릿지와 전체 과거평균의 평균절대오차(mean absolute error, MAE) 차이는 −0.106로그포인트였으며 시도 군집 구간은 0을 포함하였다. 관계 검사를 추가하면 명세한 결함 36개 중 차단 수가 16개에서 36개로 늘었고 정상 14개는 모두 수용하였다. 동일 요건·정보의 Pandera 비교와 미국 공개계열 적용에서는 공통 검사 요건의 실행 가능성을 확인하였으며, 참조자료까지 함께 바꾸면 검사를 통과하는 경계도 확인하였다. 공헌은 지역고용 예측의 검토 완료 요건과 적용조건을 실행 가능한 명세로 제시한 데 있다. 실제 담당자의 판단 개선과 업무성과는 후속 현장평가의 대상이다.\nKeywords: 지역고용, 의사결정지원서비스, 설계과학, 검토가능성, 자료 적격성, 예측근거",
+      "reason": "국문 요약 MAE 첫 사용 정의. 영문 초록 및 본문에서 각각 독립적으로 다시 정의."
+    }
+  ],
+  "already_defined": [
+    {
+      "term": "AI",
+      "body_paragraph": 12,
+      "full_name": "artificial intelligence"
+    },
+    {
+      "term": "RSC",
+      "body_paragraph": 13,
+      "full_name": "Regional Skills Council"
+    },
+    {
+      "term": "RQ",
+      "body_paragraph": 15,
+      "full_name": "research question"
+    },
+    {
+      "term": "AR(1)",
+      "body_paragraph": 19,
+      "full_name": "first-order autoregressive model"
+    },
+    {
+      "term": "ML",
+      "body_paragraph": 19,
+      "full_name": "machine learning"
+    },
+    {
+      "term": "DSR",
+      "body_paragraph": 32,
+      "full_name": "design science research"
+    },
+    {
+      "term": "DP",
+      "body_paragraph": 32,
+      "full_name": "design principle"
+    },
+    {
+      "term": "KOSIS",
+      "body_paragraph": 47,
+      "full_name": "Korean Statistical Information Service"
+    },
+    {
+      "term": "OECD",
+      "body_paragraph": 47,
+      "full_name": "Organisation for Economic Co-operation and Development"
+    },
+    {
+      "term": "KSIC11",
+      "body_paragraph": 48,
+      "full_name": "Korean Standard Industrial Classification, 11th revision"
+    },
+    {
+      "term": "TL3",
+      "body_paragraph": 52,
+      "full_name": "territorial level 3"
+    },
+    {
+      "term": "RF",
+      "body_paragraph": 62,
+      "full_name": "random forest"
+    },
+    {
+      "term": "HGB",
+      "body_paragraph": 62,
+      "full_name": "histogram-based gradient boosting"
+    },
+    {
+      "term": "MAE",
+      "body_paragraph": 63,
+      "full_name": "mean absolute error"
+    },
+    {
+      "term": "RMSE",
+      "body_paragraph": 69,
+      "full_name": "root mean squared error"
+    },
+    {
+      "term": "MCC",
+      "body_paragraph": 74,
+      "full_name": "Matthews correlation coefficient"
+    },
+    {
+      "term": "RSE",
+      "body_paragraph": 82,
+      "full_name": "relative standard error"
+    },
+    {
+      "term": "MT",
+      "body_paragraph": 101,
+      "full_name": "metamorphic testing"
+    },
+    {
+      "term": "HRD",
+      "body_paragraph": 241,
+      "full_name": "human resource development"
+    }
+  ],
+  "exemptions": [
+    {
+      "terms": [
+        "DT_1ES3B05J",
+        "DT_1ES3B05S"
+      ],
+      "reason": "공식 통계표 식별자이며 임의 확장 금지."
+    },
+    {
+      "terms": [
+        "BTE",
+        "GTI",
+        "M_N",
+        "OTQ",
+        "RTU",
+        "A",
+        "F",
+        "J",
+        "K",
+        "L"
+      ],
+      "reason": "산업 집계코드이며 p49에 범위를 정의. BTE는 B~E 집계 코드이지 영문 머리글자 약어가 아님."
+    },
+    {
+      "terms": [
+        "G2",
+        "G3",
+        "T",
+        "I",
+        "S",
+        "L",
+        "RQ1",
+        "RQ2",
+        "RQ3",
+        "DP1",
+        "DP2",
+        "DP3",
+        "DP4"
+      ],
+      "reason": "연구 내 규칙·요구사항·모듈 식별자로 각각 한국어 의미와 숫자 정의를 보존; 근거 없는 영문 확장명 생성 금지."
+    },
+    {
+      "terms": [
+        "Pandera",
+        "CatBoost",
+        "statsmodels",
+        "scikit-learn",
+        "jsonschema",
+        "GitHub",
+        "Model Cards",
+        "Datasheets for Datasets",
+        "FactSheets"
+      ],
+      "reason": "소프트웨어·방법론 고유명으로 억지 약어 확장 불필요."
+    },
+    {
+      "terms": [
+        ".csv",
+        ".json",
+        ".gz",
+        ".py",
+        ".md",
+        "L₂",
+        "R²",
+        "n",
+        "Y"
+      ],
+      "reason": "파일확장자·코드·수학기호는 표준 표현 보존. 일반문장에 나타난 CSV/JSON은 따로 정의."
+    },
+    {
+      "terms": [
+        "IS",
+        "MASE",
+        "RP",
+        "UUID",
+        "API"
+      ],
+      "reason": "일반 본문에서 발견되지 않음. 참고문헌의 공식 제목·URL 안의 API는 서지정보이므로 변형하지 않음."
+    },
+    {
+      "terms": [
+        "PDF"
+      ],
+      "reason": "참고문헌[15]에서 풀네임을 이미 병기. 일반 본문에 미사용."
+    }
+  ],
+  "citation_matching": {
+    "reference_count": 61,
+    "all_references_cited": true,
+    "out_of_range_citations": [],
+    "usage_file": "v3/evidence/citation_usage_v2.json",
+    "notes": "본문·표·부록에서 [n]·[n,m]·[n-m]/[n–m]를 확장해 대조. 개별 인용의 실질 지지는 참고문헌 담당의 검증결과와 함께 판단."
+  },
+  "additional_claim_review": [
+    {
+      "topic": "실제 사용자 효과",
+      "status": "appropriately_bounded",
+      "evidence": "p7,111,237,250,253,380이 계획/합성자료/참여자0임을 명시; 판단 개선·업무성과를 실증했다고 주장하지 않음."
+    },
+    {
+      "topic": "모형 우월성",
+      "status": "appropriately_bounded",
+      "evidence": "p119,120,193,194,245,249에서 0 포함 구간, 후보군·선정전략 의존성, 사후탐색임을 명시."
+    },
+    {
+      "topic": "실시간 예측",
+      "status": "appropriately_bounded",
+      "evidence": "p55,248,252에서 개정자료의 과거기간 평가와 당시에 가용했던 자료 검증을 구분."
+    },
+    {
+      "topic": "외부 검증 독립성",
+      "status": "appropriately_bounded",
+      "evidence": "p109,250,392에서 내부 형성평가·공유 코드·외부사전등록 아님을 명시."
+    },
+    {
+      "topic": "분석 수치 진위",
+      "status": "requires_empirical_audit",
+      "evidence": "문체·내적일관성 검토만으로 전체 수치의 진위를 확정하지 않음. 별도 원자료·코드 재실행 결과와 결합 필요."
+    },
+    {
+      "topic": "실행환경 버전·SHA·커밋",
+      "status": "requires_parent_update",
+      "evidence": "p63,107,111,368,380,392의 버전·공개범위·커밋 표현은 실제 v3 실행·업로드 결과에 맞춰 최종 갱신 필요."
+    },
+    {
+      "topic": "익명 심사",
+      "status": "preserve_blind_review",
+      "evidence": "p4 Author(s): Withheld for anonymous review. 학회 양식 분석 결과에 맞추되 실제 저자·소속을 임의 생성하지 않음."
+    }
+  ],
+  "unicode_dash_counts": {
+    "−": 115,
+    "–": 52,
+    "—": 5
+  },
+  "dash_notes": [
+    "음수·뺄셈의 U+2212 및 위첨자 음수는 사용자 지시에 따라 ASCII 하이픈으로 치환하되 Word 위첨자 속성 보존.",
+    "숫자범위 en dash, 용어 연결 en dash, 인용범위 en dash, 미산출 em dash는 용도가 다르므로 변환 시 문맥 확인.",
+    "원문 서지 제목·URL·파일식별자를 임의 손상시키지 않음. 필요하면 범위를 ~로, 미산출은 자료 없음으로 명확히 구분."
+  ],
+  "sources": [
+    {
+      "term": "PROV",
+      "url": "https://www.w3.org/TR/prov-sem/prov-sem.pdf",
+      "web_ref": "turn50search51",
+      "evidence": "provenance (PROV) family of specifications"
+    },
+    {
+      "term": "PROV",
+      "url": "https://www.w3.org/TR/prov-overview/",
+      "web_ref": "turn50search0"
+    },
+    {
+      "term": "XGBoost",
+      "url": "https://xgboost.readthedocs.io/_/downloads/en/stable/pdf/",
+      "web_ref": "turn50search52",
+      "evidence": "XGBoost stands for Extreme Gradient Boosting"
+    },
+    {
+      "term": "LightGBM",
+      "url": "https://lightgbm.readthedocs.io/en/latest/R/index.html",
+      "web_ref": "turn50search20",
+      "evidence": "Light Gradient Boosting Machine"
+    },
+    {
+      "term": "SHA",
+      "url": "https://csrc.nist.gov/files/pubs/fips/180-4/final/docs/fips180-4.pdf",
+      "web_ref": "turn50search48"
+    },
+    {
+      "term": "FRED",
+      "url": "https://www.stlouisfed.org/dialogue-with-the-fed/about-fred-federal-reserve-economic-data",
+      "web_ref": "turn61search21",
+      "evidence": "Short for Federal Reserve Economic Data"
+    },
+    {
+      "term": "BLS",
+      "url": "https://www.bls.gov/about-bls/home.htm",
+      "web_ref": "turn61search23",
+      "evidence": "Bureau of Labor Statistics (BLS)"
+    },
+    {
+      "term": "JSON",
+      "url": "https://www.rfc-editor.org/rfc/rfc8259.html",
+      "web_ref": "turn61search0",
+      "evidence": "JavaScript Object Notation (JSON)"
+    },
+    {
+      "term": "CSV",
+      "url": "https://www.rfc-editor.org/rfc/rfc4180.html",
+      "web_ref": "turn61search2",
+      "evidence": "Comma-Separated Values (CSV)"
+    }
+  ]
+}

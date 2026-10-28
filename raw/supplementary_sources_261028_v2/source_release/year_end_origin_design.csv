@@ -1,0 +1,13 @@
+﻿input_year,design_forecast_origin,target_year,input_report_release,reference_change,observation_horizon_days_to_target_week_start,observation_horizon_days_to_target_week_end,result_release_date,days_until_target_report_release,real_time_vintage_gate
+2013,2013-12-31,2014,2013-10-30,April t to April t+1: approximately 12 months,103,109,2014-10-30,303,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2014,2014-12-31,2015,2014-10-30,April t to April t+1: approximately 12 months,102,108,2015-10-28,301,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2015,2015-12-31,2016,2015-10-28,April t to April t+1: approximately 12 months,101,107,2016-10-26,300,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2016,2016-12-31,2017,2016-10-26,April t to April t+1: approximately 12 months,99,105,2017-10-24,297,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2017,2017-12-31,2018,2017-10-24,April t to April t+1: approximately 12 months,105,111,2018-10-23,296,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2018,2018-12-31,2019,2018-10-23,April t to April t+1: approximately 12 months,104,110,2019-10-22,295,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2019,2019-12-31,2020,2019-10-22,April t to April t+1: approximately 12 months,103,109,2020-10-20,294,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2020,2020-12-31,2021,2020-10-20,April t to April t+1: approximately 12 months,101,107,2021-10-19,292,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2021,2021-12-31,2022,2021-10-19,April t to April t+1: approximately 12 months,100,106,2022-10-18,291,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2022,2022-12-31,2023,2022-10-18,April t to April t+1: approximately 12 months,99,105,2023-10-17,290,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2023,2023-12-31,2024,2023-10-17,April t to April t+1: approximately 12 months,105,111,2024-10-08,282,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin
+2024,2024-12-31,2025,2024-10-08,April t to April t+1: approximately 12 months,103,109,2025-10-28,301,HOLD: current reclassified/backcast KOSIS vintage is not verified as available at this historical origin

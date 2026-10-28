@@ -1,0 +1,2620 @@
+{
+  "status": "PASS",
+  "checks_passed": 653,
+  "checks": [
+    {
+      "check": "38 candidates",
+      "passed": true
+    },
+    {
+      "check": "unique panel keys",
+      "passed": true
+    },
+    {
+      "check": "panel counts",
+      "passed": true
+    },
+    {
+      "check": "fixed chronological order",
+      "passed": true
+    },
+    {
+      "check": "fixed complete grid",
+      "passed": true
+    },
+    {
+      "check": "fixed validation zero",
+      "passed": true
+    },
+    {
+      "check": "fixed validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "fixed validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "fixed validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "fixed validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "fixed validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "fixed validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "fixed validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "fixed validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "fixed validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "fixed validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "fixed validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "fixed validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "fixed validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "fixed validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "fixed validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "fixed validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation huber",
+      "passed": true
+    },
+    {
+      "check": "fixed validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "fixed validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "fixed validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "fixed validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "fixed validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "fixed validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "fixed validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "fixed validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE all20",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE all32",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE all38",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "fixed prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "fixed MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "fixed wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "fixed all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2020 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2020 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2020 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2020 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2020 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2020 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2020 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2020 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2020 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2020 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2020 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2020 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2020 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2020 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2020 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2020 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2020 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2020 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2020 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2020 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2020 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2020 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2020 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2020 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2020 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2020 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2020 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2020 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2020 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2020 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2020 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2021 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2021 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2021 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2021 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2021 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2021 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2021 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2021 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2021 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2021 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2021 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2021 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2021 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2021 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2021 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2021 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2021 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2021 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2021 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2021 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2021 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2021 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2021 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2021 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2021 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2021 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2021 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2021 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2021 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2021 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2021 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2022 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2022 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2022 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2022 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2022 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2022 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2022 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2022 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2022 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2022 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2022 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2022 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2022 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2022 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2022 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2022 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2022 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2022 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2022 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2022 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2022 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2022 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2022 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2022 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2022 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2022 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2022 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2022 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2022 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2022 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2022 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2023 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2023 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2023 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2023 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2023 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2023 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2023 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2023 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2023 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2023 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2023 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2023 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2023 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2023 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2023 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2023 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2023 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2023 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2023 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2023 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2023 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2023 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2023 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2023 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2023 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2023 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2023 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2023 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2023 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2023 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2023 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2024 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2024 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2024 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2024 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2024 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2024 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2024 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2024 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2024 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2024 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2024 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2024 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2024 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2024 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2024 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2024 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2024 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2024 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2024 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2024 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2024 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2024 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2024 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2024 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2024 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2024 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2024 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2024 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2024 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2024 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2024 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "2025 chronological order",
+      "passed": true
+    },
+    {
+      "check": "2025 complete grid",
+      "passed": true
+    },
+    {
+      "check": "2025 validation zero",
+      "passed": true
+    },
+    {
+      "check": "2025 validation last_growth",
+      "passed": true
+    },
+    {
+      "check": "2025 validation industry_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2025 validation global_past_mean",
+      "passed": true
+    },
+    {
+      "check": "2025 validation global_past_median",
+      "passed": true
+    },
+    {
+      "check": "2025 validation lagged_available_region_industry_growth",
+      "passed": true
+    },
+    {
+      "check": "2025 validation ridge_alpha1",
+      "passed": true
+    },
+    {
+      "check": "2025 validation ridge_alpha10",
+      "passed": true
+    },
+    {
+      "check": "2025 validation ridge_alpha100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation ridge_alpha1000",
+      "passed": true
+    },
+    {
+      "check": "2025 validation ridge_alpha10000",
+      "passed": true
+    },
+    {
+      "check": "2025 validation rf_depth4_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2025 validation rf_depth4_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2025 validation rf_depth8_leaf10",
+      "passed": true
+    },
+    {
+      "check": "2025 validation rf_depth8_leaf25",
+      "passed": true
+    },
+    {
+      "check": "2025 validation hgb_leaves7_l21",
+      "passed": true
+    },
+    {
+      "check": "2025 validation hgb_leaves7_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation hgb_leaves15_l21",
+      "passed": true
+    },
+    {
+      "check": "2025 validation hgb_leaves15_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation huber",
+      "passed": true
+    },
+    {
+      "check": "2025 validation xgboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation xgboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation xgboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation xgboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation catboost_d2_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation catboost_d2_l2100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation catboost_d3_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation catboost_d3_l2100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation lightgbm_l7_l21",
+      "passed": true
+    },
+    {
+      "check": "2025 validation lightgbm_l7_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation lightgbm_l15_l21",
+      "passed": true
+    },
+    {
+      "check": "2025 validation lightgbm_l15_l210",
+      "passed": true
+    },
+    {
+      "check": "2025 validation pooled_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 validation panel_ar1_l1",
+      "passed": true
+    },
+    {
+      "check": "2025 validation panel_ar1_l10",
+      "passed": true
+    },
+    {
+      "check": "2025 validation panel_ar1_l100",
+      "passed": true
+    },
+    {
+      "check": "2025 validation panel_ar1_l1000",
+      "passed": true
+    },
+    {
+      "check": "2025 validation panel_ar1_l10000",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding baseline6",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE baseline6",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding learned14",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE learned14",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding all20",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE all20",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE all20",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding learned26",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE learned26",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding all32",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE all32",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE all32",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE strong_baseline12",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding learned32",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE learned32",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding all38",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE all38",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE all38",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_catboost",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_hist_gradient_boosting",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_huber",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_huber",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_lightgbm",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_panel_ar1",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_random_forest",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_ridge",
+      "passed": true
+    },
+    {
+      "check": "2025 prediction binding family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2025 MAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2025 wMAE family_xgboost",
+      "passed": true
+    },
+    {
+      "check": "2025 all38 validation choice",
+      "passed": true
+    },
+    {
+      "check": "1006 service cases",
+      "passed": true
+    },
+    {
+      "check": "all declared service expectations",
+      "passed": true
+    },
+    {
+      "check": "14 known probes blocked",
+      "passed": true
+    },
+    {
+      "check": "no fabricated observations",
+      "passed": true
+    },
+    {
+      "check": "planned balance",
+      "passed": true
+    },
+    {
+      "check": "one exposure per participant-task",
+      "passed": true
+    }
+  ],
+  "human_participants": 0,
+  "scope": "numeric consistency, recorded validation choices, time ordering, service expectations and empty field records"
+}

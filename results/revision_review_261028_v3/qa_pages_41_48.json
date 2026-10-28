@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "reviewed_utc": "2026-10-28T10:29:02.892652+00:00",
+  "scope": "최종 release 렌더의 41~48쪽 clean/redline 총 16개 PNG를 원래 해상도로 직접 확인",
+  "inspected_pages": {
+    "clean": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "redline": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  "files": [
+    {
+      "variant": "clean",
+      "page": 41,
+      "path": "v3/qa_release_clean/page-41.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "4fa7ef3d6d028fbcb712376dac2e73f61b0202eb736daf6208395e6ac4771605",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 42,
+      "path": "v3/qa_release_clean/page-42.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "2936119ec92f6c53608050b2b19971471e9e3c22e905c02aeb6a80f873e16231",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 43,
+      "path": "v3/qa_release_clean/page-43.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "d654e01f615a18dddd3fc408f306c02ef4b0353ae2733d4a9a78853a3871aee1",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 44,
+      "path": "v3/qa_release_clean/page-44.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "240a3254565c21121e096a0d45d7433df6e94ec6623bb37f3487d11dc0673a1d",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 45,
+      "path": "v3/qa_release_clean/page-45.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "0a323680f48c2f7431f8281d143fbcb2d2f9335d5fe4ea86e7f9dea4221926cb",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 46,
+      "path": "v3/qa_release_clean/page-46.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "72806a4883419dbbc8b5382b33af6b0f51d4a10ae3f9d3dd78ab7e0ded4d91b0",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 47,
+      "path": "v3/qa_release_clean/page-47.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "3d5b461a31b4f42c34667f738a29194b82c209f3ce2f6ad7688c7d96ffe86ef9",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "clean",
+      "page": 48,
+      "path": "v3/qa_release_clean/page-48.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "7055c68f74a25faddc7b77661f1a35e68e159afc1955304f630da4c52dec3408",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 41,
+      "path": "v3/qa_release_redline/page-41.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "c9a2499cb2cecee7759d4af8ebd327a050bad4619dc892f6f108ef9efeef3eb6",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 42,
+      "path": "v3/qa_release_redline/page-42.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "8f56dac8f6dfedc665a425af347d23cbaef6f0a4c34c39c8904b8d38c0fae83c",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 43,
+      "path": "v3/qa_release_redline/page-43.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "47c81a4da1216195d6d03a6b607b71d06017a9b39c5f177edcb871583853a4f8",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 44,
+      "path": "v3/qa_release_redline/page-44.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "240a3254565c21121e096a0d45d7433df6e94ec6623bb37f3487d11dc0673a1d",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 45,
+      "path": "v3/qa_release_redline/page-45.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "51c53b4660eb94c4cb50c408562682c8bc87d2aff53b1b919a9815aee97c14f7",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 46,
+      "path": "v3/qa_release_redline/page-46.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "8ffdc9c8f0b509a7f978a6238b6f9e5aaded653749af3348870ad5dfe4f2533b",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 47,
+      "path": "v3/qa_release_redline/page-47.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "b3b75c24d8fc72c832f07dcad357a01531084ba07c1801b5c43ad8a0a02b5660",
+      "visual_status": "PASS"
+    },
+    {
+      "variant": "redline",
+      "page": 48,
+      "path": "v3/qa_release_redline/page-48.png",
+      "dimensions": [
+        1347,
+        1857
+      ],
+      "sha256": "7055c68f74a25faddc7b77661f1a35e68e159afc1955304f630da4c52dec3408",
+      "visual_status": "PASS"
+    }
+  ],
+  "visual_issues_in_inspected_pages": [],
+  "checks": {
+    "clipping": "PASS",
+    "overlap": "PASS",
+    "missing_font_or_glyph": "PASS",
+    "table_row_breaks": "PASS",
+    "superscript_short_minus": "PASS",
+    "red_marking_readability": "PASS"
+  },
+  "notes": [
+    "부록 B1~D3 표의 모든 열과 행이 여백 안에 있으며 글자가 겹치거나 잘리지 않음.",
+    "45쪽 표 다음 주석 문단이 46쪽으로 정상적으로 이어짐.",
+    "46~47쪽의 10^-9 및 4.7×10^-14 위첨자와 짧은 마이너스가 명확함.",
+    "redline의 수정 문구가 빨간색으로 보이며 본문 및 표 내용이 유지됨.",
+    "기존 중간 렌더 PNG 손상은 최종 release 렌더에서 해소됨. 최신 16개 PNG 모두 이미지 전체 디코딩 성공.",
+    "공개 코드 커밋 40자 식별자는 추후 실제 값으로 바뀔 예정이며 이번 검사 범위 41~48쪽에는 해당 식별자 없음."
+  ],
+  "docx_sha256": {
+    "clean": "3b8614d0918205b618d7eb0471b4c8f52014ea9a2d9e7d9a0935a6f7457ac32c",
+    "redline": "0d43a943c3d70e0158df274238c7561438c72267963609045c17a1c8248175a8"
+  },
+  "pdf_sha256": {
+    "clean": "038c909857aa6f7a7d39159862372b1375b05ef7787f418f1a761765a78b7e92",
+    "redline": "8abf44fbcd2b2699e7fa3052299a08bd3d9198765856fe50d9dabd42490fd3bc"
+  },
+  "independent_redline_text_check": "redline_independent_text_qa.json"
+}

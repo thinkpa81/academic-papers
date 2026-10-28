@@ -1,0 +1,7 @@
+strategy   n  adoption_n  adoption_pct      MAE      RMSE     wMAE  delta_MAE_vs_baseline  delta_MAE_vs_ridge  worse_than_baseline_n  worse_than_baseline_pct
+baseline 428           0      0.000000 9.431387 16.896653 4.935038               0.000000            0.105801                      0                 0.000000
+   ridge 428         428    100.000000 9.325586 16.483064 4.915379              -0.105801            0.000000                    195                45.560748
+      G2 428         236     55.140187 9.363444 16.498717 4.940031              -0.067942            0.037858                    104                24.299065
+      G3 428         233     54.439252 9.360550 16.497286 4.939082              -0.070837            0.034964                    102                23.831776
+Source files unchanged: True
+Report: /workspace/scratch/8ce3ee097fbc/preedit_fallback_retry/local_fallback/local_fallback_report_ko.md

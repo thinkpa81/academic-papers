@@ -1,0 +1,192 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T05:38:28Z",
+      "timestamp": 1793165908769,
+      "version": "4.5.0"
+    },
+    "reference-count": 0,
+    "publisher": "Association for Information Systems",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JAIS"
+    ],
+    "DOI": "10.17705/1jais.00649",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2021-01-13T03:39:23Z",
+      "timestamp": 1610509163000
+    },
+    "page": "1622-1652",
+    "source": "Crossref",
+    "is-referenced-by-count": 260,
+    "title": [
+      "Research Perspectives: The Anatomy of a Design Principle"
+    ],
+    "prefix": "10.17705",
+    "volume": "21",
+    "author": [
+      {
+        "name": "Australian National University, Australia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shirley",
+        "family": "Gregor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leona",
+        "family": "Kruse",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "University of Liechtentsein, Liechtentsein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Seidel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "University of Liechtentsein, Liechtentsein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "7521",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the Association for Information Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1978&context=jais",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2021-01-13T03:39:43Z",
+      "timestamp": 1610509183000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aisel.aisnet.org/jais/vol21/iss6/2/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.17705/1jais.00649",
+    "relation": {},
+    "ISSN": [
+      "1536-9323"
+    ],
+    "issn-type": [
+      {
+        "value": "1536-9323",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          1
+        ]
+      ]
+    }
+  }
+}

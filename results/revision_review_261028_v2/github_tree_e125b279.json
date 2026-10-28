@@ -1,0 +1,4296 @@
+{
+  "sha": "e125b2791b955483878439664bc73e5b6cbb88a0",
+  "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e125b2791b955483878439664bc73e5b6cbb88a0",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997518dea5185ecaf114a6d1f415473923dcb6ee",
+      "size": 87,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/997518dea5185ecaf114a6d1f415473923dcb6ee"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a3bbfb7553b32100fe56373ca22c89a5b4100d2",
+      "size": 285,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6a3bbfb7553b32100fe56373ca22c89a5b4100d2"
+    },
+    {
+      "path": "DATA_SOURCES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f0214eab7aa2c9e43012a745e2acdfed23c425",
+      "size": 4457,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/40f0214eab7aa2c9e43012a745e2acdfed23c425"
+    },
+    {
+      "path": "FONT_LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1277166eb2e0a38c6a487149827c5c3b34d4e2b",
+      "size": 4497,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f1277166eb2e0a38c6a487149827c5c3b34d4e2b"
+    },
+    {
+      "path": "FONT_NOTICE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a6e00fc4b12078aeccc74d6f4073f92db237ec",
+      "size": 513,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/99a6e00fc4b12078aeccc74d6f4073f92db237ec"
+    },
+    {
+      "path": "PAPER_OUTPUT_MAP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04b2976f83db64d3fc02059711c6410af6007014",
+      "size": 3505,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/04b2976f83db64d3fc02059711c6410af6007014"
+    },
+    {
+      "path": "PUBLICATION_NOTES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e61f9a5dd69eb17e173fdeff0ddb847d264d205",
+      "size": 1163,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2e61f9a5dd69eb17e173fdeff0ddb847d264d205"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d30ae23acf23bd6f5ee62d8bb34a70d7db73fc8",
+      "size": 7430,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2d30ae23acf23bd6f5ee62d8bb34a70d7db73fc8"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee450fa0e8f6da863e1bac6f63b704127cdeb440",
+      "size": 5950,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ee450fa0e8f6da863e1bac6f63b704127cdeb440"
+    },
+    {
+      "path": "TRANSFER_EVALUATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e13764c196c5826ca47eddb50e1c14698bb52974",
+      "size": 5526,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e13764c196c5826ca47eddb50e1c14698bb52974"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46b79147f161d49e897ac38ae4328222a67f7319",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/46b79147f161d49e897ac38ae4328222a67f7319"
+    },
+    {
+      "path": "code/analyze_field_study.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc675f2dbf8b0dd83816aea9361f1ea9ecf59837",
+      "size": 146,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bc675f2dbf8b0dd83816aea9361f1ea9ecf59837"
+    },
+    {
+      "path": "code/audit_transfer_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c115818607977dcd7a5ef4e1bba8b855f919ed6",
+      "size": 5367,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3c115818607977dcd7a5ef4e1bba8b855f919ed6"
+    },
+    {
+      "path": "code/collect_field_study.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d413a18ea755613bdf1087acf269156ad3f5f8e",
+      "size": 9399,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1d413a18ea755613bdf1087acf269156ad3f5f8e"
+    },
+    {
+      "path": "code/evidence_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f6a2ea2354cea16abdfb1594362b61acbb57c8",
+      "size": 13046,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/60f6a2ea2354cea16abdfb1594362b61acbb57c8"
+    },
+    {
+      "path": "code/pilot_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cee669a051d5bb20eb3e78656950fdb3bff35b",
+      "size": 5440,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/27cee669a051d5bb20eb3e78656950fdb3bff35b"
+    },
+    {
+      "path": "code/pilot_materials.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92940e1352da3737a1baf6ab1eb0d1d5f80b8496",
+      "size": 6254,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/92940e1352da3737a1baf6ab1eb0d1d5f80b8496"
+    },
+    {
+      "path": "code/prepare_field_study.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567916c8ae9e4f117edb1cf236469034d83cd591",
+      "size": 127,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/567916c8ae9e4f117edb1cf236469034d83cd591"
+    },
+    {
+      "path": "code/redraw_figures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09b4b381dc12df27aa5da59bb769ae177cb1a8f",
+      "size": 13568,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e09b4b381dc12df27aa5da59bb769ae177cb1a8f"
+    },
+    {
+      "path": "code/registered_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab72f6aef3c569d1a1aa2230d147552175b15987",
+      "size": 6027,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ab72f6aef3c569d1a1aa2230d147552175b15987"
+    },
+    {
+      "path": "code/reviewability_figure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41845ae5461e762f1387e9445ad99c2ed7c46c0e",
+      "size": 3259,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/41845ae5461e762f1387e9445ad99c2ed7c46c0e"
+    },
+    {
+      "path": "code/run_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bb3de358b1de544ef71bb7883924a49b129ca0",
+      "size": 4862,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/51bb3de358b1de544ef71bb7883924a49b129ca0"
+    },
+    {
+      "path": "code/run_benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedcdeabd6555dafeff2e7f0b72cc86eb37e8e68",
+      "size": 13431,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bedcdeabd6555dafeff2e7f0b72cc86eb37e8e68"
+    },
+    {
+      "path": "code/run_diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f79216d0c86a6e9fbf28351265233a2ffa1b54",
+      "size": 5714,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/85f79216d0c86a6e9fbf28351265233a2ffa1b54"
+    },
+    {
+      "path": "code/run_registered_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d8f2d1a1b8591a3327922b1b16fc6754538b10",
+      "size": 10378,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/39d8f2d1a1b8591a3327922b1b16fc6754538b10"
+    },
+    {
+      "path": "code/run_transfer_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f8638be67199d2fb47d8a31da1a1ccbce9ca205",
+      "size": 7734,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2f8638be67199d2fb47d8a31da1a1ccbce9ca205"
+    },
+    {
+      "path": "code/transfer_cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6860d4b1412ed0519cdcc66d50bf3ea4ef5943ea",
+      "size": 5155,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6860d4b1412ed0519cdcc66d50bf3ea4ef5943ea"
+    },
+    {
+      "path": "code/transfer_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020358701b330e1631524196e2bdee2fa957ebdb",
+      "size": 9445,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/020358701b330e1631524196e2bdee2fa957ebdb"
+    },
+    {
+      "path": "code/verify_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c450721ebe40c04060dbcdf9f92bc5f743eb93d",
+      "size": 4289,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0c450721ebe40c04060dbcdf9f92bc5f743eb93d"
+    },
+    {
+      "path": "field_study",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd3947f3f99db9cd17d664a9d8eef3ce438e0277",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fd3947f3f99db9cd17d664a9d8eef3ce438e0277"
+    },
+    {
+      "path": "field_study/assessor_answer_key.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ff9568d24b7a6a635353905bfd4d4c80b00ba7",
+      "size": 1829,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/39ff9568d24b7a6a635353905bfd4d4c80b00ba7"
+    },
+    {
+      "path": "field_study/counterbalanced_assignment.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f05e8c100b65246bb456f19d632d1de50ce360",
+      "size": 2213,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/08f05e8c100b65246bb456f19d632d1de50ce360"
+    },
+    {
+      "path": "field_study/preparation_status.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b47573f73ab674dd7f1243eda2162fc82c9ce64",
+      "size": 376,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1b47573f73ab674dd7f1243eda2162fc82c9ce64"
+    },
+    {
+      "path": "field_study/protocol.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e873e40439e1e376914721ab755ce936bcb2d5e",
+      "size": 6984,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0e873e40439e1e376914721ab755ce936bcb2d5e"
+    },
+    {
+      "path": "field_study/ratings_EMPTY.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "848376f6ee912772ce524392d8e4e8dccf3d5b84",
+      "size": 57,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/848376f6ee912772ce524392d8e4e8dccf3d5b84"
+    },
+    {
+      "path": "field_study/responses_EMPTY.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4506c6953c833140e9e25184e846ec996bdadde6",
+      "size": 197,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4506c6953c833140e9e25184e846ec996bdadde6"
+    },
+    {
+      "path": "field_study/task_provenance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12251a33eeb18f9201a979e34bdd81e34e1fdbd7",
+      "size": 4939,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/12251a33eeb18f9201a979e34bdd81e34e1fdbd7"
+    },
+    {
+      "path": "field_study/tasks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3281e7ca816b1ac3b1ba84a03947ed5eb40d1d15",
+      "size": 36142,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3281e7ca816b1ac3b1ba84a03947ed5eb40d1d15"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bc8d7293f266a5370517ff168daa3c1a86425a0",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9bc8d7293f266a5370517ff168daa3c1a86425a0"
+    },
+    {
+      "path": "figures/fig3_validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae2a07a92f4a472d1c55872501a1c429e4a493f",
+      "size": 1239,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/aae2a07a92f4a472d1c55872501a1c429e4a493f"
+    },
+    {
+      "path": "figures/matrix_rendered_cells.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6c8a79eabbd5a822999eae5898bb57cc032e82",
+      "size": 2636,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0d6c8a79eabbd5a822999eae5898bb57cc032e82"
+    },
+    {
+      "path": "figures/paper_figure_01.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c68213ee117a60cf8bf50b17462edfb64612fa91",
+      "size": 60402,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c68213ee117a60cf8bf50b17462edfb64612fa91"
+    },
+    {
+      "path": "figures/paper_figure_01.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839ef968131f77488b0a66d4348bb9906cbc0343",
+      "size": 380527,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/839ef968131f77488b0a66d4348bb9906cbc0343"
+    },
+    {
+      "path": "figures/paper_figure_01.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec25e9c51575c867e0c71e8ee451ab4c2a4af015",
+      "size": 13672,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ec25e9c51575c867e0c71e8ee451ab4c2a4af015"
+    },
+    {
+      "path": "figures/paper_figure_02.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ed72f820fb501baa4ebf64b7ee0800c4cdbb5b",
+      "size": 603571,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/01ed72f820fb501baa4ebf64b7ee0800c4cdbb5b"
+    },
+    {
+      "path": "figures/paper_figure_03.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508766f65ac5ff2c37908f64db36a26bf0d7a5e3",
+      "size": 605007,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/508766f65ac5ff2c37908f64db36a26bf0d7a5e3"
+    },
+    {
+      "path": "figures/paper_figure_A1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b684506756541bcdf793fec16cd532b45e9b56b2",
+      "size": 85311,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b684506756541bcdf793fec16cd532b45e9b56b2"
+    },
+    {
+      "path": "manifest_sha256.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9b4c607a95c0ee59d4f686b3a035485a611940",
+      "size": 79872,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dc9b4c607a95c0ee59d4f686b3a035485a611940"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d0e0eccc732252fa1d2ff68d840044735e9be5d",
+      "size": 98,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6d0e0eccc732252fa1d2ff68d840044735e9be5d"
+    },
+    {
+      "path": "raw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f57bd79aedbfff209376a420d64e8ca95719a8a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/3f57bd79aedbfff209376a420d64e8ca95719a8a"
+    },
+    {
+      "path": "raw/02_oecd_region_industry_year_2008_2023.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e56e18e3e14f1cf7a644b00056ffff88c2a1b8db",
+      "size": 404421,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e56e18e3e14f1cf7a644b00056ffff88c2a1b8db"
+    },
+    {
+      "path": "raw/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447538b983896372e9c333330b8c35c681ac0fbc",
+      "size": 871199,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/447538b983896372e9c333330b8c35c681ac0fbc"
+    },
+    {
+      "path": "raw/oecd_korea_regional_industry_raw.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a69766d6b108f20e1e03a6cf5db99307cd056a",
+      "size": 2305189,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/92a69766d6b108f20e1e03a6cf5db99307cd056a"
+    },
+    {
+      "path": "raw/oecd_korea_regional_labour_raw.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0151aa823ab0e0f8e8a163083043d20007998a4d",
+      "size": 5606448,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0151aa823ab0e0f8e8a163083043d20007998a4d"
+    },
+    {
+      "path": "raw/oecd_source_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c2008009880afabc6f558a19720aa4a1098df2",
+      "size": 7466,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/72c2008009880afabc6f558a19720aa4a1098df2"
+    },
+    {
+      "path": "raw/source_acquisition_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ec26920ba72e4e66379afd379e0e93a2629bf2",
+      "size": 4186,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/55ec26920ba72e4e66379afd379e0e93a2629bf2"
+    },
+    {
+      "path": "raw/table_metadata_and_notes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055f3e5f74bea5eed745eed97464b4e5d15f1633",
+      "size": 865,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/055f3e5f74bea5eed745eed97464b4e5d15f1633"
+    },
+    {
+      "path": "raw/transfer_macrodata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4e2d671533b2ce16a513d752120c6e8f7d9bc24",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e4e2d671533b2ce16a513d752120c6e8f7d9bc24"
+    },
+    {
+      "path": "raw/transfer_macrodata/LICENSE_statsmodels.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625adc84b0d27c3d8d83973386d098291a64536e",
+      "size": 1637,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/625adc84b0d27c3d8d83973386d098291a64536e"
+    },
+    {
+      "path": "raw/transfer_macrodata/macrodata.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25175f7f706edeabe68d9791da0700fb60c93dbe",
+      "size": 17829,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/25175f7f706edeabe68d9791da0700fb60c93dbe"
+    },
+    {
+      "path": "raw/transfer_macrodata/source_description.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf2b90bacda708c8fcf6aa0ca92936ba027f78b",
+      "size": 3207,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cbf2b90bacda708c8fcf6aa0ca92936ba027f78b"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2197b52f36c49f4d40002ca794827d981e7739fc",
+      "size": 228,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2197b52f36c49f4d40002ca794827d981e7739fc"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85653ea08e84d5d072b7d38db41fd3048f21e529",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/85653ea08e84d5d072b7d38db41fd3048f21e529"
+    },
+    {
+      "path": "results/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d22bd383a464f3f38365470076d8422d1034f568",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/d22bd383a464f3f38365470076d8422d1034f568"
+    },
+    {
+      "path": "results/benchmark/2020",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83c32b15eadd0a167f36a80c782eb6ca2dbe96e1",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/83c32b15eadd0a167f36a80c782eb6ca2dbe96e1"
+    },
+    {
+      "path": "results/benchmark/2020/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e94ffcbde7a2cc4cb60aa96e362a1a6bfdfff9",
+      "size": 1665,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/21e94ffcbde7a2cc4cb60aa96e362a1a6bfdfff9"
+    },
+    {
+      "path": "results/benchmark/2020/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96092b54fdecbd8e878d80cabc5c8e48a9c6a3a",
+      "size": 134933,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e96092b54fdecbd8e878d80cabc5c8e48a9c6a3a"
+    },
+    {
+      "path": "results/benchmark/2020/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8538cb1a17654eacdb1d5c55672a17f6ee905bfb",
+      "size": 842,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8538cb1a17654eacdb1d5c55672a17f6ee905bfb"
+    },
+    {
+      "path": "results/benchmark/2020/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da3810821a24bfe68f31ea2722df1974d08443f",
+      "size": 4995,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5da3810821a24bfe68f31ea2722df1974d08443f"
+    },
+    {
+      "path": "results/benchmark/2020/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af01cacbe205e30c37b7c18bac63642c0ff635b",
+      "size": 139735,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3af01cacbe205e30c37b7c18bac63642c0ff635b"
+    },
+    {
+      "path": "results/benchmark/2021",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bf5b6bb01da038be58adbd3fd5dfffbfe1f82db",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/5bf5b6bb01da038be58adbd3fd5dfffbfe1f82db"
+    },
+    {
+      "path": "results/benchmark/2021/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56855ab27f37046b8acdae8f4ab4ea0b753f265f",
+      "size": 1646,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/56855ab27f37046b8acdae8f4ab4ea0b753f265f"
+    },
+    {
+      "path": "results/benchmark/2021/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adfa24ccd44ca4038c64564b6c4342eea52adf08",
+      "size": 130201,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/adfa24ccd44ca4038c64564b6c4342eea52adf08"
+    },
+    {
+      "path": "results/benchmark/2021/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36837bd45a8aac6a8308b592465e934674861fc",
+      "size": 820,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a36837bd45a8aac6a8308b592465e934674861fc"
+    },
+    {
+      "path": "results/benchmark/2021/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f8937899f4560d24629170b712f6454e046ba4d",
+      "size": 4999,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6f8937899f4560d24629170b712f6454e046ba4d"
+    },
+    {
+      "path": "results/benchmark/2021/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45747719fe4c93c2e47cee0239d18a918248a88",
+      "size": 159328,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e45747719fe4c93c2e47cee0239d18a918248a88"
+    },
+    {
+      "path": "results/benchmark/2022",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b678c4840bdd32def87c230dea7f96ec5b40d78d",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/b678c4840bdd32def87c230dea7f96ec5b40d78d"
+    },
+    {
+      "path": "results/benchmark/2022/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c9aa9c19323d85248ca2e7060f032b0d4996b69",
+      "size": 1604,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1c9aa9c19323d85248ca2e7060f032b0d4996b69"
+    },
+    {
+      "path": "results/benchmark/2022/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80636b77b62c54020a789d154131d4fb1f2d696d",
+      "size": 138998,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/80636b77b62c54020a789d154131d4fb1f2d696d"
+    },
+    {
+      "path": "results/benchmark/2022/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd75531908797f1245d0dcca2426399ad8becfc2",
+      "size": 772,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bd75531908797f1245d0dcca2426399ad8becfc2"
+    },
+    {
+      "path": "results/benchmark/2022/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19fe6fe70cd519317d5e09dc4106840978a14ee6",
+      "size": 5001,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/19fe6fe70cd519317d5e09dc4106840978a14ee6"
+    },
+    {
+      "path": "results/benchmark/2022/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01626b7ead7f96f5cc555cf6e893d1d2e8b2e6be",
+      "size": 160556,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/01626b7ead7f96f5cc555cf6e893d1d2e8b2e6be"
+    },
+    {
+      "path": "results/benchmark/2023",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1d34a88258be366c80c0d18a7616f0d76215ffe",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f1d34a88258be366c80c0d18a7616f0d76215ffe"
+    },
+    {
+      "path": "results/benchmark/2023/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c5528bc6c0bd1cdc132de621ed1f8cc27b7cb54",
+      "size": 1773,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8c5528bc6c0bd1cdc132de621ed1f8cc27b7cb54"
+    },
+    {
+      "path": "results/benchmark/2023/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff9bc8e52ba435d85e5e7f475020d5fca3dcb20",
+      "size": 134452,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/eff9bc8e52ba435d85e5e7f475020d5fca3dcb20"
+    },
+    {
+      "path": "results/benchmark/2023/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118f22e91933a30337572943ee507daab2791d67",
+      "size": 947,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/118f22e91933a30337572943ee507daab2791d67"
+    },
+    {
+      "path": "results/benchmark/2023/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1194cfe55236c50ef795ee1e9e0814a59d0586e",
+      "size": 5010,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f1194cfe55236c50ef795ee1e9e0814a59d0586e"
+    },
+    {
+      "path": "results/benchmark/2023/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28d3a5b0c69278c318de48c229c46f1aadc97084",
+      "size": 160586,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/28d3a5b0c69278c318de48c229c46f1aadc97084"
+    },
+    {
+      "path": "results/benchmark/2024",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "547613056fd9a30a5028416ba870467d05606a03",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/547613056fd9a30a5028416ba870467d05606a03"
+    },
+    {
+      "path": "results/benchmark/2024/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa428ea947241cd2fc5c4c3f676481a4f6804446",
+      "size": 1657,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/aa428ea947241cd2fc5c4c3f676481a4f6804446"
+    },
+    {
+      "path": "results/benchmark/2024/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435d3f91d827a13b364e8776a0b92a7ecdba5f77",
+      "size": 121266,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/435d3f91d827a13b364e8776a0b92a7ecdba5f77"
+    },
+    {
+      "path": "results/benchmark/2024/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75261a29034b7b7d5a5d5a0a8c7d41a3f132e52",
+      "size": 831,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b75261a29034b7b7d5a5d5a0a8c7d41a3f132e52"
+    },
+    {
+      "path": "results/benchmark/2024/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be79cea703cb180b8d033c8f94f8c70698c97413",
+      "size": 5004,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/be79cea703cb180b8d033c8f94f8c70698c97413"
+    },
+    {
+      "path": "results/benchmark/2024/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df8e27f5c1f7d92eb9759823eea7c33cb967750",
+      "size": 159406,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8df8e27f5c1f7d92eb9759823eea7c33cb967750"
+    },
+    {
+      "path": "results/benchmark/2025",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed492292d45717ec51210854c73517c3415f6399",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/ed492292d45717ec51210854c73517c3415f6399"
+    },
+    {
+      "path": "results/benchmark/2025/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43d843f7b6bd05d2f3c58b2a13270846144834c",
+      "size": 1657,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c43d843f7b6bd05d2f3c58b2a13270846144834c"
+    },
+    {
+      "path": "results/benchmark/2025/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1ff038b91130a78cad026fe9dbcc15ab1dbd14d",
+      "size": 116722,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b1ff038b91130a78cad026fe9dbcc15ab1dbd14d"
+    },
+    {
+      "path": "results/benchmark/2025/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4facc36c3c1e9484397ccb97f918343c7c9f3ad9",
+      "size": 829,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4facc36c3c1e9484397ccb97f918343c7c9f3ad9"
+    },
+    {
+      "path": "results/benchmark/2025/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9730e73adb9c5b5b79adc17dd063291422f9596f",
+      "size": 5000,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9730e73adb9c5b5b79adc17dd063291422f9596f"
+    },
+    {
+      "path": "results/benchmark/2025/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f12280c6bf0a11e8cfd28ce1cfd6407a507c98e",
+      "size": 140664,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6f12280c6bf0a11e8cfd28ce1cfd6407a507c98e"
+    },
+    {
+      "path": "results/benchmark/all_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7c7a26a5adceeccd1f9041533489604fe8ab84",
+      "size": 11389,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2a7c7a26a5adceeccd1f9041533489604fe8ab84"
+    },
+    {
+      "path": "results/benchmark/completion.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a376bcfbe3e18747465b2c5d382a7ae158bbc26",
+      "size": 271,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2a376bcfbe3e18747465b2c5d382a7ae158bbc26"
+    },
+    {
+      "path": "results/benchmark/expanding_comparisons.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a613960e7b97d48e324fd5fae8fc7d60ca012488",
+      "size": 4785,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a613960e7b97d48e324fd5fae8fc7d60ca012488"
+    },
+    {
+      "path": "results/benchmark/expanding_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c81238e348fceb934b73fb8c46c3f8703f57b91",
+      "size": 786800,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1c81238e348fceb934b73fb8c46c3f8703f57b91"
+    },
+    {
+      "path": "results/benchmark/expanding_summary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aaf751993a2f2e3e08ec9b40d21f6f11e18b4b6",
+      "size": 1218,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4aaf751993a2f2e3e08ec9b40d21f6f11e18b4b6"
+    },
+    {
+      "path": "results/benchmark/fixed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b31dbbb9ee58d25954c3e7a79f89a3892a5bc52a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/b31dbbb9ee58d25954c3e7a79f89a3892a5bc52a"
+    },
+    {
+      "path": "results/benchmark/fixed/metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "371f342e1debbb1d037bf26eece363dda07fd79a",
+      "size": 1681,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/371f342e1debbb1d037bf26eece363dda07fd79a"
+    },
+    {
+      "path": "results/benchmark/fixed/predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0c4f448785377d732816ac733fc57c6560041e",
+      "size": 361527,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6a0c4f448785377d732816ac733fc57c6560041e"
+    },
+    {
+      "path": "results/benchmark/fixed/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f78fe2836adcd1299173ec6d74d9b4fb8bcc58b2",
+      "size": 836,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f78fe2836adcd1299173ec6d74d9b4fb8bcc58b2"
+    },
+    {
+      "path": "results/benchmark/fixed/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f5e3feaf740c79856e3d1c88fdeb58db6579fb",
+      "size": 5000,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/22f5e3feaf740c79856e3d1c88fdeb58db6579fb"
+    },
+    {
+      "path": "results/benchmark/fixed/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6f1dc15b5b4d232a08ee7620149253a075b7be",
+      "size": 477060,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ec6f1dc15b5b4d232a08ee7620149253a075b7be"
+    },
+    {
+      "path": "results/benchmark/fixed_comparisons.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75733f0d2205899c82e2ae307d0d1100401e6dcc",
+      "size": 2885,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/75733f0d2205899c82e2ae307d0d1100401e6dcc"
+    },
+    {
+      "path": "results/benchmark/protocol_before_fit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85c133b18accf0b9ebe6b3c8b2ab03b4cc7b399",
+      "size": 6662,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d85c133b18accf0b9ebe6b3c8b2ab03b4cc7b399"
+    },
+    {
+      "path": "results/diagnostics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0dae9c90e697d023bd3ebd37b27e77fb0a4cf113",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/0dae9c90e697d023bd3ebd37b27e77fb0a4cf113"
+    },
+    {
+      "path": "results/diagnostics/completion.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4202cdf30585d5c18ba89a65b60efbcdbae8c1b2",
+      "size": 64,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4202cdf30585d5c18ba89a65b60efbcdbae8c1b2"
+    },
+    {
+      "path": "results/diagnostics/coverage_by_industry.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8160cb07b4b4d6aa774b659df54c8861710fa838",
+      "size": 434,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8160cb07b4b4d6aa774b659df54c8861710fa838"
+    },
+    {
+      "path": "results/diagnostics/heldout_comparisons.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f22a21d9fdef662545ca0af8f5fb336f99a702",
+      "size": 391,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/49f22a21d9fdef662545ca0af8f5fb336f99a702"
+    },
+    {
+      "path": "results/diagnostics/heldout_features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3df85651fb49c4ebb65b30228e8e835db313ddf4",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/3df85651fb49c4ebb65b30228e8e835db313ddf4"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR011",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fe2a8ba7388c3591774c9a82c04b7d55782a6bf",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/0fe2a8ba7388c3591774c9a82c04b7d55782a6bf"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR011/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22893f5b661c5ea132f5783f62bc11c3d4c1f417",
+      "size": 420911,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/22893f5b661c5ea132f5783f62bc11c3d4c1f417"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR011/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb8e4b417daa17dc41ed68d1e55bab151731d673",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fb8e4b417daa17dc41ed68d1e55bab151731d673"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR011/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "835424516fb2a3980058d3f6e377e896a9f047b8",
+      "size": 109839,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/835424516fb2a3980058d3f6e377e896a9f047b8"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR011/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f575a8c5ac93275ca6a975e8895e6132f8b0ad8c",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f575a8c5ac93275ca6a975e8895e6132f8b0ad8c"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR012",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4987bbcefb52831cdc27dcfa58dc5720364fa707",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/4987bbcefb52831cdc27dcfa58dc5720364fa707"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR012/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698aff28e31676246190171d26a13caace6a0957",
+      "size": 418697,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/698aff28e31676246190171d26a13caace6a0957"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR012/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28bef0c66f08172e055e4fdd1f1dd8769c606cbf",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/28bef0c66f08172e055e4fdd1f1dd8769c606cbf"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR012/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "505fc5f8a0ebe5cbdcf6336bf4f659f497d2accc",
+      "size": 110570,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/505fc5f8a0ebe5cbdcf6336bf4f659f497d2accc"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR012/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d0e756fc709cab89bee36c302448116ecbcd5b",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/79d0e756fc709cab89bee36c302448116ecbcd5b"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR013",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e72028fa1b44a25b519a64b0580e9fec0ea11f2b",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e72028fa1b44a25b519a64b0580e9fec0ea11f2b"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR013/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "496e59c83d61dce0aeda24b60129d9b5f16e63ef",
+      "size": 418599,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/496e59c83d61dce0aeda24b60129d9b5f16e63ef"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR013/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28bef0c66f08172e055e4fdd1f1dd8769c606cbf",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/28bef0c66f08172e055e4fdd1f1dd8769c606cbf"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR013/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5558a3a69d0bf3b262bdfa68dc48eddeb07714f9",
+      "size": 110570,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5558a3a69d0bf3b262bdfa68dc48eddeb07714f9"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR013/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d0e756fc709cab89bee36c302448116ecbcd5b",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/79d0e756fc709cab89bee36c302448116ecbcd5b"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR021",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47bb2fa913c569b5c8756ddd70179def4adf10fb",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/47bb2fa913c569b5c8756ddd70179def4adf10fb"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR021/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59adda811f5d974197d1dd0fbe5ad6e19e1fb5ad",
+      "size": 421091,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/59adda811f5d974197d1dd0fbe5ad6e19e1fb5ad"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR021/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c856eb2e32f9939b086f3ffe47b5010033ee710f",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c856eb2e32f9939b086f3ffe47b5010033ee710f"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR021/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cb890cc4f3416420766e6f87391ad9b87046cd",
+      "size": 110183,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/36cb890cc4f3416420766e6f87391ad9b87046cd"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR021/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60d1498dbefdcb55e48914bc3b8fcb3aaa12565",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c60d1498dbefdcb55e48914bc3b8fcb3aaa12565"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR022",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a312516190fa49fa32b1c26bc563eba3c19f95ec",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a312516190fa49fa32b1c26bc563eba3c19f95ec"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR022/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10868c0c2484e037648ce592e87c59d775d837fc",
+      "size": 423410,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/10868c0c2484e037648ce592e87c59d775d837fc"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR022/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f492145672a6d844da7c0b35d1ea0abd8e9e25f",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2f492145672a6d844da7c0b35d1ea0abd8e9e25f"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR022/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4391875f4501bfa120f5ae10f33bfcc0cd323be6",
+      "size": 108420,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4391875f4501bfa120f5ae10f33bfcc0cd323be6"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR022/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "305954f0e2374e61f5824cec4238614287c326c5",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/305954f0e2374e61f5824cec4238614287c326c5"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR023",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb0eb6cd93e2ca1b015925df80512c24aeec94ef",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fb0eb6cd93e2ca1b015925df80512c24aeec94ef"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR023/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b34dbbe304c05440298ab6b39ca17ced311177ad",
+      "size": 421342,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b34dbbe304c05440298ab6b39ca17ced311177ad"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR023/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2eb9fb2564db3823733fd7a5a0931959a79be",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ead2eb9fb2564db3823733fd7a5a0931959a79be"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR023/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5671acb70d06084387bb247614356628a538c0f3",
+      "size": 109151,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5671acb70d06084387bb247614356628a538c0f3"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR023/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800eeede9900285123f92a3addc2f6fdfbdb08fe",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/800eeede9900285123f92a3addc2f6fdfbdb08fe"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR031",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47844d5b0624489ec69d9fc1399d66ac407d6c5f",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/47844d5b0624489ec69d9fc1399d66ac407d6c5f"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR031/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9323ca89fd6c84b9b121064d054a63b8ee5bb4f2",
+      "size": 426874,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9323ca89fd6c84b9b121064d054a63b8ee5bb4f2"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR031/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d171a409bb75affdf1cb8d83bce1bae9525484",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/83d171a409bb75affdf1cb8d83bce1bae9525484"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR031/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dc7d47fbdbde8b336bb27f751f7efefc9ad8605",
+      "size": 110140,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0dc7d47fbdbde8b336bb27f751f7efefc9ad8605"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR031/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79bee5ed6f8381dbd0c634cfc6795cf10e6fe4d",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e79bee5ed6f8381dbd0c634cfc6795cf10e6fe4d"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR032",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "101bd3aed900c3dceeb15aeb66a16963257a6ceb",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/101bd3aed900c3dceeb15aeb66a16963257a6ceb"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR032/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6855f3ea910c7448c1142f9009197324e8d0117",
+      "size": 425300,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f6855f3ea910c7448c1142f9009197324e8d0117"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR032/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd9230d084c2699b87fa3d698e8d5fd70be0bfea",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fd9230d084c2699b87fa3d698e8d5fd70be0bfea"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR032/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817a08633377e87a3aca6f21fa2943a333460aff",
+      "size": 110570,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/817a08633377e87a3aca6f21fa2943a333460aff"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR032/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d0e756fc709cab89bee36c302448116ecbcd5b",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/79d0e756fc709cab89bee36c302448116ecbcd5b"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR041",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c151cb087888202c0322b2a22a56270473772dcb",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/c151cb087888202c0322b2a22a56270473772dcb"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR041/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6cdc1207e784f8d9b050552010ab763ff243682",
+      "size": 421623,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f6cdc1207e784f8d9b050552010ab763ff243682"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR041/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2eb9fb2564db3823733fd7a5a0931959a79be",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ead2eb9fb2564db3823733fd7a5a0931959a79be"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR041/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f903480318505b338f2c9a7e39d6a3d3a7eb2912",
+      "size": 109538,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f903480318505b338f2c9a7e39d6a3d3a7eb2912"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR041/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b30373c7a30ea435c916455f9822695ea1845e1",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3b30373c7a30ea435c916455f9822695ea1845e1"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR042",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2f139d815c976362933b0fcf51ee4e97d599a91",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/b2f139d815c976362933b0fcf51ee4e97d599a91"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR042/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d26a6b4e7ba5b5eb3a5de7698e5a220d687c91c",
+      "size": 420225,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3d26a6b4e7ba5b5eb3a5de7698e5a220d687c91c"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR042/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4fadb2fbd8bdfc9c2b36e93c42b6d15e47e2be4",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c4fadb2fbd8bdfc9c2b36e93c42b6d15e47e2be4"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR042/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c599ecb7a193cd3446d2d0676abdccda741421",
+      "size": 110226,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/19c599ecb7a193cd3446d2d0676abdccda741421"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR042/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21cd92dd52c2341e3ed66b3ee333a266d22246b1",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/21cd92dd52c2341e3ed66b3ee333a266d22246b1"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR043",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2cd84245be9d15a9542d18efaff4eeab4d7820b",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f2cd84245be9d15a9542d18efaff4eeab4d7820b"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR043/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86de0addda3ecfd1967e47f048962fff7c95e72",
+      "size": 421763,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e86de0addda3ecfd1967e47f048962fff7c95e72"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR043/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2eb9fb2564db3823733fd7a5a0931959a79be",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ead2eb9fb2564db3823733fd7a5a0931959a79be"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR043/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468c052e6cc3f9746876df9dd5c4d38543f5c814",
+      "size": 109022,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/468c052e6cc3f9746876df9dd5c4d38543f5c814"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR043/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432ac881c5c21950eda398bf60a9a78ef455f039",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/432ac881c5c21950eda398bf60a9a78ef455f039"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR051",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4c278a6c1ed8ebc79fbc6116704d3ea725b6727",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/d4c278a6c1ed8ebc79fbc6116704d3ea725b6727"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR051/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e479ae311bed7a38f741fe202c164b983088e29",
+      "size": 423840,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7e479ae311bed7a38f741fe202c164b983088e29"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR051/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dcfb1a3ce804d82ae8659a7ee46b84be6394b31",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4dcfb1a3ce804d82ae8659a7ee46b84be6394b31"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR051/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1407d3728cb2e28661916f8ef16560e858a562a1",
+      "size": 108205,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1407d3728cb2e28661916f8ef16560e858a562a1"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR051/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caed842b0755c2d69b0e1c26eafd0b11c5f37a26",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/caed842b0755c2d69b0e1c26eafd0b11c5f37a26"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR052",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceae9a6fe09c517dd20da3faf20ad195147a3912",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/ceae9a6fe09c517dd20da3faf20ad195147a3912"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR052/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4282a8de3e2553a6d8a08f85a036020eb9459cf9",
+      "size": 421598,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4282a8de3e2553a6d8a08f85a036020eb9459cf9"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR052/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2eb9fb2564db3823733fd7a5a0931959a79be",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ead2eb9fb2564db3823733fd7a5a0931959a79be"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR052/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bed39d354d54ceb1c3255403edd8b76ec229cca",
+      "size": 108850,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5bed39d354d54ceb1c3255403edd8b76ec229cca"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR052/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df1c22c93ec4c79e4678242a0a7078613f93a053",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/df1c22c93ec4c79e4678242a0a7078613f93a053"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR053",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f872532e220de069438584e386426926cb20db34",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f872532e220de069438584e386426926cb20db34"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR053/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1277545a2e36707c51537a6fa1a9335069c85a3f",
+      "size": 430358,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1277545a2e36707c51537a6fa1a9335069c85a3f"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR053/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "681c5fd5ec6768d8a33bddfba628909951eb39b5",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/681c5fd5ec6768d8a33bddfba628909951eb39b5"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR053/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b72c99c3c4c135c01f503884163048ea0cdeaac4",
+      "size": 110011,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b72c99c3c4c135c01f503884163048ea0cdeaac4"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR053/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d425ea910710d689d200197726e59150f267f533",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d425ea910710d689d200197726e59150f267f533"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR054",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "722fdaeea47c202b5d279fc24244ebaa38dd27fb",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/722fdaeea47c202b5d279fc24244ebaa38dd27fb"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR054/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a8063b6df37f260021f79993ee5ce94d522208",
+      "size": 437469,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/14a8063b6df37f260021f79993ee5ce94d522208"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR054/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54dfc11df4172944faa3f963129ff52b5feda85c",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/54dfc11df4172944faa3f963129ff52b5feda85c"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR054/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57a1743f8441a713db651eaf96b7e862a4987591",
+      "size": 102056,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/57a1743f8441a713db651eaf96b7e862a4987591"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR054/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670bc26ce84d4e682660886b997c5b6d87b84148",
+      "size": 1189,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/670bc26ce84d4e682660886b997c5b6d87b84148"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR061",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e7fe0ff892ff2a286475726c3e06ff827cbd3b7",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/6e7fe0ff892ff2a286475726c3e06ff827cbd3b7"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR061/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe5556f8be33784017ffcc0a8c7a62ae725892e",
+      "size": 421642,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/afe5556f8be33784017ffcc0a8c7a62ae725892e"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR061/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2eb9fb2564db3823733fd7a5a0931959a79be",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ead2eb9fb2564db3823733fd7a5a0931959a79be"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR061/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f304f4d515cb2e43865cc6cc1ea0a8935f454a1",
+      "size": 109108,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7f304f4d515cb2e43865cc6cc1ea0a8935f454a1"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR061/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb552b29bb6053a2c7e1d5c9498612cfc1609a93",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/eb552b29bb6053a2c7e1d5c9498612cfc1609a93"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR071",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3fe99565c8ca36d100c1d103b20981cc159ae2af",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/3fe99565c8ca36d100c1d103b20981cc159ae2af"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR071/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5245e41657a5d0a4aad636b06182e281c608fff2",
+      "size": 423824,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5245e41657a5d0a4aad636b06182e281c608fff2"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR071/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f492145672a6d844da7c0b35d1ea0abd8e9e25f",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2f492145672a6d844da7c0b35d1ea0abd8e9e25f"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR071/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15879b80bb7e3569d56290e510f0c099c1932b47",
+      "size": 108592,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/15879b80bb7e3569d56290e510f0c099c1932b47"
+    },
+    {
+      "path": "results/diagnostics/heldout_features/KR071/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9421c10550347e8c583e1818d95c373c0a8067",
+      "size": 1190,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ee9421c10550347e8c583e1818d95c373c0a8067"
+    },
+    {
+      "path": "results/diagnostics/heldout_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc78632147b0fad967491977609cc80f2e84ddb",
+      "size": 168,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2fc78632147b0fad967491977609cc80f2e84ddb"
+    },
+    {
+      "path": "results/diagnostics/heldout_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5003409ba1a3ec7ffa031b05b1f8ba8ab10a6957",
+      "size": 164209,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5003409ba1a3ec7ffa031b05b1f8ba8ab10a6957"
+    },
+    {
+      "path": "results/diagnostics/panel_reconstruction",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a6afdba036b233fb75ca003e5f4253a5016858f",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/7a6afdba036b233fb75ca003e5f4253a5016858f"
+    },
+    {
+      "path": "results/diagnostics/panel_reconstruction/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d695b290d3e1a749a43d96e413419f69ff007f6",
+      "size": 457858,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2d695b290d3e1a749a43d96e413419f69ff007f6"
+    },
+    {
+      "path": "results/diagnostics/panel_reconstruction/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d7b5804d3608e7048ba3645cd8bbae2af62aa7",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b6d7b5804d3608e7048ba3645cd8bbae2af62aa7"
+    },
+    {
+      "path": "results/diagnostics/panel_reconstruction/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f74b86b08bcd917a2987f5a7a1c5cc6b569bae",
+      "size": 84770,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/82f74b86b08bcd917a2987f5a7a1c5cc6b569bae"
+    },
+    {
+      "path": "results/diagnostics/panel_reconstruction/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2831abfc34373bea7ec83aa2ac55fa56098a67",
+      "size": 821,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8e2831abfc34373bea7ec83aa2ac55fa56098a67"
+    },
+    {
+      "path": "results/diagnostics/protocol_before_fit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d85d1fe7c0d3516f0fb3bb9c4f0acbbb5f3a29",
+      "size": 679,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/25d85d1fe7c0d3516f0fb3bb9c4f0acbbb5f3a29"
+    },
+    {
+      "path": "results/diagnostics/reselection_intervals.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37654568815f4074c375e7c70d457550107f3517",
+      "size": 284,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/37654568815f4074c375e7c70d457550107f3517"
+    },
+    {
+      "path": "results/diagnostics/reselection_replicates.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b5fd84fde930f430887dc404184e3b0c5d1ad9",
+      "size": 134652,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e7b5fd84fde930f430887dc404184e3b0c5d1ad9"
+    },
+    {
+      "path": "results/diagnostics/selection_frequencies.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12cfd6b8d0afbbba7b0500a478d3333feebd9cac",
+      "size": 1011,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/12cfd6b8d0afbbba7b0500a478d3333feebd9cac"
+    },
+    {
+      "path": "results/field_study_status",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9933f4c5eacac1f5fcb8f798f0ff4264ee332d5",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a9933f4c5eacac1f5fcb8f798f0ff4264ee332d5"
+    },
+    {
+      "path": "results/field_study_status/status.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b5e93440b24999ab8fa8d7af7f600c3a183b56",
+      "size": 109,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b5b5e93440b24999ab8fa8d7af7f600c3a183b56"
+    },
+    {
+      "path": "results/forecast_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64c097b65d3abf976620646c7b2019c1a5697c6c",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/64c097b65d3abf976620646c7b2019c1a5697c6c"
+    },
+    {
+      "path": "results/forecast_replay/additional_model_coefficients.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3a552db1ad2dc33f89730ec352bb25b73e4a98",
+      "size": 1824,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/df3a552db1ad2dc33f89730ec352bb25b73e4a98"
+    },
+    {
+      "path": "results/forecast_replay/all_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f98c98ef689db96ca1d0aff83432867ec9f9bc",
+      "size": 10593,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d9f98c98ef689db96ca1d0aff83432867ec9f9bc"
+    },
+    {
+      "path": "results/forecast_replay/all_paired_comparisons.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a03b959e96204b494806a437251b524bea00e70",
+      "size": 15664,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4a03b959e96204b494806a437251b524bea00e70"
+    },
+    {
+      "path": "results/forecast_replay/execution_start.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9c47d59b201f51a4c6b4f68f148033f8fdc5c4",
+      "size": 251,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8c9c47d59b201f51a4c6b4f68f148033f8fdc5c4"
+    },
+    {
+      "path": "results/forecast_replay/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c959bdc1f4eafb84f73cf3b6591999828b2b85",
+      "size": 4175,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d0c959bdc1f4eafb84f73cf3b6591999828b2b85"
+    },
+    {
+      "path": "results/forecast_replay/normalization_stdout.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1677e948efb8ef09a3ec1d827f40761265b59d0",
+      "size": 2722,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d1677e948efb8ef09a3ec1d827f40761265b59d0"
+    },
+    {
+      "path": "results/forecast_replay/outcome_dependent_trim_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2dc201185bff1fd954d9867ebe008dc2f659bb7",
+      "size": 1677,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a2dc201185bff1fd954d9867ebe008dc2f659bb7"
+    },
+    {
+      "path": "results/forecast_replay/panel_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a6afdba036b233fb75ca003e5f4253a5016858f",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/7a6afdba036b233fb75ca003e5f4253a5016858f"
+    },
+    {
+      "path": "results/forecast_replay/panel_replay/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d695b290d3e1a749a43d96e413419f69ff007f6",
+      "size": 457858,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2d695b290d3e1a749a43d96e413419f69ff007f6"
+    },
+    {
+      "path": "results/forecast_replay/panel_replay/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d7b5804d3608e7048ba3645cd8bbae2af62aa7",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b6d7b5804d3608e7048ba3645cd8bbae2af62aa7"
+    },
+    {
+      "path": "results/forecast_replay/panel_replay/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f74b86b08bcd917a2987f5a7a1c5cc6b569bae",
+      "size": 84770,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/82f74b86b08bcd917a2987f5a7a1c5cc6b569bae"
+    },
+    {
+      "path": "results/forecast_replay/panel_replay/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2831abfc34373bea7ec83aa2ac55fa56098a67",
+      "size": 821,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8e2831abfc34373bea7ec83aa2ac55fa56098a67"
+    },
+    {
+      "path": "results/forecast_replay/selection_before_new_test_predictions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc8a070121b566429140e3cbfff76358368b968",
+      "size": 379,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2cc8a070121b566429140e3cbfff76358368b968"
+    },
+    {
+      "path": "results/forecast_replay/source_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74900338735c9aea8a648a1740d1ac7715ff6900",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/74900338735c9aea8a648a1740d1ac7715ff6900"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/broad_activity_crosswalk.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304745f016151bfdce0f2077dcb0f31b1ade7ce8",
+      "size": 583,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/304745f016151bfdce0f2077dcb0f31b1ade7ce8"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/coverage_by_year.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab651f72369ae71eafac3a19290c46914554d91",
+      "size": 435,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8ab651f72369ae71eafac3a19290c46914554d91"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/incomplete_broad_cells.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad798f6c738358d219df79c11fc6aa32ce09f8b",
+      "size": 48014,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8ad798f6c738358d219df79c11fc6aa32ce09f8b"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_national_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55f13c37281b2baf7d5d135ff64e9fb17ee3eaa",
+      "size": 36159,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f55f13c37281b2baf7d5d135ff64e9fb17ee3eaa"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60323a323b0603c37fd77b04616cbc9d34862493",
+      "size": 626349,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/60323a323b0603c37fd77b04616cbc9d34862493"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_sections.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62b8da9ecd6f5cdad205443387c011668a07e7c3",
+      "size": 1311929,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/62b8da9ecd6f5cdad205443387c011668a07e7c3"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/source_acquisition_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ec26920ba72e4e66379afd379e0e93a2629bf2",
+      "size": 4186,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/55ec26920ba72e4e66379afd379e0e93a2629bf2"
+    },
+    {
+      "path": "results/forecast_replay/source_replay/table_metadata_and_notes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055f3e5f74bea5eed745eed97464b4e5d15f1633",
+      "size": 865,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/055f3e5f74bea5eed745eed97464b4e5d15f1633"
+    },
+    {
+      "path": "results/forecast_replay/source_replay_checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e555875832f7449864834465138259450dad95",
+      "size": 866,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/72e555875832f7449864834465138259450dad95"
+    },
+    {
+      "path": "results/forecast_replay/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bfb5c643162aba771896e8a579ec6bfdccbd637",
+      "size": 14924,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4bfb5c643162aba771896e8a579ec6bfdccbd637"
+    },
+    {
+      "path": "results/forecast_replay/test_predictions_additional.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5131c4503081a35a550cdaaa97ef24b72e65dc9f",
+      "size": 234200,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5131c4503081a35a550cdaaa97ef24b72e65dc9f"
+    },
+    {
+      "path": "results/forecast_replay/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9992abe4199ea8dda29c790c76f958e7f7c31523",
+      "size": 1112,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9992abe4199ea8dda29c790c76f958e7f7c31523"
+    },
+    {
+      "path": "results/forecast_replay/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57bc9b34cd2116b68460d30c7a2ff1351f0f3799",
+      "size": 377188,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/57bc9b34cd2116b68460d30c7a2ff1351f0f3799"
+    },
+    {
+      "path": "results/local_fallback",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1cb9691e2360addfb70fec3a7f46328760603ce5",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/1cb9691e2360addfb70fec3a7f46328760603ce5"
+    },
+    {
+      "path": "results/local_fallback/decision_freeze_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "debdd919341f1e2729f40c791ce60ead03f30a98",
+      "size": 389,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/debdd919341f1e2729f40c791ce60ead03f30a98"
+    },
+    {
+      "path": "results/local_fallback/decision_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf8e178f661f9cc5571bcb4e737db4446bc78c9a",
+      "size": 279,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bf8e178f661f9cc5571bcb4e737db4446bc78c9a"
+    },
+    {
+      "path": "results/local_fallback/evaluated_region_industry_decisions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fda8f3753abce70b8449af44fe71d1cd94d8dcdf",
+      "size": 6339,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fda8f3753abce70b8449af44fe71d1cd94d8dcdf"
+    },
+    {
+      "path": "results/local_fallback/evaluation_predictions_decisions_and_losses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606523f9e600fbed947af6264aab2b3610577291",
+      "size": 347568,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/606523f9e600fbed947af6264aab2b3610577291"
+    },
+    {
+      "path": "results/local_fallback/excluded_validation_rows.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a001300e0e6a176303bb4ea5ec23be4b7f7cacc0",
+      "size": 687,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a001300e0e6a176303bb4ea5ec23be4b7f7cacc0"
+    },
+    {
+      "path": "results/local_fallback/grouped_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9cadcc0bb1fe998292e7832af24f5d1f1c19ee6",
+      "size": 17079,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f9cadcc0bb1fe998292e7832af24f5d1f1c19ee6"
+    },
+    {
+      "path": "results/local_fallback/local_fallback_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781942f82c4990d068ecaf14df83b04761c88c26",
+      "size": 2885,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/781942f82c4990d068ecaf14df83b04761c88c26"
+    },
+    {
+      "path": "results/local_fallback/pooled_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5c8b71d3ed50492111e1db5cd11cde4f7bf7c5",
+      "size": 619,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ee5c8b71d3ed50492111e1db5cd11cde4f7bf7c5"
+    },
+    {
+      "path": "results/local_fallback/region_block_intervals.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ea8964d3562c6ff9aba9e3b7330329738dfcf1",
+      "size": 1176,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/53ea8964d3562c6ff9aba9e3b7330329738dfcf1"
+    },
+    {
+      "path": "results/local_fallback/region_block_replicates.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1119d249922eb8a30a720a8ec986bf29a91549b8",
+      "size": 967152,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1119d249922eb8a30a720a8ec986bf29a91549b8"
+    },
+    {
+      "path": "results/local_fallback/validation_coverage_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883758cb5d9c1c9c63f14c38406d8d55a8764515",
+      "size": 76,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/883758cb5d9c1c9c63f14c38406d8d55a8764515"
+    },
+    {
+      "path": "results/local_fallback/validation_only_decisions_before_test_merge.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670f2251d889f32e070078e14b2b528f380edd70",
+      "size": 13358,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/670f2251d889f32e070078e14b2b528f380edd70"
+    },
+    {
+      "path": "results/local_fallback/yearly_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688da0eb41ba2bdd26dcf275d9f0f7c33889ae2a",
+      "size": 1772,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/688da0eb41ba2bdd26dcf275d9f0f7c33889ae2a"
+    },
+    {
+      "path": "results/model_swap_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21d70f6e97d61848d0ec3c119ff0a8ad03a3e025",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/21d70f6e97d61848d0ec3c119ff0a8ad03a3e025"
+    },
+    {
+      "path": "results/model_swap_replay/all_traces.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8b9ac76a116a9aab6e9c6f406934a6ec090577",
+      "size": 875499,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2a8b9ac76a116a9aab6e9c6f406934a6ec090577"
+    },
+    {
+      "path": "results/model_swap_replay/case_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4743cdf9807553a6ddecfbeb88ca13e3de68613d",
+      "size": 71942,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4743cdf9807553a6ddecfbeb88ca13e3de68613d"
+    },
+    {
+      "path": "results/model_swap_replay/execution_start.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c1a912c196977d599ea4979a14c512559b3d79",
+      "size": 240,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d4c1a912c196977d599ea4979a14c512559b3d79"
+    },
+    {
+      "path": "results/model_swap_replay/paired_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9bb757b78411063eab3b989ab06372b42f5006",
+      "size": 12066,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ab9bb757b78411063eab3b989ab06372b42f5006"
+    },
+    {
+      "path": "results/model_swap_replay/results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917e39f353283b7223d5f514924329799489ef03",
+      "size": 2335,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/917e39f353283b7223d5f514924329799489ef03"
+    },
+    {
+      "path": "results/model_swap_replay/summary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2425e8b39a62d2c9742c2a89d974aeb0ef7059",
+      "size": 490,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bf2425e8b39a62d2c9742c2a89d974aeb0ef7059"
+    },
+    {
+      "path": "results/paper_tables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf77dabd2ab96b1b75898ffad49e311fc9e5ad6d",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/cf77dabd2ab96b1b75898ffad49e311fc9e5ad6d"
+    },
+    {
+      "path": "results/paper_tables/index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63d5f075588436b5ed6ef691379b59784af11c25",
+      "size": 6419,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/63d5f075588436b5ed6ef691379b59784af11c25"
+    },
+    {
+      "path": "results/paper_tables/table_01.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32bc79cf7bcd9f638f4f10a740b870ea9a81a60",
+      "size": 1834,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f32bc79cf7bcd9f638f4f10a740b870ea9a81a60"
+    },
+    {
+      "path": "results/paper_tables/table_02.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09c24650fdb07790a9cfd215f8caedbc8356d03",
+      "size": 1421,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b09c24650fdb07790a9cfd215f8caedbc8356d03"
+    },
+    {
+      "path": "results/paper_tables/table_03.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0f41ad5697a80db57ab008645c34eba7072d28",
+      "size": 1416,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dc0f41ad5697a80db57ab008645c34eba7072d28"
+    },
+    {
+      "path": "results/paper_tables/table_04.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6fb2661059310f919767aa1b17d332afe5edd9",
+      "size": 539,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8a6fb2661059310f919767aa1b17d332afe5edd9"
+    },
+    {
+      "path": "results/paper_tables/table_05.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa79b64fcfd3eb1f2c0c166de58f861c7dd9baca",
+      "size": 176,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/aa79b64fcfd3eb1f2c0c166de58f861c7dd9baca"
+    },
+    {
+      "path": "results/paper_tables/table_06.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9620f18822d6b8238dfe5d05e329f881f520bfba",
+      "size": 383,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9620f18822d6b8238dfe5d05e329f881f520bfba"
+    },
+    {
+      "path": "results/paper_tables/table_07.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f791ad08cbaaa32b231d151a54054754c63bcdd",
+      "size": 157,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4f791ad08cbaaa32b231d151a54054754c63bcdd"
+    },
+    {
+      "path": "results/paper_tables/table_08.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d7bac7c4e643364b3d61466172fd982072150c",
+      "size": 331,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b8d7bac7c4e643364b3d61466172fd982072150c"
+    },
+    {
+      "path": "results/paper_tables/table_09.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "035fa684e1bfd4a7ad1d46b4bda75838589382a4",
+      "size": 405,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/035fa684e1bfd4a7ad1d46b4bda75838589382a4"
+    },
+    {
+      "path": "results/paper_tables/table_10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7bcd21afbe11e34b11d0e94f44a424464f671f9",
+      "size": 422,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a7bcd21afbe11e34b11d0e94f44a424464f671f9"
+    },
+    {
+      "path": "results/paper_tables/table_11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7206411832b737cccb4f9fd6e768f89a6268170",
+      "size": 1046,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c7206411832b737cccb4f9fd6e768f89a6268170"
+    },
+    {
+      "path": "results/paper_tables/table_12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3109a26ae1de4e6b665f23d3e68d62095fe644ae",
+      "size": 298,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3109a26ae1de4e6b665f23d3e68d62095fe644ae"
+    },
+    {
+      "path": "results/paper_tables/table_13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4eacd56cccea8b568fa6adca43fef345e73cda",
+      "size": 187,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1c4eacd56cccea8b568fa6adca43fef345e73cda"
+    },
+    {
+      "path": "results/paper_tables/table_14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f393ae696851f2c007753b4bc68449559893772e",
+      "size": 257,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f393ae696851f2c007753b4bc68449559893772e"
+    },
+    {
+      "path": "results/paper_tables/table_15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58198790985950bf825abc18a0e1e8b9d1505ad",
+      "size": 591,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e58198790985950bf825abc18a0e1e8b9d1505ad"
+    },
+    {
+      "path": "results/paper_tables/table_A1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ede4765dfd3217da8bef92ebd6be1ea6ade6f71",
+      "size": 233,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7ede4765dfd3217da8bef92ebd6be1ea6ade6f71"
+    },
+    {
+      "path": "results/paper_tables/table_A2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb541e3304f6d591f3c0bf91fb7f2c534866467",
+      "size": 331,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2bb541e3304f6d591f3c0bf91fb7f2c534866467"
+    },
+    {
+      "path": "results/paper_tables/table_A3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f5ba734af6d3107ec847a9ff5ceff3e354f914",
+      "size": 364,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/56f5ba734af6d3107ec847a9ff5ceff3e354f914"
+    },
+    {
+      "path": "results/paper_tables/table_B1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5f60a699443ffc5a604e221ab007932226ad30",
+      "size": 188,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ec5f60a699443ffc5a604e221ab007932226ad30"
+    },
+    {
+      "path": "results/paper_tables/table_B2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1400c4a2897aceb5a840b4607f22d8838d830c60",
+      "size": 183,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1400c4a2897aceb5a840b4607f22d8838d830c60"
+    },
+    {
+      "path": "results/paper_tables/table_C1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd60817f79ab323bfd5c78007e99f39089926db",
+      "size": 343,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1fd60817f79ab323bfd5c78007e99f39089926db"
+    },
+    {
+      "path": "results/paper_tables/table_D1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda91952a5c5265b74645ec7399252d2e568c0b9",
+      "size": 688,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bda91952a5c5265b74645ec7399252d2e568c0b9"
+    },
+    {
+      "path": "results/paper_tables/table_D2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f08e7c3d02ad1a88bf6dbba1be0c40d6dca49073",
+      "size": 537,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f08e7c3d02ad1a88bf6dbba1be0c40d6dca49073"
+    },
+    {
+      "path": "results/paper_tables/table_D3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58a941eb28009d554b24d6e328b034a1123cace",
+      "size": 530,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c58a941eb28009d554b24d6e328b034a1123cace"
+    },
+    {
+      "path": "results/preserved_audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c31a16788688b6c613487fca8706635f60ec1629",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/c31a16788688b6c613487fca8706635f60ec1629"
+    },
+    {
+      "path": "results/preserved_audit/current_tables_8_12_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cd6ef56480ac098774213602726550afbe0e41c",
+      "size": 12162,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0cd6ef56480ac098774213602726550afbe0e41c"
+    },
+    {
+      "path": "results/preserved_audit/preserved_B_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5ad9bef125c8a3c15aad0350c66ec28e62bd99",
+      "size": 3579,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0e5ad9bef125c8a3c15aad0350c66ec28e62bd99"
+    },
+    {
+      "path": "results/preserved_audit/preserved_C",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13bcf5c6a04fb686e6c84bc26eee4d8e86440846",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/13bcf5c6a04fb686e6c84bc26eee4d8e86440846"
+    },
+    {
+      "path": "results/preserved_audit/preserved_C/performance_independent_OECD2024.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ba09ff6adafcdc08f73a313c0e23d6fc219d73",
+      "size": 2565,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/75ba09ff6adafcdc08f73a313c0e23d6fc219d73"
+    },
+    {
+      "path": "results/preserved_audit/preserved_D_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98816d8fae687bde8612a4eafe15798212d3dc2b",
+      "size": 3181,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/98816d8fae687bde8612a4eafe15798212d3dc2b"
+    },
+    {
+      "path": "results/preserved_audit/table12_display_check.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73f76f14378b6386e2ec5e2cc443b19b4ee94cb1",
+      "size": 303,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/73f76f14378b6386e2ec5e2cc443b19b4ee94cb1"
+    },
+    {
+      "path": "results/preserved_audit/table8_recalculated.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ca45bb3a0eba65bbdbd41089b43fd46d05992f",
+      "size": 306,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/94ca45bb3a0eba65bbdbd41089b43fd46d05992f"
+    },
+    {
+      "path": "results/registered_service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b402c4199c4b391f2d17114f8ed720fe37bc7700",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/b402c4199c4b391f2d17114f8ed720fe37bc7700"
+    },
+    {
+      "path": "results/registered_service/case_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014c372bbb3359b7d15175b0006b022973b03e2a",
+      "size": 105130,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/014c372bbb3359b7d15175b0006b022973b03e2a"
+    },
+    {
+      "path": "results/registered_service/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c3e579d8905ec4537fc07a970e1957d17f6de5",
+      "size": 949,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/04c3e579d8905ec4537fc07a970e1957d17f6de5"
+    },
+    {
+      "path": "results/registered_service/trusted_registry.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd26faf8def08d76363bb6cb83dc1c0ff7395bdc",
+      "size": 408711,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cd26faf8def08d76363bb6cb83dc1c0ff7395bdc"
+    },
+    {
+      "path": "results/release_source_changes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e4554c8af86be9105f8d3cea6bdfeb6529b040",
+      "size": 1797,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/26e4554c8af86be9105f8d3cea6bdfeb6529b040"
+    },
+    {
+      "path": "results/revision_verification_20261028",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d629353f41e1586627e11a2050428afd82e2dd7",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/2d629353f41e1586627e11a2050428afd82e2dd7"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ef1ccfd75d87a22888f01d932a8acbd7fda9d2a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/8ef1ccfd75d87a22888f01d932a8acbd7fda9d2a"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/forecast_replay.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf21008dd44ccb42f382c50231ef0ea9bb800848",
+      "size": 5952,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bf21008dd44ccb42f382c50231ef0ea9bb800848"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/local_fallback.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/model_swap_replay.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917e39f353283b7223d5f514924329799489ef03",
+      "size": 2335,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/917e39f353283b7223d5f514924329799489ef03"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/preserved_audit.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5e87030392c87cd501e96d57f082ac119b9048",
+      "size": 1192,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fb5e87030392c87cd501e96d57f082ac119b9048"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/registered_service.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe427f983ce4493d268c58561b62d0cb604087e",
+      "size": 577,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cbe427f983ce4493d268c58561b62d0cb604087e"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/run_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da6f68a316118b9a1d556b7fbf585b4487cba66",
+      "size": 1136,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1da6f68a316118b9a1d556b7fbf585b4487cba66"
+    },
+    {
+      "path": "results/revision_verification_20261028/analysis_replay/service_replay.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50f34a11ea1b6e5a5522bfcf6a294a77722d1692",
+      "size": 3478,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/50f34a11ea1b6e5a5522bfcf6a294a77722d1692"
+    },
+    {
+      "path": "results/revision_verification_20261028/audit_scope_and_retries.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d0de2a73e58963b947a34698709e78d283e325c",
+      "size": 902,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1d0de2a73e58963b947a34698709e78d283e325c"
+    },
+    {
+      "path": "results/revision_verification_20261028/extended_initial_attempt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d0f5c4d0e833bc357e6371da47ef5211ea3fe5a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9d0f5c4d0e833bc357e6371da47ef5211ea3fe5a"
+    },
+    {
+      "path": "results/revision_verification_20261028/extended_initial_attempt/benchmark.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ce7137e3b62d0591e7435435e9e6a404039cd5",
+      "size": 168,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/47ce7137e3b62d0591e7435435e9e6a404039cd5"
+    },
+    {
+      "path": "results/revision_verification_20261028/extended_initial_attempt/diagnostics.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b636d67062c1fde4af11b20001b5c2d349b1c8",
+      "size": 151,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/49b636d67062c1fde4af11b20001b5c2d349b1c8"
+    },
+    {
+      "path": "results/revision_verification_20261028/extended_initial_attempt/run_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffac455c410f69550c4d9350235c9354a0df8f83",
+      "size": 736,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ffac455c410f69550c4d9350235c9354a0df8f83"
+    },
+    {
+      "path": "results/revision_verification_20261028/extended_initial_attempt/transfer_evaluation.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3fc5656518b17d1a12e266f4ff9e19baaae01ca",
+      "size": 833,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c3fc5656518b17d1a12e266f4ff9e19baaae01ca"
+    },
+    {
+      "path": "results/revision_verification_20261028/fallback_retry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32f841403b2dbbf0e5721e10105a3452bd2feba6",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/32f841403b2dbbf0e5721e10105a3452bd2feba6"
+    },
+    {
+      "path": "results/revision_verification_20261028/fallback_retry/local_fallback.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfbedaab78bdfa1f7245063f429a55d6cdea02fa",
+      "size": 925,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cfbedaab78bdfa1f7245063f429a55d6cdea02fa"
+    },
+    {
+      "path": "results/revision_verification_20261028/fallback_retry/run_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3224c00b86f8f98a8ccb7d5cbecd9aaa0cf22d05",
+      "size": 368,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3224c00b86f8f98a8ccb7d5cbecd9aaa0cf22d05"
+    },
+    {
+      "path": "results/revision_verification_20261028/raw_source_hashes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c079866f913b339846a4541cf6b50b94695091",
+      "size": 1663,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b9c079866f913b339846a4541cf6b50b94695091"
+    },
+    {
+      "path": "results/revision_verification_20261028/replay_comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e70b3469a0194cda8fa5d4fe13374f1bfcbeed3",
+      "size": 15778,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9e70b3469a0194cda8fa5d4fe13374f1bfcbeed3"
+    },
+    {
+      "path": "results/revision_verification_20261028/source_replay_checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e555875832f7449864834465138259450dad95",
+      "size": 866,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/72e555875832f7449864834465138259450dad95"
+    },
+    {
+      "path": "results/revision_verification_20261028/transfer_retry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9cad3c54e13fde67d2c2c634f7f4546c3a2fc38",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/c9cad3c54e13fde67d2c2c634f7f4546c3a2fc38"
+    },
+    {
+      "path": "results/revision_verification_20261028/transfer_retry/run_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d173f7667a85d778553d76fd0e48fa3af224523",
+      "size": 379,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5d173f7667a85d778553d76fd0e48fa3af224523"
+    },
+    {
+      "path": "results/revision_verification_20261028/transfer_retry/transfer_evaluation.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3caf619bd8eafb28c494f52c8696fe21ff11eb0",
+      "size": 2137,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f3caf619bd8eafb28c494f52c8696fe21ff11eb0"
+    },
+    {
+      "path": "results/revision_verification_20261028/unit_tests.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662308561d699c9e3b83ccc5e6b48fb25beb0309",
+      "size": 1498,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/662308561d699c9e3b83ccc5e6b48fb25beb0309"
+    },
+    {
+      "path": "results/service_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a33838a53fce34fc3b3a713534b3ea6b9bc5f377",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a33838a53fce34fc3b3a713534b3ea6b9bc5f377"
+    },
+    {
+      "path": "results/service_replay/all_traces.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910bcf62fdde035c446de0bf345cf15e9f9e8d9f",
+      "size": 616530,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/910bcf62fdde035c446de0bf345cf15e9f9e8d9f"
+    },
+    {
+      "path": "results/service_replay/audit18_v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "defda6d483fb6a3b659fab236fd1b392752201eb",
+      "size": 6768,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/defda6d483fb6a3b659fab236fd1b392752201eb"
+    },
+    {
+      "path": "results/service_replay/audit18_v2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7bed8dc8ec301de61753337290c19557cda0e64",
+      "size": 6761,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e7bed8dc8ec301de61753337290c19557cda0e64"
+    },
+    {
+      "path": "results/service_replay/case_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ae1e65c38af8debd4e54cdd1ba0bf59b4d7c3b",
+      "size": 20734,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/48ae1e65c38af8debd4e54cdd1ba0bf59b4d7c3b"
+    },
+    {
+      "path": "results/service_replay/migration_result.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a326f2474cfb52a98c62dbe909ab8782375d30e8",
+      "size": 1921,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a326f2474cfb52a98c62dbe909ab8782375d30e8"
+    },
+    {
+      "path": "results/service_replay/original_comparison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09b9b0d5b23908307226daf49ae67d591e3fcb7b",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/09b9b0d5b23908307226daf49ae67d591e3fcb7b"
+    },
+    {
+      "path": "results/service_replay/original_comparison/all_traces.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef885ccf2258562d3882d13be858abfd1133142f",
+      "size": 638616,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ef885ccf2258562d3882d13be858abfd1133142f"
+    },
+    {
+      "path": "results/service_replay/original_comparison/case_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35b36580d4738dd05ef870b95915b140c6a8aca",
+      "size": 51995,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c35b36580d4738dd05ef870b95915b140c6a8aca"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_inconsistent_arithmetic_blocked_input.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b06038a7a8cc332174d27f32aa63e75fa2c3acb",
+      "size": 8874,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0b06038a7a8cc332174d27f32aa63e75fa2c3acb"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_inconsistent_arithmetic_blocked_output.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297f937bd58b1ff9b16ba336a89f0374e90ec298",
+      "size": 2017,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/297f937bd58b1ff9b16ba336a89f0374e90ec298"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_retrospective_valid_input.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46aac993e3c75fe4f9e7a2e4f41a93bf97724599",
+      "size": 8876,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/46aac993e3c75fe4f9e7a2e4f41a93bf97724599"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_retrospective_valid_output.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90a8b1470088f780e915d6d1a86d3aa064a6cb48",
+      "size": 2238,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/90a8b1470088f780e915d6d1a86d3aa064a6cb48"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_stale_review_blocked_input.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "717a0aa9914ec4b3c06d4554af1743ccf781b244",
+      "size": 8889,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/717a0aa9914ec4b3c06d4554af1743ccf781b244"
+    },
+    {
+      "path": "results/service_replay/original_comparison/demo_stale_review_blocked_output.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba3e9cd71a349e3b5c0baa1c0e7aac14754fb7e",
+      "size": 1932,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dba3e9cd71a349e3b5c0baa1c0e7aac14754fb7e"
+    },
+    {
+      "path": "results/service_replay/original_comparison/manuscript_table.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c5264bf38a38706fb8fad2e3ba08d06e45dbcf",
+      "size": 316,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/90c5264bf38a38706fb8fad2e3ba08d06e45dbcf"
+    },
+    {
+      "path": "results/service_replay/original_comparison/summary_by_family.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35e101a67c7aa44c93d94593f0043d8c1166efac",
+      "size": 2064,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/35e101a67c7aa44c93d94593f0043d8c1166efac"
+    },
+    {
+      "path": "results/service_replay/original_comparison/technical_comparison_dashboard.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99029d77379dee7ae6201a61a1bf20460272ac86",
+      "size": 49275,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/99029d77379dee7ae6201a61a1bf20460272ac86"
+    },
+    {
+      "path": "results/service_replay/original_comparison/technical_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83af2340361fdc0daf73fe5638c203cc4c30aaa",
+      "size": 1657,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b83af2340361fdc0daf73fe5638c203cc4c30aaa"
+    },
+    {
+      "path": "results/service_replay/replay_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f9f62bd4f68e583a400806cc9b38c2a3138532",
+      "size": 1206,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/91f9f62bd4f68e583a400806cc9b38c2a3138532"
+    },
+    {
+      "path": "results/transfer_evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "130293bf25dac6ff257ed0a22a079a7f95ddc24a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/130293bf25dac6ff257ed0a22a079a7f95ddc24a"
+    },
+    {
+      "path": "results/transfer_evaluation/case_results.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c6402adb79ea9d7568888c5d0e47fff2f88b8e",
+      "size": 198488,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f5c6402adb79ea9d7568888c5d0e47fff2f88b8e"
+    },
+    {
+      "path": "results/transfer_evaluation/cases_before_execution.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6131a1e683c4c7f2400420cedb5f3bd60ae92fb",
+      "size": 569727,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b6131a1e683c4c7f2400420cedb5f3bd60ae92fb"
+    },
+    {
+      "path": "results/transfer_evaluation/comparison_summary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5fc1072f1e99aa9cee95191d84fa7f25f16f45",
+      "size": 450,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ec5fc1072f1e99aa9cee95191d84fa7f25f16f45"
+    },
+    {
+      "path": "results/transfer_evaluation/data_provenance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9cfb55f6d86185f7ba7bd1cd5a75a155727caca",
+      "size": 1044,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c9cfb55f6d86185f7ba7bd1cd5a75a155727caca"
+    },
+    {
+      "path": "results/transfer_evaluation/envelope.schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76302fe1aacbd32fc48761b0323dbaa103e0825",
+      "size": 5101,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c76302fe1aacbd32fc48761b0323dbaa103e0825"
+    },
+    {
+      "path": "results/transfer_evaluation/execution_start.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3008d128a952a3469b7e3306076e2f667b246620",
+      "size": 653,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3008d128a952a3469b7e3306076e2f667b246620"
+    },
+    {
+      "path": "results/transfer_evaluation/macro_forecast_diagnostics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5874922df5e62f71ed2696835ff24699c556d5fe",
+      "size": 404,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5874922df5e62f71ed2696835ff24699c556d5fe"
+    },
+    {
+      "path": "results/transfer_evaluation/macro_models.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939bdd594efe97a09d26af353b1cfca7a95bcb66",
+      "size": 2651,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/939bdd594efe97a09d26af353b1cfca7a95bcb66"
+    },
+    {
+      "path": "results/transfer_evaluation/macro_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d68f93aaeb9d517900b16d35f24ab4605a3ca8",
+      "size": 20213,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/43d68f93aaeb9d517900b16d35f24ab4605a3ca8"
+    },
+    {
+      "path": "results/transfer_evaluation/macro_sample_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d1511f8381b8ba7a2e7d7d226c95f4a293b694e",
+      "size": 321,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9d1511f8381b8ba7a2e7d7d226c95f4a293b694e"
+    },
+    {
+      "path": "results/transfer_evaluation/maintenance_check.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23734404ba416bb8bce219f0df5b1deb5332cfbe",
+      "size": 818,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/23734404ba416bb8bce219f0df5b1deb5332cfbe"
+    },
+    {
+      "path": "results/transfer_evaluation/numerical_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890003efc63a48fadb941b63d178d14d78c72319",
+      "size": 1406,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/890003efc63a48fadb941b63d178d14d78c72319"
+    },
+    {
+      "path": "results/transfer_evaluation/protocol_before_execution.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da9970c63d59a02d31765c56d9ff73bfa336fc5",
+      "size": 3509,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7da9970c63d59a02d31765c56d9ff73bfa336fc5"
+    },
+    {
+      "path": "results/transfer_evaluation/reference_context.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2890a08e88eba6e33513e29c994b5bd201fe6cc3",
+      "size": 64676,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2890a08e88eba6e33513e29c994b5bd201fe6cc3"
+    },
+    {
+      "path": "results/transfer_evaluation/results_by_family.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b636a91fa110bc5606f0c5abc9a130a6f6a61029",
+      "size": 7165,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b636a91fa110bc5606f0c5abc9a130a6f6a61029"
+    },
+    {
+      "path": "results/transfer_evaluation/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5eed8399475c9ebc817e87fdc126f2fb27a9cd0",
+      "size": 2137,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d5eed8399475c9ebc817e87fdc126f2fb27a9cd0"
+    },
+    {
+      "path": "results/transfer_evaluation/trust_boundary_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "405b63b0431c1688047c80ac319493ea9fb9173d",
+      "size": 35047,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/405b63b0431c1688047c80ac319493ea9fb9173d"
+    },
+    {
+      "path": "results/validation_report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5241f0e84997aca726d1e502b26dd72b595a7688",
+      "size": 53468,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5241f0e84997aca726d1e502b26dd72b595a7688"
+    },
+    {
+      "path": "support",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f079742eef518b75771f6e11377fa76c23a1225",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/8f079742eef518b75771f6e11377fa76c23a1225"
+    },
+    {
+      "path": "support/baseline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aa3345a57702ee83a29c79dde05a2e2eb10434e",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/4aa3345a57702ee83a29c79dde05a2e2eb10434e"
+    },
+    {
+      "path": "support/baseline/additional_analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78883512e96d6e36130d7c0e808aa02793ea098e",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/78883512e96d6e36130d7c0e808aa02793ea098e"
+    },
+    {
+      "path": "support/baseline/additional_analysis/local_fallback_specification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2abce6ccd189433df4feb69d727391b9814f1d6b",
+      "size": 3653,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2abce6ccd189433df4feb69d727391b9814f1d6b"
+    },
+    {
+      "path": "support/baseline/additional_analysis/local_fallback_specification_release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90a3c4fbf96862a127e56dfde3a079b9199954b8",
+      "size": 4817,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/90a3c4fbf96862a127e56dfde3a079b9199954b8"
+    },
+    {
+      "path": "support/baseline/base_v11",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53229b1014cce0fd5e0230beda68f740e950ae3a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/53229b1014cce0fd5e0230beda68f740e950ae3a"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ba9bd4b115ab135da95937ef1744ffae497f86f",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9ba9bd4b115ab135da95937ef1744ffae497f86f"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f520c39ca4a8afdea9a6c10ce2a1a962d6843e68",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f520c39ca4a8afdea9a6c10ce2a1a962d6843e68"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49b4d6cc19e165220586030177beb254ebabb6f1",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/49b4d6cc19e165220586030177beb254ebabb6f1"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results/main/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d695b290d3e1a749a43d96e413419f69ff007f6",
+      "size": 457858,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2d695b290d3e1a749a43d96e413419f69ff007f6"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results/main/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bede79ef1850639b0b5616408dfa45ba88ebbb64",
+      "size": 1270,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/bede79ef1850639b0b5616408dfa45ba88ebbb64"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results/main/test_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a263611752264b038746f02e60ad907f116f5822",
+      "size": 209241,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a263611752264b038746f02e60ad907f116f5822"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/results/main/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b9eee204166c5129285b57e7c199f02743d4b14",
+      "size": 310086,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2b9eee204166c5129285b57e7c199f02743d4b14"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d01e242c1f51ad259c12920948648a2aac42993a",
+      "size": 23553,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d01e242c1f51ad259c12920948648a2aac42993a"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f82982229d6d023a87823f161473addcee6da4b1",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f82982229d6d023a87823f161473addcee6da4b1"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da6d1e3d98d4c8abf1b445c58007404bb6ca76f9",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/da6d1e3d98d4c8abf1b445c58007404bb6ca76f9"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis/analysis_design_before_execution.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bbdb0061ffe74a322186fef0987ecd0ea3191c0",
+      "size": 4673,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7bbdb0061ffe74a322186fef0987ecd0ea3191c0"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis/rolling_all_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e041fb1aaa27ac9bf7f0a19052a5a4ab9eb14cec",
+      "size": 427809,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e041fb1aaa27ac9bf7f0a19052a5a4ab9eb14cec"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis/rolling_annual_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15c0f56887707bf0f9c5837afe4db5159736c68d",
+      "size": 26314,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/15c0f56887707bf0f9c5837afe4db5159736c68d"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis/rolling_selections.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72af3a15582e972820d198ac424227ac9eb4fdb6",
+      "size": 56489,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/72af3a15582e972820d198ac424227ac9eb4fdb6"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/analysis/run_extended_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb91a156b8975441c852e5a8ed0972b18df54b7",
+      "size": 29403,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/adb91a156b8975441c852e5a8ed0972b18df54b7"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "056b31808f3581f8ef3e42ea427c003e95970432",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/056b31808f3581f8ef3e42ea427c003e95970432"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d91c45da9d7a95ce881b6ee97cb2abb839ca88aa",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/d91c45da9d7a95ce881b6ee97cb2abb839ca88aa"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a048185359cd34e7a61a030b9fad93e648756b78",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a048185359cd34e7a61a030b9fad93e648756b78"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/daegyeong_prior_validation_rows.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "463d50a6e37ebf38569d1bd83a0affc1718c98f9",
+      "size": 21754,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/463d50a6e37ebf38569d1bd83a0affc1718c98f9"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/daegyeong_service_2025.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed951218dd5f8dfa7c8d1484f0057edb48d2625",
+      "size": 2455,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/eed951218dd5f8dfa7c8d1484f0057edb48d2625"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/daegyeong_test_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5240df32506392eb6d9ff8861a5dc109059cc026",
+      "size": 1210,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5240df32506392eb6d9ff8861a5dc109059cc026"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/independent_verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98816d8fae687bde8612a4eafe15798212d3dc2b",
+      "size": 3181,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/98816d8fae687bde8612a4eafe15798212d3dc2b"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/manuscript_table_D.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc1c9755df7b0a1bf233b600aac7bd1e1551dadf",
+      "size": 1678,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dc1c9755df7b0a1bf233b600aac7bd1e1551dadf"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/merge_source_audit.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6742a2aeb98cd5682d90b0447a353079242ab9ab",
+      "size": 5885,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6742a2aeb98cd5682d90b0447a353079242ab9ab"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/protocol_before_execution.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a72dd7b19340813d8f1718901f45f9b862f1a5b",
+      "size": 2342,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6a72dd7b19340813d8f1718901f45f9b862f1a5b"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0401c01f4ccc063ab0744b876bc2a48d19b13ea1",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/0401c01f4ccc063ab0744b876bc2a48d19b13ea1"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa60e31bd0004d719a867ade863d2412de6865db",
+      "size": 434708,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/aa60e31bd0004d719a867ade863d2412de6865db"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/coefficients.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30dc52b4e5490532a46a80bc59f3a6ec7022a172",
+      "size": 9004,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/30dc52b4e5490532a46a80bc59f3a6ec7022a172"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/cohort_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc619f154427fa5243d34d5e6786240d80beeb9e",
+      "size": 267,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cc619f154427fa5243d34d5e6786240d80beeb9e"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/exclusion_ledger.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d6e9d4f55d81f9667a73da7e34370af2f7a173",
+      "size": 83150,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e2d6e9d4f55d81f9667a73da7e34370af2f7a173"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/exclusion_reason_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7183a702b96c2ee1a51866e1d114693d8f86867b",
+      "size": 786,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7183a702b96c2ee1a51866e1d114693d8f86867b"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/fit_warnings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06d1cf884905dd2fe9d1e512fe19eaec17e73f3e",
+      "size": 2027,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/06d1cf884905dd2fe9d1e512fe19eaec17e73f3e"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/model_hgb_leaves7_l210.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcfbf67f8b954a2daed5326ec91a9c9be46819ee",
+      "size": 204761,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dcfbf67f8b954a2daed5326ec91a9c9be46819ee"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/model_huber.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef7f94ece7e6f339e7f79dbb2483b96b5f877f1c",
+      "size": 4976,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ef7f94ece7e6f339e7f79dbb2483b96b5f877f1c"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/model_rf_depth4_leaf25.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "207f707495ab9bb45158fc09e91b44d699d06829",
+      "size": 337834,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/207f707495ab9bb45158fc09e91b44d699d06829"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/model_ridge_alpha100.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "627e743295a1fcae536d2d77defb1a43d2de9aed",
+      "size": 3913,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/627e743295a1fcae536d2d77defb1a43d2de9aed"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/region_bootstrap_vs_default.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a421037576e813a6738b2186ee09ba426104eff4",
+      "size": 1072,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a421037576e813a6738b2186ee09ba426104eff4"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/region_bootstrap_vs_zero.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cf1c88b8b657538f2a0abb98bba5ff27aeed085",
+      "size": 978,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1cf1c88b8b657538f2a0abb98bba5ff27aeed085"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef4dec6ed046ec359e24748ccf9d788d251b17c",
+      "size": 1477,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7ef4dec6ed046ec359e24748ccf9d788d251b17c"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/service_prior_validation_evidence.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d6ba727fc50a716a3f0a91d0dc990e83c9a950",
+      "size": 11571,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d6d6ba727fc50a716a3f0a91d0dc990e83c9a950"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/small_cell_sensitivity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff623521b5e93cfce3f5fdfd5d2d178d805d223a",
+      "size": 3249,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ff623521b5e93cfce3f5fdfd5d2d178d805d223a"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7e2da362783105414e0d174c0a66ebde07af4f",
+      "size": 7165,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4f7e2da362783105414e0d174c0a66ebde07af4f"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/test_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "003c1bbe620fe94db9499e137fa0b65147a82a5b",
+      "size": 5654,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/003c1bbe620fe94db9499e137fa0b65147a82a5b"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/test_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff596b263a49fdcc6cb54f626f140c651aa7e77",
+      "size": 204642,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/6ff596b263a49fdcc6cb54f626f140c651aa7e77"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/validation_grid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a77ca6285d7fe684c8a62de706b08ec65265de",
+      "size": 4385,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d1a77ca6285d7fe684c8a62de706b08ec65265de"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/results/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da46002a9962f4e8290070b091c623c249276c84",
+      "size": 288576,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/da46002a9962f4e8290070b091c623c249276c84"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/source_16_fixed_units.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1902b3304efbe73e33e70ef5d3e871fc2baf8a",
+      "size": 604885,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2c1902b3304efbe73e33e70ef5d3e871fc2baf8a"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/output/summary_for_manuscript.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2206dd2576de8328b5ff35776f26b669e5894d",
+      "size": 5714,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ec2206dd2576de8328b5ff35776f26b669e5894d"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d65b9dea8c9636bbf4a4330ecc0c01825238a7bf",
+      "size": 15113,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d65b9dea8c9636bbf4a4330ecc0c01825238a7bf"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c0a604858f08b619f904e963795662324b247dd",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/1c0a604858f08b619f904e963795662324b247dd"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b17514f8be77d0918cc0b404dd720f39092923e",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9b17514f8be77d0918cc0b404dd720f39092923e"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/evaluate_new_outcomes_after_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6d3ba125e2a69b349c29c6a603252819f84dd7",
+      "size": 7776,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1e6d3ba125e2a69b349c29c6a603252819f84dd7"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/evaluation_2024_official",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "883c86f573c1dff247b66837c04640a30d23af97",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/883c86f573c1dff247b66837c04640a30d23af97"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/evaluation_2024_official/evaluation_provenance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7533c6008bcf70e9d7a20cc2f03953aee932110",
+      "size": 675,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d7533c6008bcf70e9d7a20cc2f03953aee932110"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/evaluation_2024_official/locked_future_predictions_and_outcomes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260063e4f10df45b6cb4e8f788917f5dbd5f8da1",
+      "size": 36352,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/260063e4f10df45b6cb4e8f788917f5dbd5f8da1"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/evaluation_2024_official/locked_future_year_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4ae1a6cf2b1c9d5d03e1e8949fbdd552790d27",
+      "size": 2456,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1d4ae1a6cf2b1c9d5d03e1e8949fbdd552790d27"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/freeze_design_before_new_outcomes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36d2aa59a3d1896d2449062621d1c49dd82d2d32",
+      "size": 6049,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/36d2aa59a3d1896d2449062621d1c49dd82d2d32"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/freeze_design_before_new_outcomes.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa3290319f383734d17ff47a9f41230ba87cea5",
+      "size": 105,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/afa3290319f383734d17ff47a9f41230ba87cea5"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/freeze_predictions_2024.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425bc8cc9965ad0878a34e38c8d4799a1e55c04b",
+      "size": 6206,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/425bc8cc9965ad0878a34e38c8d4799a1e55c04b"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/frozen_prediction_manifest_before_new_outcomes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd93c284515aff3823219bfdc7eb6edb25a2347",
+      "size": 1221,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fdd93c284515aff3823219bfdc7eb6edb25a2347"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/analysis/frozen_predictions_target2024.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8959b15d9486ce6a1ea36b2acd2f086595bc8d7",
+      "size": 31898,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f8959b15d9486ce6a1ea36b2acd2f086595bc8d7"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "139807314895d113f80c47acad03871e42905708",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/139807314895d113f80c47acad03871e42905708"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/review/source_gate_independent_OECD2024.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0b72bcada91eb62d5d0c44097a4dc640f185e2",
+      "size": 5926,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0c0b72bcada91eb62d5d0c44097a4dc640f185e2"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/source_employment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "181da114cdae4ad5ca0da3aec02e1bcf304c4dbe",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/181da114cdae4ad5ca0da3aec02e1bcf304c4dbe"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/temporal2024/source_employment/oecd_v2_4_target2024_170.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0edd932c7f3eca5a0078b6d37348729b298bccbb",
+      "size": 3849,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0edd932c7f3eca5a0078b6d37348729b298bccbb"
+    },
+    {
+      "path": "support/baseline/base_v11/original",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b248d7aae18bf58900ed507e6e3935804106d512",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/b248d7aae18bf58900ed507e6e3935804106d512"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f9242746449a4a58b2a8fd492edf52efbd1dac1",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/8f9242746449a4a58b2a8fd492edf52efbd1dac1"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/analysis_panel_delayed.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b95adced6c2e16a43194976812ec144837c6a8",
+      "size": 718320,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/94b95adced6c2e16a43194976812ec144837c6a8"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/analysis_panel_main.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44418dd66fc4b19bd1bf4f341b9c484c7abd159",
+      "size": 780468,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c44418dd66fc4b19bd1bf4f341b9c484c7abd159"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d6201c8be115c424af1a8f162c8e1424705a146",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9d6201c8be115c424af1a8f162c8e1424705a146"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/bootstrap_intervals.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05e9e6c4be432ab35ac5a69728dfe7cc0c555d2",
+      "size": 645,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f05e9e6c4be432ab35ac5a69728dfe7cc0c555d2"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/model_ridge.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab037b1f8adb790dfeb12d853bbc7a496706d9b",
+      "size": 4137,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2ab037b1f8adb790dfeb12d853bbc7a496706d9b"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1f1d3fe150289e2604054722d5cac3de9e75da1",
+      "size": 3962,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c1f1d3fe150289e2604054722d5cac3de9e75da1"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/test_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ac8088c7cbe0555b379f8b07639c8528c9e2ae",
+      "size": 1728,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b3ac8088c7cbe0555b379f8b07639c8528c9e2ae"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/test_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78b5c7526d5ddd2aa2a62cde0450876631bc96f",
+      "size": 237873,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d78b5c7526d5ddd2aa2a62cde0450876631bc96f"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/delayed_features/training_design.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b36a47846a52d598d99aea481104ca4a23ad3ee",
+      "size": 208751,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7b36a47846a52d598d99aea481104ca4a23ad3ee"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9765e43997446462c1272711dc4877f5bac8d7e0",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9765e43997446462c1272711dc4877f5bac8d7e0"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/bootstrap_intervals.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4dfe956bf71d83211459e04c9594dd72c9dd09d",
+      "size": 653,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d4dfe956bf71d83211459e04c9594dd72c9dd09d"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/model_hist_gradient_boosting.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32eaff876e76d2124855d8d272170bdeafc69094",
+      "size": 206393,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/32eaff876e76d2124855d8d272170bdeafc69094"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/model_random_forest.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59c210cce2186bb832815fecf7a7bf968229d44e",
+      "size": 431066,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/59c210cce2186bb832815fecf7a7bf968229d44e"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/model_ridge.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439a23d057af91ccbec1dd6a9f1ec68c560560f9",
+      "size": 4161,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/439a23d057af91ccbec1dd6a9f1ec68c560560f9"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/selection_before_test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d7a1bbe5262edbfede02a62588656c3f3416e03",
+      "size": 4108,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8d7a1bbe5262edbfede02a62588656c3f3416e03"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/test_design.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ece45ac381ac9fe511c4bb62060355fb67e714",
+      "size": 74464,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/72ece45ac381ac9fe511c4bb62060355fb67e714"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/test_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb1bee2dbbe9467ddb81ad9c3f9afc3b40245de",
+      "size": 1733,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/ccb1bee2dbbe9467ddb81ad9c3f9afc3b40245de"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/test_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861443ba689916e5381126ca77a0711d0f9db52d",
+      "size": 237559,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/861443ba689916e5381126ca77a0711d0f9db52d"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/main/training_design.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5018405b80c65046fadd7a69131704f0f49a30f",
+      "size": 233493,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/b5018405b80c65046fadd7a69131704f0f49a30f"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/panel_all_rows_with_flags.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506f747129e349b2f988aeba43f5628d68a1ec78",
+      "size": 985024,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/506f747129e349b2f988aeba43f5628d68a1ec78"
+    },
+    {
+      "path": "support/baseline/base_v11/original/analysis/run_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21acc777e43f4cb75b65e7d20a14a01c6b9d8ffe",
+      "size": 26685,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/21acc777e43f4cb75b65e7d20a14a01c6b9d8ffe"
+    },
+    {
+      "path": "support/baseline/base_v11/original/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbffabc826676adffc465b9bfbde9f1191022cc5",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/cbffabc826676adffc465b9bfbde9f1191022cc5"
+    },
+    {
+      "path": "support/baseline/base_v11/original/fonts/NanumMyeongjo-Bold.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b79de4816b8a302e2e1b9276d22a41ba1757c4",
+      "size": 3074720,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/23b79de4816b8a302e2e1b9276d22a41ba1757c4"
+    },
+    {
+      "path": "support/baseline/base_v11/original/fonts/NanumMyeongjo-Regular.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c1bb666acfac3668c6b433b8419cd70d9140045",
+      "size": 3058408,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8c1bb666acfac3668c6b433b8419cd70d9140045"
+    },
+    {
+      "path": "support/baseline/base_v11/original/raw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ca7e4bdc64712d2819815985a72d1d1996d2344",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/2ca7e4bdc64712d2819815985a72d1d1996d2344"
+    },
+    {
+      "path": "support/baseline/base_v11/original/raw/economic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41188c3999593170cff5f7c232af3851b82c7442",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/41188c3999593170cff5f7c232af3851b82c7442"
+    },
+    {
+      "path": "support/baseline/base_v11/original/raw/economic/oecd_korea_regional_industry_raw.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a69766d6b108f20e1e03a6cf5db99307cd056a",
+      "size": 2305189,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/92a69766d6b108f20e1e03a6cf5db99307cd056a"
+    },
+    {
+      "path": "support/baseline/base_v11/original/raw/korea_region_codes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94505a9740b6f95b6f848e8dff0b128db125631b",
+      "size": 650,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/94505a9740b6f95b6f848e8dff0b128db125631b"
+    },
+    {
+      "path": "support/baseline/base_v11/original/raw/oecd_korea_regional_labour_raw.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0151aa823ab0e0f8e8a163083043d20007998a4d",
+      "size": 5606448,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0151aa823ab0e0f8e8a163083043d20007998a4d"
+    },
+    {
+      "path": "support/baseline/base_v11/original/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95cf4b7de2912d4933023ac6a8cdbca0cc86108a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/95cf4b7de2912d4933023ac6a8cdbca0cc86108a"
+    },
+    {
+      "path": "support/baseline/base_v11/original/service/outputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9096bab466d9c2eeab6006f868a4e6c073801c93",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9096bab466d9c2eeab6006f868a4e6c073801c93"
+    },
+    {
+      "path": "support/baseline/base_v11/original/service/outputs/linear_attributions_10_features.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4314c948ddf7ab3948a6da1e0d08b88bcb22074d",
+      "size": 136888,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4314c948ddf7ab3948a6da1e0d08b88bcb22074d"
+    },
+    {
+      "path": "support/baseline/base_v11/source_harmonized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe5f3fbb93f62b62df3265205098fbf0409c8911",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fe5f3fbb93f62b62df3265205098fbf0409c8911"
+    },
+    {
+      "path": "support/baseline/base_v11/source_harmonized/kosis_ksic11_H1_2013_2025_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60323a323b0603c37fd77b04616cbc9d34862493",
+      "size": 626349,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/60323a323b0603c37fd77b04616cbc9d34862493"
+    },
+    {
+      "path": "support/baseline/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bc4c56eb02f41fb5b8c286b5031811d763421fb",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/3bc4c56eb02f41fb5b8c286b5031811d763421fb"
+    },
+    {
+      "path": "support/baseline/code/evaluate_local_fallback.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f080cc801c0fe07fd4b2ebd73f4fa1bb72a870",
+      "size": 24925,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/28f080cc801c0fe07fd4b2ebd73f4fa1bb72a870"
+    },
+    {
+      "path": "support/forecast_addendum",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00557a3711f2628c079514836687c12579fb1e26",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/00557a3711f2628c079514836687c12579fb1e26"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e94e5186224bbe214e50ac45e826862bd4487310",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e94e5186224bbe214e50ac45e826862bd4487310"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "852e6bf43cbb49e9b2c5fa890c4fbf82f43ebe65",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/852e6bf43cbb49e9b2c5fa890c4fbf82f43ebe65"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4655b69cd99341515e2e7384cbdcdf786bd618e",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/c4655b69cd99341515e2e7384cbdcdf786bd618e"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6514fecca05b1d00d888b8b15292965609686de7",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/6514fecca05b1d00d888b8b15292965609686de7"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results/main/analysis_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d695b290d3e1a749a43d96e413419f69ff007f6",
+      "size": 457858,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2d695b290d3e1a749a43d96e413419f69ff007f6"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results/main/region_bootstrap_vs_default.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb3388606d7990487fcda8e2c3a10ae4ae352c64",
+      "size": 1179,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fb3388606d7990487fcda8e2c3a10ae4ae352c64"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results/main/test_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a263611752264b038746f02e60ad907f116f5822",
+      "size": 209241,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a263611752264b038746f02e60ad907f116f5822"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/results/main/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b9eee204166c5129285b57e7c199f02743d4b14",
+      "size": 310086,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/2b9eee204166c5129285b57e7c199f02743d4b14"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/analysis_harmonized/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d01e242c1f51ad259c12920948648a2aac42993a",
+      "size": 23553,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/d01e242c1f51ad259c12920948648a2aac42993a"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bad1544e90c0017029d11789dc40ab052e16185e",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/bad1544e90c0017029d11789dc40ab052e16185e"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized/kosis_DT_1ES3B05J_H1_2013_2025_precision1_dom.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447538b983896372e9c333330b8c35c681ac0fbc",
+      "size": 871199,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/447538b983896372e9c333330b8c35c681ac0fbc"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized/kosis_ksic11_H1_2013_2025_national_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55f13c37281b2baf7d5d135ff64e9fb17ee3eaa",
+      "size": 36159,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/f55f13c37281b2baf7d5d135ff64e9fb17ee3eaa"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized/kosis_ksic11_H1_2013_2025_panel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60323a323b0603c37fd77b04616cbc9d34862493",
+      "size": 626349,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/60323a323b0603c37fd77b04616cbc9d34862493"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized/kosis_ksic11_H1_2013_2025_sections.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62b8da9ecd6f5cdad205443387c011668a07e7c3",
+      "size": 1311929,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/62b8da9ecd6f5cdad205443387c011668a07e7c3"
+    },
+    {
+      "path": "support/forecast_addendum/bundled_inputs/source_harmonized/normalize_harmonized_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0033e359751e2b272d2aacdcdd1a7ac8b249161",
+      "size": 10311,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c0033e359751e2b272d2aacdcdd1a7ac8b249161"
+    },
+    {
+      "path": "support/forecast_addendum/protocol_v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61361bec2df060f0fbd6f946d345138da293a2b8",
+      "size": 5297,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/61361bec2df060f0fbd6f946d345138da293a2b8"
+    },
+    {
+      "path": "support/forecast_addendum/run_addendum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "877aac43707e42251a42bb01c576c4cb0a4a7047",
+      "size": 16146,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/877aac43707e42251a42bb01c576c4cb0a4a7047"
+    },
+    {
+      "path": "support/model_swap_addendum",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a3ae901e4445fcd2a6a2abc43355f0b8c6310e8",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9a3ae901e4445fcd2a6a2abc43355f0b8c6310e8"
+    },
+    {
+      "path": "support/model_swap_addendum/frozen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0bd10f5cf9046d5b7242edd49a0873fc46a4adc",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/f0bd10f5cf9046d5b7242edd49a0873fc46a4adc"
+    },
+    {
+      "path": "support/model_swap_addendum/frozen/protocol_and_cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdf50b659c719cab3a76211c9e91677e1c0de14e",
+      "size": 3994386,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/fdf50b659c719cab3a76211c9e91677e1c0de14e"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bdd6d5b4488396a2b6c97476913c93d9453e4cc",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/1bdd6d5b4488396a2b6c97476913c93d9453e4cc"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe25cd95f53baf2e13233230a7a7c005479b4ce8",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fe25cd95f53baf2e13233230a7a7c005479b4ce8"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "804e7a3f12ac1a7a89ee9a9174035c218e4ddbda",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/804e7a3f12ac1a7a89ee9a9174035c218e4ddbda"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3aac9546cd0aa3152af05cb6f6b6bd3221628c6",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e3aac9546cd0aa3152af05cb6f6b6bd3221628c6"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/extensions/revision_v9",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb585800fbe44adaac0c606f903b5629b36758a2",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fb585800fbe44adaac0c606f903b5629b36758a2"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/extensions/revision_v9/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c3504470baeb00b7920e84b6f099d79973f6018",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/8c3504470baeb00b7920e84b6f099d79973f6018"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/extensions/revision_v9/service/build_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9249c78433fad2c8ee17bbc6a5579a8991dec17b",
+      "size": 47812,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9249c78433fad2c8ee17bbc6a5579a8991dec17b"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/service_time_controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a64a03eac818914e49d196a3c5e6206e8efa5808",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a64a03eac818914e49d196a3c5e6206e8efa5808"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/base_v11/service_time_controls/source_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1922a435ed8677feea0d85ea10abd22f2c57f3a",
+      "size": 11489,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c1922a435ed8677feea0d85ea10abd22f2c57f3a"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "962918edad655d7786b8bfaa2cda0d81adf78d10",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/962918edad655d7786b8bfaa2cda0d81adf78d10"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfa362a21d59b5ba49d6eb3b034c6241d7095c67",
+      "size": 6926,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/dfa362a21d59b5ba49d6eb3b034c6241d7095c67"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/workflow_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a38447a57b361ab81697d45ce44eaf6088f53e4",
+      "size": 12831,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1a38447a57b361ab81697d45ce44eaf6088f53e4"
+    },
+    {
+      "path": "support/model_swap_addendum/guard_snapshot/workflow_guard_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff87211324f037e5c6c3a7c38c19d41d3097e0d",
+      "size": 6344,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8ff87211324f037e5c6c3a7c38c19d41d3097e0d"
+    },
+    {
+      "path": "support/model_swap_addendum/input",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a8033509c422cc7953c1dd756fe80b3f7eef933",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/1a8033509c422cc7953c1dd756fe80b3f7eef933"
+    },
+    {
+      "path": "support/model_swap_addendum/input/additional_model_coefficients.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3a552db1ad2dc33f89730ec352bb25b73e4a98",
+      "size": 1824,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/df3a552db1ad2dc33f89730ec352bb25b73e4a98"
+    },
+    {
+      "path": "support/model_swap_addendum/input/model_ridge_alpha1000.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c966e1f3819a3d4bbb324d362cf66957df5455c",
+      "size": 3937,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/7c966e1f3819a3d4bbb324d362cf66957df5455c"
+    },
+    {
+      "path": "support/model_swap_addendum/input/template_envelope.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46aac993e3c75fe4f9e7a2e4f41a93bf97724599",
+      "size": 8876,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/46aac993e3c75fe4f9e7a2e4f41a93bf97724599"
+    },
+    {
+      "path": "support/model_swap_addendum/input/test_predictions_additional.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5131c4503081a35a550cdaaa97ef24b72e65dc9f",
+      "size": 234200,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/5131c4503081a35a550cdaaa97ef24b72e65dc9f"
+    },
+    {
+      "path": "support/model_swap_addendum/input/validation_predictions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57bc9b34cd2116b68460d30c7a2ff1351f0f3799",
+      "size": 377188,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/57bc9b34cd2116b68460d30c7a2ff1351f0f3799"
+    },
+    {
+      "path": "support/model_swap_addendum/model_swap_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0433637fb2738f2692ee0ba8f69633774beb130c",
+      "size": 27451,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/0433637fb2738f2692ee0ba8f69633774beb130c"
+    },
+    {
+      "path": "support/original_result_audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dfc33a3c7ffc0c70938b0dc3ed77843acd6de9b",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9dfc33a3c7ffc0c70938b0dc3ed77843acd6de9b"
+    },
+    {
+      "path": "support/original_result_audit/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ae708f5d3fef909eaf8303c84d7003f1cafd043",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/3ae708f5d3fef909eaf8303c84d7003f1cafd043"
+    },
+    {
+      "path": "support/original_result_audit/code/verify_preserved_B.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9350522aa46a2f9741fe0213a9012408093ac613",
+      "size": 8959,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9350522aa46a2f9741fe0213a9012408093ac613"
+    },
+    {
+      "path": "support/original_result_audit/code/verify_preserved_C.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900c2b88ac357fb0dc5fa6ec3fe5ec0595b73746",
+      "size": 5281,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/900c2b88ac357fb0dc5fa6ec3fe5ec0595b73746"
+    },
+    {
+      "path": "support/original_result_audit/code/verify_preserved_D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8677f8bc901191334e087a4b2b23469b137fe51",
+      "size": 8048,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e8677f8bc901191334e087a4b2b23469b137fe51"
+    },
+    {
+      "path": "support/original_result_audit/input_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4970c471ad418a47ae2f47bfbe74914efeb99a86",
+      "size": 6288,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/4970c471ad418a47ae2f47bfbe74914efeb99a86"
+    },
+    {
+      "path": "support/original_result_audit/run_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8eac55006b28c1e59122d77a596f367b9589f0",
+      "size": 10645,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/db8eac55006b28c1e59122d77a596f367b9589f0"
+    },
+    {
+      "path": "support/service_addendum",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9625136bbdd43f8ee36495a1485804ad21925696",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/9625136bbdd43f8ee36495a1485804ad21925696"
+    },
+    {
+      "path": "support/service_addendum/audit_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c36a4787c8942916eeb6c9052df33579da7b6b",
+      "size": 7934,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/08c36a4787c8942916eeb6c9052df33579da7b6b"
+    },
+    {
+      "path": "support/service_addendum/existing_reproduction",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "874c54835c11818f090e4b2ce3138fb36319b0e7",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/874c54835c11818f090e4b2ce3138fb36319b0e7"
+    },
+    {
+      "path": "support/service_addendum/existing_reproduction/frozen_cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf29aedea2524eb17a570636b651f561287e42f0",
+      "size": 567097,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/cf29aedea2524eb17a570636b651f561287e42f0"
+    },
+    {
+      "path": "support/service_addendum/extended_audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa883f67996ae8de50371001cc1a74c9001a7295",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fa883f67996ae8de50371001cc1a74c9001a7295"
+    },
+    {
+      "path": "support/service_addendum/extended_audit/protocol_and_cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76ce72bec07a3211c3341393bb2d2f1af07520c",
+      "size": 884216,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/a76ce72bec07a3211c3341393bb2d2f1af07520c"
+    },
+    {
+      "path": "support/service_addendum/replay_service_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19b2753a9e3fdbdfeb897bf2902bccd9e4fb9b09",
+      "size": 5592,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/19b2753a9e3fdbdfeb897bf2902bccd9e4fb9b09"
+    },
+    {
+      "path": "support/service_addendum/run_technical_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e25cb7a02e3a01f932fbea4ca46a2e2b9a901763",
+      "size": 25767,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/e25cb7a02e3a01f932fbea4ca46a2e2b9a901763"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4681601402aa89d3469efbae7708c9c239e18a36",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/4681601402aa89d3469efbae7708c9c239e18a36"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "804e7a3f12ac1a7a89ee9a9174035c218e4ddbda",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/804e7a3f12ac1a7a89ee9a9174035c218e4ddbda"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3aac9546cd0aa3152af05cb6f6b6bd3221628c6",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/e3aac9546cd0aa3152af05cb6f6b6bd3221628c6"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/extensions/revision_v9",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb585800fbe44adaac0c606f903b5629b36758a2",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/fb585800fbe44adaac0c606f903b5629b36758a2"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/extensions/revision_v9/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c3504470baeb00b7920e84b6f099d79973f6018",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/8c3504470baeb00b7920e84b6f099d79973f6018"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/extensions/revision_v9/service/build_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9249c78433fad2c8ee17bbc6a5579a8991dec17b",
+      "size": 47812,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/9249c78433fad2c8ee17bbc6a5579a8991dec17b"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/service_time_controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a64a03eac818914e49d196a3c5e6206e8efa5808",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/a64a03eac818914e49d196a3c5e6206e8efa5808"
+    },
+    {
+      "path": "support/service_addendum/source_snapshot/base_v11/service_time_controls/source_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1922a435ed8677feea0d85ea10abd22f2c57f3a",
+      "size": 11489,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c1922a435ed8677feea0d85ea10abd22f2c57f3a"
+    },
+    {
+      "path": "support/service_addendum/technical_protocol_v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718a2f7bf034b7c07ca669dcea8e7c00ca863272",
+      "size": 3498,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/718a2f7bf034b7c07ca669dcea8e7c00ca863272"
+    },
+    {
+      "path": "support/service_addendum/v2_comparison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d345db2f8df9b1679a099a3033f49d80f8667e5a",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/d345db2f8df9b1679a099a3033f49d80f8667e5a"
+    },
+    {
+      "path": "support/service_addendum/v2_comparison/migration_control.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3117724317b70da9539d167b7e5fd0bcf86ea07d",
+      "size": 9401,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3117724317b70da9539d167b7e5fd0bcf86ea07d"
+    },
+    {
+      "path": "support/service_addendum/workflow_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a38447a57b361ab81697d45ce44eaf6088f53e4",
+      "size": 12831,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/1a38447a57b361ab81697d45ce44eaf6088f53e4"
+    },
+    {
+      "path": "support/service_addendum/workflow_guard_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff87211324f037e5c6c3a7c38c19d41d3097e0d",
+      "size": 6344,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/8ff87211324f037e5c6c3a7c38c19d41d3097e0d"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a75151ffb3d90ae4640f7acaca73cb86aada012",
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/trees/5a75151ffb3d90ae4640f7acaca73cb86aada012"
+    },
+    {
+      "path": "tests/test_pilot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c997d993660f3911af7793f1129f9ba4005d939f",
+      "size": 4544,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/c997d993660f3911af7793f1129f9ba4005d939f"
+    },
+    {
+      "path": "tests/test_release_contracts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3936691d481ec4d7e16ba638761b11725095b32e",
+      "size": 4693,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/3936691d481ec4d7e16ba638761b11725095b32e"
+    },
+    {
+      "path": "verify_package.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754c23487494640992cec516811e646842b999a1",
+      "size": 1967,
+      "url": "https://api.github.com/repos/thinkpa81/academic-papers/git/blobs/754c23487494640992cec516811e646842b999a1"
+    }
+  ],
+  "truncated": false
+}

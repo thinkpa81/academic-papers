@@ -1,0 +1,37 @@
+{
+  "prepared_utc": "2026-09-23T14:39:56.908892+00:00",
+  "source_gate": "2024 official direct-source complete target panel; awaiting independent statistical review",
+  "target_file": "oecd_v2_4_target2024_170.csv",
+  "target_sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738",
+  "source_file": "oecd_korea_emp_2_4_latest.csv",
+  "source_sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf",
+  "rows": 170,
+  "regions": 17,
+  "activities": [
+    "A",
+    "BTE",
+    "F",
+    "GTI",
+    "J",
+    "K",
+    "L",
+    "M_N",
+    "OTQ",
+    "RTU"
+  ],
+  "source_filter": {
+    "TERRITORIAL_LEVEL": "TL3",
+    "UNIT_MEASURE": "PS",
+    "UNIT_MULT": 0,
+    "TIME_PERIOD": 2024
+  },
+  "reference_period_verified": "2024H1, comparison against KOSIS KSIC10 DT_1ES3B05S",
+  "origin_reference_period_verified": "2023H1, old/new OECD2023 matches all176 available KOSIS aggregates exactly",
+  "2024_kosis_numeric_comparison": "175/175 total+industry aggregates exact; missing KOSIS component rows remain missing and were not zero-imputed. OECD provides direct all170 aggregate sector values.",
+  "overlap_old_new_oecd": "2022 and2023 each187/187 exact including total",
+  "prior_horizon_limitation": "2022 OECD matches KOSIS2022H2, so original2022->2023 outcome is half-year; not a homogeneous annual-horizon panel",
+  "primary_inclusion": "All170 official OECD2024 positive numeric sector cells, fixed before any2024 loss inspection",
+  "secondary_inclusion": "Retain pre-identified158 KOSIS-complete subset only as a source-availability sensitivity, same keys for all models",
+  "2025_status": "HOLD: Seoul A missing and Seoul total anomalous; KSIC11 bridge pending",
+  "model_performance_evaluated": false
+}

@@ -1,0 +1,618 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T03:04:40Z",
+      "timestamp": 1793156680041,
+      "version": "4.5.0"
+    },
+    "reference-count": 67,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "CSCW1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2021-04-13T00:00:00Z",
+          "timestamp": 1618272000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Proc. ACM Hum.-Comput. Interact."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:p>People supported by AI-powered decision support tools frequently overrely on the AI: they accept an AI's suggestion even when that suggestion is wrong. Adding explanations to the AI decisions does not appear to reduce the overreliance and some studies suggest that it might even increase it. Informed by the dual-process theory of cognition, we posit that people rarely engage analytically with each individual AI recommendation and explanation, and instead develop general heuristics about whether and when to follow the AI suggestions. Building on prior research on medical decision-making, we designed three cognitive forcing interventions to compel people to engage more thoughtfully with the AI-generated explanations. We conducted an experiment (N=199), in which we compared our three cognitive forcing designs to two simple explainable AI approaches and to a no-AI baseline. The results demonstrate that cognitive forcing significantly reduced overreliance compared to the simple explainable AI approaches. However, there was a trade-off: people assigned the least favorable subjective ratings to the designs that reduced the overreliance the most. To audit our work for intervention-generated inequalities, we investigated whether our interventions benefited equally people with different levels of Need for Cognition (i.e., motivation to engage in effortful mental activities). Our results show that, on average, cognitive forcing interventions benefited participants higher in Need for Cognition more. Our research suggests that human cognitive motivation moderates the effectiveness of explainable AI solutions.</jats:p>",
+    "DOI": "10.1145/3449287",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2021-04-22T13:51:09Z",
+      "timestamp": 1619099469000
+    },
+    "page": "1-21",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1087,
+    "title": [
+      "To Trust or to Think"
+    ],
+    "prefix": "10.1145",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Zana",
+        "family": "Buçinca",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maja Barbara",
+        "family": "Malaya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Applied Computer Science, Lodz, Poland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Krzysztof Z.",
+        "family": "Gajos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/hcomp.v7i1.5285"
+      },
+      {
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3411764.3445717"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jml.2012.11.001"
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "volume-title": "Overconfidence as a cause of diagnostic error in medicine. The American journal of medicine",
+        "author": "Berner Eta S",
+        "year": "2008",
+        "unstructured": "Eta S Berner and Mark L Graber. 2008. Overconfidence as a cause of diagnostic error in medicine. The American journal of medicine, Vol. 121, 5 (2008), S2--S23."
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2020"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2753.2001.00284.x"
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "volume-title": "Proceedings of the 25th International Conference on Intelligent User Interfaces (IUI '20)",
+        "author": "Buccinca Zana",
+        "unstructured": "Zana Buccinca, Phoebe Lin, Krzysztof Z. Gajos, and Elena L. Glassman. 2020. Proxy Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI Systems. In Proceedings of the 25th International Conference on Intelligent User Interfaces (IUI '20). ACM, New York, NY, USA."
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "volume-title": "Conference on fairness, accountability and transparency. 77--91",
+        "author": "Buolamwini Joy",
+        "year": "2018",
+        "unstructured": "Joy Buolamwini and Timnit Gebru. 2018. Gender shades: Intersectional accuracy disparities in commercial gender classification. In Conference on fairness, accountability and transparency. 77--91."
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICHI.2015.26"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.42.1.116"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15327752jpa4803_13"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/634067.634293"
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sbspro.2014.03.227"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "volume-title": "An exploratory cognitive DSS for strategic decision making. Decision support systems",
+        "author": "Chen Jim Q",
+        "year": "2003",
+        "unstructured": "Jim Q Chen and Sang M Lee. 2003. An exploratory cognitive DSS for strategic decision making. Decision support systems, Vol. 36, 2 (2003), 147--160."
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "volume-title": "Cognitive bias research in forensic science: a systematic review. Forensic science international",
+        "author": "Cooper Glinda S",
+        "year": "2019",
+        "unstructured": "Glinda S Cooper and Vanessa Meterko. 2019. Cognitive bias research in forensic science: a systematic review. Forensic science international, Vol. 297 (2019), 35--46."
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1067/mem.2003.22"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "volume-title": "2003 b. The importance of cognitive errors in diagnosis and strategies to minimize them",
+        "author": "Croskerry Pat",
+        "year": "2003",
+        "unstructured": "Pat Croskerry. 2003 b. The importance of cognitive errors in diagnosis and strategies to minimize them. Academic medicine, Vol. 78, 8 (2003), 775--780."
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1821936116"
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "volume-title": "Biased: Uncovering the hidden prejudice that shapes what we see, think, and do",
+        "author": "Eberhardt Jennifer L",
+        "year": "2020",
+        "unstructured": "Jennifer L Eberhardt. 2020. Biased: Uncovering the hidden prejudice that shapes what we see, think, and do. Penguin Books."
+      },
+      {
+        "key": "e_1_2_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ACM.0b013e31820824cd"
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2882794.2882801"
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3025171.3025192"
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "volume-title": "et almbox",
+        "author": "Garg Neelansh",
+        "year": "2018",
+        "unstructured": "Neelansh Garg, Apuroop Sethupathy, Rudraksh Tuwani, Rakhi Nk, Shubham Dokania, Arvind Iyer, Ayushi Gupta, Shubhra Agrawal, Navjot Singh, Shubham Shukla, et almbox. 2018. FlavorDB: a database of flavor molecules. Nucleic acids research, Vol. 46, D1 (2018), D1210-D1216."
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3432934"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "volume-title": "Asta Sorensen, Nancy Lenfestey, Elizabeth Tant, Kerm Henriksen, Kenneth LaBresh, and Hardeep Singh.",
+        "author": "Graber Mark L",
+        "year": "2012",
+        "unstructured": "Mark L Graber, Stephanie Kissam, Velma L Payne, Ashley ND Meyer, Asta Sorensen, Nancy Lenfestey, Elizabeth Tant, Kerm Henriksen, Kenneth LaBresh, and Hardeep Singh. 2012. Cognitive interventions to reduce diagnostic error: a narrative review. BMJ quality & safety, Vol. 21, 7 (2012), 535--557."
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3359152"
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1057-7408(08)80038-1"
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "first-page": "65",
+        "article-title": "A simple sequentially rejective multiple test procedure",
+        "volume": "6",
+        "author": "Holm Sture",
+        "year": "1979",
+        "unstructured": "Sture Holm. 1979. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, Vol. 6, 2 (1979), 65--70.",
+        "journal-title": "Scandinavian Journal of Statistics"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVCG.2011.175"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41398-021-01224-x"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "volume-title": "Proceedings of the 32nd International Conference on Neural Information Processing Systems. 5546--5557",
+        "author": "Jiang Heinrich",
+        "year": "2018",
+        "unstructured": "Heinrich Jiang, Been Kim, Melody Y Guan, and Maya Gupta. 2018. To trust or not to trust a classifier. In Proceedings of the 32nd International Conference on Neural Information Processing Systems. 5546--5557."
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "volume-title": "fast and slow",
+        "author": "Kahneman Daniel",
+        "unstructured": "Daniel Kahneman. 2011. Thinking, fast and slow. Macmillan."
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "volume-title": "Representativeness revisited: Attribute substitution in intuitive judgment.",
+        "author": "Kahneman Daniel",
+        "unstructured": "Daniel Kahneman and Shane Frederick. 2002. Representativeness revisited: Attribute substitution in intuitive judgment. In Representativeness revisited: Attribute substitution in intuitive judgment. New York. Cambridge University Press., 49--81."
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "volume-title": "Paul Slovic, and Amos Tversky.",
+        "author": "Kahneman Daniel",
+        "year": "1982",
+        "unstructured": "Daniel Kahneman, Stewart Paul Slovic, Paul Slovic, and Amos Tversky. 1982. Judgment under uncertainty: Heuristics and biases. Cambridge university press."
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "unstructured": "Ece Kamar. 2016. Directions in Hybrid Intelligence: Complementing AI Systems with Human Intelligence.. In IJCAI. 4070--4073."
+      },
+      {
+        "key": "e_1_2_1_36_1",
+        "volume-title": "Proceedings of the 11th International Conference on Autonomous Agents and Multiagent Systems-Volume 1. International Foundation for Autonomous Agents and Multiagent Systems, 467--474",
+        "author": "Kamar Ece",
+        "year": "2012",
+        "unstructured": "Ece Kamar, Severin Hacker, and Eric Horvitz. 2012. Combining human and machine intelligence in large-scale crowdsourcing. In Proceedings of the 11th International Conference on Autonomous Agents and Multiagent Systems-Volume 1. International Foundation for Autonomous Agents and Multiagent Systems, 467--474."
+      },
+      {
+        "key": "e_1_2_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5465/amj.2009.41331431"
+      },
+      {
+        "key": "e_1_2_1_38_1",
+        "volume-title": "Mental labour. Nature human behaviour",
+        "author": "Kool Wouter",
+        "year": "2018",
+        "unstructured": "Wouter Kool and Matthew Botvinick. 2018. Mental labour. Nature human behaviour, Vol. 2, 12 (2018), 899--908."
+      },
+      {
+        "key": "e_1_2_1_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VLHCC.2013.6645235"
+      },
+      {
+        "key": "e_1_2_1_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3313831.3376873"
+      },
+      {
+        "key": "e_1_2_1_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3287560.3287590"
+      },
+      {
+        "key": "e_1_2_1_42_1",
+        "volume-title": "Dual-process cognitive interventions to enhance diagnostic reasoning: a systematic review. BMJ quality & safety",
+        "author": "Lambe Kathryn Ann",
+        "year": "2016",
+        "unstructured": "Kathryn Ann Lambe, Gary O'Reilly, Brendan D Kelly, and Sarah Curristan. 2016. Dual-process cognitive interventions to enhance diagnostic reasoning: a systematic review. BMJ quality & safety, Vol. 25, 10 (2016), 808--820."
+      },
+      {
+        "key": "e_1_2_1_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0146167291176013"
+      },
+      {
+        "key": "e_1_2_1_44_1",
+        "volume-title": "Trust in automation: Designing for appropriate reliance. Human factors",
+        "author": "Lee John D",
+        "year": "2004",
+        "unstructured": "John D Lee and Katrina A See. 2004. Trust in automation: Designing for appropriate reliance. Human factors, Vol. 46, 1 (2004), 50--80."
+      },
+      {
+        "key": "e_1_2_1_45_1",
+        "volume-title": "The effects of online reviews on purchasing intention: The moderating role of need for cognition. Social Behavior and Personality: an international journal",
+        "author": "Lin Chin-Lung",
+        "year": "2011",
+        "unstructured": "Chin-Lung Lin, Sheng-Hsien Lee, and Der-Juinn Horng. 2011. The effects of online reviews on purchasing intention: The moderating role of need for cognition. Social Behavior and Personality: an international journal, Vol. 39, 1 (2011), 71--81."
+      },
+      {
+        "key": "e_1_2_1_46_1",
+        "volume-title": "Advances in Neural Information Processing Systems 30. Curran Associates",
+        "author": "Lundberg Scott M",
+        "unstructured": "Scott M Lundberg and Su-In Lee. 2017. A Unified Approach to Interpreting Model Predictions. In Advances in Neural Information Processing Systems 30. Curran Associates, Inc., 4765--4774."
+      },
+      {
+        "key": "e_1_2_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3301275.3302313"
+      },
+      {
+        "key": "e_1_2_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3340631.3394844"
+      },
+      {
+        "key": "e_1_2_1_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ACM.0b013e3181405a76"
+      },
+      {
+        "key": "e_1_2_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3359204"
+      },
+      {
+        "key": "e_1_2_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-74788-8_15"
+      },
+      {
+        "key": "e_1_2_1_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4612-4964-1_1"
+      },
+      {
+        "key": "e_1_2_1_53_1",
+        "volume-title": "Individual differences in the calibration of trust in automation. Human factors",
+        "author": "Pop Vlad L",
+        "year": "2015",
+        "unstructured": "Vlad L Pop, Alex Shrewsbury, and Francis T Durso. 2015. Individual differences in the calibration of trust in automation. Human factors, Vol. 57, 4 (2015), 545--556."
+      },
+      {
+        "key": "e_1_2_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3351095.3372873"
+      },
+      {
+        "key": "e_1_2_1_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2310/8000.2013.130860"
+      },
+      {
+        "key": "e_1_2_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00913367.2005.10639202"
+      },
+      {
+        "key": "e_1_2_1_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1439-037X.2004.00120.x"
+      },
+      {
+        "key": "e_1_2_1_58_1",
+        "volume-title": "Understanding differences in web usage: The role of need for cognition and the five factor model of personality. Social Behavior and Personality: an international journal",
+        "author": "Tuten Tracy L",
+        "year": "2001",
+        "unstructured": "Tracy L Tuten and Michael Bosnjak. 2001. Understanding differences in web usage: The role of need for cognition and the five factor model of personality. Social Behavior and Personality: an international journal, Vol. 29, 4 (2001), 391--398."
+      },
+      {
+        "key": "e_1_2_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3359338"
+      },
+      {
+        "key": "e_1_2_1_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocy052"
+      },
+      {
+        "key": "e_1_2_1_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0021-9029.2007.00149.x"
+      },
+      {
+        "key": "e_1_2_1_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3241365"
+      },
+      {
+        "key": "e_1_2_1_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0010-0277(74)90017-1"
+      },
+      {
+        "key": "e_1_2_1_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/xge0000014"
+      },
+      {
+        "key": "e_1_2_1_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15327027HC1504_01"
+      },
+      {
+        "key": "e_1_2_1_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3290605.3300509"
+      },
+      {
+        "key": "e_1_2_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3351095.3372852"
+      }
+    ],
+    "container-title": [
+      "Proceedings of the ACM on Human-Computer Interaction"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3449287",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3449287",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T17:28:22Z",
+      "timestamp": 1750181302000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3449287"
+      }
+    },
+    "subtitle": [
+      "Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "references-count": 67,
+    "journal-issue": {
+      "issue": "CSCW1",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            13
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3449287"
+    ],
+    "URL": "https://doi.org/10.1145/3449287",
+    "relation": {},
+    "ISSN": [
+      "2573-0142"
+    ],
+    "issn-type": [
+      {
+        "value": "2573-0142",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-04-22",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

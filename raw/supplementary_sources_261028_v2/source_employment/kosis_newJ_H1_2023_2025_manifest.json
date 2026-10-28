@@ -1,0 +1,14 @@
+{
+  "source_file": "kosis_DT_1ES3B05J_2023_2025H1_precision1_dom.json",
+  "source_sha256": "262fc92879349071e95d9de7af7e0c0d09182d6864946e35c4fe541516dcdedb",
+  "captured_at_utc": "2026-09-23T14:43:33.902Z",
+  "source_uri": "https://kosis.kr/statHtml/statHtml.do?sso=ok&returnurl=https%3A%2F%2Fkosis.kr%3A443%2FstatHtml%2FstatHtml.do%3FtblId%3DDT_1ES3B05J%26orgId%3D101%26",
+  "classification": "KSIC11",
+  "periods": [
+    "2023.1/2",
+    "2024.1/2",
+    "2025.1/2"
+  ],
+  "model_performance_evaluated": false,
+  "status": "diagnostic_only_not_training_or_test_targets"
+}

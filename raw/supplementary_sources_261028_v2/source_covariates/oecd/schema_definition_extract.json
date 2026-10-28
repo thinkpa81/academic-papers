@@ -1,0 +1,264 @@
+{
+  "source_schema": "revision4/source_covariates/oecd/latest_developer_schema.xml",
+  "sha256": "12de90144c64e722a3ee4aae5d5b65266b7153f02a682c6776cf057ce0f24e66",
+  "extracted_utc": "2026-09-23T14:35:49.253215+00:00",
+  "dataflows": [
+    {
+      "attributes": {
+        "id": "DSD_REG_LABOUR@DF_LAB",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "2.4",
+        "isFinal": "true"
+      },
+      "annotations": [
+        "NonProductionDataflow \n             true",
+        "REF_AREA,TERRITORIAL_LEVEL \n             LAYOUT_ROW",
+        "TIME_PERIOD \n             LAYOUT_COLUMN",
+        "MEASURE \n             LAYOUT_ROW_SECTION",
+        "OBS_STATUS=A,COUNTRY \n             NOT_DISPLAYED",
+        "MEASURE=EMP_RATIO,AGE=Y15T64,SEX=_T,=AUS+AU1+AU2+AU3+AU4+AU5+AU6+AU7+AU8+AUT+AT11+AT111+AT112+AT113+AT12+AT121+AT122+AT123+AT124+AT125+AT126+AT127+AT13+AT130+AT21+AT211+AT212+AT213+AT22+AT221+AT222+AT223+AT224+AT225+AT226+AT31+AT311+AT312+AT313+AT314+AT315+AT32+AT321+AT322+AT323+AT33+AT331+AT332+AT333+AT334+AT335+AT34+AT341+AT342 \n             DEFAULT",
+        "COMBINED_MEASURE:MEASURE,AGE,SEX;COMBINED_REF_AREA:REF_AREA,TERRITORIAL_LEVEL \n             COMBINED_CONCEPTS \n             COMBINED_MEASURE:Combined measure;COMBINED_REF_AREA:Combined reference area \n             COMBINED_MEASURE:Mesure combinée;COMBINED_REF_AREA:Zone géographique de référence combinée"
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "FREQ",
+      "position": "1"
+    },
+    {
+      "id": "TERRITORIAL_LEVEL",
+      "position": "2"
+    },
+    {
+      "id": "REF_AREA",
+      "position": "3"
+    },
+    {
+      "id": "TERRITORIAL_TYPE",
+      "position": "4"
+    },
+    {
+      "id": "MEASURE",
+      "position": "5"
+    },
+    {
+      "id": "AGE",
+      "position": "6"
+    },
+    {
+      "id": "SEX",
+      "position": "7"
+    },
+    {
+      "id": "UNIT_MEASURE",
+      "position": "8"
+    }
+  ],
+  "matching_codes": [
+    {
+      "codelist": {
+        "id": "CL_ACTIVITY_ISIC4",
+        "agencyID": "OECD",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               10 \n               10 \n             \n           \n           Total - all activities \n           Total - ensemble des activités"
+    },
+    {
+      "codelist": {
+        "id": "CL_AGE",
+        "agencyID": "OECD",
+        "version": "1.1",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               10 \n             \n           \n           Total \n           Total"
+    },
+    {
+      "codelist": {
+        "id": "CL_AGE",
+        "agencyID": "OECD",
+        "version": "1.1",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "Y15T64"
+      },
+      "text": "ORDER \n               600 \n             \n           \n           From 15 to 64 years \n           De 15 à 64 ans"
+    },
+    {
+      "codelist": {
+        "id": "CL_AGE",
+        "agencyID": "OECD",
+        "version": "1.1",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "Y_GT15"
+      },
+      "text": "ORDER \n               630 \n             \n           \n           Over 15 years \n           Plus de 15 ans"
+    },
+    {
+      "codelist": {
+        "id": "CL_CURRENCY",
+        "agencyID": "OECD",
+        "version": "1.1",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               2360 \n               2360 \n             \n           \n           All currencies \n           Toutes les devises"
+    },
+    {
+      "codelist": {
+        "id": "CL_EDUCATION_LEV_ISCED11",
+        "agencyID": "OECD",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               10 \n               10 \n             \n           \n           Total \n           Total"
+    },
+    {
+      "codelist": {
+        "id": "CL_SECTOR",
+        "agencyID": "OECD",
+        "version": "1.2",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "S1+S2 \n               COMP_RULE \n             \n             \n               ORDER \n               2300 \n               2300 \n             \n           \n           Total - all sectors \n           Total - tous secteurs"
+    },
+    {
+      "codelist": {
+        "id": "CL_SEX",
+        "agencyID": "OECD",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "Total \n           Total \n           Used for expressing totals."
+    },
+    {
+      "codelist": {
+        "id": "CL_UNIT_MEASURE",
+        "agencyID": "OECD",
+        "version": "1.7",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "PT_POP_SUB"
+      },
+      "text": "ORDER \n               5350 \n               5350 \n             \n           \n           Percentage of population in the same subgroup \n           Pourcentage de la population dans le même sous-groupe"
+    },
+    {
+      "codelist": {
+        "id": "CL_UNIT_MEASURE",
+        "agencyID": "OECD",
+        "version": "1.7",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "PT_LF_SUB"
+      },
+      "text": "ORDER \n               5590 \n               5590 \n             \n           \n           Percentage of labour force in the same subgroup \n           Pourcentage de la population active dans le même sous-groupe"
+    },
+    {
+      "codelist": {
+        "id": "CL_BUILT_UP",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               01 \n             \n           \n           Total built-up \n           Total des constructions"
+    },
+    {
+      "codelist": {
+        "id": "CL_END_USE_SECTOR",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               10 \n             \n           \n           All sectors \n           Total"
+    },
+    {
+      "codelist": {
+        "id": "CL_ORIGIN",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               60 \n               60 \n             \n           \n           Total \n           Total"
+    },
+    {
+      "codelist": {
+        "id": "CL_REG_MEASURE",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "2.7",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "LF_RATE"
+      },
+      "text": "Labour force participation rate \n           Taux d'activité"
+    },
+    {
+      "codelist": {
+        "id": "CL_REG_MEASURE",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "2.7",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "UNE_RATE"
+      },
+      "text": "Unemployment rate \n           Taux de chômage"
+    },
+    {
+      "codelist": {
+        "id": "CL_SECT_PERF",
+        "agencyID": "OECD.CFE.EDS",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "Total \n           Total"
+    },
+    {
+      "codelist": {
+        "id": "CL_OECD_TECHNOLOGY_PATENT",
+        "agencyID": "OECD.STI.PIE",
+        "version": "1.0",
+        "isFinal": "true"
+      },
+      "code": {
+        "id": "_T"
+      },
+      "text": "ORDER \n               10 \n             \n           \n           Total patents"
+    }
+  ]
+}

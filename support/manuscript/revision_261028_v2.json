@@ -1,0 +1,599 @@
+{
+  "release": "261028_v2",
+  "source": "support/manuscript/source_before_revision_261028_v2.docx",
+  "source_sha256": "7b2fa96fd4b1c19e11d04d7b790fff7ab7a4520d25bfaf44fd6edb7cdfefe418",
+  "paragraphs": [
+    {
+      "index": 6,
+      "before": "Design/methodology/approach  The design specifies four principles and an evidence-linked review workflow. Retrospective forecasting used harmonized first-half statistics for 17 Korean provinces and 10 industry groups, with 428 evaluation observations for 2023–2025. Fault injection, ablation, model substitution, and matched-information comparisons with Pandera evaluated the specified review requirements; selected requirements were also applied to three US macroeconomic series.",
+      "after": "Design/methodology/approach  The design specifies four principles and an evidence-linked review workflow. Historical forecasts were evaluated using revised, harmonized first-half statistics for 17 Korean provinces and 10 industry groups, with 428 evaluation observations for 2023–2025. Fault injection, ablation, model substitution, and matched-information comparisons with Pandera evaluated the specified review requirements; selected requirements were also applied to three US macroeconomic series."
+    },
+    {
+      "index": 30,
+      "before": "사용자가 AI 결과를 비교·검토하도록 유도하는 설계 논의[22]를 반영하여 기준모형과 학습모형의 예측값 및 과거 검증성능을 같은 화면에 제시하였다. 기준모형을 기본 제시값으로 설정한 운영 시나리오에서, 기준모형 우선 선택 전략과 과거 검증결과에 따른 학습모형 적용 규칙의 예측오차를 회고적으로 평가하였다. 실제 판단 정확도와 자동화 편향(automation bias)의 변화는 후속 사용자 평가 항목으로 구분하였다.",
+      "after": "사용자가 AI 결과를 비교·검토하도록 유도하는 설계 논의[22]를 반영하여 기준모형과 학습모형의 예측값 및 과거 검증성능을 같은 화면에 제시하였다. 기준모형을 기본 제시값으로 설정한 운영 시나리오에서, 기준모형 우선 선택 전략과 과거 검증결과에 따른 학습모형 적용 규칙의 예측오차를 개정자료를 이용하여 과거기간에 대해 비교하였다. 실제 판단 정확도와 자동화 편향(automation bias)의 변화는 후속 사용자 평가 항목으로 구분하였다."
+    },
+    {
+      "index": 33,
+      "before": "자동화 편향[43], 공표 당시 자료와 개정자료의 차이[25], 공공부문 알고리즘의 책임성[23]을 모형 비교·자료 점검·담당자 검토 기능의 근거로 삼았다. 평가대상은 회고적 예측성능과 구현 기능의 작동으로 설정하였다.",
+      "after": "자동화 편향[43], 공표 당시 자료와 개정자료의 차이[25], 공공부문 알고리즘의 책임성[23]을 모형 비교·자료 점검·담당자 검토 기능의 근거로 삼았다. 평가 범위는 개정자료를 이용한 과거기간 예측성능과 서비스 기능의 요구사항 충족 여부로 설정하였다."
+    },
+    {
+      "index": 42,
+      "before": "<그림 1> 검토가능성을 위한 지역고용 의사결정지원서비스의 과업과 근거 연결",
+      "after": "<그림 1> 지역고용 의사결정지원서비스의 검토 과업과 근거 연결 구조"
+    },
+    {
+      "index": 43,
+      "before": "주: 실선은 구현·기술평가 범위, 점선은 후속 현장 업무 연계를 나타낸다. 등록 근거의 신뢰성과 갱신권한은 기관 운영조건이며, 연구용 검토 완료와 정책 승인은 구분된다.",
+      "after": "주: 실선은 구현·기술평가 범위, 점선은 후속 현장 업무 연계를 나타낸다. 예측 식별자는 시도·산업·목표시점이며 자료·모형 판본과 구분한다. 등록 근거는 검토 완료 요건을 대조하는 데 사용하며, 근거가 바뀌면 현재 근거와 검토기록의 연결을 다시 확인한다. 연구용 검토 완료는 정책 승인을 의미하지 않는다."
+    },
+    {
+      "index": 48,
+      "before": "주분석에는 KOSIS의 시도/산업별 취업자(DT_1ES3B05J) 중 2013~2025년 상반기 자료를 사용하였다[4,5,6]. 제11차 한국표준산업분류(Korean Standard Industrial Classification, 11th revision, KSIC11)의 21개 대분류를 10개 산업군으로 통합하고, 시도별 공식 취업자 총계를 분모로 산업별 고용비중을 산출하였다. 천 명 단위를 명 단위로 환산하고 ‘-’는 결측값으로 처리하였으며, 구성 대분류의 값이 모두 확보된 경우에만 산업군별 합계를 산출하였다.",
+      "after": "주분석에는 KOSIS의 시도/산업별 취업자(통계표 ID: DT_1ES3B05J) 중 2013~2025년 상반기 자료를 사용하였다[4,5]. 제11차 한국표준산업분류(Korean Standard Industrial Classification, 11th revision, KSIC11)의 21개 대분류를 10개 산업군으로 통합하고, 시도별 공식 취업자 총계를 분모로 산업별 고용비중을 산출하였다. 천 명 단위를 명 단위로 환산하고 ‘-’는 결측값으로 처리하였으며, 구성 대분류의 값이 모두 확보된 경우에만 산업군별 합계를 산출하였다. 확보본의 통계표 주석은 제11차 분류의 2013년 상반기 이후 소급반영을 명시하며, 분석에는 해당 개정계열을 사용하였다[5]."
+    },
+    {
+      "index": 55,
+      "before": "2013~2025년 상반기 산업·직업 특성 보도자료 13건의 공표월은 모두 10월이었다[15]. 관측시점은 고용상황을 조사한 시점, 공표시점은 통계가 공개된 시점, 확보시점은 연구자가 자료를 취득한 시점으로 구분하였다. 주분석은 2026년 9월 확보한 개정계열에 대한 회고적 평가이다. 개별 통계값의 최초 공개·수정 이력은 확보하지 못하였다. 4월 자료를 10월에 이용하여 다음 해 4월을 예측하는 운영 시나리오에서는 고용변동의 관측간격이 12개월이고 실제 예측 선행기간은 약 6개월이다.",
+      "after": "2013~2025년 상반기 산업·직업 특성 보도자료 13건의 공표월은 모두 10월이었다[15]. 관측시점은 고용상황을 조사한 시점, 공표시점은 통계가 공개된 시점, 확보시점은 연구자가 자료를 취득한 시점으로 구분하였다. 주분석은 2026년 9월 26일 확보한 개정자료를 시간순으로 분할하여 과거기간의 예측성능을 평가한 것이다. 개별 통계값의 최초 공개·수정 이력은 확보하지 못하였다. 4월 자료를 10월에 이용하여 다음 해 4월을 예측하는 운영 시나리오에서는 고용변동의 관측간격이 12개월이고 실제 예측 선행기간은 약 6개월이다."
+    },
+    {
+      "index": 66,
+      "before": "확장 후보군에는 최초 20개 설정에 XGBoost·CatBoost·LightGBM 각 4개를 더한 32개, 여기에 AR(1) 계열 6개를 더한 38개를 포함하였다[50,51,52]. 고정분할과 확장창에서 전체 20·32·38개 선택, 학습모형군 내부 선택 및 AR(1)을 포함한 강화 기준후보 12개 선택을 비교하였다. 모든 선정은 평가연도 이전의 비가중 검증 MAE에 따랐다.",
+      "after": "확장 후보군에는 최초 20개 설정에 XGBoost·CatBoost·LightGBM 각 4개를 더한 32개, 여기에 AR(1) 계열 6개를 더한 38개를 포함하였다[50,51,52]. 고정분할과 학습기간 확장 방식(expanding-window evaluation)의 시간순 평가에서 전체 20·32·38개 선택, 학습모형군 내부 선택 및 AR(1)을 포함한 강화 기준후보 12개 선택을 비교하였다. 모든 선정은 평가연도 이전의 비가중 검증 MAE에 따랐다."
+    },
+    {
+      "index": 78,
+      "before": "추가 고정 예측 비교에서는 동일 시도 추출을 공유한 10,000회 부트스트랩으로 개별 구간과 최대 절대 표준화 편차에 따른 동시구간을 산출하였다. 비교군은 릿지·AR(1)·절편 축소·G2·G3의 5개 비교, 확장 고정분할의 9개 모형군 및 확장창의 16개 전략·모형군으로 구분하였으며, MAE와 wMAE도 따로 보정하였다. 동시구간의 산출 방식과 고정분할 결과는 부록 D.2에 제시하였다. 사전에 허용 손실폭을 정한 동등성·비열등성 검정은 수행하지 않았으므로, 0을 포함한 구간은 오차 차이의 불확실성을 나타낸다.",
+      "after": "추가 고정 예측 비교에서는 동일 시도 추출을 공유한 10,000회 부트스트랩으로 개별 구간과 최대 절대 표준화 편차에 따른 동시구간을 산출하였다. 비교군은 릿지·AR(1)·절편 축소·G2·G3의 5개 비교, 확장 고정분할의 9개 모형군 및 학습기간 확장 평가의 16개 전략·모형군으로 구분하였으며, MAE와 wMAE도 따로 보정하였다. 동시구간의 산출 방식과 고정분할 결과는 부록 D.2에 제시하였다. 사전에 허용 손실폭을 정한 동등성·비열등성 검정은 수행하지 않았으므로, 0을 포함한 구간은 오차 차이의 불확실성을 나타낸다."
+    },
+    {
+      "index": 80,
+      "before": "시간적 안정성은 KOSIS 자료의 2020~2025년 6개 확장창으로 평가하였다. 결과연도 Y에서 2016~Y−2년을 훈련, Y−1년을 검증, Y년을 평가에 사용하고 선정모형을 훈련·검증자료에 재적합하였다. 각 후보군 내부 선택과 전체 후보 선택을 구분하여 연도별 MAE를 동일가중 평균하였다. 동일 시도를 연도 전체에 걸쳐 함께 추출한 10,000회 부트스트랩으로 전략 간 차이 구간을 산출하였다. 평가는 기존 결과를 알고 수행한 현재 개정자료의 시간적 민감도 분석이다[24,46].",
+      "after": "시간적 안정성은 학습기간을 순차적으로 늘리면서 KOSIS 자료의 2020~2025년을 한 연도씩 평가하는 6회의 시간순 평가로 검토하였다. 결과연도 Y에서 2016~Y−2년을 훈련, Y−1년을 검증, Y년을 평가에 사용하고 선정모형을 훈련·검증자료에 재적합하였다. 각 후보군 내부 선택과 전체 후보 선택을 구분하여 연도별 MAE를 동일가중 평균하였다. 동일 시도를 연도 전체에 걸쳐 함께 추출한 10,000회 부트스트랩으로 전략 간 차이 구간을 산출하였다. 평가는 기존 결과를 알고 수행한 현재 개정자료의 시간적 민감도 분석이다[24,46]."
+    },
+    {
+      "index": 82,
+      "before": "영향진단에서는 실제 로그변동 절댓값 상위 1·5·10개 및 5%(22개)를 차례로 제외하고, 절대오차 중앙값·관측치별 승률·고용규모별 결과를 비교하였다. 구성 대분류의 상대표준오차(relative standard error, RSE) 25% 이상 표시를 입력·목표연도에 연결하여 층화하였다[27]. 결과값에 따른 제외와 구성산업 정밀도 표시는 진단 기준으로 사용하였으며, 전체 조건과 결과는 재현자료에 보존하였다.",
+      "after": "영향진단에서는 실제 로그변동 절댓값 상위 1·5·10개 및 5%(22개)를 차례로 제외하고, 절대오차 중앙값·관측치별 승률·고용규모별 결과를 비교하였다. 구성 대분류의 상대표준오차(relative standard error, RSE) 25% 이상 표시를 입력·목표연도에 연결하여 층화하였다[5]. 결과값에 따른 제외와 구성산업 정밀도 표시는 진단 기준으로 사용하였으며, 전체 조건과 결과는 재현자료에 보존하였다."
+    },
+    {
+      "index": 83,
+      "before": "OECD 원계열은 2015~2023년의 9개 확장창과 기본 제시모형 변경 규칙으로 평가하였다. 대구·경북은 전 기간 고용을 먼저 합산한 후 입력변수와 모형을 다시 추정하여 경계 변경을 통합지역 내부에서 처리하였다. 분석별 표본, 입력의 관측간격, 변경 규칙과 결과는 부록 A에 제시하였다.",
+      "after": "OECD 원계열은 2015~2023년의 9회 학습기간 확장 평가와 기본 제시모형 변경 규칙으로 평가하였다. 대구·경북은 전 기간 고용을 먼저 합산한 후 입력변수와 모형을 다시 추정하여 경계 변경을 통합지역 내부에서 처리하였다. 분석별 표본, 입력의 관측간격, 변경 규칙과 결과는 부록 A에 제시하였다."
+    },
+    {
+      "index": 92,
+      "before": "권역별 예측편차는 릿지와 기준모형의 고용 로그변동 예측값 차이로 정의하였다. 0.5로그포인트 초과는 상회, −0.5 미만은 하회, 그 사이는 근접으로 분류하였다. 이는 기준모형 대비 상대적 위치이며 고용 증감 방향과 구분된다. 과거 검증에서는 2025년 집계 대상 시도의 자료가 모두 확보된 2020~2022년을 이용하고, 릿지와 실제값에서 기준모형 예측값을 각각 차감한 두 편차의 부호 일치를 확인하였다. 조합별 사례가 0~3개이므로 화면에는 사례 수와 MAE 차이를 제시하고, 부호 일치율은 전체 유효 사례의 기술통계로 보고하였다. 검증예측은 훈련자료 적합모형에서, 2025년 예측은 훈련·검증 통합 재적합모형에서 산출하였다. 이 진단은 모형 선정자료와 사후 자료 가용성을 반영한 회고적 비교이다.",
+      "after": "권역별 예측편차는 릿지와 기준모형의 고용 로그변동 예측값 차이로 정의하였다. 0.5로그포인트 초과는 상회, −0.5 미만은 하회, 그 사이는 근접으로 분류하였다. 이는 기준모형 대비 상대적 위치이며 고용 증감 방향과 구분된다. 과거 검증에서는 2025년 집계 대상 시도의 자료가 모두 확보된 2020~2022년을 이용하고, 릿지와 실제값에서 기준모형 예측값을 각각 차감한 두 편차의 부호 일치를 확인하였다. 조합별 사례가 0~3개이므로 화면에는 사례 수와 MAE 차이를 제시하고, 부호 일치율은 전체 유효 사례의 기술통계로 보고하였다. 검증예측은 훈련자료 적합모형에서, 2025년 예측은 훈련·검증 통합 재적합모형에서 산출하였다. 이 진단은 모형 선정에 사용한 과거 검증자료와 사후에 확인한 자료 가용성을 반영한 비교이다."
+    },
+    {
+      "index": 99,
+      "before": "기존 구현은 자료 적격성, 카드 해시값과 검토기록의 필수 항목을 검사하였다. 관계 검증 v1은 현재 카드·요청·기록·상태의 일치를, v2는 수치 입력과 표시·근거의 정합성을 추가하였다. v3는 호출자가 별도로 관리하는 참조자료와 제출 모형·입력·검증근거를 대조하였다. 각 버전의 실패 사례와 보완 결과를 보존하여 설계 변경의 근거를 추적하였다.",
+      "after": "기존 구현은 자료 적격성, 카드 해시값과 검토기록의 필수 항목을 검사하였다. 이후 검사 요건과 구현의 변경 이력을 버전 1(v1), 버전 2(v2), 버전 3(v3)으로 구분하였다. v1은 현재 카드·요청·검토기록·검사 상태 간 일치를 검사하고, v2는 수치 입력과 표시값·근거 간 정합성 검사를 추가하였다. v3는 호출자가 별도로 관리하는 참조자료와 제출된 모형정보·입력값·검증근거를 대조하였다. 각 버전의 실패 사례와 보완 결과를 보존하여 설계 변경의 근거를 추적하였다."
+    },
+    {
+      "index": 108,
+      "before": "외부자료는 statsmodels가 공개한 미국 거시경제 자료의 실질 GDP·소비·투자 계열이다[61]. 1959년 1분기~2009년 3분기의 203개 분기에서 전분기 대비 로그변화율을 계산하고, 학습 1989년까지, 검증 1990~1999년, 평가 2000년 1분기~2009년 3분기로 구분하였다. AR(1)과 정규화한 두 시차를 사용하는 릿지(α=1)를 고정하여 3개 계열·39개 평가분기·2개 모형의 예측 234개를 생성하였다. 이를 지역고용 예측 272개와 함께 평가하였으며, 공통 검사 코드는 두 자료에 동일하게 적용하였다. 전처리·기간 분할·참조자료 구성과 해시는 부록 G에 제시하였다.",
+      "after": "외부자료는 statsmodels가 제공하는 미국 거시경제 데이터셋(macrodata)의 실질 국내총생산(realgdp), 실질 개인소비지출(realcons), 실질 민간국내총투자(realinv) 계열이다[61]. 1959년 1분기~2009년 3분기의 203개 분기에서 전분기 대비 로그변화율을 계산하고, 학습 1989년까지, 검증 1990~1999년, 평가 2000년 1분기~2009년 3분기로 구분하였다. AR(1)과 정규화한 두 시차를 사용하는 릿지(α=1)를 고정하여 3개 계열·39개 평가분기·2개 모형의 예측 234개를 생성하였다. 이를 지역고용 예측 272개와 함께 평가하였으며, 공통 검사 코드는 두 자료에 동일하게 적용하였다. 전처리·기간 분할·참조자료 구성과 해시는 부록 G에 제시하였다."
+    },
+    {
+      "index": 109,
+      "before": "기반 예측 506개에 정상 대조 3유형과 결함 12유형을 각각 적용하여 조건별 7,590개 입력을 구성하였다. 코드·유형·기대값과 사례 파일은 해당 추가 시험의 적합 및 실행 단계 전에 순차적으로 기록하였다. 연구진이 기존 실패를 참고하여 설계한 회고적 기술평가이며, 사례는 기반 예측을 공유한다. 따라서 수용·차단 횟수와 조건 간 판정 일치를 보고하였다. 별도로 제출 근거와 참조자료를 함께 변경한 506개 사례를 구성하여, 호출자가 신뢰할 수 있는 참조자료를 제공한다는 가정의 범위를 확인하였다.",
+      "after": "기반 예측 506개에 정상 대조 3유형과 결함 12유형을 각각 적용하여 조건별 7,590개 입력을 구성하였다. 코드·유형·기대값과 사례 파일은 해당 추가 시험의 적합 및 실행 단계 전에 순차적으로 기록하였다. 이 평가는 연구진이 기존 실패 사례를 반영하여 검사 요건을 보완한 내부 형성평가이며, 시험 사례는 기반 예측을 공유한다. 따라서 수용·차단 횟수와 조건 간 판정 일치를 보고하였다. 별도로 제출 근거와 참조자료를 함께 변경한 506개 사례를 구성하여, 호출자가 신뢰할 수 있는 참조자료를 제공한다는 가정의 범위를 확인하였다."
+    },
+    {
+      "index": 111,
+      "before": "본 연구의 분석 코드, 원자료 확보본, 계산 결과, 표·그림 및 기술평가 명세는 GitHub 저장소(https://github.com/thinkpa81/academic-papers)에 공개하였다. 재현 기준 버전은 2026년 10월 28일 공개한 커밋 e125b2791b955483878439664bc73e5b6cbb88a0이다. 공개자료에는 원자료 정규화, 예측평가, 등록 근거 대조, 공통 검사 요건 비교 및 외부자료 적용의 실행 코드와 검증기록을 수록하였으며, 파일별 크기와 SHA-256 해시를 제공하였다. 또한 그림 1의 생성 코드와 현장평가용 과업·수집 프로그램·분석 코드를 포함하였다. 현장평가 자료는 실무자 8명·16개 과업·두 표시조건의 실시 계획과 빈 관측양식이며, 실제 참여자와 관측은 0건으로 사용자 효과를 검증한 결과와 구분하였다. 자료와 시험의 상세 명세는 부록 B, E–G 및 저장소의 실행 안내에 제시하였다.",
+      "after": "본 연구의 분석 및 기술평가 공개 기준은 GitHub 저장소(https://github.com/thinkpa81/academic-papers)의 커밋 e125b2791b955483878439664bc73e5b6cbb88a0이다. 이 공개본에는 예측분석, 등록 근거 대조, 공통 검사 요건 비교, 외부자료 적용 및 현장평가 준비 코드가 포함되어 있다. 본 수정본의 재현 기준은 동봉한 261028_v2 패키지이며, 수정된 원고·그림, 출처 보완자료와 요청사항별 검토기록을 추가하였다. 파일별 크기와 SHA-256·SHA-512 해시는 배포목록에 기록하였고, 기존 근거 식별자와 시험자료의 SHA-256은 유지하였다. 공개 커밋과 동봉 수정본의 파일 범위는 패키지 안내에 구분하였다. 현장평가 자료는 실무자 8명·16개 과업·두 표시조건의 계획과 빈 양식이며 실제 사용자 평가 결과가 아니다. 세부 경로는 부록 F·G와 패키지의 실행 안내에 제시하였다."
+    },
+    {
+      "index": 116,
+      "before": "주: MAE의 단위는 로그포인트이다. 기준모형은 주분석과 통합지역 보완분석에서 전체 과거평균, 원계열 보완분석과 2024년 모형 고정 평가에서 수준 유지 모형이다. 원계열 보완분석의 평가표본과 MAE는 2021~2023년 평가에 해당하며, 확장창 평가결과는 별도로 제시하였다. 각 MAE는 해당 분석 내부의 모형 비교에 사용하였다. 분석 간에는 자료·입력변수·평가표본·집계단위가 다르므로 각 조건을 함께 고려하여 해석한다.",
+      "after": "주: MAE의 단위는 로그포인트이다. 기준모형은 주분석과 통합지역 보완분석에서 전체 과거평균, 원계열 보완분석과 2024년 모형 고정 평가에서 수준 유지 모형이다. 원계열 보완분석의 평가표본과 MAE는 2021~2023년 평가에 해당하며, 학습기간 확장 평가결과는 별도로 제시하였다. 각 MAE는 해당 분석 내부의 모형 비교에 사용하였다. 분석 간에는 자료·입력변수·평가표본·집계단위가 다르므로 각 조건을 함께 고려하여 해석한다."
+    },
+    {
+      "index": 140,
+      "before": "최근 고용변동 1로그포인트 증가에 따른 릿지 예측값의 변화는 다른 입력이 동일할 때 주분석에서 −0.08로그포인트였다. 통합 AR(1)의 기울기도 −0.151이었다. 본 연구의 절편 축소는 관측된 고용변동의 예측계수를 규제하는 방법으로, 조사설계 분산을 활용하는 소지역 추정[27]과 추정 방식 및 입력정보가 다르다.",
+      "after": "최근 고용변동 1로그포인트 증가에 따른 릿지 예측값의 변화는 다른 입력이 동일할 때 주분석에서 −0.08로그포인트였다. 통합 AR(1)의 기울기도 −0.151이었다. 본 연구의 절편 축소모형은 공통 절편과 기울기에는 규제를 적용하지 않고 시도·산업별 절편 편차에 L₂ 규제를 적용한다. 직접추정량과 그 표본분산을 이용하는 Fay–Herriot 소지역 추정모형[27]과는 입력정보와 추정 목적이 다르다."
+    },
+    {
+      "index": 170,
+      "before": "<그림 2> 동일 기준 주분석의 서울 BTE 산업군 예측근거와 검토 절차",
+      "after": "<그림 2> 서울 BTE 산업군의 예측근거와 검토 절차"
+    },
+    {
+      "index": 192,
+      "before": "4.5.3 확장창의 시간순 성능",
+      "after": "4.5.3 학습기간 확장 방식의 시간순 예측성능"
+    },
+    {
+      "index": 193,
+      "before": "최초 20개 후보의 6개 확장창에서 기준모형군·학습모형군·전체 후보 선택의 연도 동일가중 MAE는 각각 9.662, 9.462, 9.752였다. 학습모형군−기준모형군 차이는 −0.200(개별 95% 구간 [−0.341, −0.053]), 전체 후보−기준모형군 차이는 +0.089([−0.051, 0.223])였다. 후보군 내부 선택과 전체 후보 선택의 평가 결과가 달라, 후보군 구성을 선택 전략의 일부로 구분하였다.",
+      "after": "최초 20개 후보를 이용한 6회의 학습기간 확장 평가에서 기준모형군·학습모형군·전체 후보 선택의 연도 동일가중 MAE는 각각 9.662, 9.462, 9.752였다. 학습모형군−기준모형군 차이는 −0.200(개별 95% 구간 [−0.341, −0.053]), 전체 후보−기준모형군 차이는 +0.089([−0.051, 0.223])였다. 후보군 내부 선택과 전체 후보 선택의 평가 결과가 달라, 후보군 구성을 선택 전략의 일부로 구분하였다."
+    },
+    {
+      "index": 194,
+      "before": "확장창에서 전체 38개 선택의 연도 평균 MAE는 9.767, 학습후보 32개 선택은 9.393, 강화 기준후보 12개 선택은 9.639였다. 기준 6개 선택(9.662) 대비 학습후보 전략의 차이는 −0.270이며 16개 비교의 근사 동시구간은 [−0.503, −0.037]이었다. 전체 38개 전략의 차이는 +0.104, 동시구간은 [−0.082, 0.290]이었다. 개선 여부는 후보군 구성과 선택 전략에 따라 달랐다. 모형군별 평균은 통합 AR(1) 9.295, 절편 축소 9.310, 릿지 9.375였으며 전체 비교는 <부록표 D3>에 제시하였다.",
+      "after": "학습기간 확장 평가에서 전체 38개 선택의 연도 평균 MAE는 9.767, 학습후보 32개 선택은 9.393, 강화 기준후보 12개 선택은 9.639였다. 기준 6개 선택(9.662) 대비 학습후보 전략의 차이는 −0.270이며 16개 비교의 근사 동시구간은 [−0.503, −0.037]이었다. 전체 38개 전략의 차이는 +0.104, 동시구간은 [−0.082, 0.290]이었다. 개선 여부는 후보군 구성과 선택 전략에 따라 달랐다. 모형군별 평균은 통합 AR(1) 9.295, 절편 축소 9.310, 릿지 9.375였으며 전체 비교는 <부록표 D3>에 제시하였다."
+    },
+    {
+      "index": 201,
+      "before": "미래 실제값을 변경한 시험에서 기본 예측값, 기준모형 대비 편차, 과거 검증진단 및 근거 해시값은 유지되었고 사후 경고만 변경되었다. 실제 고용증감률의 절댓값 20% 이상을 경고 기준으로 사용하였으며, 이 값은 시연을 위한 자료 점검 기준으로 설정하였다. 소급보정·신분류 공표 이력은 자료 작성·변경 과정의 메타데이터(metadata)로 관리하였다.",
+      "after": "미래 실제값을 변경한 시험에서 기본 예측값, 기준모형 대비 편차, 과거 검증진단 및 근거 해시값은 유지되었고 사후 경고만 변경되었다. 실제 고용증감률의 절댓값 20% 이상을 경고 기준으로 사용하였으며, 이 값은 시연을 위한 자료 점검 기준으로 설정하였다. 소급보정 범위와 개정 산업분류의 공표 이력은 자료의 작성 및 변경 과정을 설명하는 메타데이터(metadata)로 관리하였다."
+    },
+    {
+      "index": 241,
+      "before": "정보시스템(information system, IS)에서는 시도·산업·예측시점을 공통 식별자로 사용하여 예측근거, 현장 조사와 담당자 기록을 연결할 수 있다. 자료나 모형이 갱신되면 재검토 대상을 표시하고 기관의 권한·기록관리 체계로 이관하는 방식이다. 이는 인적자원개발(human resource development, HRD) 업무에서 분석결과와 판단근거를 축적하기 위한 후속 적용 방향이다.",
+      "after": "자료출처와 활동·책임 주체의 관계를 기록하는 PROV의 접근[56,57]을 바탕으로, 본 연구는 기관 정보시스템에서 시도·산업·예측시점을 공통 식별자로 사용하여 예측근거, 현장조사 결과와 담당자 기록을 연결하는 방안을 제안한다. 자료나 모형이 갱신되면 재검토 대상을 표시하고 기관의 권한·기록관리 체계와 연계하도록 한다. 이는 인적자원개발(human resource development, HRD) 업무에서 분석결과와 판단근거를 축적하기 위한 후속 적용 방향이다."
+    },
+    {
+      "index": 245,
+      "before": "본 연구는 자료 적격성 확인, 예측 비교, 근거 제시와 현재 검토기록을 하나의 과업 흐름으로 연결하여 지역고용 예측의 검토가능성을 구체화하였다. RQ1에서 최초 릿지의 MAE 차이는 −0.106로그포인트였고 신뢰구간은 0을 포함하였다. 확장창의 학습후보 32개 선택에서는 기준 6개 선택 대비 차이 −0.270로그포인트의 동시구간이 [−0.503, −0.037]이었으나, 전체 38개 선택에서는 0을 포함하였다. 이 탐색적 결과는 성능을 후보군·선정규칙·평가지표 및 적용기간과 함께 제시할 필요성을 뒷받침한다.",
+      "after": "본 연구는 자료 적격성 확인, 예측 비교, 근거 제시와 현재 검토기록을 하나의 과업 흐름으로 연결하여 지역고용 예측의 검토가능성을 구체화하였다. RQ1에서 최초 릿지의 MAE 차이는 −0.106로그포인트였고 신뢰구간은 0을 포함하였다. 학습기간 확장 평가의 학습후보 32개 선택에서는 기준 6개 선택 대비 차이 −0.270로그포인트의 동시구간이 [−0.503, −0.037]이었으나, 전체 38개 선택에서는 0을 포함하였다. 이 탐색적 결과는 성능을 후보군·선정규칙·평가지표 및 적용기간과 함께 제시할 필요성을 뒷받침한다."
+    },
+    {
+      "index": 247,
+      "before": "6.2 연구의 한계와 적용 범위",
+      "after": "6.2 연구결과의 적용 범위와 한계"
+    },
+    {
+      "index": 248,
+      "before": "첫째, 자료의 시점과 표본 범위에 제약이 있다. 본 연구는 현재 개정자료에 대한 회고적 평가이며 과거 최초 공표·수정 이력은 확보하지 못하였다. 전체 후보의 85.24%가 포함되었고 일부 제외집단의 고용규모와 결과변동은 관측되지 않아, 표본 비교는 확인 가능한 특성에 한정된다. 분류 전환·표본변동·실제 고용조정의 영향은 현재 자료만으로 구분하기 어렵다.",
+      "after": "첫째, 예측성능은 2026년 9월 확보한 개정자료와 분석요건을 충족한 표본에 적용된다. 과거 최초 공표값과 수정 이력이 없어 당시 이용 가능했던 자료에 대한 예측성능은 별도로 확인해야 한다. 전체 후보의 85.24%가 포함되었으며, 제외집단 비교는 고용규모와 결과변동이 관측된 사례에 한정하였다. 분류 전환·표본변동·실제 고용조정의 개별 영향은 추가 자료를 이용한 검증 과제이다."
+    },
+    {
+      "index": 249,
+      "before": "둘째, 성능 추론은 관측된 시도·연도와 지정한 후보군에 조건부이다. 17개 시도와 제한된 평가연도를 사용하여 전국 공통 충격과 자료 개정의 의존성이 남아 있다. 군집 구간은 관측연도에 조건부이며 재선정 분석은 선형·기준 후보 17개에 한정하였다. 38개 후보 비교도 기존 결과를 확인한 후 수행한 제한된 격자 평가이므로, 제시한 성능은 해당 후보군·전처리·실행 명세의 범위에서 해석해야 한다.",
+      "after": "둘째, 성능 추론의 범위는 관측된 17개 시도·평가연도와 지정한 후보군이다. 시도 군집 구간은 관측연도에 조건부이며 전국 공통 충격과 자료 개정에 따른 의존성을 모두 반영하지는 않는다. 재선정 분석은 선형·기준 후보 17개를 대상으로 하였고, 38개 후보 비교는 기존 결과를 확인한 후 정해진 격자에서 수행하였다. 따라서 제시한 성능은 해당 후보군·전처리·실행 명세에 대한 탐색적 비교로 해석한다."
+    },
+    {
+      "index": 250,
+      "before": "셋째, 서비스 평가는 연구진이 구성한 합성 입력의 내부 기술시험이다. 외부 공개자료 적용은 미국의 세 거시계열과 두 선형 모형 설정으로 확장하였으며, 자료 간 이식 범위는 공통 모듈로 분리한 요건에 한정된다. 완성된 기존 서비스와의 비교, 독립 평가자가 수집한 사례 및 비선형모형 설명은 평가하지 않았다. 직접 구현과 Pandera 비교는 형식 검사·정규화·일부 수치 비교 함수를 공유하므로 완전히 독립된 검증 구현으로 해석하기 어렵다. 참조자료 자체가 변조된 조건도 별도로 보고하였다. 실제 사용자 참여자는 0명으로 판단 정확도·검토시간·자동화 편향 및 업무성과의 개선은 아직 측정하지 않았다.",
+      "after": "셋째, 서비스의 작동근거는 연구진이 구성한 합성 입력에 대한 내부 기술평가에서 확인하였다. 외부 공개자료 적용은 미국의 세 거시계열, 두 선형 모형과 공통 모듈의 검사 요건을 대상으로 하였다. 직접 구현과 Pandera는 형식 검사·정규화·일부 수치 비교 함수를 공유하므로, 비교 결과는 동일한 요건과 정보의 실행 가능성을 뒷받침한다. 참조자료까지 함께 변경한 시험 결과는 신뢰할 수 있는 참조자료 관리가 별도 운영조건임을 보여준다. 완성된 기존 서비스와의 비교, 독립 평가자의 업무 사례 및 비선형모형 설명은 후속 검증 범위이다. 실제 사용자 평가는 실시하지 않았으므로 판단 정확도·검토시간·자동화 편향 및 업무성과의 개선은 본 연구의 결론에 포함하지 않는다."
+    },
+    {
+      "index": 251,
+      "before": "6.3 후속 검증 과제",
+      "after": "6.3 후속 연구와 현장평가 계획"
+    },
+    {
+      "index": 252,
+      "before": "전향평가에서는 예측 생성일에 이용 가능한 자료판본·모형·예측값을 고정하고, 이후 최초 공표값과 개정값에 대한 성능을 각각 평가하도록 계획하였다. 예를 들어 2026년 상반기 산업자료가 공표된 후 당시 확보한 자료로 2027년 4월 예측을 확정할 수 있다. 목표변수의 12개월 관측간격과 실제 예측 선행기간은 함께 보고해야 한다. 이미 경과한 2026년 4월 고용을 같은 해 9월에 추정하는 경우는 공표 전 사후추정으로 구분한다. 자료 연속성과 측정오차의 영향을 검토하기 위해서는 조사설계 분산정보와 대조자료를 확보하여 분류 전환·표본변동·실제 고용조정의 영향을 분석하는 절차를 보완할 필요가 있다.",
+      "after": "후속 전향적 평가는 예측 생성일에 이용 가능한 자료판본·모형·예측값을 고정한 후, 최초 공표값과 개정값에 대한 성능을 각각 평가하도록 계획하였다. 목표변수의 12개월 관측간격과 예측 생성일부터 목표 관측시점까지의 실제 선행기간을 함께 보고한다. 목표 관측시점 이후에 과거 고용을 추정하는 경우는 공표 전 사후추정으로 구분한다. 또한 조사설계 분산정보와 대조자료를 확보하여 산업분류 전환, 표본변동 및 실제 고용조정의 영향을 분석할 계획이다."
+    },
+    {
+      "index": 253,
+      "before": "사용자 평가용으로 실제 예측 수치와 실험용 검토 상태를 결합한 16개 과업 및 실무자 8명 규모의 예비평가 계획을 준비하였다. 표·카드의 두 조건에 동일한 정보항목을 제시하고, 참여자별 과업 유형과 조건을 균형 배정하였다. 판단 정확도와 최초 판단시간을 일차·이차 지표로 기록하며 근거 신뢰성은 유형별 탐색 문항으로 측정한다. 수집 프로그램과 참여자별 비교 코드는 부록 F의 절차로 실행할 수 있다. 실제 참여자와 응답은 0이며, 확증평가의 표본수는 예비평가의 변동과 최소 실무적 차이에 근거해 정하도록 하였다.",
+      "after": "현장평가를 위해 실제 예측 수치와 실험용 검토 상태를 결합한 16개 과업 및 실무자 8명 규모의 예비평가 계획을 준비하였다. 표·카드의 두 조건에 동일한 정보항목을 제시하고, 참여자별 과업 유형과 조건을 균형 배정하였다. 판단 정확도와 최초 판단시간을 각각 일차·이차 지표로 기록하며, 근거 신뢰성은 유형별 탐색 문항으로 측정한다. 수집 프로그램과 참여자별 비교 코드는 부록 F의 절차로 실행할 수 있다. 향후 확증평가의 표본수는 예비평가에서 확인한 변동과 최소 실무적 차이에 근거하여 정한다."
+    },
+    {
+      "index": 257,
+      "before": "[1] 고용노동부, 2026년 상반기 직종별사업체노동력조사 결과 발표, 2026.6.30, https:/​/​www.moel.go.kr/​news/​enews/​report/​enewsView.do?​news_​seq=​19590 (접속일: 2026.9.26).",
+      "after": "[1] 고용노동부, 2026년 상반기 직종별사업체노동력조사 결과 발표, 2026.6.30, https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19590 (접속일: 2026.9.26)."
+    },
+    {
+      "index": 258,
+      "before": "[2] 고용노동부·한국고용정보원, “2024~2034년 중장기 인력수급 전망 및 추가 필요인력 전망”, 2026.2.12. https:/​/​www.moel.go.kr/​news/​enews/​report/​enewsView.do?​news_​seq=​18965 (확인일: 2026.9.27).",
+      "after": "[2] 고용노동부·한국고용정보원, “2024~2034년 중장기 인력수급 전망 및 추가 필요인력 전망”, 2026.2.12. https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18965 (확인일: 2026.9.27)."
+    },
+    {
+      "index": 259,
+      "before": "[3] 국가데이터처, “2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2025.10.28, 일러두기 및 참고용 통계표 시트 3. https:/​/​mods.go.kr/​boardDownload.es?​bid=​211&​list_​no=​439006&​seq=​3 ; https:/​/​mods.go.kr/​boardDownload.es?​bid=​211&​list_​no=​439006&​seq=​5 (확인일: 2026.9.27).",
+      "after": "[3] 국가데이터처, “2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2025.10.28, 일러두기 및 참고용 통계표 시트 3. https://mods.go.kr/boardDownload.es?bid=211&list_no=439006&seq=3 ; https://mods.go.kr/boardDownload.es?bid=211&list_no=439006&seq=5 (확인일: 2026.9.27)."
+    },
+    {
+      "index": 260,
+      "before": "[4] 국가데이터처, “2025년 하반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2026년 4월 23일, 일러두기 및 소급보정 범위. https:/​/​mods.go.kr/​boardDownload.es?​bid=​211&​list_​no=​444671&​seq=​7 (확인일: 2026년 9월 26일).",
+      "after": "[4] 국가데이터처, “2025년 하반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2026년 4월 23일, 일러두기 및 소급보정 범위. https://mods.go.kr/boardDownload.es?bid=211&list_no=444671&seq=7 (확인일: 2026년 9월 26일)."
+    },
+    {
+      "index": 261,
+      "before": "[5] 국가데이터처 KOSIS, “시도/산업별 취업자”, DT_1ES3B05J, 제11차 산업분류, 2013~2025년 상반기 보존 추출본, 2026. https:/​/​kosis.kr/​statHtml/​statHtml.do?​orgId=​101&​tblId=​DT_​1ES3B05J (확보·확인일: 2026.9.27; 반기별 연결 대조표와 주석 보존).",
+      "after": "[5] 국가데이터처, “시도/산업별 취업자”, 국가통계포털(KOSIS), 통계표 ID DT_1ES3B05J, 제11차 한국표준산업분류, 분석대상 2013–2025년 각 상반기, 2026년 보존 추출본. https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES3B05J (확보일: 2026.9.26)."
+    },
+    {
+      "index": 262,
+      "before": "[6] 국가데이터처 KOSIS, “시도/산업별 취업자”, DT_1ES3B05S, 제10차 산업분류, 2013년 상반기~2024년 상반기, 2026년 확인본. https:/​/​kosis.kr/​statHtml/​statHtml.do?​orgId=​101&​tblId=​DT_​1ES3B05S (확인일: 2026.9.27; 보완분석의 반기·계열 대조용).",
+      "after": "[6] 국가데이터처, “시도/산업별 취업자”, 국가통계포털(KOSIS), 통계표 ID DT_1ES3B05S, 제10차 한국표준산업분류, 보완분석 대조 추출기간: 2022년 상·하반기 및 2023·2024년 상반기, 2026년 보존 추출본. https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1ES3B05S (보존 파일의 확보 기록: 2026.9.23)."
+    },
+    {
+      "index": 263,
+      "before": "[7] 박주영, 김동연, 이준영, “머신러닝 기반 지방소멸 요인의 구조 변화와 대응 전략: 삶의 질 요인을 중심으로”, 한국IT서비스학회지, 제25권, 제2호, 2026, pp.65–83. https:/​/​doi.org/​10.9716/​KITS.2026.25.2.065",
+      "after": "[7] 박주영, 김동연, 이준영, “머신러닝 기반 지방소멸 요인의 구조 변화와 대응 전략: 삶의 질 요인을 중심으로”, 한국IT서비스학회지, 제25권, 제2호, 2026, pp.65–83. https://doi.org/10.9716/KITS.2026.25.2.065"
+    },
+    {
+      "index": 264,
+      "before": "[8] 산업통상부, “지방 주도 성장으로 국토대전환 본격 시동”, 보도·참고자료, 2026년 8월 26일. https:/​/​www.motir.go.kr/​kor/​article/​ATCL3f49a5a8c/​172132/​view (확인일: 2026년 9월 23일).",
+      "after": "[8] 산업통상부, “지방 주도 성장으로 국토대전환 본격 시동”, 보도·참고자료, 2026년 8월 26일. https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172132/view (확인일: 2026년 9월 23일)."
+    },
+    {
+      "index": 265,
+      "before": "[9] 임규건, 노종화, 이현태, 안재익, “인공지능 기반 빈집 추정 및 주요 특성 분석”, 한국IT서비스학회지, 제21권, 제3호, 2022, pp.63–72. https:/​/​doi.org/​10.9716/​KITS.2022.21.3.063",
+      "after": "[9] 임규건, 노종화, 이현태, 안재익, “인공지능 기반 빈집 추정 및 주요 특성 분석”, 한국IT서비스학회지, 제21권, 제3호, 2022, pp.63–72. https://doi.org/10.9716/KITS.2022.21.3.063"
+    },
+    {
+      "index": 266,
+      "before": "[10] 정재현 외, 광역지역별 인력수급 전망 2022~2032, 한국고용정보원, 기본사업 2024-34, 공식 게시일 2025.7.18. https:/​/​www.keis.or.kr/​keis/​ko/​proj/​113/​pblc/​detail.do?​categoryIdx=​131&​pubIdx=​11219 (확인일: 2026.9.27).",
+      "after": "[10] 정재현 외, 광역지역별 인력수급 전망 2022~2032, 한국고용정보원, 기본사업 2024-34, 공식 게시일 2025.7.18. https://www.keis.or.kr/keis/ko/proj/113/pblc/detail.do?categoryIdx=131&pubIdx=11219 (확인일: 2026.9.27)."
+    },
+    {
+      "index": 267,
+      "before": "[11] 지방시대위원회, “5극3특 국가균형성장 추진전략”, 공식 누리집, 발행연도 미표기. https:/​/​www.balance.go.kr/​base/​contents/​view?​contentsNo=​43&​menuLevel=​2&​menuNo=​71 (확인일: 2026년 9월 26일).",
+      "after": "[11] 지방시대위원회, “5극3특 국가균형성장 추진전략”, 공식 누리집, 발행연도 미표기. https://www.balance.go.kr/base/contents/view?contentsNo=43&menuLevel=2&menuNo=71 (확인일: 2026년 9월 26일)."
+    },
+    {
+      "index": 268,
+      "before": "[12] 통계청, 한 눈에 보는 2021년 4분기 및 연간 충청권 지역경제동향, 2022, pp.5–6(경제활동인구조사 기반 고용률·실업률의 충남·세종 분리 공표 주석). https:/​/​kostat.go.kr/​boardDownload.es?​bid=​5191&​list_​no=​416851&​seq=​3 (확인일: 2026년 9월 23일).",
+      "after": "[12] 통계청, 한 눈에 보는 2021년 4분기 및 연간 충청권 지역경제동향, 2022, pp.5–6(경제활동인구조사 기반 고용률·실업률의 충남·세종 분리 공표 주석). https://kostat.go.kr/boardDownload.es?bid=5191&list_no=416851&seq=3 (확인일: 2026년 9월 23일)."
+    },
+    {
+      "index": 269,
+      "before": "[13] 통계청, “2024년 상반기 지역별고용조사 시군구 주요고용지표”, 2024, 일러두기. https:/​/​sri.kostat.go.kr/​boardDownload.es?​bid=​211&​list_​no=​432307&​seq=​1 (확인일: 2026.9.29).",
+      "after": "[13] 통계청, “2024년 상반기 지역별고용조사 시군구 주요고용지표”, 2024, 일러두기. https://sri.kostat.go.kr/boardDownload.es?bid=211&list_no=432307&seq=1 (확인일: 2026.9.29)."
+    },
+    {
+      "index": 270,
+      "before": "[14] 통계청, “2024년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2024, 일러두기. https:/​/​kostat.go.kr/​boardDownload.es?​bid=​211&​list_​no=​433146&​seq=​1 (확인일: 2026.9.23).",
+      "after": "[14] 통계청, “2024년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2024, 일러두기. https://kostat.go.kr/boardDownload.es?bid=211&list_no=433146&seq=1 (확인일: 2026.9.23)."
+    },
+    {
+      "index": 271,
+      "before": "[15] 통계청·국가데이터처, “상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2013~2025년 연도별 보도자료 13건, 각 조사개요·일러두기. 공식 게시일·관측 주간·휴대용 문서 형식(Portable Document Format, PDF) 파일 위치 및 웹 주소는 재현패키지의 공표일 목록에 보존. 최근 자료: https:/​/​mods.go.kr/​board.es?​act=​view&​bid=​211&​list_​no=​439006&​mid=​a10301010000 (2025년 10월 28일 공표; 확인일: 2026년 9월 26일). ‘통계청’은 과거 작성기관 명칭이다.",
+      "after": "[15] 통계청(2013–2024)·국가데이터처(2025), “상반기 지역별고용조사 취업자의 산업 및 직업별 특성”, 2013–2025년 연도별 보도자료 13건. 연도별 제목·게시일·조사대상 주간·공식 PDF URL 및 텍스트 추출본은 재현패키지의 공표일 목록과 출처 자료에 수록. 분석에 포함한 2025년 자료: https://mods.go.kr/board.es?act=view&bid=211&list_no=439006&mid=a10301010000 (게시일: 2025.10.28; 재확인일: 2026.10.28)."
+    },
+    {
+      "index": 272,
+      "before": "[16] 한국고용정보원, “중장기인력수급 지역별 수요(산업) 전망_20240630”, 공공데이터포털, 등록·수정일 2025.5.23. https:/​/​www.data.go.kr/​data/​15143522/​fileData.do (확인일: 2026.9.27).",
+      "after": "[16] 한국고용정보원, “중장기인력수급 지역별 수요(산업) 전망_20240630”, 공공데이터포털, 등록·수정일 2025.5.23. https://www.data.go.kr/data/15143522/fileData.do (확인일: 2026.9.27)."
+    },
+    {
+      "index": 273,
+      "before": "[17] 한국고용정보원, “고용행정통계 Open API: 사업장 소재지별 피보험자·취득·상실”, 공식 서비스 안내. API는 응용 프로그램 인터페이스(application programming interface)를 뜻한다. https:/​/​eis.work24.go.kr/​eisps/​opiv/​selectOpivList.do (확인일: 2026.9.27).",
+      "after": "[17] 한국고용정보원, “고용행정통계 Open API: 사업장 소재지별 피보험자·취득·상실”, 공식 서비스 안내. API는 응용 프로그램 인터페이스(application programming interface)를 뜻한다. https://eis.work24.go.kr/eisps/opiv/selectOpivList.do (확인일: 2026.9.27)."
+    },
+    {
+      "index": 274,
+      "before": "[18] 한국산업인력공단, “지역인적자원개발위원회 구성현황” https:/​/​www.hrd4u.or.kr/​rsc/​agencyList.do?​menuNo=​0201 (확인일: 2026.9.29).",
+      "after": "[18] 한국산업인력공단, “지역인적자원개발위원회 구성현황” https://www.hrd4u.or.kr/rsc/agencyList.do?menuNo=0201 (확인일: 2026.9.29)."
+    },
+    {
+      "index": 275,
+      "before": "[19] 한국산업인력공단, “지역인적자원개발위원회 소개” https:/​/​www.hrd4u.or.kr/​rsc/​contents.do?​menuNo=​0101 (확인일: 2026.9.29).",
+      "after": "[19] 한국산업인력공단, “지역인적자원개발위원회 소개” https://www.hrd4u.or.kr/rsc/contents.do?menuNo=0101 (확인일: 2026.9.29)."
+    },
+    {
+      "index": 276,
+      "before": "[20] Arnold, M., et al., “FactSheets: Increasing Trust in AI Services through Supplier’s Declarations of Conformity”, IBM Journal of Research and Development, Vol.63, No.4/5, 2019, pp.6:1–6:13. https:/​/​doi.org/​10.1147/​JRD.2019.2942288",
+      "after": "[20] Arnold, M., et al., “FactSheets: Increasing Trust in AI Services through Supplier’s Declarations of Conformity”, IBM Journal of Research and Development, Vol.63, No.4/5, 2019, pp.6:1–6:13. https://doi.org/10.1147/JRD.2019.2942288"
+    },
+    {
+      "index": 277,
+      "before": "[21] Breiman, L., “Random Forests”, Machine Learning, Vol.45, No.1, 2001, pp.5–32. https:/​/​doi.org/​10.1023/​A:1010933404324",
+      "after": "[21] Breiman, L., “Random Forests”, Machine Learning, Vol.45, No.1, 2001, pp.5–32. https://doi.org/10.1023/A:1010933404324"
+    },
+    {
+      "index": 278,
+      "before": "[22] Buçinca, Z., Malaya, M. B., and Gajos, K. Z., “To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making”, Proceedings of the ACM on Human-Computer Interaction, Vol.5, No.CSCW1, Article 188, 2021, pp.1–21. https:/​/​doi.org/​10.1145/​3449287",
+      "after": "[22] Buçinca, Z., Malaya, M. B., and Gajos, K. Z., “To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making”, Proceedings of the ACM on Human-Computer Interaction, Vol.5, No.CSCW1, Article 188, 2021, pp.1–21. https://doi.org/10.1145/3449287"
+    },
+    {
+      "index": 279,
+      "before": "[23] Busuioc, M., “Accountable Artificial Intelligence: Holding Algorithms to Account”, Public Administration Review, Vol.81, No.5, 2021, pp.825–836. https:/​/​doi.org/​10.1111/​puar.13293",
+      "after": "[23] Busuioc, M., “Accountable Artificial Intelligence: Holding Algorithms to Account”, Public Administration Review, Vol.81, No.5, 2021, pp.825–836. https://doi.org/10.1111/puar.13293"
+    },
+    {
+      "index": 280,
+      "before": "[24] Cerqueira, V., Torgo, L., Mozetič, I., “Evaluating time series forecasting models: an empirical study on performance estimation methods”, Machine Learning, Vol.109, No.11, 2020, pp.1997–2028. https:/​/​doi.org/​10.1007/​s10994-020-05910-7",
+      "after": "[24] Cerqueira, V., Torgo, L., Mozetič, I., “Evaluating time series forecasting models: an empirical study on performance estimation methods”, Machine Learning, Vol.109, No.11, 2020, pp.1997–2028. https://doi.org/10.1007/s10994-020-05910-7"
+    },
+    {
+      "index": 281,
+      "before": "[25] Croushore, D., Stark, T., “A real-time data set for macroeconomists”, Journal of Econometrics, Vol.105, No.1, 2001, pp.111–130. https:/​/​doi.org/​10.1016/​S0304-4076(01)00072-0",
+      "after": "[25] Croushore, D., Stark, T., “A real-time data set for macroeconomists”, Journal of Econometrics, Vol.105, No.1, 2001, pp.111–130. https://doi.org/10.1016/S0304-4076(01)00072-0"
+    },
+    {
+      "index": 282,
+      "before": "[26] Diebold, F. X., and Mariano, R. S., “Comparing Predictive Accuracy”, Journal of Business & Economic Statistics, Vol.13, No.3, 1995, pp.253–263. https:/​/​doi.org/​10.1080/​07350015.1995.10524599",
+      "after": "[26] Diebold, F. X., and Mariano, R. S., “Comparing Predictive Accuracy”, Journal of Business & Economic Statistics, Vol.13, No.3, 1995, pp.253–263. https://doi.org/10.1080/07350015.1995.10524599"
+    },
+    {
+      "index": 283,
+      "before": "[27] Fay, R. E., III, and Herriot, R. A., “Estimates of Income for Small Places: An Application of James-Stein Procedures to Census Data”, Journal of the American Statistical Association, Vol.74, No.366, 1979, pp.269–277. https:/​/​doi.org/​10.1080/​01621459.1979.10482505",
+      "after": "[27] Fay, R. E., III, and Herriot, R. A., “Estimates of Income for Small Places: An Application of James-Stein Procedures to Census Data”, Journal of the American Statistical Association, Vol.74, No.366, 1979, pp.269–277. https://doi.org/10.1080/01621459.1979.10482505"
+    },
+    {
+      "index": 284,
+      "before": "[28] Friedman, J. H., “Greedy Function Approximation: A Gradient Boosting Machine”, The Annals of Statistics, Vol.29, No.5, 2001, pp.1189–1232. https:/​/​doi.org/​10.1214/​aos/​1013203451",
+      "after": "[28] Friedman, J. H., “Greedy Function Approximation: A Gradient Boosting Machine”, The Annals of Statistics, Vol.29, No.5, 2001, pp.1189–1232. https://doi.org/10.1214/aos/1013203451"
+    },
+    {
+      "index": 285,
+      "before": "[29] Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., and Crawford, K., “Datasheets for Datasets”, Communications of the ACM, Vol.64, No.12, 2021, pp.86–92. https:/​/​doi.org/​10.1145/​3458723",
+      "after": "[29] Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., and Crawford, K., “Datasheets for Datasets”, Communications of the ACM, Vol.64, No.12, 2021, pp.86–92. https://doi.org/10.1145/3458723"
+    },
+    {
+      "index": 286,
+      "before": "[30] Gregor, S., Chandra Kruse, L., Seidel, S., “Research Perspectives: The Anatomy of a Design Principle”, Journal of the Association for Information Systems, Vol.21, No.6, 2020, pp.1622–1652. https:/​/​doi.org/​10.17705/​1jais.00649",
+      "after": "[30] Gregor, S., Chandra Kruse, L., Seidel, S., “Research Perspectives: The Anatomy of a Design Principle”, Journal of the Association for Information Systems, Vol.21, No.6, 2020, pp.1622–1652. https://doi.org/10.17705/1jais.00649"
+    },
+    {
+      "index": 287,
+      "before": "[31] Hevner, A. R., March, S. T., Park, J., Ram, S., “Design Science in Information Systems Research”, MIS Quarterly, Vol.28, No.1, 2004, pp.75–105. https:/​/​doi.org/​10.2307/​25148625",
+      "after": "[31] Hevner, A. R., March, S. T., Park, J., Ram, S., “Design Science in Information Systems Research”, MIS Quarterly, Vol.28, No.1, 2004, pp.75–105. https://doi.org/10.2307/25148625"
+    },
+    {
+      "index": 288,
+      "before": "[32] Hoerl, A. E., Kennard, R. W., “Ridge Regression: Biased Estimation for Nonorthogonal Problems”, Technometrics, Vol.12, No.1, 1970, pp.55–67. https:/​/​doi.org/​10.1080/​00401706.1970.10488634",
+      "after": "[32] Hoerl, A. E., Kennard, R. W., “Ridge Regression: Biased Estimation for Nonorthogonal Problems”, Technometrics, Vol.12, No.1, 1970, pp.55–67. https://doi.org/10.1080/00401706.1970.10488634"
+    },
+    {
+      "index": 289,
+      "before": "[33] Huber, P. J., “Robust Estimation of a Location Parameter”, The Annals of Mathematical Statistics, Vol.35, No.1, 1964, pp.73–101. https:/​/​doi.org/​10.1214/​aoms/​1177703732",
+      "after": "[33] Huber, P. J., “Robust Estimation of a Location Parameter”, The Annals of Mathematical Statistics, Vol.35, No.1, 1964, pp.73–101. https://doi.org/10.1214/aoms/1177703732"
+    },
+    {
+      "index": 290,
+      "before": "[34] Hyndman, R. J., and Koehler, A. B., “Another Look at Measures of Forecast Accuracy”, International Journal of Forecasting, Vol.22, No.4, 2006, pp.679–688. https:/​/​doi.org/​10.1016/​j.ijforecast.2006.03.001",
+      "after": "[34] Hyndman, R. J., and Koehler, A. B., “Another Look at Measures of Forecast Accuracy”, International Journal of Forecasting, Vol.22, No.4, 2006, pp.679–688. https://doi.org/10.1016/j.ijforecast.2006.03.001"
+    },
+    {
+      "index": 291,
+      "before": "[35] Kapoor, S., Narayanan, A., “Leakage and the reproducibility crisis in machine-learning-based science”, Patterns, Vol.4, No.9, 2023, Article 100804. https:/​/​doi.org/​10.1016/​j.patter.2023.100804",
+      "after": "[35] Kapoor, S., Narayanan, A., “Leakage and the reproducibility crisis in machine-learning-based science”, Patterns, Vol.4, No.9, 2023, Article 100804. https://doi.org/10.1016/j.patter.2023.100804"
+    },
+    {
+      "index": 292,
+      "before": "[36] Koenker, R., Bassett, G., Jr., “Regression Quantiles”, Econometrica, Vol.46, No.1, 1978, pp.33–50. https:/​/​doi.org/​10.2307/​1913643",
+      "after": "[36] Koenker, R., Bassett, G., Jr., “Regression Quantiles”, Econometrica, Vol.46, No.1, 1978, pp.33–50. https://doi.org/10.2307/1913643"
+    },
+    {
+      "index": 293,
+      "before": "[37] Longhi, S., Nijkamp, P., Reggiani, A., Maierhofer, E., “Neural Network Modeling as a Tool for Forecasting Regional Employment Patterns”, International Regional Science Review, Vol.28, No.3, 2005, pp.330–346. https:/​/​doi.org/​10.1177/​0160017605276187",
+      "after": "[37] Longhi, S., Nijkamp, P., Reggiani, A., Maierhofer, E., “Neural Network Modeling as a Tool for Forecasting Regional Employment Patterns”, International Regional Science Review, Vol.28, No.3, 2005, pp.330–346. https://doi.org/10.1177/0160017605276187"
+    },
+    {
+      "index": 294,
+      "before": "[38] Makridakis, S., Spiliotis, E., Assimakopoulos, V., “The M4 Competition: Results, findings, conclusion and way forward”, International Journal of Forecasting, Vol.34, No.4, 2018, pp.802–808. https:/​/​doi.org/​10.1016/​j.ijforecast.2018.06.001",
+      "after": "[38] Makridakis, S., Spiliotis, E., Assimakopoulos, V., “The M4 Competition: Results, findings, conclusion and way forward”, International Journal of Forecasting, Vol.34, No.4, 2018, pp.802–808. https://doi.org/10.1016/j.ijforecast.2018.06.001"
+    },
+    {
+      "index": 295,
+      "before": "[39] Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., and Gebru, T., “Model Cards for Model Reporting”, Proceedings of the Conference on Fairness, Accountability, and Transparency, 2019, pp.220–229. https:/​/​doi.org/​10.1145/​3287560.3287596",
+      "after": "[39] Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., and Gebru, T., “Model Cards for Model Reporting”, Proceedings of the Conference on Fairness, Accountability, and Transparency, 2019, pp.220–229. https://doi.org/10.1145/3287560.3287596"
+    },
+    {
+      "index": 296,
+      "before": "[40] Molnar, C., Interpretable Machine Learning: A Guide for Making Black Box Models Explainable, 3rd ed., 2025. https:/​/​christophm.github.io/​interpretable-ml-book/​",
+      "after": "[40] Molnar, C., Interpretable Machine Learning: A Guide for Making Black Box Models Explainable, 3rd ed., 2025. https://christophm.github.io/interpretable-ml-book/"
+    },
+    {
+      "index": 297,
+      "before": "[41] OECD, Employment by main economic activity – Regions, DSD_REG_ECO@DF_EMP, 한국 TL3, 버전 2.0(2026.9.17 UTC 확보)·2.4(2026.9.23 확보), OECD Data Explorer, 2026. https:/​/​data-explorer.oecd.org/​vis?​df[ag]=​OECD.CFE.EDS&​df[id]=​DSD_​REG_​ECO%40DF_​EMP&​df[vs]=​2.4&​lc=​en (요청·응답·해시 보존).",
+      "after": "[41] OECD, “Employment by main economic activity – Regions”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_ECO@DF_EMP, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 보존)."
+    },
+    {
+      "index": 298,
+      "before": "[42] OECD, Labour statistics – Regions (for Developer API), DSD_REG_LABOUR@DF_LAB, 한국 TL3, 버전 2.0(2026.9.17 UTC 확보)·2.4(2026.9.23 확보), OECD Data Explorer, 2026. https:/​/​data-explorer.oecd.org/​vis?​df[ag]=​OECD.CFE.EDS&​df[id]=​DSD_​REG_​LABOUR%40DF_​LAB&​df[vs]=​2.4&​lc=​en (요청·해시·중첩 대조 보존).",
+      "after": "[42] OECD, “Labour statistics – Regions (for Developer API)”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_LABOUR@DF_LAB, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 및 중첩기간 대조 보존)."
+    },
+    {
+      "index": 299,
+      "before": "[43] Parasuraman, R., Manzey, D. H., “Complacency and Bias in Human Use of Automation: An Attentional Integration”, Human Factors, Vol.52, No.3, 2010, pp.381–410. https:/​/​doi.org/​10.1177/​0018720810376055",
+      "after": "[43] Parasuraman, R., Manzey, D. H., “Complacency and Bias in Human Use of Automation: An Attentional Integration”, Human Factors, Vol.52, No.3, 2010, pp.381–410. https://doi.org/10.1177/0018720810376055"
+    },
+    {
+      "index": 300,
+      "before": "[44] Peffers, K., Tuunanen, T., Rothenberger, M. A., Chatterjee, S., “A Design Science Research Methodology for Information Systems Research”, Journal of Management Information Systems, Vol.24, No.3, 2007, pp.45–77. https:/​/​doi.org/​10.2753/​MIS0742-1222240302",
+      "after": "[44] Peffers, K., Tuunanen, T., Rothenberger, M. A., Chatterjee, S., “A Design Science Research Methodology for Information Systems Research”, Journal of Management Information Systems, Vol.24, No.3, 2007, pp.45–77. https://doi.org/10.2753/MIS0742-1222240302"
+    },
+    {
+      "index": 301,
+      "before": "[45] Raji, I. D., Smart, A., White, R. N., Mitchell, M., Gebru, T., Hutchinson, B., Smith-Loud, J., Theron, D., and Barnes, P., “Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing”, Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 2020, pp.33–44. https:/​/​doi.org/​10.1145/​3351095.3372873",
+      "after": "[45] Raji, I. D., Smart, A., White, R. N., Mitchell, M., Gebru, T., Hutchinson, B., Smith-Loud, J., Theron, D., and Barnes, P., “Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing”, Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 2020, pp.33–44. https://doi.org/10.1145/3351095.3372873"
+    },
+    {
+      "index": 302,
+      "before": "[46] Roberts, D. R., Bahn, V., Ciuti, S., et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure”, Ecography, Vol.40, No.8, 2017, pp.913–929. https:/​/​doi.org/​10.1111/​ecog.02881",
+      "after": "[46] Roberts, D. R., Bahn, V., Ciuti, S., et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure”, Ecography, Vol.40, No.8, 2017, pp.913–929. https://doi.org/10.1111/ecog.02881"
+    },
+    {
+      "index": 303,
+      "before": "[47] scikit-learn developers, “HistGradientBoostingRegressor”, scikit-learn 1.8.0 documentation. https:/​/​scikit-learn.org/​1.8/​modules/​generated/​sklearn.ensemble.HistGradientBoostingRegressor.html (확인일: 2026.9.27).",
+      "after": "[47] scikit-learn developers, “HistGradientBoostingRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html (확인일: 2026.9.27)."
+    },
+    {
+      "index": 304,
+      "before": "[48] scikit-learn developers, “HuberRegressor”, scikit-learn 1.8.0 documentation. https:/​/​scikit-learn.org/​1.8/​modules/​generated/​sklearn.linear_​model.HuberRegressor.html (확인일: 2026.9.27).",
+      "after": "[48] scikit-learn developers, “HuberRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html (확인일: 2026.9.27)."
+    },
+    {
+      "index": 305,
+      "before": "[49] Venable, J., Pries-Heje, J., Baskerville, R., “FEDS: a Framework for Evaluation in Design Science Research”, European Journal of Information Systems, Vol.25, No.1, 2016, pp.77–89. https:/​/​doi.org/​10.1057/​ejis.2014.36",
+      "after": "[49] Venable, J., Pries-Heje, J., Baskerville, R., “FEDS: a Framework for Evaluation in Design Science Research”, European Journal of Information Systems, Vol.25, No.1, 2016, pp.77–89. https://doi.org/10.1057/ejis.2014.36"
+    },
+    {
+      "index": 306,
+      "before": "[50] XGBoost developers, “XGBoost Parameters”, official documentation. https:/​/​xgboost.readthedocs.io/​en/stable/​parameter.html (확인일: 2026.10.25).",
+      "after": "[50] XGBoost developers, “XGBoost Parameters”, official documentation. https://xgboost.readthedocs.io/en/stable/parameter.html (확인일: 2026.10.25)."
+    },
+    {
+      "index": 307,
+      "before": "[51] CatBoost developers, “Training parameters”, official documentation. https:/​/​catboost.ai/​docs/en/​references/training-parameters/ (확인일: 2026.10.25).",
+      "after": "[51] CatBoost developers, “Training parameters”, official documentation. https://catboost.ai/docs/en/references/training-parameters/ (확인일: 2026.10.25)."
+    },
+    {
+      "index": 308,
+      "before": "[52] LightGBM developers, “Parameters Tuning”, official documentation. https:/​/​lightgbm.readthedocs.io/​en/stable/​Parameters-Tuning.html (확인일: 2026.10.25).",
+      "after": "[52] LightGBM developers, “Parameters Tuning”, official documentation. https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html (확인일: 2026.10.25)."
+    },
+    {
+      "index": 309,
+      "before": "[53] Gregor, S., Hevner, A. R., “Positioning and Presenting Design Science Research for Maximum Impact”, MIS Quarterly, Vol.37, No.2, 2013, pp.337–355. https:/​/​doi.org/​10.25300/​MISQ/​2013/​37.2.01",
+      "after": "[53] Gregor, S., Hevner, A. R., “Positioning and Presenting Design Science Research for Maximum Impact”, MIS Quarterly, Vol.37, No.2, 2013, pp.337–355. https://doi.org/10.25300/MISQ/2013/37.2.01"
+    },
+    {
+      "index": 310,
+      "before": "[54] Shmueli, G., Koppius, O. R., “Predictive Analytics in Information Systems Research”, MIS Quarterly, Vol.35, No.3, 2011, pp.553–572. https:/​/​doi.org/​10.2307/​23042796",
+      "after": "[54] Shmueli, G., Koppius, O. R., “Predictive Analytics in Information Systems Research”, MIS Quarterly, Vol.35, No.3, 2011, pp.553–572. https://doi.org/10.2307/23042796"
+    },
+    {
+      "index": 311,
+      "before": "[55] Cobbe, J., Lee, M. S. A., Singh, J., “Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems”, Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 2021, pp.598–609. https:/​/​doi.org/​10.1145/​3442188.3445921",
+      "after": "[55] Cobbe, J., Lee, M. S. A., Singh, J., “Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems”, Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 2021, pp.598–609. https://doi.org/10.1145/3442188.3445921"
+    },
+    {
+      "index": 312,
+      "before": "[56] Moreau, L., Missier, P. (eds.), “PROV-DM: The PROV Data Model”, W3C Recommendation, 30 April 2013. https:/​/​www.w3.org/​TR/​2013/​REC-prov-dm-20130430/​ (확인일: 2026.10.27).",
+      "after": "[56] Moreau, L., Missier, P. (eds.), “PROV-DM: The PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-dm-20130430/ (확인일: 2026.10.27)."
+    },
+    {
+      "index": 313,
+      "before": "[57] Cheney, J., Missier, P., Moreau, L. (eds.), “Constraints of the PROV Data Model”, W3C Recommendation, 30 April 2013. https:/​/​www.w3.org/​TR/​2013/​REC-prov-constraints-20130430/​ (확인일: 2026.10.27).",
+      "after": "[57] Cheney, J., Missier, P., Moreau, L. (eds.), “Constraints of the PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-constraints-20130430/ (확인일: 2026.10.27)."
+    },
+    {
+      "index": 315,
+      "before": "[58] van der Loo, M. P. J., and de Jonge, E., “Data Validation”, Wiley StatsRef: Statistics Reference Online, 2020. https:/​/​doi.org/​10.1002/​9781118445112.stat08255.",
+      "after": "[58] van der Loo, M. P. J., and de Jonge, E., “Data Validation”, Wiley StatsRef: Statistics Reference Online, 2020. https://doi.org/10.1002/9781118445112.stat08255."
+    },
+    {
+      "index": 316,
+      "before": "[59] Pandera developers, “Validating with Checks”, Pandera documentation, version 0.30.0. https:/​/​pandera.readthedocs.io/​en/​v0.30.0/​checks.html (확인일: 2026.10.27).",
+      "after": "[59] Pandera developers, “Validating with Checks”, Pandera documentation, version 0.30.0. https://pandera.readthedocs.io/en/v0.30.0/checks.html (확인일: 2026.10.27)."
+    },
+    {
+      "index": 317,
+      "before": "[60] jsonschema developers, “Schema Validation”, python-jsonschema documentation, version 4.25.1. https:/​/​python-jsonschema.readthedocs.io/​en/​v4.25.1/​validate/​ (확인일: 2026.10.27).",
+      "after": "[60] jsonschema developers, “Schema Validation”, python-jsonschema documentation, version 4.25.1. https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/ (확인일: 2026.10.27)."
+    },
+    {
+      "index": 318,
+      "before": "[61] statsmodels developers, “United States Macroeconomic data”, statsmodels documentation and macrodata dataset. https:/​/​www.statsmodels.org/​stable/​datasets/​generated/​macrodata.html (확인일: 2026.10.27). 사용 자료의 저장소 판본: d07a39609cdf57b6898bb9adb87e7821904482aa.",
+      "after": "[61] statsmodels developers, “United States Macroeconomic data”, statsmodels documentation and macrodata dataset. https://www.statsmodels.org/stable/datasets/generated/macrodata.html (확인일: 2026.10.27). 사용 자료의 저장소 판본: d07a39609cdf57b6898bb9adb87e7821904482aa."
+    },
+    {
+      "index": 320,
+      "before": "부록에는 보완분석의 설계, 표본 구성, 재선정 결과, 후보별 설정, 서비스 평가 및 외부자료 적용 명세를 제시하였다. 모든 추가 분석은 확보한 자료에 대한 회고적 평가이며 참고문헌 번호는 본문과 공유한다.",
+      "after": "부록에는 보완분석의 설계, 표본 구성, 재선정 결과, 후보별 설정, 서비스 평가 및 외부자료 적용 명세를 제시하였다. 추가 예측분석은 확보한 자료를 이용한 과거기간 평가이며 참고문헌 번호는 본문과 공유한다."
+    },
+    {
+      "index": 326,
+      "before": "OECD 원계열 보완분석에서는 2015~2023년을 평가연도로 설정하여, 과거 훈련자료를 유지하면서 새로운 연도의 자료를 추가하는 확장창 평가(expanding-window evaluation)를 9회 수행하였다. 각 평가연도 Y에 대해 2011~(Y−2)년을 훈련자료, Y−1년을 검증자료, Y년을 평가자료로 사용하였다. 규제계수의 탐색 범위를 확대한 릿지 회귀모형, RF, 하이퍼파라미터를 고정한 후버 회귀모형 및 중앙값 회귀모형(median regression; 분위수 수준 q=0.5)[36]을 기준모형과 비교하였다. 전체 성능은 연도별 성능지표에 동일한 가중치를 부여하여 평균하였다.",
+      "after": "OECD 원계열 보완분석에서는 2015~2023년을 평가연도로 설정하여, 과거 훈련자료를 유지하면서 새로운 연도의 자료를 추가하는 학습기간 확장 평가를 9회 수행하였다. 각 평가연도 Y에 대해 2011~(Y−2)년을 훈련자료, Y−1년을 검증자료, Y년을 평가자료로 사용하였다. 규제계수의 탐색 범위를 확대한 릿지 회귀모형, RF, 하이퍼파라미터를 고정한 후버 회귀모형 및 중앙값 회귀모형(median regression; 분위수 수준 q=0.5)[36]을 기준모형과 비교하였다. 전체 성능은 연도별 성능지표에 동일한 가중치를 부여하여 평균하였다."
+    },
+    {
+      "index": 337,
+      "before": "훈련기간을 순차적으로 늘려 후속 연도를 예측하는 확장창 평가에서는 기준모형군에서 검증 MAE가 가장 낮은 모형을 선택하는 기준모형 우선 전략과, 기준모형 및 학습모형을 포함한 전체 후보에서 검증 MAE가 가장 낮은 모형을 선택하는 전체 후보 선정 전략을 비교하였다. 연도별 MAE에 동일한 가중치를 부여하여 산출한 평균은 기준모형 우선 전략이 8.87, 전체 후보 선정 전략이 8.75였다. 두 전략의 차이는 0.12로그포인트이며, 전체 후보 선정 전략의 MAE를 기준으로 한 상대적 차이는 1.38%였다.",
+      "after": "훈련기간을 순차적으로 늘려 후속 연도를 예측하는 학습기간 확장 평가에서는 기준모형군에서 검증 MAE가 가장 낮은 모형을 선택하는 기준모형 우선 전략과, 기준모형 및 학습모형을 포함한 전체 후보에서 검증 MAE가 가장 낮은 모형을 선택하는 전체 후보 선정 전략을 비교하였다. 연도별 MAE에 동일한 가중치를 부여하여 산출한 평균은 기준모형 우선 전략이 8.87, 전체 후보 선정 전략이 8.75였다. 두 전략의 차이는 0.12로그포인트이며, 전체 후보 선정 전략의 MAE를 기준으로 한 상대적 차이는 1.38%였다."
+    },
+    {
+      "index": 338,
+      "before": "확장창의 전체 후보 선정 전략은 고용가중 MAE와 취업자 수 1만 명 이상 집단의 MAE에서도 기준모형 우선 전략보다 낮은 오차를 보였다. RMSE는 기준모형 우선 전략이 소폭 낮았고 연도별 MAE 최댓값은 같았으며, 표준편차는 전체 후보 선정 전략이 작았다(<부록표 A2>). 이 비교는 기본 제시모형 선택에 따른 예측오차의 특성을 나타낸다.",
+      "after": "학습기간 확장 평가의 전체 후보 선정 전략은 고용가중 MAE와 취업자 수 1만 명 이상 집단의 MAE에서도 기준모형 우선 전략보다 낮은 오차를 보였다. RMSE는 기준모형 우선 전략이 소폭 낮았고 연도별 MAE 최댓값은 같았으며, 표준편차는 전체 후보 선정 전략이 작았다(<부록표 A2>). 이 비교는 기본 제시모형 선택에 따른 예측오차의 특성을 나타낸다."
+    },
+    {
+      "index": 339,
+      "before": "<부록표 A2> 확장창 평가에서 모형 선택 전략별 예측성능",
+      "after": "<부록표 A2> 학습기간 확장 평가에서 모형 선택 전략별 예측성능"
+    },
+    {
+      "index": 340,
+      "before": "주: 2015~2023년의 9개 평가연도와 총 1,480개 관측치를 대상으로 확장창 평가를 수행하였다. 앞의 네 지표는 각 연도에서 산출한 값을 동일한 가중치로 평균하였다. 최댓값과 표준편차는 연도별 MAE를 대상으로 산출하였다. 취업자 수에 따른 집단 구분은 기준시점의 고용 규모에 따른다. 연도별 MAE가 가장 높은 연도는 두 전략 모두 2020년이었다. 오차지표와 표준편차의 단위는 로그포인트이다.",
+      "after": "주: 2015~2023년의 9개 평가연도와 총 1,480개 관측치를 대상으로 학습기간 확장 평가를 수행하였다. 앞의 네 지표는 각 연도에서 산출한 값을 동일한 가중치로 평균하였다. 최댓값과 표준편차는 연도별 MAE를 대상으로 산출하였다. 취업자 수에 따른 집단 구분은 기준시점의 고용 규모에 따른다. 연도별 MAE가 가장 높은 연도는 두 전략 모두 2020년이었다. 오차지표와 표준편차의 단위는 로그포인트이다."
+    },
+    {
+      "index": 344,
+      "before": "주: MAE 차이는 기준모형 우선 전략에서 전체 후보 선정 전략을 차감하여 산출하였다. 양수는 기준모형 우선 전략의 오차가 더 크다는 것을, 음수는 더 작다는 것을 의미한다. 본 결과는 사후적으로 수행한 확장창 평가에 해당한다.",
+      "after": "주: MAE 차이는 기준모형 우선 전략에서 전체 후보 선정 전략을 차감하여 산출하였다. 양수는 기준모형 우선 전략의 오차가 더 크다는 것을, 음수는 더 작다는 것을 의미한다. 본 결과는 기존 결과를 확인한 후 수행한 학습기간 확장 평가에 해당한다."
+    },
+    {
+      "index": 372,
+      "before": "D.3 확장창의 후보군별 성능",
+      "after": "D.3 학습기간 확장 평가의 후보군별 성능"
+    },
+    {
+      "index": 373,
+      "before": "<부록표 D3> 6개 확장창의 연도 동일가중 오차",
+      "after": "<부록표 D3> 6회 학습기간 확장 평가의 연도 동일가중 오차"
+    },
+    {
+      "index": 376,
+      "before": "참조자료는 원자료와 적합 코드에서 다시 계산하여 제출 카드와 별도로 관리하였다. 모형명·파일해시·계수, 원시 입력·변환값·기여도, 예측값과 과거 검증요약을 대조하였다. 수치 비교의 절대 허용 오차는 10⁻⁹이며, 등록되지 않은 조합은 정해진 오류 응답과 함께 차단하였다. 호출자가 참조자료의 신뢰성과 접근권한을 보장한다는 조건을 적용하였다.",
+      "after": "참조자료는 원자료와 적합 코드에서 다시 계산하여 제출 카드와 별도로 관리하였다. 모형명·파일해시·계수, 원시 입력·변환값·기여도, 예측값과 과거 검증요약을 대조하였다. 수치 비교는 절대차가 10⁻⁹ 이하인 경우 일치로 판정하며(절대허용오차 10⁻⁹, 상대허용오차 0), 등록되지 않은 조합은 정해진 오류 응답과 함께 차단하였다. 호출자가 참조자료의 신뢰성과 접근권한을 보장한다는 조건을 적용하였다."
+    },
+    {
+      "index": 380,
+      "before": "로컬 수집 프로그램은 과업 시작부터 최초 판단 제출까지의 시간을 기록하고, 이후 판단사유·확신도·근거 신뢰성을 별도로 받는다. 정답을 알려 주는 결함명과 피드백은 최초 판단 전에 제시하지 않는다. 분석 코드는 참여자별 정답률·시간 중앙값과 카드−표의 차이를 산출하며 반복행을 독립 참여자로 계산하지 않는다. 1~7점 근거 신뢰성은 탐색적 단일 문항이다. 이 준비자료는 표시 구성의 예비평가를 위한 것이며 전체 서비스의 업무효과를 검증한 결과는 아니다. 실제 참여자와 관측행은 0이고 빈 양식의 분석 상태는 not_evaluated이다. 실행 절차와 과업·수집·분석 코드는 재현패키지 field_study 및 code에 수록하였다.",
+      "after": "로컬 수집 프로그램은 과업 시작부터 최초 판단 제출까지의 시간을 기록하고, 이후 판단사유·확신도·근거 신뢰성을 별도로 받는다. 정답을 알려 주는 결함명과 피드백은 최초 판단 전에 제시하지 않는다. 분석 코드는 참여자별 정답률·시간 중앙값과 카드−표의 차이를 산출하며 반복행을 독립 참여자로 계산하지 않는다. 1~7점 근거 신뢰성은 탐색적 단일 문항이다. 이 준비자료는 표시 구성의 예비평가를 위한 것이며 전체 서비스의 업무효과를 검증한 결과는 아니다. 현재까지 실제 참여자 모집과 자료수집은 실시하지 않았으며, 빈 자료의 분석 상태값은 not_evaluated(미평가)로 기록하였다. 실행 절차는 field_study/protocol.md, 수집 및 분석 코드는 각각 code/collect_field_study.py와 code/analyze_field_study.py에 수록하였다. 상태값은 results/field_study_status/status.json에서 확인할 수 있다. 이 경로들은 공개 기준 커밋과 동봉 패키지의 최상위 폴더를 기준으로 한다."
+    },
+    {
+      "index": 383,
+      "before": "미국 자료는 statsmodels 저장소의 macrodata.csv이며, 저장소 판본 d07a39609cdf57b6898bb9adb87e7821904482aa에서 원문 바이트를 확보하였다. 제공 문서에 따르면 FRED를 중심으로 수집하고 실업률은 BLS에서 확보한 공개자료이며, 최초 확보일은 2009년 12월 15일이다[61]. 본 연구에서 사용한 realgdp·realcons·realinv는 계절조정된 실질 총량의 연율 수준계열(2005년 연쇄가격, 십억 달러)이다. 해당 수준의 전분기 비율에 100×자연로그를 적용한 변화율을 예측하였으며, 변환된 목표값의 시간단위는 분기로 유지하였다. 과거 최초 공표 판본의 이용 가능성은 확인하지 못하여 회고적 용도로 분류하였다.",
+      "after": "미국 자료는 statsmodels 저장소의 macrodata.csv이며, 저장소 판본 d07a39609cdf57b6898bb9adb87e7821904482aa에서 원문 바이트를 확보하였다. 제공 문서에는 편집자인 Skipper Seabold가 FRED와 미국 노동통계국(BLS)의 자료에 2009년 12월 15일 접근한 것으로 기재되어 있다[61]. 본 연구에서 사용한 realgdp, realcons, realinv는 각각 실질 국내총생산, 실질 개인소비지출, 실질 민간국내총투자로, 모두 계절조정된 연율 수준계열이다(2005년 연쇄가격, 십억 달러). 각 수준계열의 전분기 대비 비율에 100×자연로그를 적용하여 변화율을 산출하였으며, 변환된 목표값의 시간단위는 분기로 유지하였다. 과거 최초 공표판본의 이용 가능성은 확인되지 않아 이 자료를 과거기간 예측평가와 기술시험 입력 구성에 사용하였다."
+    },
+    {
+      "index": 388,
+      "before": "형식 조건은 JSON Schema Draft 2020-12로 필수 항목·자료형·유한 수치·해시 형식을 검사하였다[60]. Pandera 내부 관계 조건은 여기에 기간·단위·적격성, 편차와 기여도 합계, 검증요약, 요청 식별키 및 기록 해시의 관계를 추가하였다. 등록 대조 조건은 호출자가 관리하는 현재 판본과 참조값의 일치를 추가하였다[59]. 직접 구현에도 같은 요건·참조정보를 제공하였다. Pandera에는 원시 값과 산술 피연산자를 전달하고 직접 구현의 판정값이나 시험 기대값은 전달하지 않았다. 두 구현은 형식 검사·정규화와 일부 수치 비교 함수를 공유하였으며, 비교의 목적은 같은 요건을 공개 도구로 실행할 수 있는지와 참조정보의 역할을 확인하는 데 있다. 수치 관계 및 참조값 비교의 절대 허용 오차는 10⁻⁹로 정하였다.",
+      "after": "형식 조건은 JSON Schema Draft 2020-12로 필수 항목·자료형·유한 수치·해시 형식을 검사하였다[60]. Pandera 내부 관계 조건은 여기에 기간·단위·적격성, 편차와 기여도 합계, 검증요약, 요청 식별키 및 기록 해시의 관계를 추가하였다. 등록 대조 조건은 호출자가 관리하는 현재 판본과 참조값의 일치를 추가하였다[59]. 직접 구현에도 같은 요건·참조정보를 제공하였다. Pandera에는 원시 값과 산술 피연산자를 전달하고 직접 구현의 판정값이나 시험 기대값은 전달하지 않았다. 두 구현은 형식 검사·정규화와 일부 수치 비교 함수를 공유하였으며, 비교의 목적은 같은 요건을 공개 도구로 실행할 수 있는지와 참조정보의 역할을 확인하는 데 있다. 수치 관계 및 참조값 비교의 절대허용오차는 10⁻⁹, 상대허용오차는 0으로 정하였다."
+    },
+    {
+      "index": 392,
+      "before": "추가 시험의 명세와 네 분석 모듈의 해시는 적합 전, 입력 파일의 해시는 사례 평가 전에 기록하였다. 적합·평가 종료 시 코드 해시가 동일함을 확인하였다. 외부 사전등록 및 독립 평가자에 의한 검증은 수행하지 않았으며, 외부자료는 공개 출처의 범위를 의미한다. protocol_before_execution.json, cases_before_execution.json.gz, reference_context.json.gz, case_results.csv.gz, trust_boundary_results.csv에 설계·입력·조건별 판정과 한계를 보존하였다. 확장자 .gz 파일은 원본 내용을 유지한 gzip 압축본이다.",
+      "after": "추가 시험의 명세와 네 분석 모듈의 해시는 적합 전, 입력 파일의 해시는 사례 평가 전에 기록하였다. 적합·평가 종료 시 코드 해시가 동일함을 확인하였다. 이는 내부 실행 전 기록이며 외부 사전등록이나 독립 평가를 의미하지 않는다. 공통 검사 요건의 시험 명세와 결과는 공개 기준 커밋 및 동봉 패키지의 results/transfer_evaluation/에 수록하였다. protocol_before_execution.json은 실행 전 시험 설계, cases_before_execution.json.gz는 시험 입력, reference_context.json.gz는 별도 참조자료, case_results.csv.gz는 조건별 판정, trust_boundary_results.csv는 참조자료 동시 변경 시험의 결과를 보존한다. 확장자 .gz는 원래 내용을 복원할 수 있는 gzip 무손실 압축 형식을 뜻한다. 압축파일과 압축 해제 내용은 바이트가 다르므로 각각의 해시를 구분하며, 입력 및 참조자료의 압축 해제 내용은 execution_start.json에 기록된 SHA-256으로 확인할 수 있다."
+    }
+  ],
+  "cells": [
+    {
+      "table": 1,
+      "row": 0,
+      "column": 2,
+      "before": "본 연구의 구체화와 평가 위치",
+      "after": "본 연구의 적용 내용과 관련 절"
+    },
+    {
+      "table": 2,
+      "row": 0,
+      "column": 3,
+      "before": "평가 및 점검 내용",
+      "after": "평가 항목 및 방법"
+    },
+    {
+      "table": 11,
+      "row": 0,
+      "column": 3,
+      "before": "해석 범위",
+      "after": "결과의 해석 범위"
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 2,
+      "before": "OECD 원계열의 예측성능 평가 및 훈련기간을 순차적으로 늘리는 확장창 분석을 통한 민감도 점검",
+      "after": "OECD 원계열의 예측성능 평가 및 학습기간 확장 방식의 시간순 민감도 분석"
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 4,
+      "before": "일부 연도의 조사 반기 혼재; 추가 확장창 분석은 사후 분석",
+      "after": "일부 연도의 조사 반기 혼재; 학습기간 확장 평가는 기존 결과 확인 후 수행"
+    }
+  ],
+  "figures": [
+    {
+      "index": 0,
+      "path": "figures/paper_figure_01.png"
+    },
+    {
+      "index": 1,
+      "path": "figures/paper_figure_02.png",
+      "max_height": 5.65
+    },
+    {
+      "index": 2,
+      "path": "figures/paper_figure_03.png"
+    }
+  ]
+}

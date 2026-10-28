@@ -1,0 +1,12 @@
+{
+  "prepared_utc": "2026-09-23T14:30:34.937134+00:00",
+  "rule": "Include only if all explicitly mapped broad-section employment cells are numeric; literal 0 retained, hyphen not zero-imputed; all comparison models must use same included keys",
+  "rule_basis": "Official 2024H1 survey release legend: hyphen means no corresponding number/no surveyed sample; zero means below the displayed unit",
+  "official_legend_uri": "https://kostat.go.kr/boardDownload.es?bid=211&list_no=433146&seq=1",
+  "legend_location": "printed introductory notes, PDF page 2, as independently verified by stats review agent",
+  "included": 158,
+  "excluded": 12,
+  "keys_sha256": "9f59d4087b767a1f6225980d2803b474d7c9c5116d19259cdbaa0a49757dbdd5",
+  "status": "Preliminary inclusion before original-precision capture and period gate; no model performance observed",
+  "model_performance_evaluated": false
+}

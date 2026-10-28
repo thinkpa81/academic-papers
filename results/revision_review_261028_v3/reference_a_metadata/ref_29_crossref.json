@@ -1,0 +1,481 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T03:56:18Z",
+      "timestamp": 1793159778755,
+      "version": "4.5.0"
+    },
+    "reference-count": 26,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              19
+            ]
+          ],
+          "date-time": "2021-11-19T00:00:00Z",
+          "timestamp": 1637280000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Commun. ACM"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Documentation to facilitate communication between dataset creators and consumers.</jats:p>",
+    "DOI": "10.1145/3458723",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2021-11-19T10:30:18Z",
+      "timestamp": 1637317818000
+    },
+    "page": "86-92",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1876,
+    "title": [
+      "Datasheets for datasets"
+    ],
+    "prefix": "10.1145",
+    "volume": "64",
+    "author": [
+      {
+        "given": "Timnit",
+        "family": "Gebru",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "DAIR Institute, Palo Alto, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jamie",
+        "family": "Morgenstern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Briana",
+        "family": "Vecchione",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jennifer Wortman",
+        "family": "Vaughan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanna",
+        "family": "Wallach",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, New York, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hal Daumé",
+        "family": "III",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Maryland, College Park, MD"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kate",
+        "family": "Crawford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USC Annenberg, CA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_2_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0011128705281756"
+      },
+      {
+        "key": "e_1_2_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/tacl_a_00041"
+      },
+      {
+        "key": "e_1_2_2_3_1",
+        "volume-title": "et al. DataHub: Collaborative data science & dataset version management at scale. CoRR abs/1409.0798",
+        "author": "Bhardwaj A.",
+        "year": "2014",
+        "unstructured": "Bhardwaj, A. et al. DataHub: Collaborative data science & dataset version management at scale. CoRR abs/1409.0798 (2014)."
+      },
+      {
+        "key": "e_1_2_2_4_1",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Bolukbasi T.",
+        "year": "2016",
+        "unstructured": "Bolukbasi, T., Chang, K., Zou, J., Saligrama, V., and Kalai, A. Man is to computer programmer as woman is to homemaker? Debiasing Word Embeddings. In Advances in Neural Information Processing Systems (2016)."
+      },
+      {
+        "key": "e_1_2_2_5_1",
+        "volume-title": "Proceedings of the Conf. on Fairness, Accountability, and Transparency",
+        "author": "Buolamwini J.",
+        "year": "2018",
+        "unstructured": "Buolamwini, J. and Gebru, T. Gender shades: Intersectional accuracy disparities in commercial gender classification. In Proceedings of the Conf. on Fairness, Accountability, and Transparency (2018). 77--91."
+      },
+      {
+        "key": "e_1_2_2_6_1",
+        "volume-title": "Proceedings of the Conf. of the Assoc. for Computational Linguistics (2020",
+        "author": "Cao Y.",
+        "year": "1910",
+        "unstructured": "Cao, Y. and Daumé, H. Toward gender-inclusive coreference resolution. In Proceedings of the Conf. of the Assoc. for Computational Linguistics (2020). abs/1910.13913."
+      },
+      {
+        "key": "e_1_2_2_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2020.acl-main.418"
+      },
+      {
+        "key": "e_1_2_2_8_1",
+        "first-page": "4",
+        "article-title": "Provenance in databases: Why, how, and where",
+        "volume": "1",
+        "author": "Cheney J.",
+        "year": "2009",
+        "unstructured": "Cheney, J., Chiticariu, L., and Tan, W. Provenance in databases: Why, how, and where. Foundations and Trends in Databases 1, 4 (2009), 379--474.",
+        "journal-title": "Foundations and Trends in Databases"
+      },
+      {
+        "key": "e_1_2_2_9_1",
+        "volume-title": "NeurIPS Workshop on Dataset Curation and Security",
+        "author": "Chmielinski K.",
+        "year": "2020",
+        "unstructured": "Chmielinski, K. et al. The dataset nutrition label (2nd Gen): Leveraging context to mitigate harms in artificial intelligence. In NeurIPS Workshop on Dataset Curation and Security, 2020."
+      },
+      {
+        "key": "e_1_2_2_10_1",
+        "volume-title": "Proceedings of the 2018 Conf. on Empirical Methods in Natural Language Processing.",
+        "author": "Choi E.",
+        "unstructured": "Choi, E. et al. QuAC: Question answering in context. In Proceedings of the 2018 Conf. on Empirical Methods in Natural Language Processing."
+      },
+      {
+        "key": "e_1_2_2_11_1",
+        "volume-title": "Project will use AI to prevent or minimize electric grid failures",
+        "author": "Chui G.",
+        "year": "2017",
+        "unstructured": "Chui, G. Project will use AI to prevent or minimize electric grid failures, 2017."
+      },
+      {
+        "key": "e_1_2_2_12_1",
+        "volume-title": "Amazon scraps secret AI recruiting tool that showed bias against women",
+        "author": "Dastin J.",
+        "year": "2018",
+        "unstructured": "Dastin, J. Amazon scraps secret AI recruiting tool that showed bias against women, 2018; https://reut.rs/3imOH4d."
+      },
+      {
+        "key": "e_1_2_2_13_1",
+        "volume-title": "The Perpetual Line-Up: Unregulated Police Face Recognition in America. Georgetown Law",
+        "author": "Garvie C.",
+        "year": "2016",
+        "unstructured": "Garvie, C., Bedoya, A., and Frankle, J. The Perpetual Line-Up: Unregulated Police Face Recognition in America. Georgetown Law, Center on Privacy & Technology, Washington, D.C., 2016."
+      },
+      {
+        "key": "e_1_2_2_14_1",
+        "volume-title": "et al. Varshney. Increasing trust in AI services through supplier's declarations of conformity. CoRR abs/1808.07261",
+        "author": "Hind M.",
+        "year": "2018",
+        "unstructured": "Hind, M. et al. Varshney. Increasing trust in AI services through supplier's declarations of conformity. CoRR abs/1808.07261 (2018)."
+      },
+      {
+        "key": "e_1_2_2_15_1",
+        "volume-title": "Proceedings of 2019 ACM CHI Conf. on Human Factors in Computing Systems.",
+        "author": "Holstein K.",
+        "unstructured": "Holstein, K., Vaughan, J., Daumé, H, Dudík, M., and Wallach, H. Improving fairness in machine learning systems: What do industry practitioners need? In Proceedings of 2019 ACM CHI Conf. on Human Factors in Computing Systems."
+      },
+      {
+        "key": "e_1_2_2_16_1",
+        "volume-title": "Wild: A Database for Studying Face Recognition in Unconstrained Environments. Technical Report 07-49",
+        "author": "Huang G.",
+        "year": "2007",
+        "unstructured": "Huang, G., Ramesh, M., Berg, T., and Learned-Miller, E. Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments. Technical Report 07-49. University of Massachusetts Amherst, 2007."
+      },
+      {
+        "key": "e_1_2_2_17_1",
+        "volume-title": "et al. OpenImages: A public dataset for large-scale multi-label and multi-class image classification",
+        "author": "Krasin I.",
+        "year": "2017",
+        "unstructured": "Krasin, I. et al. OpenImages: A public dataset for large-scale multi-label and multi-class image classification, 2017."
+      },
+      {
+        "key": "e_1_2_2_18_1",
+        "first-page": "678",
+        "article-title": "The new investor",
+        "volume": "60",
+        "author": "Lin T",
+        "year": "2012",
+        "unstructured": "Lin, T. The new investor. UCLA Law Review 60 (2012), 678.",
+        "journal-title": "UCLA Law Review"
+      },
+      {
+        "key": "e_1_2_2_19_1",
+        "volume-title": "Hiring Algorithms Are Not Neutral",
+        "author": "Mann G.",
+        "year": "2016",
+        "unstructured": "Mann, G. and O'Neil, C. Hiring Algorithms Are Not Neutral, 2016; https://hbr.org/2016/12/hiring-algorithms-are-not-neutral."
+      },
+      {
+        "key": "e_1_2_2_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3287560.3287596"
+      },
+      {
+        "key": "e_1_2_2_21_1",
+        "volume-title": "How AI Could Smarten Up Our Water System",
+        "author": "O'Connor M.",
+        "year": "2017",
+        "unstructured": "O'Connor, M. How AI Could Smarten Up Our Water System, 2017."
+      },
+      {
+        "key": "e_1_2_2_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/1218955.1218990"
+      },
+      {
+        "key": "e_1_2_2_23_1",
+        "volume-title": "Baselines and a datasheet for the Cerema AWP dataset. CoRR abs/1806.04016",
+        "author": "Seck I.",
+        "year": "2018",
+        "unstructured": "Seck, I., Dahmane, K., Duthon, P., and Loosli, G. Baselines and a datasheet for the Cerema AWP dataset. CoRR abs/1806.04016 (2018). http://arxiv.org/abs/1806.04016"
+      },
+      {
+        "key": "e_1_2_2_24_1",
+        "volume-title": "Facial Recognition",
+        "author": "Doha Supply Systems",
+        "year": "2017",
+        "unstructured": "Doha Supply Systems. Facial Recognition, 2017."
+      },
+      {
+        "key": "e_1_2_2_25_1",
+        "volume-title": "How to Prevent Discriminatory Outcomes in Machine Learning",
+        "author": "World Economic Forum Global Future Council on Human Rights 2016--2018.",
+        "year": "2018",
+        "unstructured": "World Economic Forum Global Future Council on Human Rights 2016--2018. How to Prevent Discriminatory Outcomes in Machine Learning; 2018. https://www.weforum.org/whitepapers/how-to-prevent-discriminatory-outcomes-inmachine-learning."
+      },
+      {
+        "key": "e_1_2_2_26_1",
+        "volume-title": "Proceedings of the 2018 Conf. on Empirical Methods in Natural Language Processing.",
+        "author": "Yagcioglu S.",
+        "unstructured": "Yagcioglu, S., Erdem, A., Erdem, E., and Ikizler-Cinbis, N. RecipeQA: A challenge dataset for multimodal comprehension of cooking recipes. In Proceedings of the 2018 Conf. on Empirical Methods in Natural Language Processing."
+      }
+    ],
+    "container-title": [
+      "Communications of the ACM"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3458723",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3458723",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2025-06-18T13:49:06Z",
+      "timestamp": 1750254546000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3458723"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "references-count": 26,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3458723"
+    ],
+    "URL": "https://doi.org/10.1145/3458723",
+    "relation": {},
+    "ISSN": [
+      "0001-0782",
+      "1557-7317"
+    ],
+    "issn-type": [
+      {
+        "value": "0001-0782",
+        "type": "print"
+      },
+      {
+        "value": "1557-7317",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          19
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-11-19",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

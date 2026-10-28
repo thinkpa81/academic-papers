@@ -1,0 +1,2027 @@
+{
+  "release": "261028_v3",
+  "date_kst": "2026-10-28",
+  "minus_character": "U+002D HYPHEN-MINUS",
+  "modified_source_files": [
+    "code/redraw_figures.py",
+    "code/reviewability_figure.py",
+    "code/verify_figure_data.py",
+    "code/verify_figure_glyphs.py",
+    "figures/matrix_rendered_cells.csv"
+  ],
+  "numeric_results_changed": false,
+  "matrix_csv_change": "Only U+2212 display glyphs replaced with ASCII U+002D; all values, classes, coverage and stars preserved.",
+  "figure_comparisons": [
+    {
+      "figure": "paper_figure_01",
+      "all_text_preserved_except_minus_glyphs": true,
+      "png_dimensions_unchanged": true,
+      "long_minus_in_pdf": 0,
+      "png_changed": false,
+      "visual_review": "Passed: full-resolution PNG inspected; no clipped text, overlapping labels, or misplaced arrows."
+    },
+    {
+      "figure": "paper_figure_02",
+      "all_text_preserved_except_minus_glyphs": true,
+      "png_dimensions_unchanged": true,
+      "long_minus_in_pdf": 0,
+      "png_changed": true,
+      "visual_review": "Passed: full-resolution PNG inspected; no clipped text, overlapping labels, or misplaced arrows."
+    },
+    {
+      "figure": "paper_figure_03",
+      "all_text_preserved_except_minus_glyphs": true,
+      "png_dimensions_unchanged": true,
+      "long_minus_in_pdf": 0,
+      "png_changed": true,
+      "visual_review": "Passed: full-resolution PNG inspected; no clipped text, overlapping labels, or misplaced arrows."
+    },
+    {
+      "figure": "paper_figure_A1",
+      "all_text_preserved_except_minus_glyphs": true,
+      "png_dimensions_unchanged": true,
+      "long_minus_in_pdf": 0,
+      "png_changed": false,
+      "visual_review": "Passed: full-resolution PNG inspected; no clipped text, overlapping labels, or misplaced arrows."
+    }
+  ],
+  "data_checks": {
+    "all_passed": true,
+    "checks_passed": 97,
+    "checks_total": 97,
+    "figure2": {
+      "baseline": 0.6705514379380221,
+      "ridge": -0.398406218401248,
+      "difference": -1.0689576563392702,
+      "actual_logpoints": -31.70735977984932,
+      "actual_simple_pct": -27.172284644194754,
+      "validation_cell_n": 0,
+      "intercept": 0.6662437588171344,
+      "other_five_sum": -0.09838234423507324,
+      "reconstructed": -0.398406218401248
+    },
+    "figure3": {
+      "classes": {
+        "하회": 17,
+        "근접": 35,
+        "상회": 13,
+        "": 15
+      },
+      "coverage": {
+        "부분": 4,
+        "완전": 61,
+        "자료없음": 15
+      },
+      "validation_matches": 91,
+      "validation_total": 188,
+      "validation_pct": 48.40425531914894
+    },
+    "sources": [
+      "support/baseline/base_v11/analysis_harmonized/results/main/test_predictions.csv",
+      "support/baseline/base_v11/analysis_harmonized/results/main/validation_predictions.csv",
+      "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json",
+      "figures/fig3_validation.json",
+      "figures/matrix_rendered_cells.csv"
+    ],
+    "method": "Recomputed 80 region-industry aggregates from preserved test predictions using identical available regions in numerator and denominator; independently recomputed 2020-2022 validation aggregates using the 2025 available-region composition. Contribution terms verified against the source evidence card, not refitted.",
+    "checks": [
+      {
+        "check": "figure2_baseline",
+        "observed": 0.6705514379380221,
+        "reference": 0.6705514379380221,
+        "passed": true
+      },
+      {
+        "check": "figure2_ridge",
+        "observed": -0.398406218401248,
+        "reference": -0.398406218401248,
+        "passed": true
+      },
+      {
+        "check": "figure2_difference",
+        "observed": -1.0689576563392702,
+        "reference": -1.0689576563392702,
+        "passed": true
+      },
+      {
+        "check": "figure2_validation_cell_n",
+        "observed": 0,
+        "reference": 0,
+        "passed": true
+      },
+      {
+        "check": "figure2_intercept",
+        "observed": 0.6662437588171344,
+        "reference": 0.6662437588171344,
+        "passed": true
+      },
+      {
+        "check": "figure2_other_five_sum",
+        "observed": -0.09838234423507324,
+        "reference": -0.09838234423507324,
+        "passed": true
+      },
+      {
+        "check": "figure2_reconstructed",
+        "observed": -0.398406218401248,
+        "reference": -0.3984062184012479,
+        "passed": true
+      },
+      {
+        "check": "figure2_contribution_own_growth",
+        "observed": -0.8144952435623789,
+        "reference": -0.8144952435623789,
+        "passed": true
+      },
+      {
+        "check": "figure2_contribution_log_employment",
+        "observed": -0.329902754694259,
+        "reference": -0.329902754694259,
+        "passed": true
+      },
+      {
+        "check": "figure2_contribution_region_total_growth",
+        "observed": 0.17813036527332884,
+        "reference": 0.17813036527332884,
+        "passed": true
+      },
+      {
+        "check": "figure2_actual_logpoints",
+        "observed": -31.70735977984932,
+        "reference": -31.70735977984932,
+        "passed": true
+      },
+      {
+        "check": "figure2_actual_simple_pct",
+        "observed": -27.172284644194754,
+        "reference": -27.172284644194754,
+        "passed": true
+      },
+      {
+        "check": "source_card_sha256",
+        "observed": "c914cf7fae07b72a8cae96d7d0faf5cedf7f2b4170664696df2a422bc7dfd317",
+        "reference": "c914cf7fae07b72a8cae96d7d0faf5cedf7f2b4170664696df2a422bc7dfd317",
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_A",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "A",
+          "label": "-1.64*",
+          "class": "하회",
+          "coverage": "부분"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "A",
+          "label": "-1.64*",
+          "class": "하회",
+          "coverage": "부분"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_BTE",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "BTE",
+          "label": "-0.66",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "BTE",
+          "label": "-0.66",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_F",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "F",
+          "label": "+0.10",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "F",
+          "label": "+0.10",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_GTI",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "GTI",
+          "label": "-0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "GTI",
+          "label": "-0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_J",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "J",
+          "label": "-1.01",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "J",
+          "label": "-1.01",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_K",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "K",
+          "label": "-0.30",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "K",
+          "label": "-0.30",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_L",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "L",
+          "label": "+1.28",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "L",
+          "label": "+1.28",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_M_N",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "M_N",
+          "label": "+0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "M_N",
+          "label": "+0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_OTQ",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "OTQ",
+          "label": "+0.13",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "OTQ",
+          "label": "+0.13",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_수도권_RTU",
+        "observed": {
+          "superregion": "수도권",
+          "industry_code": "RTU",
+          "label": "-0.29",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "수도권",
+          "industry_code": "RTU",
+          "label": "-0.29",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_A",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "A",
+          "label": "-0.34",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "A",
+          "label": "-0.34",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_BTE",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "BTE",
+          "label": "-0.47*",
+          "class": "근접",
+          "coverage": "부분"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "BTE",
+          "label": "-0.47*",
+          "class": "근접",
+          "coverage": "부분"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_F",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "F",
+          "label": "-0.27",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "F",
+          "label": "-0.27",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_GTI",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "GTI",
+          "label": "-0.31",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "GTI",
+          "label": "-0.31",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_J",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "J",
+          "label": "-0.01",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "J",
+          "label": "-0.01",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_K",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "K",
+          "label": "-1.02",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "K",
+          "label": "-1.02",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_L",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "L",
+          "label": "+0.66",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "L",
+          "label": "+0.66",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_M_N",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "M_N",
+          "label": "+0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "M_N",
+          "label": "+0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_OTQ",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "OTQ",
+          "label": "+0.54",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "OTQ",
+          "label": "+0.54",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_충청권_RTU",
+        "observed": {
+          "superregion": "충청권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "충청권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_A",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "A",
+          "label": "-0.47",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "A",
+          "label": "-0.47",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_BTE",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "BTE",
+          "label": "-0.74",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "BTE",
+          "label": "-0.74",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_F",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "F",
+          "label": "+0.15",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "F",
+          "label": "+0.15",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_GTI",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "GTI",
+          "label": "-0.13",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "GTI",
+          "label": "-0.13",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_J",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "J",
+          "label": "-0.67",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "J",
+          "label": "-0.67",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_K",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "K",
+          "label": "-1.10",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "K",
+          "label": "-1.10",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_L",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "L",
+          "label": "+0.85",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "L",
+          "label": "+0.85",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_M_N",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "M_N",
+          "label": "+0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "M_N",
+          "label": "+0.39",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_OTQ",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "OTQ",
+          "label": "+0.00",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "OTQ",
+          "label": "+0.00",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_호남권_RTU",
+        "observed": {
+          "superregion": "호남권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "호남권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_A",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "A",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "A",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_BTE",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "BTE",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "BTE",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_F",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "F",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "F",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_GTI",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "GTI",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "GTI",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_J",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "J",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "J",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_K",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "K",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "K",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_L",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "L",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "L",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_M_N",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "M_N",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "M_N",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_OTQ",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "OTQ",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "OTQ",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_대경권_RTU",
+        "observed": {
+          "superregion": "대경권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "대경권",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_A",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "A",
+          "label": "+0.04",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "A",
+          "label": "+0.04",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_BTE",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "BTE",
+          "label": "-0.91*",
+          "class": "하회",
+          "coverage": "부분"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "BTE",
+          "label": "-0.91*",
+          "class": "하회",
+          "coverage": "부분"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_F",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "F",
+          "label": "+1.34",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "F",
+          "label": "+1.34",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_GTI",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "GTI",
+          "label": "-0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "GTI",
+          "label": "-0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_J",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "J",
+          "label": "-0.73",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "J",
+          "label": "-0.73",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_K",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "K",
+          "label": "-1.01",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "K",
+          "label": "-1.01",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_L",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "L",
+          "label": "-0.04",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "L",
+          "label": "-0.04",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_M_N",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "M_N",
+          "label": "-0.29",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "M_N",
+          "label": "-0.29",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_OTQ",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "OTQ",
+          "label": "-0.16",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "OTQ",
+          "label": "-0.16",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_동남권_RTU",
+        "observed": {
+          "superregion": "동남권",
+          "industry_code": "RTU",
+          "label": "-0.42*",
+          "class": "근접",
+          "coverage": "부분"
+        },
+        "reference": {
+          "superregion": "동남권",
+          "industry_code": "RTU",
+          "label": "-0.42*",
+          "class": "근접",
+          "coverage": "부분"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_A",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "A",
+          "label": "-1.20",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "A",
+          "label": "-1.20",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_BTE",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "BTE",
+          "label": "-1.12",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "BTE",
+          "label": "-1.12",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_F",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "F",
+          "label": "-0.18",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "F",
+          "label": "-0.18",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_GTI",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "GTI",
+          "label": "+0.72",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "GTI",
+          "label": "+0.72",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_J",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "J",
+          "label": "+0.48",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "J",
+          "label": "+0.48",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_K",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "K",
+          "label": "+2.36",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "K",
+          "label": "+2.36",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_L",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "L",
+          "label": "+2.09",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "L",
+          "label": "+2.09",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_M_N",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "M_N",
+          "label": "+0.05",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "M_N",
+          "label": "+0.05",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_OTQ",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "OTQ",
+          "label": "-0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "OTQ",
+          "label": "-0.09",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_강원_RTU",
+        "observed": {
+          "superregion": "강원",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "강원",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_A",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "A",
+          "label": "+0.20",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "A",
+          "label": "+0.20",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_BTE",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "BTE",
+          "label": "-0.55",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "BTE",
+          "label": "-0.55",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_F",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "F",
+          "label": "+0.77",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "F",
+          "label": "+0.77",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_GTI",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "GTI",
+          "label": "+0.34",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "GTI",
+          "label": "+0.34",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_J",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "J",
+          "label": "-0.31",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "J",
+          "label": "-0.31",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_K",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "K",
+          "label": "-1.32",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "K",
+          "label": "-1.32",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_L",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "L",
+          "label": "+0.69",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "L",
+          "label": "+0.69",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_M_N",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "M_N",
+          "label": "-0.24",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "M_N",
+          "label": "-0.24",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_OTQ",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "OTQ",
+          "label": "-0.11",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "OTQ",
+          "label": "-0.11",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_전북_RTU",
+        "observed": {
+          "superregion": "전북",
+          "industry_code": "RTU",
+          "label": "-0.62",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "전북",
+          "industry_code": "RTU",
+          "label": "-0.62",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_A",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "A",
+          "label": "+0.72",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "A",
+          "label": "+0.72",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_BTE",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "BTE",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "BTE",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_F",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "F",
+          "label": "+1.39",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "F",
+          "label": "+1.39",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_GTI",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "GTI",
+          "label": "-0.26",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "GTI",
+          "label": "-0.26",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_J",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "J",
+          "label": "+0.19",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "J",
+          "label": "+0.19",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_K",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "K",
+          "label": "+1.45",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "K",
+          "label": "+1.45",
+          "class": "상회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_L",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "L",
+          "label": "-1.34",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "L",
+          "label": "-1.34",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_M_N",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "M_N",
+          "label": "-1.08",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "M_N",
+          "label": "-1.08",
+          "class": "하회",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_OTQ",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "OTQ",
+          "label": "+0.36",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "OTQ",
+          "label": "+0.36",
+          "class": "근접",
+          "coverage": "완전"
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_제주_RTU",
+        "observed": {
+          "superregion": "제주",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "reference": {
+          "superregion": "제주",
+          "industry_code": "RTU",
+          "label": "×",
+          "class": "",
+          "coverage": "자료없음"
+        },
+        "passed": true
+      },
+      {
+        "check": "validation_sign_matches",
+        "observed": 91,
+        "reference": 91,
+        "passed": true
+      },
+      {
+        "check": "validation_total",
+        "observed": 188,
+        "reference": 188,
+        "passed": true
+      },
+      {
+        "check": "matrix_classes",
+        "observed": {
+          "하회": 17,
+          "근접": 35,
+          "상회": 13,
+          "": 15
+        },
+        "reference": {
+          "하회": 17,
+          "근접": 35,
+          "상회": 13,
+          "": 15
+        },
+        "passed": true
+      },
+      {
+        "check": "matrix_coverage",
+        "observed": {
+          "부분": 4,
+          "완전": 61,
+          "자료없음": 15
+        },
+        "reference": {
+          "완전": 61,
+          "부분": 4,
+          "자료없음": 15
+        },
+        "passed": true
+      }
+    ]
+  },
+  "glyph_checks": {
+    "all_passed": true,
+    "checks_passed": 18,
+    "checks_total": 18,
+    "minus_character": "U+002D HYPHEN-MINUS",
+    "figures": {
+      "paper_figure_01": {
+        "text_nodes": 36,
+        "ascii_hyphen_count": 0,
+        "forbidden_minus_counts": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        },
+        "png_dimensions": [
+          2604,
+          2905
+        ],
+        "files": {
+          "png": {
+            "sha256": "05271fc3e98b8413ac5003cc7af2d7e5b260d1477ee4839f6f70ec7509176307",
+            "bytes": 634395
+          },
+          "pdf": {
+            "sha256": "a0b3b6d771bb6c8b27fe533ea05841edaeb17896d58dbc5de1b8b7a9044c5920",
+            "bytes": 63775
+          },
+          "svg": {
+            "sha256": "d0691b834f3225826b408616212e43c28d59dec508b1ef074adff55629dd6768",
+            "bytes": 14204
+          }
+        }
+      },
+      "paper_figure_02": {
+        "text_nodes": 41,
+        "ascii_hyphen_count": 14,
+        "forbidden_minus_counts": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        },
+        "png_dimensions": [
+          2604,
+          2799
+        ],
+        "files": {
+          "png": {
+            "sha256": "edd758b47cf0f838c075c01ed6900270417cdcc4759c7e74f13cd45244a52aaf",
+            "bytes": 613474
+          },
+          "pdf": {
+            "sha256": "85f5653b8f409af17e3d20ad86a14d88a5879fdba0c8b2d4b90388efeb6712af",
+            "bytes": 60603
+          },
+          "svg": {
+            "sha256": "6d3537a5a1ebbd2265730d335030a09b16936ff431de7d3f6fef11249eb6f132",
+            "bytes": 21376
+          }
+        }
+      },
+      "paper_figure_03": {
+        "text_nodes": 109,
+        "ascii_hyphen_count": 41,
+        "forbidden_minus_counts": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        },
+        "png_dimensions": [
+          2604,
+          2338
+        ],
+        "files": {
+          "png": {
+            "sha256": "e68bd9f7663b7c62defb118040fa2c0e1df3f4d0306db367b5c73740e1402b3c",
+            "bytes": 608310
+          },
+          "pdf": {
+            "sha256": "dafc7838f9e8cf0a3bd36f01151f55338e06ae6fca67de2c2d838714f475017b",
+            "bytes": 56805
+          },
+          "svg": {
+            "sha256": "d7022371acc305e95b55463a66d3f8ddc7d2fcee075c19a35fb0c346c3a2c6c6",
+            "bytes": 55663
+          }
+        }
+      },
+      "paper_figure_A1": {
+        "text_nodes": 27,
+        "ascii_hyphen_count": 6,
+        "forbidden_minus_counts": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        },
+        "png_dimensions": [
+          3420,
+          1485
+        ],
+        "files": {
+          "png": {
+            "sha256": "2129a3d5dbfaf04495b3130b5497cc8b52f80cdc73e9bea7cfea898309614850",
+            "bytes": 126207
+          },
+          "pdf": {
+            "sha256": "06f3dd329cfa3dffc80b70053e05cbbc5e4a9996505890b11b686d19400395db",
+            "bytes": 12850
+          },
+          "svg": {
+            "sha256": "e9fb5649aeabd29d4c763514bce82c1123545ce1c5b2d666ac0188d6f1a277ed",
+            "bytes": 15114
+          }
+        }
+      }
+    },
+    "appendix_A1_values": {
+      "2015": {
+        "difference": 0.49772806297287886,
+        "label": "+0.50"
+      },
+      "2016": {
+        "difference": 0.4520264720321272,
+        "label": "+0.45"
+      },
+      "2017": {
+        "difference": -0.042855794789137036,
+        "label": "-0.04"
+      },
+      "2018": {
+        "difference": 0.1842557322267151,
+        "label": "+0.18"
+      },
+      "2019": {
+        "difference": -0.5762655245467814,
+        "label": "-0.58"
+      },
+      "2020": {
+        "difference": 0.0,
+        "label": "+0.00"
+      },
+      "2021": {
+        "difference": 0.2842690302508242,
+        "label": "+0.28"
+      },
+      "2022": {
+        "difference": -0.06907640899253487,
+        "label": "-0.07"
+      },
+      "2023": {
+        "difference": 0.35236170371641684,
+        "label": "+0.35"
+      }
+    },
+    "checks": [
+      {
+        "check": "paper_figure_01_ascii_minus",
+        "passed": true,
+        "observed": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        }
+      },
+      {
+        "check": "paper_figure_01_450dpi",
+        "passed": true,
+        "observed": [
+          450.0118,
+          450.0118
+        ]
+      },
+      {
+        "check": "paper_figure_02_ascii_minus",
+        "passed": true,
+        "observed": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        }
+      },
+      {
+        "check": "paper_figure_02_450dpi",
+        "passed": true,
+        "observed": [
+          450.0118,
+          450.0118
+        ]
+      },
+      {
+        "check": "paper_figure_03_ascii_minus",
+        "passed": true,
+        "observed": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        }
+      },
+      {
+        "check": "paper_figure_03_450dpi",
+        "passed": true,
+        "observed": [
+          450.0118,
+          450.0118
+        ]
+      },
+      {
+        "check": "paper_figure_A1_ascii_minus",
+        "passed": true,
+        "observed": {
+          "U+2212": 0,
+          "U+FE63": 0,
+          "U+FF0D": 0,
+          "U+2013": 0,
+          "U+2014": 0
+        }
+      },
+      {
+        "check": "paper_figure_A1_450dpi",
+        "passed": true,
+        "observed": [
+          450.0118,
+          450.0118
+        ]
+      },
+      {
+        "check": "figure3_80_ordered_cell_labels",
+        "passed": true,
+        "observed": [
+          "-1.64*",
+          "-0.66",
+          "+0.10",
+          "-0.39",
+          "-1.01",
+          "-0.30",
+          "+1.28",
+          "+0.09",
+          "+0.13",
+          "-0.29",
+          "-0.34",
+          "-0.47*",
+          "-0.27",
+          "-0.31",
+          "-0.01",
+          "-1.02",
+          "+0.66",
+          "+0.39",
+          "+0.54",
+          "×",
+          "-0.47",
+          "-0.74",
+          "+0.15",
+          "-0.13",
+          "-0.67",
+          "-1.10",
+          "+0.85",
+          "+0.39",
+          "+0.00",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "×",
+          "+0.04",
+          "-0.91*",
+          "+1.34",
+          "-0.09",
+          "-0.73",
+          "-1.01",
+          "-0.04",
+          "-0.29",
+          "-0.16",
+          "-0.42*",
+          "-1.20",
+          "-1.12",
+          "-0.18",
+          "+0.72",
+          "+0.48",
+          "+2.36",
+          "+2.09",
+          "+0.05",
+          "-0.09",
+          "×",
+          "+0.20",
+          "-0.55",
+          "+0.77",
+          "+0.34",
+          "-0.31",
+          "-1.32",
+          "+0.69",
+          "-0.24",
+          "-0.11",
+          "-0.62",
+          "+0.72",
+          "×",
+          "+1.39",
+          "-0.26",
+          "+0.19",
+          "+1.45",
+          "-1.34",
+          "-1.08",
+          "+0.36",
+          "×"
+        ]
+      },
+      {
+        "check": "appendix_A1_source_label_2015",
+        "passed": true,
+        "observed": "+0.50"
+      },
+      {
+        "check": "appendix_A1_source_label_2016",
+        "passed": true,
+        "observed": "+0.45"
+      },
+      {
+        "check": "appendix_A1_source_label_2017",
+        "passed": true,
+        "observed": "-0.04"
+      },
+      {
+        "check": "appendix_A1_source_label_2018",
+        "passed": true,
+        "observed": "+0.18"
+      },
+      {
+        "check": "appendix_A1_source_label_2019",
+        "passed": true,
+        "observed": "-0.58"
+      },
+      {
+        "check": "appendix_A1_source_label_2020",
+        "passed": true,
+        "observed": "+0.00"
+      },
+      {
+        "check": "appendix_A1_source_label_2021",
+        "passed": true,
+        "observed": "+0.28"
+      },
+      {
+        "check": "appendix_A1_source_label_2022",
+        "passed": true,
+        "observed": "-0.07"
+      },
+      {
+        "check": "appendix_A1_source_label_2023",
+        "passed": true,
+        "observed": "+0.35"
+      }
+    ]
+  },
+  "commands": [
+    "python code/redraw_figures.py --out figures",
+    "python code/verify_figure_data.py --out results/figure_data_check_261028_v3.json",
+    "python code/verify_figure_glyphs.py --out results/figure_glyph_check_261028_v3.json"
+  ],
+  "fourth_image": "Appendix Figure A1, generated by draw2() from support/baseline/base_v11/extensions/analysis/rolling_annual_metrics.csv; already ASCII minus and PNG retained byte-identical."
+}

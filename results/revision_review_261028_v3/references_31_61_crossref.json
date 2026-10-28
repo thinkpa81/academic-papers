@@ -1,0 +1,2122 @@
+{
+  "verified_date_kst": "2026-10-28",
+  "records": [
+    {
+      "ref": 31,
+      "endpoint": "https://api.crossref.org/works/10.2307%2F25148625",
+      "doi": "10.2307/25148625",
+      "http_status": 200,
+      "metadata": {
+        "DOI": "10.2307/25148625",
+        "title": [
+          "Design Science in Information Systems Research1"
+        ],
+        "subtitle": [],
+        "author": [
+          {
+            "given": "Alan R.",
+            "family": "Hevner",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Information Systems and Decision Sciences, College of Business Administration, University of South Florida, Tampa, FL 33620, U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Salvatore T.",
+            "family": "March",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Own Graduate School of Management, Vanderbilt University, Nashville, TN 37203, U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinsoo",
+            "family": "Park",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Business Administration, Korea University, Seoul, 136-701, Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sudha",
+            "family": "Ram",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Management Information Systems, Eller College of Business and Public Administration, University of Arizona, Tucson, AZ 85721, U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "MIS Quarterly"
+        ],
+        "publisher": "MIS Quarterly",
+        "volume": "28",
+        "issue": "1",
+        "page": "75-106",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.2307/25148625",
+        "link": [
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/28/1/75/1159/4_hevner.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/28/1/75/1159/4_hevner.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 32,
+      "endpoint": "https://api.crossref.org/works/10.1080%2F00401706.1970.10488634",
+      "http_status": 200,
+      "doi": "10.1080/00401706.1970.10488634",
+      "metadata": {
+        "DOI": "10.1080/00401706.1970.10488634",
+        "title": [
+          "Ridge Regression: Biased Estimation for Nonorthogonal Problems"
+        ],
+        "author": [
+          {
+            "given": "Arthur E.",
+            "family": "Hoerl",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Robert W.",
+            "family": "Kennard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Technometrics"
+        ],
+        "publisher": "Informa UK Limited",
+        "volume": "12",
+        "issue": "1",
+        "page": "55-67",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1970,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1970,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              4,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1080/00401706.1970.10488634",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00401706.1970.10488634",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 33,
+      "endpoint": "https://api.crossref.org/works/10.1214%2Faoms%2F1177703732",
+      "http_status": 200,
+      "doi": "10.1214/aoms/1177703732",
+      "metadata": {
+        "DOI": "10.1214/aoms/1177703732",
+        "title": [
+          "Robust Estimation of a Location Parameter"
+        ],
+        "author": [
+          {
+            "given": "Peter J.",
+            "family": "Huber",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Annals of Mathematical Statistics"
+        ],
+        "publisher": "Institute of Mathematical Statistics",
+        "volume": "35",
+        "issue": "1",
+        "page": "73-101",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1964,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1964,
+              3
+            ]
+          ]
+        },
+        "published-online": null,
+        "URL": "https://doi.org/10.1214/aoms/1177703732",
+        "link": [
+          {
+            "URL": "http://projecteuclid.org/download/pdf_1/euclid.aoms/1177703732",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 34,
+      "endpoint": "https://api.crossref.org/works/10.1016%2Fj.ijforecast.2006.03.001",
+      "http_status": 200,
+      "doi": "10.1016/j.ijforecast.2006.03.001",
+      "metadata": {
+        "DOI": "10.1016/j.ijforecast.2006.03.001",
+        "title": [
+          "Another look at measures of forecast accuracy"
+        ],
+        "author": [
+          {
+            "given": "Rob J.",
+            "family": "Hyndman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anne B.",
+            "family": "Koehler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Forecasting"
+        ],
+        "publisher": "Elsevier BV",
+        "volume": "22",
+        "issue": "4",
+        "page": "679-688",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              10
+            ]
+          ]
+        },
+        "published-online": null,
+        "URL": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169207006000239?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169207006000239?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 35,
+      "endpoint": "https://api.crossref.org/works/10.1016%2Fj.patter.2023.100804",
+      "http_status": 200,
+      "doi": "10.1016/j.patter.2023.100804",
+      "metadata": {
+        "DOI": "10.1016/j.patter.2023.100804",
+        "title": [
+          "Leakage and the reproducibility crisis in machine-learning-based science"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5695-280X",
+            "authenticated-orcid": false,
+            "given": "Sayash",
+            "family": "Kapoor",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Arvind",
+            "family": "Narayanan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Patterns"
+        ],
+        "publisher": "Elsevier BV",
+        "volume": "4",
+        "issue": "9",
+        "page": "100804",
+        "article-number": "100804",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-online": null,
+        "URL": "https://doi.org/10.1016/j.patter.2023.100804",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 36,
+      "endpoint": "https://api.crossref.org/works/10.2307%2F1913643",
+      "http_status": 200,
+      "doi": "10.2307/1913643",
+      "metadata": {
+        "DOI": "10.2307/1913643",
+        "title": [
+          "Regression Quantiles"
+        ],
+        "author": [
+          {
+            "given": "Roger",
+            "family": "Koenker",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "suffix": "join(' '",
+            "given": "Gilbert",
+            "family": "Bassett",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Econometrica"
+        ],
+        "publisher": "JSTOR",
+        "volume": "46",
+        "issue": "1",
+        "page": "33",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1978,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1978,
+              1
+            ]
+          ]
+        },
+        "published-online": null,
+        "URL": "https://doi.org/10.2307/1913643",
+        "link": null
+      }
+    },
+    {
+      "ref": 37,
+      "endpoint": "https://api.crossref.org/works/10.1177%2F0160017605276187",
+      "http_status": 200,
+      "doi": "10.1177/0160017605276187",
+      "metadata": {
+        "DOI": "10.1177/0160017605276187",
+        "title": [
+          "Neural Network Modeling as a Tool for Forecasting Regional Employment Patterns"
+        ],
+        "author": [
+          {
+            "given": "Simonetta",
+            "family": "Longhi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Spatial Economics, Free University, Amsterdam, the Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peter",
+            "family": "Nijkamp",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Spatial Economics, Free University, Amsterdam, the Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aura",
+            "family": "Reggianni",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Economics, Faculty of Statistics, University of Bologna, Bologna, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Erich",
+            "family": "Maierhofer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institut fuer Arbeitsmarkt und Berufsforschung (IAB), Nuremberg, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Regional Science Review"
+        ],
+        "publisher": "SAGE Publications",
+        "volume": "28",
+        "issue": "3",
+        "page": "330-346",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              7,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1177/0160017605276187",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0160017605276187",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0160017605276187",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 38,
+      "endpoint": "https://api.crossref.org/works/10.1016%2Fj.ijforecast.2018.06.001",
+      "http_status": 200,
+      "doi": "10.1016/j.ijforecast.2018.06.001",
+      "metadata": {
+        "DOI": "10.1016/j.ijforecast.2018.06.001",
+        "title": [
+          "The M4 Competition: Results, findings, conclusion and way forward"
+        ],
+        "author": [
+          {
+            "given": "Spyros",
+            "family": "Makridakis",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Evangelos",
+            "family": "Spiliotis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Vassilios",
+            "family": "Assimakopoulos",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Forecasting"
+        ],
+        "publisher": "Elsevier BV",
+        "volume": "34",
+        "issue": "4",
+        "page": "802-808",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              10
+            ]
+          ]
+        },
+        "published-online": null,
+        "URL": "https://doi.org/10.1016/j.ijforecast.2018.06.001",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169207018300785?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0169207018300785?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 39,
+      "endpoint": "https://api.crossref.org/works/10.1145%2F3287560.3287596",
+      "http_status": 200,
+      "doi": "10.1145/3287560.3287596",
+      "metadata": {
+        "DOI": "10.1145/3287560.3287596",
+        "title": [
+          "Model Cards for Model Reporting"
+        ],
+        "author": [
+          {
+            "given": "Margaret",
+            "family": "Mitchell",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Simone",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Zaldivar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Parker",
+            "family": "Barnes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lucy",
+            "family": "Vasserman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ben",
+            "family": "Hutchinson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Elena",
+            "family": "Spitzer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Inioluwa Deborah",
+            "family": "Raji",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Timnit",
+            "family": "Gebru",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the Conference on Fairness, Accountability, and Transparency"
+        ],
+        "publisher": "ACM",
+        "volume": null,
+        "issue": null,
+        "page": "220-229",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              29
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1145/3287560.3287596",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3287560.3287596",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3287560.3287596",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 43,
+      "endpoint": "https://api.crossref.org/works/10.1177%2F0018720810376055",
+      "http_status": 200,
+      "doi": "10.1177/0018720810376055",
+      "metadata": {
+        "DOI": "10.1177/0018720810376055",
+        "title": [
+          "Complacency and Bias in Human Use of Automation: An Attentional Integration"
+        ],
+        "author": [
+          {
+            "given": "Raja",
+            "family": "Parasuraman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "George Mason University, Fairfax, Virginia,"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dietrich H.",
+            "family": "Manzey",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Berlin Institute of Technology, Berlin, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Human Factors: The Journal of the Human Factors and Ergonomics Society"
+        ],
+        "publisher": "SAGE Publications",
+        "volume": "52",
+        "issue": "3",
+        "page": "381-410",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              20
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1177/0018720810376055",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0018720810376055",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0018720810376055",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 44,
+      "endpoint": "https://api.crossref.org/works/10.2753%2FMIS0742-1222240302",
+      "http_status": 200,
+      "doi": "10.2753/MIS0742-1222240302",
+      "metadata": {
+        "DOI": "10.2753/mis0742-1222240302",
+        "title": [
+          "A Design Science Research Methodology for Information Systems Research"
+        ],
+        "author": [
+          {
+            "given": "Ken",
+            "family": "Peffers",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "a  The Management Information Systems Department, The University of Nevada, Las Vegas"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tuure",
+            "family": "Tuunanen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "b  The Department of Information Systems and Operations Management, The University of Auckland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcus A.",
+            "family": "Rothenberger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "c  Associate Professor of Management Information Systems, The University of Nevada, Las Vegas"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Samir",
+            "family": "Chatterjee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "d  The School of Information Systems &amp; Technology and Founding Director of the Network Convergence Laboratory, Claremont Graduate University, California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Management Information Systems"
+        ],
+        "publisher": "Informa UK Limited",
+        "volume": "24",
+        "issue": "3",
+        "page": "45-77",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              8
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.2753/mis0742-1222240302",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.2753/MIS0742-1222240302",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 45,
+      "endpoint": "https://api.crossref.org/works/10.1145%2F3351095.3372873",
+      "doi": "10.1145/3351095.3372873",
+      "http_status": 200,
+      "metadata": {
+        "DOI": "10.1145/3351095.3372873",
+        "title": [
+          "Closing the AI accountability gap"
+        ],
+        "subtitle": [
+          "defining an end-to-end framework for internal algorithmic auditing"
+        ],
+        "author": [
+          {
+            "given": "Inioluwa Deborah",
+            "family": "Raji",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Partnership on AI"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Smart",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rebecca N.",
+            "family": "White",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Margaret",
+            "family": "Mitchell",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Timnit",
+            "family": "Gebru",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ben",
+            "family": "Hutchinson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jamila",
+            "family": "Smith-Loud",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniel",
+            "family": "Theron",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Parker",
+            "family": "Barnes",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency"
+        ],
+        "publisher": "ACM",
+        "volume": null,
+        "issue": null,
+        "page": "33-44",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              27
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              27
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1145/3351095.3372873",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3351095.3372873",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3351095.3372873",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 46,
+      "endpoint": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+      "http_status": 200,
+      "doi": "10.1111/ecog.02881",
+      "metadata": {
+        "DOI": "10.1111/ecog.02881",
+        "title": [
+          "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+        ],
+        "author": [
+          {
+            "given": "David R.",
+            "family": "Roberts",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Volker",
+            "family": "Bahn",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Simone",
+            "family": "Ciuti",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mark S.",
+            "family": "Boyce",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jane",
+            "family": "Elith",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gurutzeta",
+            "family": "Guillera‐Arroita",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Severin",
+            "family": "Hauenstein",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "José J.",
+            "family": "Lahoz‐Monfort",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Boris",
+            "family": "Schröder",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wilfried",
+            "family": "Thuiller",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "David I.",
+            "family": "Warton",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Brendan A.",
+            "family": "Wintle",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Florian",
+            "family": "Hartig",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+              },
+              {
+                "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carsten F.",
+            "family": "Dormann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Ecography"
+        ],
+        "publisher": "Wiley",
+        "volume": "40",
+        "issue": "8",
+        "page": "913-929",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1111/ecog.02881",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fecog.02881",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://nsojournals.onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 49,
+      "endpoint": "https://api.crossref.org/works/10.1057%2Fejis.2014.36",
+      "http_status": 200,
+      "doi": "10.1057/ejis.2014.36",
+      "metadata": {
+        "DOI": "10.1057/ejis.2014.36",
+        "title": [
+          "FEDS: a Framework for Evaluation in Design Science Research"
+        ],
+        "author": [
+          {
+            "given": "John",
+            "family": "Venable",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jan",
+            "family": "Pries-Heje",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Roskilde University Roskilde Denmark"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Richard",
+            "family": "Baskerville",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+              },
+              {
+                "name": "Georgia State University Atlanta Georgia USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "European Journal of Information Systems"
+        ],
+        "publisher": "Informa UK Limited",
+        "volume": "25",
+        "issue": "1",
+        "page": "77-89",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              19
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1057/ejis.2014.36",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1057/ejis.2014.36/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1057/ejis.2014.36",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 53,
+      "endpoint": "https://api.crossref.org/works/10.25300%2FMISQ%2F2013%2F37.2.01",
+      "http_status": 200,
+      "doi": "10.25300/MISQ/2013/37.2.01",
+      "metadata": {
+        "DOI": "10.25300/misq/2013/37.2.01",
+        "title": [
+          "Positioning and Presenting Design Science Research for Maximum Impact1"
+        ],
+        "author": [
+          {
+            "given": "Shirley",
+            "family": "Gregor",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Accounting & Business Information Systems, College of Business and Economics, The Australian National University, Canberra ACT 0200 Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alan R.",
+            "family": "Hevner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Systems and Decision Sciences, College of Business, University of South Florida, 4202 East Fowler Avenue, CIS1040, Tampa, FL 33620-7800 U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "MIS Quarterly"
+        ],
+        "publisher": "MIS Quarterly",
+        "volume": "37",
+        "issue": "2",
+        "page": "337-355",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.25300/misq/2013/37.2.01",
+        "link": [
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/37/2/337/2377/1_gregorhevner.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/37/2/337/2377/1_gregorhevner.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 54,
+      "endpoint": "https://api.crossref.org/works/10.2307%2F23042796",
+      "http_status": 200,
+      "doi": "10.2307/23042796",
+      "metadata": {
+        "DOI": "10.2307/23042796",
+        "title": [
+          "Predictive Analytics in Information Systems Research1"
+        ],
+        "author": [
+          {
+            "given": "Galit",
+            "family": "Shmueli",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Smith School of Business, University of Maryland, College Park, MD 20742 U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Otto R.",
+            "family": "Koppius",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Rotterdam School of Management, Erasmus University, Rotterdam, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "MIS Quarterly"
+        ],
+        "publisher": "MIS Quarterly",
+        "volume": "35",
+        "issue": "3",
+        "page": "553-572",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              1
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.2307/23042796",
+        "link": [
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/35/3/553/11244/2_shmuelikoppius.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://misq.umn.edu/misq/article-pdf/35/3/553/11244/2_shmuelikoppius.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 55,
+      "endpoint": "https://api.crossref.org/works/10.1145%2F3442188.3445921",
+      "http_status": 200,
+      "doi": "10.1145/3442188.3445921",
+      "metadata": {
+        "DOI": "10.1145/3442188.3445921",
+        "title": [
+          "Reviewable Automated Decision-Making"
+        ],
+        "author": [
+          {
+            "given": "Jennifer",
+            "family": "Cobbe",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michelle Seng Ah",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jatinder",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency"
+        ],
+        "publisher": "ACM",
+        "volume": null,
+        "issue": null,
+        "page": "598-609",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1145/3442188.3445921",
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3442188.3445921",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3442188.3445921",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "ref": 58,
+      "endpoint": "https://api.crossref.org/works/10.1002%2F9781118445112.stat08255",
+      "http_status": 200,
+      "doi": "10.1002/9781118445112.stat08255",
+      "metadata": {
+        "DOI": "10.1002/9781118445112.stat08255",
+        "title": [
+          "Data Validation"
+        ],
+        "author": [
+          {
+            "given": "Mark P.J.",
+            "family": "van der Loo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Edwin",
+            "family": "de Jonge",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Wiley StatsRef: Statistics Reference Online"
+        ],
+        "publisher": "Wiley",
+        "volume": null,
+        "issue": null,
+        "page": "1-7",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              21
+            ]
+          ]
+        },
+        "published-print": null,
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              21
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1002/9781118445112.stat08255",
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat08255",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/9781118445112.stat08255",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat08255",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    }
+  ]
+}

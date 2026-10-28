@@ -1,6 +1,6 @@
 {
   "manuscript": "5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가",
-  "revision": "261027_v4",
+  "revision": "261028_v2",
   "records": [
     {
       "type": "table",
@@ -117,7 +117,7 @@
     {
       "type": "table",
       "id": "A2",
-      "caption": "<부록표 A2> 확장창 평가에서 모형 선택 전략별 예측성능",
+      "caption": "<부록표 A2> 학습기간 확장 평가에서 모형 선택 전략별 예측성능",
       "path": "results/paper_tables/table_A2.csv",
       "rows": 7
     },
@@ -166,37 +166,37 @@
     {
       "type": "table",
       "id": "D3",
-      "caption": "<부록표 D3> 6개 확장창의 연도 동일가중 오차",
+      "caption": "<부록표 D3> 6회 학습기간 확장 평가의 연도 동일가중 오차",
       "path": "results/paper_tables/table_D3.csv",
       "rows": 18
     },
     {
       "type": "figure",
       "id": "1",
-      "caption": "<그림 1> 지역고용 의사결정지원서비스의 구성 및 평가와 개선 절차",
+      "caption": "<그림 1> 지역고용 의사결정지원서비스의 검토 과업과 근거 연결 구조",
       "path": "figures/paper_figure_01.png",
-      "sha256": "2abb27a71c9bc7380286e9a2a5bd65441c552c02998277b144cd499b4c6224d4"
+      "sha256": "05271fc3e98b8413ac5003cc7af2d7e5b260d1477ee4839f6f70ec7509176307"
     },
     {
       "type": "figure",
       "id": "2",
-      "caption": "<그림 2> 동일 기준 주분석의 서울 BTE 산업군 예측근거와 검토 절차",
+      "caption": "<그림 2> 서울 BTE 산업군의 예측근거와 검토 절차",
       "path": "figures/paper_figure_02.png",
-      "sha256": "691751e56fef855d45e367d1c5d7632d3dfd48c1b8d3b78c0b92e844f096c4fd"
+      "sha256": "edd758b47cf0f838c075c01ed6900270417cdcc4759c7e74f13cd45244a52aaf"
     },
     {
       "type": "figure",
       "id": "3",
-      "caption": "<그림 3> 2025년 권역–산업별 예측편차와 자료 적용범위",
+      "caption": "<그림 3> 2025년 권역-산업별 예측편차와 자료 적용범위",
       "path": "figures/paper_figure_03.png",
-      "sha256": "4954fc1bba6e309a975ebac8b6b5eae8b2e510a11098b60839d369d9de4e58f1"
+      "sha256": "e68bd9f7663b7c62defb118040fa2c0e1df3f4d0306db367b5c73740e1402b3c"
     },
     {
       "type": "figure",
       "id": "A1",
       "caption": "<부록그림 A1> 기준모형 우선 전략과 전체 후보 선정 전략 간 연도별 MAE 차이",
       "path": "figures/paper_figure_A1.png",
-      "sha256": "8a3cd720b673e19aff7192785a179765f90657854196a85569c9a185f991e9eb"
+      "sha256": "2129a3d5dbfaf04495b3130b5497cc8b52f80cdc73e9bea7cfea898309614850"
     }
   ]
 }

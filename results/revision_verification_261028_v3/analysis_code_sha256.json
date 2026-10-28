@@ -1,0 +1,24 @@
+{
+  "recorded_after_replay_utc": "2026-10-28T09:47:53.399898+00:00",
+  "meaning": "Final analysis-code identity; only four transfer modules also have pre-execution code hashes in their protocol.",
+  "files": {
+    "code/run_all.py": "94b98dac03b5b00ec732c958cb00d897d79918d46d86c5af084b5c0221e6ee7e",
+    "code/run_benchmark.py": "e6d020f5b8d091c291e8ce551d6d9b529fcf3f97c08b490f9034aabc285ee348",
+    "code/run_diagnostics.py": "ee58a109814c256d9e22d4848388cbd3a6b3b5c5473531cf6b8b15050072c885",
+    "code/run_registered_evaluation.py": "94223104af4004945dde2a07dfc8fb2dbca3b478ab0889ff15768a09129733ec",
+    "code/run_transfer_evaluation.py": "1908b453fc9a3ab533e7e74f2d9efdcce1f1850d6d05ea5e417a94d447f8a2fa",
+    "code/registered_guard.py": "b62b7070455b729b25c45e1ee1a7115074e0f882529c52795b6a2057c65cc17a",
+    "code/evidence_contract.py": "6af740a9ba014310d5b7eede8629609dace8ec05ceefa48e8977c78bff50ecaa",
+    "code/transfer_sources.py": "7c09d2aa9a8727c1a1d2572920ce3859303dd34e2229362d37c29e3fe549f3cc",
+    "code/transfer_cases.py": "c2b34e0d65c708ec948a7edb4a12516ea7a7c889735f87ea273e8718735b58a2",
+    "code/audit_transfer_results.py": "8d350aa45b3892121bd757ae1e62b119ff38f70a8c8c05e58ffd3bf78a98d10e",
+    "code/v3_independent_audit.py": "2fe63a4274663acfaef9dd3065283ff7bca7e71dca9c69e07b1a344f842648d5",
+    "support/forecast_addendum/run_addendum.py": "71b61084f0ec2d16057ee6315780786174d1e9331d03ba1c0b3849f3935203ae",
+    "support/service_addendum/replay_service_evaluation.py": "e8c38c787c746507336e02e7e9f16231adbe7c4a5e4c9871d0fcf0f874836dde",
+    "support/model_swap_addendum/model_swap_audit.py": "6f3d482f24d4d1b2589d99359920af014624cd672fb16bc6eaec0eac672f4680",
+    "support/original_result_audit/run_audit.py": "39800e1c09cca328fb5fe52fa39ad5f81da9b10618dd93d6726dee11f2436ded",
+    "support/baseline/code/evaluate_local_fallback.py": "7c7d3cddf6f9274805f3fe5b60c13fb2ff61b03c54466a1eb3e129e24806f69f",
+    "support/baseline/base_v11/analysis_harmonized/run.py": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+  },
+  "final_table_audit_code_updated_utc": "2026-10-28T10:26:50.152331+00:00"
+}

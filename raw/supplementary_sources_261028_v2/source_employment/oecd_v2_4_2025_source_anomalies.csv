@@ -1,0 +1,2 @@
+﻿year,region_code,available_industry_cells,missing_industries,total_persons,available_industry_sum_persons,total_minus_available_sum_persons,reconciliation_alert,diagnostic_rounding_tolerance_persons,diagnostic_scope
+2025,KR011,9,A,16352800.0,5180400.0,11172400.0,True,1100,not a population estimate or correction; no missing imputation

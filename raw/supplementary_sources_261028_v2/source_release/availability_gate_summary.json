@@ -1,0 +1,28 @@
+{
+  "scope": "Official H1 release chronology and classification history; not a forecast performance audit",
+  "years_verified": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "all_H1_reports_released_by_same_year_Dec31": true,
+  "historical_cell_vintages_reconstructed": false,
+  "real_time_forecasting_claim_permitted": false,
+  "current_vintage_pseudo_out_of_sample_claim_permitted": "yes if same classification/season, temporal splits and availability assumptions are explicit",
+  "OECD_covariate_vintage_reconstructed": false,
+  "recommendation": "Use employment-only derived predictors for current-vintage H1-to-H1 robustness; separate release scheduling from historic-vintage validation; no human/policy evaluation implied",
+  "classification_backcast_note_2025H1": "2017-2024H1, report 2025-10-28 p2",
+  "classification_backcast_note_2025H2": "2013-2024H1, report 2026-04-23 p2 visually inspected",
+  "exact_KSIC11_backcast_first_publication_date": "not established; dated reports prove the corresponding scope was publicly described by those dates",
+  "prior_2013_2017_KSIC10_backcast": "2018H1 report p2 documents 2013-2017H1 revision; contemporaneous 2013-2017H1 releases used KSIC9"
+}

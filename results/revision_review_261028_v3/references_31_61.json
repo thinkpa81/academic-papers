@@ -1,0 +1,3352 @@
+{
+  "verified_date_kst": "2026-10-28",
+  "scope": "References31-61 and their in-text uses in the supplied v2 manuscript",
+  "method": "Publisher and author primary sources, official software/data documentation, publisher-deposited Crossref metadata, direct HTTP transport checks, and preserved acquisition manifests. Existence is distinct from unobstructed full-text access.",
+  "reference_count": 31,
+  "existence_verified_count": 31,
+  "all_fulltext_openly_accessible": false,
+  "limitations": [
+    "403, JavaScript, CAPTCHA, and HTTP200 Site Unavailable responses were retained and were not treated as proof of a nonexistent work.",
+    "Search-indexed publisher content may be readable even when a direct live request is blocked.",
+    "No claim that every publisher PDF was downloaded or that every statement in a cited full text was inspected.",
+    "Historical OECD acquisition dates come from preserved logs, not today's page."
+  ],
+  "metadata_discrepancies": [
+    {
+      "ref": 31,
+      "issue": "Current MISQ/Crossref75-106 vs original JSTOR issue/author-paper75-105",
+      "resolution": "retain75-105"
+    },
+    {
+      "ref": 37,
+      "issue": "SAGE/Crossref author Reggianni vs author institution Reggiani",
+      "resolution": "retain Reggiani"
+    },
+    {
+      "ref": 58,
+      "issue": "Wiley auto-citation2026 vs first publication and author manuscript2020",
+      "resolution": "retain2020"
+    }
+  ],
+  "records": [
+    {
+      "reference_number": 31,
+      "paragraph_index": 287,
+      "original_entry": "[31] Hevner, A. R., March, S. T., Park, J., Ram, S., “Design Science in Information Systems Research”, MIS Quarterly, Vol.28, No.1, 2004, pp.75–105. https://doi.org/10.2307/25148625",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://aisel.aisnet.org/misq/vol28/iss1/6/",
+        "https://www.jstor.org/stable/i25148619"
+      ],
+      "web_source_refs": [
+        "turn35search0",
+        "turn53view0",
+        "turn80search2",
+        "turn81view4"
+      ],
+      "access_status": "metadata_abstract_accessible_fulltext_not_verified",
+      "evidence_summary": "DSR의 산출물 구축·평가 관점을 지지한다. 원래 JSTOR 호 목차와 저자 기관 기록의 75-105쪽을 유지한다. 현재 MISQ/Crossref의 75-106쪽은 메타데이터 불일치로 기록한다.",
+      "direct_http_check": {
+        "ref": 31,
+        "url": "https://doi.org/10.2307/25148625",
+        "http_status": 403,
+        "final_url": "https://misq.umn.edu/misq/article/28/1/75/261/Design-Science-in-Information-Systems-Research1",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 31,
+        "endpoint": "https://api.crossref.org/works/10.2307%2F25148625",
+        "doi": "10.2307/25148625",
+        "http_status": 200,
+        "metadata": {
+          "DOI": "10.2307/25148625",
+          "title": [
+            "Design Science in Information Systems Research1"
+          ],
+          "subtitle": [],
+          "author": [
+            {
+              "given": "Alan R.",
+              "family": "Hevner",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Information Systems and Decision Sciences, College of Business Administration, University of South Florida, Tampa, FL 33620, U.S.A."
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Salvatore T.",
+              "family": "March",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Own Graduate School of Management, Vanderbilt University, Nashville, TN 37203, U.S.A."
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jinsoo",
+              "family": "Park",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Business Administration, Korea University, Seoul, 136-701, Korea"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sudha",
+              "family": "Ram",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Management Information Systems, Eller College of Business and Public Administration, University of Arizona, Tucson, AZ 85721, U.S.A."
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "MIS Quarterly"
+          ],
+          "publisher": "MIS Quarterly",
+          "volume": "28",
+          "issue": "1",
+          "page": "75-106",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2004,
+                3,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2004,
+                3,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2004,
+                3,
+                1
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.2307/25148625",
+          "link": [
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/28/1/75/1159/4_hevner.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/28/1/75/1159/4_hevner.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        32
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 32,
+      "paragraph_index": 288,
+      "original_entry": "[32] Hoerl, A. E., Kennard, R. W., “Ridge Regression: Biased Estimation for Nonorthogonal Problems”, Technometrics, Vol.12, No.1, 1970, pp.55–67. https://doi.org/10.1080/00401706.1970.10488634",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.tandfonline.com/doi/abs/10.1080/00401706.1970.10488634",
+        "https://www.stat.cmu.edu/technometrics/70-79/VOL-12-01/v1201055.pdf"
+      ],
+      "web_source_refs": [
+        "turn35search1",
+        "turn81view1"
+      ],
+      "access_status": "primary_pdf_accessible",
+      "evidence_summary": "1970년 Technometrics 12(1), 55-67쪽, 저자 두 명과 DOI가 일치한다. X'X 대각에 양의 값을 더하는 규제 추정의 근거로 적합하다. 대학이 제공한 원논문 PDF 13쪽을 열었다.",
+      "direct_http_check": {
+        "ref": 32,
+        "url": "https://doi.org/10.1080/00401706.1970.10488634",
+        "http_status": 403,
+        "final_url": "https://www.tandfonline.com/doi/full/10.1080/00401706.1970.10488634",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 32,
+        "endpoint": "https://api.crossref.org/works/10.1080%2F00401706.1970.10488634",
+        "http_status": 200,
+        "doi": "10.1080/00401706.1970.10488634",
+        "metadata": {
+          "DOI": "10.1080/00401706.1970.10488634",
+          "title": [
+            "Ridge Regression: Biased Estimation for Nonorthogonal Problems"
+          ],
+          "author": [
+            {
+              "given": "Arthur E.",
+              "family": "Hoerl",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Robert W.",
+              "family": "Kennard",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Technometrics"
+          ],
+          "publisher": "Informa UK Limited",
+          "volume": "12",
+          "issue": "1",
+          "page": "55-67",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                1970,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1970,
+                2
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                4,
+                9
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1080/00401706.1970.10488634",
+          "link": [
+            {
+              "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00401706.1970.10488634",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        62
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 33,
+      "paragraph_index": 289,
+      "original_entry": "[33] Huber, P. J., “Robust Estimation of a Location Parameter”, The Annals of Mathematical Statistics, Vol.35, No.1, 1964, pp.73–101. https://doi.org/10.1214/aoms/1177703732",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1214/aoms/1177703732",
+        "https://api.crossref.org/works/10.1214%2Faoms%2F1177703732"
+      ],
+      "web_source_refs": [
+        "turn34view2",
+        "turn53view1",
+        "turn59view0"
+      ],
+      "access_status": "registry_metadata_verified_publisher_content_unreadable",
+      "evidence_summary": "출판사 등록 Crossref 메타데이터에서 Peter J. Huber, 1964, 35(1), 73-101쪽을 확인하였다. 원문은 위치모수의 강건추정 논문이므로 회귀 구현 설명에는 [48]을 함께 인용하는 것이 정확하다. Project Euclid는 응답하나 내용 대신 iframe 화면이 반환되어 원문 재열람을 완료하지 못했다.",
+      "direct_http_check": {
+        "ref": 33,
+        "url": "https://doi.org/10.1214/aoms/1177703732",
+        "http_status": 200,
+        "final_url": "https://projecteuclid.org/euclid.aoms/1177703732",
+        "content_type": "text/html",
+        "page_title": null,
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": {
+        "ref": 33,
+        "endpoint": "https://api.crossref.org/works/10.1214%2Faoms%2F1177703732",
+        "http_status": 200,
+        "doi": "10.1214/aoms/1177703732",
+        "metadata": {
+          "DOI": "10.1214/aoms/1177703732",
+          "title": [
+            "Robust Estimation of a Location Parameter"
+          ],
+          "author": [
+            {
+              "given": "Peter J.",
+              "family": "Huber",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "The Annals of Mathematical Statistics"
+          ],
+          "publisher": "Institute of Mathematical Statistics",
+          "volume": "35",
+          "issue": "1",
+          "page": "73-101",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                1964,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1964,
+                3
+              ]
+            ]
+          },
+          "published-online": null,
+          "URL": "https://doi.org/10.1214/aoms/1177703732",
+          "link": [
+            {
+              "URL": "http://projecteuclid.org/download/pdf_1/euclid.aoms/1177703732",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        62
+      ],
+      "citation_support": "supported_with_precision_revision",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 34,
+      "paragraph_index": 290,
+      "original_entry": "[34] Hyndman, R. J., and Koehler, A. B., “Another Look at Measures of Forecast Accuracy”, International Journal of Forecasting, Vol.22, No.4, 2006, pp.679–688. https://doi.org/10.1016/j.ijforecast.2006.03.001",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1016/j.ijforecast.2006.03.001"
+      ],
+      "web_source_refs": [
+        "turn35search3"
+      ],
+      "access_status": "publisher_indexed_abstract_live_gateway_unavailable",
+      "evidence_summary": "저자·제목·2006년 22(4), 679-688쪽·DOI가 일치한다. 오차지표 선택과 지표의 한계를 논하지만 고용규모 가중치 자체를 처방하지 않는다. 본문125의 인용 범위를 오차지표 선택으로 한정해야 한다.",
+      "direct_http_check": {
+        "ref": 34,
+        "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+        "http_status": 200,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207006000239",
+        "content_type": "text/html",
+        "page_title": "Site Unavailable",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": {
+        "ref": 34,
+        "endpoint": "https://api.crossref.org/works/10.1016%2Fj.ijforecast.2006.03.001",
+        "http_status": 200,
+        "doi": "10.1016/j.ijforecast.2006.03.001",
+        "metadata": {
+          "DOI": "10.1016/j.ijforecast.2006.03.001",
+          "title": [
+            "Another look at measures of forecast accuracy"
+          ],
+          "author": [
+            {
+              "given": "Rob J.",
+              "family": "Hyndman",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anne B.",
+              "family": "Koehler",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "International Journal of Forecasting"
+          ],
+          "publisher": "Elsevier BV",
+          "volume": "22",
+          "issue": "4",
+          "page": "679-688",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2006,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2006,
+                10
+              ]
+            ]
+          },
+          "published-online": null,
+          "URL": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0169207006000239?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0169207006000239?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        125
+      ],
+      "citation_support": "supported_with_precision_revision",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 35,
+      "paragraph_index": 291,
+      "original_entry": "[35] Kapoor, S., Narayanan, A., “Leakage and the reproducibility crisis in machine-learning-based science”, Patterns, Vol.4, No.9, 2023, Article 100804. https://doi.org/10.1016/j.patter.2023.100804",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666389923001599",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856/"
+      ],
+      "web_source_refs": [
+        "turn39search0",
+        "turn39search2",
+        "turn81view0"
+      ],
+      "access_status": "open_access_declared_indexed_text_live_challenge",
+      "evidence_summary": "저자 두 명, Patterns 4(9), 100804, 2023년이 일치한다. 자료누설이 과대평가를 유발한다는 본문의 일반적 방법론 근거로 적합하다. 출판사가 공개접근 논문으로 표시하나 DOI 직접요청은 Site Unavailable, PMC는 브라우저 확인 화면이었다.",
+      "direct_http_check": {
+        "ref": 35,
+        "url": "https://doi.org/10.1016/j.patter.2023.100804",
+        "http_status": 200,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2666389923001599",
+        "content_type": "text/html",
+        "page_title": "Site Unavailable",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": {
+        "ref": 35,
+        "endpoint": "https://api.crossref.org/works/10.1016%2Fj.patter.2023.100804",
+        "http_status": 200,
+        "doi": "10.1016/j.patter.2023.100804",
+        "metadata": {
+          "DOI": "10.1016/j.patter.2023.100804",
+          "title": [
+            "Leakage and the reproducibility crisis in machine-learning-based science"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5695-280X",
+              "authenticated-orcid": false,
+              "given": "Sayash",
+              "family": "Kapoor",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Arvind",
+              "family": "Narayanan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Patterns"
+          ],
+          "publisher": "Elsevier BV",
+          "volume": "4",
+          "issue": "9",
+          "page": "100804",
+          "article-number": "100804",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                9
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                9
+              ]
+            ]
+          },
+          "published-online": null,
+          "URL": "https://doi.org/10.1016/j.patter.2023.100804",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2666389923001599?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        19
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 36,
+      "paragraph_index": 292,
+      "original_entry": "[36] Koenker, R., Bassett, G., Jr., “Regression Quantiles”, Econometrica, Vol.46, No.1, 1978, pp.33–50. https://doi.org/10.2307/1913643",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.econometricsociety.org/publications/econometrica/1978/01/01/regression-quantiles"
+      ],
+      "web_source_refs": [
+        "turn53view3",
+        "turn51search7"
+      ],
+      "access_status": "official_metadata_abstract_accessible_fulltext_restricted",
+      "evidence_summary": "학회 공식 페이지에서 1978년 Econometrica 46(1), 33-50쪽과 절대잔차 최소화가 회귀분위수의 특수한 경우임을 확인했다. q=0.5 중앙값 회귀의 근거로 적합하다. 저자 순서는 원논문 Koenker, Bassett를 유지한다.",
+      "direct_http_check": {
+        "ref": 36,
+        "url": "https://doi.org/10.2307/1913643",
+        "http_status": 200,
+        "final_url": "https://www.jstor.org/stable/1913643?origin=crossref",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Client Challenge",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": {
+        "ref": 36,
+        "endpoint": "https://api.crossref.org/works/10.2307%2F1913643",
+        "http_status": 200,
+        "doi": "10.2307/1913643",
+        "metadata": {
+          "DOI": "10.2307/1913643",
+          "title": [
+            "Regression Quantiles"
+          ],
+          "author": [
+            {
+              "given": "Roger",
+              "family": "Koenker",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "suffix": "join(' '",
+              "given": "Gilbert",
+              "family": "Bassett",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Econometrica"
+          ],
+          "publisher": "JSTOR",
+          "volume": "46",
+          "issue": "1",
+          "page": "33",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                1978,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1978,
+                1
+              ]
+            ]
+          },
+          "published-online": null,
+          "URL": "https://doi.org/10.2307/1913643",
+          "link": null
+        }
+      },
+      "citation_paragraph_indexes": [
+        326
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 37,
+      "paragraph_index": 293,
+      "original_entry": "[37] Longhi, S., Nijkamp, P., Reggiani, A., Maierhofer, E., “Neural Network Modeling as a Tool for Forecasting Regional Employment Patterns”, International Regional Science Review, Vol.28, No.3, 2005, pp.330–346. https://doi.org/10.1177/0160017605276187",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://journals.sagepub.com/doi/10.1177/0160017605276187",
+        "https://research.vu.nl/en/publications/neural-network-modeling-as-a-tool-for-forecasting-regional-employ/"
+      ],
+      "web_source_refs": [
+        "turn39search8",
+        "turn39search10"
+      ],
+      "access_status": "publisher_abstract_indexed_fulltext_restricted",
+      "evidence_summary": "SAGE와 저자 기관에서 제목·2005년 28(3), 330-346쪽을 확인했다. 지역고용 패널과 지역 간 의존성 논의를 뒷받침한다. SAGE의 Reggianni 표기와 달리 저자 기관의 Reggiani 표기가 현재 논문과 일치하므로 이를 유지한다.",
+      "direct_http_check": {
+        "ref": 37,
+        "url": "https://doi.org/10.1177/0160017605276187",
+        "http_status": 403,
+        "final_url": "https://journals.sagepub.com/doi/10.1177/0160017605276187",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 37,
+        "endpoint": "https://api.crossref.org/works/10.1177%2F0160017605276187",
+        "http_status": 200,
+        "doi": "10.1177/0160017605276187",
+        "metadata": {
+          "DOI": "10.1177/0160017605276187",
+          "title": [
+            "Neural Network Modeling as a Tool for Forecasting Regional Employment Patterns"
+          ],
+          "author": [
+            {
+              "given": "Simonetta",
+              "family": "Longhi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Spatial Economics, Free University, Amsterdam, the Netherlands"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Peter",
+              "family": "Nijkamp",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Spatial Economics, Free University, Amsterdam, the Netherlands"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aura",
+              "family": "Reggianni",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Economics, Faculty of Statistics, University of Bologna, Bologna, Italy"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Erich",
+              "family": "Maierhofer",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institut fuer Arbeitsmarkt und Berufsforschung (IAB), Nuremberg, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "International Regional Science Review"
+          ],
+          "publisher": "SAGE Publications",
+          "volume": "28",
+          "issue": "3",
+          "page": "330-346",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2005,
+                7
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2005,
+                7
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2005,
+                7,
+                1
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1177/0160017605276187",
+          "link": [
+            {
+              "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0160017605276187",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0160017605276187",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        19
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 38,
+      "paragraph_index": 294,
+      "original_entry": "[38] Makridakis, S., Spiliotis, E., Assimakopoulos, V., “The M4 Competition: Results, findings, conclusion and way forward”, International Journal of Forecasting, Vol.34, No.4, 2018, pp.802–808. https://doi.org/10.1016/j.ijforecast.2018.06.001",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1016/j.ijforecast.2018.06.001"
+      ],
+      "web_source_refs": [
+        "turn44search0",
+        "turn44search4"
+      ],
+      "access_status": "publisher_indexed_abstract_live_gateway_unavailable",
+      "evidence_summary": "저자 세 명, 2018년 34(4), 802-808쪽과 DOI가 일치한다. 공통 데이터·기준모형을 둔 예측 비교의 근거로 적합하며 특정 한국 지역모형 우월성의 증거로 사용하지 않았다.",
+      "direct_http_check": {
+        "ref": 38,
+        "url": "https://doi.org/10.1016/j.ijforecast.2018.06.001",
+        "http_status": 200,
+        "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207018300785",
+        "content_type": "text/html",
+        "page_title": "Site Unavailable",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": {
+        "ref": 38,
+        "endpoint": "https://api.crossref.org/works/10.1016%2Fj.ijforecast.2018.06.001",
+        "http_status": 200,
+        "doi": "10.1016/j.ijforecast.2018.06.001",
+        "metadata": {
+          "DOI": "10.1016/j.ijforecast.2018.06.001",
+          "title": [
+            "The M4 Competition: Results, findings, conclusion and way forward"
+          ],
+          "author": [
+            {
+              "given": "Spyros",
+              "family": "Makridakis",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Evangelos",
+              "family": "Spiliotis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Vassilios",
+              "family": "Assimakopoulos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "International Journal of Forecasting"
+          ],
+          "publisher": "Elsevier BV",
+          "volume": "34",
+          "issue": "4",
+          "page": "802-808",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                10
+              ]
+            ]
+          },
+          "published-online": null,
+          "URL": "https://doi.org/10.1016/j.ijforecast.2018.06.001",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0169207018300785?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0169207018300785?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        19
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 39,
+      "paragraph_index": 295,
+      "original_entry": "[39] Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., and Gebru, T., “Model Cards for Model Reporting”, Proceedings of the Conference on Fairness, Accountability, and Transparency, 2019, pp.220–229. https://doi.org/10.1145/3287560.3287596",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1145/3287560.3287596",
+        "https://research.google/pubs/model-cards-for-model-reporting/"
+      ],
+      "web_source_refs": [
+        "turn44search1",
+        "turn81view3"
+      ],
+      "access_status": "author_institution_text_accessible_publisher_declares_free_access",
+      "evidence_summary": "ACM에서 9명 저자·2019년·220-229쪽을 확인했다. 용도와 조건별 성능을 공개하는 모형 설명서 주장을 직접 뒷받침한다. Google Research의 저자 기관 페이지도 열렸다.",
+      "direct_http_check": {
+        "ref": 39,
+        "url": "https://doi.org/10.1145/3287560.3287596",
+        "http_status": 403,
+        "final_url": "https://dl.acm.org/doi/10.1145/3287560.3287596",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 39,
+        "endpoint": "https://api.crossref.org/works/10.1145%2F3287560.3287596",
+        "http_status": 200,
+        "doi": "10.1145/3287560.3287596",
+        "metadata": {
+          "DOI": "10.1145/3287560.3287596",
+          "title": [
+            "Model Cards for Model Reporting"
+          ],
+          "author": [
+            {
+              "given": "Margaret",
+              "family": "Mitchell",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Simone",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Andrew",
+              "family": "Zaldivar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Parker",
+              "family": "Barnes",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lucy",
+              "family": "Vasserman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ben",
+              "family": "Hutchinson",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Elena",
+              "family": "Spitzer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Inioluwa Deborah",
+              "family": "Raji",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Timnit",
+              "family": "Gebru",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Proceedings of the Conference on Fairness, Accountability, and Transparency"
+          ],
+          "publisher": "ACM",
+          "volume": null,
+          "issue": null,
+          "page": "220-229",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                29
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                29
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                29
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1145/3287560.3287596",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3287560.3287596",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3287560.3287596",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        23,
+        232
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 40,
+      "paragraph_index": 296,
+      "original_entry": "[40] Molnar, C., Interpretable Machine Learning: A Guide for Making Black Box Models Explainable, 3rd ed., 2025. https://christophm.github.io/interpretable-ml-book/",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://christophm.github.io/interpretable-ml-book/cite.html",
+        "https://christophm.github.io/interpretable-ml-book/limo.html"
+      ],
+      "web_source_refs": [
+        "turn42view3",
+        "turn63view4",
+        "turn63view5"
+      ],
+      "access_status": "fulltext_accessible",
+      "evidence_summary": "저자의 공식 인용 지침이 2025년 제3판을 명시한다. 선형회귀 장은 예측을 가중합으로 해석하고 변수값과 가중치의 곱을 기여도로 설명하므로 본문93의 제한적 해석과 부합한다.",
+      "direct_http_check": {
+        "ref": 40,
+        "url": "https://christophm.github.io/interpretable-ml-book/",
+        "http_status": 200,
+        "final_url": "https://christophm.github.io/interpretable-ml-book/",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Interpretable Machine Learning",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        93
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 41,
+      "paragraph_index": 297,
+      "original_entry": "[41] OECD, “Employment by main economic activity – Regions”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_ECO@DF_EMP, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 보존).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en"
+      ],
+      "web_source_refs": [
+        "turn44search2",
+        "turn58view4"
+      ],
+      "access_status": "official_metadata_indexed_dynamic_app_historical_snapshot_retained",
+      "evidence_summary": "공식 OECD Data Explorer 검색 메타데이터가 DF_EMP 버전2.4와 TL2/TL3 산업별 고용 데이터셋을 확인한다. 직접 접속은 JavaScript 앱 화면이다. 버전2.0/2.4와 확보일은 보존 요청·응답 기록으로 별도 검증하며 현재 웹 화면을 과거 자료판본의 증거로 혼동하지 않는다.",
+      "direct_http_check": {
+        "ref": 41,
+        "url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en",
+        "http_status": 200,
+        "final_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": null,
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        52,
+        323
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null,
+      "historical_evidence_paths": [
+        "raw/oecd_source_manifest.json",
+        "raw/supplementary_sources_261028_v2/source_employment/oecd_latest_exact_download.json"
+      ]
+    },
+    {
+      "reference_number": 42,
+      "paragraph_index": 298,
+      "original_entry": "[42] OECD, “Labour statistics – Regions (for Developer API)”, OECD Regions, Cities and Local Areas Database, 데이터플로 OECD.CFE.EDS:DSD_REG_LABOUR@DF_LAB, 한국 TL3 분석자료, 버전 2.0 및 2.4, 2026년 보존 추출본. https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en (확보일: 버전 2.0은 2026.9.17 UTC, 버전 2.4는 2026.9.23 UTC; 요청조건·응답·해시 및 중첩기간 대조 보존).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&lc=en"
+      ],
+      "web_source_refs": [
+        "turn44search3",
+        "turn58view5"
+      ],
+      "access_status": "official_metadata_indexed_dynamic_app_historical_snapshot_retained",
+      "evidence_summary": "공식 OECD 데이터셋 이름과 DF_LAB 식별자를 확인했다. 연령·성별·지역 노동지표 설명은 보완분석 용도에 부합한다. 버전2.0/2.4와 2026년9월 확보일은 보존 API 메타데이터에 근거하며 직접 Explorer 응답은 JavaScript 앱이다.",
+      "direct_http_check": {
+        "ref": 42,
+        "url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en",
+        "http_status": 200,
+        "final_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": null,
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        52,
+        323
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null,
+      "historical_evidence_paths": [
+        "raw/oecd_source_manifest.json",
+        "raw/supplementary_sources_261028_v2/source_covariates/oecd/latest_developer_download_log.json",
+        "raw/supplementary_sources_261028_v2/source_covariates/oecd/per_region/download_manifest.json"
+      ]
+    },
+    {
+      "reference_number": 43,
+      "paragraph_index": 299,
+      "original_entry": "[43] Parasuraman, R., Manzey, D. H., “Complacency and Bias in Human Use of Automation: An Attentional Integration”, Human Factors, Vol.52, No.3, 2010, pp.381–410. https://doi.org/10.1177/0018720810376055",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://journals.sagepub.com/doi/10.1177/0018720810376055"
+      ],
+      "web_source_refs": [
+        "turn43view0"
+      ],
+      "access_status": "publisher_abstract_accessible_fulltext_restricted",
+      "evidence_summary": "저자·2010년 Human Factors 52(3), 381-410쪽·DOI가 일치한다. 자동화 편향을 검토 기능의 설계 근거로 삼는 인용은 적합하다. 초록은 열렸으며 전문은 구독·구매 접근으로 표시되었다.",
+      "direct_http_check": {
+        "ref": 43,
+        "url": "https://doi.org/10.1177/0018720810376055",
+        "http_status": 403,
+        "final_url": "https://journals.sagepub.com/doi/10.1177/0018720810376055",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 43,
+        "endpoint": "https://api.crossref.org/works/10.1177%2F0018720810376055",
+        "http_status": 200,
+        "doi": "10.1177/0018720810376055",
+        "metadata": {
+          "DOI": "10.1177/0018720810376055",
+          "title": [
+            "Complacency and Bias in Human Use of Automation: An Attentional Integration"
+          ],
+          "author": [
+            {
+              "given": "Raja",
+              "family": "Parasuraman",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "George Mason University, Fairfax, Virginia,"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dietrich H.",
+              "family": "Manzey",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Berlin Institute of Technology, Berlin, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Human Factors: The Journal of the Human Factors and Ergonomics Society"
+          ],
+          "publisher": "SAGE Publications",
+          "volume": "52",
+          "issue": "3",
+          "page": "381-410",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                6
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                20
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1177/0018720810376055",
+          "link": [
+            {
+              "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0018720810376055",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0018720810376055",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        33
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 44,
+      "paragraph_index": 300,
+      "original_entry": "[44] Peffers, K., Tuunanen, T., Rothenberger, M. A., Chatterjee, S., “A Design Science Research Methodology for Information Systems Research”, Journal of Management Information Systems, Vol.24, No.3, 2007, pp.45–77. https://doi.org/10.2753/MIS0742-1222240302",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.jmis-web.org/articles/765"
+      ],
+      "web_source_refs": [
+        "turn49search0",
+        "turn81view2"
+      ],
+      "access_status": "official_metadata_abstract_accessible",
+      "evidence_summary": "JMIS 공식 페이지에서 저자4명·2007년 24(3), 45-77쪽과 설계·시연·평가를 포함한 연구 절차를 확인했다. DSR 방법론 인용으로 적합하다. 재게시 온라인 날짜2014를 발행연도로 바꾸지 않는다.",
+      "direct_http_check": {
+        "ref": 44,
+        "url": "https://doi.org/10.2753/MIS0742-1222240302",
+        "http_status": 403,
+        "final_url": "https://www.tandfonline.com/doi/full/10.2753/MIS0742-1222240302",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 44,
+        "endpoint": "https://api.crossref.org/works/10.2753%2FMIS0742-1222240302",
+        "http_status": 200,
+        "doi": "10.2753/MIS0742-1222240302",
+        "metadata": {
+          "DOI": "10.2753/mis0742-1222240302",
+          "title": [
+            "A Design Science Research Methodology for Information Systems Research"
+          ],
+          "author": [
+            {
+              "given": "Ken",
+              "family": "Peffers",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "a  The Management Information Systems Department, The University of Nevada, Las Vegas"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tuure",
+              "family": "Tuunanen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "b  The Department of Information Systems and Operations Management, The University of Auckland"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Marcus A.",
+              "family": "Rothenberger",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "c  Associate Professor of Management Information Systems, The University of Nevada, Las Vegas"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Samir",
+              "family": "Chatterjee",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "d  The School of Information Systems &amp; Technology and Founding Director of the Network Convergence Laboratory, Claremont Graduate University, California"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Journal of Management Information Systems"
+          ],
+          "publisher": "Informa UK Limited",
+          "volume": "24",
+          "issue": "3",
+          "page": "45-77",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                12
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2007,
+                12
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2014,
+                12,
+                8
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.2753/mis0742-1222240302",
+          "link": [
+            {
+              "URL": "https://www.tandfonline.com/doi/pdf/10.2753/MIS0742-1222240302",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        32
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 45,
+      "paragraph_index": 301,
+      "original_entry": "[45] Raji, I. D., Smart, A., White, R. N., Mitchell, M., Gebru, T., Hutchinson, B., Smith-Loud, J., Theron, D., and Barnes, P., “Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing”, Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 2020, pp.33–44. https://doi.org/10.1145/3351095.3372873",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1145/3351095.3372873",
+        "https://research.google/pubs/closing-the-ai-accountability-gap-defining-an-end-to-end-framework-for-internal-algorithmic-auditin/"
+      ],
+      "web_source_refs": [
+        "turn49search2",
+        "turn49search5"
+      ],
+      "access_status": "open_access_declared_publisher_indexed_author_page",
+      "evidence_summary": "ACM에서 저자9명·2020년·33-44쪽·DOI를 확인했다. 개발 생애주기의 내부 알고리즘 감사와 문서화 근거로 적합하다. 출판사는 공개접근을 표시하며 기관의 저자 페이지도 확인된다.",
+      "direct_http_check": {
+        "ref": 45,
+        "url": "https://doi.org/10.1145/3351095.3372873",
+        "http_status": 403,
+        "final_url": "https://dl.acm.org/doi/10.1145/3351095.3372873",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 45,
+        "endpoint": "https://api.crossref.org/works/10.1145%2F3351095.3372873",
+        "doi": "10.1145/3351095.3372873",
+        "http_status": 200,
+        "metadata": {
+          "DOI": "10.1145/3351095.3372873",
+          "title": [
+            "Closing the AI accountability gap"
+          ],
+          "subtitle": [
+            "defining an end-to-end framework for internal algorithmic auditing"
+          ],
+          "author": [
+            {
+              "given": "Inioluwa Deborah",
+              "family": "Raji",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Partnership on AI"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Andrew",
+              "family": "Smart",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rebecca N.",
+              "family": "White",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Margaret",
+              "family": "Mitchell",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Timnit",
+              "family": "Gebru",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ben",
+              "family": "Hutchinson",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jamila",
+              "family": "Smith-Loud",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Daniel",
+              "family": "Theron",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Parker",
+              "family": "Barnes",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency"
+          ],
+          "publisher": "ACM",
+          "volume": null,
+          "issue": null,
+          "page": "33-44",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                27
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                27
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                27
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1145/3351095.3372873",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3351095.3372873",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3351095.3372873",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        23,
+        232
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 46,
+      "paragraph_index": 302,
+      "original_entry": "[46] Roberts, D. R., Bahn, V., Ciuti, S., et al., “Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure”, Ecography, Vol.40, No.8, 2017, pp.913–929. https://doi.org/10.1111/ecog.02881",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881"
+      ],
+      "web_source_refs": [
+        "turn43view3"
+      ],
+      "access_status": "publisher_free_access_text_available",
+      "evidence_summary": "Wiley 공식 페이지에서 2017년 Ecography 40(8), 913-929쪽과 저자 목록을 확인했다. 시간·공간 구조를 고려한 교차검증 원칙을 뒷받침한다. 본 연구의 사후 민감도 분석 자체가 이 논문에서 검증되었다고 해석해서는 안 된다.",
+      "direct_http_check": {
+        "ref": 46,
+        "url": "https://doi.org/10.1111/ecog.02881",
+        "http_status": 403,
+        "final_url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 46,
+        "endpoint": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+        "http_status": 200,
+        "doi": "10.1111/ecog.02881",
+        "metadata": {
+          "DOI": "10.1111/ecog.02881",
+          "title": [
+            "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+          ],
+          "author": [
+            {
+              "given": "David R.",
+              "family": "Roberts",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Volker",
+              "family": "Bahn",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Simone",
+              "family": "Ciuti",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mark S.",
+              "family": "Boyce",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jane",
+              "family": "Elith",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gurutzeta",
+              "family": "Guillera‐Arroita",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Severin",
+              "family": "Hauenstein",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "José J.",
+              "family": "Lahoz‐Monfort",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Boris",
+              "family": "Schröder",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wilfried",
+              "family": "Thuiller",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "David I.",
+              "family": "Warton",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Brendan A.",
+              "family": "Wintle",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Florian",
+              "family": "Hartig",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+                },
+                {
+                  "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Carsten F.",
+              "family": "Dormann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Ecography"
+          ],
+          "publisher": "Wiley",
+          "volume": "40",
+          "issue": "8",
+          "page": "913-929",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                3
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1111/ecog.02881",
+          "link": [
+            {
+              "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fecog.02881",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://nsojournals.onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        19,
+        80
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 47,
+      "paragraph_index": 303,
+      "original_entry": "[47] scikit-learn developers, “HistGradientBoostingRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html (확인일: 2026.9.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html"
+      ],
+      "web_source_refs": [
+        "turn43view4",
+        "turn54view3"
+      ],
+      "access_status": "versioned_official_documentation_accessible",
+      "evidence_summary": "scikit-learn 1.8.0 공식 문서가 실제 열리고 히스토그램 기반 그래디언트 부스팅과 구현 파라미터를 설명한다. 본문의 구현 근거로 적합하다.",
+      "direct_http_check": {
+        "ref": 47,
+        "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+        "http_status": 200,
+        "final_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "HistGradientBoostingRegressor — scikit-learn 1.8.0 documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        62
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[47] scikit-learn developers, “HistGradientBoostingRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 48,
+      "paragraph_index": 304,
+      "original_entry": "[48] scikit-learn developers, “HuberRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html (확인일: 2026.9.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html"
+      ],
+      "web_source_refs": [
+        "turn43view5",
+        "turn54view4"
+      ],
+      "access_status": "versioned_official_documentation_accessible",
+      "evidence_summary": "scikit-learn 1.8.0 공식 문서가 L2 규제·제곱/절대 손실·이상치 영향 완화를 설명한다. [33]의 이론적 기초와 구분하여 실제 HuberRegressor 구현의 근거로 적합하다.",
+      "direct_http_check": {
+        "ref": 48,
+        "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html",
+        "http_status": 200,
+        "final_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "HuberRegressor — scikit-learn 1.8.0 documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        62
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[48] scikit-learn developers, “HuberRegressor”, scikit-learn 1.8.0 documentation. https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 49,
+      "paragraph_index": 305,
+      "original_entry": "[49] Venable, J., Pries-Heje, J., Baskerville, R., “FEDS: a Framework for Evaluation in Design Science Research”, European Journal of Information Systems, Vol.25, No.1, 2016, pp.77–89. https://doi.org/10.1057/ejis.2014.36",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.tandfonline.com/doi/abs/10.1057/ejis.2014.36",
+        "https://www.tandfonline.com/toc/tjis20/25/1"
+      ],
+      "web_source_refs": [
+        "turn49search1",
+        "turn65search3",
+        "turn65search5"
+      ],
+      "access_status": "publisher_indexed_abstract_live_403",
+      "evidence_summary": "학술지 제25권1호(2016),77-89쪽과 저자3명을 확인했다. 형성적/총괄적, 인공적/자연적 평가의 두 차원을 다루므로 인공적·형성적 시험에 대한 본문 인용이 적합하다. 2014 선공개나 플랫폼 재게시2017과 권호연도2016을 구분한다.",
+      "direct_http_check": {
+        "ref": 49,
+        "url": "https://doi.org/10.1057/ejis.2014.36",
+        "http_status": 403,
+        "final_url": "https://www.tandfonline.com/doi/full/10.1057/ejis.2014.36",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 49,
+        "endpoint": "https://api.crossref.org/works/10.1057%2Fejis.2014.36",
+        "http_status": 200,
+        "doi": "10.1057/ejis.2014.36",
+        "metadata": {
+          "DOI": "10.1057/ejis.2014.36",
+          "title": [
+            "FEDS: a Framework for Evaluation in Design Science Research"
+          ],
+          "author": [
+            {
+              "given": "John",
+              "family": "Venable",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jan",
+              "family": "Pries-Heje",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Roskilde University Roskilde Denmark"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Richard",
+              "family": "Baskerville",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Information Systems, Curtin University Perth Western Australia Australia"
+                },
+                {
+                  "name": "Georgia State University Atlanta Georgia USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "European Journal of Information Systems"
+          ],
+          "publisher": "Informa UK Limited",
+          "volume": "25",
+          "issue": "1",
+          "page": "77-89",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                19
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1057/ejis.2014.36",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1057/ejis.2014.36/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.tandfonline.com/doi/pdf/10.1057/ejis.2014.36",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1057/ejis.2014.36.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        32,
+        37,
+        102
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 50,
+      "paragraph_index": 306,
+      "original_entry": "[50] XGBoost developers, “XGBoost Parameters”, official documentation. https://xgboost.readthedocs.io/en/stable/parameter.html (확인일: 2026.10.25).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://xgboost.readthedocs.io/en/stable/parameter.html",
+        "https://xgboost.readthedocs.io/en/stable/changes/v3.4.0.html"
+      ],
+      "web_source_refs": [
+        "turn46view1",
+        "turn66search6"
+      ],
+      "access_status": "official_documentation_accessible_dynamic_version",
+      "evidence_summary": "공식 파라미터 문서는 접근 가능하다. 현재 stable 문서는3.4.2이며 재현패키지의 사용 버전은3.4.1이다. 동적 문서와 실제 실행환경 버전을 구분한다. 공식 변경기록에서3.4.1 배포도 확인된다.",
+      "direct_http_check": {
+        "ref": 50,
+        "url": "https://xgboost.readthedocs.io/en/stable/parameter.html",
+        "http_status": 200,
+        "final_url": "https://xgboost.readthedocs.io/en/stable/parameter.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "XGBoost Parameters — xgboost 3.4.2 documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        66
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[50] XGBoost developers, “XGBoost Parameters”, official documentation. https://xgboost.readthedocs.io/en/stable/parameter.html (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 51,
+      "paragraph_index": 307,
+      "original_entry": "[51] CatBoost developers, “Training parameters”, official documentation. https://catboost.ai/docs/en/references/training-parameters/ (확인일: 2026.10.25).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://catboost.ai/docs/en/references/training-parameters/"
+      ],
+      "web_source_refs": [
+        "turn46view2"
+      ],
+      "access_status": "official_documentation_accessible",
+      "evidence_summary": "공식 Training parameters/Overview 페이지가 접근 가능하고 반복수·학습률·깊이·규제 등 사용한 설정을 설명한다. 프로젝트명 자체가 제품명이며 비공식 확장명을 약어처럼 만들 필요는 없다.",
+      "direct_http_check": {
+        "ref": 51,
+        "url": "https://catboost.ai/docs/en/references/training-parameters/",
+        "http_status": 200,
+        "final_url": "https://catboost.ai/docs/en/references/training-parameters/",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Overview | CatBoost",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        66
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[51] CatBoost developers, “Training parameters”, official documentation. https://catboost.ai/docs/en/references/training-parameters/ (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 52,
+      "paragraph_index": 308,
+      "original_entry": "[52] LightGBM developers, “Parameters Tuning”, official documentation. https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html (확인일: 2026.10.25).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://lightgbm.readthedocs.io/en/v4.7.0/Parameters-Tuning.html"
+      ],
+      "web_source_refs": [
+        "turn46view3",
+        "turn59view4"
+      ],
+      "access_status": "versioned_official_documentation_accessible",
+      "evidence_summary": "공식 Parameters Tuning 문서가 접근 가능하고 현재4.7.0은 실행환경과 일치한다. 동일 내용의 버전 고정 URL도 열렸으므로 stable 대신 v4.7.0 링크를 권고한다.",
+      "direct_http_check": {
+        "ref": 52,
+        "url": "https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html",
+        "http_status": 200,
+        "final_url": "https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Parameters Tuning — LightGBM 4.7.0 documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        66
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[52] LightGBM developers, “Parameters Tuning”, LightGBM 4.7.0 documentation. https://lightgbm.readthedocs.io/en/v4.7.0/Parameters-Tuning.html (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 53,
+      "paragraph_index": 309,
+      "original_entry": "[53] Gregor, S., Hevner, A. R., “Positioning and Presenting Design Science Research for Maximum Impact”, MIS Quarterly, Vol.37, No.2, 2013, pp.337–355. https://doi.org/10.25300/MISQ/2013/37.2.01",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://aisel.aisnet.org/misq/vol37/iss2/3/"
+      ],
+      "web_source_refs": [
+        "turn49search3"
+      ],
+      "access_status": "official_metadata_abstract_accessible",
+      "evidence_summary": "AIS/MISQ 공식 기록과 Crossref에서 저자2명·2013년37(2),337-355쪽을 확인했다. 설계 산출물과 기여 수준을 논하는 근거로 적합하다. 제목 끝 숫자1은 각주이므로 참고문헌 제목에 추가하지 않는다.",
+      "direct_http_check": {
+        "ref": 53,
+        "url": "https://doi.org/10.25300/MISQ/2013/37.2.01",
+        "http_status": 403,
+        "final_url": "https://misq.umn.edu/misq/article/37/2/337/103/Positioning-and-Presenting-Design-Science-Research",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 53,
+        "endpoint": "https://api.crossref.org/works/10.25300%2FMISQ%2F2013%2F37.2.01",
+        "http_status": 200,
+        "doi": "10.25300/MISQ/2013/37.2.01",
+        "metadata": {
+          "DOI": "10.25300/misq/2013/37.2.01",
+          "title": [
+            "Positioning and Presenting Design Science Research for Maximum Impact1"
+          ],
+          "author": [
+            {
+              "given": "Shirley",
+              "family": "Gregor",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Accounting & Business Information Systems, College of Business and Economics, The Australian National University, Canberra ACT 0200 Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alan R.",
+              "family": "Hevner",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Information Systems and Decision Sciences, College of Business, University of South Florida, 4202 East Fowler Avenue, CIS1040, Tampa, FL 33620-7800 U.S.A."
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "MIS Quarterly"
+          ],
+          "publisher": "MIS Quarterly",
+          "volume": "37",
+          "issue": "2",
+          "page": "337-355",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                1
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.25300/misq/2013/37.2.01",
+          "link": [
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/37/2/337/2377/1_gregorhevner.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/37/2/337/2377/1_gregorhevner.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        32,
+        234
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 54,
+      "paragraph_index": 310,
+      "original_entry": "[54] Shmueli, G., Koppius, O. R., “Predictive Analytics in Information Systems Research”, MIS Quarterly, Vol.35, No.3, 2011, pp.553–572. https://doi.org/10.2307/23042796",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://aisel.aisnet.org/misq/vol35/iss3/5/"
+      ],
+      "web_source_refs": [
+        "turn51search0",
+        "turn51search1"
+      ],
+      "access_status": "official_metadata_abstract_accessible",
+      "evidence_summary": "AIS/MISQ에서 저자2명·2011년35(3),553-572쪽과 예측력/설명력 구분을 확인했다. 본문19·230의 예측평가와 인과해석 구분에 적합하다.",
+      "direct_http_check": {
+        "ref": 54,
+        "url": "https://doi.org/10.2307/23042796",
+        "http_status": 403,
+        "final_url": "https://misq.umn.edu/misq/article/35/3/553/529/Predictive-Analytics-in-Information-Systems",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 54,
+        "endpoint": "https://api.crossref.org/works/10.2307%2F23042796",
+        "http_status": 200,
+        "doi": "10.2307/23042796",
+        "metadata": {
+          "DOI": "10.2307/23042796",
+          "title": [
+            "Predictive Analytics in Information Systems Research1"
+          ],
+          "author": [
+            {
+              "given": "Galit",
+              "family": "Shmueli",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Smith School of Business, University of Maryland, College Park, MD 20742 U.S.A."
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Otto R.",
+              "family": "Koppius",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Rotterdam School of Management, Erasmus University, Rotterdam, The Netherlands"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "MIS Quarterly"
+          ],
+          "publisher": "MIS Quarterly",
+          "volume": "35",
+          "issue": "3",
+          "page": "553-572",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                1
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.2307/23042796",
+          "link": [
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/35/3/553/11244/2_shmuelikoppius.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://misq.umn.edu/misq/article-pdf/35/3/553/11244/2_shmuelikoppius.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        19,
+        230
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 55,
+      "paragraph_index": 311,
+      "original_entry": "[55] Cobbe, J., Lee, M. S. A., Singh, J., “Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems”, Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 2021, pp.598–609. https://doi.org/10.1145/3442188.3445921",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.repository.cam.ac.uk/items/0e615ac2-5b70-431e-b34d-473ef754ccd6",
+        "https://api.repository.cam.ac.uk/server/api/core/bitstreams/c91e87a1-d270-47a7-8562-c0242e759221/content"
+      ],
+      "web_source_refs": [
+        "turn51search2",
+        "turn66search8",
+        "turn66search3"
+      ],
+      "access_status": "author_accepted_manuscript_available_publisher_live_403",
+      "evidence_summary": "저자 기관의 수락 원고와 DOI 등록에서 저자3명·2021년·598-609쪽을 확인했다. 결정 전후의 기술적·조직적 기록을 통한 검토가능성 정의를 뒷받침한다. DOI 등록의 짧은 제목과 저자 원고의 부제를 포함한 전체 제목을 구분했다.",
+      "direct_http_check": {
+        "ref": 55,
+        "url": "https://doi.org/10.1145/3442188.3445921",
+        "http_status": 403,
+        "final_url": "https://dl.acm.org/doi/10.1145/3442188.3445921",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 55,
+        "endpoint": "https://api.crossref.org/works/10.1145%2F3442188.3445921",
+        "http_status": 200,
+        "doi": "10.1145/3442188.3445921",
+        "metadata": {
+          "DOI": "10.1145/3442188.3445921",
+          "title": [
+            "Reviewable Automated Decision-Making"
+          ],
+          "author": [
+            {
+              "given": "Jennifer",
+              "family": "Cobbe",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michelle Seng Ah",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jatinder",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Compliant and Accountable Systems Research Group, University of Cambridge, UK"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency"
+          ],
+          "publisher": "ACM",
+          "volume": null,
+          "issue": null,
+          "page": "598-609",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                3
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                3
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1145/3442188.3445921",
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3442188.3445921",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3442188.3445921",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        16,
+        23,
+        232
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": null
+    },
+    {
+      "reference_number": 56,
+      "paragraph_index": 312,
+      "original_entry": "[56] Moreau, L., Missier, P. (eds.), “PROV-DM: The PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-dm-20130430/ (확인일: 2026.10.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
+      ],
+      "web_source_refs": [
+        "turn47view0"
+      ],
+      "access_status": "official_fulltext_accessible",
+      "evidence_summary": "W3C 정식 권고의 편집자 Moreau·Missier와2013년4월30일을 확인했다. 개체·활동·책임주체와 이력 관계에 관한 인용을 지지한다. 특정 기관 IS 구축의 실증효과를 입증하는 자료는 아니다.",
+      "direct_http_check": {
+        "ref": 56,
+        "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+        "http_status": 200,
+        "final_url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "PROV-DM: The PROV Data Model",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        23,
+        232,
+        241
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[56] Moreau, L., Missier, P. (eds.), “PROV-DM: The PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-dm-20130430/ (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 57,
+      "paragraph_index": 313,
+      "original_entry": "[57] Cheney, J., Missier, P., Moreau, L. (eds.), “Constraints of the PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-constraints-20130430/ (확인일: 2026.10.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/"
+      ],
+      "web_source_refs": [
+        "turn47view1"
+      ],
+      "access_status": "official_fulltext_accessible",
+      "evidence_summary": "W3C 정식 권고의 편집자 Cheney·Missier·Moreau와2013년4월30일을 확인했다. 출처 이력의 일관성·유효성 제약에 관한 인용을 지지한다.",
+      "direct_http_check": {
+        "ref": 57,
+        "url": "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/",
+        "http_status": 200,
+        "final_url": "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Constraints of the PROV Data Model",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        23,
+        232,
+        241
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[57] Cheney, J., Missier, P., Moreau, L. (eds.), “Constraints of the PROV Data Model”, W3C Recommendation, 30 April 2013. https://www.w3.org/TR/2013/REC-prov-constraints-20130430/ (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 58,
+      "paragraph_index": 315,
+      "original_entry": "[58] van der Loo, M. P. J., and de Jonge, E., “Data Validation”, Wiley StatsRef: Statistics Reference Online, 2020. https://doi.org/10.1002/9781118445112.stat08255.",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118445112.stat08255",
+        "https://arxiv.org/html/2012.12028v1"
+      ],
+      "web_source_refs": [
+        "turn77view1",
+        "turn58view3",
+        "turn63view0"
+      ],
+      "access_status": "publisher_abstract_and_author_fulltext_accessible",
+      "evidence_summary": "Wiley와 저자 공개 원고에서2020년 출판·저자2명·DOI·1-7쪽을 확인했다. 단일/다중 변수·개체·자료원을 구분하는 검증 요건의 설명이 본문24와 부합한다. Wiley 동적 인용 위젯의2026 대신 최초 출판일2020을 유지한다.",
+      "direct_http_check": {
+        "ref": 58,
+        "url": "https://doi.org/10.1002/9781118445112.stat08255",
+        "http_status": 403,
+        "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118445112.stat08255",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "crossref_metadata_record": {
+        "ref": 58,
+        "endpoint": "https://api.crossref.org/works/10.1002%2F9781118445112.stat08255",
+        "http_status": 200,
+        "doi": "10.1002/9781118445112.stat08255",
+        "metadata": {
+          "DOI": "10.1002/9781118445112.stat08255",
+          "title": [
+            "Data Validation"
+          ],
+          "author": [
+            {
+              "given": "Mark P.J.",
+              "family": "van der Loo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Edwin",
+              "family": "de Jonge",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "container-title": [
+            "Wiley StatsRef: Statistics Reference Online"
+          ],
+          "publisher": "Wiley",
+          "volume": null,
+          "issue": null,
+          "page": "1-7",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                5,
+                21
+              ]
+            ]
+          },
+          "published-print": null,
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                5,
+                21
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.1002/9781118445112.stat08255",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat08255",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/9781118445112.stat08255",
+              "content-type": "application/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat08255",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      },
+      "citation_paragraph_indexes": [
+        24,
+        232
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[58] van der Loo, M. P. J., and de Jonge, E., “Data Validation”, Wiley StatsRef: Statistics Reference Online, 2020, pp.1-7. https://doi.org/10.1002/9781118445112.stat08255"
+    },
+    {
+      "reference_number": 59,
+      "paragraph_index": 316,
+      "original_entry": "[59] Pandera developers, “Validating with Checks”, Pandera documentation, version 0.30.0. https://pandera.readthedocs.io/en/v0.30.0/checks.html (확인일: 2026.10.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://pandera.readthedocs.io/en/v0.30.0/checks.html"
+      ],
+      "web_source_refs": [
+        "turn47view3",
+        "turn63view3"
+      ],
+      "access_status": "versioned_official_documentation_accessible",
+      "evidence_summary": "0.30.0 공식 문서의 Wide Checks는 열 간 및 DataFrameSchema 수준의 검사 함수를 명시한다. 본문24의 기능 설명과 적합하다. 본 연구의 구체적인 판정 결과는 논문이 아니라 실행결과로 따로 검증해야 한다.",
+      "direct_http_check": {
+        "ref": 59,
+        "url": "https://pandera.readthedocs.io/en/v0.30.0/checks.html",
+        "http_status": 200,
+        "final_url": "https://pandera.readthedocs.io/en/v0.30.0/checks.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Validating with Checks - pandera documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        24,
+        107,
+        388
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[59] Pandera developers, “Validating with Checks”, Pandera documentation, version 0.30.0. https://pandera.readthedocs.io/en/v0.30.0/checks.html (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 60,
+      "paragraph_index": 317,
+      "original_entry": "[60] jsonschema developers, “Schema Validation”, python-jsonschema documentation, version 4.25.1. https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/ (확인일: 2026.10.27).",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/"
+      ],
+      "web_source_refs": [
+        "turn47view4"
+      ],
+      "access_status": "versioned_official_documentation_accessible",
+      "evidence_summary": "4.25.1 공식 문서에서 Draft202012Validator와 스키마 검사를 확인했다. 코드에서는 canonical(...allow_nan=False)가 먼저 비유한 수치를 차단하므로 본문388은 스키마와 직렬화 검사를 결합했다고 명확히 쓰는 것이 정확하다.",
+      "direct_http_check": {
+        "ref": 60,
+        "url": "https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/",
+        "http_status": 200,
+        "final_url": "https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "Schema Validation - jsonschema 4.25.1 documentation",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        107,
+        388
+      ],
+      "citation_support": "supported_with_precision_revision",
+      "corrected_entry": "[60] jsonschema developers, “Schema Validation”, python-jsonschema documentation, version 4.25.1. https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/ (확인일: 2026.10.28)."
+    },
+    {
+      "reference_number": 61,
+      "paragraph_index": 318,
+      "original_entry": "[61] statsmodels developers, “United States Macroeconomic data”, statsmodels documentation and macrodata dataset. https://www.statsmodels.org/stable/datasets/generated/macrodata.html (확인일: 2026.10.27). 사용 자료의 저장소 판본: d07a39609cdf57b6898bb9adb87e7821904482aa.",
+      "existence": "verified",
+      "metadata_checked": [
+        "authors",
+        "title",
+        "publication_year_or_version",
+        "venue",
+        "pages_or_dataset_identity",
+        "identifier_or_url"
+      ],
+      "primary_sources": [
+        "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+        "https://github.com/statsmodels/statsmodels/blob/d07a39609cdf57b6898bb9adb87e7821904482aa/statsmodels/datasets/macrodata/data.py"
+      ],
+      "web_source_refs": [
+        "turn47view5",
+        "turn54view6"
+      ],
+      "access_status": "official_documentation_and_pinned_source_accessible",
+      "evidence_summary": "공식 문서와 명시된 저장소 커밋의 data.py를 대조하여203분기,1959Q1-2009Q3,세 실질계열의 정의·2005년 연쇄가격·계절조정 연율을 확인했다. 2009년12월15일은 제공자의 원자료 접근일이다.",
+      "direct_http_check": {
+        "ref": 61,
+        "url": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+        "http_status": 200,
+        "final_url": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+        "content_type": "text/html; charset=utf-8",
+        "page_title": "United States Macroeconomic data — statsmodels 0.15.0",
+        "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+      },
+      "crossref_metadata_record": null,
+      "citation_paragraph_indexes": [
+        108,
+        383
+      ],
+      "citation_support": "supported_for_stated_scope",
+      "corrected_entry": "[61] statsmodels developers, “United States Macroeconomic data”, statsmodels documentation and macrodata dataset. https://www.statsmodels.org/stable/datasets/generated/macrodata.html (확인일: 2026.10.28). 사용 자료의 저장소 판본: d07a39609cdf57b6898bb9adb87e7821904482aa."
+    }
+  ],
+  "recommended_in_text_revisions": [
+    {
+      "paragraph_index": 125,
+      "reference_number": 34,
+      "severity": "precision",
+      "old": "업무목적에 따라 큰 오차와 고용규모 가중치도 함께 고려해야 한다[34].",
+      "replacement": "예측오차 지표는 업무목적과 자료의 특성에 맞게 선택해야 한다[34]. 이에 본 연구에서는 큰 오차와 고용규모 가중 오차를 함께 검토하였다.",
+      "reason": "문헌의 일반적 지표 선택 논의와 연구자의 고용규모 가중 평가 선택을 구분한다."
+    },
+    {
+      "paragraph_index": 62,
+      "reference_number": 33,
+      "severity": "precision",
+      "old": "후버 회귀모형(Huber regression)[33]",
+      "replacement": "후버 회귀모형(Huber regression)[33,48]",
+      "reason": "1964년 원논문은 강건 위치모수 추정의 기초이며 실제 규제 회귀 구현은 scikit-learn 공식 문서[48]가 직접 근거이다."
+    },
+    {
+      "paragraph_index": 388,
+      "reference_number": 60,
+      "severity": "precision",
+      "old": "형식 조건은 JSON Schema Draft 2020-12로 필수 항목·자료형·유한 수치·해시 형식을 검사하였다[60].",
+      "replacement": "형식 조건은 JSON Schema Draft 2020-12의 스키마 검사와 비유한 수치를 허용하지 않는 JSON 직렬화 검사를 결합하여 필수 항목·자료형·수치 범위·해시 형식을 확인하였다[60].",
+      "reason": "code/evidence_contract.py의 validate_structure는 canonical(allow_nan=False)과 Draft202012Validator를 함께 사용한다."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "uri": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_ECO@DF_EMP,2.4/A..KOR+KR01+KR011+KR012+KR013+KR02+KR021+KR022+KR023+KR03+KR031+KR032+KR04+KR041+KR042+KR043+KR05+KR051+KR052+KR053+KR054+KR06+KR061+KR07+KR071..EMP...?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "requested_utc": "2026-09-23T14:35:07.873168+00:00",
+  "source": "exact filtered CSV URI observed on official OECD Data Explorer",
+  "status": 200,
+  "headers": {
+    "Date": "Wed, 23 Sep 2026 14:35:40 GMT",
+    "Content-Type": "application/vnd.sdmx.data+csv; version=2; charset=utf-8; labels=name",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Cache-Control": "public,max-age=7200",
+    "Content-Language": "en,en-US",
+    "Last-Modified": "2023-11-14",
+    "Accept-Ranges": "values",
+    "Vary": "X-Range, Accept, Accept-Language, Accept-Encoding, Accept-Charset,Accept,Accept-Encoding",
+    "Strict-Transport-Security": "max-age=2592000",
+    "Content-Disposition": "attachment; filename=\"OECD.CFE.EDS,DSD_REG_ECO@DF_EMP,2.4,filtered,2026-09-23 16-35-21.csv\"",
+    "api-supported-versions": "1",
+    "X-Server-Node": "Server 2",
+    "cf-cache-status": "MISS",
+    "Server": "cloudflare",
+    "CF-RAY": "a3fa46611bc14e41-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "bytes": 1878576,
+  "sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf"
+}

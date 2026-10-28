@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "modules": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "xgboost": "No module named 'xgboost'",
+    "catboost": "No module named 'catboost'",
+    "lightgbm": "No module named 'lightgbm'",
+    "pandera": "No module named 'pandera'",
+    "jsonschema": "No module named 'jsonschema'",
+    "narwhals": "No module named 'narwhals'"
+  }
+}

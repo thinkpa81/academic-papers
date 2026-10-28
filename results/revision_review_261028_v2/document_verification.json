@@ -1,0 +1,17 @@
+{
+  "paragraph_edits_including_reference_url_cleanup": 108,
+  "edited_table_cells": 5,
+  "all_table_cells_checked": 781,
+  "tables_including_abstract": 25,
+  "result_tables": 24,
+  "equation_xml_preserved": 19,
+  "figures_replaced": 3,
+  "total_figures": 4,
+  "rendered_pages": 48,
+  "remaining_highlights": 0,
+  "remaining_red_text": 0,
+  "byte_identical_manuscript_rebuild": true,
+  "table_values_unchanged_except_declared_cells": true,
+  "visual_qa": "All initial pages inspected; final affected pages rechecked after formatting fixes. Figure 2 gap and reference-only trailing page corrected.",
+  "scope": "No new human study or full nine-stage model rerun was performed in this revision."
+}

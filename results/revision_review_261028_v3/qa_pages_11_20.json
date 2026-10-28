@@ -1,0 +1,323 @@
+{
+  "qa_date": "2026-10-28",
+  "scope": "Final pre-commit release clean/redline pages11-20; individual original-resolution images viewed for all20 pages.",
+  "status": "pass_for_inspected_release_pages",
+  "intended_page_count": 20,
+  "visually_inspected_count": 20,
+  "pass_count": 20,
+  "blocking_issues": [],
+  "records": [
+    {
+      "variant": "clean",
+      "page": 11,
+      "image_file": "v3/qa_release_clean/page-11.png",
+      "image_sha256": "a2fc309b868b823388f2f147cc2200683b584e95fcd2eafaa7c1269c3e6496e5",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "두 단 본문·소제목·영문 약어가 누락/겹침 없이 표시된다."
+    },
+    {
+      "variant": "clean",
+      "page": 12,
+      "image_file": "v3/qa_release_clean/page-12.png",
+      "image_sha256": "5ac15e7672223ddd771bb3e19b59081b6df130cb34abf293b27ce5740c7a0f15",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "식(4a)-(4c)의 분자·분모·합기호·첨자가 모두 온전히 보이며 이전 수직 클리핑이 해결되었다."
+    },
+    {
+      "variant": "clean",
+      "page": 13,
+      "image_file": "v3/qa_release_clean/page-13.png",
+      "image_sha256": "0bfb181666e89f913ac7c254999f2c8c362701781bb01e0025a522f2856a6b53",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "서비스 구현/기술평가 본문과 3.8절 전환 정상. 이전 clean13 이미지 손상도 해결되었다."
+    },
+    {
+      "variant": "clean",
+      "page": 14,
+      "image_file": "v3/qa_release_clean/page-14.png",
+      "image_sha256": "0549f6817943e4d3a739b0d386ec1573a2c7320baafe851e4aee3401921a9281",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "3.9절 URL·40자리 커밋 자리표시자와 4절 제목이 칼럼 안에 들어간다. 커밋 자리표시자는 후속 교체 예정으로 결함에서 제외했다."
+    },
+    {
+      "variant": "clean",
+      "page": 15,
+      "image_file": "v3/qa_release_clean/page-15.png",
+      "image_sha256": "33c4a7f29868af1cf4c9d2c3172091bb250d877dc3777d681a60ee7b53dc604c",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표3 전체 네 자료행과 주석이 한 페이지에 온전히 배치되고 4.1절 본문도 정상이다."
+    },
+    {
+      "variant": "clean",
+      "page": 16,
+      "image_file": "v3/qa_release_clean/page-16.png",
+      "image_sha256": "621ffc7df1996f9b135ce27d5b4306ae588502ebaf62e36e0ac5d17bbd128660",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표4·표5의 모든 행과 주석이 잘림 없이 보인다. 이전 redline16 PNG 손상도 해결되었다."
+    },
+    {
+      "variant": "clean",
+      "page": 17,
+      "image_file": "v3/qa_release_clean/page-17.png",
+      "image_sha256": "ecf9b5171b1e352372034b6c91f8b89c99bd549d3cb43ec2aef9526d32fad2f4",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표6의 열/행·주석과 위아래 본문이 서로 겹치지 않는다."
+    },
+    {
+      "variant": "clean",
+      "page": 18,
+      "image_file": "v3/qa_release_clean/page-18.png",
+      "image_sha256": "453f0d0fad1437acd0da489f17a5fbb12a817d4ea7f0e63f4fad5d38efeedfb8",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표7 및 주석·4.3절 본문이 온전히 보인다."
+    },
+    {
+      "variant": "clean",
+      "page": 19,
+      "image_file": "v3/qa_release_clean/page-19.png",
+      "image_sha256": "1ea9cd746f5bb14b6ab63abfa7e3cbcc3388a4d08d3e5778d92a27c99fe2e25a",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표8과 주석·4.4절 본문이 온전히 보인다."
+    },
+    {
+      "variant": "clean",
+      "page": 20,
+      "image_file": "v3/qa_release_clean/page-20.png",
+      "image_sha256": "0d9fe704f7af1b6b5dca896902046c3715a33c70f3687aea26ad1a535bf17b39",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표9의 모든 지역행과 주석·두 단 해설이 온전히 보인다."
+    },
+    {
+      "variant": "redline",
+      "page": 11,
+      "image_file": "v3/qa_release_redline/page-11.png",
+      "image_sha256": "a32735f2072989cf6aa0e76515199e113fb1fbdd9b5c2911b47660166b9322ca",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "두 단 본문·소제목·영문 약어가 누락/겹침 없이 표시된다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 12,
+      "image_file": "v3/qa_release_redline/page-12.png",
+      "image_sha256": "59df0bf44c382f13a5f7864b7e709933c2edb74d276129d813e9c194b7d103f0",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "식(4a)-(4c)의 분자·분모·합기호·첨자가 모두 온전히 보이며 이전 수직 클리핑이 해결되었다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 13,
+      "image_file": "v3/qa_release_redline/page-13.png",
+      "image_sha256": "0bfb181666e89f913ac7c254999f2c8c362701781bb01e0025a522f2856a6b53",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "서비스 구현/기술평가 본문과 3.8절 전환 정상. 이전 clean13 이미지 손상도 해결되었다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 14,
+      "image_file": "v3/qa_release_redline/page-14.png",
+      "image_sha256": "1585dc0502a4e54300116c7e4b7503675577238ffde2f6254ffee444fbda1b57",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "3.9절 URL·40자리 커밋 자리표시자와 4절 제목이 칼럼 안에 들어간다. 커밋 자리표시자는 후속 교체 예정으로 결함에서 제외했다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 15,
+      "image_file": "v3/qa_release_redline/page-15.png",
+      "image_sha256": "64172870793dd4dda223dfb9f1d23bae94732af5b9bc5340ca743005876a29a7",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표3 전체 네 자료행과 주석이 한 페이지에 온전히 배치되고 4.1절 본문도 정상이다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 16,
+      "image_file": "v3/qa_release_redline/page-16.png",
+      "image_sha256": "b3e90fbd481fc52631f4dcf0f34ee1d090bbdc233b235442c5d085b3ecd9f0ad",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표4·표5의 모든 행과 주석이 잘림 없이 보인다. 이전 redline16 PNG 손상도 해결되었다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 17,
+      "image_file": "v3/qa_release_redline/page-17.png",
+      "image_sha256": "d943c14d1cdc64857efcc38d8e8df54e6fd8576d07c447c484079caf08c1fcd5",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표6의 열/행·주석과 위아래 본문이 서로 겹치지 않는다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 18,
+      "image_file": "v3/qa_release_redline/page-18.png",
+      "image_sha256": "5a07c4ea5e865d66244e5a7fdf1f5946042d79f529dbd34078ec58b44cb2d5c3",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표7 및 주석·4.3절 본문이 온전히 보인다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 19,
+      "image_file": "v3/qa_release_redline/page-19.png",
+      "image_sha256": "e7a0fedfb68d9e64091946adeab8ba2910bbb620de5e374f8f81dab6306d0ead",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표8과 주석·4.4절 본문이 온전히 보인다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    },
+    {
+      "variant": "redline",
+      "page": 20,
+      "image_file": "v3/qa_release_redline/page-20.png",
+      "image_sha256": "b3bd506f2cfde8d2b77c33bc776aa97939a28f99f83c523ad3b6a3d57e35745f",
+      "view_image_detail": "original",
+      "visually_inspected": true,
+      "image_integrity_verified": true,
+      "size_px": [
+        1347,
+        1857
+      ],
+      "result": "pass",
+      "notes": "표9의 모든 지역행과 주석·두 단 해설이 온전히 보인다. 빨간 수정표시는 clean판의 글자 내용·표 구조·배치를 보존한다."
+    }
+  ],
+  "resolved_previous_issues": [
+    {
+      "issue": "Equation4a-4c vertical clipping onpage12 inbothvariants",
+      "resolution": "Confirmed allfractions/sums/subscripts visible onnew clean12 andredline12."
+    },
+    {
+      "issue": "Corrupted clean13/redline16 PNG",
+      "resolution": "Both regenerated images viewed successfully and passed PNG integrity verification."
+    }
+  ],
+  "placeholder_scope": "Page14 contains intentional 40-zero code commit placeholder. Parent will replace40characters aftercommit; replacement is outside this recorded image snapshot and needs final overflow check.",
+  "limitations": "Visual QA covers only the20 individually inspected pages, not all manuscript pages; bibliography/factual validity is documented in separate reference audits."
+}

@@ -1,0 +1,7 @@
+fixed panel_ar1_l10000
+2020 industry_past_mean
+2021 catboost_d3_l210
+2022 huber
+2023 lagged_available_region_industry_growth
+2024 rf_depth8_leaf10
+2025 ridge_alpha1000

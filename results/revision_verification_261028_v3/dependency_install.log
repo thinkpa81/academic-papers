@@ -1,0 +1,25 @@
+Collecting xgboost==3.4.1
+  Downloading xgboost-3.4.1-py3-none-manylinux_2_28_x86_64.whl.metadata (2.0 kB)
+Collecting catboost==1.2.10
+  Downloading catboost-1.2.10-cp312-cp312-manylinux2014_x86_64.whl.metadata (1.2 kB)
+Collecting lightgbm==4.7.0
+  Downloading lightgbm-4.7.0-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (18 kB)
+Collecting pandera==0.30.0
+  Downloading pandera-0.30.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema==4.25.1
+  Downloading jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting narwhals==2.27.1
+  Downloading narwhals-2.27.1-py3-none-any.whl.metadata (15 kB)
+Downloading xgboost-3.4.1-py3-none-manylinux_2_28_x86_64.whl (57.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.6/57.6 MB 39.2 MB/s  0:00:01
+Downloading catboost-1.2.10-cp312-cp312-manylinux2014_x86_64.whl (97.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.1/97.1 MB 40.1 MB/s  0:00:02
+Downloading lightgbm-4.7.0-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 28.8 MB/s  0:00:00
+Downloading pandera-0.30.0-py3-none-any.whl (303 kB)
+Downloading jsonschema-4.25.1-py3-none-any.whl (90 kB)
+Downloading narwhals-2.27.1-py3-none-any.whl (483 kB)
+Installing collected packages: catboost, xgboost, pandera, narwhals, lightgbm, jsonschema
+
+Successfully installed catboost-1.2.10 jsonschema-4.25.1 lightgbm-4.7.0 narwhals-2.27.1 pandera-0.30.0 xgboost-3.4.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.

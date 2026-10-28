@@ -1,0 +1,285 @@
+{
+  "prepared_utc": "2026-09-23T14:23:31.283031+00:00",
+  "source_file": "inputs/package/한국IT서비스학회_재현패키지/raw/economic/oecd_korea_regional_industry_raw.csv",
+  "source_sha256": "5979c7e9942ce7d9aeb84410e22d08799a6a645470392cc3725d4c30cdb2c4f4",
+  "dataflow": "OECD.CFE.EDS:DSD_REG_ECO@DF_EMP(2.0)",
+  "units": "PS persons, UNIT_MULT=0",
+  "year_min": 2008,
+  "year_max": 2023,
+  "activities_retained": [
+    "A",
+    "BTE",
+    "F",
+    "GTI",
+    "J",
+    "K",
+    "L",
+    "M_N",
+    "OTQ",
+    "RTU",
+    "_T"
+  ],
+  "overlap_rows": 374,
+  "overlap_years": [
+    2022,
+    2023
+  ],
+  "overlap_region_count": 17,
+  "age_scope": "Not an explicit dimension in DF_EMP: direct national metadata confirmation required; do not infer Y15T64 from regional labour inputs.",
+  "reference_period": "Metadata source list states October; actual old OECD values conflict with selected H2 published totals; KOSIS H1/H2 numerical comparison pending.",
+  "classification": "OECD broad activity labels with KSIC crosswalk pending confirmation. Official Korean source notes KSIC11 from 2024H2 with retrospective revisions; do not chain mixed vintages without checks.",
+  "schema_dimensions": [
+    [
+      {
+        "id": "FREQ",
+        "position": "1"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "FREQ",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_FREQ",
+            "version": "2.1",
+            "agencyID": "SDMX",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "TERRITORIAL_LEVEL",
+        "position": "2"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "TERRITORIAL_LEVEL",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_TERRITORIAL_LEVEL",
+            "version": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "REF_AREA",
+        "position": "3"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "REF_AREA",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_REGIONAL",
+            "version": "2.0",
+            "agencyID": "OECD",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "TERRITORIAL_TYPE",
+        "position": "4"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "TERRITORIAL_TYPE",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_TERRITORIAL_TYPE",
+            "version": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "MEASURE",
+        "position": "5"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "MEASURE",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_MEASURE",
+            "version": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "ACTIVITY",
+        "position": "6"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "ACTIVITY",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_ACTIVITY_ISIC4",
+            "version": "1.0",
+            "agencyID": "OECD",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "PRICES",
+        "position": "7"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "PRICES",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_PRICES",
+            "version": "1.0",
+            "agencyID": "OECD",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "UNIT_MEASURE",
+        "position": "8"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "UNIT_MEASURE",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ],
+        [
+          "Ref",
+          {
+            "id": "CL_UNIT_MEASURE",
+            "version": "1.7",
+            "agencyID": "OECD",
+            "package": "codelist",
+            "class": "Codelist"
+          }
+        ]
+      ]
+    ],
+    [
+      {
+        "id": "TIME_PERIOD",
+        "position": "9"
+      },
+      [
+        [
+          "Ref",
+          {
+            "id": "TIME_PERIOD",
+            "maintainableParentID": "CS_REGIONAL",
+            "maintainableParentVersion": "1.0",
+            "agencyID": "OECD.CFE.EDS",
+            "package": "conceptscheme",
+            "class": "Concept"
+          }
+        ]
+      ]
+    ]
+  ],
+  "performance_evaluated": false
+}

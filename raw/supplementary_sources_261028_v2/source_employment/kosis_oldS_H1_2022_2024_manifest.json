@@ -1,0 +1,25 @@
+{
+  "captured_source_file": "kosis_DT_1ES3B05S_2022_2024H1_dom.json",
+  "source_sha256": "4f85fcbbd69e5d246fcb6cb6230900db58fd8978e9eeccb17cfc81005b8a870b",
+  "source_bytes": 745924,
+  "parsed_utc": "2026-09-23T14:27:28.839053+00:00",
+  "acquisition": "Official KOSIS rendered table DOM captured through authorized browser; not a downloaded CSV/XLS",
+  "regions": 17,
+  "periods": [
+    "2022.1/2",
+    "2023.1/2",
+    "2024.1/2"
+  ],
+  "panel_rows": 561,
+  "complete_rows": 527,
+  "incomplete_rows": 34,
+  "overlap_rows": 374,
+  "overlap_complete_rows": 352,
+  "overlap_within_display_rounding": 209,
+  "max_abs_difference_persons": 61500.0,
+  "missing_value_rule": "non-numeric cells are missing; never coerced to zero",
+  "classification": "KSIC10 table S; broad-sector aggregation using explicit 21-section labels",
+  "age_scope": "National Regional Employment Survey metadata to be retained separately; not assumed to equal 15–64 labour covariates",
+  "reference_period": "H1/H2 as rendered; annual label does not establish October",
+  "model_performance_evaluated": false
+}

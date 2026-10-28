@@ -1,0 +1,22 @@
+{
+  "year": 2023,
+  "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=427575&mid=a10301010000",
+  "retrieved_utc": "2026-09-26T11:58:36.712915+00:00",
+  "http_status": 200,
+  "release_dates_near_label": [
+    "게시일</strong>\r"
+  ],
+  "attachments": [
+    [
+      "/boardDownload.es?bid=211&list_no=427575&seq=1",
+      "2023년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.pdf"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=427575&seq=2",
+      "2023년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwpx"
+    ]
+  ],
+  "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=427575&seq=1",
+  "pdf_http_status": 200,
+  "pdf_sha256": "f4f3ea3e0046457db1c6cf6be885b483e8c05c890d3845848f8cacd5c2e6cd9a"
+}

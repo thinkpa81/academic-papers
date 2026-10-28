@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/8ce3ee097fbc/package/academic-papers/code/run_transfer_evaluation.py", line 15, in <module>
+    from evidence_contract import (
+  File "/workspace/scratch/8ce3ee097fbc/package/academic-papers/code/evidence_contract.py", line 16, in <module>
+    import pandera.pandas as pa
+  File "/workspace/scratch/8ce3ee097fbc/analysis_dependencies/pandera/__init__.py", line 11, in <module>
+    from pandera import dtypes, typing
+  File "/workspace/scratch/8ce3ee097fbc/analysis_dependencies/pandera/typing/__init__.py", line 9, in <module>
+    from pandera.typing.common import AnnotationInfo
+  File "/workspace/scratch/8ce3ee097fbc/analysis_dependencies/pandera/typing/common.py", line 18, in <module>
+    import typing_inspect
+ModuleNotFoundError: No module named 'typing_inspect'

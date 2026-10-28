@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-09-23T14:23:31.286641+00:00",
+  "latest_dataflow": "OECD.CFE.EDS:DSD_REG_ECO@DF_EMP(2.4)",
+  "official_explorer_uri": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en",
+  "visible_last_update": "September 12, 2026 at 2:06:04 AM",
+  "selected_download_uri": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_ECO@DF_EMP,2.4/A..KOR+KR01+KR011+KR012+KR013+KR02+KR021+KR022+KR023+KR03+KR031+KR032+KR04+KR041+KR042+KR043+KR05+KR051+KR052+KR053+KR054+KR06+KR061+KR07+KR071..EMP...?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "attempts": [
+    {
+      "method": "Python urllib public official SDMX API",
+      "result": "HTTP 403; no data file"
+    },
+    {
+      "method": "Official browser Data Explorer and filtered CSV link",
+      "result": "Explorer succeeded; selected all25 Korean geographic nodes; CSV endpoint produced chrome-error page and no downloaded file; error page DOM blocked by browser URL policy, no workaround attempted"
+    }
+  ],
+  "download_succeeded": false,
+  "new_2024_2025_values_acquired": false,
+  "official_metadata_uri": "https://webfs-cfe.oecd.org/files/.Stat/region/OECD_regional_metadata.xlsx",
+  "limitation": "Dataset-level update date does not demonstrate Korean 2024/2025 availability."
+}

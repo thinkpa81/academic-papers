@@ -1,0 +1,132 @@
+{
+  "source_name": "우수논문심사용 정규논문 (Full paper) 양식(6).hwp",
+  "source_sha256": "9199eaad069ff480a546e80d4c1f75bd79abfd87076345a76611565e5aadea8c",
+  "source_format": "HWP 5.0 binary OLE",
+  "read_method": "pyhwp0.1b15 binary model/XML; independent python-hwpx6.10 import; embedded original preview",
+  "page_mm": {
+    "width": 190,
+    "height": 262,
+    "hwp_left": 20,
+    "hwp_right": 20,
+    "hwp_top": 20,
+    "hwp_bottom": 22,
+    "hwp_header": 18,
+    "hwp_footer": 0,
+    "hwp_gutter": 3,
+    "word_body_top": 38,
+    "word_effective_left": 23,
+    "word_effective_right": 20,
+    "word_body_bottom": 22,
+    "body_width": 147,
+    "body_height": 202
+  },
+  "columns": {
+    "front_matter": 1,
+    "main_text": 2,
+    "gap_mm": 10,
+    "column_width_mm": 68.5
+  },
+  "instructions": {
+    "anonymous": true,
+    "remove_author_and_affiliation": true,
+    "page_limit": null,
+    "page_limit_literal": "페이지 제한 없음."
+  },
+  "core_styles": {
+    "korean_title": {
+      "font": "한양신명조",
+      "pt": 17,
+      "alignment": "center",
+      "line_spacing_percent": 160,
+      "glyph_width_percent": 95,
+      "letter_spacing_percent": -5
+    },
+    "english_title": {
+      "font_in_binary": "corrupted PDF font alias ending Identity-H",
+      "pt": 12,
+      "alignment": "center",
+      "line_spacing_percent": 150,
+      "glyph_width_percent": 95,
+      "latin_letter_spacing_percent": 0
+    },
+    "abstract_heading": {
+      "font": "신명 태명조",
+      "pt": 9,
+      "alignment": "center"
+    },
+    "abstract": {
+      "font_ko": "#중명조",
+      "font_latin": "#중고딕",
+      "pt": 10,
+      "line_spacing_percent": 180,
+      "glyph_width_percent": 95,
+      "letter_spacing_percent": -4,
+      "indent_left_mm": 4.4169,
+      "indent_right_mm": 4.4169,
+      "first_line_indent_mm": 3.5278
+    },
+    "keywords": {
+      "pt": 10,
+      "line_spacing_percent": 130,
+      "indent_left_mm": 4.4169,
+      "indent_right_mm": 4.4169
+    },
+    "heading1": {
+      "font": "신명 태명조",
+      "pt": 13,
+      "line_spacing_percent": 120,
+      "glyph_width_percent": 95,
+      "letter_spacing_percent": -5,
+      "space_after_pt": 15.6
+    },
+    "body": {
+      "font": "한양신명조",
+      "pt": 9.48,
+      "line_spacing_percent": 160,
+      "glyph_width_percent": 95,
+      "korean_letter_spacing_percent": -6,
+      "latin_letter_spacing_percent": 0,
+      "first_line_indent_mm": 2.9986
+    },
+    "references": {
+      "font": "한양신명조",
+      "pt_range": [
+        9.48,
+        9.5
+      ],
+      "line_spacing_percent": 160,
+      "hanging_indent_mm": 7.0556,
+      "glyph_width_percent_range": [
+        95,
+        96
+      ],
+      "journal_title_italic": true
+    }
+  },
+  "reference_example": {
+    "inline_citation": "[1,2]",
+    "order_examples": "Korean author names, then English author names",
+    "sample_reference_numbering": "No literal [number] visible in reference paragraph text; inline numeric citations are visible."
+  },
+  "rendering": {
+    "original_preview": "v3/template/preview.png",
+    "original_preview_size_px": [
+      743,
+      1024
+    ],
+    "first_page_observation": "Centered Korean and English titles; anonymous author instruction; boxed summary and keyword; footer affiliation placeholders. Blue instruction box is template guidance, not manuscript content.",
+    "fonts_available_system": false,
+    "nanummyeongjo_bundled": true,
+    "fallback_regular": "support/baseline/base_v11/original/fonts/NanumMyeongjo-Regular.ttf",
+    "fallback_bold": "support/baseline/base_v11/original/fonts/NanumMyeongjo-Bold.ttf",
+    "font_family_name": "NanumMyeongjo"
+  },
+  "format_limitations": [
+    "Bundled LibreOffice cannot directly import this HWP5: it reads binary as garbled plain text.",
+    "pyhwp ODT conversion loses columns/header and proprietary font rendering; it is not a faithful template conversion.",
+    "python-hwpx reads original HWP without listed dropped elements but no direct DOCX importer; OMML requires mathematical representation translation.",
+    "Native renderer rhwp0.8.7 installed and checksum verified but missing proprietary font substitution causes Korean glyph omission. No native HWP manuscript was delivered because conversion fidelity could not be verified.",
+    "Recommended final route: preserve exact geometry and structural template in visually verified DOCX; disclose NanumMyeongjo replacement and lack of native HWP output."
+  ],
+  "geometry_primary_source": "https://help.hancom.com/hoffice_mac/ko_kr/hwp/format/setting_paper/setting_paper%28margins%29.htm"
+}

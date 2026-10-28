@@ -1,0 +1,103 @@
+{
+  "seed": 20261005,
+  "primary_faults": 36,
+  "primary_controls": 14,
+  "secondary_compounds": 5,
+  "same_predicate_control_equivalent": true,
+  "primary_summary": [
+    {
+      "configuration": "original_composed",
+      "family": "all_primary",
+      "fault_n": 36,
+      "normal_n": 14,
+      "correct_block": 16,
+      "miss": 20,
+      "false_block": 0,
+      "correct_permit": 14
+    },
+    {
+      "configuration": "linked_full",
+      "family": "all_primary",
+      "fault_n": 36,
+      "normal_n": 14,
+      "correct_block": 36,
+      "miss": 0,
+      "false_block": 0,
+      "correct_permit": 14
+    },
+    {
+      "configuration": "linked_without_T",
+      "family": "all_primary",
+      "fault_n": 36,
+      "normal_n": 14,
+      "correct_block": 24,
+      "miss": 12,
+      "false_block": 0,
+      "correct_permit": 14
+    },
+    {
+      "configuration": "linked_without_S",
+      "family": "all_primary",
+      "fault_n": 36,
+      "normal_n": 14,
+      "correct_block": 28,
+      "miss": 8,
+      "false_block": 0,
+      "correct_permit": 14
+    },
+    {
+      "configuration": "linked_without_L",
+      "family": "all_primary",
+      "fault_n": 36,
+      "normal_n": 14,
+      "correct_block": 27,
+      "miss": 9,
+      "false_block": 0,
+      "correct_permit": 14
+    }
+  ],
+  "frozen_cases_sha256": "2b9f763ffdaaf358c12ff22c4f12f0b04a81e94dc33db0b62f65ffd972639a1a",
+  "protocol_sha256": "b139c87d27caed2047e993c6d602557c899ebe0f4098c74d7e8647d28785e34c",
+  "actual_human_participants": 0,
+  "scope": "Synthetic formative consistency checking only. No population detection rate, user utility, authenticity or operational validation."
+}
+{"status": "PASS", "scope": "Additional code review, not external validation or user evaluation. A-cases were specified in prose before revised implementation inspection; E-cases are exploratory. Exceptions imply missing structured diagnostic response, not observed permission.", "source_frozen_cases_sha256": "2b9f763ffdaaf358c12ff22c4f12f0b04a81e94dc33db0b62f65ffd972639a1a", "workflow_guard_sha256": "98abcd07cc78f5af9bac225601c988f0da3be58cbb7faa9da2806b39d9f81b12", "specified_case_count": 14, "specified_matches": 14, "exploratory_case_count": 4, "exploratory_matches": 4}
+{"status": "PASS", "scope": "Additional code review, not external validation or user evaluation. A-cases were specified in prose before revised implementation inspection; E-cases are exploratory. Exceptions imply missing structured diagnostic response, not observed permission.", "source_frozen_cases_sha256": "2b9f763ffdaaf358c12ff22c4f12f0b04a81e94dc33db0b62f65ffd972639a1a", "workflow_guard_sha256": "98abcd07cc78f5af9bac225601c988f0da3be58cbb7faa9da2806b39d9f81b12", "specified_case_count": 14, "specified_matches": 14, "exploratory_case_count": 4, "exploratory_matches": 4}
+[
+  {
+    "suite": "original55",
+    "version": "v1",
+    "n": 55,
+    "matching": 55,
+    "unexpected_permit": 0,
+    "changed_to_block": 0,
+    "exceptions": 0
+  },
+  {
+    "suite": "original55",
+    "version": "v2",
+    "n": 55,
+    "matching": 54,
+    "unexpected_permit": 0,
+    "changed_to_block": 1,
+    "exceptions": 0
+  },
+  {
+    "suite": "extended88",
+    "version": "v1",
+    "n": 88,
+    "matching": 78,
+    "unexpected_permit": 8,
+    "changed_to_block": 0,
+    "exceptions": 2
+  },
+  {
+    "suite": "extended88",
+    "version": "v2",
+    "n": 88,
+    "matching": 88,
+    "unexpected_permit": 0,
+    "changed_to_block": 0,
+    "exceptions": 0
+  }
+]

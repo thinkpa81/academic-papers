@@ -1,0 +1,576 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T03:33:31Z",
+      "timestamp": 1793158411256,
+      "version": "4.5.0"
+    },
+    "reference-count": 59,
+    "publisher": "Wiley",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              11
+            ]
+          ],
+          "date-time": "2020-11-11T00:00:00Z",
+          "timestamp": 1605052800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010663",
+        "name": "H2020 European Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "716439"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "716439"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010663",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Public Administration Review"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:label/>\n                    <jats:p>\n                      <jats:italic>Artificial intelligence (AI) algorithms govern in subtle yet fundamental ways the way we live and are transforming our societies. The promise of efficient, low‐cost, or “neutral” solutions harnessing the potential of big data has led public bodies to adopt algorithmic systems in the provision of public services. As AI algorithms have permeated high‐stakes aspects of our public existence—from hiring and education decisions to the governmental use of enforcement powers (policing) or liberty‐restricting decisions (bail and sentencing)—this necessarily raises important accountability questions: What accountability challenges do AI algorithmic systems bring with them, and how can we safeguard accountability in algorithmic decision‐making? Drawing on a decidedly public administration perspective, and given the current challenges that have thus far become manifest in the field, we critically reflect on and map out in a conceptually guided manner the implications of these systems, and the limitations they pose, for public accountability.</jats:italic>\n                    </jats:p>\n                  </jats:sec>",
+    "DOI": "10.1111/puar.13293",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          16
+        ]
+      ],
+      "date-time": "2020-08-16T00:18:00Z",
+      "timestamp": 1597537080000
+    },
+    "page": "825-836",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 601,
+    "title": [
+      "Accountable Artificial Intelligence: Holding Algorithms to Account"
+    ],
+    "prefix": "10.1111",
+    "volume": "81",
+    "author": [
+      {
+        "given": "Madalina",
+        "family": "Busuioc",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Leiden University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "unstructured": "AI Now Institute NYU.2018.Automated Decision Systems: Examples of Government Use Cases.https://ainowinstitute.org/nycadschart.pdf[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "unstructured": "Angwin Julia JeffLarson SuryaMattu andLaurenKirchner.2016. Machine Bias: There's Software Used across the Country to Predict Future Criminals. And It's Biased against Blacks.ProPublica May 23.https://www.propublica.org/article/machine‐bias‐risk‐assessments‐in‐criminal‐sentencing[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "unstructured": "Appenzeller Tim.2017. The AI Revolution in Science. July 7.https://www.sciencemag.org/news/2017/07/ai‐revolution‐science[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/02750749922064463"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "first-page": "4349",
+        "article-title": "Man is to computer programmer as woman is to homemaker? Debiasing word embeddings",
+        "volume": "29",
+        "author": "Bolukbasi Tolga",
+        "year": "2016",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaf2654"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1468-0386.2007.00378.x"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/0033-3352.00168"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordhb/9780199641253.013.0012"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "unstructured": "BroussardMeredith.2020.When Algorithms Give Real Students Imaginary Grades. The New York Times.https://www.nytimes.com/2020/09/08/opinion/international‐baccalaureate‐algorithm‐grades.html[accessed September 10 2020]."
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0275074019856123"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/IP-170050"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "unstructured": "BuolamwiniJoy andGebruTimnit.2018.Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. Proceedings of Machine Learning Research.81:1–15.http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf."
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/puar.12612"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "article-title": "The Automated Administrative State: A Crisis of Legitimacy",
+        "author": "Calo Ryan",
+        "year": "2020",
+        "journal-title": "Emory Law Journal"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_9_17_1",
+        "first-page": "303",
+        "article-title": "The Need for Transparency in the Age of Predictive Sentencing Algorithms",
+        "volume": "103",
+        "author": "Carlson Alyssa M.",
+        "year": "2017",
+        "journal-title": "Iowa Law Review"
+      },
+      {
+        "issue": "6",
+        "key": "e_1_2_9_18_1",
+        "first-page": "1249",
+        "article-title": "Technological Due Process",
+        "volume": "85",
+        "author": "Citron Danielle K.",
+        "year": "2008",
+        "journal-title": "Washington University Law Review"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "unstructured": "Corbett‐Davies Sam EmmaPierson AviFeller andSharadGoel.2016. A Computer Program Used for Bail and Sentencing Decisions Was Labeled Biased against Blacks. It's Actually Not That Clear.Washington Post October 17.https://www.washingtonpost.com/news/monkey‐cage/wp/2016/10/17/can‐an‐algorithm‐be‐racist‐our‐analysis‐is‐more‐cautious‐than‐propublicas/?utm_term=.0b00af731baa[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21061/jots.v32i1.a.4"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "volume-title": "Algorithmic Accountability Reporting: On the Investigation of Black Boxes",
+        "author": "Diakopoulos Nicholas",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "unstructured": "Dieterich William ChristinaMendoza andTimBrennan.2016. COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity. Northpointe Inc. Technical Report. July 8 2016."
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aao5580"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_9_24_1",
+        "first-page": "18",
+        "article-title": "Slave to the algorithm? Why a ‘right to an explanation’ is probably not the remedy you are looking for",
+        "volume": "16",
+        "author": "Edwards Lilian",
+        "year": "2017",
+        "journal-title": "Duke Law and Technology Review"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "volume-title": "Automating Inequality: How High‐tech Tools Profile, Police, and Punish the Poor",
+        "author": "Eubanks Virginia",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "unstructured": "European Parliament Study.2019. Understanding Algorithmic Decision‐Making: Opportunities and Challenges. March 2019. PE 624.261: European Parliamentary Research Service."
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/j.ctt1pwtb27"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "volume-title": "Architects of Intelligence: The truth about AI from the people building it",
+        "author": "Ford Martin",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "unstructured": "Garvie Clare andJonathanFrankle.2016. Facial‐Recognition Software Might Have a Racial Bias Problem.The Atlantic April 7.https://www.theatlantic.com/technology/archive/2016/04/the‐underlying‐bias‐of‐facial‐recognition‐systems/476991/[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Green Ben andChen Yiling.2019. Disparate interactions: An algorithm‐in‐the‐loop analysis of fairness in risk assessments.FAT* ’19 Proceedings of the Conference on Fairness Accountability and Transparency January 29–31 2019 Atlanta GA USA.",
+        "DOI": "10.1145/3287560.3287563"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3236009"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_9_32_1",
+        "first-page": "1530",
+        "article-title": "State v. Loomis",
+        "volume": "130",
+        "author": "Harvard Law Review",
+        "year": "2017",
+        "journal-title": "Harvard Law Review"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "unstructured": "KatwalaAmit.2020. Wired.https://www.wired.com/story/an‐algorithm‐determined‐uk‐students‐grades‐chaos‐ensued/[accessed September 10 2020]."
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "unstructured": "Kelion Leo.2019. Crime Prediction Software ‘Adopted by 14 UK Police Forces’.BBCNews February 4.https://www.bbc.com/news/technology‐47118229[accessed July 18 2020]."
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "unstructured": "Kleinberg Jon SendhilMullainathan andManishRaghavan.2016. Inherent Trade‐offs in the Fair Determination of Risk Scores. arXiv:1609.05807."
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "unstructured": "Lohr Steve.2018. Facial Recognition Is Accurate if You're a White Guy.The New York Times February 9.https://www.nytimes.com/2018/02/09/technology/facial‐recognition‐race‐artificial‐intelligence.html[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocw105"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "unstructured": "Medium.2019. On Recent Research Auditing Commercial Facial Analysis Technology. Concerned Researchers.Medium March 26.https://medium.com/@bu64dcjrytwitb8/on‐recent‐research‐auditing‐commercial‐facial‐analysis‐technology‐19148bda1832[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9299.00218"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "first-page": "185",
+        "volume-title": "Architects of intelligence: The truth about AI from the people building it",
+        "author": "Ng Andrew",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "first-page": "106",
+        "volume-title": "The Oxford Handbook of Public Accountability",
+        "author": "Olsen Johan P.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "volume-title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
+        "author": "O'Neil Cathy",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "first-page": "235",
+        "article-title": "Restoring Transparency to Automated Authority",
+        "volume": "9",
+        "author": "Pasquale Frank",
+        "year": "2011",
+        "journal-title": "Journal on Telecommunications &High Technology Law"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4159/harvard.9780674736061"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro Marco T. SameeSingh andCarlosGuestrin.2016. “Why Should I Trust You?”: Explaining the Predictions of Any Classifier.KDD 2016 Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining: 1135–1144.",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "unstructured": "Richardson Rashida Jason M.Schultz andKateCrawford.2019. Dirty Data Bad Predictions: How Civil Rights Violations Impact Police Data Predictive Policing Systems and Justice.New York University Law Review Online.https://www.nyulawreview.org/wp‐content/uploads/2019/04/NYULawReview‐94‐Richardson_etal‐FIN.pdf[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/975901"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0048-x"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jopart/muu024"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "unstructured": "Shark Alan R.2019.Artificial Intelligence and its Impact on Public Administration. National Academy of Public Administration.https://www.napawash.org/uploads/Academy_Studies/9781733887106.pdf[accessed July 17 2020]."
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "first-page": "25",
+        "volume-title": "Artificial Intelligence and Its Impact on Public Administration",
+        "author": "Shark Alan R.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/ijhc.1999.0252"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "unstructured": "Snow Jacob.2018. Amazon's Face Recognition Falsely Matched 28 Members of Congress with Mugshots.ACLU July 26.https://www.aclu.org/blog/privacy‐technology/surveillance‐technologies/amazons‐face‐recognition‐falsely‐matched‐28[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "unstructured": "UK Government Office for Science.2016.Artificial Intelligence: Opportunities and Implications for the Future of Decision‐making.https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/566075/gs‐16‐19‐artificial‐intelligence‐ai‐report.pdf[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "unstructured": "UK House of Commons Science and Technology Committee.2019. Issues with Biometrics and Forensics Significant Risk to Effective Functioning of the Criminal Justice System. 18 July 2019.https://www.parliament.uk/business/committees/committees‐a‐z/commons‐select/science‐and‐technology‐committee/news‐parliament‐2017/biometrics‐commissioner‐forensic‐science‐regulator‐report‐publication‐17‐19/[accessed July 16 2020]."
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/idpl/ipx005"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/rego.12158"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198838494.003.0001"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_9_59_1",
+        "first-page": "301",
+        "article-title": "Artificial Discretion as a Tool of Governance: A Framework for Understanding the Impact of Artificial Intelligence on Public Administration",
+        "volume": "2",
+        "author": "Young Matthew M.",
+        "year": "2019",
+        "journal-title": "Perspectives on Public Management and Governance"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10590-1_53"
+      }
+    ],
+    "container-title": [
+      "Public Administration Review"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/puar.13293",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/puar.13293",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/puar.13293",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2023-08-17T22:43:20Z",
+      "timestamp": 1692312200000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13293"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          11
+        ]
+      ]
+    },
+    "references-count": 59,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/puar.13293"
+    ],
+    "URL": "https://doi.org/10.1111/puar.13293",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0033-3352",
+      "1540-6210"
+    ],
+    "issn-type": [
+      {
+        "value": "0033-3352",
+        "type": "print"
+      },
+      {
+        "value": "1540-6210",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-08-11",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-11-11",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

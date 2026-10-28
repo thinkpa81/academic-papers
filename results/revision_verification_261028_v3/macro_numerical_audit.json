@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "calculation": "NumPy centered normal equations; no forecasting adapter imported",
+  "independent_external_evaluator": false,
+  "model_checks": [
+    {
+      "series": "realgdp",
+      "model": "ar1",
+      "n": 39,
+      "max_prediction_difference": 4.624078897563777e-14,
+      "mae_recalculated": 0.5004240323803759
+    },
+    {
+      "series": "realgdp",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_prediction_difference": 3.9468428525424315e-14,
+      "mae_recalculated": 0.49463388745451253
+    },
+    {
+      "series": "realcons",
+      "model": "ar1",
+      "n": 39,
+      "max_prediction_difference": 3.7414515929867775e-14,
+      "mae_recalculated": 0.4036072546660394
+    },
+    {
+      "series": "realcons",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_prediction_difference": 2.708944180085382e-14,
+      "mae_recalculated": 0.3787095787486893
+    },
+    {
+      "series": "realinv",
+      "model": "ar1",
+      "n": 39,
+      "max_prediction_difference": 1.554312234475219e-14,
+      "mae_recalculated": 2.8194033783281234
+    },
+    {
+      "series": "realinv",
+      "model": "ridge_ar2_alpha1",
+      "n": 39,
+      "max_prediction_difference": 1.3822276656583199e-14,
+      "mae_recalculated": 2.8109072100688177
+    }
+  ],
+  "decisions_checked": 30360,
+  "single_row_batch_checks": 30,
+  "frozen_analysis_code_verified": true
+}

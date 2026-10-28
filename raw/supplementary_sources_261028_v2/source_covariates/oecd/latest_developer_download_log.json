@@ -1,0 +1,19 @@
+[
+  {
+    "file": "latest_developer_korea17_y15t64_2022_2024.csv",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR011+KR012+KR013+KR021+KR022+KR023+KR031+KR032+KR041+KR042+KR043+KR051+KR052+KR053+KR054+KR061+KR071._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+    "attempted_utc": "2026-09-23T14:33:55.979412+00:00",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "file": "latest_developer_schema.xml",
+    "url": "https://sdmx.oecd.org/public/rest/dataflow/OECD.CFE.EDS/DSD_REG_LABOUR@DF_LAB/2.4?references=all",
+    "attempted_utc": "2026-09-23T14:33:55.982540+00:00",
+    "status": 200,
+    "content_type": "application/vnd.sdmx.structure+xml; version=2.1; charset=utf-8",
+    "last_modified": "2023-11-14",
+    "downloaded_utc": "2026-09-23T14:34:33.589971+00:00",
+    "bytes": 8746204,
+    "sha256": "12de90144c64e722a3ee4aae5d5b65266b7153f02a682c6776cf057ce0f24e66"
+  }
+]

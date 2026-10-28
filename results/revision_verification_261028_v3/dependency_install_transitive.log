@@ -1,0 +1,25 @@
+Collecting typing-inspect
+  Downloading typing_inspect-0.9.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting typeguard
+  Downloading typeguard-4.6.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting referencing
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting jsonschema-specifications
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting attrs
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting rpds-py
+  Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting mypy-extensions
+  Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Downloading typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Downloading typeguard-4.6.0-py3-none-any.whl (36 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (371 kB)
+Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Installing collected packages: typing-inspect, typeguard, rpds-py, referencing, mypy-extensions, jsonschema-specifications, attrs
+
+Successfully installed attrs-26.1.0 jsonschema-specifications-2025.9.1 mypy-extensions-1.1.0 referencing-0.37.0 rpds-py-2026.9.1 typeguard-4.6.0 typing-inspect-0.9.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.

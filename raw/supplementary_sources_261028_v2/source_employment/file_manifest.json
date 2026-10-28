@@ -1,0 +1,275 @@
+{
+  "files": [
+    {
+      "path": "2024H1_source_inclusion_keys_preliminary.csv",
+      "bytes": 8878,
+      "sha256": "9f59d4087b767a1f6225980d2803b474d7c9c5116d19259cdbaa0a49757dbdd5"
+    },
+    {
+      "path": "2024H1_source_inclusion_rule_preliminary.json",
+      "bytes": 884,
+      "sha256": "5fa1193aa2735ee9dd3c8774fdf79181a6d97ab0c0d2dbaf3c3e1d068106d3c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4967,
+      "sha256": "91a46282629f57b2fa9b0eb8f12badcb02a08ca37308d7b93d07803351727be1"
+    },
+    {
+      "path": "broad_activity_crosswalk.csv",
+      "bytes": 4497,
+      "sha256": "f264c5627bd90475ed2fc7e668e7921f1eac5e006897e6313eeaca4ec534793f"
+    },
+    {
+      "path": "kosis_DT_1ES3B05J_2023_2025H1_precision1_dom.json",
+      "bytes": 260415,
+      "sha256": "262fc92879349071e95d9de7af7e0c0d09182d6864946e35c4fe541516dcdedb"
+    },
+    {
+      "path": "kosis_DT_1ES3B05J_2025H1H2_precision1_dom.json",
+      "bytes": 199387,
+      "sha256": "53de4f78d81b6aaff3e3336789e36860cb5ea746d0c4d49592c2828b612a0adc"
+    },
+    {
+      "path": "kosis_DT_1ES3B05S_2022H1H2_2023H1_2024H1_precision1_dom.json",
+      "bytes": 1007183,
+      "sha256": "c766298f616704315590c08260017367be9cc610d9745ea64b4587fb39f4a43a"
+    },
+    {
+      "path": "kosis_DT_1ES3B05S_2022_2024H1_dom.json",
+      "bytes": 745924,
+      "sha256": "4f85fcbbd69e5d246fcb6cb6230900db58fd8978e9eeccb17cfc81005b8a870b"
+    },
+    {
+      "path": "kosis_DT_1ES3B05S_2022_2024H1_precision1_dom.json",
+      "bytes": 755643,
+      "sha256": "b6b2f35ea3b9805d58d6e553aec4bfbb4046836d4edcb0028e0282d67ef30351"
+    },
+    {
+      "path": "kosis_newJ_2025H1H2_manifest.json",
+      "bytes": 553,
+      "sha256": "f616c2ba358bec1566e47b99db2ad7e04e0b4ab240d8422ea7ac83f080e93928"
+    },
+    {
+      "path": "kosis_newJ_2025H1H2_panel.csv",
+      "bytes": 17841,
+      "sha256": "8a9b8e394656c0af114f9e6dda8272382a3e6c0a5058dd5bc4e8b6b1bbde9f1e"
+    },
+    {
+      "path": "kosis_newJ_2025H1H2_sections.csv",
+      "bytes": 150561,
+      "sha256": "134845db54a06ad349336e7cf104837c98c5e66a4ecc38ab0129e37ad24c42e0"
+    },
+    {
+      "path": "kosis_newJ_2025H1H2_summary.csv",
+      "bytes": 127,
+      "sha256": "98c3a2b6d5766218a03472de54111b22b15589d5fa3a98e513c8aa87b62e6e9b"
+    },
+    {
+      "path": "kosis_newJ_2025H1H2_vs_oecd.csv",
+      "bytes": 23234,
+      "sha256": "a23d3163a5abf28137d8585eb4c5358118bb4c2086e752e602cddf270bdcabcb"
+    },
+    {
+      "path": "kosis_newJ_H1_2023_2025_manifest.json",
+      "bytes": 572,
+      "sha256": "ca6fe63c3fc2f3b1d5b557fbbda807f12eb8ba5cf571fa945974a7107d3344c2"
+    },
+    {
+      "path": "kosis_newJ_H1_2023_2025_panel.csv",
+      "bytes": 26653,
+      "sha256": "3e38153cc1f9c7a95f566a572969b05bd89ddd25c5998cef5ff5383f1c1ed2ba"
+    },
+    {
+      "path": "kosis_newJ_H1_2023_2025_sections.csv",
+      "bytes": 225728,
+      "sha256": "5d8ccb3749a58b758f4561e6ddf494ad78a43785436f0a8e868f812204560485"
+    },
+    {
+      "path": "kosis_newJ_H1_2023_2025_summary.csv",
+      "bytes": 156,
+      "sha256": "bb144bbd555444cfb2e19f726eb3f9041a94882d4b600b83aa80cf1ea0e7db53"
+    },
+    {
+      "path": "kosis_newJ_H1_2023_2025_vs_oecd.csv",
+      "bytes": 34138,
+      "sha256": "2667da324145698775bfb8e667fd94ac358bb65d2b9711bd996eab57b7f18533"
+    },
+    {
+      "path": "kosis_oldS_H1H2_audit_precision1_manifest.json",
+      "bytes": 1290,
+      "sha256": "c8091d94cbe0462bbce1feeb0055c882e450c17ea87035a9347ac2de250e5ca9"
+    },
+    {
+      "path": "kosis_oldS_H1H2_audit_precision1_overlap_checks.csv",
+      "bytes": 148580,
+      "sha256": "15297bbf3541b5b513c4804b46d728bb3d78cfbaa135bfe95d8ef7865e8b5484"
+    },
+    {
+      "path": "kosis_oldS_H1H2_audit_precision1_panel.csv",
+      "bytes": 183735,
+      "sha256": "c4ede67dfbb684154346a2b7e8011054a0f503597521b3bffa7674283652ae92"
+    },
+    {
+      "path": "kosis_oldS_H1H2_audit_precision1_sections.csv",
+      "bytes": 399956,
+      "sha256": "006a3ea6954299324f7b40e4b1281f447520c3863e44d1bfee96efd45b72d4ce"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_manifest.json",
+      "bytes": 1081,
+      "sha256": "9c6e8e6d13f0797e7afa8b6f5dc8371232d0399196460478c1dd5711f2644772"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_overlap_checks.csv",
+      "bytes": 98595,
+      "sha256": "0b3173354e30447693623d74af4a5910b9ee54ae50015ab200424e2c764261a0"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_panel.csv",
+      "bytes": 136160,
+      "sha256": "30fb65c36f1440bb34f1a32abe211484cd548c0482d4a5f5e75bd32b4ea93352"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_precision1_manifest.json",
+      "bytes": 1262,
+      "sha256": "f7044be492672663389ec1aef3f06cd4400f9e9dc56597566ebdfe9c190133ef"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_precision1_overlap_checks.csv",
+      "bytes": 99370,
+      "sha256": "9614ced5e28a28f5290feb71b43d86296382b5c9b54d3107a207bc04af8b2ddb"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_precision1_panel.csv",
+      "bytes": 137830,
+      "sha256": "2953eabe74b1012bc9fe2ff437317397a1e973f5a9a40fe1f7e23a72aa2c4b36"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_precision1_sections.csv",
+      "bytes": 300005,
+      "sha256": "f9217037f8f77cb5d43009da70a59bf68630e5e2fbd67cee4e3fe1ea21b009ed"
+    },
+    {
+      "path": "kosis_oldS_H1_2022_2024_sections.csv",
+      "bytes": 297746,
+      "sha256": "75af04f9d43ee03cd21da1863da1e7e448e219fa08eafc4449c282bb603b56ed"
+    },
+    {
+      "path": "ksic11_vs_ksic10_same_H1_bridge.csv",
+      "bytes": 24603,
+      "sha256": "ac272d54e1fe13cddb81a888de781c52396126f59497fba41a084cb924f079a0"
+    },
+    {
+      "path": "normalization_checks.json",
+      "bytes": 558,
+      "sha256": "c7374fd3a60f29e91538caca68d860c89507e41041bc7de66060fcc07aec9361"
+    },
+    {
+      "path": "normalize_oecd_latest.py",
+      "bytes": 3452,
+      "sha256": "8264899caaaf02d5c002cfb52e1ff5fe002cf42f26eab5cf53819e20ebea1c21"
+    },
+    {
+      "path": "oecd_2024_target_manifest.json",
+      "bytes": 1743,
+      "sha256": "80e2c201970127153746fe29ee1e0b63d8a9337b28487ffd831bf6f7bbad25d2"
+    },
+    {
+      "path": "oecd_korea_emp_2_4_latest.csv",
+      "bytes": 1878576,
+      "sha256": "b37abc61b3928ad817bf89dced2f238966e5427c603da8a8d0553f7bd7d6dadf"
+    },
+    {
+      "path": "oecd_latest_acquisition_attempt.json",
+      "bytes": 1374,
+      "sha256": "9a0450415cb937fd18294f2c9cc8d80723c834d5e914881a33c431ad98a3caad"
+    },
+    {
+      "path": "oecd_latest_exact_download.json",
+      "bytes": 1403,
+      "sha256": "013895c09967856846c1dabd0c8c3dbf69492e31952e8c2a573d92c05f69b443"
+    },
+    {
+      "path": "oecd_v2_4_2022_2025_panel.csv",
+      "bytes": 74319,
+      "sha256": "a119499a33a45d696a87a8825bb888396fe4d3d2f424f6d343295c0bf99796ec"
+    },
+    {
+      "path": "oecd_v2_4_2024_vs_kosis_H1.csv",
+      "bytes": 21903,
+      "sha256": "5dd0fb6575eddf384d862af84e207770f93a507aeb626c96d59f69cd7658c49f"
+    },
+    {
+      "path": "oecd_v2_4_2025_source_anomalies.csv",
+      "bytes": 339,
+      "sha256": "8bc30045591fd6809627e2b672ce685c5a0456596baa4dc4331784914f9040e0"
+    },
+    {
+      "path": "oecd_v2_4_coverage_total_checks.csv",
+      "bytes": 7939,
+      "sha256": "6def768fbadc45c82f2a99a38d2ff5051e2c1c806025fa49a54207d4dff8bf40"
+    },
+    {
+      "path": "oecd_v2_4_target2024_170.csv",
+      "bytes": 3849,
+      "sha256": "9f3386e91c9494acc81c776377b096f3420b12954d8376f671a90348ac7b2738"
+    },
+    {
+      "path": "oecd_v2_4_vs_old_overlap.csv",
+      "bytes": 41947,
+      "sha256": "49a01a690e2282f3aec5d8206aa2ef6a7218082ff0a84aa970fb5a8c9f65c148"
+    },
+    {
+      "path": "official_2024H1_metadata.md",
+      "bytes": 1672,
+      "sha256": "829a42d725a4c8bc8cd9d92254c2b945ec5333f69c23dfd261d25f6e2b04022a"
+    },
+    {
+      "path": "old_oecd_overlap_2022_2023.csv",
+      "bytes": 37243,
+      "sha256": "471e457a6dcbb6c00d85d6396ee02416e6617d587239087c85550659b6191d41"
+    },
+    {
+      "path": "old_schema_profile.json",
+      "bytes": 6682,
+      "sha256": "c839f5ff05e7c7c3d947619894a950dfc01b9569ffcf789b90926a2599ed70a6"
+    },
+    {
+      "path": "outcomes_2024H1_170keys.csv",
+      "bytes": 16866,
+      "sha256": "c1db7a824c338492a1392e226a06c50f2e90920f644dd3a07a47a3fdb89bc5ca"
+    },
+    {
+      "path": "outcomes_2024H1_inclusion_keys.csv",
+      "bytes": 3206,
+      "sha256": "c62b59934460a311d78ac257c4ce61fa7659bcdf4a7fa6ff05d4c74a97fe0cfa"
+    },
+    {
+      "path": "overlap_period_diagnosis.csv",
+      "bytes": 164,
+      "sha256": "14c1414e7dc58659b0d04eee54969f2d7ec73b997460d617c13cb72b7bbef607"
+    },
+    {
+      "path": "parse_kosis_employment.py",
+      "bytes": 7289,
+      "sha256": "c9dd160bafac3327b4647e78dbe662cb5352ff318d943711f7d0d728cc0032a2"
+    },
+    {
+      "path": "parse_kosis_j_vertical.py",
+      "bytes": 3564,
+      "sha256": "2b0d877f4e805f300ceffd3ce435788c0bbc5f6459adda2d1a59e3d349b96702"
+    },
+    {
+      "path": "source_gate_2024H1.json",
+      "bytes": 1552,
+      "sha256": "164af2318113e1df5fdaca8e50ea00758b10892928618fa224515dc2fea663c7"
+    },
+    {
+      "path": "source_gate_preliminary.json",
+      "bytes": 1019,
+      "sha256": "dc163afe5bfa82b314ce9d2ac82c2071513fbd99fec750a39ca748d78348ab27"
+    }
+  ],
+  "scope": "source acquisition and integrity only; no model performance"
+}

@@ -1,0 +1,595 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2026-10-28T01:07:11Z",
+      "timestamp": 1793149631928,
+      "version": "4.5.0"
+    },
+    "reference-count": 52,
+    "publisher": "IBM",
+    "issue": "4/5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IBM J. Res. &amp; Dev."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1147/jrd.2019.2942288",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2019-09-18T16:08:35Z",
+      "timestamp": 1568822915000
+    },
+    "page": "6:1-6:13",
+    "source": "Crossref",
+    "is-referenced-by-count": 312,
+    "title": [
+      "FactSheets: Increasing trust in AI services through supplier's declarations of conformity"
+    ],
+    "prefix": "10.1147",
+    "volume": "63",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Arnold",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. K. E.",
+        "family": "Bellamy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Hind",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Houde",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Mehta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Mojsilović",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Nair",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. Natesan",
+        "family": "Ramamurthy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Olteanu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Piorkowski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Reimer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Richards",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Tsay",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. R.",
+        "family": "Varshney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3082",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2523813"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ress.2007.03.031"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Data science of the people, for the people, by the people: A viewpoint on an emerging dichotomy",
+        "author": "varshney",
+        "year": "0",
+        "journal-title": "Proc Data for Good Exchange Conf"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/DCC.0b013e3181de9ec5"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.2819182"
+      },
+      {
+        "key": "ref30",
+        "year": "0"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3091478.3098871"
+      },
+      {
+        "key": "ref36",
+        "first-page": "529",
+        "article-title": "Machine learning that matters",
+        "author": "wagstaff",
+        "year": "0",
+        "journal-title": "Proc Int Conf Mach Learn"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Artificial intelligence & communications: The fads, the fears, the future",
+        "author": "scott",
+        "year": "2018"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jsis.2008.01.001"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ESEM.2013.54"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/32.21765"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11219-009-9080-0"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2053951718756684"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/pspi0000136"
+      },
+      {
+        "key": "ref20",
+        "article-title": "About the seal of approval",
+        "year": "0"
+      },
+      {
+        "key": "ref22",
+        "year": "0"
+      },
+      {
+        "key": "ref21",
+        "article-title": "About Moody's ratings: Ratings definitions",
+        "year": "0"
+      },
+      {
+        "key": "ref24",
+        "year": "0"
+      },
+      {
+        "key": "ref23",
+        "year": "0"
+      },
+      {
+        "key": "ref26",
+        "article-title": "The software certification process",
+        "author": "schiller",
+        "year": "0"
+      },
+      {
+        "key": "ref25",
+        "first-page": "82",
+        "article-title": "An approach for certifying security in software components",
+        "author": "ghosh",
+        "year": "0",
+        "journal-title": "Proc 21st Nat'I Info Sys Sec Conf"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2018.0089"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3278721.3278744"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.36640/mjeal.3.2.harnessing",
+        "article-title": "Harnessing private regulation",
+        "volume": "3",
+        "author": "mcallister",
+        "year": "2014",
+        "journal-title": "Michigan J Environ Administ Law"
+      },
+      {
+        "key": "ref10",
+        "article-title": "The dataset nutrition label: A framework to drive higher data quality standards",
+        "author": "holland",
+        "year": "2018"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3287560.3287596"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2945386"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Of oaths and checklists",
+        "author": "loukides",
+        "year": "2018"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1147/JRD.2019.2942288",
+        "article-title": "FactSheets: Increasing trust in AI services through suppliers declarations of conformity",
+        "author": "arnold",
+        "year": "2019"
+      },
+      {
+        "key": "ref14",
+        "article-title": "What is a data audit?",
+        "author": "o'neil",
+        "year": "2017"
+      },
+      {
+        "key": "ref15",
+        "article-title": "AI safety&#x2014;The concept of independent audit",
+        "author": "carrier",
+        "year": "0"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Draft ethics guidelines for trustworthy AI",
+        "year": "2018"
+      },
+      {
+        "key": "ref17",
+        "article-title": "What are standards?",
+        "year": "0"
+      },
+      {
+        "key": "ref18",
+        "year": "0"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Testing & certification",
+        "year": "0"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EuroSP.2016.36"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/big.2016.0051"
+      },
+      {
+        "key": "ref6",
+        "article-title": "The use of supplier's declaration of conformity",
+        "year": "0"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-007-1433-5_3"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Datasheets for datasets",
+        "author": "gebru",
+        "year": "0",
+        "journal-title": "Proc 5th Workshop Fairness Accountability Transparency Mach Learn"
+      },
+      {
+        "key": "ref7",
+        "article-title": "U.S. conformity assessment system: 1st party conformity assessment",
+        "year": "0"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1879431"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/tacl_a_00041"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Adversarial robustness toolbox v0.3.0",
+        "author": "nicolae",
+        "year": "2018"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Towards a rigorous science of interpretable machine learning",
+        "author": "doshi-velez",
+        "year": "2017"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/puar.12596"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Certified defenses against adversarial examples",
+        "author": "raghunathan",
+        "year": "2018",
+        "journal-title": "Proc Int Conf Learn Representations"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1147/JRD.2019.2942287",
+        "article-title": "AI Fairness 360: An extensible toolkit for detecting, understanding, and mitigating unwanted algorithmic bias",
+        "volume": "63",
+        "author": "bellamy",
+        "year": "2019",
+        "journal-title": "IBM J Res Develop"
+      },
+      {
+        "key": "ref41",
+        "first-page": "671",
+        "article-title": "Big data's disparate impact",
+        "volume": "104",
+        "author": "barocas",
+        "year": "2016",
+        "journal-title": "California Law Rev"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2623330.2630823"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2783258.2783311"
+      }
+    ],
+    "container-title": [
+      "IBM Journal of Research and Development"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5288520/8895606/08843893.pdf?arnumber=8843893",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2025-10-27T18:03:35Z",
+      "timestamp": 1761588215000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8843893/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 52,
+    "journal-issue": {
+      "issue": "4/5"
+    },
+    "URL": "https://doi.org/10.1147/jrd.2019.2942288",
+    "relation": {},
+    "ISSN": [
+      "0018-8646",
+      "0018-8646"
+    ],
+    "issn-type": [
+      {
+        "value": "0018-8646",
+        "type": "print"
+      },
+      {
+        "value": "0018-8646",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          1
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "verified_date_kst": "2026-10-28",
+  "records": [
+    {
+      "ref": 31,
+      "url": "https://doi.org/10.2307/25148625",
+      "http_status": 403,
+      "final_url": "https://misq.umn.edu/misq/article/28/1/75/261/Design-Science-in-Information-Systems-Research1",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 32,
+      "url": "https://doi.org/10.1080/00401706.1970.10488634",
+      "http_status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.1080/00401706.1970.10488634",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 33,
+      "url": "https://doi.org/10.1214/aoms/1177703732",
+      "http_status": 200,
+      "final_url": "https://projecteuclid.org/euclid.aoms/1177703732",
+      "content_type": "text/html",
+      "page_title": null,
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 34,
+      "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207006000239",
+      "content_type": "text/html",
+      "page_title": "Site Unavailable",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 35,
+      "url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2666389923001599",
+      "content_type": "text/html",
+      "page_title": "Site Unavailable",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 36,
+      "url": "https://doi.org/10.2307/1913643",
+      "http_status": 200,
+      "final_url": "https://www.jstor.org/stable/1913643?origin=crossref",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Client Challenge",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 37,
+      "url": "https://doi.org/10.1177/0160017605276187",
+      "http_status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/0160017605276187",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 38,
+      "url": "https://doi.org/10.1016/j.ijforecast.2018.06.001",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0169207018300785",
+      "content_type": "text/html",
+      "page_title": "Site Unavailable",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 39,
+      "url": "https://doi.org/10.1145/3287560.3287596",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3287560.3287596",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 40,
+      "url": "https://christophm.github.io/interpretable-ml-book/",
+      "http_status": 200,
+      "final_url": "https://christophm.github.io/interpretable-ml-book/",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Interpretable Machine Learning",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 41,
+      "url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en",
+      "http_status": 200,
+      "final_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_ECO%40DF_EMP&df%5Bvs%5D=2.4&lc=en",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": null,
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 42,
+      "url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en",
+      "http_status": 200,
+      "final_url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bid%5D=DSD_REG_LABOUR%40DF_LAB&df%5Bvs%5D=2.4&lc=en",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": null,
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 43,
+      "url": "https://doi.org/10.1177/0018720810376055",
+      "http_status": 403,
+      "final_url": "https://journals.sagepub.com/doi/10.1177/0018720810376055",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 44,
+      "url": "https://doi.org/10.2753/MIS0742-1222240302",
+      "http_status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.2753/MIS0742-1222240302",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 45,
+      "url": "https://doi.org/10.1145/3351095.3372873",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3351095.3372873",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 46,
+      "url": "https://doi.org/10.1111/ecog.02881",
+      "http_status": 403,
+      "final_url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 47,
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "http_status": 200,
+      "final_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "HistGradientBoostingRegressor — scikit-learn 1.8.0 documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 48,
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html",
+      "http_status": 200,
+      "final_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.HuberRegressor.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "HuberRegressor — scikit-learn 1.8.0 documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 49,
+      "url": "https://doi.org/10.1057/ejis.2014.36",
+      "http_status": 403,
+      "final_url": "https://www.tandfonline.com/doi/full/10.1057/ejis.2014.36",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 50,
+      "url": "https://xgboost.readthedocs.io/en/stable/parameter.html",
+      "http_status": 200,
+      "final_url": "https://xgboost.readthedocs.io/en/stable/parameter.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "XGBoost Parameters — xgboost 3.4.2 documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 51,
+      "url": "https://catboost.ai/docs/en/references/training-parameters/",
+      "http_status": 200,
+      "final_url": "https://catboost.ai/docs/en/references/training-parameters/",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Overview | CatBoost",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 52,
+      "url": "https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html",
+      "http_status": 200,
+      "final_url": "https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Parameters Tuning — LightGBM 4.7.0 documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 53,
+      "url": "https://doi.org/10.25300/MISQ/2013/37.2.01",
+      "http_status": 403,
+      "final_url": "https://misq.umn.edu/misq/article/37/2/337/103/Positioning-and-Presenting-Design-Science-Research",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 54,
+      "url": "https://doi.org/10.2307/23042796",
+      "http_status": 403,
+      "final_url": "https://misq.umn.edu/misq/article/35/3/553/529/Predictive-Analytics-in-Information-Systems",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 55,
+      "url": "https://doi.org/10.1145/3442188.3445921",
+      "http_status": 403,
+      "final_url": "https://dl.acm.org/doi/10.1145/3442188.3445921",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 56,
+      "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "http_status": 200,
+      "final_url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "PROV-DM: The PROV Data Model",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 57,
+      "url": "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/",
+      "http_status": 200,
+      "final_url": "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Constraints of the PROV Data Model",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 58,
+      "url": "https://doi.org/10.1002/9781118445112.stat08255",
+      "http_status": 403,
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118445112.stat08255",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "ref": 59,
+      "url": "https://pandera.readthedocs.io/en/v0.30.0/checks.html",
+      "http_status": 200,
+      "final_url": "https://pandera.readthedocs.io/en/v0.30.0/checks.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Validating with Checks - pandera documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 60,
+      "url": "https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/",
+      "http_status": 200,
+      "final_url": "https://python-jsonschema.readthedocs.io/en/v4.25.1/validate/",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Schema Validation - jsonschema 4.25.1 documentation",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    },
+    {
+      "ref": 61,
+      "url": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+      "http_status": 200,
+      "final_url": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "United States Macroeconomic data — statsmodels 0.15.0",
+      "note": "Transport response only; HTTP200 does not establish full-text or data availability."
+    }
+  ]
+}

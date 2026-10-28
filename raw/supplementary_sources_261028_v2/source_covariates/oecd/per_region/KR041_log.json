@@ -1,0 +1,11 @@
+{
+  "file": "KR041_2022_2024.csv",
+  "region": "KR041",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR041._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&endPeriod=2024&dimensionAtObservation=AllDimensions",
+  "attempted_utc": "2026-09-23T14:36:27.274884+00:00",
+  "status": 200,
+  "content_type": "text/csv; labels=both; charset=utf-8",
+  "downloaded_utc": "2026-09-23T14:37:00.461506+00:00",
+  "bytes": 2001,
+  "sha256": "0610826115115d3dd1d19885409e39e536e5b4a59271c87476c6c0f1be0aea3a"
+}

@@ -1,0 +1,319 @@
+{
+  "status": "PASS",
+  "completed_at_utc": "2026-10-28T10:28:08.030092+00:00",
+  "scope": "Visual shipping QA of pages 1-10 in both clean and redline release renders. All 20 pages opened using view_image at original resolution; no manuscript edits performed.",
+  "inspected_pages": {
+    "qa_release_clean": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "qa_release_redline": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "pending_pages": [],
+  "issues": [],
+  "resolved_first_pass_issues": [
+    {
+      "pages": [
+        9,
+        10
+      ],
+      "issue": "OMML equation vertical clipping",
+      "resolution": "Equation (1) denominator and equations (2)-(3) numerators, denominators, sum limits, hats and labels are fully visible in both release renders; vertical spacing is adequate."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "issue": "Table 1 citation [20,29,39] split inside 39",
+      "resolution": "Citation group now appears intact on its own line after FactSheets in both release renders."
+    },
+    {
+      "pages": {
+        "clean": [
+          1,
+          6,
+          8
+        ],
+        "redline": [
+          8
+        ]
+      },
+      "issue": "Truncated draft PNGs",
+      "resolution": "All 20 current release PNGs passed PIL.verify and opened successfully."
+    }
+  ],
+  "page_findings": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "finding": "Bilingual title, boxed Korean abstract, English abstract and keywords fit; no clipping, overlap, missing glyphs or author-identifying cover content visible."
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "finding": "Two-column introduction and literature review are readable, with consistent margins and clear section hierarchy."
+    },
+    {
+      "pages": [
+        5,
+        6
+      ],
+      "finding": "Tables 1 and 2 retain intact borders and readable cells, notes and adjacent text; citation group repair verified."
+    },
+    {
+      "pages": [
+        7
+      ],
+      "finding": "Figure 1 labels, box boundaries and arrow endpoints are clear; feedback and downstream flow are visible; caption and note fit."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "finding": "Data/methods text fits both columns without missing glyphs or overlap; redline preserves visible content despite normal run-dependent wrapping differences."
+    },
+    {
+      "pages": [
+        9,
+        10
+      ],
+      "finding": "Equations (1)-(3) display fully with sufficient space; surrounding method text and equation numbers remain readable."
+    }
+  ],
+  "redline_check": "Modified passages are visibly red and readable. Paired clean/redline pages preserve visible content; this visual check supplements, rather than replaces, the parent XML/text equality checks.",
+  "template_result": "Cover and two-column body retain the verified template geometry and hierarchy. Native HWP output and proprietary-font equivalence are not claimed.",
+  "template_limitations": [
+    "Final editable format is DOCX applying the supplied HWP template layout, not a native HWP/HWPX file.",
+    "Unavailable proprietary template fonts were replaced with NanumMyeongjo. The substitution is disclosed in v3/template/template_review.md and prior template_application_qa.json."
+  ],
+  "commit_placeholder_note": "Parent reports that only the 40-character code commit identifier will be replaced after this QA. No such identifier occurs in this inspected 1-10 page subset.",
+  "render_evidence": {
+    "qa_release_clean": [
+      {
+        "page": 1,
+        "relative_path": "v3/qa_release_clean/page-1.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "8e0b16f3cb5e1de8fffa62574bddda8f4477c2fbe6d4c17b2765d0320b794f7f",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 2,
+        "relative_path": "v3/qa_release_clean/page-2.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "d84cd3c5680750d5395879f48a1139d436fecad152966ceb2859fb0b18e61069",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 3,
+        "relative_path": "v3/qa_release_clean/page-3.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "ea39d3a1338e21dd5ea6fdaa01333005fb408756d3abaa31c0f969f0a19719a8",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 4,
+        "relative_path": "v3/qa_release_clean/page-4.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "358fd3cff279c92cee4134357697be52a62f3a28aa9008655dcc5f51c576b1af",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 5,
+        "relative_path": "v3/qa_release_clean/page-5.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "38931617b2a5f7da60bf0ae41e618614ed0408ace830187e4df4b90118191b55",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 6,
+        "relative_path": "v3/qa_release_clean/page-6.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "741fa0f1849f963edc9ecffe83611c114165d3114a77b38ec2c7b30b29294d13",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 7,
+        "relative_path": "v3/qa_release_clean/page-7.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "d4059db8bf03ed7188a16b216c2926a5488934690fb37d96160c5d8ae748e000",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 8,
+        "relative_path": "v3/qa_release_clean/page-8.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "fedab5ab8edda4528449a3d10e1e99d4acff3025fb00535ff194c020fef7dc86",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 9,
+        "relative_path": "v3/qa_release_clean/page-9.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "f745bdb908c6f9b604f28f30938612c3625a50639f974b155db878ac83c8b50d",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 10,
+        "relative_path": "v3/qa_release_clean/page-10.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "68b92793c30f022eda3336c9a480fc44bd8b80cae85359e7ad220ad23d4fb641",
+        "visual_check": "PASS"
+      }
+    ],
+    "qa_release_redline": [
+      {
+        "page": 1,
+        "relative_path": "v3/qa_release_redline/page-1.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "e1d23718fbe440aaea6c58566ddffad2b045a9cea09b873b8e21e4bd82f64ec5",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 2,
+        "relative_path": "v3/qa_release_redline/page-2.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "91ce7e91697ff611e4303f12c3f7cc7e7e627d6115828d26c95edf59bb3c1e9e",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 3,
+        "relative_path": "v3/qa_release_redline/page-3.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "d8dc6d3c024b1c19f8990a201d416bfd45262ce0603823187b65dc08500bea59",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 4,
+        "relative_path": "v3/qa_release_redline/page-4.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "4f2083fdcaeea69aff08b8039ce962a8335ab879b7814d0c8d0d490a97e64ce3",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 5,
+        "relative_path": "v3/qa_release_redline/page-5.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "38931617b2a5f7da60bf0ae41e618614ed0408ace830187e4df4b90118191b55",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 6,
+        "relative_path": "v3/qa_release_redline/page-6.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "5ce660f72730d8ed47ddb197ccfdab47758cb1c60235751b0c96b3b7cf062f14",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 7,
+        "relative_path": "v3/qa_release_redline/page-7.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "d4059db8bf03ed7188a16b216c2926a5488934690fb37d96160c5d8ae748e000",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 8,
+        "relative_path": "v3/qa_release_redline/page-8.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "ff2b6c902d25ccb7eaeb4cf3de5e81fcb815f9d8171f0610af09ca4d78d6fd04",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 9,
+        "relative_path": "v3/qa_release_redline/page-9.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "e15422996398265e54c4336997c9aaa9a840c18c1f1cd4cc40fafdd79708c9ca",
+        "visual_check": "PASS"
+      },
+      {
+        "page": 10,
+        "relative_path": "v3/qa_release_redline/page-10.png",
+        "dimensions_px": [
+          1347,
+          1857
+        ],
+        "sha256": "595d717588eca6adfd9dcd53fe0041b1319026726529bb1a0b309f0bd5d9c17e",
+        "visual_check": "PASS"
+      }
+    ]
+  }
+}

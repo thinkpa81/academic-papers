@@ -1,0 +1,289 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T19:22:06Z",
+      "timestamp": 1793128926637,
+      "version": "4.5.0"
+    },
+    "reference-count": 16,
+    "publisher": "Informa UK Limited",
+    "issue": "366a",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1979,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1080/01621459.1979.10482505",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2012-04-05T14:04:14Z",
+      "timestamp": 1333634654000
+    },
+    "page": "269-277",
+    "source": "Crossref",
+    "is-referenced-by-count": 842,
+    "title": [
+      "Estimates of Income for Small Places: An Application of James-Stein Procedures to Census Data"
+    ],
+    "prefix": "10.1080",
+    "volume": "74",
+    "author": [
+      {
+        "suffix": "III",
+        "given": "Robert E.",
+        "family": "Fay",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Bureau of the Census",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roger A.",
+        "family": "Herriot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Bureau of the Census",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1974.10480222"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "volume-title": "Applied Regression Analysis",
+        "author": "Draper N. R.",
+        "year": "1966",
+        "unstructured": "Draper , N. R. and Smith , H. 1966 . Applied Regression Analysis , New York : John Wiley & Sons ."
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1971.10482348"
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1972.10481215"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1973.10481350"
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1973.tb00968.x"
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1975.10479864"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2060811"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1974.10480220"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "volume-title": "“Updating Per Capita Income for General Revenue Sharing,”",
+        "author": "Herriot Roger A.",
+        "year": "1977",
+        "unstructured": "Herriot , Roger A. 1977 . “Updating Per Capita Income for General Revenue Sharing,” , U.S. Bureau of the Census . in Small Area Statistics Papers, Series GE-41, No. 4"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "first-page": "361",
+        "volume-title": "Proceedings of the Fourth Berkeley Symposium of Mathematical Statistics and Probability",
+        "volume": "1",
+        "author": "James W.",
+        "unstructured": "James , W. and Stein , Charles . “Estimation With Quadratic Loss,” . Proceedings of the Fourth Berkeley Symposium of Mathematical Statistics and Probability . Vol. 1 , pp. 361 – 379 . Berkeley : University of California Press ."
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "first-page": "554",
+        "volume-title": "Contributed Papers, 40th Session of the International Statistical Institute",
+        "author": "Madow W. G.",
+        "unstructured": "Madow , W. G. and Hansen , M. H. “On Statistical Models and Estimation in Sample Surveys,” . Contributed Papers, 40th Session of the International Statistical Institute . Warsaw , Poland. pp. 554 – 557 ."
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "volume-title": "Linear Statistical Inference and Its Applications",
+        "author": "Rao Radhakrishna C.",
+        "year": "1965",
+        "unstructured": "Rao , Radhakrishna C. 1965 . Linear Statistical Inference and Its Applications , New York : John Wiley & Sons ."
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "first-page": "197",
+        "volume-title": "Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability",
+        "volume": "1",
+        "author": "Stein Charles",
+        "unstructured": "Stein , Charles . “Inadmissibility of the Usual Estimator for the Mean of a Multivariate Normal Distribution,” . Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability . Vol. 1 , pp. 197 – 202 . Berkeley : University of California Press ."
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "volume-title": "U.S. Census of Population and Housing: 1970, Procedural History PHC(R)-1",
+        "author": "U.S. Bureau of the Census",
+        "year": "1976",
+        "unstructured": "U.S. Bureau of the Census . 1976 . U.S. Census of Population and Housing: 1970, Procedural History PHC(R)-1 Washington , D.C."
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "volume-title": "Statistical Policy Working Paper 1: Report on Statistics for Allocation of Funds",
+        "author": "U.S. Department of Commerce",
+        "year": "1978",
+        "unstructured": "U.S. Department of Commerce . 1978 . Statistical Policy Working Paper 1: Report on Statistics for Allocation of Funds prepared by the Subcommittee on Statistics for Allocation of Funds, Federal Committee on Statistical Methodology"
+      }
+    ],
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/01621459.1979.10482505",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2026-02-06T22:46:39Z",
+      "timestamp": 1770417999000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.1979.10482505"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1979,
+          6
+        ]
+      ]
+    },
+    "references-count": 16,
+    "journal-issue": {
+      "issue": "366a",
+      "published-print": {
+        "date-parts": [
+          [
+            1979,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/01621459.1979.10482505"
+    ],
+    "URL": "https://doi.org/10.1080/01621459.1979.10482505",
+    "relation": {},
+    "ISSN": [
+      "0162-1459",
+      "1537-274X"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-1459",
+        "type": "print"
+      },
+      {
+        "value": "1537-274X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1979,
+          6
+        ]
+      ]
+    }
+  }
+}

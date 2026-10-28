@@ -1,0 +1,102 @@
+{
+  "recorded_utc": "2026-10-28T09:43:19.285887+00:00",
+  "status": "recorded_before_fit_and_case_evaluation",
+  "version": 1,
+  "protocol_type": "retrospective technical extension, not independently preregistered",
+  "human_participants": 0,
+  "external_evaluator": false,
+  "external_data": "US macrodata: real GDP, consumption, investment",
+  "external_split": {
+    "train_end": "1989Q4",
+    "validation": "1990Q1–1999Q4",
+    "test": "2000Q1–2009Q3"
+  },
+  "models": [
+    "AR(1) OLS",
+    "standardized AR(2) ridge alpha=1"
+  ],
+  "model_selection": "none; both fixed configurations retained",
+  "comparison": {
+    "json_schema": "Typed nested schema only; a deliberately limited configuration, not a capability limit",
+    "pandera_local": "Schema plus domain rules/internal relationships; no current versions or registry comparison",
+    "pandera_registered": "Same input plus caller-held current versions and reference registry",
+    "native_registered": "Direct implementation with the same rules and reference information as pandera_registered"
+  },
+  "case_families": {
+    "C0_original": [
+      true,
+      "Observed forecast with a synthetic consistent review"
+    ],
+    "C1_reordered": [
+      true,
+      "JSON key order changes without semantic change"
+    ],
+    "C2_renewed_review": [
+      true,
+      "Review and caller-held current version both advance"
+    ],
+    "F01_numeric_type": [
+      false,
+      "Prediction replaced by a numeric string"
+    ],
+    "F02_horizon": [
+      false,
+      "Input period moved by one month"
+    ],
+    "F03_arithmetic": [
+      false,
+      "Displayed forecast difference increased by one log point"
+    ],
+    "F04_decomposition": [
+      false,
+      "One contribution increased without changing the forecast"
+    ],
+    "F05_request_binding": [
+      false,
+      "Request changed while the stored review remains unchanged"
+    ],
+    "F06_unverified_operation": [
+      false,
+      "Current snapshot represented as historically verified operation"
+    ],
+    "F07_measurement_unit": [
+      false,
+      "Log change relabeled as percentage change"
+    ],
+    "F08_stale_review": [
+      false,
+      "Caller-held current review version advances without renewed review"
+    ],
+    "F09_coherent_forecast": [
+      false,
+      "Forecast and intercept jointly changed with updated internal hashes"
+    ],
+    "F10_coherent_source": [
+      false,
+      "Source digest changed with updated internal hashes"
+    ],
+    "F11_coherent_model": [
+      false,
+      "Model artifact digest changed with updated internal hashes"
+    ],
+    "F12_coherent_validation": [
+      false,
+      "Validation count/summary changed while retaining arithmetic consistency"
+    ]
+  },
+  "reference_boundary": "Jointly changing submitted and trusted reference data is outside assumptions; report separately",
+  "code_sha256": {
+    "code/evidence_contract.py": "6af740a9ba014310d5b7eede8629609dace8ec05ceefa48e8977c78bff50ecaa",
+    "code/transfer_sources.py": "7c09d2aa9a8727c1a1d2572920ce3859303dd34e2229362d37c29e3fe549f3cc",
+    "code/transfer_cases.py": "c2b34e0d65c708ec948a7edb4a12516ea7a7c889735f87ea273e8718735b58a2",
+    "code/run_transfer_evaluation.py": "1908b453fc9a3ab533e7e74f2d9efdcce1f1850d6d05ea5e417a94d447f8a2fa"
+  },
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pandera": "0.30.0",
+    "jsonschema": "4.25.1"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

@@ -1,0 +1,30 @@
+{
+  "year": 2025,
+  "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=439006&mid=a10301010000",
+  "retrieved_utc": "2026-09-26T11:58:37.028913+00:00",
+  "http_status": 200,
+  "release_dates_near_label": [
+    "게시일</strong>\r"
+  ],
+  "attachments": [
+    [
+      "/boardDownload.es?bid=211&list_no=439006&seq=1",
+      "2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwp"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=439006&seq=2",
+      "2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.hwpx"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=439006&seq=3",
+      "2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성.pdf"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=439006&seq=5",
+      "('17년~'25년) 지역별고용조사 취업자의 산업 및 직업별 특성 통계표(참고용).xlsx"
+    ]
+  ],
+  "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=439006&seq=3",
+  "pdf_http_status": 200,
+  "pdf_sha256": "623ea778dc5ca6cdfb09aa781083949904ff25709fdd551db8ad541b29904cf3"
+}

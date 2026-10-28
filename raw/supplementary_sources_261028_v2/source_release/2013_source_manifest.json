@@ -1,0 +1,22 @@
+{
+  "year": 2013,
+  "source_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=309601&mid=a10301010000",
+  "retrieved_utc": "2026-09-26T11:58:18.527469+00:00",
+  "http_status": 200,
+  "release_dates_near_label": [
+    "게시일</strong>\r"
+  ],
+  "attachments": [
+    [
+      "/boardDownload.es?bid=211&list_no=309601&seq=1",
+      "2013년 상반기 지역별고용조사 산업 및 직업별 특성.pdf"
+    ],
+    [
+      "/boardDownload.es?bid=211&list_no=309601&seq=3",
+      "2013년_상반기_지역별고용조사_산업_및_직업별_특성.hwp"
+    ]
+  ],
+  "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=309601&seq=1",
+  "pdf_http_status": 200,
+  "pdf_sha256": "45a9ceb625092b2d92eee7878d27e0fa4111278d7250bbd4f5d64a67838f39a1"
+}

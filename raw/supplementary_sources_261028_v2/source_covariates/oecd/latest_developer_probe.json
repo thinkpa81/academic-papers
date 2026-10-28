@@ -1,0 +1,9 @@
+{
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_LABOUR@DF_LAB,2.4/A.TL3.KR011._Z.LF_RATE+UNE_RATE.Y15T64._T.?startPeriod=2022&dimensionAtObservation=AllDimensions",
+  "attempted_utc": "2026-09-23T14:31:50.527513+00:00",
+  "file": "latest_developer_seoul_y15t64.csv",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8; labels=both",
+  "bytes": 2540,
+  "sha256": "3662ea93a4b2785420b92948ffab74dc4e4ad81de986bde2d4b1160ca8c420f8"
+}
