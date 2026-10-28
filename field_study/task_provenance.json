@@ -1,0 +1,162 @@
+[
+  {
+    "task_id": "T01",
+    "source_case_id": "N:KR013:J:ridge_alpha1000",
+    "prediction": -0.37744525049436417,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "consistent",
+    "human_observation": false
+  },
+  {
+    "task_id": "T02",
+    "source_case_id": "N:KR012:J:ridge_alpha1000",
+    "prediction": -0.1306494687996056,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "consistent",
+    "human_observation": false
+  },
+  {
+    "task_id": "T03",
+    "source_case_id": "N:KR011:L:ridge_alpha1000",
+    "prediction": 2.064411827891111,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "consistent",
+    "human_observation": false
+  },
+  {
+    "task_id": "T04",
+    "source_case_id": "N:KR061:A:ridge_alpha1000",
+    "prediction": -0.5298831308491814,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "consistent",
+    "human_observation": false
+  },
+  {
+    "task_id": "T05",
+    "source_case_id": "N:KR012:L:ridge_alpha1000",
+    "prediction": 1.2833990658840198,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "stale_review",
+    "human_observation": false
+  },
+  {
+    "task_id": "T06",
+    "source_case_id": "N:KR053:OTQ:ridge_alpha1000",
+    "prediction": 0.8702184069622556,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "stale_review",
+    "human_observation": false
+  },
+  {
+    "task_id": "T07",
+    "source_case_id": "N:KR053:BTE:ridge_alpha1000",
+    "prediction": -0.014643668593742332,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "stale_review",
+    "human_observation": false
+  },
+  {
+    "task_id": "T08",
+    "source_case_id": "N:KR022:K:ridge_alpha1000",
+    "prediction": 0.09106450004341271,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "stale_review",
+    "human_observation": false
+  },
+  {
+    "task_id": "T09",
+    "source_case_id": "N:KR061:M_N:ridge_alpha1000",
+    "prediction": 0.7243052980550408,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "validation_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T10",
+    "source_case_id": "N:KR041:K:ridge_alpha1000",
+    "prediction": 0.11744272687692925,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "validation_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T11",
+    "source_case_id": "N:KR021:L:ridge_alpha1000",
+    "prediction": 0.3889103417564672,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "validation_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T12",
+    "source_case_id": "N:KR042:M_N:ridge_alpha1000",
+    "prediction": 0.43118899059325705,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "validation_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T13",
+    "source_case_id": "N:KR054:K:ridge_alpha1000",
+    "prediction": 0.6568927014259089,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "coefficient_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T14",
+    "source_case_id": "N:KR052:M_N:ridge_alpha1000",
+    "prediction": 0.8202813938549152,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "coefficient_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T15",
+    "source_case_id": "N:KR052:OTQ:ridge_alpha1000",
+    "prediction": 0.9749050559958651,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "coefficient_mismatch",
+    "human_observation": false
+  },
+  {
+    "task_id": "T16",
+    "source_case_id": "N:KR043:F:ridge_alpha1000",
+    "prediction": 0.3274944353955073,
+    "baseline": 0.6705514379380221,
+    "source_validation_n": 3,
+    "source_coefficient": -1.1595006337957396,
+    "synthetic_change": "coefficient_mismatch",
+    "human_observation": false
+  }
+]

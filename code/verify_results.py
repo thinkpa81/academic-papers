@@ -90,7 +90,7 @@ def main():
     check("no fabricated observations", len(empty) == 0)
     schedule = pd.read_csv(ROOT / "field_study/counterbalanced_assignment.csv")
     check(
-        "planned balance", schedule.groupby(["task_id", "condition"]).size().eq(3).all()
+        "planned balance", schedule.groupby(["task_id", "condition"]).size().eq(4).all()
     )
     check(
         "one exposure per participant-task",

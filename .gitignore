@@ -15,3 +15,7 @@ field_study/responses_FILLED.csv
 generated_figures/
 .ruff_cache/
 *.tmp
+generated/
+private_field_records/
+pilot_results/
+field_study/judgments.jsonl

@@ -1,0 +1,14 @@
+{
+  "planned_participants": 8,
+  "tasks": 16,
+  "planned_assignments": 128,
+  "actual_participants": 0,
+  "actual_observations": 0,
+  "conditions": [
+    "table",
+    "card"
+  ],
+  "source_sha256": "6e522eb2a52dbe66fe67a1361e3d79b8eef06c318488309cc3eb46d5ab98adbb",
+  "purpose": "exploratory usability pilot; not a powered confirmatory study",
+  "generated_responses": false
+}

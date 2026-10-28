@@ -1,0 +1,631 @@
+{
+  "rtol": 1e-10,
+  "atol": 1e-10,
+  "checks": [
+    {
+      "path": "forecast_replay/all_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/outcome_dependent_trim_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/additional_model_coefficients.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/test_predictions_additional.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/all_paired_comparisons.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/panel_replay/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/panel_replay/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/panel_replay/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/panel_replay/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_sections.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/kosis_ksic11_H1_2013_2025_national_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/incomplete_broad_cells.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/broad_activity_crosswalk.csv",
+      "passed": true
+    },
+    {
+      "path": "forecast_replay/source_replay/coverage_by_year.csv",
+      "passed": true
+    },
+    {
+      "path": "service_replay/case_results.csv",
+      "passed": true
+    },
+    {
+      "path": "service_replay/original_comparison/summary_by_family.csv",
+      "passed": true
+    },
+    {
+      "path": "service_replay/original_comparison/case_results.csv",
+      "passed": true
+    },
+    {
+      "path": "service_replay/original_comparison/manuscript_table.csv",
+      "passed": true
+    },
+    {
+      "path": "model_swap_replay/paired_results.csv",
+      "passed": true
+    },
+    {
+      "path": "model_swap_replay/case_results.csv",
+      "passed": true
+    },
+    {
+      "path": "model_swap_replay/summary.csv",
+      "passed": true
+    },
+    {
+      "path": "preserved_audit/table12_display_check.csv",
+      "passed": true
+    },
+    {
+      "path": "preserved_audit/table8_recalculated.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/evaluation_predictions_decisions_and_losses.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/evaluated_region_industry_decisions.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/yearly_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/decision_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/validation_only_decisions_before_test_merge.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/excluded_validation_rows.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/grouped_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/region_block_replicates.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/region_block_intervals.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/pooled_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "local_fallback/validation_coverage_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "registered_service/case_results.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/expanding_comparisons.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/fixed_comparisons.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/all_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/expanding_summary.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/expanding_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2024/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2024/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2024/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2024/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2022/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2022/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2022/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2022/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2023/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2023/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2023/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2023/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2020/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2020/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2020/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2020/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2021/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2021/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2021/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2021/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2025/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2025/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2025/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/2025/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/fixed/predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/fixed/validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/fixed/validation_grid.csv",
+      "passed": true
+    },
+    {
+      "path": "benchmark/fixed/metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/coverage_by_industry.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/reselection_intervals.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_metrics.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/selection_frequencies.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_comparisons.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/reselection_replicates.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/panel_reconstruction/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR043/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR052/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR054/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR011/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR022/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR041/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR031/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR012/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR051/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR021/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR053/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR023/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR071/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR013/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR042/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR061/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/cohort_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/analysis_panel.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/exclusion_reason_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "diagnostics/heldout_features/KR032/exclusion_ledger.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/comparison_summary.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/results_by_family.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/macro_predictions.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/macro_forecast_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/macro_sample_counts.csv",
+      "passed": true
+    },
+    {
+      "path": "transfer_evaluation/trust_boundary_results.csv",
+      "passed": true
+    }
+  ],
+  "retry_note": "Initial transfer attempt lacked typing_inspect; dependencies installed then succeeded. An initial fallback replicate CSV had 3836 rows; unchanged code rerun yielded all 24000 matching stored rows. Failed/incomplete logs retained in verification records."
+}

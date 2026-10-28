@@ -1,0 +1,184 @@
+{
+  "selected_lambda": 10000,
+  "source_replay": {
+    "exit_code": 0,
+    "raw_dom_sha256": "1a22db86e0c0d41d88e161a6e4dbdf793ab78e55b880bad28eb3ddd90e972357",
+    "normalization_checks": [
+      {
+        "file": "kosis_ksic11_H1_2013_2025_panel.csv",
+        "rows": 2431,
+        "dataframe_exact_equal": true,
+        "byte_equal": true
+      },
+      {
+        "file": "kosis_ksic11_H1_2013_2025_sections.csv",
+        "rows": 5148,
+        "dataframe_exact_equal": true,
+        "byte_equal": true
+      },
+      {
+        "file": "kosis_ksic11_H1_2013_2025_national_panel.csv",
+        "rows": 143,
+        "dataframe_exact_equal": true,
+        "byte_equal": true
+      }
+    ],
+    "panel_replay_equal_atol": 1e-12,
+    "panel_rows": 1449,
+    "split_counts": {
+      "train": 558,
+      "validation": 463,
+      "test": 428
+    },
+    "ridge_refit_max_abs_prediction_difference": 0.0,
+    "ridge_warnings": [],
+    "baseline_refit_max_abs_prediction_difference": 0.0
+  },
+  "overall_metrics": [
+    {
+      "subset": "all",
+      "model": "global_past_mean",
+      "n": 428,
+      "regions": 17,
+      "mae": 9.431386513030413,
+      "median_ae": 6.075094024731902,
+      "rmse": 16.896652829428184,
+      "employment_weighted_mae": 4.935038275858274,
+      "binary_direction_pct": 58.64485981308412,
+      "r2": -0.0013102430503837414
+    },
+    {
+      "subset": "all",
+      "model": "ridge_alpha1000",
+      "n": 428,
+      "regions": 17,
+      "mae": 9.325585786919946,
+      "median_ae": 6.236308591086187,
+      "rmse": 16.483064387035697,
+      "employment_weighted_mae": 4.915379343908464,
+      "binary_direction_pct": 56.074766355140184,
+      "r2": 0.04710903886629614
+    },
+    {
+      "subset": "all",
+      "model": "pooled_ar1",
+      "n": 428,
+      "regions": 17,
+      "mae": 9.235034236621093,
+      "median_ae": 5.996943941141844,
+      "rmse": 15.979989676969833,
+      "employment_weighted_mae": 4.987010110728569,
+      "binary_direction_pct": 53.0373831775701,
+      "r2": 0.10438721199001344
+    },
+    {
+      "subset": "all",
+      "model": "panel_shrinkage_ar1",
+      "n": 428,
+      "regions": 17,
+      "mae": 9.233018521322636,
+      "median_ae": 6.013237274029983,
+      "rmse": 15.97991238750213,
+      "employment_weighted_mae": 4.983120430299229,
+      "binary_direction_pct": 53.271028037383175,
+      "r2": 0.10439587548350171
+    }
+  ],
+  "overall_comparisons": [
+    {
+      "subset": "all",
+      "model": "ridge_alpha1000",
+      "reference": "global_past_mean",
+      "n": 428,
+      "regions": 17,
+      "delta_mae": -0.10580072611046691,
+      "ci95_lo": -0.2734546339205522,
+      "ci95_hi": 0.05551621135552385,
+      "strict_win_pct": 54.4392523364486,
+      "tie_pct": 0.0,
+      "strict_loss_pct": 45.5607476635514,
+      "bootstrap_draws": 2000,
+      "seed": 20260926,
+      "conditional_on_observed_years_and_fitted_models": true,
+      "cluster_sign_flip_two_sided_p": 0.244659423828125,
+      "sign_flip_patterns": 131072,
+      "sign_flip_assumptions": "independent symmetric region-level paired loss sums; shared shocks may violate; exploratory only"
+    },
+    {
+      "subset": "all",
+      "model": "pooled_ar1",
+      "reference": "global_past_mean",
+      "n": 428,
+      "regions": 17,
+      "delta_mae": -0.19635227640932112,
+      "ci95_lo": -0.5678548757265689,
+      "ci95_hi": 0.13419246567939563,
+      "strict_win_pct": 51.63551401869159,
+      "tie_pct": 0.0,
+      "strict_loss_pct": 48.36448598130841,
+      "bootstrap_draws": 2000,
+      "seed": 20260926,
+      "conditional_on_observed_years_and_fitted_models": true,
+      "cluster_sign_flip_two_sided_p": 0.343719482421875,
+      "sign_flip_patterns": 131072,
+      "sign_flip_assumptions": "independent symmetric region-level paired loss sums; shared shocks may violate; exploratory only"
+    },
+    {
+      "subset": "all",
+      "model": "panel_shrinkage_ar1",
+      "reference": "global_past_mean",
+      "n": 428,
+      "regions": 17,
+      "delta_mae": -0.1983679917077773,
+      "ci95_lo": -0.5692035877859505,
+      "ci95_hi": 0.133250903923363,
+      "strict_win_pct": 51.86915887850467,
+      "tie_pct": 0.0,
+      "strict_loss_pct": 48.13084112149533,
+      "bootstrap_draws": 2000,
+      "seed": 20260926,
+      "conditional_on_observed_years_and_fitted_models": true,
+      "cluster_sign_flip_two_sided_p": 0.337158203125,
+      "sign_flip_patterns": 131072,
+      "sign_flip_assumptions": "independent symmetric region-level paired loss sums; shared shocks may violate; exploratory only"
+    },
+    {
+      "subset": "all",
+      "model": "pooled_ar1",
+      "reference": "ridge_alpha1000",
+      "n": 428,
+      "regions": 17,
+      "delta_mae": -0.09055155029885421,
+      "ci95_lo": -0.3056028415001283,
+      "ci95_hi": 0.09142569953995909,
+      "strict_win_pct": 50.23364485981309,
+      "tie_pct": 0.0,
+      "strict_loss_pct": 49.76635514018692,
+      "bootstrap_draws": 2000,
+      "seed": 20260926,
+      "conditional_on_observed_years_and_fitted_models": true,
+      "cluster_sign_flip_two_sided_p": 0.4649200439453125,
+      "sign_flip_patterns": 131072,
+      "sign_flip_assumptions": "independent symmetric region-level paired loss sums; shared shocks may violate; exploratory only"
+    },
+    {
+      "subset": "all",
+      "model": "panel_shrinkage_ar1",
+      "reference": "ridge_alpha1000",
+      "n": 428,
+      "regions": 17,
+      "delta_mae": -0.09256726559731038,
+      "ci95_lo": -0.3071070896127268,
+      "ci95_hi": 0.08773784132549044,
+      "strict_win_pct": 50.0,
+      "tie_pct": 0.0,
+      "strict_loss_pct": 50.0,
+      "bootstrap_draws": 2000,
+      "seed": 20260926,
+      "conditional_on_observed_years_and_fitted_models": true,
+      "cluster_sign_flip_two_sided_p": 0.4522705078125,
+      "sign_flip_patterns": 131072,
+      "sign_flip_assumptions": "independent symmetric region-level paired loss sums; shared shocks may violate; exploratory only"
+    }
+  ]
+}

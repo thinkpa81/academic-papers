@@ -1,22 +1,39 @@
-# 재현 검증 기록
+# 최종 공개본의 재현 검증
 
-2026-10-27 공개본에서 실행 경로, 출력 보호, 실패 기록, 모형명 검증 및 등록자료의 예외 처리를 정리하였다. 분석의 표본, 후보군, 난수 시드, 손실함수, 선택 규칙과 사례별 기대결과는 유지하였다.
+기준일은 2026년 10월 28일이며, `261027_v4` 최종 보완본에 대응한다. 원자료 수치, 표본, 후보군, 난수 시드, 손실함수, 선정 규칙과 기존 기술시험의 기대 판정은 유지하였다. 그림 1과 사용자 평가 준비자료를 보완하였다.
 
-- 전체 실행: 공통 요건 비교·외부자료 적용을 포함한 9개 단계 완료 (`results/transfer_release_execution.json`).
-- 보존 결과와 재실행 CSV 157개 일치, 수치 허용오차 rtol=atol=1e-10 (`results/transfer_release_regression.json`).
-- 결과 점검: 653개 통과 (`results/validation_report.json`).
-- 등록 근거 시험: 1,006개 사례의 기대 판정과 관측 판정 일치 (`results/registered_service/case_results.csv`).
-- 유지보수 회귀 테스트: 6개 통과. 잘못된 등록자료 구조, 비유한 수치, 파일 변경·누락, 기존 출력 보호, 실패 상태 기록을 확인하였다.
-- 2024년 고정 모형의 예측 재실행 결과가 보존된 예측과 허용오차 1e-10 이내에서 일치하였다.
-- Python 정적 검사와 문법 검사 통과. 개발 점검에는 `ruff==0.17.3`을 사용하였다.
+## 확인한 결과와 근거
 
-서비스 시험의 정상·오류 사례는 독립 참여자 수가 아니다. 선행 구현에서 발견한 실패는 `results/service_replay/` 및 `results/model_swap_replay/`에 남아 있다. 최종 구현의 기대 판정 일치가 선행 구현의 실패를 소급하여 제거하지 않는다.
+| 점검 | 확인 결과 | 기록 |
+|---|---|---|
+| 분석·기술평가 실행 | 9개 단계 완료 | `results/revision_verification_20261028/analysis_replay/`, `extended_initial_attempt/`, `transfer_retry/`, `fallback_retry/`의 실행 요약·로그 |
+| 결과표 대조 | CSV 및 압축 CSV 156개 일치, rtol=atol=10⁻¹⁰ | `results/revision_verification_20261028/replay_comparison.json` |
+| 결과·구조 점검 | 653개 통과 | `results/validation_report.json` |
+| 소프트웨어 테스트 | 기존 6개와 사용자 평가 준비자료 6개, 합계 12개 통과 | `tests/`, `results/revision_verification_20261028/unit_tests.log` |
+| 원자료 재구성 | KOSIS 산업군 2,431행·구성산업 5,148행·전국 계열 143행 재현 | `results/revision_verification_20261028/source_replay_checks.json` |
+| 사용자 평가 | 실제 참여자 0명·관측 0건, 효과 미추정 | `field_study/preparation_status.json`, `results/field_study_status/status.json` |
 
-코드 정리로 바뀐 체크섬은 실행 명세에 현재 해시와 변경 전 해시를 함께 기록하였다. 기존 명세의 작성 시각은 유지하고 공개본 유지보수 기록을 별도로 추가하였다. 이 기록은 외부 사전등록을 뜻하지 않는다. 원자료 수치와 원자료 해시는 유지하였다.
+시험의 합성 입력 수는 실제 참여자 수가 아니다. 128개 배정행은 8명·16과업의 실시 계획이다. 실제 응답은 생성하지 않았다.
 
-## 보완분석
+최초 외부자료 시험은 실행환경의 추가 의존성 누락으로 중단되어 설치 후 동일 코드로 재실행하였다. 대체규칙의 첫 재표집 CSV는 불완전 저장을 발견하여 동일 코드·설정으로 재실행하였고, 완전한 24,000행이 보존값과 일치하였다. 성공·실패·재시도 기록을 함께 보존하였다. `extended_initial_attempt/run_summary.json`의 실패는 이후 `transfer_retry/run_summary.json`의 성공으로 해소되었으며, 최종 대조에는 재시도 결과를 사용하였다. 상세 범위는 `audit_scope_and_retries.json`에 명시하였다.
 
-기본 실행의 `preserved_audit`는 보존된 예측·모형·입력을 다시 대조한다. 아래 명령은 원계열 및 통합지역의 모형 적합까지 다시 수행하는 선택 실행이다. 새 출력 경로를 사용한다.
+## 실행
+
+Python 3.12와 `requirements.txt`의 의존성을 설치하고 저장소 루트에서 실행한다.
+
+```bash
+python verify_package.py
+python code/verify_results.py
+python code/audit_transfer_results.py --source results/transfer_evaluation
+python -m unittest discover -s tests -v
+python code/run_all.py --out rerun_20261028
+```
+
+원자료 확보본에서 계산 결과까지의 재현성을 확인하는 절차이다. 원기관 내부 원기록의 진위, 과거 최초 공표 판본과 실제 사용자 효과를 새로 검증하는 절차는 아니다. 결과를 확인한 뒤 추가한 후보군·확장창·재선정 비교는 탐색적 민감도 분석이다.
+
+## 보완분석의 재적합 범위
+
+기본 실행의 `preserved_audit`는 OECD 원계열, 2024년 고정 모형과 통합지역의 보존 예측·모형·입력을 대조한다. 해당 보완모형 전체를 새로 재학습한 단계로 해석하지 않는다. 다음은 모형 적합까지 수행하는 선택 실행이다. 기존 출력과 다른 새 경로를 사용한다.
 
 ```bash
 python support/baseline/base_v11/original/analysis/run_analysis.py --input-root support/baseline/base_v11/original/raw --output-root rerun_original
@@ -24,27 +41,20 @@ python support/baseline/base_v11/extensions/analysis/run_extended_analysis.py --
 python support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py --package-root support/baseline/base_v11 --output-dir rerun_merged_region
 ```
 
-2024년 평가는 고정된 모형과 예측을 사용한다. `support/baseline/base_v11/extensions/temporal2024/analysis/`에 당시 설계, 예측 고정 코드와 후속 평가 코드를 포함하였다. 새 예측 고정 실행을 하려면 해당 폴더의 `freeze_design_before_new_outcomes.json`과 `.sha256`을 새 출력 폴더에 복사한 뒤 `freeze_predictions_2024.py --source-root support/baseline/base_v11/original --output-root <새 출력 폴더>`를 실행한다. 당시의 예측 고정 시점과 이후 재실행 시점을 구분하여 기록한다.
+2024년 평가는 고정된 모형·예측을 사용한다. `support/baseline/base_v11/extensions/temporal2024/analysis/`에 당시 설계, 예측 고정 코드와 후속 평가 코드를 보존하였다. 새 예측 고정 실행에는 해당 폴더의 `freeze_design_before_new_outcomes.json`과 `.sha256`을 새 출력 폴더에 복사한 뒤 `freeze_predictions_2024.py --source-root support/baseline/base_v11/original --output-root <새 출력 폴더>`를 사용한다. 당시 예측 고정 시점과 재실행 시점은 구분한다.
 
-## 현장평가 자료
+## 기술시험과 사용자 평가의 구분
 
-`field_study/`는 계획과 빈 양식이다. 다음 명령은 응답이 없다는 상태를 기록하며 효과크기를 만들어 내지 않는다.
+등록 근거 시험은 1,006개 합성 사례에 대한 기대 판정과 관측 판정의 일치를 확인한다. 공통 요건의 직접 구현과 Pandera는 7,590개 입력에서 판정이 일치하였고, 정상 1,518개를 수용하고 명세 결함 6,072개를 차단하였다. 참조자료까지 함께 변경한 별도 506개는 통과하였다. 선행 구현의 실패 기록은 `results/service_replay/` 및 `results/model_swap_replay/`에 유지하였다. 최종 구현의 성공으로 선행 구현의 실패를 소급하여 삭제하지 않는다.
+
+`field_study/protocol.md`는 8명·16과업·표/카드 2조건의 실시 계획이다. 과업·배정표·빈 응답양식, 로컬 수집 도구와 참여자별 비교 코드를 제공한다. 다음 명령은 관측이 없다는 상태만 기록하며 효과크기를 만들지 않는다.
 
 ```bash
 python code/analyze_field_study.py --responses field_study/responses_EMPTY.csv --out rerun_field_status
 ```
 
-실제 응답을 수집한 뒤에는 식별 가능한 개별 기록을 공개 저장소와 분리하여 관리한다.
+실제 수집자료는 공개 저장소 밖에 보관한다. 현장 모집·실시·분석은 완료하지 않았다.
 
-## 공통 요건 비교와 외부자료 적용의 검증
-- 외부계열 예측 234개를 별도 NumPy 행렬 계산으로 검산: 최대 절대차 4.6241e-14.
-- 직접 구현과 Pandera의 동일 정보 비교 7,590개 판정 일치.
-- 정상 1,518개 수용, 명세 결함 6,072개 차단, 별도 참조 동시 변경 506개 통과.
-- 단일행·일괄 처리 대조: 자료·유형 조합 30개 일치.
-- 초기 실행 이후 사용하지 않는 import와 import 순서를 정리한 뒤 다시 실행하였다. 입력·참조·예측·판정 8개 파일이 초기 실행과 바이트 단위에서 일치하였다 (`results/transfer_evaluation/maintenance_check.json`).
+## 공개본 정리
 
-실행환경 준비 중 기존 비교모형의 CatBoost 및 Narwhals 누락으로 실행이 중단된 기록이 있었으며 의존성을 설치한 뒤 9단계가 모두 완료되었다. 결과나 기대 판정을 변경하여 통과시킨 조치는 없다. 실제 사용자 관측을 생성하거나 대체하지 않았다. 추가 비교의 해석 범위는 `TRANSFER_EVALUATION.md`를 따른다.
-
-## 261027_v4 배포 정리
-
-최종 원고의 절 제목과 학술적 표현을 정리하고 표·그림 대응 안내를 갱신하였다. 분석 코드, 원자료, 표의 표시값, 예측값, 시험 판정과 연구의 해석 범위는 유지하였다. 이전 8단계 실행 요약 2개와 중복 생성 SVG 3개를 제거하고, 9단계 전체 실행 기록과 논문에 실제 삽입한 그림을 보존하였다. 파일 정리 후 전체 실행, CSV 157개 대조, 결과 점검 653개, 유지보수 테스트 6개 및 그림 재작성을 다시 확인하였다. 내부 버전명이 있는 비교 구현과 시험 입력은 현재 분석의 의존자료이므로 유지하였다.
+현재 파일에는 최종 재현자료 한 벌을 둔다. 이전 공개본의 중복 실행·대조 요약 2개는 제거하고 이번 검증 기록과 최신 결과 점검으로 통일하였다. 원고 편집 스크립트와 수정 전 원고, 편집·심사 보고서는 공개본에서 제외하였다. `support/`의 비교 구현과 고정 입력은 현재 9단계 실행에 필요한 의존자료로 유지하였다. 파일별 크기·SHA-256은 `manifest_sha256.json`에 기록하며, 파일 구성 변경 후 다시 검증한다. 과거 공개 내용은 Git 이력에 남는다.

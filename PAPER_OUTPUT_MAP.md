@@ -1,6 +1,6 @@
 # 최종 논문과 실행 결과의 대응
 
-기준 논문: 「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」, 2026-10-27 `261027_v4` 통합본.
+기준 논문: 「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」, 2026-10-28 검증·보완한 `261027_v4` 최종본.
 수록 표의 정확한 제목·번호·표시값은 `results/paper_tables/index.json`과 해당 CSV에서 확인한다.
 
 | 최종 논문 항목 | 원자료·코드·계산 결과 |
@@ -33,3 +33,5 @@
 기존 그림 생성기의 내부 번호는 유지하고 최종 논문 번호를 별도로 연결하였다. `code/redraw_figures.py`는 보존 수치에서 그림 4개를 다시 만든다. 재작성 결과는 `generated_figures/`에 저장되며, `paper_figure_*.png`와 구분한다. 저장소에는 논문에 삽입한 PNG와 재작성에 필요한 코드·입력·글꼴을 보존하였다.
 
 현장 참여자 자료는 0건이며, 합성 서비스 시험 1,006건을 독립적인 실제 사용자 관측으로 해석하지 않는다. 후보군별 모형 선택 결과와 과거 화면 예시도 각각의 설계·평가 조건에 따라 해석한다.
+
+2026-10-28 보완: 그림 1은 code/reviewability_figure.py에서 생성한다. 부록 F는 field_study/protocol.md, tasks.json, task_provenance.json, counterbalanced_assignment.csv 및 code/collect_field_study.py·pilot_analysis.py에 대응한다. 8명·16과업·두 표시조건의 계획이며 관측은 0건이다.

@@ -1,0 +1,83 @@
+{
+  "completed_utc": "2026-10-27T23:58:45.778177+00:00",
+  "base_forecasts": 506,
+  "cases_per_engine": 7590,
+  "engine_decisions": 30360,
+  "case_families": 15,
+  "matched_information_engine_agreement": 7590,
+  "native_unexpected": 0,
+  "pandera_registered_unexpected": 0,
+  "boundary_cases": 506,
+  "boundary_native_permitted": 506,
+  "boundary_pandera_permitted": 506,
+  "code_unchanged_during_fit_and_evaluation": true,
+  "human_participants": 0,
+  "independent_external_evaluation": false,
+  "interpretation": "Same-information comparison and cross-data technical transfer; not tool superiority or human effectiveness",
+  "summary": [
+    {
+      "dataset": "kosis_employment",
+      "engine": "json_schema",
+      "normal_n": 816,
+      "normal_accepted": 816,
+      "fault_n": 3264,
+      "fault_blocked": 272
+    },
+    {
+      "dataset": "kosis_employment",
+      "engine": "native_registered",
+      "normal_n": 816,
+      "normal_accepted": 816,
+      "fault_n": 3264,
+      "fault_blocked": 3264
+    },
+    {
+      "dataset": "kosis_employment",
+      "engine": "pandera_local",
+      "normal_n": 816,
+      "normal_accepted": 816,
+      "fault_n": 3264,
+      "fault_blocked": 1904
+    },
+    {
+      "dataset": "kosis_employment",
+      "engine": "pandera_registered",
+      "normal_n": 816,
+      "normal_accepted": 816,
+      "fault_n": 3264,
+      "fault_blocked": 3264
+    },
+    {
+      "dataset": "us_macrodata",
+      "engine": "json_schema",
+      "normal_n": 702,
+      "normal_accepted": 702,
+      "fault_n": 2808,
+      "fault_blocked": 234
+    },
+    {
+      "dataset": "us_macrodata",
+      "engine": "native_registered",
+      "normal_n": 702,
+      "normal_accepted": 702,
+      "fault_n": 2808,
+      "fault_blocked": 2808
+    },
+    {
+      "dataset": "us_macrodata",
+      "engine": "pandera_local",
+      "normal_n": 702,
+      "normal_accepted": 702,
+      "fault_n": 2808,
+      "fault_blocked": 1638
+    },
+    {
+      "dataset": "us_macrodata",
+      "engine": "pandera_registered",
+      "normal_n": 702,
+      "normal_accepted": 702,
+      "fault_n": 2808,
+      "fault_blocked": 2808
+    }
+  ]
+}

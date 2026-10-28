@@ -1,0 +1,18 @@
+test_assignment_balance (test_pilot.PilotTests.test_assignment_balance) ... ok
+test_display_values_equivalent_and_no_answer_labels (test_pilot.PilotTests.test_display_values_equivalent_and_no_answer_labels) ... ok
+test_empty_has_no_effects (test_pilot.PilotTests.test_empty_has_no_effects) ... ok
+test_numeric_source_binding (test_pilot.PilotTests.test_numeric_source_binding) ... ok
+test_pairing_without_pseudoreplication (test_pilot.PilotTests.test_pairing_without_pseudoreplication) ... ok
+test_reject_synthetic_and_nonfinite_records (test_pilot.PilotTests.test_reject_synthetic_and_nonfinite_records) ... ok
+test_manifest_detects_missing_corrupt_and_escaping_files (test_release_contracts.ReleaseContracts.test_manifest_detects_missing_corrupt_and_escaping_files) ... ok
+test_nonfinite_reference_is_rejected (test_release_contracts.ReleaseContracts.test_nonfinite_reference_is_rejected) ... ok
+test_registry_shapes_fail_closed (test_release_contracts.ReleaseContracts.test_registry_shapes_fail_closed) ... ok
+test_runner_preserves_existing_directory (test_release_contracts.ReleaseContracts.test_runner_preserves_existing_directory) ... ok
+test_runner_records_failed_stage (test_release_contracts.ReleaseContracts.test_runner_records_failed_stage) ... Running failed_stage
+ok
+test_valid_control_still_permitted (test_release_contracts.ReleaseContracts.test_valid_control_still_permitted) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.230s
+
+OK

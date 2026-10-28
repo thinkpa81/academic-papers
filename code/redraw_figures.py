@@ -344,64 +344,11 @@ def draw4():
 
 
 def draw1():
-    W, H = 147, 88
-    f, t, line, box = base(W, H)
-
-    def arrow(x1, y1, x2, y2, style="-"):
-        from matplotlib.patches import FancyArrowPatch
-
-        f.add_artist(
-            FancyArrowPatch(
-                (x1 / W, y1 / H),
-                (x2 / W, y2 / H),
-                transform=f.transFigure,
-                arrowstyle="-|>",
-                mutation_scale=8,
-                linewidth=0.7,
-                color=INK,
-                linestyle=style,
-            )
-        )
-
-    t(73.5, 85, "평가 결과에 따른 설계 개선", 9, "bold", ha="center")
-    cells = [
-        (3, 58, "1 자료 입력", "KOSIS 동일 상반기\n산업분류·고용자료"),
-        (53, 58, "2 자료 적격성 점검", "공표일·개정 이력·경계\n집계범위와 결측 확인"),
-        (103, 58, "3 검증과 모형 비교", "과거 검증성능에 따른\n기준·학습모형 선정"),
-        (103, 26, "4 예측근거 제시", "예측근거 카드\n권역·산업 비교표"),
-        (53, 26, "5 담당자 검토기록", "추가 확인자료·판단사유\n현재 근거와 기록 연결"),
-        (3, 26, "외부 검토 절차", "RSC 수요조사·기업자료\n기관의 적용·승인 판단"),
-    ]
-    for x, y, heading, body in cells:
-        box(x, y, 41, 20, face=LIGHT if heading[0].isdigit() else "white")
-        t(x + 20.5, y + 15, heading, 9, "bold", ha="center")
-        t(x + 20.5, y + 6.5, body, 8.4, ha="center")
-    for a in [
-        (44, 68, 53, 68),
-        (94, 68, 103, 68),
-        (123.5, 58, 123.5, 46),
-        (103, 36, 94, 36),
-        (44, 36, 53, 36),
-        (73.5, 26, 73.5, 17),
-        (123.5, 26, 123.5, 17),
-    ]:
-        arrow(*a, style="--" if a == (44, 36, 53, 36) else "-")
-    box(53, 3, 91, 14)
-    t(98.5, 13, "기술평가", 9, "bold", ha="center")
-    t(98.5, 7, "시점·수치·기록연결·등록 근거 대조", 8.3, ha="center")
-    # Feedback path connects the evaluation to eligibility specifications.
-    f.add_artist(
-        plt.Line2D(
-            [53 / W, 1 / W, 1 / W, 73.5 / W],
-            [10 / H, 10 / H, 81 / H, 81 / H],
-            transform=f.transFigure,
-            lw=0.7,
-            color=INK,
-        )
-    )
-    arrow(73.5, 81, 73.5, 78)
-    t(3, 20, "점선은 외부 업무 연계", 7.8, color=SLATE)
-    save(f, "figure1_final")
+    from reviewability_figure import draw
+    import shutil
+    draw(ROOT)
+    for extension in ["png", "pdf", "svg"]:
+        shutil.copyfile(ROOT / ("paper_figure_01." + extension), ROOT / ("figure1_final." + extension))
 
 
 def draw2():
