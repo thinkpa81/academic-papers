@@ -1,0 +1,248 @@
+{
+  "pages": 48,
+  "changed": [
+    14
+  ],
+  "records": [
+    {
+      "page": 1,
+      "sha256": "e1d23718fbe440aaea6c58566ddffad2b045a9cea09b873b8e21e4bd82f64ec5",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 2,
+      "sha256": "91ce7e91697ff611e4303f12c3f7cc7e7e627d6115828d26c95edf59bb3c1e9e",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 3,
+      "sha256": "d8dc6d3c024b1c19f8990a201d416bfd45262ce0603823187b65dc08500bea59",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 4,
+      "sha256": "4f2083fdcaeea69aff08b8039ce962a8335ab879b7814d0c8d0d490a97e64ce3",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 5,
+      "sha256": "38931617b2a5f7da60bf0ae41e618614ed0408ace830187e4df4b90118191b55",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 6,
+      "sha256": "5ce660f72730d8ed47ddb197ccfdab47758cb1c60235751b0c96b3b7cf062f14",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 7,
+      "sha256": "d4059db8bf03ed7188a16b216c2926a5488934690fb37d96160c5d8ae748e000",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 8,
+      "sha256": "ff2b6c902d25ccb7eaeb4cf3de5e81fcb815f9d8171f0610af09ca4d78d6fd04",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 9,
+      "sha256": "e15422996398265e54c4336997c9aaa9a840c18c1f1cd4cc40fafdd79708c9ca",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 10,
+      "sha256": "595d717588eca6adfd9dcd53fe0041b1319026726529bb1a0b309f0bd5d9c17e",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 11,
+      "sha256": "a32735f2072989cf6aa0e76515199e113fb1fbdd9b5c2911b47660166b9322ca",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 12,
+      "sha256": "59df0bf44c382f13a5f7864b7e709933c2edb74d276129d813e9c194b7d103f0",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 13,
+      "sha256": "0bfb181666e89f913ac7c254999f2c8c362701781bb01e0025a522f2856a6b53",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 14,
+      "sha256": "cded961d787e38659189f28658abdc366af8d133a2b4df02b2ba448c2d15a6a3",
+      "identical_to_visually_reviewed_page": false
+    },
+    {
+      "page": 15,
+      "sha256": "64172870793dd4dda223dfb9f1d23bae94732af5b9bc5340ca743005876a29a7",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 16,
+      "sha256": "b3e90fbd481fc52631f4dcf0f34ee1d090bbdc233b235442c5d085b3ecd9f0ad",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 17,
+      "sha256": "d943c14d1cdc64857efcc38d8e8df54e6fd8576d07c447c484079caf08c1fcd5",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 18,
+      "sha256": "5a07c4ea5e865d66244e5a7fdf1f5946042d79f529dbd34078ec58b44cb2d5c3",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 19,
+      "sha256": "e7a0fedfb68d9e64091946adeab8ba2910bbb620de5e374f8f81dab6306d0ead",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 20,
+      "sha256": "b3bd506f2cfde8d2b77c33bc776aa97939a28f99f83c523ad3b6a3d57e35745f",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 21,
+      "sha256": "22c34a755c852cf8dddf0e752f9915ae728f1b0b855e9d296b359fff25283e16",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 22,
+      "sha256": "9a2bc8c00b4706a808a5eec55a52380ae3ed568b7d029bc3e26de0b9cfcb5f21",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 23,
+      "sha256": "f449af361e860abd24f1ccf1b8cbe70f1c218472a56e39562f0d7e2ec43372a9",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 24,
+      "sha256": "358ecdadce6c29b0d1099d1e11cb0a4374542751b42e1e7e8724bc7209b61e34",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 25,
+      "sha256": "4e5c7ca20b04b47b5bab49f3853e375c72a7527662c3c6acec2b7887604e31fd",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 26,
+      "sha256": "2724c0f8407a2d209c34f70ec97319a6bcbb27d325bab51af2951e90ea98160a",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 27,
+      "sha256": "2b44006ab8aea63aeee4cf23fd88ccfa79d9322f05aa63eeda7425ca0dd40aa3",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 28,
+      "sha256": "0ccb1f7d6956aba233d8902f9421148ea2c7edfe2f664bb8bfac4f9c3daca4b3",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 29,
+      "sha256": "a696dbe1cdb164f739738a88aec20fdef835e124288bc795706b951d49d4294b",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 30,
+      "sha256": "62768101a6e4a758f3ebb57a978e0f0a90cd639416f809efc153b9812d2f0ef1",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 31,
+      "sha256": "756b1a2067661d692259fea410c19b4fada590d21cd6b1ae0d3b7c46c1338fc6",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 32,
+      "sha256": "5bb2812cc045ffb95e40f3c8d9c76a1d4fbe36eda7ef5d3c60f3b8c068951251",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 33,
+      "sha256": "afabede018f9e9a71772ce3dff47df308dacc5fc3820b740a02d366f05bdd4f8",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 34,
+      "sha256": "b9c80a650d4d4c0dda6023c65d48bcb830b2ba9d49934e52d79a2593a28efb4b",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 35,
+      "sha256": "94aa6f162ba7a62c37425dd8c7282bfced7e47fb0a7ec89787f927d64d3b2e2c",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 36,
+      "sha256": "079295dd7702493e985b3399abea4e1272cbd9550f8d5f415bd8bbb29f1729f5",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 37,
+      "sha256": "f1677f668ce89a9b76104303331780326f0f8381f21024f196de0dcbf5d9c842",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 38,
+      "sha256": "759690ff33c1bc4c4681cb3a034e5565bcc2a1ba6a300c0834a52ca94ea0c3e9",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 39,
+      "sha256": "5e2e89bbbd5a0a8fdddaa09641cd77236d8f09635e5a03431378433097b25ba7",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 40,
+      "sha256": "1f2a6d652ee5eeaf2482da27350f3a8664fc9e7f91bd4f365474abbb5eab86e1",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 41,
+      "sha256": "c9a2499cb2cecee7759d4af8ebd327a050bad4619dc892f6f108ef9efeef3eb6",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 42,
+      "sha256": "8f56dac8f6dfedc665a425af347d23cbaef6f0a4c34c39c8904b8d38c0fae83c",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 43,
+      "sha256": "47c81a4da1216195d6d03a6b607b71d06017a9b39c5f177edcb871583853a4f8",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 44,
+      "sha256": "240a3254565c21121e096a0d45d7433df6e94ec6623bb37f3487d11dc0673a1d",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 45,
+      "sha256": "51c53b4660eb94c4cb50c408562682c8bc87d2aff53b1b919a9815aee97c14f7",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 46,
+      "sha256": "8ffdc9c8f0b509a7f978a6238b6f9e5aaded653749af3348870ad5dfe4f2533b",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 47,
+      "sha256": "b3b75c24d8fc72c832f07dcad357a01531084ba07c1801b5c43ad8a0a02b5660",
+      "identical_to_visually_reviewed_page": true
+    },
+    {
+      "page": 48,
+      "sha256": "7055c68f74a25faddc7b77661f1a35e68e159afc1955304f630da4c52dec3408",
+      "identical_to_visually_reviewed_page": true
+    }
+  ]
+}

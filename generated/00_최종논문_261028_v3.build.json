@@ -1,0 +1,14 @@
+{
+  "release": "261028_v3",
+  "code_commit": "f4ae5299b2f4382f94e032804568bcd8554ca5fc",
+  "source_sha256": "9e10ce2aa63b6546212a7b32cae3937d178733f6b96649717bbd24219ee89713",
+  "paragraph_edits": 36,
+  "cell_edits": 1,
+  "native_equations_preserved": 19,
+  "tables": 25,
+  "figures": 4,
+  "ascii_dash_replacements": 171,
+  "font_substitution": "NanumMyeongjo",
+  "format": "DOCX, supplied HWP template geometry",
+  "sha256": "6d02406edb55d43bd1d77b81e44422332ac5c9cf2cd451771919064ca15367a9"
+}

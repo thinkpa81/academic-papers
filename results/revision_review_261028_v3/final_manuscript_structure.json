@@ -1,0 +1,1121 @@
+{
+  "manuscript": "00_최종논문_261028_v3.docx",
+  "sha256": "6d02406edb55d43bd1d77b81e44422332ac5c9cf2cd451771919064ca15367a9",
+  "checks": {
+    "references_1_through_61": true,
+    "no_dangling_citations": true,
+    "every_reference_used": true,
+    "short_ascii_minus_only": true,
+    "native_equations_19": true,
+    "tables_25": true,
+    "figures_4": true,
+    "template_geometry": true,
+    "author_metadata_empty": true,
+    "no_author_placeholder": true,
+    "verified_commit_cited_once": true,
+    "no_draft_commit_placeholder": true
+  },
+  "passed": true,
+  "reference_count": 61,
+  "citation_groups": 83,
+  "citation_instances": 130,
+  "dangling": [],
+  "uncited": [],
+  "non_ascii_minus": {},
+  "geometry": [
+    {
+      "section": 0,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 1,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 2,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 3,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 4,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 5,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 6,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 7,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 8,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 9,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 10,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 11,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 12,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 13,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 14,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 15,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 16,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 17,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 18,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 19,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 20,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 21,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 22,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 23,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 24,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 25,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 26,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 27,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 28,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 29,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 30,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 31,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 32,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 33,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 34,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 35,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 36,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    },
+    {
+      "section": 37,
+      "width": 190.0061,
+      "height": 262.0081,
+      "left_effective": 23.0011,
+      "right": 20.0025,
+      "top": 37.9942,
+      "bottom": 21.9957,
+      "pass": true
+    }
+  ],
+  "citation_locations": [
+    {
+      "paragraph": 15,
+      "citation": "[11]",
+      "references": [
+        11
+      ],
+      "context": "5극 3특 국가균형성장 전략은 지역의 산업기반과 인력양성 수요를 연결하는 공공서비스의 필요성을 제시한다[11]. 2026년 8월 26일 발표된 3대 메가프로젝트 연계 권역별 성장엔진 육성 방안은 수도"
+    },
+    {
+      "paragraph": 15,
+      "citation": "[8]",
+      "references": [
+        8
+      ],
+      "context": "장엔진을 제시하고, 인공지능(artificial intelligence, AI)을 모든 권역의 공통 산업 기반기술로 설정하였다[8]. 본 연구는 5극 3특에 따라 수도권을 포함한 8개 분석권역을 설정하였으며, 7개 비수도"
+    },
+    {
+      "paragraph": 16,
+      "citation": "[18,19]",
+      "references": [
+        18,
+        19
+      ],
+      "context": "개발위원회(Regional Skills Council, RSC)의 인력·훈련 수급조사 담당자를 잠재적 직접 이용자로 설정하였다[18,19]. 이들의 과업은 비교 가능한 자료에서 검토 대상을 선정하고 기업·직무별 수요조사에서 확인"
+    },
+    {
+      "paragraph": 19,
+      "citation": "[55]",
+      "references": [
+        55
+      ],
+      "context": "적용조건을 확인하고, 판단사유를 현재 근거에 연결하며, 근거 변경 후 재검토 대상을 식별할 수 있도록 하는 설계 특성을 뜻한다[55]. 이 기여를 뒷받침하기 위해 시간순 예측평가로 적용조건을 도출하고, 관계 검사와 등록 근"
+    },
+    {
+      "paragraph": 22,
+      "citation": "[37]",
+      "references": [
+        37
+      ],
+      "context": "지역고용 예측에서는 지역·산업 간 이질성과 시계열 의존성을 함께 고려해야 한다[37]. 정보시스템 연구에서 예측분석은 관측되지 않은 결과에 대한 예측력을 평가하고 기존 모형의"
+    },
+    {
+      "paragraph": 22,
+      "citation": "[54]",
+      "references": [
+        54
+      ],
+      "context": "템 연구에서 예측분석은 관측되지 않은 결과에 대한 예측력을 평가하고 기존 모형의 유용성을 점검하는 연구 접근으로 제시되어 왔다[54]. 이를 위해 시간순 자료분할과 미래 정보의 자료누설(data leakage) 방지를 적용"
+    },
+    {
+      "paragraph": 22,
+      "citation": "[24,35,46]",
+      "references": [
+        24,
+        35,
+        46
+      ],
+      "context": "구 접근으로 제시되어 왔다[54]. 이를 위해 시간순 자료분할과 미래 정보의 자료누설(data leakage) 방지를 적용하고[24,35,46], 동일한 기준모형과 평가조건에서 성능을 비교해야 한다[38]. 최근 변동을 연장하는 기준"
+    },
+    {
+      "paragraph": 22,
+      "citation": "[38]",
+      "references": [
+        38
+      ],
+      "context": "보의 자료누설(data leakage) 방지를 적용하고[24,35,46], 동일한 기준모형과 평가조건에서 성능을 비교해야 한다[38]. 최근 변동을 연장하는 기준과 상수항·자기회귀계수를 추정하는 1차 자기회귀모형(first"
+    },
+    {
+      "paragraph": 22,
+      "citation": "[7,9]",
+      "references": [
+        7,
+        9
+      ],
+      "context": "있다. 국내에서는 지방소멸 요인과 빈집 특성을 기계학습(machine learning, ML)으로 분석한 연구가 축적되고 있다[7,9]. 이러한 예측분석을 지역고용 검토업무에 적용할 때에는 모형의 평균 성능을 개별 지역·산업"
+    },
+    {
+      "paragraph": 23,
+      "citation": "[2]",
+      "references": [
+        2
+      ],
+      "context": "고용노동부·한국고용정보원의 중장기 전망은 국가·산업·직업별 수급 구조를 제시하며[2], 17개 시도의 지역 전망도 제공한다[10,16]. 확보한 지역 자료는 7개 산업군의 2"
+    },
+    {
+      "paragraph": 23,
+      "citation": "[10,16]",
+      "references": [
+        10,
+        16
+      ],
+      "context": "고용노동부·한국고용정보원의 중장기 전망은 국가·산업·직업별 수급 구조를 제시하며[2], 17개 시도의 지역 전망도 제공한다[10,16]. 확보한 지역 자료는 7개 산업군의 2013~2022년 실적과 2027년·2032년 전망"
+    },
+    {
+      "paragraph": 24,
+      "citation": "[8,11,18,19]",
+      "references": [
+        8,
+        11,
+        18,
+        19
+      ],
+      "context": "5극 3특의 권역별 성장엔진 구상과 지역 인력·훈련 수급조사 업무[8,11,18,19]를 연결하는 과정에서는 산업분류, 구성 시도 및 목표시점이 서로 다른 통계를 함께 검토하게"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[39]",
+      "references": [
+        39
+      ],
+      "context": "모형 설명서(Model Cards)는 모형의 용도와 집단·조건별 성능을[39], 데이터 설명서(Datasheets for Datasets)는 자료의 구성·수집·관리 과"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[29]",
+      "references": [
+        29
+      ],
+      "context": "용도와 집단·조건별 성능을[39], 데이터 설명서(Datasheets for Datasets)는 자료의 구성·수집·관리 과정을[29], 서비스 명세서(FactSheets)는 AI 서비스의 성능·안전성·출처를 문서화한다[20"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[20]",
+      "references": [
+        20
+      ],
+      "context": ")는 자료의 구성·수집·관리 과정을[29], 서비스 명세서(FactSheets)는 AI 서비스의 성능·안전성·출처를 문서화한다[20]. 내부 알고리즘 감사는 개발 전 과정의 판단과 근거를 조직 차원에서 검토하는 체계를 제시"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[45]",
+      "references": [
+        45
+      ],
+      "context": "·안전성·출처를 문서화한다[20]. 내부 알고리즘 감사는 개발 전 과정의 판단과 근거를 조직 차원에서 검토하는 체계를 제시한다[45]. 검토 가능성(reviewability) 연구는 개별 결정 전후의 기술적·조직적 절차와 "
+    },
+    {
+      "paragraph": 26,
+      "citation": "[55]",
+      "references": [
+        55
+      ],
+      "context": "다[45]. 검토 가능성(reviewability) 연구는 개별 결정 전후의 기술적·조직적 절차와 맥락에 맞는 기록을 연결한다[55]. 자료출처 이력(provenance, PROV) 표준은 자료·활동·책임 주체의 관계와 생"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[56]",
+      "references": [
+        56
+      ],
+      "context": "결한다[55]. 자료출처 이력(provenance, PROV) 표준은 자료·활동·책임 주체의 관계와 생성·사용 이력을 표현하며[56], 이력의 일관성을 확인하는 제약조건도 제시한다[57]. 따라서 기록의 연결과 일관성 확인"
+    },
+    {
+      "paragraph": 26,
+      "citation": "[57]",
+      "references": [
+        57
+      ],
+      "context": "ROV) 표준은 자료·활동·책임 주체의 관계와 생성·사용 이력을 표현하며[56], 이력의 일관성을 확인하는 제약조건도 제시한다[57]. 따라서 기록의 연결과 일관성 확인은 기존 연구와 표준에서 확립된 설계 기반으로 보아야 "
+    },
+    {
+      "paragraph": 27,
+      "citation": "[58]",
+      "references": [
+        58
+      ],
+      "context": "자료 검증 연구는 이용 목적에 필요한 요건을 명시하고, 요건의 판정에 요구되는 변수·개체·외부자료의 범위를 구분한다[58]. Pandera는 사용자가 작성한 열 간 관계와 데이터프레임 단위의 검사를 실행할 수 있"
+    },
+    {
+      "paragraph": 27,
+      "citation": "[59]",
+      "references": [
+        59
+      ],
+      "context": "·외부자료의 범위를 구분한다[58]. Pandera는 사용자가 작성한 열 간 관계와 데이터프레임 단위의 검사를 실행할 수 있다[59]. 이에 본 연구는 기존 검증 도구에도 동일한 업무 요건을 구현하여 비교하였다. 형식 검사"
+    },
+    {
+      "paragraph": 33,
+      "citation": "[38,54]",
+      "references": [
+        38,
+        54
+      ],
+      "context": "예측분석·성능 비교[38,54]"
+    },
+    {
+      "paragraph": 36,
+      "citation": "[20,29,39]",
+      "references": [
+        20,
+        29,
+        39
+      ],
+      "context": "Model Cards·Datasheets·FactSheets[20,29,39]"
+    },
+    {
+      "paragraph": 39,
+      "citation": "[45]",
+      "references": [
+        45
+      ],
+      "context": "내부 알고리즘 감사[45]"
+    },
+    {
+      "paragraph": 42,
+      "citation": "[55]",
+      "references": [
+        55
+      ],
+      "context": "검토 가능성[55]"
+    },
+    {
+      "paragraph": 45,
+      "citation": "[56,57]",
+      "references": [
+        56,
+        57
+      ],
+      "context": "PROV 자료출처 표준[56,57]"
+    },
+    {
+      "paragraph": 48,
+      "citation": "[30,53]",
+      "references": [
+        30,
+        53
+      ],
+      "context": "설계과학의 지식 기여[30,53]"
+    },
+    {
+      "paragraph": 51,
+      "citation": "[22]",
+      "references": [
+        22
+      ],
+      "context": "인지적 숙고 유도[22]"
+    },
+    {
+      "paragraph": 54,
+      "citation": "[58,59]",
+      "references": [
+        58,
+        59
+      ],
+      "context": "자료 검증·Pandera[58,59]"
+    },
+    {
+      "paragraph": 60,
+      "citation": "[22]",
+      "references": [
+        22
+      ],
+      "context": "사용자가 AI 결과를 비교·검토하도록 유도하는 설계 논의[22]를 반영하여 기준모형과 학습모형의 예측값 및 과거 검증성능을 같은 화면에 제시하였다. 기준"
+    },
+    {
+      "paragraph": 62,
+      "citation": "[31,44]",
+      "references": [
+        31,
+        44
+      ],
+      "context": "문제를 해결하는 산출물을 설계·평가하는 설계과학 연구(design science research, DSR)의 관점을 적용하였다[31,44]. 산출물은 예측근거 카드, 권역-산업 비교표 및 현재 근거에 연결된 검토기록이고, 이를 "
+    },
+    {
+      "paragraph": 62,
+      "citation": "[53]",
+      "references": [
+        53
+      ],
+      "context": "근거 카드, 권역-산업 비교표 및 현재 근거에 연결된 검토기록이고, 이를 묶는 검토 완료 요건을 설계 지식의 단위로 설정하였다[53]. 설계원칙(design principle, DP)의 목표·맥락·작동방식·근거를 명세하는 "
+    },
+    {
+      "paragraph": 62,
+      "citation": "[30]",
+      "references": [
+        30
+      ],
+      "context": " 지식의 단위로 설정하였다[53]. 설계원칙(design principle, DP)의 목표·맥락·작동방식·근거를 명세하는 접근[30]에 따라 업무 과업, 구현 기능과 평가항목을 대응시켰다. 인공적·형성적 평가는 명세한 관계"
+    },
+    {
+      "paragraph": 62,
+      "citation": "[49]",
+      "references": [
+        49
+      ],
+      "context": "을 대응시켰다. 인공적·형성적 평가는 명세한 관계의 작동을, 후속 현장평가는 담당자 판단과 업무 유용성을 검토하도록 구분하였다[49]."
+    },
+    {
+      "paragraph": 63,
+      "citation": "[43]",
+      "references": [
+        43
+      ],
+      "context": "자동화 편향[43], 공표 당시 자료와 개정자료의 차이[25], 공공부문 알고리즘의 책임성[23]을 모형 비"
+    },
+    {
+      "paragraph": 63,
+      "citation": "[25]",
+      "references": [
+        25
+      ],
+      "context": "자동화 편향[43], 공표 당시 자료와 개정자료의 차이[25], 공공부문 알고리즘의 책임성[23]을 모형 비교·자료 점검·담당자 검토 기능의 근거로 삼"
+    },
+    {
+      "paragraph": 63,
+      "citation": "[23]",
+      "references": [
+        23
+      ],
+      "context": "자동화 편향[43], 공표 당시 자료와 개정자료의 차이[25], 공공부문 알고리즘의 책임성[23]을 모형 비교·자료 점검·담당자 검토 기능의 근거로 삼았다. 평가 범위는 개정자료를 이용한"
+    },
+    {
+      "paragraph": 72,
+      "citation": "[22,43,54]",
+      "references": [
+        22,
+        43,
+        54
+      ],
+      "context": "예측력 평가, 자동화 편향 및 인지적 숙고 유도[22,43,54]"
+    },
+    {
+      "paragraph": 76,
+      "citation": "[25,29]",
+      "references": [
+        25,
+        29
+      ],
+      "context": "공표 당시 자료와 개정자료의 구분 및 자료 문서화[25,29]"
+    },
+    {
+      "paragraph": 80,
+      "citation": "[20,39,40]",
+      "references": [
+        20,
+        39,
+        40
+      ],
+      "context": "모형·서비스 문서화 및 예측결과의 설명 범위[20,39,40]"
+    },
+    {
+      "paragraph": 84,
+      "citation": "[23,45,55-57]",
+      "references": [
+        23,
+        45,
+        55,
+        56,
+        57
+      ],
+      "context": "공공부문 책임성, 내부 감사·검토 가능성, 출처 일관성[23,45,55-57]"
+    },
+    {
+      "paragraph": 87,
+      "citation": "[49]",
+      "references": [
+        49
+      ],
+      "context": "기능은 통제된 환경에서 개선점을 확인하는 인공적·형성적 평가(artificial and formative evaluation)[49]로 점검하였다."
+    },
+    {
+      "paragraph": 98,
+      "citation": "[4,5]",
+      "references": [
+        4,
+        5
+      ],
+      "context": "석에는 KOSIS의 시도/산업별 취업자(통계표 식별자: DT_1ES3B05J) 중 2013~2025년 상반기 자료를 사용하였다[4,5]. 제11차 한국표준산업분류(Korean Standard Industrial Classif"
+    },
+    {
+      "paragraph": 98,
+      "citation": "[5]",
+      "references": [
+        5
+      ],
+      "context": "였다. 확보본의 통계표 주석은 제11차 분류의 2013년 상반기 이후 소급반영을 명시하며, 분석에는 해당 개정계열을 사용하였다[5]."
+    },
+    {
+      "paragraph": 100,
+      "citation": "[13,14]",
+      "references": [
+        13,
+        14
+      ],
+      "context": "위군의 대구 편입을 고려하여 2023년 상반기와 2024년 상반기 간 전환을 포함하는 대구·경북 관측치를 보수적으로 제외하였다[13,14]. 충남은 확보한 개정계열에서 세종시 값이 처음 제공되는 2017년을 경계 점검 대상으로 "
+    },
+    {
+      "paragraph": 100,
+      "citation": "[3,5]",
+      "references": [
+        3,
+        5
+      ],
+      "context": "하였다. 2016~2017년 상반기 간 지역경계의 연속성이 미확인 상태인 점을 고려하여 해당 전환과 관련된 관측치를 제외하였다[3,5]. 경제활동인구조사의 충남·세종 분리 공표 이력[12]은 별도 통계에 관한 참고자료로 활용"
+    },
+    {
+      "paragraph": 100,
+      "citation": "[12]",
+      "references": [
+        12
+      ],
+      "context": "이 미확인 상태인 점을 고려하여 해당 전환과 관련된 관측치를 제외하였다[3,5]. 경제활동인구조사의 충남·세종 분리 공표 이력[12]은 별도 통계에 관한 참고자료로 활용하였다."
+    },
+    {
+      "paragraph": 102,
+      "citation": "[41,42]",
+      "references": [
+        41,
+        42
+      ],
+      "context": "계열 보완분석에는 2008~2023년 한국의 제3수준 지역(territorial level 3, TL3) 고용자료를 사용하였다[41,42]. KOSIS와 대조한 결과 2022년 값은 하반기, 2023년 값은 상반기 수치와 일치하"
+    },
+    {
+      "paragraph": 105,
+      "citation": "[15]",
+      "references": [
+        15
+      ],
+      "context": "2013~2025년 상반기 산업·직업 특성 보도자료 13건의 공표월은 모두 10월이었다[15]. 관측시점은 고용상황을 조사한 시점, 공표시점은 통계가 공개된 시점, 확보시점은 연구자가"
+    },
+    {
+      "paragraph": 106,
+      "citation": "[4,5]",
+      "references": [
+        4,
+        5
+      ],
+      "context": "확보한 자료는 제11차 산업분류를 소급 적용한 2013~2024년 상반기 계열이다[4,5]. 2025년 상반기 보도자료에 제시된 당시 소급 범위는 2017~2024년이며, 신분류 "
+    },
+    {
+      "paragraph": 106,
+      "citation": "[3]",
+      "references": [
+        3
+      ],
+      "context": "5년 상반기 보도자료에 제시된 당시 소급 범위는 2017~2024년이며, 신분류 결과의 공표는 2024년 하반기부터 이루어졌다[3]. 자료 작성방식의 연결 구간에 대한 민감도를 확인하기 위해 2025년을 제외한 결과를 추"
+    },
+    {
+      "paragraph": 112,
+      "citation": "[32]",
+      "references": [
+        32
+      ],
+      "context": "근 변동 지속은 직전 변동을 그대로 적용한다. 학습모형은 계수의 크기를 규제하는 릿지 회귀모형(ridge regression)[32], 여러 나무의 예측을 결합하는 랜덤포레스트(random forest, RF)[21], 입"
+    },
+    {
+      "paragraph": 112,
+      "citation": "[21]",
+      "references": [
+        21
+      ],
+      "context": " 회귀모형(ridge regression)[32], 여러 나무의 예측을 결합하는 랜덤포레스트(random forest, RF)[21], 입력을 구간화하여 나무를 순차적으로 적합하는 히스토그램 기반 그래디언트 부스팅(hist"
+    },
+    {
+      "paragraph": 112,
+      "citation": "[28,47]",
+      "references": [
+        28,
+        47
+      ],
+      "context": " 순차적으로 적합하는 히스토그램 기반 그래디언트 부스팅(histogram-based gradient boosting, HGB)[28,47] 및 큰 잔차의 영향을 완화하는 후버 회귀모형(Huber regression)[33,48]"
+    },
+    {
+      "paragraph": 112,
+      "citation": "[33,48]",
+      "references": [
+        33,
+        48
+      ],
+      "context": "dient boosting, HGB)[28,47] 및 큰 잔차의 영향을 완화하는 후버 회귀모형(Huber regression)[33,48]이다. HGB와 후버는 scikit-learn의 해당 회귀 알고리즘으로 구현하였다[47,4"
+    },
+    {
+      "paragraph": 112,
+      "citation": "[47,48]",
+      "references": [
+        47,
+        48
+      ],
+      "context": "(Huber regression)[33,48]이다. HGB와 후버는 scikit-learn의 해당 회귀 알고리즘으로 구현하였다[47,48]."
+    },
+    {
+      "paragraph": 116,
+      "citation": "[50,51,52]",
+      "references": [
+        50,
+        51,
+        52
+      ],
+      "context": "ting Machine, LightGBM)을 각각 4개씩 더한 32개, 여기에 AR(1) 계열 6개를 더한 38개를 포함하였다[50,51,52]. 고정분할과 학습기간 확장 방식(expanding-window evaluation)의 시"
+    },
+    {
+      "paragraph": 123,
+      "citation": "[26]",
+      "references": [
+        26
+      ],
+      "context": "예측오차 비교에서는 손실함수와 오차의 의존구조를 고려하였다[26]. 최초 릿지-선정 기준모형의 MAE 차이는 시도별 산업·연도 관측을 함께 복원추출하는 군"
+    },
+    {
+      "paragraph": 130,
+      "citation": "[24,46]",
+      "references": [
+        24,
+        46
+      ],
+      "context": "00회 부트스트랩으로 전략 간 차이 구간을 산출하였다. 평가는 기존 결과를 알고 수행한 현재 개정자료의 시간적 민감도 분석이다[24,46]."
+    },
+    {
+      "paragraph": 132,
+      "citation": "[5]",
+      "references": [
+        5
+      ],
+      "context": "류의 상대표준오차(relative standard error, RSE) 25% 이상 표시를 입력·목표연도에 연결하여 층화하였다[5]. 결과값에 따른 제외와 구성산업 정밀도 표시는 진단 기준으로 사용하였으며, 전체 조건과 "
+    },
+    {
+      "paragraph": 143,
+      "citation": "[40]",
+      "references": [
+        40
+      ],
+      "context": "형변수는 표준화한 값, 범주형변수는 원핫 인코딩 값에 회귀계수를 곱하였다. 각 항은 적합된 모형 내부의 예측 기여도를 나타낸다[40]. 관측자료의 예측관계와 인과효과는 구분하여 해석하였다."
+    },
+    {
+      "paragraph": 152,
+      "citation": "[49]",
+      "references": [
+        49
+      ],
+      "context": "수정 후 동일 입력과 기존 시험을 재실행하여 회귀 여부를 확인하였다. 입력·기대결과·구현 버전·출력을 보존한 내부 형성평가이다[49]."
+    },
+    {
+      "paragraph": 157,
+      "citation": "[59,60]",
+      "references": [
+        59,
+        60
+      ],
+      "context": "·참조자료를 제공하고, jsonschema 4.25.1의 형식 검사와 참조 대조를 제외한 Pandera 조건을 함께 평가하였다[59,60]."
+    },
+    {
+      "paragraph": 158,
+      "citation": "[61]",
+      "references": [
+        61
+      ],
+      "context": " real GDP; 변수명 realgdp), 실질 개인소비지출(realcons), 실질 민간국내총투자(realinv) 계열이다[61]. 1959년 1분기~2009년 3분기의 203개 분기에서 전분기 대비 로그변화율을 계산하"
+    },
+    {
+      "paragraph": 265,
+      "citation": "[34]",
+      "references": [
+        34
+      ],
+      "context": " 제외한 조건에서는 두 모형의 MAE 차이가 매우 작게 나타났다. 예측오차 지표는 업무목적과 자료의 특성에 맞게 선택해야 한다[34]. 이에 본 연구에서는 큰 오차와 고용규모 가중 오차를 함께 검토하였다."
+    },
+    {
+      "paragraph": 334,
+      "citation": "[27]",
+      "references": [
+        27
+      ],
+      "context": "않고 시도·산업별 절편 편차에 L₂ 규제를 적용한다. 직접추정량과 그 표본분산을 이용하는 Fay-Herriot 소지역 추정모형[27]과는 입력정보와 추정 목적이 다르다."
+    },
+    {
+      "paragraph": 477,
+      "citation": "[3,5]",
+      "references": [
+        3,
+        5
+      ],
+      "context": "25년 상반기 388.9천 명으로 감소하였으며, 제조업(C)의 513.9천 명에서 368.6천 명으로의 감소가 주로 반영되었다[3,5]. 같은 조회본에서 제조업은 2025년 하반기 407.4천 명으로 일부 회복하였다. 반기별"
+    },
+    {
+      "paragraph": 722,
+      "citation": "[54]",
+      "references": [
+        54
+      ],
+      "context": "설명은 관측된 예측관계에 대한 가설적 해석으로 제시하였다. 예측의 유용성은 관측되지 않은 결과에 대한 성능으로 평가한다는 접근[54]에 따라, 모형 계수의 해석과 시간순 예측평가를 구분하였다."
+    },
+    {
+      "paragraph": 724,
+      "citation": "[20,29,39]",
+      "references": [
+        20,
+        29,
+        39
+      ],
+      "context": "과 동일한 예측값을 표시하더라도 근거 판본이나 검토기록의 연결이 달라지면 서로 다른 검토 상태를 부여할 수 있다. 이는 문서화[20,29,39], 검토 가능성[45,55], 출처 일관성과 자료 검증[56-58]의 원리를 지역고용 업무"
+    },
+    {
+      "paragraph": 724,
+      "citation": "[45,55]",
+      "references": [
+        45,
+        55
+      ],
+      "context": "근거 판본이나 검토기록의 연결이 달라지면 서로 다른 검토 상태를 부여할 수 있다. 이는 문서화[20,29,39], 검토 가능성[45,55], 출처 일관성과 자료 검증[56-58]의 원리를 지역고용 업무의 과업·입력·판정·기록 관"
+    },
+    {
+      "paragraph": 724,
+      "citation": "[56-58]",
+      "references": [
+        56,
+        57,
+        58
+      ],
+      "context": " 서로 다른 검토 상태를 부여할 수 있다. 이는 문서화[20,29,39], 검토 가능성[45,55], 출처 일관성과 자료 검증[56-58]의 원리를 지역고용 업무의 과업·입력·판정·기록 관계로 구체화한 적용 지식이다."
+    },
+    {
+      "paragraph": 726,
+      "citation": "[30,53]",
+      "references": [
+        30,
+        53
+      ],
+      "context": " 조건을 구체화하였다. 설계 기여는 이러한 업무별 명세, 분리 가능한 공통 요건, 적용 결과와 한계의 결합에서 평가할 수 있다[30,53]."
+    },
+    {
+      "paragraph": 728,
+      "citation": "[18,19]",
+      "references": [
+        18,
+        19
+      ],
+      "context": "하도록 설계하였다. 전국 17개 지역인적자원개발위원회의 인력·훈련 수급조사, 인력양성계획 및 공동훈련센터를 통한 훈련공급 업무[18,19]에 적용하려면 8개 분석권역의 결과를 시도-산업별 기초자료와 담당 조직에 연결해야 한다."
+    },
+    {
+      "paragraph": 730,
+      "citation": "[1]",
+      "references": [
+        1
+      ],
+      "context": "력부족은 측정 개념이 다르다. 2026년 상반기 직종별사업체노동력조사에서 제조업 부족인원은 4월 1일 기준 9만 6천 명이었다[1]. 이는 당시 사업체가 정상적인 경영·생산활동에 추가로 필요하다고 응답한 인원으로, 과거 "
+    },
+    {
+      "paragraph": 730,
+      "citation": "[13,14]",
+      "references": [
+        13,
+        14
+      ],
+      "context": "업·공공행정 등을 제외하며 2025년 이후 값은 잠정치이다. 취업자의 지역 귀속과 사업장 소재지·통근권의 차이도 검토해야 한다[13,14]. 고용보험 피보험자·취득·상실 자료[17]는 사업장 소재지와 보험 적용범위에 따른 통계이"
+    },
+    {
+      "paragraph": 730,
+      "citation": "[17]",
+      "references": [
+        17
+      ],
+      "context": "잠정치이다. 취업자의 지역 귀속과 사업장 소재지·통근권의 차이도 검토해야 한다[13,14]. 고용보험 피보험자·취득·상실 자료[17]는 사업장 소재지와 보험 적용범위에 따른 통계이므로 시점·지역경계·산업분류·모집단의 비교 "
+    },
+    {
+      "paragraph": 733,
+      "citation": "[56,57]",
+      "references": [
+        56,
+        57
+      ],
+      "context": "자료출처와 활동·책임 주체의 관계를 기록하는 PROV의 접근[56,57]을 바탕으로, 본 연구는 기관 정보시스템에서 시도·산업·예측시점을 공통 식별자로 사용하여 "
+    },
+    {
+      "paragraph": 815,
+      "citation": "[41,42]",
+      "references": [
+        41,
+        42
+      ],
+      "context": "statistics - Regions에서 한국의 제3수준 지역(territorial level 3, TL3) 자료를 사용하였다[41,42]. 취업자 수 자료는 2008~2023년을 포함하며, 최종 표본은 2,120개 관측치이다."
+    },
+    {
+      "paragraph": 815,
+      "citation": "[6]",
+      "references": [
+        6
+      ],
+      "context": "20년 490개, 평가자료는 2021~2023년 510개로 구분하였다. 구분류 기준의 KOSIS 통계표(DT_1ES3B05S)[6]와 대조한 결과, OECD의 2022년 값은 KOSIS의 2022년 하반기 값과, 2023"
+    },
+    {
+      "paragraph": 818,
+      "citation": "[36]",
+      "references": [
+        36
+      ],
+      "context": ", RF, 하이퍼파라미터를 고정한 후버 회귀모형 및 중앙값 회귀모형(median regression; 분위수 수준 q=0.5)[36]을 기준모형과 비교하였다. 전체 성능은 연도별 성능지표에 동일한 가중치를 부여하여 평균하였"
+    },
+    {
+      "paragraph": 1166,
+      "citation": "[61]",
+      "references": [
+        61
+      ],
+      "context": "계국(Bureau of Labor Statistics, BLS)의 자료에 2009년 12월 15일 접근한 것으로 기재되어 있다[61]. 본 연구에서 사용한 realgdp, realcons, realinv는 각각 실질 국내총"
+    },
+    {
+      "paragraph": 1171,
+      "citation": "[60]",
+      "references": [
+        60
+      ],
+      "context": "스키마 검사와 비유한 수치를 허용하지 않는 JSON 직렬화 검사를 결합하여 필수 항목·자료형·수치 범위·해시 형식을 확인하였다[60]. Pandera 내부 관계 조건은 여기에 기간·단위·적격성, 편차와 기여도 합계, 검증요"
+    },
+    {
+      "paragraph": 1171,
+      "citation": "[59]",
+      "references": [
+        59
+      ],
+      "context": ", 요청 식별키 및 기록 해시의 관계를 추가하였다. 등록 대조 조건은 호출자가 관리하는 현재 판본과 참조값의 일치를 추가하였다[59]. 직접 구현에도 같은 요건·참조정보를 제공하였다. Pandera에는 원시 값과 산술 피연"
+    }
+  ],
+  "scope": "Structural/number matching only; substantive source checks and rendered page QA are separate."
+}

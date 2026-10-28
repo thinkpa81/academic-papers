@@ -1,0 +1,8 @@
+{
+  "release": "261028_v3",
+  "repository": "https://github.com/thinkpa81/academic-papers",
+  "code_commit": "f4ae5299b2f4382f94e032804568bcd8554ca5fc",
+  "code_tree": "2fe86a17f0d85b6d77bf02eddf31577be83bc8fe",
+  "code_commit_url": "https://github.com/thinkpa81/academic-papers/commit/f4ae5299b2f4382f94e032804568bcd8554ca5fc",
+  "purpose": "Verified reproducibility code/data/figures/specs; final manuscripts are bound to this immutable commit in a subsequent publication commit."
+}

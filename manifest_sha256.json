@@ -10,6 +10,11 @@
     "sha256": "3bdbb2aa00b6b82b376e7a58a98f7b2c25196011c761583aeca18344d4fce983"
   },
   {
+    "path": "CODE_RELEASE.json",
+    "bytes": 485,
+    "sha256": "a316be48a9179201ec8356d0ceea447bcb5c25eb2db4ecee5ebdea549229346c"
+  },
+  {
     "path": "DATA_SOURCES.md",
     "bytes": 7890,
     "sha256": "c1a7dddab282facfe6275f799eb46524534a21d3b96b0e1209c68b5e6dd8fc66"
@@ -36,8 +41,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6028,
-    "sha256": "77456335d60d212ba8224f5b6e2ec2aee56e7a0334f708346a2377fd3dcddf05"
+    "bytes": 6040,
+    "sha256": "a0a464d2b21a16016c3c6eb26ecbb3a285c859437f6fcb3bac129e0bfa4252fe"
   },
   {
     "path": "REPRODUCIBILITY.md",
@@ -363,6 +368,26 @@
     "path": "generated/00_최종논문_261028_v2.docx",
     "bytes": 1910457,
     "sha256": "9e10ce2aa63b6546212a7b32cae3937d178733f6b96649717bbd24219ee89713"
+  },
+  {
+    "path": "generated/00_최종논문_261028_v3.build.json",
+    "bytes": 495,
+    "sha256": "a2febc113edabd92ca5413bdf3ff77d01c2c2ff3513c9baa5ff00cfaf6be87ec"
+  },
+  {
+    "path": "generated/00_최종논문_261028_v3.docx",
+    "bytes": 1931337,
+    "sha256": "6d02406edb55d43bd1d77b81e44422332ac5c9cf2cd451771919064ca15367a9"
+  },
+  {
+    "path": "generated/01_최종논문_261028_v3_수정부분_빨간색.docx",
+    "bytes": 1933909,
+    "sha256": "2048fd4539cda86ee9fd4bd383a3d4c056ba1bd07b76f8dc3aca0328e8f029fb"
+  },
+  {
+    "path": "generated/01_최종논문_261028_v3_수정부분_빨간색.redline.json",
+    "bytes": 10686,
+    "sha256": "c9a4494deefdb134c01596a65995e578e8bdb0d067ec3d3d0843f88fc54ea9bd"
   },
   {
     "path": "pyproject.toml",
@@ -2285,9 +2310,14 @@
     "sha256": "4aad685f6c8c81cca7aac3b99c947cd4cf396b2052320dcc4076e39d26ea73fa"
   },
   {
+    "path": "results/revision_review_261028_v3/FINAL_DELIVERY_QA.json",
+    "bytes": 1491,
+    "sha256": "44cce92a3e05421ce62be0d329b11ef92242e612efbb1c1632b63be674d67a6a"
+  },
+  {
     "path": "results/revision_review_261028_v3/FINAL_REVIEW.md",
-    "bytes": 7582,
-    "sha256": "1eaeb9b7570d1955e5fcb317bea28f105101d831446b40a8429460db4f06c1e4"
+    "bytes": 7967,
+    "sha256": "17ed4d35547029d4050b8d3eddfe502931bf68aec475fe0006021922a5e302aa"
   },
   {
     "path": "results/revision_review_261028_v3/REFERENCE_REVIEW.md",
@@ -2296,8 +2326,8 @@
   },
   {
     "path": "results/revision_review_261028_v3/abbreviation_final_qa.json",
-    "bytes": 25340,
-    "sha256": "9a12000828da9351592c718312aac4ef0f3117a4589676b5a6c6a9bb2fad6698"
+    "bytes": 25916,
+    "sha256": "2ba75bba2f90d6a5773b6be72f5c736b4504c719533e64e973987e1e3532640a"
   },
   {
     "path": "results/revision_review_261028_v3/abbreviation_prose_review.json",
@@ -2313,6 +2343,21 @@
     "path": "results/revision_review_261028_v3/figures_v3.json",
     "bytes": 52260,
     "sha256": "35e973575e435777241fdf72d14922e796b17d2998158ba23c4ba4bdd37acb52"
+  },
+  {
+    "path": "results/revision_review_261028_v3/final_clean_render_compare.json",
+    "bytes": 7975,
+    "sha256": "db25ef9c2c06d0290ba0f396a41ea58e3a40b66703ef647ddb5f1becc47b86b0"
+  },
+  {
+    "path": "results/revision_review_261028_v3/final_manuscript_structure.json",
+    "bytes": 37271,
+    "sha256": "3e571505f45b80eec657a791e3dd47a039c1c739f4b03b428c32efaf43a0d760"
+  },
+  {
+    "path": "results/revision_review_261028_v3/final_redline_render_compare.json",
+    "bytes": 7975,
+    "sha256": "be8254a1dbddbd81a1f7606cc2a911ca7de4ee5989bf8e980d7b1b5e87777ebd"
   },
   {
     "path": "results/revision_review_261028_v3/metadata_anonymization.json",
@@ -2346,8 +2391,8 @@
   },
   {
     "path": "results/revision_review_261028_v3/redline_independent_text_qa.json",
-    "bytes": 708,
-    "sha256": "904e7f9d7867908192cf75b19e2683ccadfda13747e6cd000b67ce463c74fe25"
+    "bytes": 796,
+    "sha256": "4fa48c2c393caeb0e3f1b63e04d4f8fe68bb19d24cb907afe42ac15c7ada5917"
   },
   {
     "path": "results/revision_review_261028_v3/reference_a_metadata/crossref_summary.json",
@@ -2692,7 +2737,7 @@
   {
     "path": "results/revision_verification_261028_v3/final_manuscript_table_audit.json",
     "bytes": 33347,
-    "sha256": "91e738ecf7058b3d9fcc10707d0705bb90a06d90ee6ea7c815fb9a2a3daecf53"
+    "sha256": "d8bb0429f9d6ce7a751c961368e93ad4bc42c48a05f5f98e70439363a1fdb4a9"
   },
   {
     "path": "results/revision_verification_261028_v3/independent_audit.json",

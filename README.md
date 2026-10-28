@@ -58,12 +58,12 @@ python code/v3_independent_audit.py --out ../independent_check_261028_v3.json --
 
 ```bash
 python code/redraw_figures.py --out generated_figures
-python code/build_manuscript_v3.py --code-commit ACTUAL_40_CHARACTER_CODE_COMMIT --output generated/00_최종논문_261028_v3.docx
+python code/build_manuscript_v3.py --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --output generated/00_최종논문_261028_v3.docx
 python code/build_redline_v3.py --before support/manuscript/source_before_revision_261028_v3.docx --input generated/00_최종논문_261028_v3.docx --output generated/01_최종논문_261028_v3_수정부분_빨간색.docx
-python code/verify_manuscript_v3.py --manuscript generated/00_최종논문_261028_v3.docx --code-commit ACTUAL_40_CHARACTER_CODE_COMMIT --report ../manuscript_check_261028_v3.json
+python code/verify_manuscript_v3.py --manuscript generated/00_최종논문_261028_v3.docx --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --report ../manuscript_check_261028_v3.json
 ```
 
-`ACTUAL_40_CHARACTER_CODE_COMMIT`에는 논문 3.9절에 명시한 실제 코드 커밋의 40자리 식별자를 넣는다. 문서 생성은 제공된 HWP 양식의 190×262mm 용지, 제본 여백, 1단·2단 구성과 글자 크기를 적용한 **DOCX** 출력이다. 원본 전용 글꼴은 동봉한 NanumMyeongjo로 대체한다. 네이티브 HWP 출력이나 한글 프로그램의 수식 변환을 검증한 것으로 해석하지 않는다. 수식 19개는 원래의 편집 가능한 Word 수식으로 보존한다.
+위 명령의 `f4ae5299b2f4382f94e032804568bcd8554ca5fc`은 논문 3.9절에 명시한 검증된 코드 커밋이다. 문서 생성은 제공된 HWP 양식의 190×262mm 용지, 제본 여백, 1단·2단 구성과 글자 크기를 적용한 **DOCX** 출력이다. 원본 전용 글꼴은 동봉한 NanumMyeongjo로 대체한다. 네이티브 HWP 출력이나 한글 프로그램의 수식 변환을 검증한 것으로 해석하지 않는다. 수식 19개는 원래의 편집 가능한 Word 수식으로 보존한다.
 
 저장소의 이전 기준 커밋은 `e125b2791b955483878439664bc73e5b6cbb88a0`이다. 과거 실행 기록은 그대로 유지하고 이번 검증을 새 경로에 기록한다. 원고 생성용 사본의 작성자 메타데이터는 익명 배포를 위해 제거했으며, 본문 XML이 동일함을 `metadata_anonymization.json`에 기록했다.
 

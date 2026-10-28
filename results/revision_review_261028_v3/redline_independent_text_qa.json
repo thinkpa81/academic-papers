@@ -1,13 +1,15 @@
 {
-  "reviewed_utc": "2026-10-28T10:29:47.445747+00:00",
+  "status": "PASS",
+  "reviewed_utc": "2026-10-28T10:36:28.433477+00:00",
   "method": "aligned direct body paragraphs and table cells; abstract split paragraphs handled by cell join",
   "changed_blocks": 149,
   "missed_changed_nonspace_characters": [],
   "text_equal_clean_redline": true,
   "sha256": {
     "output/00_최종논문_261028_v2.docx": "e65466ee5c4de43e11e65fddf476874b255e3c00b2aa68fd97decb5527a3c41b",
-    "v3/output/00_최종논문_261028_v3.docx": "3b8614d0918205b618d7eb0471b4c8f52014ea9a2d9e7d9a0935a6f7457ac32c",
-    "v3/output/01_최종논문_261028_v3_수정부분_빨간색.docx": "0d43a943c3d70e0158df274238c7561438c72267963609045c17a1c8248175a8"
+    "v3/output/00_최종논문_261028_v3.docx": "6d02406edb55d43bd1d77b81e44422332ac5c9cf2cd451771919064ca15367a9",
+    "v3/output/01_최종논문_261028_v3_수정부분_빨간색.docx": "2048fd4539cda86ee9fd4bd383a3d4c056ba1bd07b76f8dc3aca0328e8f029fb"
   },
-  "pre_code_commit_identifier_replacement": true
+  "pre_code_commit_identifier_replacement": false,
+  "bound_code_commit": "f4ae5299b2f4382f94e032804568bcd8554ca5fc"
 }

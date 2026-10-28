@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "code_commit": "f4ae5299b2f4382f94e032804568bcd8554ca5fc",
+  "scope": "Final DOCX render after binding verified code commit; earlier all-page visual checks remain applicable by exact PNG byte equality, with page 14 separately re-inspected at original resolution.",
+  "clean_pages": 48,
+  "redline_pages": 48,
+  "identical_pages_each": 47,
+  "final_reinspected_pages_each": [
+    14
+  ],
+  "checks": {
+    "all_png_decoded": true,
+    "all_other_pages_byte_identical_to_reviewed_pages": true,
+    "final_page14_no_clipping_or_overlap": true,
+    "commit_identifier_complete_and_readable": true,
+    "no_draft_commit_placeholder": true,
+    "clean_redline_text_equal": true
+  },
+  "files": {
+    "00_최종논문_261028_v3.docx": {
+      "bytes": 1931337,
+      "sha256": "6d02406edb55d43bd1d77b81e44422332ac5c9cf2cd451771919064ca15367a9"
+    },
+    "01_최종논문_261028_v3_수정부분_빨간색.docx": {
+      "bytes": 1933909,
+      "sha256": "2048fd4539cda86ee9fd4bd383a3d4c056ba1bd07b76f8dc3aca0328e8f029fb"
+    },
+    "00_최종논문_261028_v3.pdf": {
+      "bytes": 2629725,
+      "sha256": "8f41e26a6bc42ba85a63fafa614ee41456ab437fdd6d5b3103e42a774580e9c1",
+      "pages": 48,
+      "out_of_page_text_blocks": []
+    },
+    "01_최종논문_261028_v3_수정부분_빨간색.pdf": {
+      "bytes": 2637602,
+      "sha256": "4dab760da698def3a8e85791741a5dea59eb051c7abcfab0d3daff121d869327",
+      "pages": 48,
+      "out_of_page_text_blocks": []
+    }
+  }
+}
