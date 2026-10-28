@@ -22,7 +22,7 @@ OECD의 데이터플로 버전 번호와 확보시점의 자료판본은 같은 
 
 ## 복원과 해시 검증
 
-`raw/supplementary_sources_261028_v2/`의 136개 파일은 이전 ZIP의 바이트와 모두 일치한다. 복원 원본 ZIP의 SHA-256은 `5fae08aea046bec0c54e85d4ea799c7782474217d2bb5687accd477849087cdc`이다. KOSIS J·S와 OECD 2.4 고용·노동 원응답의 네 해시는 각 보존 명세와 대조하여 일치했다. 세부 내용은 `results/revision_review_261028_v2/reference_audit.json`과 복원 검증 기록을 따른다.
+`raw/supplementary_sources_261028_v2/`의 136개 파일은 이전 ZIP의 바이트와 모두 일치한다. 복원 원본 ZIP의 SHA-256은 `5fae08aea046bec0c54e85d4ea799c7782474217d2bb5687accd477849087cdc`이다. KOSIS J·S와 OECD 2.4 고용·노동 원응답의 네 해시는 각 보존 명세와 대조하여 일치했다. 복원 파일별 크기·해시는 `raw/supplementary_sources_261028_v2/restoration_manifest.json`에 있으며, 최종 논문의 출처 검증은 `results/revision_review_261028_v3/reference_audit_all.json`을 따른다.
 
 배포 파일의 크기·SHA-256은 `manifest_sha256.json`, SHA-256·SHA-512 병기는 `manifest_sha256_sha512.json`에 있다. 과거 명세의 SHA-256과 생성시각은 그대로 유지한다. 파일 해시는 동일성 확인에 쓰이며 자료 진위나 당시 공표 상태를 독립 인증하지 않는다.
 

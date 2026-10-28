@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Current manuscript entry point; prior v2 builder is retained separately."""
+"""Current manuscript entry point for the final 261028_v3 release."""
 from pathlib import Path
 import runpy
 

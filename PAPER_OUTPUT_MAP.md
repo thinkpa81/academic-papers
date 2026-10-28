@@ -26,14 +26,14 @@
 
 ## 그림의 정확한 파일명
 
-| 논문 번호 | 삽입용 기준 이미지 | 생성 코드 | 같은 출력의 기존 내부 번호 |
-| --- | --- | --- | --- |
-| 그림 1 | `figures/paper_figure_01.png` | `code/reviewability_figure.py`의 `draw`; `redraw_figures.py`에서 호출 | `figure1_final` |
-| 그림 2 | `figures/paper_figure_02.png` | `code/redraw_figures.py`의 `draw3` | `figure3_final` |
-| 그림 3 | `figures/paper_figure_03.png` | `code/redraw_figures.py`의 `draw4` | `figure4_final` |
-| 부록그림 A1 | `figures/paper_figure_A1.png` | `code/redraw_figures.py`의 `draw2` | `figure2_final` |
+| 논문 번호 | 삽입용 기준 이미지 | 생성 코드 |
+| --- | --- | --- |
+| 그림 1 | `figures/paper_figure_01.png` | `code/reviewability_figure.py`의 `draw`; `redraw_figures.py`에서 호출 |
+| 그림 2 | `figures/paper_figure_02.png` | `code/redraw_figures.py`의 `draw3` |
+| 그림 3 | `figures/paper_figure_03.png` | `code/redraw_figures.py`의 `draw4` |
+| 부록그림 A1 | `figures/paper_figure_A1.png` | `code/redraw_figures.py`의 `draw2` |
 
-모든 기준 그림에는 같은 이름의 PDF·SVG가 있다. 다음 명령은 새로운 폴더에 PNG/PDF/SVG와 두 번호체계의 파일을 함께 생성한다.
+모든 기준 그림에는 같은 이름의 PDF·SVG가 있다. 배포본에는 논문 번호와 일치하는 `paper_figure_*` 기준 파일을 둔다. 아래 재생성 코드는 새 폴더에 기준 파일과 이전 내부 번호의 별칭도 함께 출력한다. 별칭은 같은 그림의 중복 파일이며 현재 배포에는 포함하지 않는다.
 
 ```bash
 python code/redraw_figures.py --out generated_figures
@@ -44,30 +44,20 @@ python code/verify_figure_data.py --out ../rerun_figure_check_261028_v3.json
 
 ## 현재 261028_v3 원고 재작성
 
-`code/build_manuscript_v3.py`의 입력은 `support/manuscript/source_before_revision_261028_v3.docx`와 `support/manuscript/revision_261028_v3.json`이다. 첨부 학회 양식의 문서 규격과 v3 수정 명세를 적용하고 `figures/`의 현재 기준 그림을 삽입한다. 원고의 분석 수치와 편집 가능한 수식 19개를 유지한다.
+`code/build_manuscript_v3.py`의 입력은 `support/manuscript/source_before_revision_261028_v3.docx`와 `support/manuscript/revision_261028_v3.json`이다. 첨부 학회 양식의 문서 규격과 v3 수정 명세를 적용하고 `figures/`의 현재 기준 그림을 삽입한다. 원고의 분석 수치와 편집 가능한 수식 19개를 유지한다. 기준 DOCX는 최종 원고의 서식·수식·수정표시를 재생성하는 필수 입력이므로 보존한다.
 
 ```bash
-python code/build_manuscript_v3.py --code-commit ACTUAL_40_CHARACTER_CODE_COMMIT --output generated/00_최종논문_261028_v3.docx
+python code/build_manuscript_v3.py --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --output generated/00_최종논문_261028_v3.docx
 python code/build_redline_v3.py --before support/manuscript/source_before_revision_261028_v3.docx --input generated/00_최종논문_261028_v3.docx --output generated/01_최종논문_261028_v3_수정부분_빨간색.docx
-python code/verify_manuscript_v3.py --manuscript generated/00_최종논문_261028_v3.docx --code-commit ACTUAL_40_CHARACTER_CODE_COMMIT --report ../manuscript_check_261028_v3.json
+python code/verify_manuscript_v3.py --manuscript generated/00_최종논문_261028_v3.docx --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --report ../manuscript_check_261028_v3.json
 ```
 
-`ACTUAL_40_CHARACTER_CODE_COMMIT`은 최종 논문 3.9절에 기록한 실제 코드 커밋으로 바꾼다. 수정표시본은 v2 대비 변경된 문구·표기와 그림 제목을 빨간색으로 표시한다. 원고 검사기는 인용번호·마이너스·구역·수식·익명 메타데이터를 확인한다. 편집용 산출물은 DOCX이며, 네이티브 HWP 저장을 수행한 것은 아니다. 문서의 배치 검토는 별도의 렌더링 확인을 따른다.
-
-## 261028_v2 원고 재작성 이력
-
-`code/build_manuscript.py`의 입력은 `support/manuscript/source_before_revision_261028_v2.docx`와 `support/manuscript/revision_261028_v2.json`이다. JSON에는 원본 해시, 문단·표 셀 수정과 사용할 그림 경로가 있다. 원고의 표 수치와 수식은 보존한다.
-
-```bash
-python code/build_manuscript.py --output generated/00_최종논문_261028_v2.docx
-```
-
-출력은 DOCX와 같은 이름의 `.build.json`이다. 원고 빌더는 `figures/`의 기준 그림을 사용하므로 별도 재작성 폴더를 만들었다고 자동으로 새 그림을 선택하지 않는다.
+`f4ae5299b2f4382f94e032804568bcd8554ca5fc`은 최종 논문 3.9절에 기록한 실제 코드 커밋이다. 수정표시본은 v2 대비 변경된 문구·표기와 그림 제목을 빨간색으로 표시한다. 원고 검사기는 인용번호·마이너스·구역·수식·익명 메타데이터를 확인한다. 편집용 산출물은 DOCX이며, 네이티브 HWP 저장을 수행한 것은 아니다. 문서의 배치 검토는 별도의 렌더링 확인을 따른다.
 
 ## 현재 검증 기록과 현장평가 상태
 
 현재 v3의 참고문헌·약어·문서·그림 검토는 `results/revision_review_261028_v3/`, 새로 실행한 9단계 분석과 독립 검산은 `results/revision_verification_261028_v3/`에 기록하였다. 참고문헌 61개 근거표는 `results/revision_review_261028_v3/reference_audit_all.json`, 최종 연구표 24개·780개 셀의 표시 대조는 `results/revision_verification_261028_v3/final_manuscript_table_audit.json`이다.
 
-v2 당시 검토 증거는 `results/revision_review_261028_v2/`, 그 이전의 9단계 실행과 재시도 이력은 `results/revision_verification_20261028/`에 보존한다. 복원한 보완 출처는 과거 공개 기준 커밋 `e125b2791b955483878439664bc73e5b6cbb88a0`에는 없었으며, 현재 v3 패키지에 포함한 자료이다. 공개 이력과 현재 배포 범위는 `PUBLICATION_NOTES.md`를 따른다.
+이전 원고·검토·재시도 산출물은 현재 파일 목록에서 정리했다. 과거 기록은 [검증 코드 커밋](https://github.com/thinkpa81/academic-papers/tree/f4ae5299b2f4382f94e032804568bcd8554ca5fc)에서 확인할 수 있다. 현재의 v3 검증 기록에 등장하는 당시 파일 수·경로는 그 검증 시점의 범위이며, 정리 후 파일 목록은 루트의 해시 명세를 따른다. 최종 분석의 입력·비교 기준과 출처 증거는 버전명이 과거여도 유지한다. 공개 범위는 `PUBLICATION_NOTES.md`를 따른다.
 
 실제 현장 참여자·응답은 0건이다. `results/field_study_status/status.json`의 `not_evaluated`는 미실시를 뜻한다. 128개 계획 배정행, 1,006개 등록 근거 시험과 7,590개 공통 요건 시험 입력은 실제 참여자 수가 아니다. 공통 요건의 네 구현조건 결과 30,360행과 별도 신뢰경계 시험 506개도 각각의 분모로 해석한다.

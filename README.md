@@ -1,74 +1,49 @@
-# 5극 3특 지역고용 의사결정지원서비스의 재현자료
+# 5극 3특 지역고용 의사결정지원서비스
 
-이 저장소는 「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」의 `261028_v3` 수정본에 대응한다. 2026년 10월 28일에 분석 실행 경로의 9개 단계를 재실행하고 참고문헌 61개의 실재 근거·접속 상태·인용 위치를 검토하였다. 분석값은 유지했으며, 짧은 마이너스 표기, 초록과 본문의 독립적인 약어 정의, 인용 범위와 학회 양식을 정비하였다.
+「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」의 최종 원고(`261028_v3`)와 재현자료이다.
 
-## 검증 결과와 범위
+| 자료 | 파일 |
+| --- | --- |
+| 최종 논문 | [00_최종논문_261028_v3.docx](generated/00_최종논문_261028_v3.docx) |
+| 수정 부분 빨간색 표시본 | [01_최종논문_261028_v3_수정부분_빨간색.docx](generated/01_최종논문_261028_v3_수정부분_빨간색.docx) |
+| 최종 검증과 수정 내역 | [FINAL_REVIEW.md](results/revision_review_261028_v3/FINAL_REVIEW.md) |
+| 참고문헌·인용 확인 | [REFERENCE_REVIEW.md](results/revision_review_261028_v3/REFERENCE_REVIEW.md) |
+| 논문과 자료의 대응 | [PAPER_OUTPUT_MAP.md](PAPER_OUTPUT_MAP.md) |
 
-- 9개 단계 정상 종료. CSV 157개·132,063행이 보존 결과와 일치했다. 156개는 바이트 동일, 1개는 gzip 해제 후 바이트 동일하다.
-- 독립 검사 51개, 기존 검사 653개, 소프트웨어 단위시험 12개, 그림 수치 검사 97개와 그림 문자 검사 18개를 통과했다.
-- 직접 구현과 등록 대조 Pandera의 7,590개 판정이 일치했다. 전체 30,360개 판정과 공동 변경 506개 사례도 재실행했다.
-- 실제 현장 참여자·응답은 0건이다. 8명·16과업·두 표시조건은 계획이며 실제 사용자 효과를 추정한 결과가 아니다.
-- 9개 단계 중 `preserved_audit`는 보완분석의 보존 모형·입력·예측 검산이다. 모든 OECD·통합지역 보완모형을 새로 적합한 것은 아니다.
-- KOSIS 동적표 2건은 현재 조회 대신 보존 공식 DOM·주석·해시를 검증했다. 일부 출판사 원문은 유료·접속 제한이 있어, 문헌 실재와 모든 전문의 무료 열람 가능성을 구분한다.
+현재 `main`에는 최종 원고, 분석·문서 생성 코드, 사용 자료, 표·그림, 검증 근거와 실행 안내를 둔다. 이전 원고와 중간 검토·재시도 산출물은 현재 목록에서 정리했다. 과거 버전 이름이 있는 자료라도 최종 분석의 입력·비교 기준·출처 확인 또는 원고 재작성에 필요한 파일은 유지한다. 특히 `support/manuscript/source_before_revision_261028_v3.docx`는 최종 원고와 수정표시본을 생성하는 기준 문서이다.
 
-## 빠른 시작
+## 재현 실행
 
-Python 3.12 환경에서 실행한다. 사용한 확보본을 포함하므로 재현을 위해 기관 자료를 새로 내려받을 필요는 없다.
+Python 3.12와 `requirements.txt`의 의존성을 준비한 뒤 저장소 루트에서 실행한다. 환경 준비와 선택 재적합은 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)를 따른다.
 
 ```bash
-python -m venv .venv
-python -m pip install -r requirements.txt
 python code/add_hash_manifest.py --verify
 python verify_package.py
 python code/verify_results.py
 python -m unittest discover -s tests -v
-python code/verify_figure_data.py --out ../figure_check_261028_v3.json
-python code/verify_figure_glyphs.py
-python code/v3_independent_audit.py --out ../independent_check_261028_v3.json
-```
-
-Windows PowerShell에서는 `.venv\Scripts\Activate.ps1`, macOS/Linux에서는 `source .venv/bin/activate`로 환경을 활성화한 뒤 설치한다.
-
-전체 실행은 새 출력 폴더를 지정한다.
-
-```bash
 python code/run_all.py --out ../rerun_261028_v3
 python code/v3_independent_audit.py --out ../independent_check_261028_v3.json --replay ../rerun_261028_v3 --manuscript generated/00_최종논문_261028_v3.docx
 ```
 
-## 주요 경로
+## 자료 위치
 
 | 경로 | 내용 |
 | --- | --- |
-| `code/` | 분석·근거 검사·그림·문서 생성·현장평가 실행 코드 |
-| `raw/` | 분석에 사용한 KOSIS·OECD·미국 거시경제 확보본 |
-| `raw/supplementary_sources_261028_v2/` | 이전 배포본에서 복원한 출처 파일 136개와 복원 기록 |
-| `results/` | 정밀 수치·예측·선정·사례별 기술시험 판정 |
-| `results/revision_verification_261028_v3/` | 이번 9단계 실행·독립 검산·환경·코드 해시·대조 기록 |
-| `results/revision_review_261028_v3/` | 참고문헌·약어·문서·그림·표시 수정 검토 |
-| `results/paper_tables/` | 연구표 24개 CSV와 표·그림 대응 목록 |
-| `figures/` | 삽입용 PNG와 같은 그림의 PDF·SVG, 표시 수치 |
-| `support/manuscript/` | 원고 생성용 보존 사본과 변경 명세 |
-| `support/template/` | 제공된 HWP 양식에서 확인한 용지·여백·서식 명세 |
-| `generated/` | 배포 원고와 빌드 기록 |
-| `field_study/` | 계획·빈 양식. 실제 응답자료 없음 |
-| `manifest_sha256*.json` | 파일별 크기·SHA-256·SHA-512 |
+| `generated/` | 최종 원고·수정표시본·빌드 기록 |
+| `code/`, `tests/` | 분석·검사·그림·문서 생성·현장평가 코드와 시험 |
+| `raw/`, `support/` | 사용한 확보본, 보존 모형·입력·비교 기준, 문서·양식 자료 |
+| `results/`, `figures/` | 계산 결과, 연구표 24개, 기준 그림 4개와 검증 기록 |
+| `field_study/` | 현장평가 계획과 빈 양식 |
+| `manifest_sha256*.json` | 현재 파일의 크기·SHA-256·SHA-512 |
 
-## 그림과 원고 생성
+자료 출처와 이용조건은 [DATA_SOURCES.md](DATA_SOURCES.md), 공개 범위는 [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md)에 있다.
 
-```bash
-python code/redraw_figures.py --out generated_figures
-python code/build_manuscript_v3.py --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --output generated/00_최종논문_261028_v3.docx
-python code/build_redline_v3.py --before support/manuscript/source_before_revision_261028_v3.docx --input generated/00_최종논문_261028_v3.docx --output generated/01_최종논문_261028_v3_수정부분_빨간색.docx
-python code/verify_manuscript_v3.py --manuscript generated/00_최종논문_261028_v3.docx --code-commit f4ae5299b2f4382f94e032804568bcd8554ca5fc --report ../manuscript_check_261028_v3.json
-```
+## 검증 범위
 
-위 명령의 `f4ae5299b2f4382f94e032804568bcd8554ca5fc`은 논문 3.9절에 명시한 검증된 코드 커밋이다. 문서 생성은 제공된 HWP 양식의 190×262mm 용지, 제본 여백, 1단·2단 구성과 글자 크기를 적용한 **DOCX** 출력이다. 원본 전용 글꼴은 동봉한 NanumMyeongjo로 대체한다. 네이티브 HWP 출력이나 한글 프로그램의 수식 변환을 검증한 것으로 해석하지 않는다. 수식 19개는 원래의 편집 가능한 Word 수식으로 보존한다.
+2026년 10월 28일 9개 실행 단계를 재실행하여 CSV 157개·132,063행이 보존 결과와 일치함을 확인했다. 독립 검사 51개, 기존 검사 653개, 단위시험 12개, 그림 수치 검사 97개와 문자 검사 18개를 통과했다. 최종 원고·수정표시본은 각각 48쪽이며, 참고문헌 61개와 인용번호의 대응을 확인했다.
 
-저장소의 이전 기준 커밋은 `e125b2791b955483878439664bc73e5b6cbb88a0`이다. 과거 실행 기록은 그대로 유지하고 이번 검증을 새 경로에 기록한다. 원고 생성용 사본의 작성자 메타데이터는 익명 배포를 위해 제거했으며, 본문 XML이 동일함을 `metadata_anonymization.json`에 기록했다.
+`preserved_audit`는 일부 보완분석의 보존 모형·입력·예측 검산이다. 모든 보완모형의 신규 적합을 뜻하지 않는다. 실제 현장 참여자·응답은 0건이며, 기술시험의 합성 사례를 사용자 효과로 해석하지 않는다. KOSIS 동적표 2개는 보존 공식 기록으로 확인했고 일부 출판사 전문에는 접근 제한이 있다.
 
-## 해석과 파일 무결성
+원고는 제공된 HWP 양식의 문서 규격을 적용한 DOCX이다. 원본 전용 글꼴은 NanumMyeongjo로 대체했으며, 네이티브 HWP 변환을 검증하지 않았다.
 
-현재 개정자료의 시간순 평가를 과거 최초 공표판본에 대한 실시간 예측평가로 해석하지 않는다. 추가 후보군과 학습기간 확장 비교는 사후 탐색적 분석이다. 기술시험의 합성 사례 수는 실제 참여자 수나 현장 오류율이 아니다.
-
-모든 편집이 끝난 배포본에서만 `python code/add_hash_manifest.py --legacy-sha256`으로 두 목록을 갱신한다. 검증 전에 목록을 다시 만들면 변경 탐지의 의미가 사라진다. 해시는 파일 동일성 검사이며 원기관 자료의 진위·과거 확보시점의 인증이 아니다. 코드 라이선스와 기관 자료·글꼴 이용조건은 `PUBLICATION_NOTES.md`, `DATA_SOURCES.md`, `FONT_LICENSE.txt`를 따른다.
+논문 3.9절의 재현 기준은 [코드 커밋 `f4ae5299`](https://github.com/thinkpa81/academic-papers/commit/f4ae5299b2f4382f94e032804568bcd8554ca5fc)이다. 최종 원고를 처음 배포한 커밋은 [`9a87a0c2`](https://github.com/thinkpa81/academic-papers/commit/9a87a0c2965c730d6052b3de2762018b383cb8c0)이며, 현재 파일 정리는 논문의 분석 결과를 변경하지 않는다. 이전 파일은 Git 이력에서 확인할 수 있다.
