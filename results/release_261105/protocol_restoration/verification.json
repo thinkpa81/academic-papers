@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-11-04T17:42:53.521451+00:00",
+  "status": "passed",
+  "change": "Restore missing protocol.md required by the documented merged-region refit. Python analysis code, source data and preserved results are unchanged.",
+  "base_analysis_commit": "94ad3550b1d503c9a4c6380391940c8de8b1d980",
+  "protocol": {
+    "path": "support/baseline/base_v11/analysis_harmonized/protocol.md",
+    "status": "reconstructed execution specification; original bytes not recovered",
+    "restored_sha256": "fdaceb17766ab05a7389072ff9b348ced6cddb65ee1c98bbed2a0cc2dbc66fea",
+    "historical_recorded_sha256": "cef372ff8069a38b3de6c27489a28692f50cdc8d7ed0df85c7eb177a9fb7e35f",
+    "historical_records_modified": false,
+    "source_basis": [
+      "support/baseline/base_v11/analysis_harmonized/run.py",
+      "support/baseline/base_v11/analysis_harmonized/results/main/selection_before_test.json",
+      "support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py",
+      "support/baseline/base_v11/extensions/revision_v8/region/output/protocol_before_execution.json"
+    ]
+  },
+  "command": "python support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py --package-root support/baseline/base_v11 --output-dir ../rerun_merged_region",
+  "python": "3.12.14",
+  "analysis_files": [
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/run.py",
+      "sha256": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa"
+    },
+    {
+      "path": "support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py",
+      "sha256": "75c048ad1638ac88d46a88b3e4225ce387c5b2fe133e8e67ec7850a1d09524af"
+    },
+    {
+      "path": "support/baseline/base_v11/source_harmonized/kosis_ksic11_H1_2013_2025_panel.csv",
+      "sha256": "5399682eac8818fcf7ed1b493a616f5a6b35a872579b7316ddb811b6372eaf98"
+    }
+  ],
+  "exit_code": 0,
+  "full_refit": true,
+  "new_selection_binds_restored_protocol": true,
+  "selection_matches_preserved_record": true,
+  "csv_comparison": {
+    "atol": 1e-10,
+    "rtol": 1e-10,
+    "files": 18,
+    "rows": 6596,
+    "all_passed": true,
+    "checks": [
+      {
+        "path": "daegyeong_prior_validation_rows.csv",
+        "rows": 27,
+        "columns": 46,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "25f898b9773d48cb0963416c027b6380391b1e4c6a62bae84f091805c505f6f3",
+        "rerun_sha256": "25f898b9773d48cb0963416c027b6380391b1e4c6a62bae84f091805c505f6f3"
+      },
+      {
+        "path": "daegyeong_service_2025.csv",
+        "rows": 10,
+        "columns": 20,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "a566a04d6b6f7337ccd45356a9916f2e540d0d5c18dd7ce6eac6800d056e7106",
+        "rerun_sha256": "a566a04d6b6f7337ccd45356a9916f2e540d0d5c18dd7ce6eac6800d056e7106"
+      },
+      {
+        "path": "daegyeong_test_metrics.csv",
+        "rows": 8,
+        "columns": 9,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "a11ebbfa12e37e78780428dcaf59a286bd10abdd5f173e17889afc29afa95739",
+        "rerun_sha256": "a11ebbfa12e37e78780428dcaf59a286bd10abdd5f173e17889afc29afa95739"
+      },
+      {
+        "path": "merge_source_audit.csv",
+        "rows": 143,
+        "columns": 7,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "ccef22a6387dd55dcc95d67a7774099c757d883923c728e0e5b29b500fa3bfdf",
+        "rerun_sha256": "ccef22a6387dd55dcc95d67a7774099c757d883923c728e0e5b29b500fa3bfdf"
+      },
+      {
+        "path": "results/analysis_panel.csv",
+        "rows": 1387,
+        "columns": 22,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "b241fce1e46674297b6f2950d7c43fcac099946de26d99624ea12df94c184a14",
+        "rerun_sha256": "b241fce1e46674297b6f2950d7c43fcac099946de26d99624ea12df94c184a14"
+      },
+      {
+        "path": "results/coefficients.csv",
+        "rows": 64,
+        "columns": 4,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "7e959ea7de20aa49b30774dad257449250c688c03d2b67133ff94ea943dd2b3f",
+        "rerun_sha256": "7e959ea7de20aa49b30774dad257449250c688c03d2b67133ff94ea943dd2b3f"
+      },
+      {
+        "path": "results/cohort_counts.csv",
+        "rows": 10,
+        "columns": 5,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "005fe7acbd4fd2a293c68b615e5bed7aac1b0a7ed35367e95d4cc58010100e28",
+        "rerun_sha256": "005fe7acbd4fd2a293c68b615e5bed7aac1b0a7ed35367e95d4cc58010100e28"
+      },
+      {
+        "path": "results/exclusion_ledger.csv",
+        "rows": 1600,
+        "columns": 9,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "36650b4dd43cc74e5d3d94ceb92d30e524505f6012e70dbca147baa6a8884746",
+        "rerun_sha256": "36650b4dd43cc74e5d3d94ceb92d30e524505f6012e70dbca147baa6a8884746"
+      },
+      {
+        "path": "results/exclusion_reason_counts.csv",
+        "rows": 17,
+        "columns": 2,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "348cd88473ca4d22ee849a419194c31eb624f302e25f5811c601d828787a4508",
+        "rerun_sha256": "348cd88473ca4d22ee849a419194c31eb624f302e25f5811c601d828787a4508"
+      },
+      {
+        "path": "results/region_bootstrap_vs_default.csv",
+        "rows": 9,
+        "columns": 8,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "5c9e4dad590455a1bf134d4c8bee95cd586429314d568e6421ad60373f15fe4d",
+        "rerun_sha256": "5c9e4dad590455a1bf134d4c8bee95cd586429314d568e6421ad60373f15fe4d"
+      },
+      {
+        "path": "results/region_bootstrap_vs_zero.csv",
+        "rows": 9,
+        "columns": 8,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "506b7ff930b6b3df4dd48491cea8c3efef809ced953dd58c7c4218f01a719a01",
+        "rerun_sha256": "506b7ff930b6b3df4dd48491cea8c3efef809ced953dd58c7c4218f01a719a01"
+      },
+      {
+        "path": "results/service_prior_validation_evidence.csv",
+        "rows": 75,
+        "columns": 11,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "f5e29833da2ea5b117d9733d0e2464f0393d36071dbad3cd442e3aca5af53ba3",
+        "rerun_sha256": "f5e29833da2ea5b117d9733d0e2464f0393d36071dbad3cd442e3aca5af53ba3"
+      },
+      {
+        "path": "results/small_cell_sensitivity.csv",
+        "rows": 20,
+        "columns": 9,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "35c37926f56183c0fc8888b85a430d8c48f8996b6a969ebf9e937df2a4f4211f",
+        "rerun_sha256": "35c37926f56183c0fc8888b85a430d8c48f8996b6a969ebf9e937df2a4f4211f"
+      },
+      {
+        "path": "results/test_metrics.csv",
+        "rows": 40,
+        "columns": 9,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "ab0010e6ec41a6260fd3234f47da825151597811586045e2fbce5ecc65812efe",
+        "rerun_sha256": "ab0010e6ec41a6260fd3234f47da825151597811586045e2fbce5ecc65812efe"
+      },
+      {
+        "path": "results/test_predictions.csv",
+        "rows": 436,
+        "columns": 31,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "d861e9ec4529098fdcac19ec74d1516ff97c6ea627b81224c47279e79eb18446",
+        "rerun_sha256": "d861e9ec4529098fdcac19ec74d1516ff97c6ea627b81224c47279e79eb18446"
+      },
+      {
+        "path": "results/validation_grid.csv",
+        "rows": 20,
+        "columns": 10,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "6586b11b5d9c02856a8c6477efa5f085ea0d336d22bf62deb894c2a4260d51b4",
+        "rerun_sha256": "6586b11b5d9c02856a8c6477efa5f085ea0d336d22bf62deb894c2a4260d51b4"
+      },
+      {
+        "path": "results/validation_predictions.csv",
+        "rows": 433,
+        "columns": 41,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "3aa854302ede750645068c6a332de6ce2838e1e49df7917e749d3714b0f79e43",
+        "rerun_sha256": "3aa854302ede750645068c6a332de6ce2838e1e49df7917e749d3714b0f79e43"
+      },
+      {
+        "path": "source_16_fixed_units.csv",
+        "rows": 2288,
+        "columns": 18,
+        "passed": true,
+        "different_columns": [],
+        "maximum_absolute_numeric_difference": 0.0,
+        "preserved_sha256": "33f8fa6e2cacdb5902d17b871b935a2091414f869b497b98af32acaa24fb75cd",
+        "rerun_sha256": "33f8fa6e2cacdb5902d17b871b935a2091414f869b497b98af32acaa24fb75cd"
+      }
+    ]
+  },
+  "cohort_counts": {
+    "train": 518,
+    "validation": 433,
+    "test": 436
+  },
+  "selected_ridge": "ridge_alpha100",
+  "selected_baseline": "global_past_mean",
+  "metrics": [
+    {
+      "model": "global_past_mean",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.236861741782809,
+      "rmse": 16.678486382072034,
+      "employment_weighted_mae": 4.7959535588033555,
+      "r2": -0.0010462693792669953,
+      "direction_nonnegative_binary_pct": 58.48623853211009,
+      "direction_sign_threeway_zero_band_pct": 57.3394495412844
+    },
+    {
+      "model": "ridge_alpha100",
+      "period": "pooled",
+      "n": 436,
+      "mae": 9.087760854355441,
+      "rmse": 16.29142883018261,
+      "employment_weighted_mae": 4.668264023540606,
+      "r2": 0.04487715426923777,
+      "direction_nonnegative_binary_pct": 52.06422018348624,
+      "direction_sign_threeway_zero_band_pct": 51.37614678899083
+    }
+  ],
+  "execution_protocol": {
+    "path": "results/release_261105/protocol_restoration/protocol_before_execution.json",
+    "sha256": "39888fb942cb45c32eeed0ce5f2f91172c4dc7af3f28ac14befd2b0d661dc49e"
+  },
+  "post_change_checks": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 25,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "python code/verify_results.py --report ../result_checks.json",
+      "checks": 653,
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "analysis_code_data_and_preserved_outputs_changed": []
+}

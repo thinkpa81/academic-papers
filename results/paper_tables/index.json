@@ -238,5 +238,11 @@
     "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
     "included_in_repository": false
   },
-  "alignment_record": "results/release_261105/manuscript_alignment.json"
+  "alignment_record": "results/release_261105/manuscript_alignment.json",
+  "current_manuscript": {
+    "filename": "261105_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가.hwp",
+    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
+    "included_in_repository": false
+  },
+  "current_manuscript_binding": "results/release_261105/manuscript_binding_261105.json"
 }

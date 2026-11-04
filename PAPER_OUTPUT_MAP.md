@@ -45,6 +45,6 @@ python code/verify_figure_data.py --out ../rerun_figure_check_261105.json
 
 ## 최종 원고 대응과 검증 기록
 
-최종 HWP의 표·그림 대조는 `results/release_261105/manuscript_alignment.json`에 기록한다. 원고 파일은 공개본에 포함하지 않는다. 기존 표시표 24개의 수치를 유지하며 부록표 H1의 2013–2025년 공표일 13건을 추가했다. H1은 보존 공표일 목록에서 `code/export_publication_calendar.py`로 생성·검증한다.
+현재 261105 HWP의 해시, 분석 기준 커밋, 표 25개·836셀 및 삽입 그림 4개의 대조 결과는 `results/release_261105/manuscript_binding_261105.json`에 기록한다. 최초 표·그림 추출에 사용한 261029 HWP의 대조 기록은 `results/release_261105/manuscript_alignment.json`에 유지한다. `results/paper_tables/index.json`에서도 최초 추출 원고와 현재 연결 원고를 구분한다. 원고 파일은 공개본에 포함하지 않는다. 기존 표시표 24개의 수치를 유지하며 부록표 H1의 2013–2025년 공표일 13건을 추가했다. H1은 보존 공표일 목록에서 `code/export_publication_calendar.py`로 생성·검증한다.
 
 실제 현장 참여자·응답은 0건이다. `results/field_study_status/status.json`의 `not_evaluated`는 미실시를 뜻한다. 128개 계획 배정행, 1,006개 등록 근거 시험과 7,590개 공통 요건 시험 입력은 실제 참여자 수가 아니다. 공통 요건의 네 구현조건 결과 30,360행과 별도 신뢰경계 시험 506개는 각각의 분모로 해석한다.

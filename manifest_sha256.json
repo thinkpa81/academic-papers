@@ -11,8 +11,8 @@
   },
   {
     "path": "CODE_RELEASE.json",
-    "bytes": 874,
-    "sha256": "3b651846a0c7c6ec956edadc5baaf711d463978dcdc9172cdbadba7e0c0210cf"
+    "bytes": 1664,
+    "sha256": "f0113e69f1268dd2325a3122eda51bfcc25304123b274de814c6cd8b32481659"
   },
   {
     "path": "DATA_SOURCES.md",
@@ -31,8 +31,8 @@
   },
   {
     "path": "PAPER_OUTPUT_MAP.md",
-    "bytes": 5052,
-    "sha256": "a8ab03879400df54eed4c04207b2ae364bc9d4e600189a3d4a0fbcc065a371ab"
+    "bytes": 5376,
+    "sha256": "e10ae55d80045e5d3a5edb5141680deb9831e6c188b3973ad492ee3587d4fc49"
   },
   {
     "path": "PUBLICATION_NOTES.md",
@@ -41,13 +41,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 3326,
-    "sha256": "b3679fadfe6bebbdbdb2630b674bd0f560e406b4139555cc59a2d04777c31803"
+    "bytes": 4333,
+    "sha256": "bdc337351726701b3dc01f77657b48840e62ac5d6b9cd466796a492905b1dc9b"
   },
   {
     "path": "REPRODUCIBILITY.md",
-    "bytes": 5074,
-    "sha256": "bd587e2ba2333f18ac6054c39c19ee9ddef41c5fe97096a3653d7686b2c6c714"
+    "bytes": 6050,
+    "sha256": "85c41d5b215639626316b0701e2d69186208f5385f216a15398e5827b3a66019"
   },
   {
     "path": "TRANSFER_EVALUATION.md",
@@ -1881,8 +1881,8 @@
   },
   {
     "path": "results/paper_tables/index.json",
-    "bytes": 9307,
-    "sha256": "4d8640c78fa91a7c49d09cc17b98b3fcab2f98a47f206bac7c18373188c6eae2"
+    "bytes": 9652,
+    "sha256": "11e3950ad09d2c5ca07faffc86524a177113d39fdae80acc30b452d625550938"
   },
   {
     "path": "results/paper_tables/table_01.csv",
@@ -2108,6 +2108,36 @@
     "path": "results/release_261105/manuscript_alignment.json",
     "bytes": 13630,
     "sha256": "b5e0f1ae7627f785f0fe34a33c02c773fb4c815264c3173824ed1d32925bf302"
+  },
+  {
+    "path": "results/release_261105/manuscript_binding_261105.json",
+    "bytes": 12765,
+    "sha256": "9e737c305a5438151229c71eaa911baca9f9a06587b7c0e0766779ce5686be7b"
+  },
+  {
+    "path": "results/release_261105/protocol_restoration/execution.log",
+    "bytes": 6299,
+    "sha256": "000add95cd4710739cd9b81ed2880f7104e836d53a7a8f35f077df0cee2b48e9"
+  },
+  {
+    "path": "results/release_261105/protocol_restoration/protocol_before_execution.json",
+    "bytes": 2342,
+    "sha256": "39888fb942cb45c32eeed0ce5f2f91172c4dc7af3f28ac14befd2b0d661dc49e"
+  },
+  {
+    "path": "results/release_261105/protocol_restoration/selection_before_test.json",
+    "bytes": 1477,
+    "sha256": "5cbbf5594d933a0ebd16ba0f5b1b8d51f0ea54c40d13a2275d2a4264ae0cb8cd"
+  },
+  {
+    "path": "results/release_261105/protocol_restoration/summary_for_manuscript.json",
+    "bytes": 5714,
+    "sha256": "590a779e920fd6c308e3ca59ad9f8d0967269af5131e2ef8653c4663a6658c85"
+  },
+  {
+    "path": "results/release_261105/protocol_restoration/verification.json",
+    "bytes": 10964,
+    "sha256": "70dbe3c6c7135036b00cf3c435535dd6ecc392c8636d75c0ff5b8c74a94251ac"
   },
   {
     "path": "results/release_261105/result_checks.json",
@@ -2398,6 +2428,11 @@
     "path": "support/baseline/additional_analysis/local_fallback_specification_release.json",
     "bytes": 4817,
     "sha256": "649164c779fea1684a74477a99ecdcb098938fbdba778cff34d220d2bec3d0d3"
+  },
+  {
+    "path": "support/baseline/base_v11/analysis_harmonized/protocol.md",
+    "bytes": 7282,
+    "sha256": "fdaceb17766ab05a7389072ff9b348ced6cddb65ee1c98bbed2a0cc2dbc66fea"
   },
   {
     "path": "support/baseline/base_v11/analysis_harmonized/results/main/analysis_panel.csv",

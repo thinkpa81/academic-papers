@@ -4,11 +4,21 @@
   "repository": "https://github.com/thinkpa81/academic-papers",
   "scope": "Analysis code, preserved numerical results, paper tables/figures, source evidence and field-study preparation for the supplied final HWP manuscript.",
   "manuscript": {
+    "file_name": "261105_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가.hwp",
+    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
+    "sha512": "c74f30f852f27f5d82fd78c6d0c6ef4f36f0a26b8a0a130bee9ad7d9357833701eb1f02973049346ea028d8daa06220e5e425c8b32752aa665d763662f74740f",
+    "size_bytes": 2205696,
+    "public_file_included": false
+  },
+  "commit_binding": "The immutable analysis baseline is recorded separately. The containing Git commit identifies this supplemented release; resolve it with git rev-parse HEAD after checkout.",
+  "validation_directory": "results/release_261105",
+  "historical_protocol_hashes": "Historical execution logs retain the original protocol digests; descriptive wording changes are documented in results/release_261105/cleanup_record.json.",
+  "original_release_manuscript": {
     "file_name": "261029_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가(6).hwp",
     "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
     "public_file_included": false
   },
-  "commit_binding": "Resolve the immutable commit with git rev-parse HEAD after checkout.",
-  "validation_directory": "results/release_261105",
-  "historical_protocol_hashes": "Historical execution logs retain the original protocol digests; descriptive wording changes are documented in results/release_261105/cleanup_record.json."
+  "analysis_baseline_commit": "94ad3550b1d503c9a4c6380391940c8de8b1d980",
+  "manuscript_binding": "results/release_261105/manuscript_binding_261105.json",
+  "supplemental_verification": "results/release_261105/protocol_restoration/verification.json"
 }

@@ -2,6 +2,8 @@
 
 `261105` 공개본은 `CODE_RELEASE.json`에 식별한 최종 HWP의 분석·표·그림에 대응한다. 실행 기록과 보존 결과 대조는 `results/release_261105/`에 있다.
 
+현재 261105 HWP의 SHA-256과 분석 기준 커밋 `94ad3550b1d503c9a4c6380391940c8de8b1d980`의 연결은 `results/release_261105/manuscript_binding_261105.json`에서 확인한다. 이번 보완에서는 분석 코드·입력·보존 수치를 유지하고 누락된 실행 명세와 원고 연결 기록을 추가했다. 이전 261029 HWP를 대상으로 작성한 검증 기록은 그 당시 이력으로 유지한다.
+
 ## 환경 준비
 
 Python 3.12에서 저장소 루트를 작업 폴더로 사용한다.
@@ -62,6 +64,8 @@ python support/baseline/base_v11/original/analysis/run_analysis.py --input-root 
 python support/baseline/base_v11/extensions/analysis/run_extended_analysis.py --source-root support/baseline/base_v11/original --output-root ../rerun_original_expanding
 python support/baseline/base_v11/extensions/revision_v8/region/run_region_d.py --package-root support/baseline/base_v11 --output-dir ../rerun_merged_region
 ```
+
+통합지역 재적합에 필요한 `support/baseline/base_v11/analysis_harmonized/protocol.md`는 2026년 11월 5일 현재 코드와 보존 기록에서 복구한 재실행 명세다. 과거 원문 바이트를 복원한 것은 아니므로 과거 선정기록의 프로토콜 해시를 변경하지 않았다. 새 재적합은 복구한 문서의 해시를 기록한다. 실제 재적합 후 보존 CSV 18개·6,596행이 일치했으며, 명령·선정기록·파일별 대조 결과는 `results/release_261105/protocol_restoration/`에 있다.
 
 2024년 평가는 고정한 모형·예측을 사용한다. `support/baseline/base_v11/extensions/temporal2024/analysis/`에 설계와 예측 고정·후속 평가 코드가 있다. 새로운 예측 고정 실행에는 `freeze_design_before_new_outcomes.json`과 `.sha256`을 새 출력에 복사한 뒤 해당 `freeze_predictions_2024.py`를 사용한다. 원래 고정 시점과 재실행 시점을 구분한다.
 

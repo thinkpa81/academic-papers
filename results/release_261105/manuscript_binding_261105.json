@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-11-04T17:45:52.445509+00:00",
+  "status": "passed",
+  "repository": "https://github.com/thinkpa81/academic-papers",
+  "manuscript": {
+    "file_name": "261105_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가.hwp",
+    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
+    "sha512": "c74f30f852f27f5d82fd78c6d0c6ef4f36f0a26b8a0a130bee9ad7d9357833701eb1f02973049346ea028d8daa06220e5e425c8b32752aa665d763662f74740f",
+    "size_bytes": 2205696,
+    "source": "Current copy in the author-designated 261105 folder, downloaded for this check.",
+    "public_file_included": false
+  },
+  "analysis_baseline": {
+    "commit": "94ad3550b1d503c9a4c6380391940c8de8b1d980",
+    "tree": "20a9f7d9064ef7e986ebe08001a930a7769c877a",
+    "commit_url": "https://github.com/thinkpa81/academic-papers/commit/94ad3550b1d503c9a4c6380391940c8de8b1d980",
+    "scope": "Unchanged Python analysis code, input data, fitted-model artifacts and preserved numerical results. The containing commit supplements the missing execution protocol and manuscript linkage."
+  },
+  "binding_commit": "The Git commit containing this record identifies the supplemented package. This field does not attempt a circular reference to its own commit hash.",
+  "original_release_manuscript": {
+    "filename": "261029_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가(6).hwp",
+    "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
+    "included_in_repository": false
+  },
+  "historical_alignment_record": "results/release_261105/manuscript_alignment.json",
+  "previous_261105_copy": {
+    "sha256": "cae1a520792412720ee716edc16727a05d147ce7aeeb1f6eb40bb4358c00fd0e",
+    "paragraphs_compared": 1212,
+    "changed_text_paragraphs": 1,
+    "changes": [
+      {
+        "paragraph_ordinal": 6,
+        "before": "DDesign and Technical Evaluation of a Regional Employment Decision Support Service for Korea’s Five Regional Hubs and Three Special Self-Governing Provinces***",
+        "after": "Design and Technical Evaluation of a Regional Employment Decision Support Service for Korea’s Five Regional Hubs and Three Special Self-Governing Provinces***"
+      }
+    ],
+    "scope": "Extracted paragraph text; binary identity and page layout are not implied."
+  },
+  "comparison_method": {
+    "tables": "HWP structural extraction of TableBody/TableRow/TableCell text compared in document order with the 25 indexed CSV tables, including headers. Three leading layout tables are excluded. All whitespace is removed and U+2212/U+2013/U+2014 are normalized to ASCII minus for cell comparison.",
+    "figures": "HWP OLE BinData streams decompressed with raw DEFLATE, then SHA-256 compared with repository PNG bytes."
+  },
+  "table_alignment": {
+    "tables": 25,
+    "cells": 836,
+    "all_passed": true,
+    "checks": [
+      {
+        "id": "1",
+        "path": "results/paper_tables/table_01.csv",
+        "rows_including_header": 9,
+        "columns": 3,
+        "cells": 27,
+        "sha256": "691c6dada613138380e1474fbb7ab31bbb9042bb04b862158c178afacb343177",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "2",
+        "path": "results/paper_tables/table_02.csv",
+        "rows_including_header": 5,
+        "columns": 4,
+        "cells": 20,
+        "sha256": "5bcb3564f0ff917b4829c658f3dcefd64f33d0b0345b735de360da29433a9951",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "3",
+        "path": "results/paper_tables/table_03.csv",
+        "rows_including_header": 5,
+        "columns": 5,
+        "cells": 25,
+        "sha256": "ce03966a7ecf22ed64451aee0df2f8135f84ee158ee645f4ed55407e60db3fa3",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "4",
+        "path": "results/paper_tables/table_04.csv",
+        "rows_including_header": 13,
+        "columns": 5,
+        "cells": 65,
+        "sha256": "f9a912ddae7b9028e633a1ed908ab9507b56602eecea2535ba6c99f7c6f330f6",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "5",
+        "path": "results/paper_tables/table_05.csv",
+        "rows_including_header": 4,
+        "columns": 6,
+        "cells": 24,
+        "sha256": "ca0d9a24c689e4d1483224f620313bac5cdd61b1671a5cf26c7df27452f076d1",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "6",
+        "path": "results/paper_tables/table_06.csv",
+        "rows_including_header": 5,
+        "columns": 6,
+        "cells": 30,
+        "sha256": "5a514b76d8664f90ae99f91590dafc5374c01c9e11ccc325ab244195164429dd",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "7",
+        "path": "results/paper_tables/table_07.csv",
+        "rows_including_header": 4,
+        "columns": 4,
+        "cells": 16,
+        "sha256": "e7cb1e864d7f707d73beb4ab431d5f42d333b46f083676a1c0812ee99e1bf8e8",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "8",
+        "path": "results/paper_tables/table_08.csv",
+        "rows_including_header": 5,
+        "columns": 6,
+        "cells": 30,
+        "sha256": "f661228cb87d8611f6a1419aff7bd24c580e4ddf44967647ac62a060f5df24ba",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "9",
+        "path": "results/paper_tables/table_09.csv",
+        "rows_including_header": 9,
+        "columns": 7,
+        "cells": 63,
+        "sha256": "9e078c45a29b753a5835c1b80ee4f13508af01f487011d9ef3653b8c1f3279f2",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "10",
+        "path": "results/paper_tables/table_10.csv",
+        "rows_including_header": 11,
+        "columns": 4,
+        "cells": 44,
+        "sha256": "a305dfec1dbaa71e42594bbbdb5b7b7ee3eabdbdfa6177ddb31c356d7820501f",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "11",
+        "path": "results/paper_tables/table_11.csv",
+        "rows_including_header": 5,
+        "columns": 4,
+        "cells": 20,
+        "sha256": "8749ae3aa8de34bd8133a2a2e867078998444c2f78258588cb6b61f4fd4c678c",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "12",
+        "path": "results/paper_tables/table_12.csv",
+        "rows_including_header": 6,
+        "columns": 5,
+        "cells": 30,
+        "sha256": "b1efbb924fe97369af105cd8bbb6ea16b4ac4686029ad7323a933c912e546a4c",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "13",
+        "path": "results/paper_tables/table_13.csv",
+        "rows_including_header": 4,
+        "columns": 5,
+        "cells": 20,
+        "sha256": "e39ce4be93f3e099150b8d74750050a142a0ffa99c59464f7f78125b43af5ea4",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "14",
+        "path": "results/paper_tables/table_14.csv",
+        "rows_including_header": 6,
+        "columns": 5,
+        "cells": 30,
+        "sha256": "5dc364534d1e49a116d6704fe980f967def04c2c381c836c61641861b3e5e8c8",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "15",
+        "path": "results/paper_tables/table_15.csv",
+        "rows_including_header": 9,
+        "columns": 5,
+        "cells": 45,
+        "sha256": "c6a78bed4e5ac9f06b3a4c82ae73747f7861b9f3de40edd6980aef3c6e4b9d28",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "A1",
+        "path": "results/paper_tables/table_A1.csv",
+        "rows_including_header": 5,
+        "columns": 4,
+        "cells": 20,
+        "sha256": "1cb3697e30f43128ace63b8e5f0a9ece418b05c03c9565466e6f00cbb5636017",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "A2",
+        "path": "results/paper_tables/table_A2.csv",
+        "rows_including_header": 7,
+        "columns": 3,
+        "cells": 21,
+        "sha256": "16393c5fd096b3ec11b8457198d31c3ba58c6a8444286732eed098efd2ea7378",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "A3",
+        "path": "results/paper_tables/table_A3.csv",
+        "rows_including_header": 11,
+        "columns": 5,
+        "cells": 55,
+        "sha256": "205f22b7e5e06e7bf7d62f41b4d3968694c2779e539f4781d4366a0b6c56b599",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "B1",
+        "path": "results/paper_tables/table_B1.csv",
+        "rows_including_header": 5,
+        "columns": 7,
+        "cells": 35,
+        "sha256": "7df7a13e5d724b5cce86684af2453457b7ef9ea34f6683c1265fd80f1ec96783",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "B2",
+        "path": "results/paper_tables/table_B2.csv",
+        "rows_including_header": 3,
+        "columns": 6,
+        "cells": 18,
+        "sha256": "cd2c0ec2f763d497e6d61b18f338cdb8009885f846850ba702b2ba84a3c2ac8b",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "C1",
+        "path": "results/paper_tables/table_C1.csv",
+        "rows_including_header": 5,
+        "columns": 3,
+        "cells": 15,
+        "sha256": "9f0aeb57e7e964d2d7814aa803dea729674820a611299b3e5164452ad33e0f46",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "D1",
+        "path": "results/paper_tables/table_D1.csv",
+        "rows_including_header": 11,
+        "columns": 3,
+        "cells": 33,
+        "sha256": "41f44d143daff7373cdc92604859e184461e7d3c02f98b4da56efd72d6f78f90",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "D2",
+        "path": "results/paper_tables/table_D2.csv",
+        "rows_including_header": 10,
+        "columns": 4,
+        "cells": 40,
+        "sha256": "7a1d567d3493b7778d646d9f7bffa2defdd806500090aa0e90404440ab51f125",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "D3",
+        "path": "results/paper_tables/table_D3.csv",
+        "rows_including_header": 18,
+        "columns": 3,
+        "cells": 54,
+        "sha256": "b80525db00d49f210ebc9b5b32605eb274c7f1bf9339e0756e84cc1862c4f6ac",
+        "mismatches_after_normalization": [],
+        "passed": true
+      },
+      {
+        "id": "H1",
+        "path": "results/paper_tables/table_H1.csv",
+        "rows_including_header": 14,
+        "columns": 4,
+        "cells": 56,
+        "sha256": "dadc9c1864a00695897cc9558b393babc12dde7bcb2dffaa1fe90ed092122584",
+        "mismatches_after_normalization": [],
+        "passed": true
+      }
+    ]
+  },
+  "figure_alignment": {
+    "figures": 4,
+    "all_passed": true,
+    "checks": [
+      {
+        "id": "1",
+        "path": "figures/paper_figure_01.png",
+        "sha256": "05271fc3e98b8413ac5003cc7af2d7e5b260d1477ee4839f6f70ec7509176307",
+        "hwp_streams": [
+          "BinData/BIN0001.png"
+        ],
+        "embedded_bytes_identical": true
+      },
+      {
+        "id": "2",
+        "path": "figures/paper_figure_02.png",
+        "sha256": "edd758b47cf0f838c075c01ed6900270417cdcc4759c7e74f13cd45244a52aaf",
+        "hwp_streams": [
+          "BinData/BIN0002.png"
+        ],
+        "embedded_bytes_identical": true
+      },
+      {
+        "id": "3",
+        "path": "figures/paper_figure_03.png",
+        "sha256": "e68bd9f7663b7c62defb118040fa2c0e1df3f4d0306db367b5c73740e1402b3c",
+        "hwp_streams": [
+          "BinData/BIN0003.png"
+        ],
+        "embedded_bytes_identical": true
+      },
+      {
+        "id": "A1",
+        "path": "figures/paper_figure_A1.png",
+        "sha256": "2129a3d5dbfaf04495b3130b5497cc8b52f80cdc73e9bea7cfea898309614850",
+        "hwp_streams": [
+          "BinData/BIN0004.png"
+        ],
+        "embedded_bytes_identical": true
+      }
+    ]
+  },
+  "protocol_restoration_verification": "results/release_261105/protocol_restoration/verification.json",
+  "limits": [
+    "This record establishes file identity and observed table/figure agreement, not authorship, data authenticity or historical acquisition dates.",
+    "Historical alignment and execution records retain the manuscript and protocol hashes used at those times.",
+    "The supplemented merged-region refit is documented separately; table/figure agreement alone does not imply a new fit of every model."
+  ]
+}

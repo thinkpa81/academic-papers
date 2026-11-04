@@ -35,9 +35,9 @@
     },
     {
       "path": "CODE_RELEASE.json",
-      "bytes": 874,
-      "sha256": "3b651846a0c7c6ec956edadc5baaf711d463978dcdc9172cdbadba7e0c0210cf",
-      "sha512": "aa02614a300cdd9a095ac4e62775059f9e4d767f83fe8c3011806e93a4a8129aebc2a2241b1f2872836f36771a86aace9a57df5c04a8446d9cd510dcb2539ec5"
+      "bytes": 1664,
+      "sha256": "f0113e69f1268dd2325a3122eda51bfcc25304123b274de814c6cd8b32481659",
+      "sha512": "d12fd2906f2e524ee743adf637f71e669a7898bce62a21dd96c0bdecb1238b4bc909ce0c9faa7c38ef9bffa8785542ff489e9371b0062894493bbbeead60adcc"
     },
     {
       "path": "DATA_SOURCES.md",
@@ -59,9 +59,9 @@
     },
     {
       "path": "PAPER_OUTPUT_MAP.md",
-      "bytes": 5052,
-      "sha256": "a8ab03879400df54eed4c04207b2ae364bc9d4e600189a3d4a0fbcc065a371ab",
-      "sha512": "853fc39b8163eacf71b865d4fc6af5b36d4187083263e819066f12c4d4811890c894c02bb0ea1b6883d791ba9f1c605b325ef5f39725d161638abb75617a3e69"
+      "bytes": 5376,
+      "sha256": "e10ae55d80045e5d3a5edb5141680deb9831e6c188b3973ad492ee3587d4fc49",
+      "sha512": "449b524a3b7c772beac7607dcbf3ee2051a18ba358f74ce0ee6672f981d7b6b5aaf02b126b38e0dff298adf050efa680687370e547c06bf529a035cbf1cd090a"
     },
     {
       "path": "PUBLICATION_NOTES.md",
@@ -71,15 +71,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 3326,
-      "sha256": "b3679fadfe6bebbdbdb2630b674bd0f560e406b4139555cc59a2d04777c31803",
-      "sha512": "db56ee0b1e3ab5e4cea4a65662655f9ad28dae11554540ba362d39d7363aa8f1ced0683f80814b7270df215d4755ef80e49538541d4da88bb277e1f17d49c99f"
+      "bytes": 4333,
+      "sha256": "bdc337351726701b3dc01f77657b48840e62ac5d6b9cd466796a492905b1dc9b",
+      "sha512": "2c9a169f50708d8b22bc9d48925076c6c9aff56aa744967c9ca1d281de615b0abaff78bb9e3784023a3e35310c166e417eeb33ac99830b0891786e4ecaca2899"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 5074,
-      "sha256": "bd587e2ba2333f18ac6054c39c19ee9ddef41c5fe97096a3653d7686b2c6c714",
-      "sha512": "499e578690e727d9b85c68a72fec38e4bee02557165276b7418f71dbed75b8100760cd73ada047f2b7965f6f2afa0d53075f88a2229432b8707a27fa1d18f0fc"
+      "bytes": 6050,
+      "sha256": "85c41d5b215639626316b0701e2d69186208f5385f216a15398e5827b3a66019",
+      "sha512": "17f3423ea3d63238fc25814f06f4847400d1ac3ceb656d0512fe01ec7143e16f1a92a21f85902fde51076f1f704dd4dee4ad9d7c7c37ca6d1e9489a578f59c2d"
     },
     {
       "path": "TRANSFER_EVALUATION.md",
@@ -2279,9 +2279,9 @@
     },
     {
       "path": "results/paper_tables/index.json",
-      "bytes": 9307,
-      "sha256": "4d8640c78fa91a7c49d09cc17b98b3fcab2f98a47f206bac7c18373188c6eae2",
-      "sha512": "407fe4cb8d3903f2fbac92ca4e20193e23aacfa58499bb0105592739507b3b3ae9de3cb1afa23842f9b6314a0d94042de3f29885cd212fdc9a7f215d87505c39"
+      "bytes": 9652,
+      "sha256": "11e3950ad09d2c5ca07faffc86524a177113d39fdae80acc30b452d625550938",
+      "sha512": "8440646ddca479b912e609f056a52f231e8f5c44e486da63e2b7dd5ca0e5c9516e78a6f80765c36a37da3a71cdc7aeae7aa0907d5754eed9e043adee88d3d16b"
     },
     {
       "path": "results/paper_tables/table_01.csv",
@@ -2552,6 +2552,42 @@
       "bytes": 13630,
       "sha256": "b5e0f1ae7627f785f0fe34a33c02c773fb4c815264c3173824ed1d32925bf302",
       "sha512": "031d7f6b60a3f4bc8f2763e74e23672a680ab2b90a19c9994bd30a95b27d68b0bba7e65e44b80dae40df4b4ad56b0b000d5976a71e4335eeaa515ca629ac763d"
+    },
+    {
+      "path": "results/release_261105/manuscript_binding_261105.json",
+      "bytes": 12765,
+      "sha256": "9e737c305a5438151229c71eaa911baca9f9a06587b7c0e0766779ce5686be7b",
+      "sha512": "3a82bf33fc336333358db72571569c8793f3d054406f884a848ea620847f6d3b99279c04092193c7e8cfa5cc56fdea21610bbaf43db48c4364b7ffa583573082"
+    },
+    {
+      "path": "results/release_261105/protocol_restoration/execution.log",
+      "bytes": 6299,
+      "sha256": "000add95cd4710739cd9b81ed2880f7104e836d53a7a8f35f077df0cee2b48e9",
+      "sha512": "b022429880eb98943ad79d154713f71cfbbfa5451fc1a25a0379426b30a0d5e18e81585ce97423ee524d080976ab30198aa1b4eb7c627e7265f639ecdf9dc924"
+    },
+    {
+      "path": "results/release_261105/protocol_restoration/protocol_before_execution.json",
+      "bytes": 2342,
+      "sha256": "39888fb942cb45c32eeed0ce5f2f91172c4dc7af3f28ac14befd2b0d661dc49e",
+      "sha512": "2cfcf33276a67d0b2c869704ee1254cfc619261899569efe0c922b0cd630ba14815e8e43d2d5a20fdb39afc61f6f0bdbdd7277a048d18252b3f801a595cfea5d"
+    },
+    {
+      "path": "results/release_261105/protocol_restoration/selection_before_test.json",
+      "bytes": 1477,
+      "sha256": "5cbbf5594d933a0ebd16ba0f5b1b8d51f0ea54c40d13a2275d2a4264ae0cb8cd",
+      "sha512": "d0656704243e91043d2510e8cf377e7e8b7cef167e2d7e6b1bb014700f965e245463275c62c05c821a0b509ab66fa93c74eaed3361cae770ff4dc2813d376ad5"
+    },
+    {
+      "path": "results/release_261105/protocol_restoration/summary_for_manuscript.json",
+      "bytes": 5714,
+      "sha256": "590a779e920fd6c308e3ca59ad9f8d0967269af5131e2ef8653c4663a6658c85",
+      "sha512": "440fd9976cc83d7a598a3ce0d0c852bd2733b82980e17d230c23b5952647f8915e257e67a9aeb6d3bb85e61f4542027d241010763358ebb9bfb187ff3545f0d7"
+    },
+    {
+      "path": "results/release_261105/protocol_restoration/verification.json",
+      "bytes": 10964,
+      "sha256": "70dbe3c6c7135036b00cf3c435535dd6ecc392c8636d75c0ff5b8c74a94251ac",
+      "sha512": "a82bca4b4f9b57e0def8d85b651dfceb0cadc3bddcd486ddee7f403bfbeac2386779f8e058a34c37174a67d83602414440263f8f934a249b263604cca64596fe"
     },
     {
       "path": "results/release_261105/result_checks.json",
@@ -2900,6 +2936,12 @@
       "bytes": 4817,
       "sha256": "649164c779fea1684a74477a99ecdcb098938fbdba778cff34d220d2bec3d0d3",
       "sha512": "219e2d0b83c3f3732a079f577b0a9e8a8b893b95be7ea40d10669ac57a5836b7391da7d87cb0c32908ccd323f8bb1cc0944129e71c155e9e7bc7d25bb728ea59"
+    },
+    {
+      "path": "support/baseline/base_v11/analysis_harmonized/protocol.md",
+      "bytes": 7282,
+      "sha256": "fdaceb17766ab05a7389072ff9b348ced6cddb65ee1c98bbed2a0cc2dbc66fea",
+      "sha512": "5d5593da4eff4e3fc7b0e361943460baee2e96b00c5023571f07d1910cbe75e7b813135aaf8395652e064003aa651d5deb6a8d168d19e32c58cb0b334aab961f"
     },
     {
       "path": "support/baseline/base_v11/analysis_harmonized/results/main/analysis_panel.csv",
