@@ -1,0 +1,12 @@
+{
+  "all_nine_entrypoints_unchanged": true,
+  "all_raw_and_support_inputs_unchanged": true,
+  "inventory_difference": [
+    {
+      "path": "code/v3_independent_audit.py",
+      "at_run_start_sha256": "1b39c2c9f15c248ce3f59090ae56b78ea92e947af6885ca4dfd24b9f7d6dfc17",
+      "current_sha256": "f85926c4414fbc2f120b4be45d16dc90cb6c7e95dd304bd7ca84774eab0e5faf"
+    }
+  ],
+  "difference_reason": "After the run inventory was captured, the independent verifier removed a legacy fixed 24-table count from its optional DOCX check. The 9-stage execution does not call this verifier. The final verifier was executed separately; its digest is in independent_audit.json."
+}

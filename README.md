@@ -1,49 +1,43 @@
 # 5극 3특 지역고용 의사결정지원서비스
 
-「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」의 최종 원고(`261028_v3`)와 재현자료이다.
+「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」의 분석 코드와 결과물이다. `261105` 공개본은 제공된 최종 HWP의 표·그림·분석 범위에 맞춰 구성했다. 기준 원고의 파일명과 SHA-256은 [CODE_RELEASE.json](CODE_RELEASE.json)에 기록했다.
 
-| 자료 | 파일 |
+| 자료 | 위치 |
 | --- | --- |
-| 최종 논문 | [00_최종논문_261028_v3.docx](generated/00_최종논문_261028_v3.docx) |
-| 수정 부분 빨간색 표시본 | [01_최종논문_261028_v3_수정부분_빨간색.docx](generated/01_최종논문_261028_v3_수정부분_빨간색.docx) |
-| 최종 검증과 수정 내역 | [FINAL_REVIEW.md](results/revision_review_261028_v3/FINAL_REVIEW.md) |
-| 참고문헌·인용 확인 | [REFERENCE_REVIEW.md](results/revision_review_261028_v3/REFERENCE_REVIEW.md) |
-| 논문과 자료의 대응 | [PAPER_OUTPUT_MAP.md](PAPER_OUTPUT_MAP.md) |
+| 실행 방법과 재적합 범위 | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
+| 논문 표·그림과 코드의 대응 | [PAPER_OUTPUT_MAP.md](PAPER_OUTPUT_MAP.md) |
+| 원자료 확보본과 출처 | [DATA_SOURCES.md](DATA_SOURCES.md) |
+| 이번 재실행·검증 기록 | [results/release_261105/](results/release_261105/) |
+| 표·공표일 목록 | [results/paper_tables/](results/paper_tables/) |
+| 기준 그림 4개 | [figures/](figures/) |
+| 현장평가 계획·빈 양식 | [field_study/](field_study/) |
 
-현재 `main`에는 최종 원고, 분석·문서 생성 코드, 사용 자료, 표·그림, 검증 근거와 실행 안내를 둔다. 이전 원고와 중간 검토·재시도 산출물은 현재 목록에서 정리했다. 과거 버전 이름이 있는 자료라도 최종 분석의 입력·비교 기준·출처 확인 또는 원고 재작성에 필요한 파일은 유지한다. 특히 `support/manuscript/source_before_revision_261028_v3.docx`는 최종 원고와 수정표시본을 생성하는 기준 문서이다.
+## 실행
 
-## 재현 실행
-
-Python 3.12와 `requirements.txt`의 의존성을 준비한 뒤 저장소 루트에서 실행한다. 환경 준비와 선택 재적합은 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)를 따른다.
+Python 3.12 환경에서 저장소 루트를 작업 폴더로 사용한다.
 
 ```bash
+python -m pip install -r requirements.txt
 python code/add_hash_manifest.py --verify
 python verify_package.py
 python code/verify_results.py
 python -m unittest discover -s tests -v
-python code/run_all.py --out ../rerun_261028_v3
-python code/v3_independent_audit.py --out ../independent_check_261028_v3.json --replay ../rerun_261028_v3 --manuscript generated/00_최종논문_261028_v3.docx
+python code/run_all.py --out ../rerun_261105
+python code/v3_independent_audit.py --out ../independent_check_261105.json --replay ../rerun_261105
 ```
 
-## 자료 위치
+실행기는 기존 출력 폴더를 덮어쓰지 않는다. 단계별 로그, 종료 상태, 설치 버전과 실행 시작 시 코드·입력 목록의 SHA-256을 남긴다. 독립 검사는 보존 CSV 전체를 기준으로 재실행 결과를 대조하며 누락된 파일을 실패로 처리한다.
 
-| 경로 | 내용 |
-| --- | --- |
-| `generated/` | 최종 원고·수정표시본·빌드 기록 |
-| `code/`, `tests/` | 분석·검사·그림·문서 생성·현장평가 코드와 시험 |
-| `raw/`, `support/` | 사용한 확보본, 보존 모형·입력·비교 기준, 문서·양식 자료 |
-| `results/`, `figures/` | 계산 결과, 연구표 24개, 기준 그림 4개와 검증 기록 |
-| `field_study/` | 현장평가 계획과 빈 양식 |
-| `manifest_sha256*.json` | 현재 파일의 크기·SHA-256·SHA-512 |
+## 검증 결과
 
-자료 출처와 이용조건은 [DATA_SOURCES.md](DATA_SOURCES.md), 공개 범위는 [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md)에 있다.
+2026년 11월 5일 9단계 재실행에서 CSV 157개·132,063행이 보존 결과와 허용오차 내 일치했다. 독립 검사 27개, 보존 결과 검사 653개, 단위시험 25개, 그림 수치 97개·표기 18개가 통과했다. [검증 범위와 기록](results/release_261105/AUDIT_SCOPE.md)을 따른다.
 
-## 검증 범위
+## 재현 범위
 
-2026년 10월 28일 9개 실행 단계를 재실행하여 CSV 157개·132,063행이 보존 결과와 일치함을 확인했다. 독립 검사 51개, 기존 검사 653개, 단위시험 12개, 그림 수치 검사 97개와 문자 검사 18개를 통과했다. 최종 원고·수정표시본은 각각 48쪽이며, 참고문헌 61개와 인용번호의 대응을 확인했다.
+9단계는 예측 재분석, 서비스 결함시험, 모형 교체시험, 보존 모형 검산, 지역 대체 규칙, 후보모형 비교, 진단, 등록 근거 대조와 외부자료 공통 요건 시험으로 구성한다. `preserved_audit`는 보존 모형·입력·예측의 검산이며 모든 보완모형을 새로 적합하는 단계가 아니다. 선택 재적합 명령은 실행 안내에 구분했다.
 
-`preserved_audit`는 일부 보완분석의 보존 모형·입력·예측 검산이다. 모든 보완모형의 신규 적합을 뜻하지 않는다. 실제 현장 참여자·응답은 0건이며, 기술시험의 합성 사례를 사용자 효과로 해석하지 않는다. KOSIS 동적표 2개는 보존 공식 기록으로 확인했고 일부 출판사 전문에는 접근 제한이 있다.
+현장평가 자료는 실무자 8명·16과업·두 표시조건의 계획과 빈 양식이다. 실제 참여자와 관측값은 0건이다. 기술시험의 합성 사례와 실제 사용자 평가 결과를 구분한다.
 
-원고는 제공된 HWP 양식의 문서 규격을 적용한 DOCX이다. 원본 전용 글꼴은 NanumMyeongjo로 대체했으며, 네이티브 HWP 변환을 검증하지 않았다.
+현재 `main`에는 분석에 필요한 코드·입력·보존모형·결과·표·그림·검증 기록을 둔다. 이전 DOCX 원고, 문서 전용 빌더와 과거 편집 검토자료는 정리했다. 과거 이름이 남은 `support/` 자료는 실행 의존성 또는 원결과 확인에 필요하다. 상세 공개 범위는 [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md)를 따른다.
 
-논문 3.9절의 재현 기준은 [코드 커밋 `f4ae5299`](https://github.com/thinkpa81/academic-papers/commit/f4ae5299b2f4382f94e032804568bcd8554ca5fc)이다. 최종 원고를 처음 배포한 커밋은 [`9a87a0c2`](https://github.com/thinkpa81/academic-papers/commit/9a87a0c2965c730d6052b3de2762018b383cb8c0)이며, 현재 파일 정리는 논문의 분석 결과를 변경하지 않는다. 이전 파일은 Git 이력에서 확인할 수 있다.
+논문에는 특정 커밋의 전체 40자리 SHA를 기재한다. 해당 공개본을 체크아웃한 뒤 `git rev-parse HEAD`로 확인한다. 루트의 SHA-256·SHA-512 배포목록은 파일 동일성을 확인하며 원자료의 진위나 과거 확보시점을 인증하지 않는다.

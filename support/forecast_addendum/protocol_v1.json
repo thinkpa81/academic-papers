@@ -2,7 +2,7 @@
   "version": "1.0",
   "recorded_utc": "2026-10-18T14:15:03.158172+00:00",
   "status": "retrospective exploratory addendum; not preregistration, not an independent test set",
-  "knowledge_before_run": "Existing manuscript and other-AI critique already seen, including reported AR1 MAE 9.235 and original results. No new computed candidate loss inspected before this protocol.",
+  "knowledge_before_run": "Existing manuscript and external critique already seen, including reported AR1 MAE 9.235 and original results. No new computed candidate loss inspected before this protocol.",
   "source_commit": "withheld_for_anonymous_review",
   "source_hashes": {
     "analysis_harmonized/run.py": "09d1cd3afdf11eee28fccd9035ce36e4629cf3f9c7fbb6cba06f6a9351b450aa",

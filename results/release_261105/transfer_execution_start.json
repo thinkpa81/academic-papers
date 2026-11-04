@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-04T16:51:04.676881+00:00",
+  "cases_sha256": "49b8c43bf8629ac8501180c85b9ae27761648454890306fa51e2e685895821c5",
+  "reference_sha256": "e48937a0ee5aa95f8578763a6cf6d8a7851158479748893dd84001c966766487",
+  "code_sha256": {
+    "code/evidence_contract.py": "07a25d4f853148549d74a061067c74dc12d41f1975b0dae0128bcd381e69d835",
+    "code/transfer_sources.py": "4c86ebe54799f65c4f1fc88ecef85a46ad4eed879d46adeeef82e091a53c6ba2",
+    "code/transfer_cases.py": "366cbabf54a0353d719fb3b6ea6f750c32d00a781d08f598bd53d6614b973255",
+    "code/run_transfer_evaluation.py": "edb2e2e30e43db98bb263ef65af43a8e69a885493f089738e3c2d920e7382e28"
+  }
+}

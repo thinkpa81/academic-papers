@@ -1,8 +1,14 @@
 {
-  "release": "261028_v3",
+  "release": "261105",
+  "release_date_korea": "2026-11-05",
   "repository": "https://github.com/thinkpa81/academic-papers",
-  "code_commit": "f4ae5299b2f4382f94e032804568bcd8554ca5fc",
-  "code_tree": "2fe86a17f0d85b6d77bf02eddf31577be83bc8fe",
-  "code_commit_url": "https://github.com/thinkpa81/academic-papers/commit/f4ae5299b2f4382f94e032804568bcd8554ca5fc",
-  "purpose": "Verified reproducibility code/data/figures/specs; final manuscripts are bound to this immutable commit in a subsequent publication commit."
+  "scope": "Analysis code, preserved numerical results, paper tables/figures, source evidence and field-study preparation for the supplied final HWP manuscript.",
+  "manuscript": {
+    "file_name": "261029_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가(6).hwp",
+    "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
+    "public_file_included": false
+  },
+  "commit_binding": "Resolve the immutable commit with git rev-parse HEAD after checkout.",
+  "validation_directory": "results/release_261105",
+  "historical_protocol_hashes": "Historical execution logs retain the original protocol digests; descriptive wording changes are documented in results/release_261105/cleanup_record.json."
 }

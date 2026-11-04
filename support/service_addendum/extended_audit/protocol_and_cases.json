@@ -2,7 +2,7 @@
   "protocol_id": "KITS-SERVICE-AUDIT-20261018-v1",
   "frozen_utc": "2026-10-18T14:16:08.725574+00:00",
   "status": "post-development specification audit frozen before its execution",
-  "independence": "AI-authored internal audit after supplied implementation inspection. Not independent human evaluation, external preregistration, or untouched holdout.",
+  "independence": "Internal computational audit after supplied implementation inspection. Not independent human evaluation, external preregistration, or untouched holdout.",
   "oracle": "Expected block/permit fixed in this case file, based on documented invariants. No oracle label is read from validator output.",
   "unit": "Synthetic fixture or transaction state; repeated states and combinations are dependent, not independent observations.",
   "categories": {

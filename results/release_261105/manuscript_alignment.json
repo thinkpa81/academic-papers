@@ -1,0 +1,341 @@
+{
+  "revision": "261105",
+  "source_manuscript": {
+    "filename": "261029_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가(6).hwp",
+    "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
+    "included_in_repository": false
+  },
+  "comparison_method": "HWP structural table-cell extraction and decompressed BinData byte comparison. Existing CSV column names retained; cell contents matched after whitespace normalization and ASCII-minus normalization.",
+  "existing_tables": [
+    {
+      "table": "1",
+      "path": "results/paper_tables/table_01.csv",
+      "rows": 9,
+      "columns": 3,
+      "changed_cells": 1,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "f49275cc72823a1a2f85b452c5168d645dc6dce80c24fc0d162250192e8abf5a",
+      "after_sha256": "691c6dada613138380e1474fbb7ab31bbb9042bb04b862158c178afacb343177"
+    },
+    {
+      "table": "2",
+      "path": "results/paper_tables/table_02.csv",
+      "rows": 5,
+      "columns": 4,
+      "changed_cells": 2,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "a6005eab4f0c0ee731f76859887afdc39a6750eb7af5b2856b177021ac7afe14",
+      "after_sha256": "5bcb3564f0ff917b4829c658f3dcefd64f33d0b0345b735de360da29433a9951"
+    },
+    {
+      "table": "3",
+      "path": "results/paper_tables/table_03.csv",
+      "rows": 5,
+      "columns": 5,
+      "changed_cells": 4,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "4c6f96f56792f63e98c47733ed71c99966f18c1c0ab5cf7e151a07b1b6b8ce2c",
+      "after_sha256": "ce03966a7ecf22ed64451aee0df2f8135f84ee158ee645f4ed55407e60db3fa3"
+    },
+    {
+      "table": "4",
+      "path": "results/paper_tables/table_04.csv",
+      "rows": 13,
+      "columns": 5,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "2c1776cb3794eb0f541ac4fcbd2fce3da897554d12ea0fa309b5ee3777268062",
+      "after_sha256": "f9a912ddae7b9028e633a1ed908ab9507b56602eecea2535ba6c99f7c6f330f6"
+    },
+    {
+      "table": "5",
+      "path": "results/paper_tables/table_05.csv",
+      "rows": 4,
+      "columns": 6,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "5f7711e291b9243b829bf6a435cd28bc28d8579fc8e782e9f2dcc2b508e33ff9",
+      "after_sha256": "ca0d9a24c689e4d1483224f620313bac5cdd61b1671a5cf26c7df27452f076d1"
+    },
+    {
+      "table": "6",
+      "path": "results/paper_tables/table_06.csv",
+      "rows": 5,
+      "columns": 6,
+      "changed_cells": 1,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "3e752f22cd88050e67af84fd47672f23b45c0f436591cf2dd3a2e687d899cdde",
+      "after_sha256": "5a514b76d8664f90ae99f91590dafc5374c01c9e11ccc325ab244195164429dd"
+    },
+    {
+      "table": "7",
+      "path": "results/paper_tables/table_07.csv",
+      "rows": 4,
+      "columns": 4,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "d0ef4b52b8d698a2debae8b2c6336119eb48daf0d1431db5865a0fde0c1299a5",
+      "after_sha256": "e7cb1e864d7f707d73beb4ab431d5f42d333b46f083676a1c0812ee99e1bf8e8"
+    },
+    {
+      "table": "8",
+      "path": "results/paper_tables/table_08.csv",
+      "rows": 5,
+      "columns": 6,
+      "changed_cells": 3,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "d6d42af51a2afe0b33d2a63e46d3bb609157cfe45bead22a5f121f824eba006f",
+      "after_sha256": "f661228cb87d8611f6a1419aff7bd24c580e4ddf44967647ac62a060f5df24ba"
+    },
+    {
+      "table": "9",
+      "path": "results/paper_tables/table_09.csv",
+      "rows": 9,
+      "columns": 7,
+      "changed_cells": 2,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "59d6218f72f06b48709d8a061deb180eb18c20da8f6863920fc8236b72b777b7",
+      "after_sha256": "9e078c45a29b753a5835c1b80ee4f13508af01f487011d9ef3653b8c1f3279f2"
+    },
+    {
+      "table": "10",
+      "path": "results/paper_tables/table_10.csv",
+      "rows": 11,
+      "columns": 4,
+      "changed_cells": 1,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "d08ef4b0baff729eb266ed42e1ee5c23c71fb9e816950036c3f46f52e4c72d87",
+      "after_sha256": "a305dfec1dbaa71e42594bbbdb5b7b7ee3eabdbdfa6177ddb31c356d7820501f"
+    },
+    {
+      "table": "11",
+      "path": "results/paper_tables/table_11.csv",
+      "rows": 5,
+      "columns": 4,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "85fee5f8b0c4606f46eaac91fd7fb912718548c4998f2f78453ee41c86f05b70",
+      "after_sha256": "8749ae3aa8de34bd8133a2a2e867078998444c2f78258588cb6b61f4fd4c678c"
+    },
+    {
+      "table": "12",
+      "path": "results/paper_tables/table_12.csv",
+      "rows": 6,
+      "columns": 5,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "c1c7eebd5cc2f5f0dc672cdb5d0a1d18de6bef776e4369a5cdcdc5b0fe14434f",
+      "after_sha256": "b1efbb924fe97369af105cd8bbb6ea16b4ac4686029ad7323a933c912e546a4c"
+    },
+    {
+      "table": "13",
+      "path": "results/paper_tables/table_13.csv",
+      "rows": 4,
+      "columns": 5,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "fe5e1be8f56e9ecdb65ebb5669137bf0a849f446cc7807f948b352d78492c4ee",
+      "after_sha256": "e39ce4be93f3e099150b8d74750050a142a0ffa99c59464f7f78125b43af5ea4"
+    },
+    {
+      "table": "14",
+      "path": "results/paper_tables/table_14.csv",
+      "rows": 6,
+      "columns": 5,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "232b6147dcbd6a375e0be48c05af2855efcd3cf18317fb26c668de8da2a6d7a9",
+      "after_sha256": "5dc364534d1e49a116d6704fe980f967def04c2c381c836c61641861b3e5e8c8"
+    },
+    {
+      "table": "15",
+      "path": "results/paper_tables/table_15.csv",
+      "rows": 9,
+      "columns": 5,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "a640b3abf25cb75ae41d8f2ee2a4ab6adc2afd74a97368851c519766e1670f41",
+      "after_sha256": "c6a78bed4e5ac9f06b3a4c82ae73747f7861b9f3de40edd6980aef3c6e4b9d28"
+    },
+    {
+      "table": "A1",
+      "path": "results/paper_tables/table_A1.csv",
+      "rows": 5,
+      "columns": 4,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "184ae091613a492c5f3e6a9eaeb47e1f9dcb32933e493f286a80e391f9c2702b",
+      "after_sha256": "1cb3697e30f43128ace63b8e5f0a9ece418b05c03c9565466e6f00cbb5636017"
+    },
+    {
+      "table": "A2",
+      "path": "results/paper_tables/table_A2.csv",
+      "rows": 7,
+      "columns": 3,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "618b3ed8c958a5485a1da67409332752ea8d2a4d98744a63012eaf8d69b7fc9a",
+      "after_sha256": "16393c5fd096b3ec11b8457198d31c3ba58c6a8444286732eed098efd2ea7378"
+    },
+    {
+      "table": "A3",
+      "path": "results/paper_tables/table_A3.csv",
+      "rows": 11,
+      "columns": 5,
+      "changed_cells": 14,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "f01be9b4c5f5e82f6609792a5e4583d5499946d9b088deaed070eba66d1842ae",
+      "after_sha256": "205f22b7e5e06e7bf7d62f41b4d3968694c2779e539f4781d4366a0b6c56b599"
+    },
+    {
+      "table": "B1",
+      "path": "results/paper_tables/table_B1.csv",
+      "rows": 5,
+      "columns": 7,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "a07cd43e08fbfca98b32ea4a2996df9941e0b1f59b1762c62b0970586fb48c79",
+      "after_sha256": "7df7a13e5d724b5cce86684af2453457b7ef9ea34f6683c1265fd80f1ec96783"
+    },
+    {
+      "table": "B2",
+      "path": "results/paper_tables/table_B2.csv",
+      "rows": 3,
+      "columns": 6,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "e2df8d425f602444293fce5d0bcd0eec11879619cc617c3e7fe36f2a1473bdf6",
+      "after_sha256": "cd2c0ec2f763d497e6d61b18f338cdb8009885f846850ba702b2ba84a3c2ac8b"
+    },
+    {
+      "table": "C1",
+      "path": "results/paper_tables/table_C1.csv",
+      "rows": 5,
+      "columns": 3,
+      "changed_cells": 4,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "5dda77f645ce39ff0724b192603adb8cb434a6059bd5638b5db8f3d5c0d8e20d",
+      "after_sha256": "9f0aeb57e7e964d2d7814aa803dea729674820a611299b3e5164452ad33e0f46"
+    },
+    {
+      "table": "D1",
+      "path": "results/paper_tables/table_D1.csv",
+      "rows": 11,
+      "columns": 3,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "b36ddc7a82a02c6bfbcc230ddb0cdd9b33397637df981e6c776fe7496ae7c5d0",
+      "after_sha256": "41f44d143daff7373cdc92604859e184461e7d3c02f98b4da56efd72d6f78f90"
+    },
+    {
+      "table": "D2",
+      "path": "results/paper_tables/table_D2.csv",
+      "rows": 10,
+      "columns": 4,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "f07682d8db46e28d1db33cf25f0b3371a4cd6e0b422308b95ee7ba0e9b54e3db",
+      "after_sha256": "7a1d567d3493b7778d646d9f7bffa2defdd806500090aa0e90404440ab51f125"
+    },
+    {
+      "table": "D3",
+      "path": "results/paper_tables/table_D3.csv",
+      "rows": 18,
+      "columns": 3,
+      "changed_cells": 0,
+      "column_names_preserved": true,
+      "numeric_tokens_unchanged": true,
+      "content_matches_manuscript_after_whitespace_normalization": true,
+      "before_sha256": "881ad6025de8f0846320286624a938d183c3422e45037a9b94de714f3e952b01",
+      "after_sha256": "b80525db00d49f210ebc9b5b32605eb274c7f1bf9339e0756e84cc1862c4f6ac"
+    }
+  ],
+  "existing_table_count": 24,
+  "existing_numeric_values_changed": 0,
+  "new_tables": [
+    {
+      "table": "H1",
+      "rows_excluding_header": 13,
+      "csv_matches_manuscript_cells_exactly": true,
+      "dates_titles_and_pdf_urls_match_preserved_sources": true,
+      "publication_url_identity": "All 13 bid/list_no identifiers agree; manuscript menu and search-filter query parameters may differ."
+    }
+  ],
+  "figures": [
+    {
+      "figure": "1",
+      "path": "figures/paper_figure_01.png",
+      "sha256": "05271fc3e98b8413ac5003cc7af2d7e5b260d1477ee4839f6f70ec7509176307",
+      "embedded_manuscript_bytes_identical": true
+    },
+    {
+      "figure": "2",
+      "path": "figures/paper_figure_02.png",
+      "sha256": "edd758b47cf0f838c075c01ed6900270417cdcc4759c7e74f13cd45244a52aaf",
+      "embedded_manuscript_bytes_identical": true
+    },
+    {
+      "figure": "3",
+      "path": "figures/paper_figure_03.png",
+      "sha256": "e68bd9f7663b7c62defb118040fa2c0e1df3f4d0306db367b5c73740e1402b3c",
+      "embedded_manuscript_bytes_identical": true
+    },
+    {
+      "figure": "A1",
+      "path": "figures/paper_figure_A1.png",
+      "sha256": "2129a3d5dbfaf04495b3130b5497cc8b52f80cdc73e9bea7cfea898309614850",
+      "embedded_manuscript_bytes_identical": true
+    }
+  ],
+  "limitations": [
+    "Table display-value agreement is distinct from independently rerunning every statistical analysis.",
+    "Publication calendar records identify release dates; they do not establish original statistical-cell vintages.",
+    "The manuscript itself is not included in this repository."
+  ]
+}

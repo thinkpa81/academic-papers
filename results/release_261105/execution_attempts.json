@@ -1,0 +1,10 @@
+{
+  "initial_attempt": {
+    "status": "invalidated",
+    "reason": "Source formatting overlapped the initial transfer evaluation. The code-integrity guard detected the change and rejected the run. Final execution started after all source edits completed.",
+    "native_unexpected": 0,
+    "pandera_registered_unexpected": 0,
+    "matched_information_engine_agreement": 7590
+  },
+  "final_attempt": "run_summary.json"
+}

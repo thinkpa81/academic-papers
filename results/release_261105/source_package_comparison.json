@@ -1,0 +1,22 @@
+{
+  "source_folder": "261105",
+  "source_archive": "재현패키지.zip",
+  "source_archive_sha256": "0be0ce579fafd0b2ca83d513132f40e0b5c600a1f8213b96235f7c50d442daf6",
+  "source_archive_files": 737,
+  "repository_parent_commit": "ca48096073982f9ae2c1aa86cc91e17194293577",
+  "repository_files": 646,
+  "common_file_content_identical": 638,
+  "common_file_content_different": [
+    "DATA_SOURCES.md",
+    "PAPER_OUTPUT_MAP.md",
+    "PUBLICATION_NOTES.md",
+    "README.md",
+    "REPRODUCIBILITY.md",
+    "code/build_manuscript.py",
+    "manifest_sha256.json",
+    "manifest_sha256_sha512.json"
+  ],
+  "all_common_analysis_code_and_result_bytes_identical": true,
+  "excluded_package_only_files": 91,
+  "exclusion_reason": "Superseded manuscripts, duplicate figure aliases and prior review/retry records already absent from the repository."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "release": "261105",
+  "date_korea": "2026-11-05",
+  "stages": 9,
+  "matched_csv_files": 157,
+  "matched_csv_rows": 132063,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-10,
+  "independent_checks": 27,
+  "preserved_result_checks": 653,
+  "figure_numeric_checks": 97,
+  "figure_glyph_checks": 18,
+  "unit_tests": 25,
+  "paper_tables": 25,
+  "paper_figures": 4,
+  "publication_calendar_records": 13,
+  "obsolete_files_removed": 76,
+  "human_participants": 0,
+  "field_observations": 0,
+  "all_supplementary_models_refitted": false,
+  "source_authenticity_or_historical_vintage_certified": false
+}

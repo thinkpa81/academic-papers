@@ -1,0 +1,251 @@
+{
+  "schema_version": 2,
+  "started_utc": "2026-11-04T16:49:14.436172+00:00",
+  "status": "passed",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": {
+    "system": "Linux",
+    "release": "6.18.57",
+    "machine": "x86_64"
+  },
+  "controlled_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "selected_jobs": [
+    "forecast_replay",
+    "service_replay",
+    "model_swap_replay",
+    "preserved_audit",
+    "local_fallback",
+    "benchmark",
+    "diagnostics",
+    "registered_service",
+    "transfer_evaluation"
+  ],
+  "jobs": [
+    {
+      "job": "forecast_replay",
+      "status": "passed",
+      "log": "forecast_replay.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/forecast_addendum/run_addendum.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/forecast_replay"
+      ],
+      "script": {
+        "bytes": 16146,
+        "sha256": "71b61084f0ec2d16057ee6315780786174d1e9331d03ba1c0b3849f3935203ae"
+      },
+      "exit_code": 0,
+      "seconds": 1.847
+    },
+    {
+      "job": "service_replay",
+      "status": "passed",
+      "log": "service_replay.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/service_addendum/replay_service_evaluation.py",
+        "--output",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/service_replay"
+      ],
+      "script": {
+        "bytes": 5592,
+        "sha256": "e8c38c787c746507336e02e7e9f16231adbe7c4a5e4c9871d0fcf0f874836dde"
+      },
+      "exit_code": 0,
+      "seconds": 0.487
+    },
+    {
+      "job": "model_swap_replay",
+      "status": "passed",
+      "log": "model_swap_replay.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/model_swap_addendum/model_swap_audit.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/model_swap_replay"
+      ],
+      "script": {
+        "bytes": 27451,
+        "sha256": "6f3d482f24d4d1b2589d99359920af014624cd672fb16bc6eaec0eac672f4680"
+      },
+      "exit_code": 0,
+      "seconds": 0.483
+    },
+    {
+      "job": "preserved_audit",
+      "status": "passed",
+      "log": "preserved_audit.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/original_result_audit/run_audit.py",
+        "--base",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/baseline/base_v11",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/preserved_audit"
+      ],
+      "script": {
+        "bytes": 10645,
+        "sha256": "39800e1c09cca328fb5fe52fa39ad5f81da9b10618dd93d6726dee11f2436ded"
+      },
+      "exit_code": 0,
+      "seconds": 4.575
+    },
+    {
+      "job": "local_fallback",
+      "status": "passed",
+      "log": "local_fallback.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/baseline/code/evaluate_local_fallback.py",
+        "--source-root",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/support/baseline/base_v11",
+        "--output-dir",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/local_fallback"
+      ],
+      "script": {
+        "bytes": 24925,
+        "sha256": "7c7d3cddf6f9274805f3fe5b60c13fb2ff61b03c54466a1eb3e129e24806f69f"
+      },
+      "exit_code": 0,
+      "seconds": 0.464
+    },
+    {
+      "job": "benchmark",
+      "status": "passed",
+      "log": "benchmark.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/code/run_benchmark.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/benchmark"
+      ],
+      "script": {
+        "bytes": 13431,
+        "sha256": "e6d020f5b8d091c291e8ce551d6d9b529fcf3f97c08b490f9034aabc285ee348"
+      },
+      "exit_code": 0,
+      "seconds": 35.919
+    },
+    {
+      "job": "diagnostics",
+      "status": "passed",
+      "log": "diagnostics.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/code/run_diagnostics.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/diagnostics"
+      ],
+      "script": {
+        "bytes": 5714,
+        "sha256": "ee58a109814c256d9e22d4848388cbd3a6b3b5c5473531cf6b8b15050072c885"
+      },
+      "exit_code": 0,
+      "seconds": 62.487
+    },
+    {
+      "job": "registered_service",
+      "status": "passed",
+      "log": "registered_service.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/code/run_registered_evaluation.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/registered_service"
+      ],
+      "script": {
+        "bytes": 10378,
+        "sha256": "94223104af4004945dde2a07dfc8fb2dbca3b478ab0889ff15768a09129733ec"
+      },
+      "exit_code": 0,
+      "seconds": 1.859
+    },
+    {
+      "job": "transfer_evaluation",
+      "status": "passed",
+      "log": "transfer_evaluation.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/4bb59f0074a6/academic-papers/code/run_transfer_evaluation.py",
+        "--out",
+        "/workspace/scratch/4bb59f0074a6/rerun_261105_final/transfer_evaluation"
+      ],
+      "script": {
+        "bytes": 8505,
+        "sha256": "edb2e2e30e43db98bb263ef65af43a8e69a885493f089738e3c2d920e7382e28"
+      },
+      "exit_code": 0,
+      "seconds": 41.84
+    }
+  ],
+  "source_inventory": {
+    "path": "source_inventory.json",
+    "bytes": 61862,
+    "sha256": "c5bd1daa6e0f5e41a0df2cbb40583f57768e2748a46ad645df60fa328967973c"
+  },
+  "dependencies": {
+    "numpy": {
+      "required": "2.3.5",
+      "installed": "2.3.5"
+    },
+    "pandas": {
+      "required": "2.2.3",
+      "installed": "2.2.3"
+    },
+    "scipy": {
+      "required": "1.17.0",
+      "installed": "1.17.0"
+    },
+    "scikit-learn": {
+      "required": "1.8.0",
+      "installed": "1.8.0"
+    },
+    "xgboost": {
+      "required": "3.4.1",
+      "installed": "3.4.1"
+    },
+    "catboost": {
+      "required": "1.2.10",
+      "installed": "1.2.10"
+    },
+    "lightgbm": {
+      "required": "4.7.0",
+      "installed": "4.7.0"
+    },
+    "matplotlib": {
+      "required": "3.10.8",
+      "installed": "3.10.8"
+    },
+    "Pillow": {
+      "required": "12.3.0",
+      "installed": "12.3.0"
+    },
+    "joblib": {
+      "required": "1.5.3",
+      "installed": "1.5.3"
+    },
+    "pandera": {
+      "required": "0.30.0",
+      "installed": "0.30.0"
+    },
+    "jsonschema": {
+      "required": "4.25.1",
+      "installed": "4.25.1"
+    },
+    "narwhals": {
+      "required": "2.27.1",
+      "installed": "2.27.1"
+    },
+    "python-docx": {
+      "required": "1.2.0",
+      "installed": "1.2.0"
+    }
+  },
+  "completed_utc": "2026-11-04T16:51:44.489626+00:00"
+}

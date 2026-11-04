@@ -5,6 +5,7 @@ Run only after all release files are final. This adds SHA-512 to distribution
 integrity checks; historical SHA-256 provenance and service schemas stay intact.
 The two root manifest files are excluded to avoid circular self-digests.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -12,7 +13,14 @@ import hashlib
 import json
 from pathlib import Path
 
-EXCLUDED_PARTS = {".git", ".venv", "venv", "__pycache__", ".pytest_cache", ".ruff_cache"}
+EXCLUDED_PARTS = {
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".ruff_cache",
+}
 MANIFEST_NAMES = {"manifest_sha256.json", "manifest_sha256_sha512.json"}
 
 
@@ -37,8 +45,11 @@ def file_record(path: Path, relative: str):
             size += len(block)
             for digest in digests.values():
                 digest.update(block)
-    return {"path": relative, "bytes": size,
-            **{name: digest.hexdigest() for name, digest in digests.items()}}
+    return {
+        "path": relative,
+        "bytes": size,
+        **{name: digest.hexdigest() for name, digest in digests.items()},
+    }
 
 
 def write_manifests(root: Path, legacy: bool = False):
@@ -53,16 +64,20 @@ def write_manifests(root: Path, legacy: bool = False):
         "files": records,
     }
     (root / "manifest_sha256_sha512.json").write_text(
-        json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     if legacy:
         rows = [{k: row[k] for k in ("path", "bytes", "sha256")} for row in records]
         (root / "manifest_sha256.json").write_text(
-            json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
     return len(records)
 
 
 def verify(root: Path):
-    document = json.loads((root / "manifest_sha256_sha512.json").read_text(encoding="utf-8"))
+    document = json.loads(
+        (root / "manifest_sha256_sha512.json").read_text(encoding="utf-8")
+    )
     rows = document["files"]
     if document.get("algorithms") != ["sha256", "sha512"] or not isinstance(rows, list):
         raise ValueError("Invalid dual-hash manifest")
@@ -70,7 +85,11 @@ def verify(root: Path):
     for row in rows:
         relative = row["path"]
         path = (root / relative).resolve()
-        if Path(relative).is_absolute() or not path.is_relative_to(root) or path == root:
+        if (
+            Path(relative).is_absolute()
+            or not path.is_relative_to(root)
+            or path == root
+        ):
             errors.append(f"Unsafe path: {relative}")
             continue
         if relative in seen:
@@ -92,10 +111,15 @@ def verify(root: Path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument(
+        "--root", type=Path, default=Path(__file__).resolve().parents[1]
+    )
     parser.add_argument("--verify", action="store_true")
-    parser.add_argument("--legacy-sha256", action="store_true",
-                        help="Also regenerate the backwards-compatible root SHA-256 manifest")
+    parser.add_argument(
+        "--legacy-sha256",
+        action="store_true",
+        help="Also regenerate the backwards-compatible root SHA-256 manifest",
+    )
     args = parser.parse_args()
     root = args.root.resolve(strict=True)
     if args.verify and args.legacy_sha256:

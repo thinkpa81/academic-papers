@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "path": "code/evidence_contract.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/run_transfer_evaluation.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/transfer_cases.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/transfer_sources.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/audit_transfer_results.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/pilot_materials.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/pilot_analysis.py",
+      "ast_identical": true
+    },
+    {
+      "path": "code/add_hash_manifest.py",
+      "ast_identical": true
+    }
+  ]
+}

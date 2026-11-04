@@ -1,0 +1,34 @@
+test_ambiguous_compression_variants_are_rejected (test_numerical_audits.NumericalAuditContracts.test_ambiguous_compression_variants_are_rejected) ... ok
+test_compressed_reference_matches_plain_replay (test_numerical_audits.NumericalAuditContracts.test_compressed_reference_matches_plain_replay) ... ok
+test_extra_output_is_reported_as_uncompared (test_numerical_audits.NumericalAuditContracts.test_extra_output_is_reported_as_uncompared) ... ok
+test_figure_module_import_performs_no_artifact_io (test_numerical_audits.NumericalAuditContracts.test_figure_module_import_performs_no_artifact_io) ... ok
+test_missing_output_is_not_silently_skipped (test_numerical_audits.NumericalAuditContracts.test_missing_output_is_not_silently_skipped) ... ok
+test_numerical_mismatch_is_reported (test_numerical_audits.NumericalAuditContracts.test_numerical_mismatch_is_reported) ... ok
+test_assignment_balance (test_pilot.PilotTests.test_assignment_balance) ... ok
+test_display_values_equivalent_and_no_answer_labels (test_pilot.PilotTests.test_display_values_equivalent_and_no_answer_labels) ... ok
+test_empty_has_no_effects (test_pilot.PilotTests.test_empty_has_no_effects) ... ok
+test_numeric_source_binding (test_pilot.PilotTests.test_numeric_source_binding) ... ok
+test_pairing_without_pseudoreplication (test_pilot.PilotTests.test_pairing_without_pseudoreplication) ... ok
+test_reject_synthetic_and_nonfinite_records (test_pilot.PilotTests.test_reject_synthetic_and_nonfinite_records) ... ok
+test_manifest_detects_missing_corrupt_and_escaping_files (test_release_contracts.ReleaseContracts.test_manifest_detects_missing_corrupt_and_escaping_files) ... ok
+test_nonfinite_reference_is_rejected (test_release_contracts.ReleaseContracts.test_nonfinite_reference_is_rejected) ... ok
+test_registry_shapes_fail_closed (test_release_contracts.ReleaseContracts.test_registry_shapes_fail_closed) ... ok
+test_runner_preserves_existing_directory (test_release_contracts.ReleaseContracts.test_runner_preserves_existing_directory) ... ok
+test_runner_records_failed_stage (test_release_contracts.ReleaseContracts.test_runner_records_failed_stage) ... Running failed_stage
+ok
+test_valid_control_still_permitted (test_release_contracts.ReleaseContracts.test_valid_control_still_permitted) ... ok
+test_analysis_directories_cannot_receive_run_outputs (test_runner.RunnerTests.test_analysis_directories_cannot_receive_run_outputs) ... ok
+test_interruption_does_not_run_later_stages (test_runner.RunnerTests.test_interruption_does_not_run_later_stages) ... Running first
+ok
+test_invalid_selections_do_not_create_output (test_runner.RunnerTests.test_invalid_selections_do_not_create_output) ... ok
+test_inventory_changes_with_source_and_excludes_bytecode (test_runner.RunnerTests.test_inventory_changes_with_source_and_excludes_bytecode) ... ok
+test_preparation_failure_is_recorded_before_any_stage_runs (test_runner.RunnerTests.test_preparation_failure_is_recorded_before_any_stage_runs) ... ok
+test_selections_follow_dependency_order (test_runner.RunnerTests.test_selections_follow_dependency_order) ... ok
+test_success_records_inventory_digest_and_controlled_environment (test_runner.RunnerTests.test_success_records_inventory_digest_and_controlled_environment) ... Running stage
+ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.322s
+
+OK
+Completed 1 stages: /tmp/tmpu586by1i/run

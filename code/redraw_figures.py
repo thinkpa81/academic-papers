@@ -13,7 +13,7 @@ import numpy as np
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
-from matplotlib.patches import Rectangle, FancyArrowPatch
+from matplotlib.patches import FancyArrowPatch, Rectangle
 
 INPUT = Path(__file__).resolve().parents[1] / "figures"
 ROOT = INPUT
@@ -99,19 +99,29 @@ def save(f, name):
     os.replace(temporary, ROOT / (name + ".png"))
     f.savefig(ROOT / (name + ".pdf"))
     f.savefig(ROOT / (name + ".svg"))
-    canonical = {"figure1_final": "paper_figure_01", "figure2_final": "paper_figure_A1",
-                 "figure3_final": "paper_figure_02", "figure4_final": "paper_figure_03"}.get(name)
+    canonical = {
+        "figure1_final": "paper_figure_01",
+        "figure2_final": "paper_figure_A1",
+        "figure3_final": "paper_figure_02",
+        "figure4_final": "paper_figure_03",
+    }.get(name)
     if canonical:
         import shutil
+
         for extension in ("png", "pdf", "svg"):
-            shutil.copyfile(ROOT / f"{name}.{extension}", ROOT / f"{canonical}.{extension}")
+            shutil.copyfile(
+                ROOT / f"{name}.{extension}", ROOT / f"{canonical}.{extension}"
+            )
     plt.close(f)
 
 
 def draw3():
     """Main-text Figure 2: source-backed Seoul BTE evidence display."""
     d = json.loads((INPUT / "fig3_validation.json").read_text())
-    card_path = INPUT.parent / "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json"
+    card_path = (
+        INPUT.parent
+        / "support/model_swap_addendum/guard_snapshot/source_snapshot/reproduced_service/evidence_card_2025_seoul_BTE.json"
+    )
     card = json.loads(card_path.read_text())
     ridge = d["ridge"]
     basev = d["baseline"]
@@ -165,7 +175,7 @@ def draw3():
     ax.text(
         (ridge + basev) / 2,
         -0.16,
-        f"편차 {ridge-basev:+.2f} · {card['relative_deviation']['class']}",
+        f"편차 {ridge - basev:+.2f} · {card['relative_deviation']['class']}",
         fontsize=9,
         ha="center",
         color=SLATE,
@@ -234,20 +244,40 @@ def draw3():
         color="#59656D",
     )
     t(3, 42.4, "(다) 검증 범위와 후속 검토 과업", 9.5, "bold")
-    t(3, 36.7, f"동일 지역·산업의 검증사례 {d['validation_cell_n']}개: 칸별 검증성능 산출 불가", 8.7)
+    t(
+        3,
+        36.7,
+        f"동일 지역·산업의 검증사례 {d['validation_cell_n']}개: 칸별 검증성능 산출 불가",
+        8.7,
+    )
     xs = [3, 52, 101]
     labels = ["원표·분류 연계 확인", "현장 수요조사 계획", "담당자 검토기록"]
     for i, (x, label) in enumerate(zip(xs, labels)):
         box(x, 24, 43, 8, face="white")
         t(x + 21.5, 28, label, 8.8, ha="center")
         if i < 2:
-            f.add_artist(FancyArrowPatch(((x+43.5)/W,28/H), ((x+48.5)/W,28/H),
-                                          transform=f.transFigure, arrowstyle="-|>",
-                                          mutation_scale=8, linewidth=.7, color=SLATE))
+            f.add_artist(
+                FancyArrowPatch(
+                    ((x + 43.5) / W, 28 / H),
+                    ((x + 48.5) / W, 28 / H),
+                    transform=f.transFigure,
+                    arrowstyle="-|>",
+                    mutation_scale=8,
+                    linewidth=0.7,
+                    color=SLATE,
+                )
+            )
     t(73.5, 19, "제안된 업무 절차: 실제 담당자 수행 결과는 미측정", 8.7, ha="center")
     line(3, 144, 15)
-    t(3, 10.8, (f"사후 관측값: {card['historical_outcome_audit']['observed_logpoints']:.2f} 로그포인트"
-                  f"({card['historical_outcome_audit']['observed_simple_change_pct']:.2f}%)"), 9)
+    t(
+        3,
+        10.8,
+        (
+            f"사후 관측값: {card['historical_outcome_audit']['observed_logpoints']:.2f} 로그포인트"
+            f"({card['historical_outcome_audit']['observed_simple_change_pct']:.2f}%)"
+        ),
+        9,
+    )
     t(
         3,
         5.4,
@@ -298,8 +328,17 @@ def draw4():
             )
         )
         if r["coverage"] == "부분":
-            ax.add_patch(Rectangle((j + .035, i + .04), .93, .92, fill=False,
-                                   edgecolor="#70828E", linewidth=.65, linestyle="--"))
+            ax.add_patch(
+                Rectangle(
+                    (j + 0.035, i + 0.04),
+                    0.93,
+                    0.92,
+                    fill=False,
+                    edgecolor="#70828E",
+                    linewidth=0.65,
+                    linestyle="--",
+                )
+            )
         # Marker * is retained exactly as supplied; all cell labels are immutable.
         ax.text(
             j + 0.5,
@@ -361,11 +400,16 @@ def draw4():
 
 
 def draw1():
-    from reviewability_figure import draw
     import shutil
+
+    from reviewability_figure import draw
+
     draw(ROOT)
     for extension in ["png", "pdf", "svg"]:
-        shutil.copyfile(ROOT / ("paper_figure_01." + extension), ROOT / ("figure1_final." + extension))
+        shutil.copyfile(
+            ROOT / ("paper_figure_01." + extension),
+            ROOT / ("figure1_final." + extension),
+        )
 
 
 def draw2():

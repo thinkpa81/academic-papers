@@ -1,0 +1,151 @@
+{
+  "table": "H1",
+  "source_calendar": "raw/supplementary_sources_261028_v2/source_release/release_calendar_H1_2013_2025.json",
+  "source_calendar_sha256": "485236607b0ffa4594799334c0e3dee220b2a26bb81853ece1d9c446ee3c25f0",
+  "scope": "Official publication dates and source links from preserved records; individual statistical cells' original publication and revision vintages are not established by this export.",
+  "records": [
+    {
+      "year": 2013,
+      "publication_date": "2013-10-30",
+      "title": "2013년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2013년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=309601&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=309601&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2013_H1_page.html",
+      "preserved_page_sha256": "40736f0d81f7a9104c8f963f8fc39c72b23dfb609d04237e4b7da719baff62d4",
+      "pdf_sha256_recorded_in_calendar": "45a9ceb625092b2d92eee7878d27e0fa4111278d7250bbd4f5d64a67838f39a1"
+    },
+    {
+      "year": 2014,
+      "publication_date": "2014-10-30",
+      "title": "2014년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2014년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=331450&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=331450&seq=2",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2014_H1_page.html",
+      "preserved_page_sha256": "4d7145408723b677863c7f4869cd315db02753f29bdedcab7b4e1603859432e9",
+      "pdf_sha256_recorded_in_calendar": "fb5f7707e9d2eac74670a8ca5c874f91559026a1a04a4e90014f7e9382b78fcc"
+    },
+    {
+      "year": 2015,
+      "publication_date": "2015-10-28",
+      "title": "2015년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2015년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=349269&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=349269&seq=8",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2015_H1_page.html",
+      "preserved_page_sha256": "e74cdc809293a3c9e5fb4dcbe2f2e55a215bb3f855546af5cea964d22f1091cd",
+      "pdf_sha256_recorded_in_calendar": "11f5d41afe349489290c4d80651f0bda7009264a747c3f39546ea0a80d1f220e"
+    },
+    {
+      "year": 2016,
+      "publication_date": "2016-10-26",
+      "title": "2016년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2016년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=356938&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=356938&seq=3",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2016_H1_page.html",
+      "preserved_page_sha256": "4a7189b61cd90142f400d4c495d11677a1fe48478f8c45d37ed90767025e9225",
+      "pdf_sha256_recorded_in_calendar": "9842da91f79013de1ed250938b5eb678c12f8facd0a70f61a36bd95d653b2956"
+    },
+    {
+      "year": 2017,
+      "publication_date": "2017-10-24",
+      "title": "2017년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2017년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=363875&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=363875&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2017_H1_page.html",
+      "preserved_page_sha256": "588b0299c2328ee621b559bb6906ae979d97be9e2d6146489a27bf326da5889e",
+      "pdf_sha256_recorded_in_calendar": "efadb6e930ea7a3bd09886f56f6438702bb90c3248d09e7e7f032e33f7b99513"
+    },
+    {
+      "year": 2018,
+      "publication_date": "2018-10-23",
+      "title": "2018년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2018년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=371172&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=371172&seq=3",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2018_H1_page.html",
+      "preserved_page_sha256": "f4b0841c3d03859607e99f1ce068d743e83332ec0bc8bef1ec739bc23881e16b",
+      "pdf_sha256_recorded_in_calendar": "aad1bdf6fdfe32365deb97e6324e09c3f21fd56afa6b7446e296a13b63e1d11b"
+    },
+    {
+      "year": 2019,
+      "publication_date": "2019-10-22",
+      "title": "2019년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2019년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=378140&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=378140&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2019_H1_page.html",
+      "preserved_page_sha256": "5f1e4f2d274fefd387c2e467c7d8c448b5aaa6c6a95b2e96d0d286bf308c21e1",
+      "pdf_sha256_recorded_in_calendar": "0e6b593d5e6b32532a6d3e05aeaf342bef72792ffc67f5a8db43fd384d078b37"
+    },
+    {
+      "year": 2020,
+      "publication_date": "2020-10-20",
+      "title": "2020년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성 보도자료",
+      "display_title": "2020년상반기지역별고용조사취업자의산업및직업별특성보도자료",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=385719&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=385719&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2020_H1_page.html",
+      "preserved_page_sha256": "34a1136533dd91896a593bc1f73b4fa4651042b2f1725cef5fc783c7db5b4b11",
+      "pdf_sha256_recorded_in_calendar": "67dd2332b0bb8e44f51a44c12bd7809bdeea4435c2db2c43fb111e25cb9e2a8f"
+    },
+    {
+      "year": 2021,
+      "publication_date": "2021-10-19",
+      "title": "2021년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2021년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=414646&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=414646&seq=2",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2021_H1_page.html",
+      "preserved_page_sha256": "449b83c6aae416d303d13b2607d5afefeaeeda5032e0c6a2c51126be7eddb2b2",
+      "pdf_sha256_recorded_in_calendar": "615dabf05489ef36752e7cee6f413b84791fe203c3b14fb46c21eac28ba6aa81"
+    },
+    {
+      "year": 2022,
+      "publication_date": "2022-10-18",
+      "title": "2022년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2022년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=421281&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=421281&seq=10",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2022_H1_page.html",
+      "preserved_page_sha256": "093666b2fcd543dc430255278b91743357c6011c42120bb9dd4c5e2229a04da9",
+      "pdf_sha256_recorded_in_calendar": "47be925e204a79256ffbb59fa77ecdeb93cc5b7a837c2f2c17dbaca322ea2630"
+    },
+    {
+      "year": 2023,
+      "publication_date": "2023-10-17",
+      "title": "2023년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2023년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=427575&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=427575&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2023_H1_page.html",
+      "preserved_page_sha256": "f1755fa07c4f6ae9e8ece747456f7dd10a54667f827ece1333def2bd635071b7",
+      "pdf_sha256_recorded_in_calendar": "f4f3ea3e0046457db1c6cf6be885b483e8c05c890d3845848f8cacd5c2e6cd9a"
+    },
+    {
+      "year": 2024,
+      "publication_date": "2024-10-08",
+      "title": "2024년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2024년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=433146&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=433146&seq=1",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2024_H1_page.html",
+      "preserved_page_sha256": "61008414efb3f4f50e5801477e6c99efec6403a3ce316bb45b34fa08225829f8",
+      "pdf_sha256_recorded_in_calendar": "a0d697a27a78a52d21344cbc1c9fe30bd2fe31e506deed326eaba2e23503ffee"
+    },
+    {
+      "year": 2025,
+      "publication_date": "2025-10-28",
+      "title": "2025년 상반기 지역별고용조사 취업자의 산업 및 직업별 특성",
+      "display_title": "2025년상반기지역별고용조사취업자의산업및직업별특성",
+      "publication_url": "https://mods.go.kr/board.es?act=view&bid=211&list_no=439006&mid=a10301010000",
+      "pdf_url": "https://mods.go.kr/boardDownload.es?bid=211&list_no=439006&seq=3",
+      "preserved_page": "raw/supplementary_sources_261028_v2/source_release/2025_H1_page.html",
+      "preserved_page_sha256": "b1b1157adf7d704145b81b707e358574e0819a4dd02a372cdd420d0e591fc6d6",
+      "pdf_sha256_recorded_in_calendar": "623ea778dc5ca6cdfb09aa781083949904ff25709fdd551db8ad541b29904cf3"
+    }
+  ]
+}
