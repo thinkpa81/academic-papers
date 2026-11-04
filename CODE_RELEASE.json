@@ -5,12 +5,12 @@
   "scope": "Analysis code, preserved numerical results, paper tables/figures, source evidence and field-study preparation for the supplied final HWP manuscript.",
   "manuscript": {
     "file_name": "261105_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가.hwp",
-    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
-    "sha512": "c74f30f852f27f5d82fd78c6d0c6ef4f36f0a26b8a0a130bee9ad7d9357833701eb1f02973049346ea028d8daa06220e5e425c8b32752aa665d763662f74740f",
-    "size_bytes": 2205696,
+    "sha256": "36493415a44324a4601006e41f492aebf2a8c5b0159bb4199ea6d10dcbe453e3",
+    "sha512": "a06784228a0d0d1ac3037cb6c5173f23a9b34f5a8ada690d49a10a13aff8d2904ffb414d4d4bd20fe646a2d8ad768a2a0fbec20a8fe5c6e51da121b3e92c246a",
+    "size_bytes": 2205184,
     "public_file_included": false
   },
-  "commit_binding": "The immutable analysis baseline is recorded separately. The containing Git commit identifies this supplemented release; resolve it with git rev-parse HEAD after checkout.",
+  "commit_binding": "The manuscript cites the fixed reproducibility release in cited_reproducibility_commit. The containing commit updates final-manuscript identification only; git rev-parse HEAD identifies this metadata revision.",
   "validation_directory": "results/release_261105",
   "historical_protocol_hashes": "Historical execution logs retain the original protocol digests; descriptive wording changes are documented in results/release_261105/cleanup_record.json.",
   "original_release_manuscript": {
@@ -20,5 +20,6 @@
   },
   "analysis_baseline_commit": "94ad3550b1d503c9a4c6380391940c8de8b1d980",
   "manuscript_binding": "results/release_261105/manuscript_binding_261105.json",
-  "supplemental_verification": "results/release_261105/protocol_restoration/verification.json"
+  "supplemental_verification": "results/release_261105/protocol_restoration/verification.json",
+  "cited_reproducibility_commit": "5bb4fa0ffc22461a9b9d77c6867018d9c12130d4"
 }

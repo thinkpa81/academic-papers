@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "recorded_utc": "2026-11-04T17:45:52.445509+00:00",
+  "recorded_utc": "2026-11-04T18:03:25.510581+00:00",
   "status": "passed",
   "repository": "https://github.com/thinkpa81/academic-papers",
   "manuscript": {
     "file_name": "261105_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가.hwp",
-    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
-    "sha512": "c74f30f852f27f5d82fd78c6d0c6ef4f36f0a26b8a0a130bee9ad7d9357833701eb1f02973049346ea028d8daa06220e5e425c8b32752aa665d763662f74740f",
-    "size_bytes": 2205696,
-    "source": "Current copy in the author-designated 261105 folder, downloaded for this check.",
+    "sha256": "36493415a44324a4601006e41f492aebf2a8c5b0159bb4199ea6d10dcbe453e3",
+    "sha512": "a06784228a0d0d1ac3037cb6c5173f23a9b34f5a8ada690d49a10a13aff8d2904ffb414d4d4bd20fe646a2d8ad768a2a0fbec20a8fe5c6e51da121b3e92c246a",
+    "size_bytes": 2205184,
+    "source": "Current final HWP in the author-designated 261105 folder, downloaded after the punctuation correction for this check.",
     "public_file_included": false
   },
   "analysis_baseline": {
     "commit": "94ad3550b1d503c9a4c6380391940c8de8b1d980",
     "tree": "20a9f7d9064ef7e986ebe08001a930a7769c877a",
     "commit_url": "https://github.com/thinkpa81/academic-papers/commit/94ad3550b1d503c9a4c6380391940c8de8b1d980",
-    "scope": "Unchanged Python analysis code, input data, fitted-model artifacts and preserved numerical results. The containing commit supplements the missing execution protocol and manuscript linkage."
+    "scope": "Original analysis baseline. Python analysis code, input data, fitted-model artifacts and preserved numerical results are unchanged in the cited supplemented reproducibility release."
   },
-  "binding_commit": "The Git commit containing this record identifies the supplemented package. This field does not attempt a circular reference to its own commit hash.",
+  "binding_commit": "The Git commit containing this record records the final HWP identity. It is a metadata follow-up to the fixed reproducibility commit cited in manuscript section 3.9; the manuscript citation remains 5bb4fa0f.",
   "original_release_manuscript": {
     "filename": "261029_5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가(6).hwp",
     "sha256": "a8f1d59f1d41e0ac216dd35bd602a0b2c5821fd409e8c6b1e7dfdb61443b1315",
@@ -25,17 +25,22 @@
   },
   "historical_alignment_record": "results/release_261105/manuscript_alignment.json",
   "previous_261105_copy": {
-    "sha256": "cae1a520792412720ee716edc16727a05d147ce7aeeb1f6eb40bb4358c00fd0e",
+    "sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
     "paragraphs_compared": 1212,
-    "changed_text_paragraphs": 1,
+    "changed_text_paragraphs": 2,
     "changes": [
       {
-        "paragraph_ordinal": 6,
-        "before": "DDesign and Technical Evaluation of a Regional Employment Decision Support Service for Korea’s Five Regional Hubs and Three Special Self-Governing Provinces***",
-        "after": "Design and Technical Evaluation of a Regional Employment Decision Support Service for Korea’s Five Regional Hubs and Three Special Self-Governing Provinces***"
+        "paragraph_ordinal": 153,
+        "before": "본 연구의 분석 및 기술평가 재현자료는 GitHub 저장소(https://github.com/thinkpa81/academic-papers)의 261105 공개본(커밋 94ad3550)에서 제공한다.",
+        "after": "본 연구의 분석 및 기술평가 재현자료는 GitHub 저장소(https://github.com/thinkpa81/academic-papers)의 261105 공개본(커밋 5bb4fa0f)에서 제공한다."
+      },
+      {
+        "paragraph_ordinal": 963,
+        "before": "원자료 정규화 결과 산업군 패널 2,431행, 구성산업 5,148행 및 전국 계열 143행이 보존 파일과 바이트 단위까지 일치하였다. 최종 분석행 1,449개를 재구성하고 릿지 모형을 재적합한 결과, 428개 평가 예측값이 보존값과 일치하였다. OECD 산업·노동시장 원본 두 파일은 보존 입력과 해시가 일치하였으며, 초기 정리 CSV는 파생본으로 구분하여 보관하였다. 보존 예측값의 지표 검산, 전체 재학습 및 서비스 명세시험의 실행범위는 재현자료의 대응표에 각각 표시하였다.",
+        "after": "원자료 정규화 절차를 재실행하여 산업군 패널 2,431행, 구성산업 자료 5,148행 및 전국 계열 143행을 재구성하였다. 생성된 세 파일의 SHA-256 해시는 각각의 보존 파일과 일치하였다. 최종 분석행 1,449개를 재구성하고 릿지 모형을 재적합한 결과, 428개 평가 예측값이 보존값과 일치하였다. OECD 산업·노동시장 원본 두 파일은 보존 입력과 해시가 일치하였으며, 초기 정리 CSV는 파생본으로 구분하여 보관하였다. 보존 예측값의 지표 검산, 전체 재학습 및 서비스 명세시험의 실행범위는 재현자료의 대응표에 각각 표시하였다."
       }
     ],
-    "scope": "Extracted paragraph text; binary identity and page layout are not implied."
+    "scope": "Extracted paragraph text; binary identity and page layout are not implied. Earlier manuscript linkage and spelling-correction checks remain available in the previous binding record."
   },
   "comparison_method": {
     "tables": "HWP structural extraction of TableBody/TableRow/TableCell text compared in document order with the 25 indexed CSV tables, including headers. Three leading layout tables are excluded. All whitespace is removed and U+2212/U+2013/U+2014 are normalized to ASCII minus for cell comparison.",
@@ -345,5 +350,39 @@
     "This record establishes file identity and observed table/figure agreement, not authorship, data authenticity or historical acquisition dates.",
     "Historical alignment and execution records retain the manuscript and protocol hashes used at those times.",
     "The supplemented merged-region refit is documented separately; table/figure agreement alone does not imply a new fit of every model."
-  ]
+  ],
+  "cited_reproducibility_release": {
+    "commit": "5bb4fa0ffc22461a9b9d77c6867018d9c12130d4",
+    "tree": "8bea55fa68b45c1740727be1e269e924740d4e45",
+    "commit_url": "https://github.com/thinkpa81/academic-papers/commit/5bb4fa0ffc22461a9b9d77c6867018d9c12130d4",
+    "manuscript_section": "3.9",
+    "short_identifier_in_manuscript": "5bb4fa0f",
+    "scope": "Fixed reproducibility package including the restored execution protocol. This manuscript-linkage update does not change analysis code, data, protocol, model artifacts or preserved results."
+  },
+  "previous_binding": {
+    "commit": "5bb4fa0ffc22461a9b9d77c6867018d9c12130d4",
+    "path": "results/release_261105/manuscript_binding_261105.json",
+    "record_sha256": "9e737c305a5438151229c71eaa911baca9f9a06587b7c0e0766779ce5686be7b",
+    "manuscript_sha256": "7d8f172632fec2ba796326a7cd430bc7fd9206fc166d9dc4574c7393c19c31ee",
+    "url": "https://github.com/thinkpa81/academic-papers/blob/5bb4fa0ffc22461a9b9d77c6867018d9c12130d4/results/release_261105/manuscript_binding_261105.json"
+  },
+  "editorial_checks": {
+    "section_3_9_cites_reproducibility_commit": true,
+    "normalization_sentence_period_present": true
+  },
+  "unchanged_package_files_check": {
+    "reference_commit": "5bb4fa0ffc22461a9b9d77c6867018d9c12130d4",
+    "tracked_files_compared": 605,
+    "all_bytes_identical": true,
+    "excluded_metadata_and_manifest_paths": [
+      "CODE_RELEASE.json",
+      "README.md",
+      "REPRODUCIBILITY.md",
+      "manifest_sha256.json",
+      "manifest_sha256_sha512.json",
+      "results/paper_tables/index.json",
+      "results/release_261105/manuscript_binding_261105.json"
+    ],
+    "scope": "Every tracked file outside these seven metadata/documentation/manifest paths was compared byte for byte with the cited reproducibility commit. No analyses were rerun for this manuscript-identification update."
+  }
 }

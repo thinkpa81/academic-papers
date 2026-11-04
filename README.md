@@ -2,6 +2,8 @@
 
 「5극 3특 지역고용 의사결정지원서비스의 설계와 기술평가」의 분석 코드와 결과물이다. `261105` 공개본은 제공된 최종 HWP의 표·그림·분석 범위에 맞춰 구성했다. 현재 261105 HWP의 파일명과 SHA-256은 [CODE_RELEASE.json](CODE_RELEASE.json)에, 분석 기준 커밋과의 연결 및 표·그림 대조는 [원고 연결 기록](results/release_261105/manuscript_binding_261105.json)에 기록했다. 최초 추출에 사용한 261029 HWP의 식별정보와 당시 검증 기록도 보존한다.
 
+논문 3.9절에서 인용하는 재현자료 기준은 [커밋 5bb4fa0f](https://github.com/thinkpa81/academic-papers/commit/5bb4fa0ffc22461a9b9d77c6867018d9c12130d4)로 고정한다. 이후 최종 HWP의 식별정보를 갱신한 기록은 이 커밋에 연결하며, 분석 코드·입력·프로토콜·보존 결과를 변경하지 않는다.
+
 | 자료 | 위치 |
 | --- | --- |
 | 실행 방법과 재적합 범위 | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
